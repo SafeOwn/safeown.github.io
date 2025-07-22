@@ -24,7 +24,7 @@
         lat +
         "," +
         lon +
-        "&lang=uk&aqi=no";
+        "&lang=ru&aqi=no";
       // console.log("Погода", "Url: " + url);
       network.clear();
       network.timeout(5000);
