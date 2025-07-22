@@ -40,6 +40,7 @@
       //onsole.log("Погода", "Обстановка: " + condition)
 
       $("#weather-temp").text(temp + "°");
+      $("locationName");
       $("#weather-condition")
         .text(condition)
         .toggleClass("long-text", condition.length > 10);
