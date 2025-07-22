@@ -9,7 +9,7 @@
     this.create = function () {
       html = $(
         '<div class="weather-widget">' +
-          '<div>Краснодар: </div><nobr>' 
+          '<div>Краснодар: </div><nobr>' +
           '<div class="weather-temp" id="weather-temp"> </div>' +
           '<div class="weather-locationName" id="weather-locationName"> </div>' +
           '<div class="weather-condition" id="weather-condition"></div>' +
