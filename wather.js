@@ -9,8 +9,7 @@
     this.create = function () {
       html = $(
         '<div class="weather-widget">' +
-          '<nobr><div>Краснодар: </div> <div class="weather-temp" id="weather-temp"> </div></nobr>' +
-          '<div class="weather-locationName" id="weather-locationName"> </div>' +
+          '<div class="weather-temp" id="weather-temp"> </div>' +
           '<div class="weather-condition" id="weather-condition"></div>' +
           "</div>"
       );
@@ -40,8 +39,7 @@
       var condition = data2.condition.text; // Обстановка
       //onsole.log("Погода", "Обстановка: " + condition)
 
-      $("#weather-temp").text(temp + "°");
-      $("#locationName").text('Краснодар:');
+      $("#weather-temp").text("Краснодар: " + temp + "°");
       $("#weather-condition")
         .text(condition)
         .toggleClass("long-text", condition.length > 10);
