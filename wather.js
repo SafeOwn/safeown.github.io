@@ -10,6 +10,7 @@
       html = $(
         '<div class="weather-widget">' +
           '<div class="weather-temp" id="weather-temp"> </div>' +
+          '<div class="weather-locationName" id="weather-locationName"> </div>' +
           '<div class="weather-condition" id="weather-condition"></div>' +
           "</div>"
       );
@@ -40,7 +41,7 @@
       //onsole.log("Погода", "Обстановка: " + condition)
 
       $("#weather-temp").text(temp + "°");
-      $("locationName");
+      $("#locationName");
       $("#weather-condition")
         .text(condition)
         .toggleClass("long-text", condition.length > 10);
