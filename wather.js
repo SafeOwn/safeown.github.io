@@ -58,7 +58,7 @@
           var position = {
             coords: {
               latitude: 45.03, //parseFloat(locationData.lat), 45.03, 39
-              longitude: 39, // parseFloat(locationData.lon)
+              longitude: 39.00, // parseFloat(locationData.lon)
             },
           };
           //console.log("Погода", "Долгота: " + position.coords.latitude + ", " + "Широта: " + position.coords.longitude)
