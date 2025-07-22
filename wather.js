@@ -1,5 +1,5 @@
 (function () {
-  //погода хмельницкий лампатв
+  //погода Краснодар лампатв
   "use strict";
 
   function WeatherInterface() {
@@ -53,12 +53,12 @@
       $.get(
         "http://ip-api.com/json",
         function (locationData) {
-          //console.log("Погода", "місто: Хмальницький");
+          //console.log("Погода", "место: Краснодар");
           var coords = locationData.lat + "," + locationData.lon;
           var position = {
             coords: {
-              latitude: 49.420045, //parseFloat(locationData.lat), 49.420045, 26.991481
-              longitude: 26.991481, // parseFloat(locationData.lon)
+              latitude: 45.03, //parseFloat(locationData.lat), 45.03, 39
+              longitude: 39, // parseFloat(locationData.lon)
             },
           };
           //console.log("Погода", "Долгота: " + position.coords.latitude + ", " + "Широта: " + position.coords.longitude)
