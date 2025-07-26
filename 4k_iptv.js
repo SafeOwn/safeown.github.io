@@ -870,37 +870,32 @@ function pluginPage(object) {
 		title: channel.Title,
 		release_year: ''
 	    });
-		// --- НАЧАЛО ВСТАВКИ: Принудительное изменение стилей для книжного формата ---
-		// Проверяем, включена ли настройка "Квадратные лого каналов"
-		var isSquareIcons = Lampa.Storage.field(plugin.component + '_square_icons');
+		// --- НАЧАЛО ВСТАВКИ: Установка ширины и формы (книжная) карточки ---
+		// 1. Устанавливаем ширину самой карточки (.card--collection)
+		// Вы уже сделали это:
+		card.css('width', '100%'); // Одна карточка в ряд
 
-		// Применяем стили к контейнеру карточки (card__view) для создания книжной формы
-		card.find('.card__view').css({
-			'padding-bottom': '250%', // Для книжного формата 2:3 (высота = 150% от ширины)
-			'height': '0', // Обнуляем height, чтобы padding-bottom задавал высоту
-			'position': 'relative'
+		// 2. Находим контейнер изображения внутри карточки (.card__view)
+		var cardView = card.find('.card__view');
+
+		// 3. Принудительно устанавливаем стили для .card__view, чтобы сделать его книжным
+		// padding-bottom: 150% создает высоту, равную 150% от ширины (формат ~2:3)
+		// padding-bottom: 200% создает высоту, равную 200% от ширины (формат 1:2)
+		// Выберите значение, которое вам больше нравится:
+		cardView.css({
+			'padding-bottom': '150%', // <--- ИЗМЕНИТЕ ЭТО ЗНАЧЕНИЕ НА ЖЕЛАЕМОЕ (например, 150%, 175%, 200%)
+			'height': '0', // Необходимо, чтобы padding-bottom определял высоту
+			'position': 'relative', // Нужно для позиционирования изображения внутри
+			'overflow': 'hidden' // На случай, если изображение выйдет за границы
 		});
-
-		// Также изменяем стили изображения внутри контейнера
-		card.find('.card__img').css({
-			'position': 'absolute',
-			'top': '50%',
-			'left': '50%',
-			'transform': 'translate(-50%, -50%)',
-			'max-width': '90%', // Ограничиваем ширину изображения внутри контейнера
-			'max-height': '90%', // Ограничиваем высоту изображения внутри контейнера
-			'width': 'auto', // Ширина автоматически подстраивается
-			'height': 'auto' // Высота автоматически подстраивается
-		});
-
-		// Если включена настройка "Коррекция размера логотипа телеканала" (contain_icons),
-		// применяем object-fit: contain для корректного отображения изображений
-		if (Lampa.Storage.field(plugin.component + '_contain_icons')) {
-			card.find('.card__img').css({
-				'object-fit': 'contain'
-			});
-		}
 		// --- КОНЕЦ ВСТАВКИ ---
+
+		card.addClass('card--collection');
+		var img = card.find('.card__img')[0];
+		if (lazyLoadImg) img.loading = (chI < 18 ? 'eager' : 'lazy');
+		img.onload = function () {
+			card.addClass('card--loaded');
+		};
 	    card.addClass('card--collection');
 	    var img = card.find('.card__img')[0];
 	    if (lazyLoadImg) img.loading = (chI < 18 ? 'eager' : 'lazy');
