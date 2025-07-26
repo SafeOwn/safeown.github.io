@@ -860,6 +860,65 @@ function pluginPage(object) {
 	if (epg.length < 3) epgUpdateData(epgId);
     }
     this.append = function (data) {
+	
+	
+	// --- НАЧАЛО ТЕСТА TMDB ---
+	// Тестовый запрос к TMDB API через Lampa для проверки работоспособности
+	console.log(plugin.name, '--- НАЧАЛО ТЕСТА TMDB ---');
+	if (typeof Lampa !== 'undefined' && Lampa.TMDB) {
+		console.log(plugin.name, 'Lampa.TMDB доступен');
+		
+		// Проверяем, определены ли нужные функции
+		if (typeof Lampa.TMDB.api === 'function') {
+			console.log(plugin.name, 'Lampa.TMDB.api функция доступна');
+			// Попробуем выполнить простой тестовый поиск
+			try {
+				// Поиск фильма "Matrix" как тест
+				Lampa.TMDB.api('search/movie?query=Matrix', function(results) {
+					console.log(plugin.name, 'Тестовый поиск TMDB (Matrix) УСПЕШЕН:', results);
+					if (results && results.results && results.results.length > 0) {
+						var testMovie = results.results[0];
+						console.log(plugin.name, 'Найден фильм для теста:', testMovie.title, 'ID:', testMovie.id);
+						
+						// Проверяем работу Lampa.TMDB.image
+						if (typeof Lampa.TMDB.image === 'function' && testMovie.poster_path) {
+							var testImageUrl = Lampa.TMDB.image('w92' + testMovie.poster_path);
+							console.log(plugin.name, 'Тестовый URL изображения (w92) через Lampa.TMDB.image:', testImageUrl);
+							
+							// Проверяем, включено ли проксирование
+							var isProxyEnabled = Lampa.Storage.field('proxy_tmdb', false);
+							console.log(plugin.name, 'Настройка proxy_tmdb в Lampa:', isProxyEnabled);
+							if (isProxyEnabled && testImageUrl.includes('tmdbimg.')) {
+								 console.log(plugin.name, 'Прокси TMDB, похоже, активен (URL содержит tmdbimg.)');
+							} else if (isProxyEnabled) {
+								 console.log(plugin.name, 'Прокси TMDB включен, но URL не был переписан. Возможно, используется другой механизм.');
+							} else {
+								 console.log(plugin.name, 'Прокси TMDB выключен.');
+							}
+							
+						} else {
+							console.log(plugin.name, 'Lampa.TMDB.image НЕДОСТУПЕН или нет poster_path у тестового фильма');
+						}
+					} else {
+						console.log(plugin.name, 'Тестовый поиск TMDB не дал результатов (results пуст)');
+					}
+				}, function(error) {
+					console.error(plugin.name, 'Тестовый поиск TMDB (Matrix) ПРОВАЛЕН с ошибкой:', error);
+				});
+			} catch (e) {
+				console.error(plugin.name, 'Ошибка при попытке выполнить тестовый поиск TMDB:', e);
+			}
+		} else {
+			console.error(plugin.name, 'Lampa.TMDB.api функция НЕ НАЙДЕНА');
+		}
+	} else {
+		console.error(plugin.name, 'Lampa.TMDB НЕДОСТУПЕН');
+	}
+	console.log(plugin.name, '--- КОНЕЦ ТЕСТА TMDB ---');
+	// --- КОНЕЦ ТЕСТА TMDB ---
+	
+	
+	
 	var catEpg = [];
 	var chIndex = 0;
 	var _this2 = this;
@@ -922,69 +981,72 @@ function pluginPage(object) {
 		channel['tvg-logo'] = '';
 		card.addClass('card--loaded');
 	    };
-	            // --- НАЧАЛО ВСТАВКИ: Поиск и загрузка постера с TMDB ---
-        var processCardWithImage = function(imgUrl) {
-            // Эта функция вызывается, когда URL изображения найден или поиск завершен
-            if (imgUrl) {
-                img.src = imgUrl; // Lampa.TMDB.image уже включает прокси, если включено
-                console.log(plugin.name, 'Poster found for', channel.Title, ':', imgUrl);
-            } else {
-                // Если изображение не найдено, показываем заглушку
-                console.log(plugin.name, 'No poster found for', channel.Title, ', showing fallback');
-                img.onerror(); 
-            }
-        };
+	            // --- НАЧАЛО ВСТАВКИ: Упрощенная загрузка постера с TMDB ---
+        console.log(plugin.name, 'Попытка загрузки постера TMDB для канала:', channel.Title);
+        
+        // 1. Простая нормализация названия
+        var searchQuery = channel.Title
+            .replace(/\s*(HD|4K|ТВ|TV|\(\d+\))\s*$/i, '') // Убираем HD, 4K, ТВ, (цифры)
+            .trim();
 
-        var findImageOnTmdb = function(callback) {
-            // 1. Нормализуем название канала для поиска
-            var searchQuery = channel.Title
-                .replace(/\s*(HD|4K|ТВ|TV|\(\d+\))\s*$/i, '') // Убираем HD, 4K, ТВ, (цифры)
-                .replace(/[^\w\sа-яА-ЯёЁ]/gi, ' ') // Заменяем специальные символы на пробел
-                .trim();
+        if (!searchQuery) {
+            console.log(plugin.name, 'Название канала пустое или стало пустым после нормализации для', channel.Title);
+            img.onerror(); // Показываем заглушку
+            return; // Выходим из функции для этой карточки
+        }
 
-            if (!searchQuery) {
-                callback(null);
-                return;
-            }
+        console.log(plugin.name, 'Нормализованное название для поиска:', searchQuery);
 
-            // 2. Выполняем поиск на TMDB через встроенный API Lampa
-            // Используем search/multi для поиска фильмов, сериалов и персон
-            console.log(plugin.name, 'Searching TMDB for:', searchQuery);
+        // 2. Проверяем доступность Lampa.TMDB
+        if (typeof Lampa === 'undefined' || !Lampa.TMDB || typeof Lampa.TMDB.api !== 'function') {
+            console.error(plugin.name, 'Lampa.TMDB.api недоступен для канала', channel.Title);
+            img.onerror(); // Показываем заглушку
+            return;
+        }
+
+        // 3. Выполняем поиск
+        Lampa.TMDB.api('search/multi?query=' + encodeURIComponent(searchQuery), function (results) {
+            console.log(plugin.name, 'Результаты поиска TMDB для', searchQuery, ':', results);
             
-            try {
-                // ВАЖНО: Эта часть требует отладки и корректной обработки ошибок
-                Lampa.TMDB.api('search/multi?query=' + encodeURIComponent(searchQuery), function (results) {
-                    console.log(plugin.name, 'TMDB search results for', searchQuery, ':', results);
-                    if (results && results.results && results.results.length > 0) {
-                        // 3. Берем первый результат (нужно улучшить логику выбора)
-                        var item = results.results[0]; 
-                        var posterPath = item.poster_path;
-                        if (posterPath) {
-                            // 4. Генерируем URL изображения (Lampa.TMDB.image использует прокси, если включено)
-                            // Можно выбрать другой размер: 'w185', 'w342', 'w500', 'original'
-                            var imageUrl = Lampa.TMDB.image('w300' + posterPath); 
-                            console.log(plugin.name, 'Poster URL generated:', imageUrl);
-                            callback(imageUrl);
-                        } else {
-                            console.log(plugin.name, 'No poster_path for item:', item);
-                            callback(null);
-                        }
-                    } else {
-                        console.log(plugin.name, 'No results found on TMDB for:', searchQuery);
-                        callback(null);
+            if (results && results.results && results.results.length > 0) {
+                // 4. Ищем первый подходящий результат с постером
+                var itemWithPoster = null;
+                for (var i = 0; i < Math.min(results.results.length, 5); i++) { // Проверяем первые 5 результатов
+                    if (results.results[i].poster_path) {
+                        itemWithPoster = results.results[i];
+                        break;
                     }
-                }, function(error) { // Обработчик ошибки запроса к TMDB API
-                    console.error(plugin.name, 'Error searching TMDB for', searchQuery, ':', error);
-                    callback(null);
-                });
-            } catch (e) {
-                console.error(plugin.name, 'Exception during TMDB search for', searchQuery, ':', e);
-                callback(null);
+                }
+                
+                if (itemWithPoster) {
+                    var posterPath = itemWithPoster.poster_path;
+                    console.log(plugin.name, 'Найден постер для', searchQuery, ':', itemWithPoster.name || itemWithPoster.title, 'Тип:', itemWithPoster.media_type);
+                    
+                    // 5. Генерируем URL изображения
+                    if (typeof Lampa.TMDB.image === 'function') {
+                        // Используем w185 или w300 для лучшего качества, чем w92
+                        var imageUrl = Lampa.TMDB.image('w185' + posterPath); 
+                        console.log(plugin.name, 'Сгенерированный URL постера:', imageUrl);
+                        
+                        // 6. Устанавливаем src
+                        img.src = imageUrl;
+                        console.log(plugin.name, 'Установлен img.src для', channel.Title);
+                    } else {
+                        console.error(plugin.name, 'Lampa.TMDB.image функция недоступна для', channel.Title);
+                        img.onerror();
+                    }
+                } else {
+                    console.log(plugin.name, 'Не найдено результатов с poster_path для', searchQuery);
+                    img.onerror();
+                }
+            } else {
+                console.log(plugin.name, 'Нет результатов поиска TMDB для', searchQuery);
+                img.onerror();
             }
-        };
-
-        // Запускаем асинхронный поиск изображения
-        findImageOnTmdb(processCardWithImage);
+        }, function(error) {
+            console.error(plugin.name, 'Ошибка запроса к TMDB API для', searchQuery, ':', error);
+            img.onerror(); // Показываем заглушку в случае ошибки API
+        });
         // --- КОНЕЦ ВСТАВКИ ---
 	    var favIcon = $('<div class="card__icon icon--book hide"></div>');
 	    card.find('.card__icons-inner').append(favIcon);
