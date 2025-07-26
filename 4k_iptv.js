@@ -922,32 +922,7 @@ function pluginPage(object) {
 		channel['tvg-logo'] = '';
 		card.addClass('card--loaded');
 	    };
-	    if (channel['tvg-logo']) 
-		var originalLogoUrl = channel['tvg-logo'];
-		if (originalLogoUrl && originalLogoUrl.startsWith('http')) {
-			// Используем тот же прокси, что и для плейлиста
-			try {
-				var defaultLogoUrl = 'https://epg.rootu.top/img/ico/' + fl + '.png';
-				if (defaultLogoUrl.startsWith('http')) {
-					try {
-						img.src = Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(defaultLogoUrl) + '&uid=' + utils.uid() + '&sig=' + generateSigForString(defaultLogoUrl);
-					} catch (e) {
-						img.src = Lampa.Utils.protocol() + defaultLogoUrl;
-					}
-				} else {
-					img.src = defaultLogoUrl;
-				}
-    
-			} catch (e) {
-				// Если возникла ошибка (например, функции utils.uid или generateSigForString не определены), 
-				// пробуем обычный Lampa.Utils.protocol
-				img.src = Lampa.Utils.protocol() + originalLogoUrl;
-			}
-		} else {
-			// Для локальных путей или data URI используем как есть
-			img.src = originalLogoUrl;
-		}
-		else img.onerror();
+	    if (channel['tvg-logo']) img.src = channel['tvg-logo'];else img.onerror();
 	    var favIcon = $('<div class="card__icon icon--book hide"></div>');
 	    card.find('.card__icons-inner').append(favIcon);
 	    var tvgDay = parseInt(
