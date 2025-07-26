@@ -870,18 +870,37 @@ function pluginPage(object) {
 		title: channel.Title,
 		release_year: ''
 	    });
-		  // --- НАЧАЛО ВСТАВКИ: Установка ширины карточки для 2 в ряд ---
-		// Принудительно устанавливаем ширину карточки через атрибут style
-		// 50% означает 2 карточки в ряд, 100% - одна карточка в ряд
-		card.css('width', '100%');
-		// --- КОНЕЦ ВСТАВКИ ---
+		// --- НАЧАЛО ВСТАВКИ: Принудительное изменение стилей для книжного формата ---
+		// Проверяем, включена ли настройка "Квадратные лого каналов"
+		var isSquareIcons = Lampa.Storage.field(plugin.component + '_square_icons');
 
-		card.addClass('card--collection');
-		var img = card.find('.card__img')[0];
-		if (lazyLoadImg) img.loading = (chI < 18 ? 'eager' : 'lazy');
-		img.onload = function () {
-			card.addClass('card--loaded');
-		};
+		// Применяем стили к контейнеру карточки (card__view) для создания книжной формы
+		card.find('.card__view').css({
+			'padding-bottom': '250%', // Для книжного формата 2:3 (высота = 150% от ширины)
+			'height': '0', // Обнуляем height, чтобы padding-bottom задавал высоту
+			'position': 'relative'
+		});
+
+		// Также изменяем стили изображения внутри контейнера
+		card.find('.card__img').css({
+			'position': 'absolute',
+			'top': '50%',
+			'left': '50%',
+			'transform': 'translate(-50%, -50%)',
+			'max-width': '90%', // Ограничиваем ширину изображения внутри контейнера
+			'max-height': '90%', // Ограничиваем высоту изображения внутри контейнера
+			'width': 'auto', // Ширина автоматически подстраивается
+			'height': 'auto' // Высота автоматически подстраивается
+		});
+
+		// Если включена настройка "Коррекция размера логотипа телеканала" (contain_icons),
+		// применяем object-fit: contain для корректного отображения изображений
+		if (Lampa.Storage.field(plugin.component + '_contain_icons')) {
+			card.find('.card__img').css({
+				'object-fit': 'contain'
+			});
+		}
+		// --- КОНЕЦ ВСТАВКИ ---
 	    card.addClass('card--collection');
 	    var img = card.find('.card__img')[0];
 	    if (lazyLoadImg) img.loading = (chI < 18 ? 'eager' : 'lazy');
