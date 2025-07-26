@@ -922,26 +922,39 @@ function pluginPage(object) {
 		channel['tvg-logo'] = '';
 		card.addClass('card--loaded');
 	    };
-	            // --- НАЧАЛО ВСТАВКИ: Проксирование изображений через cors.php ---
+	            // --- НАЧАЛО ВСТАВКИ: Интеграция с прокси Lampa TMDB ---
         var logoUrl = channel['tvg-logo'];
         if (logoUrl) {
-            // Проверяем, является ли URL внешним (http или https)
-            if (logoUrl.toLowerCase().indexOf('http') === 0) {
-                // URL внешний, оборачиваем его в прокси cors.php
-                // Используем тот же метод, что и для загрузки плейлиста
-                try {
-                    img.src = Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(logoUrl) + '&uid=' + utils.uid() + '&sig=' + generateSigForString(logoUrl);
-                } catch (err) {
-                    // Если не удалось сгенерировать подпись, пробуем без неё
-                    console.log(plugin.name, 'Ошибка при генерации подписи для прокси логотипа:', err);
-                    img.src = Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(logoUrl);
-                }
+            // Проверяем, включено ли проксирование TMDB в настройках Lampa
+            var tmdbProxyEnabled = Lampa.Storage.field('proxy_tmdb', false);
+            
+            if (tmdbProxyEnabled) {
+                // Если прокси TMDB включено в Lampa, передаем URL напрямую.
+                // Предполагаем, что Lampa перехватит этот запрос и проксирует его через cub.rip.
+                // Все равно используем Lampa.Utils.protocol() для согласованности с другими частями плагина.
+                console.log(plugin.name, 'TMDB proxy enabled, loading logo directly (should be intercepted by Lampa):', logoUrl);
+                img.src = Lampa.Utils.protocol() + logoUrl; // Убираем 'http://' или 'https://' в начале logoUrl, если они есть
             } else {
-                // URL локальный или data URI, используем как есть
-                img.src = logoUrl;
+                // Если прокси TMDB выключено, используем собственный прокси плагина epg.rootu.top
+                if (logoUrl.toLowerCase().indexOf('http') === 0) {
+                    // URL внешний, оборачиваем его в прокси cors.php
+                    try {
+                        img.src = Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(logoUrl) + '&uid=' + utils.uid() + '&sig=' + generateSigForString(logoUrl);
+                        console.log(plugin.name, 'TMDB proxy disabled, loading logo via plugin proxy:', img.src);
+                    } catch (err) {
+                        // Если не удалось сгенерировать подпись, пробуем без неё
+                        console.log(plugin.name, 'Ошибка при генерации подписи для прокси логотипа, пробуем без неё:', err);
+                        img.src = Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(logoUrl);
+                    }
+                } else {
+                    // URL локальный или data URI, используем как есть
+                    console.log(plugin.name, 'Loading local logo directly:', logoUrl);
+                    img.src = logoUrl;
+                }
             }
         } else {
             // URL логотипа нет, вызываем обработчик ошибки
+            console.log(plugin.name, 'No logo URL, using onerror fallback');
             img.onerror();
         }
         // --- КОНЕЦ ВСТАВКИ ---
