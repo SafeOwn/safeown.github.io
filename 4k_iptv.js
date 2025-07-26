@@ -922,20 +922,29 @@ function pluginPage(object) {
 		channel['tvg-logo'] = '';
 		card.addClass('card--loaded');
 	    };
-	    var originalLogoUrl = channel['tvg-logo'];
-		if (originalLogoUrl && originalLogoUrl.startsWith('http')) {
-			// Используем тот же прокси, что и для плейлиста
-			try {
-				img.src = Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(originalLogoUrl) + '&uid=' + utils.uid() + '&sig=' + generateSigForString(originalLogoUrl);
-			} catch (e) {
-				// Если возникла ошибка (например, функции utils.uid или generateSigForString не определены), 
-				// пробуем обычный Lampa.Utils.protocol
-				img.src = Lampa.Utils.protocol() + originalLogoUrl;
-			}
-		} else {
-			// Для локальных путей или data URI используем как есть
-			img.src = originalLogoUrl;
-		}
+	            // --- НАЧАЛО ВСТАВКИ: Проксирование изображений через cors.php ---
+        var logoUrl = channel['tvg-logo'];
+        if (logoUrl) {
+            // Проверяем, является ли URL внешним (http или https)
+            if (logoUrl.toLowerCase().indexOf('http') === 0) {
+                // URL внешний, оборачиваем его в прокси cors.php
+                // Используем тот же метод, что и для загрузки плейлиста
+                try {
+                    img.src = Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(logoUrl) + '&uid=' + utils.uid() + '&sig=' + generateSigForString(logoUrl);
+                } catch (err) {
+                    // Если не удалось сгенерировать подпись, пробуем без неё
+                    console.log(plugin.name, 'Ошибка при генерации подписи для прокси логотипа:', err);
+                    img.src = Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(logoUrl);
+                }
+            } else {
+                // URL локальный или data URI, используем как есть
+                img.src = logoUrl;
+            }
+        } else {
+            // URL логотипа нет, вызываем обработчик ошибки
+            img.onerror();
+        }
+        // --- КОНЕЦ ВСТАВКИ ---
 	    var favIcon = $('<div class="card__icon icon--book hide"></div>');
 	    card.find('.card__icons-inner').append(favIcon);
 	    var tvgDay = parseInt(
