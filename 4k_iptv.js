@@ -862,7 +862,60 @@ function pluginPage(object) {
     this.append = function (data) {
 	
 	
-	
+	// --- НАЧАЛО ТЕСТА TMDB ---
+	// Тестовый запрос к TMDB API через Lampa для проверки работоспособности
+	console.log(plugin.name, '--- НАЧАЛО ТЕСТА TMDB ---');
+	if (typeof Lampa !== 'undefined' && Lampa.TMDB) {
+		console.log(plugin.name, 'Lampa.TMDB доступен');
+		
+		// Проверяем, определены ли нужные функции
+		if (typeof Lampa.TMDB.api === 'function') {
+			console.log(plugin.name, 'Lampa.TMDB.api функция доступна');
+			// Попробуем выполнить простой тестовый поиск
+			try {
+				// Поиск фильма "Matrix" как тест
+				Lampa.TMDB.api('search/movie?query=Matrix', function(results) {
+					console.log(plugin.name, 'Тестовый поиск TMDB (Matrix) УСПЕШЕН:', results);
+					if (results && results.results && results.results.length > 0) {
+						var testMovie = results.results[0];
+						console.log(plugin.name, 'Найден фильм для теста:', testMovie.title, 'ID:', testMovie.id);
+						
+						// Проверяем работу Lampa.TMDB.image
+						if (typeof Lampa.TMDB.image === 'function' && testMovie.poster_path) {
+							var testImageUrl = Lampa.TMDB.image('w92' + testMovie.poster_path);
+							console.log(plugin.name, 'Тестовый URL изображения (w92) через Lampa.TMDB.image:', testImageUrl);
+							
+							// Проверяем, включено ли проксирование
+							var isProxyEnabled = Lampa.Storage.field('proxy_tmdb', false);
+							console.log(plugin.name, 'Настройка proxy_tmdb в Lampa:', isProxyEnabled);
+							if (isProxyEnabled && testImageUrl.includes('tmdbimg.')) {
+								 console.log(plugin.name, 'Прокси TMDB, похоже, активен (URL содержит tmdbimg.)');
+							} else if (isProxyEnabled) {
+								 console.log(plugin.name, 'Прокси TMDB включен, но URL не был переписан. Возможно, используется другой механизм.');
+							} else {
+								 console.log(plugin.name, 'Прокси TMDB выключен.');
+							}
+							
+						} else {
+							console.log(plugin.name, 'Lampa.TMDB.image НЕДОСТУПЕН или нет poster_path у тестового фильма');
+						}
+					} else {
+						console.log(plugin.name, 'Тестовый поиск TMDB не дал результатов (results пуст)');
+					}
+				}, function(error) {
+					console.error(plugin.name, 'Тестовый поиск TMDB (Matrix) ПРОВАЛЕН с ошибкой:', error);
+				});
+			} catch (e) {
+				console.error(plugin.name, 'Ошибка при попытке выполнить тестовый поиск TMDB:', e);
+			}
+		} else {
+			console.error(plugin.name, 'Lampa.TMDB.api функция НЕ НАЙДЕНА');
+		}
+	} else {
+		console.error(plugin.name, 'Lampa.TMDB НЕДОСТУПЕН');
+	}
+	console.log(plugin.name, '--- КОНЕЦ ТЕСТА TMDB ---');
+	// --- КОНЕЦ ТЕСТА TMDB ---
 	
 	
 	
@@ -1348,60 +1401,6 @@ function pluginPage(object) {
 	    scroll.render().addClass('layer--wheight').data('mheight', info);
 	    html.append(scroll.render());
 	    this.append(data);
-		// --- НАЧАЛО ТЕСТА TMDB ---
-	// Тестовый запрос к TMDB API через Lampa для проверки работоспособности
-	console.log(plugin.name, '--- НАЧАЛО ТЕСТА TMDB ---');
-	if (typeof Lampa !== 'undefined' && Lampa.TMDB) {
-		console.log(plugin.name, 'Lampa.TMDB доступен');
-		
-		// Проверяем, определены ли нужные функции
-		if (typeof Lampa.TMDB.api === 'function') {
-			console.log(plugin.name, 'Lampa.TMDB.api функция доступна');
-			// Попробуем выполнить простой тестовый поиск
-			try {
-				// Поиск фильма "Matrix" как тест
-				Lampa.TMDB.api('search/movie?query=Matrix', function(results) {
-					console.log(plugin.name, 'Тестовый поиск TMDB (Matrix) УСПЕШЕН:', results);
-					if (results && results.results && results.results.length > 0) {
-						var testMovie = results.results[0];
-						console.log(plugin.name, 'Найден фильм для теста:', testMovie.title, 'ID:', testMovie.id);
-						
-						// Проверяем работу Lampa.TMDB.image
-						if (typeof Lampa.TMDB.image === 'function' && testMovie.poster_path) {
-							var testImageUrl = Lampa.TMDB.image('w92' + testMovie.poster_path);
-							console.log(plugin.name, 'Тестовый URL изображения (w92) через Lampa.TMDB.image:', testImageUrl);
-							
-							// Проверяем, включено ли проксирование
-							var isProxyEnabled = Lampa.Storage.field('proxy_tmdb', false);
-							console.log(plugin.name, 'Настройка proxy_tmdb в Lampa:', isProxyEnabled);
-							if (isProxyEnabled && testImageUrl.includes('tmdbimg.')) {
-								 console.log(plugin.name, 'Прокси TMDB, похоже, активен (URL содержит tmdbimg.)');
-							} else if (isProxyEnabled) {
-								 console.log(plugin.name, 'Прокси TMDB включен, но URL не был переписан. Возможно, используется другой механизм.');
-							} else {
-								 console.log(plugin.name, 'Прокси TMDB выключен.');
-							}
-							
-						} else {
-							console.log(plugin.name, 'Lampa.TMDB.image НЕДОСТУПЕН или нет poster_path у тестового фильма');
-						}
-					} else {
-						console.log(plugin.name, 'Тестовый поиск TMDB не дал результатов (results пуст)');
-					}
-				}, function(error) {
-					console.error(plugin.name, 'Тестовый поиск TMDB (Matrix) ПРОВАЛЕН с ошибкой:', error);
-				});
-			} catch (e) {
-				console.error(plugin.name, 'Ошибка при попытке выполнить тестовый поиск TMDB:', e);
-			}
-		} else {
-			console.error(plugin.name, 'Lampa.TMDB.api функция НЕ НАЙДЕНА');
-		}
-	} else {
-		console.error(plugin.name, 'Lampa.TMDB НЕДОСТУПЕН');
-	}
-	console.log(plugin.name, '--- КОНЕЦ ТЕСТА TMDB ---');
-	// --- КОНЕЦ ТЕСТА TMDB ---
 	    if (getStorage('epg', false)) {
 		scroll.render().css({float: "left", width: '70%'});
 		scroll.render().parent().append(epgTemplate);
