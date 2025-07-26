@@ -1623,11 +1623,11 @@ function configurePlaylist(i) {
     if (i > 0) return i + 1;
     
     addSettings('title', {title: langGet('settings_playlist_num_group') + (i+1)});
-    var defName = 'MaxTV';
+    var defName = '4kTV';
     var activity = {
         id: i,
         url: '',
-        title: 'MaxTV',
+        title: '4kTV',
         groups: [],
         currentGroup: getStorage('last_catalog' + i, langGet('default_playlist_cat')),
         component: plugin.component,
@@ -1637,8 +1637,8 @@ function configurePlaylist(i) {
     addSettings('input', {
         title: langGet('settings_list_name'),
         name: 'list_name_' + i,
-        default: 'MaxTV',
-        placeholder: 'MaxTV',
+        default: '4kTV',
+        placeholder: '4kTV',
         description: langGet('settings_list_name_desc'),
         onChange: function (newVal) {
             var title = !newVal ? defName : newVal;
