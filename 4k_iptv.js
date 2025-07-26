@@ -5,6 +5,60 @@
 */
 ;(function () {
 'use strict';
+// --- НАЧАЛО ТЕСТА TMDB ---
+	// Тестовый запрос к TMDB API через Lampa для проверки работоспособности
+	console.log(plugin.name, '--- НАЧАЛО ТЕСТА TMDB ---');
+	if (typeof Lampa !== 'undefined' && Lampa.TMDB) {
+		console.log(plugin.name, 'Lampa.TMDB доступен');
+		
+		// Проверяем, определены ли нужные функции
+		if (typeof Lampa.TMDB.api === 'function') {
+			console.log(plugin.name, 'Lampa.TMDB.api функция доступна');
+			// Попробуем выполнить простой тестовый поиск
+			try {
+				// Поиск фильма "Matrix" как тест
+				Lampa.TMDB.api('search/movie?query=Matrix', function(results) {
+					console.log(plugin.name, 'Тестовый поиск TMDB (Matrix) УСПЕШЕН:', results);
+					if (results && results.results && results.results.length > 0) {
+						var testMovie = results.results[0];
+						console.log(plugin.name, 'Найден фильм для теста:', testMovie.title, 'ID:', testMovie.id);
+						
+						// Проверяем работу Lampa.TMDB.image
+						if (typeof Lampa.TMDB.image === 'function' && testMovie.poster_path) {
+							var testImageUrl = Lampa.TMDB.image('w92' + testMovie.poster_path);
+							console.log(plugin.name, 'Тестовый URL изображения (w92) через Lampa.TMDB.image:', testImageUrl);
+							
+							// Проверяем, включено ли проксирование
+							var isProxyEnabled = Lampa.Storage.field('proxy_tmdb', false);
+							console.log(plugin.name, 'Настройка proxy_tmdb в Lampa:', isProxyEnabled);
+							if (isProxyEnabled && testImageUrl.includes('tmdbimg.')) {
+								 console.log(plugin.name, 'Прокси TMDB, похоже, активен (URL содержит tmdbimg.)');
+							} else if (isProxyEnabled) {
+								 console.log(plugin.name, 'Прокси TMDB включен, но URL не был переписан. Возможно, используется другой механизм.');
+							} else {
+								 console.log(plugin.name, 'Прокси TMDB выключен.');
+							}
+							
+						} else {
+							console.log(plugin.name, 'Lampa.TMDB.image НЕДОСТУПЕН или нет poster_path у тестового фильма');
+						}
+					} else {
+						console.log(plugin.name, 'Тестовый поиск TMDB не дал результатов (results пуст)');
+					}
+				}, function(error) {
+					console.error(plugin.name, 'Тестовый поиск TMDB (Matrix) ПРОВАЛЕН с ошибкой:', error);
+				});
+			} catch (e) {
+				console.error(plugin.name, 'Ошибка при попытке выполнить тестовый поиск TMDB:', e);
+			}
+		} else {
+			console.error(plugin.name, 'Lampa.TMDB.api функция НЕ НАЙДЕНА');
+		}
+	} else {
+		console.error(plugin.name, 'Lampa.TMDB НЕДОСТУПЕН');
+	}
+	console.log(plugin.name, '--- КОНЕЦ ТЕСТА TMDB ---');
+	// --- КОНЕЦ ТЕСТА TMDB ---
 var plugin = {
     component: '4k_iptv',
     icon: "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"244\" height=\"260\" viewBox=\"0 0 244 260\" fill=\"currentColor\"><g transform=\"translate(0.000000,260.000000) scale(0.100000,-0.100000)\" fill=\"currentColor\" stroke=\"none\"><path d=\"M432 2570 c-162 -17 -301 -130 -347 -281 -39 -132 -39 -942 0 -1079 21 -72 72 -146 132 -191 93 -70 150 -89 302 -98 l103 -6 -82 -100 c-93 -114 -102 -128 -94 -149 8 -21 38 -28 104 -24 l54 3 111 132 110 132 401 0 400 1 75 -87 c40 -49 94 -109 118 -135 l44 -48 66 0 c67 0 91 10 91 38 0 7 -38 62 -85 122 -47 60 -85 111 -85 114 0 3 35 6 78 6 150 0 268 45 357 134 62 62 93 124 106 208 15 104 22 668 11 846 -10 151 -13 169 -42 230 -61 131 -187 216 -346 232 -105 11 -1476 11 -1582 0z m1370 -141 c230 -12 255 -16 322 -60 62 -41 94 -91 107 -165 27 -163 19 -829 -12 -946 -15 -59 -67 -120 -130 -151 -55 -28 -61 -28 -305 -37 -574 -21 -1321 -5 -1400 29 -49 22 -111 84 -131 130 -22 51 -33 227 -33 526 0 296 12 481 35 525 24 46 100 106 157 123 105 32 970 48 1390 26z\"/><path d=\"M569 2231 l-24 -19 -3 -476 c-3 -525 -3 -519 59 -551 78 -41 1179 -42 1256 -2 66 35 63 13 63 540 l0 478 -25 24 c-23 24 -30 25 -142 25 -99 0 -123 -3 -148 -19 -16 -10 -100 -93 -185 -184 -85 -91 -166 -169 -179 -173 -22 -6 -44 13 -210 185 l-186 191 -126 0 c-110 0 -130 -3 -150 -19z m323 -308 c62 -65 153 -159 202 -210 99 -103 126 -116 180 -86 18 10 118 107 222 216 194 202 220 221 244 178 14 -27 14 -615 0 -642 -10 -18 -27 -19 -505 -19 -435 0 -495 2 -509 16 -14 13 -16 56 -16 320 0 191 4 313 10 325 23 41 54 23 172 -98z m185 -679 c12 -19 11 -24 -6 -45 -16 -21 -22 -22 -45 -11 -17 8 -26 19 -26 35 0 48 50 62 77 21z m181 14 c39 -39 -17 -100 -58 -63 -24 22 -25 33 -3 57 19 21 44 23 61 6z m200 0 c39 -39 -17 -100 -58 -63 -25 22 -26 51 -2 64 23 14 45 14 60 -1z\"/><path d=\"M198 250 l-3 -230 50 0 50 0 -2 157 c-1 87 1 152 4 145 3 -8 29 -77 58 -155 l53 -142 43 0 44 0 63 160 63 160 -6 -162 -6 -163 50 0 51 0 0 230 0 231 -67 -3 -67 -3 -34 -90 c-19 -49 -45 -120 -60 -158 -14 -37 -28 -64 -31 -61 -3 3 -31 74 -61 157 l-55 152 -67 3 -67 3 -3 -231z\"/><path d=\"M1470 440 l0 -40 80 0 81 0 -3 -190 -3 -190 48 0 47 0 0 190 0 190 75 0 75 0 0 40 0 40 -200 0 -200 0 0 -40z\"/><path d=\"M1892 468 c3 -7 40 -111 83 -231 l78 -217 57 0 57 0 43 118 c105 294 120 335 120 338 0 2 -22 4 -49 4 l-50 0 -19 -52 c-11 -29 -37 -108 -58 -175 -22 -68 -41 -123 -44 -123 -3 0 -32 79 -63 175 l-58 175 -51 0 c-36 0 -49 -4 -46 -12z\"/><path d=\"M850 344 c-32 -14 -69 -49 -70 -66 0 -4 17 -12 37 -17 30 -9 40 -8 55 6 28 25 87 22 109 -6 34 -41 26 -48 -65 -53 -92 -5 -130 -21 -147 -65 -12 -32 3 -83 32 -108 30 -28 115 -31 162 -7 29 16 37 17 37 6 0 -10 13 -14 45 -14 l45 0 0 115 c0 144 -12 178 -72 205 -51 23 -120 25 -168 4z m143 -191 c11 -19 -16 -55 -50 -69 -43 -18 -83 -6 -83 25 0 27 19 39 70 44 25 2 48 4 52 5 4 1 9 -1 11 -5z\"/><path d=\"M1156 313 c15 -21 43 -58 61 -82 l33 -44 -27 -36 c-15 -20 -42 -56 -60 -80 -18 -24 -33 -47 -33 -50 0 -3 24 -5 53 -3 50 3 55 6 82 48 17 24 33 44 36 44 3 0 20 -20 38 -44 31 -42 37 -44 87 -48 30 -1 54 -1 54 1 0 2 -24 36 -53 75 -29 39 -56 76 -60 82 -3 6 21 46 53 90 l59 79 -50 3 c-43 3 -53 0 -68 -20 -10 -13 -27 -34 -38 -47 l-20 -24 -33 47 c-33 45 -34 46 -88 46 l-54 0 28 -37z\"/></g></svg>",
@@ -862,60 +916,7 @@ function pluginPage(object) {
     this.append = function (data) {
 	
 	
-	// --- НАЧАЛО ТЕСТА TMDB ---
-	// Тестовый запрос к TMDB API через Lampa для проверки работоспособности
-	console.log(plugin.name, '--- НАЧАЛО ТЕСТА TMDB ---');
-	if (typeof Lampa !== 'undefined' && Lampa.TMDB) {
-		console.log(plugin.name, 'Lampa.TMDB доступен');
-		
-		// Проверяем, определены ли нужные функции
-		if (typeof Lampa.TMDB.api === 'function') {
-			console.log(plugin.name, 'Lampa.TMDB.api функция доступна');
-			// Попробуем выполнить простой тестовый поиск
-			try {
-				// Поиск фильма "Matrix" как тест
-				Lampa.TMDB.api('search/movie?query=Matrix', function(results) {
-					console.log(plugin.name, 'Тестовый поиск TMDB (Matrix) УСПЕШЕН:', results);
-					if (results && results.results && results.results.length > 0) {
-						var testMovie = results.results[0];
-						console.log(plugin.name, 'Найден фильм для теста:', testMovie.title, 'ID:', testMovie.id);
-						
-						// Проверяем работу Lampa.TMDB.image
-						if (typeof Lampa.TMDB.image === 'function' && testMovie.poster_path) {
-							var testImageUrl = Lampa.TMDB.image('w92' + testMovie.poster_path);
-							console.log(plugin.name, 'Тестовый URL изображения (w92) через Lampa.TMDB.image:', testImageUrl);
-							
-							// Проверяем, включено ли проксирование
-							var isProxyEnabled = Lampa.Storage.field('proxy_tmdb', false);
-							console.log(plugin.name, 'Настройка proxy_tmdb в Lampa:', isProxyEnabled);
-							if (isProxyEnabled && testImageUrl.includes('tmdbimg.')) {
-								 console.log(plugin.name, 'Прокси TMDB, похоже, активен (URL содержит tmdbimg.)');
-							} else if (isProxyEnabled) {
-								 console.log(plugin.name, 'Прокси TMDB включен, но URL не был переписан. Возможно, используется другой механизм.');
-							} else {
-								 console.log(plugin.name, 'Прокси TMDB выключен.');
-							}
-							
-						} else {
-							console.log(plugin.name, 'Lampa.TMDB.image НЕДОСТУПЕН или нет poster_path у тестового фильма');
-						}
-					} else {
-						console.log(plugin.name, 'Тестовый поиск TMDB не дал результатов (results пуст)');
-					}
-				}, function(error) {
-					console.error(plugin.name, 'Тестовый поиск TMDB (Matrix) ПРОВАЛЕН с ошибкой:', error);
-				});
-			} catch (e) {
-				console.error(plugin.name, 'Ошибка при попытке выполнить тестовый поиск TMDB:', e);
-			}
-		} else {
-			console.error(plugin.name, 'Lampa.TMDB.api функция НЕ НАЙДЕНА');
-		}
-	} else {
-		console.error(plugin.name, 'Lampa.TMDB НЕДОСТУПЕН');
-	}
-	console.log(plugin.name, '--- КОНЕЦ ТЕСТА TMDB ---');
-	// --- КОНЕЦ ТЕСТА TMDB ---
+	
 	
 	
 	
