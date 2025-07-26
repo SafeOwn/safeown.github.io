@@ -922,36 +922,19 @@ function pluginPage(object) {
 		channel['tvg-logo'] = '';
 		card.addClass('card--loaded');
 	    };
-	    // --- НАЧАЛО ВСТАВКИ: Загрузка логотипа с возможным проксированием ---
-		var logoUrl = channel['tvg-logo'];
-		console.log(plugin.name, 'Trying to load logo for', channel.Title, 'from URL:', logoUrl); // Для отладки
-
-		if (logoUrl) {
-			// Проверяем, является ли URL абсолютным (http или https)
-			if (logoUrl.toLowerCase().indexOf('http') === 0) {
-				// Вариант 1: Пробуем использовать Lampa.Utils.protocol(), как для других URL в плагине
-				// Это может сработать, если Lampa или браузер перехватывает запросы.
-				var directUrlAttempt = Lampa.Utils.protocol() + logoUrl.replace(/^https?:\/\//, '');
-				console.log(plugin.name, 'Attempting direct load (via Lampa.Utils.protocol):', directUrlAttempt);
-				img.src = directUrlAttempt;
-
-				// ВАЖНО: Не забудьте обновить img.onerror, чтобы там тоже использовался прокси, если прямая загрузка не удалась.
-				// См. обновленный img.onerror ниже.
-
-			} else {
-				// URL не абсолютный (data URI, относительный путь), загружаем как есть
-				console.log(plugin.name, 'Loading local/non-http logo directly:', logoUrl);
-				img.src = logoUrl;
-			}
-		} else {
-			// URL логотипа нет, вызываем обработчик ошибки
-			console.log(plugin.name, 'No logo URL found for', channel.Title, 'triggering onerror');
-			// img.onerror(); // Не вызываем напрямую, так как img.src еще не установлен
-			// Вместо этого просто не устанавливаем img.src, браузер сам вызовет onerror
-			// или можно вызвать img.onerror() после установки пустого src
-			img.src = ''; // Устанавливаем пустой src, чтобы гарантированно вызвать onerror
-		}
-		// --- КОНЕЦ ВСТАВКИ ---
+	      // --- НАЧАЛО ВСТАВКИ ---
+        var logoUrl = channel['tvg-logo'];
+        if (logoUrl && logoUrl.toLowerCase().indexOf('http') === 0) {
+            // Пробуем загрузить напрямую с добавлением протокола Lampa
+            img.src = Lampa.Utils.protocol() + logoUrl.replace(/^https?:\/\//, '');
+        } else if (logoUrl) {
+            // Локальный путь или data URI
+            img.src = logoUrl;
+        } else {
+            // Нет URL, вызываем обработчик ошибки
+            img.src = ''; // Пустой src вызовет onerror
+        }
+        // --- КОНЕЦ ВСТАВКИ ---
 	    var favIcon = $('<div class="card__icon icon--book hide"></div>');
 	    card.find('.card__icons-inner').append(favIcon);
 	    var tvgDay = parseInt(
