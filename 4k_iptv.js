@@ -866,6 +866,30 @@ function pluginPage(object) {
 		title: channel.Title,
 		release_year: ''
 	    });
+		// Сразу ПОСЛЕ неё добавьте этот блок:
+		card.find('.card__view').css({
+			'padding-bottom': '150%', // Для книжного формата 2:3
+			'height': '0', // Обнуляем height, чтобы padding-bottom задавал высоту
+			'position': 'relative'
+		});
+		// Также изменяем стили изображения внутри
+		card.find('.card__img').css({
+			'position': 'absolute',
+			'top': '50%',
+			'left': '50%',
+			'transform': 'translate(-50%, -50%)',
+			'max-width': '90%', // Ограничиваем ширину
+			'max-height': '90%', // Ограничиваем высоту
+			'width': 'auto',
+			'height': 'auto'
+		});
+
+		// Если включена настройка contain_icons, применяем object-fit
+		if (Lampa.Storage.field(plugin.component + '_contain_icons')) {
+			card.find('.card__img').css({
+        'object-fit': 'contain'
+    });
+}
 	    card.addClass('card--collection');
 	    var img = card.find('.card__img')[0];
 	    if (lazyLoadImg) img.loading = (chI < 18 ? 'eager' : 'lazy');
