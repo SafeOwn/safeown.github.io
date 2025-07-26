@@ -922,40 +922,20 @@ function pluginPage(object) {
 		channel['tvg-logo'] = '';
 		card.addClass('card--loaded');
 	    };
-	            // --- НАЧАЛО ВСТАВКИ: Проксирование изображений ---
-        var originalLogoUrl = channel['tvg-logo'];
-        var proxiedLogoUrl = originalLogoUrl;
-
-        // Проверяем, есть ли у нас абсолютный URL для логотипа
-        if (originalLogoUrl && (originalLogoUrl.startsWith('http://') || originalLogoUrl.startsWith('https://'))) {
-            // Проверяем, включено ли проксирование TMDB в настройках Lampa
-            var tmdbProxyEnabled = Lampa.Storage.field('proxy_tmdb', false); // false - значение по умолчанию
-
-            // Если прокси включен, оборачиваем URL в прокси cors.php с epg.rootu.top
-            if (tmdbProxyEnabled) {
-                try {
-                    // Используем существующий в плагине метод генерации сигнатуры
-                    // Предполагаем, что utils и generateSigForString доступны в этой области видимости
-                    proxiedLogoUrl = Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(originalLogoUrl) + '&uid=' + utils.uid() + '&sig=' + generateSigForString(originalLogoUrl);
-                } catch (e) {
-                    console.log(plugin.name, 'Error applying proxy to logo URL:', e);
-                    // В случае ошибки используем оригинальный URL
-                    proxiedLogoUrl = originalLogoUrl;
-                }
-            } else {
-                // Если прокси TMDB выключен, используем Lampa.Utils.protocol()
-                proxiedLogoUrl = Lampa.Utils.protocol() + originalLogoUrl;
-            }
-             // Устанавливаем проксированный или оригинальный URL
-            img.src = proxiedLogoUrl;
-        } else if (originalLogoUrl) {
-             // Если URL не http/https, но не пустой (например, data URI), используем как есть
-            img.src = originalLogoUrl;
-        } else {
-            // Если URL логотипа нет, вызываем обработчик ошибки для отображения заглушки
-            img.onerror();
-        }
-        // --- КОНЕЦ ВСТАВКИ ---
+	    var originalLogoUrl = channel['tvg-logo'];
+		if (originalLogoUrl && originalLogoUrl.startsWith('http')) {
+			// Используем тот же прокси, что и для плейлиста
+			try {
+				img.src = Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(originalLogoUrl) + '&uid=' + utils.uid() + '&sig=' + generateSigForString(originalLogoUrl);
+			} catch (e) {
+				// Если возникла ошибка (например, функции utils.uid или generateSigForString не определены), 
+				// пробуем обычный Lampa.Utils.protocol
+				img.src = Lampa.Utils.protocol() + originalLogoUrl;
+			}
+		} else {
+			// Для локальных путей или data URI используем как есть
+			img.src = originalLogoUrl;
+		}
 	    var favIcon = $('<div class="card__icon icon--book hide"></div>');
 	    card.find('.card__icons-inner').append(favIcon);
 	    var tvgDay = parseInt(
