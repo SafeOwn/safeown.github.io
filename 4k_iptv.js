@@ -922,7 +922,19 @@ function pluginPage(object) {
 		channel['tvg-logo'] = '';
 		card.addClass('card--loaded');
 	    };
-	    if (channel['tvg-logo']) img.src = channel['tvg-logo'];else img.onerror();
+	    if (channel['tvg-logo']) 
+		// --- НАЧАЛО ИЗМЕНЕНИЙ ДЛЯ ПРОКСИ ---
+		var originalLogoUrl = channel['tvg-logo'];
+		if (originalLogoUrl) {
+			try {
+				var urlObj = new URL(originalLogoUrl);
+				img.src = Lampa.Utils.protocol() + originalLogoUrl;
+			} catch (e) {
+				img.src = originalLogoUrl;
+			}
+		}
+		// --- КОНЕЦ ИЗМЕНЕНИЙ ДЛЯ ПРОКСИ ---
+		else img.onerror();
 	    var favIcon = $('<div class="card__icon icon--book hide"></div>');
 	    card.find('.card__icons-inner').append(favIcon);
 	    var tvgDay = parseInt(
