@@ -922,65 +922,70 @@ function pluginPage(object) {
 		channel['tvg-logo'] = '';
 		card.addClass('card--loaded');
 	    };
-	    // ВАЖНО: Это концептуальный пример, требует адаптации и обработки ошибок!
-		var bulkFn = bulkWrapper(function (channel) {
-			// ... создание card ...
-			
-			// --- НАЧАЛО ВСТАВКИ: Загрузка логотипа с TMDB ---
-			var processCardWithImage = function(imgUrl) {
-				// Эта функция будет вызвана, когда URL изображения будет найден (или будет null/undefined)
-				if (imgUrl) {
-					img.src = imgUrl; // Lampa.TMDB.image уже включает прокси, если включено
-				} else {
-					// Если изображение не найдено, показываем заглушку
-					img.onerror(); 
-				}
-			};
+	            // --- НАЧАЛО ВСТАВКИ: Поиск и загрузка постера с TMDB ---
+        var processCardWithImage = function(imgUrl) {
+            // Эта функция вызывается, когда URL изображения найден или поиск завершен
+            if (imgUrl) {
+                img.src = imgUrl; // Lampa.TMDB.image уже включает прокси, если включено
+                console.log(plugin.name, 'Poster found for', channel.Title, ':', imgUrl);
+            } else {
+                // Если изображение не найдено, показываем заглушку
+                console.log(plugin.name, 'No poster found for', channel.Title, ', showing fallback');
+                img.onerror(); 
+            }
+        };
 
-			// Функция для поиска изображения на TMDB
-			var findImageOnTmdb = function(callback) {
-				// 1. Определяем поисковый запрос (можно усложнить)
-				var searchQuery = channel.Title.replace(/\s*(HD|4K|ТВ|TV|\(\d+\))\s*$/i, '').trim(); // Пример нормализации
-				if (!searchQuery) {
-					callback(null);
-					return;
-				}
+        var findImageOnTmdb = function(callback) {
+            // 1. Нормализуем название канала для поиска
+            var searchQuery = channel.Title
+                .replace(/\s*(HD|4K|ТВ|TV|\(\d+\))\s*$/i, '') // Убираем HD, 4K, ТВ, (цифры)
+                .replace(/[^\w\sа-яА-ЯёЁ]/gi, ' ') // Заменяем специальные символы на пробел
+                .trim();
 
-				// 2. Проверяем, есть ли в Lampa встроенный механизм поиска для IPTV (маловероятно, но вдруг)
-				// Если нет, делаем запрос напрямую через Lampa.TMDB.api
-				
-				// 3. Выполняем поиск (пример)
-				// ВАЖНО: Нужна обработка ошибок, проверка results.length, выбор лучшего результата и т.д.
-				Lampa.TMDB.api('search/multi?query=' + encodeURIComponent(searchQuery), function (results) {
-					if (results && results.results && results.results.length > 0) {
-						// 4. Берем первый результат (нужно улучшить логику выбора)
-						var item = results.results[0]; 
-						var posterPath = item.poster_path;
-						if (posterPath) {
-							// 5. Генерируем URL изображения (размер можно выбрать)
-							// Lampa.TMDB.image автоматически использует прокси, если настройка Lampa.Storage.field('proxy_tmdb') включена
-							var imageUrl = Lampa.TMDB.image('w300' + posterPath); 
-							callback(imageUrl);
-						} else {
-							callback(null);
-						}
-					} else {
-						callback(null);
-					}
-				}, function() { // Обработчик ошибки запроса
-					callback(null);
-				});
-			};
+            if (!searchQuery) {
+                callback(null);
+                return;
+            }
 
-			// Запускаем поиск изображения
-			findImageOnTmdb(processCardWithImage);
-			
-			// --- КОНЕЦ ВСТАВКИ ---
-			
-			// ... остальной код bulkFn (onload, onerror, добавление в body и т.д.) ...
-			// img.onerror должен остаться, он будет вызван, если processCardWithImage получит null
-			// или если само изображение по полученному URL не загрузится
-		});
+            // 2. Выполняем поиск на TMDB через встроенный API Lampa
+            // Используем search/multi для поиска фильмов, сериалов и персон
+            console.log(plugin.name, 'Searching TMDB for:', searchQuery);
+            
+            try {
+                // ВАЖНО: Эта часть требует отладки и корректной обработки ошибок
+                Lampa.TMDB.api('search/multi?query=' + encodeURIComponent(searchQuery), function (results) {
+                    console.log(plugin.name, 'TMDB search results for', searchQuery, ':', results);
+                    if (results && results.results && results.results.length > 0) {
+                        // 3. Берем первый результат (нужно улучшить логику выбора)
+                        var item = results.results[0]; 
+                        var posterPath = item.poster_path;
+                        if (posterPath) {
+                            // 4. Генерируем URL изображения (Lampa.TMDB.image использует прокси, если включено)
+                            // Можно выбрать другой размер: 'w185', 'w342', 'w500', 'original'
+                            var imageUrl = Lampa.TMDB.image('w300' + posterPath); 
+                            console.log(plugin.name, 'Poster URL generated:', imageUrl);
+                            callback(imageUrl);
+                        } else {
+                            console.log(plugin.name, 'No poster_path for item:', item);
+                            callback(null);
+                        }
+                    } else {
+                        console.log(plugin.name, 'No results found on TMDB for:', searchQuery);
+                        callback(null);
+                    }
+                }, function(error) { // Обработчик ошибки запроса к TMDB API
+                    console.error(plugin.name, 'Error searching TMDB for', searchQuery, ':', error);
+                    callback(null);
+                });
+            } catch (e) {
+                console.error(plugin.name, 'Exception during TMDB search for', searchQuery, ':', e);
+                callback(null);
+            }
+        };
+
+        // Запускаем асинхронный поиск изображения
+        findImageOnTmdb(processCardWithImage);
+        // --- КОНЕЦ ВСТАВКИ ---
 	    var favIcon = $('<div class="card__icon icon--book hide"></div>');
 	    card.find('.card__icons-inner').append(favIcon);
 	    var tvgDay = parseInt(
