@@ -922,34 +922,65 @@ function pluginPage(object) {
 		channel['tvg-logo'] = '';
 		card.addClass('card--loaded');
 	    };
-	            // --- НАЧАЛО ВСТАВКИ: Стандартная загрузка с приоритетом внутренних источников ---
-        // Убеждаемся, что URL логотипа определен (используя встроенную логику плагина)
-        // Проверяем epg.it999.ru, если есть epgId
-        if (!channel['tvg-logo'] && channel['epgId']) {
-            channel['tvg-logo'] = Lampa.Utils.protocol() + 'epg.it999.ru/img2/' + channel['epgId'] + '.png';
-        }
-        // Проверяем epg.rootu.top/picon/, если есть название и оно не дефолтное
-        if (!channel['tvg-logo'] && channel['Title'] && channel['Title'] !== "Ch " + (chIndex + 1)) {
-            channel['tvg-logo'] = Lampa.Utils.protocol() + 'epg.rootu.top/picon/'+ encodeURIComponent(channel['Title']) + '.png';
-        }
+	    // ВАЖНО: Это концептуальный пример, требует адаптации и обработки ошибок!
+		var bulkFn = bulkWrapper(function (channel) {
+			// ... создание card ...
+			
+			// --- НАЧАЛО ВСТАВКИ: Загрузка логотипа с TMDB ---
+			var processCardWithImage = function(imgUrl) {
+				// Эта функция будет вызвана, когда URL изображения будет найден (или будет null/undefined)
+				if (imgUrl) {
+					img.src = imgUrl; // Lampa.TMDB.image уже включает прокси, если включено
+				} else {
+					// Если изображение не найдено, показываем заглушку
+					img.onerror(); 
+				}
+			};
 
-        var logoUrl = channel['tvg-logo'];
-        if (logoUrl) {
-            // Используем Lampa.Utils.protocol() для согласованности, как в других частях плагина
-            // Это может помочь с проблемами http/https
-            if (logoUrl.toLowerCase().indexOf('http') === 0) {
-                 // Для абсолютных URL убираем протокол и добавляем тот, что возвращает Lampa.Utils.protocol()
-                img.src = Lampa.Utils.protocol() + logoUrl.replace(/^https?:\/\//, '');
-            } else {
-                // Относительный путь или data URI
-                img.src = logoUrl;
-            }
-        } else {
-            // Нет URL логотипа даже после попыток генерации, показываем заглушку через onerror
-            // Устанавливаем пустой src, чтобы гарантированно вызвать img.onerror
-            img.src = '';
-        }
-        // --- КОНЕЦ ВСТАВКИ ---
+			// Функция для поиска изображения на TMDB
+			var findImageOnTmdb = function(callback) {
+				// 1. Определяем поисковый запрос (можно усложнить)
+				var searchQuery = channel.Title.replace(/\s*(HD|4K|ТВ|TV|\(\d+\))\s*$/i, '').trim(); // Пример нормализации
+				if (!searchQuery) {
+					callback(null);
+					return;
+				}
+
+				// 2. Проверяем, есть ли в Lampa встроенный механизм поиска для IPTV (маловероятно, но вдруг)
+				// Если нет, делаем запрос напрямую через Lampa.TMDB.api
+				
+				// 3. Выполняем поиск (пример)
+				// ВАЖНО: Нужна обработка ошибок, проверка results.length, выбор лучшего результата и т.д.
+				Lampa.TMDB.api('search/multi?query=' + encodeURIComponent(searchQuery), function (results) {
+					if (results && results.results && results.results.length > 0) {
+						// 4. Берем первый результат (нужно улучшить логику выбора)
+						var item = results.results[0]; 
+						var posterPath = item.poster_path;
+						if (posterPath) {
+							// 5. Генерируем URL изображения (размер можно выбрать)
+							// Lampa.TMDB.image автоматически использует прокси, если настройка Lampa.Storage.field('proxy_tmdb') включена
+							var imageUrl = Lampa.TMDB.image('w300' + posterPath); 
+							callback(imageUrl);
+						} else {
+							callback(null);
+						}
+					} else {
+						callback(null);
+					}
+				}, function() { // Обработчик ошибки запроса
+					callback(null);
+				});
+			};
+
+			// Запускаем поиск изображения
+			findImageOnTmdb(processCardWithImage);
+			
+			// --- КОНЕЦ ВСТАВКИ ---
+			
+			// ... остальной код bulkFn (onload, onerror, добавление в body и т.д.) ...
+			// img.onerror должен остаться, он будет вызван, если processCardWithImage получит null
+			// или если само изображение по полученному URL не загрузится
+		});
 	    var favIcon = $('<div class="card__icon icon--book hide"></div>');
 	    card.find('.card__icons-inner').append(favIcon);
 	    var tvgDay = parseInt(
