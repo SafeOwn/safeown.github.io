@@ -452,39 +452,47 @@ function networkSilentSessCache(url, success, fail, param) {
 }
 
 //Стиль
-Lampa.Template.add(plugin.component + '_style', '<style>#PLUGIN_epg{margin-right:1em}.PLUGIN-program__desc{font-size:0.9em;margin:0.5em;text-align:justify;max-height:15em;overflow:hidden;}.PLUGIN.category-full{padding-bottom:10em}/* Базовые стили для card__view */
+Lampa.Template.add(plugin.component + '_style', '<style>#PLUGIN_epg{margin-right:1em}.PLUGIN-program__desc{font-size:0.9em;margin:0.5em;text-align:justify;max-height:15em;overflow:hidden;}.PLUGIN.category-full{padding-bottom:10em}/* Внутри Lampa.Template.add(plugin.component + '_style', '<style> ... </style>') */
+
+/* --- Базовые стили --- */
 .PLUGIN div.card__view {
     position: relative;
     background-color: #353535;
     background-color: #353535a6;
     border-radius: 1em;
     cursor: pointer;
-    /* padding-bottom будет задаваться медиа-запросами */
-    height: 0; /* Необходимо для padding-bottom */
-    overflow: hidden; /* Обрезаем содержимое */
+    /* padding-bottom и width будут задаваться медиа-запросами */
+    height: 0; /* height: 0 необходимо для работы padding-bottom */
+    overflow: hidden; /* Обрезаем содержимое, если оно выходит за границы */
 }
 
-/* Базовые стили для ширины карточки */
 .PLUGIN .card--collection {
     /* width будет задаваться медиа-запросами */
+    display: inline-block; /* Позволяет использовать percentage width и управлять переносом */
+    vertical-align: top; /* Выравнивание по верху */
+    font-size: 0; /* Убираем потенциальное whitespace между inline-block элементами */
+}
+/* Восстанавливаем font-size для содержимого карточки */
+.PLUGIN .card--collection > * {
+    font-size: 1rem; /* Или конкретный размер, используемый в шаблоне card */
 }
 
-/* --- Медиа-запросы для разных размеров экрана --- */
+/* --- Медиа-запросы для адаптации под разные экраны --- */
 
-/* Очень маленькие экраны (например, старые телефоны в портретной ориентации) */
+/* Очень маленькие экраны (например, старые телефоны, портрет) */
 @media screen and (max-width: 400px) {
     .PLUGIN .card--collection {
-        width: 100% !important; /* Одна карточка в ряду */
+        width: 100% !important; /* 1 карточка в ряду */
     }
     .PLUGIN div.card__view {
-        padding-bottom: 200% !important; /* Очень вытянутый книжный формат */
+        padding-bottom: 200% !important; /* Очень вытянутый книжный формат 1:2 */
     }
 }
 
-/* Маленькие экраны (телефоны, в том числе в альбомной ориентации) */
+/* Маленькие экраны (телефоны, включая альбомную ориентацию) */
 @media screen and (min-width: 401px) and (max-width: 768px) {
     .PLUGIN .card--collection {
-        width: 50% !important; /* Две карточки в ряду */
+        width: 50% !important; /* 2 карточки в ряду */
     }
     .PLUGIN div.card__view {
         padding-bottom: 175% !important; /* Вытянутый книжный формат */
@@ -494,88 +502,35 @@ Lampa.Template.add(plugin.component + '_style', '<style>#PLUGIN_epg{margin-right
 /* Средние экраны (планшеты, небольшие ноутбуки) */
 @media screen and (min-width: 769px) and (max-width: 1200px) {
     .PLUGIN .card--collection {
-        width: 33.33% !important; /* Три карточки в ряду */
+        width: 33.333% !important; /* 3 карточки в ряду */
     }
     .PLUGIN div.card__view {
         padding-bottom: 150% !important; /* Стандартный книжный формат 2:3 */
     }
 }
 
-/* Большие экраны (десктопы, телевизоры) */
-@media screen and (min-width: 1201px) {
+/* Большие экраны (десктопы, широкоформатные планшеты) */
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
     .PLUGIN .card--collection {
-        width: 25% !important; /* Четыре карточки в ряду */
+        width: 25% !important; /* 4 карточки в ряду */
     }
     .PLUGIN div.card__view {
-        padding-bottom: 133.33% !important; /* Более квадратный книжный формат 3:4 */
+        padding-bottom: 133.333% !important; /* Более квадратный книжный формат 3:4 */
     }
-}.PLUGIN div.card__view {
-    position: relative;
-    background-color: #353535;
-    background-color: #353535a6;
-    border-radius: 1em;
-    cursor: pointer;
-    /* padding-bottom будет задаваться медиа-запросами */
-    height: 0; /* Необходимо для padding-bottom */
-    overflow: hidden; /* Обрезаем содержимое */
 }
 
-/* Базовые стили для ширины карточки */
-.PLUGIN .card--collection {
-    /* width будет задаваться медиа-запросами */
-    /* Добавим display inline-block для корректной работы width */
-    display: inline-block;
-    vertical-align: top;
-    /* Уберем нижнее поле от inline-block */
-    font-size: 0;
-}
-/* Восстановим font-size для содержимого карточки */
-.PLUGIN .card--collection > * {
-    font-size: 1rem; /* Или укажите конкретный размер шрифта, используемый в карточке */
-}
-
-
-/* --- Медиа-запросы для разных размеров экрана --- */
-
-/* Очень маленькие экраны (например, старые телефоны в портретной ориентации) */
-@media screen and (max-width: 400px) {
+/* Очень большие экраны (широкие десктопы, Телевизоры) */
+@media screen and (min-width: 1801px) {
     .PLUGIN .card--collection {
-        width: 100% !important; /* Одна карточка в ряду */
+        width: 20% !important; /* 5 карточек в ряду */
+        /* Или можно сделать 25% (4 в ряду), если 5 слишком мелко для ТВ */
+        /* width: 25% !important; */
     }
     .PLUGIN div.card__view {
-        padding-bottom: 200% !important; /* Очень вытянутый книжный формат 1:2 */
-    }
-}
-
-/* Маленькие экраны (телефоны, в том числе в альбомной ориентации) */
-/* Это должно соответствовать вашему условию "телефон Маленькая ширина экрана" */
-@media screen and (min-width: 401px) and (max-width: 768px) {
-    .PLUGIN .card--collection {
-        width: 50% !important; /* Две карточки в ряду */
-    }
-    .PLUGIN div.card__view {
-        padding-bottom: 175% !important; /* Вытянутый книжный формат ~ 1.75:1 */
-    }
-}
-
-/* Средние экраны (планшеты, небольшие ноутбуки) */
-@media screen and (min-width: 769px) and (max-width: 1200px) {
-    .PLUGIN .card--collection {
-        width: 33.33% !important; /* Три карточки в ряду */
-    }
-    .PLUGIN div.card__view {
-        padding-bottom: 150% !important; /* Стандартный книжный формат 2:3 */
-    }
-}
-
-/* Большие экраны (десктопы, телевизоры) */
-/* Это должно соответствовать вашему условию "Большая ширина экрана (min-width: 1201px) -> десктоп/телевизор" */
-@media screen and (min-width: 1201px) {
-    .PLUGIN .card--collection {
-        width: 25% !important; /* Четыре карточки в ряду */
-    }
-    .PLUGIN div.card__view {
-        padding-bottom: 133.33% !important; /* Более квадратный книжный формат 3:4 */
+        /* Можно сделать чуть более "квадратным" для ТВ */
+        padding-bottom: 133.333% !important; /* 3:4 */
+        /* Или стандартный книжный 2:3 */
+        /* padding-bottom: 150% !important; */
     }
 }.PLUGIN.square_icons div.card__view{padding-bottom: 150% !important;}.PLUGIN img.card__img,.PLUGIN div.card__img{background-color:unset;border-radius:unset;max-height:200%;max-width:50%;height:200%;width:50%;position:absolute;top:50%;left:50%;-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);font-size:2em}.PLUGIN.contain_icons img.card__img{height:200%;width:50%;object-fit:contain}.PLUGIN .card__title{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.PLUGIN .card__age{padding:0;border:1px #3e3e3e solid;margin-top:0.3em;border-radius:0.3em;position:relative;display: none}.PLUGIN .card__age .card__epg-progress{position:absolute;background-color:#3a3a3a;top:0;left:0;width:0%;max-width:100%;height:100%}.PLUGIN .card__age .card__epg-title{position:relative;padding:0.4em 0.2em;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}.PLUGIN.category-full .card__icons {top:0.3em;right:0.3em;justify-content:right;}#PLUGIN{float:right;padding: 1.2em 0;width: 30%;}.PLUGIN-details__group{font-size:1.3em;margin-bottom:.9em;opacity:.5}.PLUGIN-details__title{font-size:4em;font-weight:700}.PLUGIN-details__program{padding-top:4em}.PLUGIN-details__program-title{font-size:1.2em;padding-left:4.9em;margin-top:1em;margin-bottom:1em;opacity:.5}.PLUGIN-details__program-list>div+div{margin-top:1em}.PLUGIN-details__program>div+div{margin-top:2em}.PLUGIN-program{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;font-size:1.2em;font-weight:300}.PLUGIN-program__time{-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;width:5em;position:relative}.PLUGIN-program.focus .PLUGIN-program__time::after{content:\'\';position:absolute;top:.5em;right:.9em;width:.4em;background-color:#fff;height:.4em;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;margin-top:-0.1em;font-size:1.2em}.PLUGIN-program__progressbar{width:10em;height:0.3em;border:0.05em solid #fff;border-radius:0.05em;margin:0.5em 0.5em 0 0}.PLUGIN-program__progress{height:0.25em;border:0.05em solid #fff;background-color:#fff;max-width: 100%}.PLUGIN .card__icon.icon--timeshift{background-image:url(https://epg.rootu.top/img/icon/timeshift.svg);}</style>'.replace(/PLUGIN/g, plugin.component));
 // Удаляем предыдущие стили плагина, если они есть
