@@ -922,17 +922,38 @@ function pluginPage(object) {
 		channel['tvg-logo'] = '';
 		card.addClass('card--loaded');
 	    };
-	      // --- НАЧАЛО ВСТАВКИ ---
+	            // --- НАЧАЛО ВСТАВКИ: Улучшенная загрузка логотипов ---
+        // Сначала убедимся, что у канала есть потенциальный URL логотипа
+        // Используем уже существующую в плагине логику для генерации URL
+        if (!channel['tvg-logo'] && channel['epgId']) {
+            channel['tvg-logo'] = Lampa.Utils.protocol() + 'epg.it999.ru/img2/' + channel['epgId'] + '.png';
+        }
+        if (!channel['tvg-logo'] && channel['Title'] && channel['Title'] !== "Ch " + (chIndex + 1)) { // Предполагаем, что chNum это chIndex + 1 или подобное
+            channel['tvg-logo'] = Lampa.Utils.protocol() + 'epg.rootu.top/picon/'+ encodeURIComponent(channel['Title']) + '.png';
+        }
+
         var logoUrl = channel['tvg-logo'];
-        if (logoUrl && logoUrl.toLowerCase().indexOf('http') === 0) {
-            // Пробуем загрузить напрямую с добавлением протокола Lampa
-            img.src = Lampa.Utils.protocol() + logoUrl.replace(/^https?:\/\//, '');
-        } else if (logoUrl) {
-            // Локальный путь или data URI
-            img.src = logoUrl;
+        if (logoUrl) {
+            // Проверяем, является ли URL абсолютным
+            if (logoUrl.toLowerCase().indexOf('http') === 0) {
+                // Для абсолютных URL используем Lampa.Utils.protocol(), как делается для других URL в плагине
+                // Это может помочь с HTTPS/HTTP проблемами
+                img.src = Lampa.Utils.protocol() + logoUrl.replace(/^https?:\/\//, '');
+                console.log(plugin.name, 'Trying to load logo for', channel.Title, 'from:', img.src); // Для отладки
+            } else {
+                // Локальный путь или data URI
+                img.src = logoUrl;
+                console.log(plugin.name, 'Loading local logo for', channel.Title, 'from:', logoUrl); // Для отладки
+            }
         } else {
-            // Нет URL, вызываем обработчик ошибки
-            img.src = ''; // Пустой src вызовет onerror
+            // URL логотипа нет, сразу показываем заглушку
+            console.log(plugin.name, 'No logo URL for', channel.Title, 'showing fallback'); // Для отладки
+            // Вызываем onerror напрямую, чтобы показать заглушку
+            // Но сначала нужно убедиться, что img.src не пустой, иначе onerror может не сработать как ожидается
+            // Проще сразу вызвать логику из onerror
+            // img.onerror(); // Это может не сработать, если img.src еще не установлен
+            // Лучше имитировать ошибку, установив пустой src
+            img.src = '';
         }
         // --- КОНЕЦ ВСТАВКИ ---
 	    var favIcon = $('<div class="card__icon icon--book hide"></div>');
