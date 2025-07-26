@@ -922,42 +922,36 @@ function pluginPage(object) {
 		channel['tvg-logo'] = '';
 		card.addClass('card--loaded');
 	    };
-	            // --- НАЧАЛО ВСТАВКИ: Интеграция с прокси Lampa TMDB ---
-        var logoUrl = channel['tvg-logo'];
-        if (logoUrl) {
-            // Проверяем, включено ли проксирование TMDB в настройках Lampa
-            var tmdbProxyEnabled = Lampa.Storage.field('proxy_tmdb', false);
-            
-            if (tmdbProxyEnabled) {
-                // Если прокси TMDB включено в Lampa, передаем URL напрямую.
-                // Предполагаем, что Lampa перехватит этот запрос и проксирует его через cub.rip.
-                // Все равно используем Lampa.Utils.protocol() для согласованности с другими частями плагина.
-                console.log(plugin.name, 'TMDB proxy enabled, loading logo directly (should be intercepted by Lampa):', logoUrl);
-                img.src = Lampa.Utils.protocol() + logoUrl; // Убираем 'http://' или 'https://' в начале logoUrl, если они есть
-            } else {
-                // Если прокси TMDB выключено, используем собственный прокси плагина epg.rootu.top
-                if (logoUrl.toLowerCase().indexOf('http') === 0) {
-                    // URL внешний, оборачиваем его в прокси cors.php
-                    try {
-                        img.src = Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(logoUrl) + '&uid=' + utils.uid() + '&sig=' + generateSigForString(logoUrl);
-                        console.log(plugin.name, 'TMDB proxy disabled, loading logo via plugin proxy:', img.src);
-                    } catch (err) {
-                        // Если не удалось сгенерировать подпись, пробуем без неё
-                        console.log(plugin.name, 'Ошибка при генерации подписи для прокси логотипа, пробуем без неё:', err);
-                        img.src = Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(logoUrl);
-                    }
-                } else {
-                    // URL локальный или data URI, используем как есть
-                    console.log(plugin.name, 'Loading local logo directly:', logoUrl);
-                    img.src = logoUrl;
-                }
-            }
-        } else {
-            // URL логотипа нет, вызываем обработчик ошибки
-            console.log(plugin.name, 'No logo URL, using onerror fallback');
-            img.onerror();
-        }
-        // --- КОНЕЦ ВСТАВКИ ---
+	    // --- НАЧАЛО ВСТАВКИ: Загрузка логотипа с возможным проксированием ---
+		var logoUrl = channel['tvg-logo'];
+		console.log(plugin.name, 'Trying to load logo for', channel.Title, 'from URL:', logoUrl); // Для отладки
+
+		if (logoUrl) {
+			// Проверяем, является ли URL абсолютным (http или https)
+			if (logoUrl.toLowerCase().indexOf('http') === 0) {
+				// Вариант 1: Пробуем использовать Lampa.Utils.protocol(), как для других URL в плагине
+				// Это может сработать, если Lampa или браузер перехватывает запросы.
+				var directUrlAttempt = Lampa.Utils.protocol() + logoUrl.replace(/^https?:\/\//, '');
+				console.log(plugin.name, 'Attempting direct load (via Lampa.Utils.protocol):', directUrlAttempt);
+				img.src = directUrlAttempt;
+
+				// ВАЖНО: Не забудьте обновить img.onerror, чтобы там тоже использовался прокси, если прямая загрузка не удалась.
+				// См. обновленный img.onerror ниже.
+
+			} else {
+				// URL не абсолютный (data URI, относительный путь), загружаем как есть
+				console.log(plugin.name, 'Loading local/non-http logo directly:', logoUrl);
+				img.src = logoUrl;
+			}
+		} else {
+			// URL логотипа нет, вызываем обработчик ошибки
+			console.log(plugin.name, 'No logo URL found for', channel.Title, 'triggering onerror');
+			// img.onerror(); // Не вызываем напрямую, так как img.src еще не установлен
+			// Вместо этого просто не устанавливаем img.src, браузер сам вызовет onerror
+			// или можно вызвать img.onerror() после установки пустого src
+			img.src = ''; // Устанавливаем пустой src, чтобы гарантированно вызвать onerror
+		}
+		// --- КОНЕЦ ВСТАВКИ ---
 	    var favIcon = $('<div class="card__icon icon--book hide"></div>');
 	    card.find('.card__icons-inner').append(favIcon);
 	    var tvgDay = parseInt(
