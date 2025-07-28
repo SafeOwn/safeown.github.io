@@ -1,26 +1,43 @@
-name: Update simple list.m3u
+name: Diagnostic Test
 
 on:
-  schedule:
-    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
-  update-list:
+  diagnose:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Download M3U file
+      - name: Check repository status
         run: |
-          curl -L -o list_bormanulik.m3u https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u
-          echo "File size:"
-          ls -la list_bormanulik.m3u
+          echo "Current directory:"
+          pwd
+          echo "Files in repository:"
+          ls -la
+          echo "Git status:"
+          git status
 
-      - name: Commit and push
+      - name: Test file creation
+        run: |
+          echo "Testing file creation..."
+          echo "# Test file created at $(date)" > test_file.txt
+          ls -la test_file.txt
+
+      - name: Test curl
+        run: |
+          echo "Testing curl..."
+          curl -L -o test_download.txt https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u
+          echo "Download result:"
+          ls -la test_download.txt
+          echo "File size:"
+          wc -l test_download.txt
+
+      - name: Try to commit
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add list_bormanulik.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update list_bormanulik.m3u" && git push)
+          git add test_file.txt test_download.txt
+          git commit -m "Diagnostic test files" || echo "Nothing to commit"
+          git push || echo "Push failed"
