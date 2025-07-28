@@ -12,13 +12,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Download list.m3u from bormanulik
+      - name: Create directory and download list.m3u
         run: |
-          curl -o list.m3u https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u
+          mkdir -p bormanulik
+          curl -o bormanulik/list.m3u https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add list.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update list.m3u" && git push)
+          git add bormanulik/list.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update bormanulik/list.m3u" && git push)
