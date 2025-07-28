@@ -1,4 +1,4 @@
-name: Update Playlist with GitHub CLI
+name: Update Playlist
 
 on:
   schedule:
@@ -8,24 +8,25 @@ on:
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Download playlist
         run: |
           rm -rf bormanulik
           mkdir -p bormanulik
           curl -L "https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u" -o bormanulik/list.m3u
-          echo "✅ File downloaded successfully"
+          echo "✅ File downloaded"
 
-      - name: Commit and push with GitHub CLI
+      - name: Commit and push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add bormanulik/list.m3u
-          git commit -m "Update bormanulik playlist"
-          gh auth setup-git
+          git commit -m "Update bormanulik playlist" || echo "No changes to commit"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
