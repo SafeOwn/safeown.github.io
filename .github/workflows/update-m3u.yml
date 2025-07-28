@@ -1,18 +1,26 @@
-name: Update list.m3u
+name: Test Create bormanulik
 
 on:
   workflow_dispatch:
 
 jobs:
-  update-list:
+  test-create:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Test download
+      - name: Create directory and file
         run: |
           rm -rf bormanulik
           mkdir -p bormanulik
-          curl -v -L -o bormanulik/list.m3u https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u
+          echo "# Test M3U file" > bormanulik/list.m3u
           ls -la bormanulik/
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Test: Create bormanulik/list.m3u" || echo "No changes to commit"
+          git push
