@@ -12,7 +12,7 @@
     // --- Основной объект плагина ---
     const plugin = {
         component: PLUGIN_COMPONENT,
-        // Иконка из вашего примера (сокращена для читаемости)
+        // Простая иконка Play
         icon: "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg>",
         name: HARDCODED_NAME
     };
@@ -36,14 +36,17 @@
     // --- Компонент страницы плагина ---
     function PluginPage(object) {
         this.activity = object;
-        this.html = $('<div></div>');
+        this.html = $('<div class="' + PLUGIN_COMPONENT + '-plugin-container"></div>'); // Добавляем класс-обертку
         this.scroll = new Lampa.Scroll({ mask: true, over: true });
         this.last_focused_card = null;
+        this.itemsRendered = 0; // Счетчик отрендеренных карточек
+        this.totalItems = 0; // Общее количество карточек
     }
 
     PluginPage.prototype.create = function () {
         this.activity.loader(true);
-        this.html.append(this.scroll.render());
+        // Очищаем контейнер и добавляем скролл
+        this.html.empty().append(this.scroll.render());
         this.loadAndParsePlaylist();
         return this.html;
     };
@@ -57,7 +60,11 @@
                 if (typeof data === 'string' && data.trim().startsWith('#EXTM3U')) {
                     parsedItems = this.parseM3U(data); // Используем метод компонента
                     console.log('[' + PLUGIN_COMPONENT + '] Плейлист загружен и распарсен. Элементов:', parsedItems.length);
-                    this.buildPage();
+                    if (parsedItems.length > 0) {
+                         this.buildPage();
+                    } else {
+                         this.showError('Плейлист пуст или не содержит поддерживаемых записей.');
+                    }
                 } else {
                     console.error('[' + PLUGIN_COMPONENT + '] Полученные данные не являются корректным M3U.');
                     this.showError('Полученные данные не являются корректным M3U плейлистом.');
@@ -104,38 +111,48 @@
 
 
     PluginPage.prototype.buildPage = function () {
-        const cards_container = $('<div class="my-4k-iptv-cards-container"></div>');
+        const cards_container = $('<div class="' + PLUGIN_COMPONENT + '-cards-container"></div>');
         this.scroll.append(cards_container);
 
         // Добавляем CSS для адаптивной сетки и книжных постеров
-        // Используем уникальный ID, чтобы не конфликтовать с другими плагинами
-        const styleId = 'my-4k-iptv-styles-' + PLUGIN_COMPONENT;
+        const styleId = PLUGIN_COMPONENT + '-styles';
         if (!$('#' + styleId).length) {
             $('body').append(`
                 <style id="${styleId}">
-                    .my-4k-iptv-cards-container {
+                    .${PLUGIN_COMPONENT}-plugin-container {
+                        /* Чтобы скролл работал правильно */
+                        height: 100%;
+                    }
+                    .${PLUGIN_COMPONENT}-cards-container {
                         display: flex;
                         flex-wrap: wrap;
-                        gap: 1.5em; /* Расстояние между карточками */
+                        /* gap заменен на margin для лучшей совместимости */
+                        /* gap: 1.5em; */
                         padding: 1.5em;
+                        /* Убираем стандартные margin у первых/последних элементов */
+                        margin: 0;
                     }
                     /* Телефон: 2 колонки */
-                    .my-4k-iptv-card {
-                        /* Ширина карточки */
-                        width: calc(50% - 0.75em); /* 2 колонки: (100% - 1 промежуток) / 2 */
-
+                    .${PLUGIN_COMPONENT}-card {
+                        /* Ширина карточки с учетом отступов */
+                        width: calc(50% - 0.75em); /* 2 колонки: (100% - 1.5em отступ) / 2 */
+                        margin: 0 1.5em 1.5em 0; /* margin-right и margin-bottom */
                         position: relative;
                         border-radius: 0.5em;
                         overflow: hidden;
                         background-color: #2b2b2b;
                         cursor: pointer;
-
-                        /* Убираем фиксированную высоту через padding-bottom из оригинала */
-                        /* Вместо этого используем flexbox для внутреннего контента */
                         display: flex;
                         flex-direction: column;
+                        /* Устанавливаем минимальную высоту, чтобы избежать "полосок" */
+                        min-height: 200px; /* Примерная минимальная высота */
                     }
-                    .my-4k-iptv-card__img-container {
+                    /* Убираем правый margin у последнего элемента в строке */
+                    .${PLUGIN_COMPONENT}-card:nth-child(2n) {
+                        margin-right: 0;
+                    }
+
+                    .${PLUGIN_COMPONENT}-card__img-container {
                         /* Контейнер для изображения */
                         width: 100%;
                         /* Высота будет определяться содержимым или flex */
@@ -145,23 +162,39 @@
                         justify-content: center;
                         background-color: #3a3a3a;
                         overflow: hidden;
+                        /* Устанавливаем соотношение сторон 2:3 (портрет) */
+                        aspect-ratio: 2 / 3; /* Ширина : Высота */
+                        /* Для браузеров, не поддерживающих aspect-ratio */
+                        padding-top: 150%; /* 3/2 * 100% = 150% */
+                        height: 0;
                     }
-                    .my-4k-iptv-card__img {
+                    .${PLUGIN_COMPONENT}-card__img {
                         /* Само изображение */
                         width: 100%;
                         height: 100%;
                         object-fit: cover; /* Масштабирует изображение, обрезая края, чтобы заполнить контейнер */
                         display: block;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
                     }
-                    .my-4k-iptv-card__img-placeholder {
+                    .${PLUGIN_COMPONENT}-card__img-placeholder {
                         /* Плейсхолдер, если изображения нет */
                         color: #aaa;
                         font-size: 0.8em;
                         text-align: center;
                         padding: 0.5em;
                         box-sizing: border-box;
+                        position: absolute; /* Позиционируем абсолютно внутри контейнера */
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                     }
-                    .my-4k-iptv-card__title {
+                    .${PLUGIN_COMPONENT}-card__title {
                         padding: 0.5em;
                         font-size: 1em;
                         white-space: nowrap;
@@ -169,34 +202,82 @@
                         text-overflow: ellipsis;
                         background-color: rgba(0,0,0,0.5);
                         /* Располагается внизу, вне контейнера изображения */
+                        margin: 0; /* Убираем возможные margin от заголовка */
                     }
 
                     /* Телевизор: 6 колонок */
                     @media screen and (min-width: 768px) {
-                        .my-4k-iptv-card {
-                            width: calc(16.666% - 1.25em); /* 6 колонок: (100% - 5 промежутков) / 6 */
+                        .${PLUGIN_COMPONENT}-card {
+                            width: calc(16.666% - 1.25em); /* 6 колонок: (100% - 5 * 1.5em) / 6 = 16.666% - 1.25em */
+                            margin: 0 1.5em 1.5em 0;
+                        }
+                        /* Убираем правый margin у последнего элемента в строке (6n) */
+                        .${PLUGIN_COMPONENT}-card:nth-child(6n) {
+                            margin-right: 0;
                         }
                     }
                 </style>
             `);
         }
 
+        this.totalItems = parsedItems.length;
+        this.itemsRendered = 0;
+
         parsedItems.forEach((item, index) => {
             let imgContent;
             if (item['tvg-logo']) {
                 // Если есть лого, используем <img>
-                imgContent = `<div class="my-4k-iptv-card__img-container"><img class="my-4k-iptv-card__img" src="${item['tvg-logo']}" loading="lazy" alt="${encoder.text(item.title).html()}"></div>`;
+                // Используем loading="lazy" для оптимизации
+                imgContent = `
+                    <div class="${PLUGIN_COMPONENT}-card__img-container">
+                        <img class="${PLUGIN_COMPONENT}-card__img" src="${item['tvg-logo']}" loading="lazy" alt="${encoder.text(item.title).html()}">
+                        <div class="${PLUGIN_COMPONENT}-card__img-placeholder" style="display:none;">${encoder.text(item.title.substring(0, 30) + (item.title.length > 30 ? '...' : '')).html()}</div>
+                    </div>
+                `;
             } else {
                 // Если лого нет, показываем название как плейсхолдер
-                imgContent = `<div class="my-4k-iptv-card__img-container"><div class="my-4k-iptv-card__img-placeholder">${encoder.text(item.title.substring(0, 30) + (item.title.length > 30 ? '...' : '')).html()}</div></div>`;
+                imgContent = `
+                    <div class="${PLUGIN_COMPONENT}-card__img-container">
+                        <div class="${PLUGIN_COMPONENT}-card__img-placeholder">${encoder.text(item.title.substring(0, 30) + (item.title.length > 30 ? '...' : '')).html()}</div>
+                    </div>
+                `;
             }
 
             const card = $(`
-                <div class="my-4k-iptv-card selector">
+                <div class="${PLUGIN_COMPONENT}-card selector" data-item-index="${index}">
                     ${imgContent}
-                    <div class="my-4k-iptv-card__title">${encoder.text(item.title).html()}</div>
+                    <div class="${PLUGIN_COMPONENT}-card__title">${encoder.text(item.title).html()}</div>
                 </div>
             `);
+
+            // Обработчик загрузки изображения
+            const imgElement = card.find(`.${PLUGIN_COMPONENT}-card__img`)[0];
+            if (imgElement) {
+                imgElement.onload = () => {
+                    // Скрываем плейсхолдер, если он есть
+                    const placeholder = card.find(`.${PLUGIN_COMPONENT}-card__img-placeholder`);
+                    if (placeholder.length) {
+                         placeholder.hide();
+                    }
+                    this.onItemRendered();
+                };
+                imgElement.onerror = () => {
+                    // Показываем плейсхолдер, если изображение не загрузилось
+                    const placeholder = card.find(`.${PLUGIN_COMPONENT}-card__img-placeholder`);
+                    if (placeholder.length) {
+                         placeholder.show();
+                    }
+                    // Скрываем img тег, если он есть
+                    const img = card.find(`.${PLUGIN_COMPONENT}-card__img`);
+                    if (img.length) {
+                         img.hide();
+                    }
+                    this.onItemRendered();
+                };
+            } else {
+                // Если изображения нет с самого начала (плейсхолдер)
+                this.onItemRendered();
+            }
 
             card.on('hover:enter', () => {
                 console.log('[' + PLUGIN_COMPONENT + '] Воспроизведение:', item.title);
@@ -206,18 +287,30 @@
                 });
             });
 
-            // Можно добавить другие обработчики событий, если нужно (hover:focus и т.д.)
-
             cards_container.append(card);
         });
 
+        // Если список пуст, сразу скрываем лоадер
+        if (this.totalItems === 0) {
+             this.onAllItemsRendered();
+        }
+    };
+
+    PluginPage.prototype.onItemRendered = function() {
+        this.itemsRendered++;
+        if (this.itemsRendered >= this.totalItems) {
+            this.onAllItemsRendered();
+        }
+    };
+
+    PluginPage.prototype.onAllItemsRendered = function() {
+        console.log('[' + PLUGIN_COMPONENT + '] Все карточки отрендерены.');
         this.activity.loader(false);
-        this.activity.toggle();
+        this.activity.toggle(); // Активируем активность
     };
 
     PluginPage.prototype.showError = function (message) {
-        this.html.empty();
-        this.html.append(`<div style="padding: 20px; color: #ff5555;">Ошибка: ${message}</div>`);
+        this.html.empty().append(`<div style="padding: 20px; color: #ff5555;">Ошибка: ${message}</div>`);
         this.activity.loader(false);
         this.activity.toggle();
     };
@@ -241,11 +334,13 @@
     PluginPage.prototype.stop = function () { };
     PluginPage.prototype.render = function () { return this.html; };
     PluginPage.prototype.destroy = function () {
+        console.log('[' + PLUGIN_COMPONENT + '] Уничтожение компонента.');
         this.scroll.destroy();
         this.html.remove();
         // Удаляем стили при уничтожении, если это последний экземпляр
-        const styleId = 'my-4k-iptv-styles-' + PLUGIN_COMPONENT;
-        if ($('.my-4k-iptv-card').length === 0) {
+        const styleId = PLUGIN_COMPONENT + '-styles';
+        // Проверяем, есть ли еще активные карточки этого плагина на странице
+        if ($('.' + PLUGIN_COMPONENT + '-card').length === 0) {
              $('#' + styleId).remove();
              console.log('[' + PLUGIN_COMPONENT + '] Стили удалены.');
         }
@@ -284,6 +379,11 @@
 
     function performGlobalSearch(query, callback) {
         console.log('[' + PLUGIN_COMPONENT + '] Глобальный поиск по запросу:', query);
+        const searchTerm = query.toLowerCase().trim();
+        if (!searchTerm) {
+             callback([]);
+             return;
+        }
         // Если данные еще не загружены, загружаем их
         if (parsedItems.length === 0) {
             console.log('[' + PLUGIN_COMPONENT + '] Данные плейлиста не в кэше, загружаем для поиска...');
@@ -294,7 +394,7 @@
                     if (typeof data === 'string' && data.trim().startsWith('#EXTM3U')) {
                         parsedItems = parseM3UStandalone(data); // Используем standalone функцию
                         console.log('[' + PLUGIN_COMPONENT + '] Плейлист для поиска загружен. Элементов:', parsedItems.length);
-                        executeSearch(query, callback);
+                        executeSearch(searchTerm, callback);
                     } else {
                         console.warn('[' + PLUGIN_COMPONENT + '] Поиск: Полученные данные не являются корректным M3U.');
                         callback([]);
@@ -309,16 +409,11 @@
             );
         } else {
             console.log('[' + PLUGIN_COMPONENT + '] Используем кэшированные данные для поиска.');
-            executeSearch(query, callback);
+            executeSearch(searchTerm, callback);
         }
     }
 
-    function executeSearch(query, callback) {
-        const searchTerm = query.toLowerCase().trim();
-        if (!searchTerm) {
-             callback([]);
-             return;
-        }
+    function executeSearch(searchTerm, callback) {
         const results = parsedItems.filter(item =>
             item.title.toLowerCase().includes(searchTerm)
         ).map(item => ({
