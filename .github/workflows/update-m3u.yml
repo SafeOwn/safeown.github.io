@@ -1,4 +1,4 @@
-name: Working Update Playlist
+name: Update Playlist in Folder
 
 on:
   schedule:
@@ -15,15 +15,22 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
-      - name: Download playlist
+      - name: Create folder and download playlist
         run: |
-          curl -L "https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u" -o current_playlist.m3u
+          # Полностью очищаем и создаем папку заново
+          rm -rf bormanulik
+          mkdir -p bormanulik
           
-          if [ -s "current_playlist.m3u" ]; then
-            echo "✅ File downloaded successfully"
-            echo "File size: $(wc -c < current_playlist.m3u) bytes"
+          # Скачиваем файл в папку
+          curl -L "https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u" -o bormanulik/list.m3u
+          
+          # Проверяем результат
+          if [ -s "bormanulik/list.m3u" ]; then
+            echo "✅ File downloaded successfully to bormanulik/list.m3u"
+            echo "File size: $(wc -c < bormanulik/list.m3u) bytes"
+            ls -la bormanulik/
           else
-            echo "❌ Downloaded file is empty"
+            echo "❌ Downloaded file is empty or not created"
             exit 1
           fi
 
@@ -32,10 +39,10 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          git add current_playlist.m3u
+          git add bormanulik/list.m3u
           
           if ! git diff --quiet && ! git diff --staged --quiet; then
-            git commit -m "Update playlist from bormanulik"
+            git commit -m "Update bormanulik/list.m3u playlist"
             git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
             echo "✅ Changes pushed successfully"
           else
