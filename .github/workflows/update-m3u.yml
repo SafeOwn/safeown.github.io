@@ -1,26 +1,30 @@
-name: Test Create bormanulik
+name: Update bormanulik list
 
 on:
+  schedule:
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
-  test-create:
+  update-list:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false
 
-      - name: Create directory and file
+      - name: Download M3U file
         run: |
-          rm -rf bormanulik
-          mkdir -p bormanulik
-          echo "# Test M3U file" > bormanulik/list.m3u
-          ls -la bormanulik/
+          curl -L -o bormanulik/list.m3u https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u
+          echo "File downloaded:"
+          ls -la bormanulik/list.m3u
+          echo "First 5 lines:"
+          head -5 bormanulik/list.m3u
 
-      - name: Commit and push
+      - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Test: Create bormanulik/list.m3u" || echo "No changes to commit"
-          git push
+          git add bormanulik/list.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update bormanulik/list.m3u" && git push "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git")
