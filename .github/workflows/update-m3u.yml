@@ -1,4 +1,4 @@
-name: Update Playlist Final
+name: Update Playlist with GitHub CLI
 
 on:
   schedule:
@@ -11,48 +11,21 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          persist-credentials: true
 
-      - name: Download and update playlist
+      - name: Download playlist
         run: |
+          rm -rf bormanulik
           mkdir -p bormanulik
-          
-          # Сохраняем старую версию (если есть)
-          if [ -f "bormanulik/list.m3u" ]; then
-            cp bormanulik/list.m3u bormanulik/list.m3u.old
-          fi
-          
-          # Скачиваем новую версию
           curl -L "https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u" -o bormanulik/list.m3u
-          
-          # Проверяем, изменился ли файл
-          if [ -f "bormanulik/list.m3u.old" ]; then
-            if cmp -s bormanulik/list.m3u.old bormanulik/list.m3u; then
-              echo "ℹ️ File unchanged"
-              rm bormanulik/list.m3u.old
-              echo "NO_CHANGES=true" >> $GITHUB_ENV
-            else
-              echo "✅ File updated"
-              rm bormanulik/list.m3u.old
-              echo "NO_CHANGES=false" >> $GITHUB_ENV
-            fi
-          else
-            echo "✅ New file downloaded"
-            echo "NO_CHANGES=false" >> $GITHUB_ENV
-          fi
+          echo "✅ File downloaded successfully"
 
-      - name: Commit changes
-        if: env.NO_CHANGES == 'false'
+      - name: Commit and push with GitHub CLI
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add bormanulik/list.m3u
           git commit -m "Update bormanulik playlist"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-
-      - name: No changes message
-        if: env.NO_CHANGES == 'true'
-        run: |
-          echo "ℹ️ No changes to commit"
+          gh auth setup-git
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
