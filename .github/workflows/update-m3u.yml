@@ -1,9 +1,7 @@
 name: Update list.m3u
 
 on:
-  schedule:
-    - cron: '0 */6 * * *'  # Каждые 6 часов
-  workflow_dispatch:     # Для ручного запуска
+  workflow_dispatch:
 
 jobs:
   update-list:
@@ -12,28 +10,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Clean and create directory structure
+      - name: Test download
         run: |
-          # Полностью удаляем всё, что связано с bormanulik
           rm -rf bormanulik
-          # Создаем чистую папку
           mkdir -p bormanulik
-          # Скачиваем файл
-          curl -L -o bormanulik/list.m3u https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u
-
-      - name: Check if file downloaded
-        run: |
-          if [ -f "bormanulik/list.m3u" ]; then
-            echo "File downloaded successfully"
-            ls -la bormanulik/
-          else
-            echo "ERROR: File not downloaded"
-            exit 1
-          fi
-
-      - name: Commit and push if changed
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update bormanulik/list.m3u" && git push)
+          curl -v -L -o bormanulik/list.m3u https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u
+          ls -la bormanulik/
