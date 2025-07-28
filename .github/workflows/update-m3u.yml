@@ -12,14 +12,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Create directory and download list.m3u
+      - name: Remove existing file and create directory
         run: |
+          # Удаляем файл bormanulik если он существует как файл
+          if [ -f "bormanulik" ]; then
+            rm bormanulik
+          fi
+          # Создаем папку
           mkdir -p bormanulik
+          # Скачиваем файл в папку
           curl -o bormanulik/list.m3u https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add bormanulik/list.m3u
+          git add .
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update bormanulik/list.m3u" && git push)
