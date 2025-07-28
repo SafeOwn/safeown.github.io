@@ -1,4 +1,4 @@
-name: Update Playlist with Change Detection
+name: Update Playlist Final
 
 on:
   schedule:
@@ -32,20 +32,27 @@ jobs:
             if cmp -s bormanulik/list.m3u.old bormanulik/list.m3u; then
               echo "ℹ️ File unchanged"
               rm bormanulik/list.m3u.old
-              exit 0
+              echo "NO_CHANGES=true" >> $GITHUB_ENV
             else
               echo "✅ File updated"
               rm bormanulik/list.m3u.old
+              echo "NO_CHANGES=false" >> $GITHUB_ENV
             fi
           else
             echo "✅ New file downloaded"
+            echo "NO_CHANGES=false" >> $GITHUB_ENV
           fi
 
       - name: Commit changes
-        if: success()
+        if: env.NO_CHANGES == 'false'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add bormanulik/list.m3u
           git commit -m "Update bormanulik playlist"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+      - name: No changes message
+        if: env.NO_CHANGES == 'true'
+        run: |
+          echo "ℹ️ No changes to commit"
