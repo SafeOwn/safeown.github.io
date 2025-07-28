@@ -1,43 +1,46 @@
-name: Diagnostic Test
+name: Working Update Playlist
 
 on:
+  schedule:
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
-  diagnose:
+  update-playlist:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Check repository status
+      - name: Download playlist
         run: |
-          echo "Current directory:"
-          pwd
-          echo "Files in repository:"
-          ls -la
-          echo "Git status:"
-          git status
+          # Простое скачивание
+          curl -L "https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u" -o current_playlist.m3u
+          
+          # Проверим, что файл не пустой
+          if [ -s "current_playlist.m3u" ]; then
+            echo "✅ File downloaded successfully"
+            echo "File size: $(wc -c < current_playlist.m3u) bytes"
+          else
+            echo "❌ Downloaded file is empty"
+            exit 1
+          fi
 
-      - name: Test file creation
-        run: |
-          echo "Testing file creation..."
-          echo "# Test file created at $(date)" > test_file.txt
-          ls -la test_file.txt
-
-      - name: Test curl
-        run: |
-          echo "Testing curl..."
-          curl -L -o test_download.txt https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u
-          echo "Download result:"
-          ls -la test_download.txt
-          echo "File size:"
-          wc -l test_download.txt
-
-      - name: Try to commit
+      - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add test_file.txt test_download.txt
-          git commit -m "Diagnostic test files" || echo "Nothing to commit"
-          git push || echo "Push failed"
+          
+          # Добавляем файл
+          git add current_playlist.m3u
+          
+          # Проверяем, есть ли изменения
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "ℹ️ No changes to commit"
+          else
+            git commit -m "Update playlist from bormanulik"
+            git push
+            echo "✅ Changes pushed successfully"
+          fi
