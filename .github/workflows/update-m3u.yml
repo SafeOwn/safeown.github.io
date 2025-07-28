@@ -1,12 +1,10 @@
-name: Update bormanulik list
+name: Debug bormanulik update
 
 on:
-  schedule:
-    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
-  update-list:
+  debug-update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -14,17 +12,33 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Download M3U file
+      - name: Debug current structure
         run: |
-          curl -L -o bormanulik/list.m3u https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u
-          echo "File downloaded:"
-          ls -la bormanulik/list.m3u
-          echo "First 5 lines:"
-          head -5 bormanulik/list.m3u
+          echo "Current directory structure:"
+          ls -la
+          echo "bormanulik content (if exists):"
+          ls -la bormanulik/ 2>/dev/null || echo "bormanulik folder not found"
 
-      - name: Commit changes
+      - name: Create/update file
+        run: |
+          mkdir -p bormanulik
+          curl -L -v -o bormanulik/list.m3u https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u
+          echo "Download result:"
+          ls -la bormanulik/
+
+      - name: Setup git
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+
+      - name: Commit and push
+        run: |
           git add bormanulik/list.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update bormanulik/list.m3u" && git push "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git")
+          if ! git diff --quiet && ! git diff --staged --quiet; then
+            git commit -m "Update bormanulik/list.m3u"
+            git push "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+            echo "Changes pushed successfully"
+          else
+            echo "No changes to commit"
+          fi
+        continue-on-error: true
