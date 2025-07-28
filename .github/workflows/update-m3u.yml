@@ -1,44 +1,26 @@
-name: Debug bormanulik update
+name: Update simple list.m3u
 
 on:
+  schedule:
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
-  debug-update:
+  update-list:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          persist-credentials: false
 
-      - name: Debug current structure
+      - name: Download M3U file
         run: |
-          echo "Current directory structure:"
-          ls -la
-          echo "bormanulik content (if exists):"
-          ls -la bormanulik/ 2>/dev/null || echo "bormanulik folder not found"
-
-      - name: Create/update file
-        run: |
-          mkdir -p bormanulik
-          curl -L -v -o bormanulik/list.m3u https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u
-          echo "Download result:"
-          ls -la bormanulik/
-
-      - name: Setup git
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          curl -L -o list_bormanulik.m3u https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u
+          echo "File size:"
+          ls -la list_bormanulik.m3u
 
       - name: Commit and push
         run: |
-          git add bormanulik/list.m3u
-          if ! git diff --quiet && ! git diff --staged --quiet; then
-            git commit -m "Update bormanulik/list.m3u"
-            git push "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
-            echo "Changes pushed successfully"
-          else
-            echo "No changes to commit"
-          fi
-        continue-on-error: true
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add list_bormanulik.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update list_bormanulik.m3u" && git push)
