@@ -13,13 +13,12 @@ jobs:
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
       - name: Download playlist
         run: |
-          # Простое скачивание
           curl -L "https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u" -o current_playlist.m3u
           
-          # Проверим, что файл не пустой
           if [ -s "current_playlist.m3u" ]; then
             echo "✅ File downloaded successfully"
             echo "File size: $(wc -c < current_playlist.m3u) bytes"
@@ -33,14 +32,12 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # Добавляем файл
           git add current_playlist.m3u
           
-          # Проверяем, есть ли изменения
-          if git diff --quiet && git diff --staged --quiet; then
-            echo "ℹ️ No changes to commit"
-          else
+          if ! git diff --quiet && ! git diff --staged --quiet; then
             git commit -m "Update playlist from bormanulik"
-            git push
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
             echo "✅ Changes pushed successfully"
+          else
+            echo "ℹ️ No changes to commit"
           fi
