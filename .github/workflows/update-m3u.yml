@@ -1,0 +1,24 @@
+name: Update list.m3u
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Каждый 6 часов
+  workflow_dispatch:     # Для ручного запуска
+
+jobs:
+  update-list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Download list.m3u from bormanulik
+        run: |
+          curl -o list.m3u https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add list.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update list.m3u" && git push)
