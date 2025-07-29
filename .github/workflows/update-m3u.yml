@@ -16,17 +16,53 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Download playlist
+      - name: Download playlists
         run: |
+          # Очистка и создание директорий
           rm -rf bormanulik
+          rm -rf IPTVSHARED
+          rm -rf MaximKiselev
+          rm -rf LoganetXIPTV
+          rm -rf maks-mk
           mkdir -p bormanulik
+          mkdir -p IPTVSHARED
+          mkdir -p MaximKiselev
+          mkdir -p LoganetXIPTV
+          mkdir -p maks-mk
+          
+          # Скачивание bormanulik playlist
           curl -L "https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u" -o bormanulik/list.m3u
-          echo "✅ File downloaded"
+          
+          # Скачивание IPTVSHARED playlist, IPTV, TOPPEHT_TB, MEDIASHARED
+          curl -L "https://raw.githubusercontent.com/IPTVSHARED/iptv/main/IPTV_SHARED.m3u" -o IPTVSHARED/IPTV_SHARED.m3u  
+          curl -L "https://raw.githubusercontent.com/IPTVSHARED/iptv/main/TOPPEHT_TB.m3u" -o IPTVSHARED/TOPPEHT_TB.m3u          
+          curl -L "https://raw.githubusercontent.com/IPTVSHARED/iptv/main/MEDIASHARED.m3u" -o IPTVSHARED/MEDIASHARED.m3u
+          
+          # Скачивание MaximKiselev playlist
+          curl -L "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u" -o MaximKiselev/playlist.m3u
+          
+          # Скачивание LoganetXIPTV playlists
+          curl -L "https://raw.githubusercontent.com/blackbirdstudiorus/LoganetXIPTV/main/LoganetXAll.m3u" -o LoganetXIPTV/LoganetXAll.m3u
+          curl -L "https://raw.githubusercontent.com/blackbirdstudiorus/LoganetXIPTV/main/LoganetXStrawberry.m3u" -o LoganetXIPTV/LoganetXStrawberry.m3u
+          
+          # Скачивание maks-mk playlists
+          curl -L "https://raw.githubusercontent.com/maks-mk/lampatv/main/adult2.m3u8" -o maks-mk/adult2.m3u8
+          curl -L "https://raw.githubusercontent.com/maks-mk/lampatv/main/kino18-dubl.m3u" -o maks-mk/kino18-dubl.m3u
+          
+          echo "✅ All files downloaded"
 
       - name: Commit and push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add bormanulik/list.m3u
-          git commit -m "Update bormanulik playlist" || echo "No changes to commit"
+          git add IPTVSHARED/IPTV_SHARED.m3u
+          git add IPTVSHARED/TOPPEHT_TB.m3u
+          git add IPTVSHARED/MEDIASHARED.m3u
+          git add MaximKiselev/playlist.m3u
+          git add LoganetXIPTV/LoganetXAll.m3u
+          git add LoganetXIPTV/LoganetXStrawberry.m3u
+          git add maks-mk/adult2.m3u8
+          git add maks-mk/kino18-dubl.m3u
+          git commit -m "Update playlists" || echo "No changes to commit"
           git push
