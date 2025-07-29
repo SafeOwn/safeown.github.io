@@ -25,6 +25,7 @@ jobs:
           mkdir -p autoIPTV/MaximKiselev
           mkdir -p autoIPTV/LoganetXIPTV
           mkdir -p autoIPTV/maks-mk
+          mkdir -p autoIPTV/Spirt007
           
           # Скачивание bormanulik playlist
           curl -L "https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u" -o autoIPTV/bormanulik/list.m3u
@@ -44,6 +45,9 @@ jobs:
           # Скачивание maks-mk playlists
           curl -L "https://raw.githubusercontent.com/maks-mk/lampatv/main/adult2.m3u8" -o autoIPTV/maks-mk/adult2.m3u8
           curl -L "https://raw.githubusercontent.com/maks-mk/lampatv/main/kino18-dubl.m3u" -o autoIPTV/maks-mk/kino18-dubl.m3u
+          
+          # Скачивание Spirt007 playlist
+          curl -L "https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u" -o autoIPTV/Spirt007/Rus.m3u
           
           echo "✅ All files downloaded"
 
