@@ -8,25 +8,32 @@
 
     function pluginPage(data) {
         var network = new Lampa.Reguest();
-        var scroll = new Lampa.Scroll({mask: true, over: true});
+        var scroll = new Lampa.Scroll({ mask: true, over: true });
         var html = $('<div></div>');
         var body = $('<div class="' + plugin.component + ' category-full"></div>');
         var info;
         var last;
 
-        // Добавляем CSS стили для книжных постеров
+        // Добавляем CSS стили для книжных постеров и адаптивной сетки
         var styles = $(`
             <style>
+            /* Основные стили для плагина */
             .${plugin.component}.category-full {
                 padding-bottom: 10em;
             }
+            
+            /* Стили для книжных карточек */
             .${plugin.component} .card__view {
                 position: relative;
                 background-color: #353535;
                 border-radius: 1em;
                 cursor: pointer;
-                padding-bottom: 150% !important; /* Книжный формат 2:3 */
+                /* Книжный формат 2:3 */
+                padding-bottom: 150% !important;
+                height: 0;
+                overflow: hidden;
             }
+            
             .${plugin.component} img.card__img,
             .${plugin.component} div.card__img {
                 background-color: unset;
@@ -40,6 +47,41 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 font-size: 2em;
+                object-fit: cover; /* Сохраняем пропорции изображения */
+            }
+            
+            /* Адаптивная сетка */
+            /* По умолчанию для больших экранов (ТВ) - 6 колонок */
+            .${plugin.component}_grid {
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                gap: 15px;
+                padding: 0 20px 20px;
+            }
+            
+            /* Для планшетов - 4 колонки */
+            @media screen and (max-width: 1200px) {
+                .${plugin.component}_grid {
+                    grid-template-columns: repeat(4, 1fr);
+                }
+            }
+            
+            /* Для телефонов - 2 колонки */
+            @media screen and (max-width: 768px) {
+                .${plugin.component}_grid {
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 10px;
+                    padding: 0 10px 10px;
+                }
+            }
+            
+            /* Для очень маленьких экранов - 2 колонки с меньшими отступами */
+            @media screen and (max-width: 480px) {
+                .${plugin.component}_grid {
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 8px;
+                    padding: 0 8px 8px;
+                }
             }
             </style>
         `);
@@ -61,6 +103,7 @@
         };
 
         this.loadPlaylist = function () {
+            // URL вашего M3U плейлиста
             var url = 'https://safeown.github.io/plvideo_4k_final.m3u';
             var _this = this;
 
@@ -97,6 +140,7 @@
                 var line = lines[i].trim();
 
                 if (line.startsWith('#EXTINF:')) {
+                    // Извлекаем tvg-logo и название канала
                     var logoMatch = line.match(/tvg-logo="([^"]+)"/);
                     var nameMatch = line.split(',').pop();
 
@@ -109,6 +153,7 @@
                         url: ''
                     };
                 } else if (currentChannel && line.startsWith('http')) {
+                    // Следующая строка после #EXTINF содержит URL
                     currentChannel.url = line;
                     channels.push(currentChannel);
                     currentChannel = null;
@@ -120,59 +165,80 @@
         this.displayChannels = function (channels) {
             body.empty();
 
-            // Определяем количество колонок
-            var isMobile = Lampa.Utils.isMobile();
-            var columns = isMobile ? 2 : 6;
-            
-            // Принудительно устанавливаем стиль для книжного вида
-            var grid_styles = `display: grid; grid-template-columns: repeat(${columns}, 1fr); gap: 15px; padding: 0 20px 20px;`;
-            var grid = $(`<div style="${grid_styles}"></div>`);
+            // Создаем контейнер сетки
+            var grid = $(`<div class="${plugin.component}_grid"></div>`);
 
             channels.forEach(function (channel, index) {
-                // Используем стандартный шаблон карточки
+                // Используем стандартный шаблон карточки Lampa
                 var card = Lampa.Template.get('card', {
                     title: channel.name,
-                    release_year: ''
+                    release_year: '' // Можно использовать для группы, если нужно
                 });
 
+                // Добавляем класс для коллекции
                 card.addClass('card--collection');
-                // Устанавливаем ширину карточки
-                card.css('width', `calc(${100 / columns}% - 10px)`); 
                 
                 var img = card.find('.card__img')[0];
                 
-                // Ленивая загрузка
+                // Ленивая загрузка для оптимизации
                 if ('loading' in HTMLImageElement.prototype) {
                     img.loading = (index < 12 ? 'eager' : 'lazy');
                 }
                 
+                // Обработчик успешной загрузки изображения
                 img.onload = function () {
                     card.addClass('card--loaded');
                 };
                 
+                // Обработчик ошибки загрузки изображения
                 img.onerror = function (e) {
-                    // Заглушка при ошибке загрузки
-                    card.find('.card__img').replaceWith('<div class="card__img" style="background-color: #333; display: flex; align-items: center; justify-content: center; font-size: 2em; color: #666;">📺</div>');
+                    // Создаем заглушку с инициалами названия канала
+                    var name = channel.name.replace(/\s+\(([+-]?\d+)\)/, ' $1')
+                                          .replace(/[-.()\s]+/g, ' ')
+                                          .replace(/(^|\s+)(TV|ТВ)(\s+|$)/i, '$3');
+                    var fl = name.replace(/\s+/g, '').length > 5 ? 
+                             name.split(/\s+/).map(function(v) { 
+                                 return v.match(/^(\+?\d+|[UF]?HD|4K)$/i) ? v : v.substring(0,1).toUpperCase() 
+                             }).join('').substring(0,6) : 
+                             name.replace(/\s+/g, '');
+                    fl = fl.replace(/([UF]?HD|4k|\+\d+)$/i, '<sup>$1</sup>');
+                    
+                    // Генерируем цвет на основе названия
+                    var hex = (Lampa.Utils.hash(channel.name) * 1).toString(16);
+                    while (hex.length < 6) hex += hex;
+                    hex = hex.substring(0,6);
+                    var r = parseInt(hex.slice(0, 2), 16),
+                        g = parseInt(hex.slice(2, 4), 16),
+                        b = parseInt(hex.slice(4, 6), 16);
+                    var hexText = (r * 0.299 + g * 0.587 + b * 0.114) > 186 ? '#000000' : '#FFFFFF';
+                    
+                    // Заменяем изображение на заглушку
+                    card.find('.card__img').replaceWith('<div class="card__img" style="display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold;">' + fl + '</div>');
+                    card.find('.card__view').css({
+                        'background-color': '#' + hex, 
+                        'color': hexText
+                    });
                     card.addClass('card--loaded');
                 };
 
+                // Устанавливаем источник изображения или вызываем onerror если лого нет
                 if (channel.logo) {
                     img.src = channel.logo;
                 } else {
                     img.onerror();
                 }
 
-                // Обработчики событий
+                // Обработчики событий навигации
                 card.on('hover:focus hover:hover', function (e) {
                     last = card[0];
                     scroll.update(card, true);
                 }).on('hover:enter', function () {
-                    // Воспроизведение
+                    // Воспроизведение канала
                     var video_data = {
                         title: channel.name,
                         url: channel.url,
                         plugin: plugin.component,
-                        tv: true
+                        tv: true // Указывает, что это ТВ поток
                     };
                     Lampa.Player.play(video_data);
                 });
@@ -236,10 +302,10 @@
 
     // Инициализация плагина
     function initPlugin() {
-        // Регистрируем компонент
+        // Регистрируем компонент плагина
         Lampa.Component.add(plugin.component, pluginPage);
 
-        // Добавляем в меню
+        // Функция добавления пункта меню
         function addToMenu() {
             var menu_item = $(`
                 <li class="menu__item selector" data-component="${plugin.component}">
@@ -251,15 +317,17 @@
                     <div class="menu__text">${plugin.name}</div>
                 </li>
             `).on('hover:enter', function () {
+                // Переход к активности плагина
                 Lampa.Activity.push({
                     component: plugin.component
                 });
             });
 
+            // Добавляем пункт меню в основной список
             $('.menu .menu__list').first().append(menu_item);
         }
 
-        // Ждем готовности приложения
+        // Ждем готовности приложения перед добавлением в меню
         if (window.appready) {
             addToMenu();
         } else {
@@ -271,6 +339,7 @@
         }
     }
 
+    // Запускаем инициализацию плагина
     initPlugin();
 
 })();
