@@ -1,7 +1,7 @@
 /*
-// Плагин IPTV для Lampa
+// Плагин IPTV для Lampa (исправленная версия)
 // Загружает M3U плейлист и отображает каналы с обложками
-// Адаптирует количество колонок под тип устройства (телефон/телевизор)
+// Адаптирует количество колонок под тип устройства (телефон/планшет/телевизор)
 */
 ;(function () {
     'use strict';
@@ -150,7 +150,7 @@
                 var title = !newVal ? defName : newVal;
                 $('.js-' + plugin.component + '-menu' + i + '-title').text(title);
                 activity.title = title;
-                lists[i].activity.title = title; // Обновляем в списке
+                if (lists[i]) lists[i].activity.title = title; // Обновляем в списке
             }
         });
 
@@ -161,19 +161,20 @@
             placeholder: 'https://example.com/playlist.m3u',
             description: 'Ссылка на .m3u или .m3u8 файл',
             onChange: function (url) {
-                if (url === activity.url) return;
+                if (url === (lists[i] ? lists[i].activity.url : '')) return;
                 if (activity.id === curListId) {
                     catalog = {};
                     curListId = -1;
                 }
+                var menuEl = lists[i] ? lists[i].menuEl : null;
                 if (/^https?:\/\/./i.test(url)) {
                     activity.url = url;
-                    $('.js-' + plugin.component + '-menu' + i).show();
+                    if (menuEl) menuEl.show();
                 } else {
                     activity.url = '';
-                    $('.js-' + plugin.component + '-menu' + i).hide();
+                    if (menuEl) menuEl.hide();
                 }
-                lists[i].activity.url = url; // Обновляем в списке
+                if (lists[i]) lists[i].activity.url = url; // Обновляем в списке
             }
         });
 
@@ -281,6 +282,7 @@
                 
                 var handleSuccess = function(data) {
                     if (typeof data != 'string' || data.substr(0, 7).toUpperCase() !== "#EXTM3U") {
+                        console.error("Полученные данные не являются корректным M3U плейлистом");
                         emptyResult();
                         return;
                     }
@@ -326,20 +328,17 @@
                             }
 
                             // Парсим параметры #EXTINF
-                            var params = line.substring(8, line.indexOf(',')).split(' ');
-                            for (var p = 0; p < params.length; p++) {
-                                if (params[p].includes('=')) {
-                                    var pair = params[p].split('=');
-                                    var key = pair[0].toLowerCase();
-                                    // Убираем кавычки, если они есть
-                                    var value = pair[1];
-                                    if (value.startsWith('"') && value.endsWith('"')) {
-                                        value = value.substring(1, value.length - 1);
-                                    } else if (value.startsWith("'") && value.endsWith("'")) {
-                                        value = value.substring(1, value.length - 1);
-                                    }
-                                    channel[key] = value;
+                            var paramsLine = line.substring(8, line.indexOf(','));
+                            var paramRegex = /([a-zA-Z0-9-]+?)=("(?:[^"\\]|\\.)*"|'(?:[^'\\]|\\.)*'|[^,\s]+)/g;
+                            var paramMatch;
+                            while ((paramMatch = paramRegex.exec(paramsLine)) !== null) {
+                                var key = paramMatch[1].toLowerCase();
+                                var value = paramMatch[2];
+                                // Убираем кавычки, если они есть
+                                if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+                                    value = value.substring(1, value.length - 1);
                                 }
+                                channel[key] = value;
                             }
                         }
                         else if (line.startsWith('#EXTVLCOPT:')) {
@@ -350,7 +349,8 @@
                                 }
                             }
                         }
-                        else if (line.match(/^(https?):\/\//)) {
+                        // else if (line.match(/^(https?|udp|rt[ms]?p|mms|acestream):\/\//)) { // Более широкий список протоколов
+                        else if (line.match(/^(https?):\/\//)) { // Ограничимся http/https для простоты
                             if (channel) {
                                 channel.Url = line;
                                 channel.isYouTube = line.includes('youtube.com');
@@ -372,6 +372,7 @@
                                 channel = null; // Сброс для следующего канала
                             }
                         }
+                        // Игнорируем другие строки (пустые, комментарии и т.д.)
                     }
 
                     // Обновляем названия групп с количеством каналов
@@ -390,13 +391,17 @@
                     );
                 };
 
-                var handleError = function() {
+                var handleError = function(jqXHR, textStatus, errorThrown) {
+                    console.error("Ошибка загрузки плейлиста:", textStatus, errorThrown);
                     // Пробуем через прокси
                     network.silent(
                         Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(listUrl) +
                         '&uid=' + UID + '&sig=' + generateSigForString(listUrl),
                         handleSuccess,
-                        emptyResult,
+                        function() {
+                            console.error("Ошибка загрузки плейлиста через прокси");
+                            emptyResult();
+                        },
                         false,
                         { dataType: 'text' }
                     );
@@ -422,7 +427,7 @@
             var _this2 = this;
             
             // Определяем количество каналов для одновременной загрузки
-            var bulkSize = isMobile ? 10 : (isTablet ? 20 : 30);
+            var bulkSize = Lampa.Platform.is('mobile') ? 10 : (Lampa.Platform.is('tablet') ? 20 : 30);
             
             var bulkFn = function(channel) {
                 var card = Lampa.Template.get('card', {
@@ -515,11 +520,20 @@
 
             // Добавляем каналы с контролем скорости
             var index = 0;
+            var total = data.length;
             var addNext = function() {
-                if (index < data.length) {
-                    bulkFn(data[index]);
-                    index++;
-                    setTimeout(addNext, 10); // Небольшая задержка для разгрузки
+                if (index < total) {
+                    var end = Math.min(index + bulkSize, total);
+                    for (var i = index; i < end; i++) {
+                        bulkFn(data[i]);
+                    }
+                    index = end;
+                    if (index < total) {
+                         setTimeout(addNext, 10); // Небольшая задержка для разгрузки
+                    } else {
+                        _this2.activity.loader(false);
+                        _this2.activity.toggle();
+                    }
                 } else {
                     _this2.activity.loader(false);
                     _this2.activity.toggle();
@@ -539,7 +553,7 @@
          * @param {Array} data - Массив каналов для отображения
          */
         this.build = function (data) {
-            Lampa.Background.change();
+            Lampa.Background.clear(); // Очищаем фон
 
             // Добавляем CSS для адаптивных колонок
             Lampa.Template.add(plugin.component + '_styles', `
@@ -617,6 +631,8 @@
                 Lampa.Controller.collectionSet(info);
                 Navigator.move('right');
             }
+            _this2.activity.loader(false);
+            _this2.activity.toggle();
         };
 
         /**
@@ -701,7 +717,7 @@
         };
     }
 
-    // Локализация
+    // Локализация (упрощенная)
     if (!Lampa.Lang) {
         var lang_data = {};
         Lampa.Lang = {
