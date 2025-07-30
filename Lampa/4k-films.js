@@ -16,39 +16,45 @@
         var body = $('<div class="' + plugin.component + ' category-full"></div>');
         var info;
         var last;
-        // Для отслеживания свайпа
-        var isSwiping = false;
-        var startY = 0;
-        var startX = 0;
-        var SWIPE_THRESHOLD = 10; // Минимальное расстояние для определения свайпа
 
-        // Добавляем CSS стили для адаптивной сетки и книжных постеров
+        // Добавляем CSS стили
         var styles = $(`
             <style>
             .${plugin.component}.category-full {
                 padding-bottom: 10em;
             }
             
-            /* Адаптивная сетка через Flexbox (как в оригинальном примере) */
+            /* Адаптивная сетка через float (как в оригинальном примере) */
             .${plugin.component}_grid {
-                display: flex;
-                flex-wrap: wrap;
                 padding: 0 20px 20px;
-                /* Убираем отрицательные маржины, используем gap */
-                gap: 15px;
             }
             
             /* Карточка в сетке */
             .${plugin.component}_item {
+                float: left;
                 /* Для больших экранов (ТВ) - 6 колонок */
-                flex: 0 1 calc((100% - 75px) / 6); /* 6 карточек - 5 промежутков по 15px = 75px */
-                min-width: 0; /* Позволяет flex-элементам сжиматься */
+                width: calc((100% - 75px) / 6); /* 6 карточек - 5 промежутков по 15px = 75px */
+                margin-right: 15px;
+                margin-bottom: 15px;
+            }
+            
+            /* Сброс margin-right для последней карточки в строке */
+            .${plugin.component}_item:nth-child(6n) {
+                margin-right: 0;
             }
             
             /* Для планшетов - 4 колонки */
             @media screen and (max-width: 1200px) {
                 .${plugin.component}_item {
-                    flex: 0 1 calc((100% - 45px) / 4); /* 4 карточки - 3 промежутка по 15px = 45px */
+                    width: calc((100% - 45px) / 4); /* 4 карточки - 3 промежутка по 15px = 45px */
+                }
+                
+                .${plugin.component}_item:nth-child(6n) {
+                    margin-right: 15px;
+                }
+                
+                .${plugin.component}_item:nth-child(4n) {
+                    margin-right: 0;
                 }
             }
             
@@ -56,11 +62,21 @@
             @media screen and (max-width: 768px) {
                 .${plugin.component}_grid {
                     padding: 0 10px 10px;
-                    gap: 10px;
                 }
                 
                 .${plugin.component}_item {
-                    flex: 0 1 calc((100% - 10px) / 2); /* 2 карточки - 1 промежуток по 10px */
+                    width: calc((100% - 10px) / 2); /* 2 карточки - 1 промежуток по 10px */
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                }
+                
+                .${plugin.component}_item:nth-child(6n),
+                .${plugin.component}_item:nth-child(4n) {
+                    margin-right: 10px;
+                }
+                
+                .${plugin.component}_item:nth-child(2n) {
+                    margin-right: 0;
                 }
             }
             
@@ -68,8 +84,18 @@
             @media screen and (max-width: 480px) {
                 .${plugin.component}_grid {
                     padding: 0 8px 8px;
-                    gap: 8px;
                 }
+                
+                .${plugin.component}_item {
+                    margin-bottom: 8px;
+                }
+            }
+            
+            /* Очистка float */
+            .${plugin.component}_grid::after {
+                content: "";
+                display: table;
+                clear: both;
             }
             
             /* Стили для книжных карточек */
@@ -83,7 +109,7 @@
                 background-color: #353535;
                 border-radius: 1em;
                 cursor: pointer;
-                /* Книжный формат 2:3 - более реалистичный размер */
+                /* Книжный формат 2:3 */
                 padding-bottom: 150% !important;
                 height: 0;
                 overflow: hidden;
@@ -101,7 +127,7 @@
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                font-size: 1.5em; /* Уменьшаем размер шрифта для заглушек */
+                font-size: 1.5em;
                 object-fit: cover;
                 display: flex;
                 align-items: center;
@@ -245,8 +271,9 @@
                 // Добавляем класс для коллекции
                 card.addClass('card--collection');
                 
-                // --- Установка книжной формы карточки ---
+                // --- Установка книжной формы карточки через cardView.css() ---
                 var cardView = card.find('.card__view');
+                // padding-bottom: 150% создает высоту, равную 150% от ширины (формат 2:3)
                 cardView.css({
                     'padding-bottom': '150%', // Книжный формат 2:3
                     'height': '0',
@@ -301,86 +328,12 @@
                     img.onerror();
                 }
 
-                // --- НАЧАЛО ВСТАВКИ: Обработчики событий для предотвращения срабатывания при свайпе ---
-                // Для мыши
-                card.on('mousedown', function(e) {
-                    isSwiping = false;
-                    startX = e.clientX;
-                    startY = e.clientY;
-                });
-                
-                card.on('mousemove', function(e) {
-                    if (startX !== 0 || startY !== 0) {
-                        var diffX = Math.abs(e.clientX - startX);
-                        var diffY = Math.abs(e.clientY - startY);
-                        if (diffX > SWIPE_THRESHOLD || diffY > SWIPE_THRESHOLD) {
-                            isSwiping = true;
-                        }
-                    }
-                });
-                
-                card.on('mouseup', function(e) {
-                    if (!isSwiping) {
-                        // Воспроизведение канала только если это был клик, а не свайп
-                        var video_data = {
-                            title: channel.Title,
-                            url: channel.Url,
-                            plugin: plugin.component,
-                            tv: true
-                        };
-                        Lampa.Player.play(video_data);
-                    }
-                    // Сброс состояния
-                    isSwiping = false;
-                    startX = 0;
-                    startY = 0;
-                });
-                
-                // Для тача
-                card.on('touchstart', function(e) {
-                    isSwiping = false;
-                    if (e.originalEvent.touches.length > 0) {
-                        startX = e.originalEvent.touches[0].clientX;
-                        startY = e.originalEvent.touches[0].clientY;
-                    }
-                });
-                
-                card.on('touchmove', function(e) {
-                    if (startX !== 0 || startY !== 0) {
-                        if (e.originalEvent.touches.length > 0) {
-                            var diffX = Math.abs(e.originalEvent.touches[0].clientX - startX);
-                            var diffY = Math.abs(e.originalEvent.touches[0].clientY - startY);
-                            if (diffX > SWIPE_THRESHOLD || diffY > SWIPE_THRESHOLD) {
-                                isSwiping = true;
-                            }
-                        }
-                    }
-                });
-                
-                card.on('touchend', function(e) {
-                    if (!isSwiping) {
-                        // Воспроизведение канала только если это был тап, а не свайп
-                        var video_data = {
-                            title: channel.Title,
-                            url: channel.Url,
-                            plugin: plugin.component,
-                            tv: true
-                        };
-                        Lampa.Player.play(video_data);
-                    }
-                    // Сброс состояния
-                    isSwiping = false;
-                    startX = 0;
-                    startY = 0;
-                });
-                // --- КОНЕЦ ВСТАВКИ ---
-
-                // Обработчики событий навигации для контроллера/клавиатуры
+                // Обработчики событий навигации
                 card.on('hover:focus hover:hover', function (e) {
                     last = card[0];
                     scroll.update(card, true);
                 }).on('hover:enter', function () {
-                    // Воспроизведение канала через контроллер
+                    // Воспроизведение канала
                     var video_data = {
                         title: channel.Title,
                         url: channel.Url,
