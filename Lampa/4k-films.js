@@ -25,38 +25,6 @@
                 padding-bottom: 10em;
             }
             
-            /* Стили для книжных карточек */
-            .${plugin.component} .card__view {
-                position: relative;
-                background-color: #353535;
-                border-radius: 1em;
-                cursor: pointer;
-                /* Книжный формат 2:3 */
-                padding-bottom: 150% !important;
-                height: 0;
-                overflow: hidden;
-            }
-            
-            .${plugin.component} img.card__img,
-            .${plugin.component} div.card__img {
-                background-color: unset;
-                border-radius: unset;
-                max-height: 200%;
-                max-width: 50%;
-                height: 200%;
-                width: 50%;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                font-size: 2em;
-                object-fit: cover; /* Сохраняем пропорции изображения */
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-weight: bold;
-            }
-            
             /* Адаптивная сетка */
             /* По умолчанию для больших экранов (ТВ) - 6 колонок */
             .${plugin.component}_grid {
@@ -89,6 +57,43 @@
                     gap: 8px;
                     padding: 0 8px 8px;
                 }
+            }
+            
+            /* Стили для книжных карточек */
+            .${plugin.component} .card {
+                /* Убираем фиксированную ширину с карточки */
+                width: auto !important;
+            }
+            
+            .${plugin.component} .card__view {
+                position: relative;
+                background-color: #353535;
+                border-radius: 1em;
+                cursor: pointer;
+                /* Книжный формат 2:3 - увеличиваем высоту */
+                padding-bottom: 150% !important;
+                height: 0;
+                overflow: hidden;
+            }
+            
+            .${plugin.component} img.card__img,
+            .${plugin.component} div.card__img {
+                background-color: unset;
+                border-radius: unset;
+                max-height: 200%;
+                max-width: 50%;
+                height: 200%;
+                width: 50%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 2em;
+                object-fit: cover; /* Сохраняем пропорции изображения */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
             }
             </style>
         `);
@@ -203,6 +208,18 @@
 
                 // Добавляем класс для коллекции
                 card.addClass('card--collection');
+                
+                // --- НАЧАЛО ВСТАВКИ: Установка книжной формы карточки ---
+                var cardView = card.find('.card__view');
+                // Принудительно устанавливаем стили для .card__view, чтобы сделать его книжным
+                // padding-bottom: 150% создает высоту, равную 150% от ширины (формат 2:3)
+                cardView.css({
+                    'padding-bottom': '150%', // Книжный формат 2:3
+                    'height': '0',
+                    'position': 'relative',
+                    'overflow': 'hidden'
+                });
+                // --- КОНЕЦ ВСТАВКИ ---
                 
                 var img = card.find('.card__img')[0];
                 
