@@ -1,9 +1,12 @@
-(function () {
+/*// Плагин 4K Фильмы для Lampa*/
+;(function () {
     'use strict';
-
+    
     var plugin = {
         component: '4k_films',
-        name: '4K Фильмы'
+        name: '4K Фильмы',
+        icon: "<svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"currentColor\"><path d=\"M18 3v2h-2V3H8v2H6V3H4v18h2v-2h2v2h8v-2h2v2h2V3h-2zM8 17H6v-2h2v2zm0-4H6v-2h2v2zm0-4H6V7h2v2zm10 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V7h2v2z\"/></svg>",
+        url: 'https://safeown.github.io/plvideo_4k_final.m3u'
     };
 
     function pluginPage(data) {
@@ -48,6 +51,10 @@
                 transform: translate(-50%, -50%);
                 font-size: 2em;
                 object-fit: cover; /* Сохраняем пропорции изображения */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
             }
             
             /* Адаптивная сетка */
@@ -103,8 +110,7 @@
         };
 
         this.loadPlaylist = function () {
-            // URL вашего M3U плейлиста
-            var url = 'https://safeown.github.io/plvideo_4k_final.m3u';
+            var url = plugin.url;
             var _this = this;
 
             network.native(
@@ -122,9 +128,29 @@
                 },
                 function (xhr) {
                     console.error("Ошибка загрузки плейлиста:", xhr);
-                    _this.showError('Ошибка загрузки плейлиста');
-                    _this.activity.loader(false);
-                    _this.activity.toggle();
+                    // Пробуем через прокси
+                    network.silent(
+                        Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(url),
+                        function (data) {
+                            if (typeof data === 'string' && data.trim().startsWith('#EXTM3U')) {
+                                var channels = _this.parseM3U(data);
+                                info.find('.info__create').text(`Загружено каналов: ${channels.length}`);
+                                _this.displayChannels(channels);
+                            } else {
+                                _this.showError('Неверный формат плейлиста (прокси)');
+                            }
+                            _this.activity.loader(false);
+                            _this.activity.toggle();
+                        },
+                        function (xhr2) {
+                            console.error("Ошибка загрузки через прокси:", xhr2);
+                            _this.showError('Не удалось загрузить плейлист');
+                            _this.activity.loader(false);
+                            _this.activity.toggle();
+                        },
+                        false,
+                        { dataType: 'text' }
+                    );
                 },
                 false,
                 { dataType: 'text' }
@@ -148,13 +174,13 @@
                     var name = nameMatch ? nameMatch.trim() : 'Без названия';
 
                     currentChannel = {
-                        name: name,
-                        logo: logo,
-                        url: ''
+                        Title: name, // Используем Title как в оригинальном плагине
+                        'tvg-logo': logo,
+                        Url: ''
                     };
                 } else if (currentChannel && line.startsWith('http')) {
                     // Следующая строка после #EXTINF содержит URL
-                    currentChannel.url = line;
+                    currentChannel.Url = line;
                     channels.push(currentChannel);
                     currentChannel = null;
                 }
@@ -168,10 +194,10 @@
             // Создаем контейнер сетки
             var grid = $(`<div class="${plugin.component}_grid"></div>`);
 
-            channels.forEach(function (channel, index) {
+            channels.forEach(function (channel, chI) {
                 // Используем стандартный шаблон карточки Lampa
                 var card = Lampa.Template.get('card', {
-                    title: channel.name,
+                    title: channel.Title,
                     release_year: '' // Можно использовать для группы, если нужно
                 });
 
@@ -182,7 +208,7 @@
                 
                 // Ленивая загрузка для оптимизации
                 if ('loading' in HTMLImageElement.prototype) {
-                    img.loading = (index < 12 ? 'eager' : 'lazy');
+                    img.loading = (chI < 18 ? 'eager' : 'lazy');
                 }
                 
                 // Обработчик успешной загрузки изображения
@@ -193,7 +219,7 @@
                 // Обработчик ошибки загрузки изображения
                 img.onerror = function (e) {
                     // Создаем заглушку с инициалами названия канала
-                    var name = channel.name.replace(/\s+\(([+-]?\d+)\)/, ' $1')
+                    var name = channel.Title.replace(/\s+\(([+-]?\d+)\)/, ' $1')
                                           .replace(/[-.()\s]+/g, ' ')
                                           .replace(/(^|\s+)(TV|ТВ)(\s+|$)/i, '$3');
                     var fl = name.replace(/\s+/g, '').length > 5 ? 
@@ -204,7 +230,7 @@
                     fl = fl.replace(/([UF]?HD|4k|\+\d+)$/i, '<sup>$1</sup>');
                     
                     // Генерируем цвет на основе названия
-                    var hex = (Lampa.Utils.hash(channel.name) * 1).toString(16);
+                    var hex = (Lampa.Utils.hash(channel.Title) * 1).toString(16);
                     while (hex.length < 6) hex += hex;
                     hex = hex.substring(0,6);
                     var r = parseInt(hex.slice(0, 2), 16),
@@ -213,17 +239,13 @@
                     var hexText = (r * 0.299 + g * 0.587 + b * 0.114) > 186 ? '#000000' : '#FFFFFF';
                     
                     // Заменяем изображение на заглушку
-                    card.find('.card__img').replaceWith('<div class="card__img" style="display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold;">' + fl + '</div>');
-                    card.find('.card__view').css({
-                        'background-color': '#' + hex, 
-                        'color': hexText
-                    });
+                    card.find('.card__img').replaceWith('<div class="card__img" style="background-color: #' + hex + '; color: ' + hexText + ';">' + fl + '</div>');
                     card.addClass('card--loaded');
                 };
 
                 // Устанавливаем источник изображения или вызываем onerror если лого нет
-                if (channel.logo) {
-                    img.src = channel.logo;
+                if (channel['tvg-logo']) {
+                    img.src = channel['tvg-logo'];
                 } else {
                     img.onerror();
                 }
@@ -235,8 +257,8 @@
                 }).on('hover:enter', function () {
                     // Воспроизведение канала
                     var video_data = {
-                        title: channel.name,
-                        url: channel.url,
+                        title: channel.Title,
+                        url: channel.Url,
                         plugin: plugin.component,
                         tv: true // Указывает, что это ТВ поток
                     };
@@ -309,11 +331,7 @@
         function addToMenu() {
             var menu_item = $(`
                 <li class="menu__item selector" data-component="${plugin.component}">
-                    <div class="menu__ico">
-                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-                            <path d="M18 3v2h-2V3H8v2H6V3H4v18h2v-2h2v2h8v-2h2v2h2V3h-2zM8 17H6v-2h2v2zm0-4H6v-2h2v2zm0-4H6V7h2v2zm10 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V7h2v2z"/>
-                        </svg>
-                    </div>
+                    <div class="menu__ico">${plugin.icon}</div>
                     <div class="menu__text">${plugin.name}</div>
                 </li>
             `).on('hover:enter', function () {
