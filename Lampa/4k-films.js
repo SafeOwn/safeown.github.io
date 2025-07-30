@@ -1,375 +1,452 @@
 // plugins/4k_iptv/index.js
+// Упрощенный плагин на основе Pasted_Text_1753876141723.txt
 
 (function () {
     'use strict';
 
-    // --- ЖЕСТКО ЗАДАННЫЕ НАСТРОЙКИ ---
-    const PLUGIN_COMPONENT = '4k_iptv'; // Внутреннее имя компонента
-    const HARDCODED_NAME = '4kTV'; // Жестко заданное имя в меню
-    const DEFAULT_PLAYLIST_URL = 'https://safeown.github.io/plvideo_4k_final.m3u'; // URL по умолчанию
-    const SETTING_PLAYLIST_URL_NAME = PLUGIN_COMPONENT + '_playlist_url'; // Имя настройки для URL
-    const SETTINGS_COMPONENT = PLUGIN_COMPONENT + '_settings'; // Имя компонента для настроек
-    // -------------------------------
-
-    // --- Основной объект плагина ---
-    const plugin = {
-        component: PLUGIN_COMPONENT,
+    var plugin = {
+        component: '4k_iptv',
+        // Иконка Play из оригинала
         icon: "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg>",
-        name: HARDCODED_NAME
+        name: '4kTV' // Имя по умолчанию, может быть изменено в настройках
     };
 
-    // --- Глобальные переменные ---
-    let parsedItems = [];
-    let encoder = $('<div/>');
+    var lists = [];
+    var encoder = $('<div/>');
+    var defaultPlaylistUrl = 'https://safeown.github.io/plvideo_4k_final.m3u'; // Ваш URL по умолчанию
 
-    // --- Добавляем переводы ---
+    // Добавляем переводы
     Lampa.Lang.add({
         ru: {
-            [PLUGIN_COMPONENT]: HARDCODED_NAME,
-            [PLUGIN_COMPONENT + '_playlist_url']: 'URL плейлиста',
-            [PLUGIN_COMPONENT + '_playlist_url_placeholder']: 'https://example.com/playlist.m3u',
-            [SETTINGS_COMPONENT]: HARDCODED_NAME + ' Настройки',
-            [PLUGIN_COMPONENT + '_menu_settings']: 'Настройки ' + HARDCODED_NAME,
-            [PLUGIN_COMPONENT + '_save_settings']: 'Сохранить настройки'
+            '4k_iptv': '4kTV',
+            '4k_iptv_settings_playlist_num_group': 'Плейлист ',
+            '4k_iptv_settings_list_name': 'Название',
+            '4k_iptv_settings_list_name_desc': 'Название плейлиста в левом меню',
+            '4k_iptv_settings_list_url': 'URL-адрес',
+            '4k_iptv_default_playlist_cat': 'Категории'
         },
         en: {
-            [PLUGIN_COMPONENT]: HARDCODED_NAME,
-            [PLUGIN_COMPONENT + '_playlist_url']: 'Playlist URL',
-            [PLUGIN_COMPONENT + '_playlist_url_placeholder']: 'https://example.com/playlist.m3u',
-            [SETTINGS_COMPONENT]: HARDCODED_NAME + ' Settings',
-            [PLUGIN_COMPONENT + '_menu_settings']: HARDCODED_NAME + ' Settings',
-            [PLUGIN_COMPONENT + '_save_settings']: 'Save Settings'
+            '4k_iptv': '4kTV',
+            '4k_iptv_settings_playlist_num_group': 'Playlist ',
+            '4k_iptv_settings_list_name': 'Name',
+            '4k_iptv_settings_list_name_desc': 'Playlist name in the left menu',
+            '4k_iptv_settings_list_url': 'URL',
+            '4k_iptv_default_playlist_cat': 'Categories'
         }
+        // Добавьте другие языки при необходимости
     });
 
+    function getStorage(name, defaultValue) {
+        return Lampa.Storage.get(plugin.component + '_' + name, defaultValue);
+    }
+
+    function setStorage(name, val, noListen) {
+        return Lampa.Storage.set(plugin.component + '_' + name, val, noListen);
+    }
+
+    function getSettings(name) {
+        return Lampa.Storage.field(plugin.component + '_' + name);
+    }
+
+    function addSettings(type, param) {
+        // Упрощенная обертка для добавления настроек
+        var data = {
+            component: plugin.component,
+            param: param
+        };
+        if (type === 'title') {
+            data.param.type = 'title';
+        } else if (type === 'input') {
+            data.param.type = 'input';
+        } else if (type === 'static') {
+            data.param.type = 'static';
+        }
+        // Добавляем параметр в API настроек
+        Lampa.SettingsApi.addParam(data);
+    }
+
     // --- Компонент страницы плагина ---
-    function PluginPage(object) {
-        this.activity = object;
-        this.html = $('<div class="' + PLUGIN_COMPONENT + '-plugin-container"></div>');
-        this.scroll = new Lampa.Scroll({ mask: true, over: true });
-        this.last_focused_card = null;
-    }
+    function pluginPage(object) {
+        var html = $('<div></div>');
+        var body = $('<div class="' + plugin.component + '_custom_container"></div>'); // Собственный контейнер
+        body.toggleClass('my_custom_icons', true); // Простой класс для стилей
 
-    PluginPage.prototype.create = function () {
-        this.activity.loader(true);
-        this.html.empty().append(this.scroll.render());
-        this.loadAndParsePlaylist();
-        return this.html;
-    };
+        var scroll = new Lampa.Scroll({
+            mask: true,
+            over: true
+        });
 
-    PluginPage.prototype.loadAndParsePlaylist = function () {
-        const playlistUrl = Lampa.Storage.get(SETTING_PLAYLIST_URL_NAME, DEFAULT_PLAYLIST_URL);
-        console.log('[' + PLUGIN_COMPONENT + '] Loading playlist:', playlistUrl);
+        var network = new Lampa.Reguest();
+        var items = [];
 
-        if (!playlistUrl || typeof playlistUrl !== 'string' || !playlistUrl.trim().startsWith('http')) {
-             console.error('[' + PLUGIN_COMPONENT + '] Invalid or empty playlist URL in settings.');
-             this.showError('Invalid playlist URL. Check plugin settings.');
-             return;
-        }
+        this.create = function () {
+            var _this = this;
+            this.activity.loader(true);
 
-        const network = new Lampa.Reguest();
-        network.native(
-            playlistUrl.trim(),
-            (data) => {
-                if (typeof data === 'string' && data.trim().startsWith('#EXTM3U')) {
-                    parsedItems = this.parseM3U(data);
-                    console.log('[' + PLUGIN_COMPONENT + '] Playlist loaded. Items:', parsedItems.length);
-                    if (parsedItems.length > 0) {
-                         this.buildPage();
-                    } else {
-                         this.showError('Playlist is empty.');
-                    }
-                } else {
-                    console.error('[' + PLUGIN_COMPONENT + '] Data is not a valid M3U.');
-                    this.showError('Loaded data is not a valid M3U playlist.');
+            var emptyResult = function () {
+                var empty = new Lampa.Empty();
+                html.append(empty.render());
+                _this.start = empty.start;
+                _this.activity.loader(false);
+                _this.activity.toggle();
+            };
+
+            var parseList = function (data) {
+                if (typeof data != 'string' || data.substr(0, 7).toUpperCase() !== "#EXTM3U") {
+                    emptyResult();
+                    return;
                 }
-            },
-            (error) => {
-                console.error('[' + PLUGIN_COMPONENT + '] Playlist load error:', error);
-                let errorMsg = 'Failed to load playlist.';
-                if (error && error.status) errorMsg += ' HTTP ' + error.status;
-                this.showError(errorMsg);
-            },
-            false,
-            { dataType: 'text' }
-        );
-    };
-
-    PluginPage.prototype.parseM3U = function (m3uString) {
-        const lines = m3uString.split(/\r?\n/);
-        const items = [];
-        let currentItem = { title: '', url: '', 'tvg-logo': '' };
-
-        for (let i = 0; i < lines.length; i++) {
-            const line = lines[i].trim();
-            if (line.startsWith('#EXTINF:')) {
-                const titleMatch = line.match(/,(.*)$/);
-                currentItem.title = titleMatch ? titleMatch[1].trim() : 'No Title';
-                const logoMatch = line.match(/tvg-logo="([^"]*)"/i);
-                currentItem['tvg-logo'] = logoMatch ? logoMatch[1] : '';
-            } else if (line.startsWith('http') && line.includes('://')) {
-                currentItem.url = line;
-                if (currentItem.url) {
-                    items.push({
-                        title: currentItem.title || 'No Title',
-                        url: currentItem.url,
-                        'tvg-logo': currentItem['tvg-logo'] || ''
-                    });
-                    currentItem = { title: '', url: '', 'tvg-logo': '' };
+                items = [];
+                var l = data.split(/\r?\n/);
+                var cnt = 0, i = 1, chNum = 0, m, mm, defGroup = 'Other';
+                if (!!(m = l[0].match(/([^\s=]+)=((["'])(.*?)\3|\S+)/g))) {
+                    // listCfg - не используется в упрощенной версии
                 }
-            }
-        }
-        return items;
-    };
-
-    PluginPage.prototype.buildPage = function () {
-        const cards_container = $('<div class="' + PLUGIN_COMPONENT + '-cards-container"></div>');
-        const styleId = PLUGIN_COMPONENT + '-styles';
-        if (!$('#' + styleId).length) {
-            $('body').append(`
-                <style id="${styleId}">
-                    .${PLUGIN_COMPONENT}-plugin-container { height: 100%; }
-                    .${PLUGIN_COMPONENT}-cards-container {
-                        display: flex; flex-wrap: wrap; padding: 1.5em; gap: 1.5em;
-                    }
-                    .${PLUGIN_COMPONENT}-card {
-                        width: calc(50% - 0.75em); height: 250px;
-                        position: relative; border-radius: 0.5em; overflow: hidden;
-                        background-color: #2b2b2b; cursor: pointer; display: flex; flex-direction: column;
-                        margin: 0 1.5em 1.5em 0;
-                    }
-                    .${PLUGIN_COMPONENT}-card:nth-child(2n) { margin-right: 0; }
-                    .${PLUGIN_COMPONENT}-card__img-container {
-                        width: 100%; flex-grow: 1; display: flex; align-items: center;
-                        justify-content: center; background-color: #3a3a3a; overflow: hidden;
-                        position: relative;
-                    }
-                    .${PLUGIN_COMPONENT}-card__img {
-                        width: 100%; height: 100%; object-fit: cover; display: block;
-                    }
-                    .${PLUGIN_COMPONENT}-card__img-placeholder {
-                        color: #aaa; font-size: 0.8em; text-align: center; padding: 0.5em;
-                        box-sizing: border-box; display: flex; align-items: center;
-                        justify-content: center; word-break: break-word;
-                    }
-                    .${PLUGIN_COMPONENT}-card__title {
-                        padding: 0.5em; font-size: 1em; white-space: nowrap;
-                        overflow: hidden; text-overflow: ellipsis;
-                        background-color: rgba(0,0,0,0.5); margin: 0;
-                    }
-                    @media screen and (min-width: 768px) {
-                        .${PLUGIN_COMPONENT}-card {
-                            width: calc(16.666% - 1.25em); height: 300px;
-                            margin: 0 1.5em 1.5em 0;
+                while (i < l.length) {
+                    chNum = cnt + 1;
+                    var channel = {
+                        ChNum: chNum,
+                        Title: "Ch " + chNum,
+                        isYouTube: false,
+                        Url: '',
+                        Group: '',
+                        Options: {}
+                    };
+                    for (; cnt < chNum && i < l.length; i++) {
+                        if (!!(m = l[i].match(/^#EXTGRP:\s*(.+?)\s*$/i)) && m[1].trim() !== '') {
+                            defGroup = m[1].trim();
+                        } else if (!!(m = l[i].match(/^#EXTINF:\s*-?\d+(\s+\S.*?\s*)?,(.+)$/i))) {
+                            channel.Title = m[2].trim();
+                            if (!!m[1] && !!(m = m[1].match(/([^\s=]+)=((["'])(.*?)\3|\S+)/g))) {
+                                for (var j = 0; j < m.length; j++) {
+                                    if (!!(mm = m[j].match(/([^\s=]+)=((["'])(.*?)\3|\S+)/))) {
+                                        channel[mm[1].toLowerCase()] = mm[4] || mm[2];
+                                    }
+                                }
+                            }
+                        } else if (!!(m = l[i].match(/^#EXTVLCOPT:\s*([^\s=]+)=(.+)$/i))) {
+                            channel.Options[m[1].trim().toLowerCase()] = m[2].trim();
+                        } else if (!!(m = l[i].match(/^(https?):\/\/(.+)$/i))) {
+                            channel.Url = m[0].trim();
+                            channel.isYouTube = !!(m[2].match(/^(www\.)?youtube\.com/));
+                            channel.Group = channel['group-title'] || defGroup;
+                            cnt++;
                         }
-                        .${PLUGIN_COMPONENT}-card:nth-child(6n) { margin-right: 0; }
                     }
-                </style>
-            `);
-        }
+                    if (!!channel.Url && !channel.isYouTube) {
+                        channel['Title'] = channel['Title'].replace('ⓢ', '').replace('ⓖ', '').replace(/\s+/g, ' ').trim();
+                        // Если нет лого, пытаемся сгенерировать URL (как в оригинале, но упрощенно)
+                        if (!channel['tvg-logo'] && channel['Title'] !== "Ch " + chNum) {
+                             // Используем ваш домен для генерации URL плейсхолдеров, если нужно
+                             // channel['tvg-logo'] = Lampa.Utils.protocol() + 'epg.rootu.top/picon/' + encodeURIComponent(channel['Title']) + '.png';
+                             // Или оставляем пустым, чтобы использовался текст
+                        }
+                        items.push(channel);
+                    }
+                }
+                _this.build(items);
+            };
 
-        parsedItems.forEach((item) => {
-            let imgContent;
-            const placeholderText = item.title.substring(0, 50) + (item.title.length > 50 ? '...' : '');
-            if (item['tvg-logo']) {
-                imgContent = `
-                    <div class="${PLUGIN_COMPONENT}-card__img-container">
-                        <img class="${PLUGIN_COMPONENT}-card__img" src="${item['tvg-logo']}" loading="lazy" alt="${encoder.text(item.title).html()}">
-                        <div class="${PLUGIN_COMPONENT}-card__img-placeholder" style="display:none;">${encoder.text(placeholderText).html()}</div>
-                    </div>
-                `;
-            } else {
-                imgContent = `
-                    <div class="${PLUGIN_COMPONENT}-card__img-container">
-                        <div class="${PLUGIN_COMPONENT}-card__img-placeholder">${encoder.text(placeholderText).html()}</div>
-                    </div>
-                `;
+            var listUrl = object.url; // URL берется из объекта активности, который формируется в configurePlaylist
+            if (!listUrl) {
+                 emptyResult();
+                 return;
             }
+            network.native(
+                listUrl,
+                parseList,
+                function () {
+                    // Ошибка, пробуем через прокси
+                    network.silent(
+                        Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(listUrl),
+                        parseList,
+                        emptyResult,
+                        false,
+                        {dataType: 'text'}
+                    );
+                },
+                false,
+                {dataType: 'text'}
+            );
+            return this.render();
+        };
 
-            const card = $(`
-                <div class="${PLUGIN_COMPONENT}-card selector">
-                    ${imgContent}
-                    <div class="${PLUGIN_COMPONENT}-card__title">${encoder.text(item.title).html()}</div>
-                </div>
-            `);
+        this.append = function (data) {
+            var _this2 = this;
+            var lazyLoadImg = ('loading' in HTMLImageElement.prototype);
 
-            const imgElement = card.find(`.${PLUGIN_COMPONENT}-card__img`)[0];
-            const placeholderElement = card.find(`.${PLUGIN_COMPONENT}-card__img-placeholder`);
-            if (imgElement) {
-                imgElement.onerror = () => {
-                    console.log('[' + PLUGIN_COMPONENT + '] Image load error for:', item.title);
-                    $(imgElement).hide();
-                    placeholderElement.show();
+            data.forEach(function (channel, chIndex) {
+                var card = Lampa.Template.get('card', {
+                    title: channel.Title,
+                    release_year: '' // Не используется
+                });
+
+                // --- НАЧАЛО ВСТАВКИ: Установка ширины и формы (книжная) карточки ---
+                // Устанавливаем ширину карточки
+                card.css('width', '48%'); // Почти 2 в ряд с учетом margin от Lampa
+
+                // Находим контейнер изображения внутри карточки
+                var cardView = card.find('.card__view');
+
+                // Принудительно устанавливаем стили для .card__view, чтобы сделать его книжным
+                // padding-bottom: 150% создает высоту, равную 150% от ширины (формат ~2:3)
+                cardView.css({
+                    'padding-bottom': '150%', // Фиксированное книжное соотношение
+                    'height': '0',
+                    'position': 'relative',
+                    'overflow': 'hidden',
+                    'background-color': '#353535' // Фон, если изображение не загрузится
+                });
+                // --- КОНЕЦ ВСТАВКИ ---
+
+                card.addClass('card--collection');
+
+                var img = card.find('.card__img')[0];
+                if (lazyLoadImg) img.loading = (chIndex < 18 ? 'eager' : 'lazy');
+
+                img.onload = function () {
+                    card.addClass('card--loaded');
                 };
-            }
 
-            card.on('hover:enter', () => {
-                console.log('[' + PLUGIN_COMPONENT + '] Playing:', item.title);
-                Lampa.Player.play({ title: item.title, url: item.url });
+                img.onerror = function (e) {
+                    // Обработка ошибки загрузки изображения - показываем название
+                    var name = channel.Title
+                        .replace(/\s+\(([+-]?\d+)\)/, ' $1').replace(/[-.()\s]+/g, ' ').replace(/(^|\s+)(TV|ТВ)(\s+|$)/i, '$3');
+                    var fl = name.replace(/\s+/g, '').length > 5
+                        ? name.split(/\s+/).map(function(v) {return v.match(/^(\+?\d+|[UF]?HD|4K)$/i) ? v : v.substring(0,1).toUpperCase()}).join('').substring(0,6)
+                        : name.replace(/\s+/g, '')
+                    ;
+                    fl = fl.replace(/([UF]?HD|4k|\+\d+)$/i, '<sup>$1</sup>');
+                    var hex = (Lampa.Utils.hash(channel.Title) * 1).toString(16);
+                    while (hex.length < 6) hex+=hex;
+                    hex = hex.substring(0,6);
+                    var r = parseInt(hex.slice(0, 2), 16),
+                        g = parseInt(hex.slice(2, 4), 16),
+                        b = parseInt(hex.slice(4, 6), 16);
+                    var hexText = (r * 0.299 + g * 0.587 + b * 0.114) > 186 ? '#000000' : '#FFFFFF';
+                    // Заменяем <img> на <div> с текстом и цветом фона
+                    card.find('.card__img').replaceWith('<div class="card__img" style="display: flex; align-items: center; justify-content: center; height: 100%; font-size: 2em; background-color: #' + hex + '; color: ' + hexText + ';">' + fl + '</div>');
+                    card.addClass('card--loaded'); // Помечаем как загруженную
+                };
+
+                if (channel['tvg-logo']) {
+                    img.src = channel['tvg-logo'];
+                } else {
+                    // Если лого нет, вызываем onerror для отображения текста
+                    img.onerror();
+                }
+
+                // Убираем иконки, которые не нужны
+                card.find('.card__icons').empty();
+
+                card.on('hover:focus hover:hover touchstart', function (event) {
+                    // Скролл обновляется при фокусе
+                    if (event.type && event.type !== 'touchstart' && event.type !== 'hover:hover') scroll.update(card, true);
+                }).on('hover:enter', function () {
+                    // Воспроизведение
+                    var video = {
+                        title: channel.Title,
+                        url: channel.Url // Используем Url напрямую
+                    };
+                    console.log('[' + plugin.component + '] Playing:', video.title, video.url);
+                    Lampa.Player.play(video);
+                });
+
+                body.append(card);
             });
 
-            cards_container.append(card);
-        });
+            // Добавляем стили один раз
+            var styleId = plugin.component + '_custom_style';
+            if (!$('#' + styleId).length) {
+                $('body').append(`
+                    <style id="${styleId}">
+                        /* Контейнер для всех карточек */
+                        .${plugin.component}_custom_container {
+                            padding: 0 1em 1em 1em; /* Отступы вокруг сетки */
+                            display: flex;
+                            flex-wrap: wrap;
+                            gap: 1em; /* Расстояние между карточками */
+                        }
+                        /* Адаптация для ТВ: 6 колонок */
+                        @media screen and (min-width: 768px) {
+                            .${plugin.component}_custom_container .card--collection {
+                                width: calc(16.666% - 0.833em) !important; /* 6 колонок */
+                            }
+                        }
+                        /* Убираем стили из оригинального CSS, которые могут конфликтовать */
+                        .${plugin.component}_custom_container .card__view {
+                             border-radius: 0.5em !important; /* Скругление углов */
+                        }
+                        /* Принудительно убираем стили, которые могут быть применены из .category-full */
+                        .${plugin.component}_custom_container .card__age {
+                             display: none !important; /* Скрываем прогресс, если он есть */
+                        }
+                        .${plugin.component}_custom_container .card__icons {
+                             display: none !important; /* Скрываем иконки */
+                        }
+                    </style>
+                `);
+            }
+        };
 
-        this.scroll.append(cards_container);
-        this.activity.loader(false);
-        this.activity.toggle();
-    };
+        this.build = function (data) {
+            scroll.append(body);
+            html.append(scroll.render());
+            this.append(data);
+            this.activity.loader(false);
+            this.activity.toggle();
+        };
 
-    PluginPage.prototype.showError = function (message) {
-        this.html.empty().append(`<div style="padding: 20px; color: #ff5555;">Error: ${message}</div>`);
-        this.activity.loader(false);
-        this.activity.toggle();
-    };
+        this.start = function () {
+            Lampa.Controller.add('content', {
+                toggle: function () {
+                    Lampa.Controller.collectionSet(scroll.render());
+                    Lampa.Controller.collectionFocus(false, scroll.render());
+                },
+                left: function () {
+                    if (Navigator.canmove('left')) Navigator.move('left');
+                    else Lampa.Controller.toggle('menu');
+                },
+                right: function () {
+                    if (Navigator.canmove('right')) Navigator.move('right');
+                },
+                up: function () {
+                    if (Navigator.canmove('up')) Navigator.move('up');
+                    else Lampa.Controller.toggle('head');
+                },
+                down: function () {
+                    if (Navigator.canmove('down')) Navigator.move('down');
+                },
+                back: function () {
+                    Lampa.Activity.backward();
+                }
+            });
+            Lampa.Controller.toggle('content');
+        };
 
-    PluginPage.prototype.start = function () {
-        Lampa.Controller.add('content', {
-            toggle: () => {
-                Lampa.Controller.collectionSet(this.scroll.render());
-                Lampa.Controller.collectionFocus(this.last_focused_card || false, this.scroll.render());
-            },
-            left: () => { if (Navigator.canmove('left')) Navigator.move('left'); else Lampa.Controller.toggle('menu'); },
-            right: () => { if (Navigator.canmove('right')) Navigator.move('right'); },
-            up: () => { if (Navigator.canmove('up')) Navigator.move('up'); else Lampa.Controller.toggle('head'); },
-            down: () => { if (Navigator.canmove('down')) Navigator.move('down'); },
-            back: () => { Lampa.Activity.backward(); }
-        });
-        Lampa.Controller.toggle('content');
-    };
-
-    PluginPage.prototype.pause = function () { };
-    PluginPage.prototype.stop = function () { };
-    PluginPage.prototype.render = function () { return this.html; };
-    PluginPage.prototype.destroy = function () {
-        console.log('[' + PLUGIN_COMPONENT + '] Plugin page destroyed.');
-        this.scroll.destroy();
-        this.html.remove();
-        const styleId = PLUGIN_COMPONENT + '-styles';
-        $('#' + styleId).remove();
-    };
-
-    // --- Компонент для страницы настроек ---
-    function SettingsPage(object) {
-        this.activity = object;
-        this.html = $('<div></div>');
-        this.scroll = new Lampa.Scroll({ mask: true, over: true });
+        this.pause = function () {};
+        this.stop = function () {};
+        this.render = function () {
+            return html;
+        };
+        this.destroy = function () {
+            network.clear();
+            scroll.destroy();
+            html.remove();
+            body.remove();
+            // Можно удалить стили при уничтожении, если это последний экземпляр
+            // var styleId = plugin.component + '_custom_style';
+            // if ($('.' + plugin.component + '_custom_container').length === 0) {
+            //     $('#' + styleId).remove();
+            // }
+        };
     }
 
-    SettingsPage.prototype.create = function () {
-        const settings_body = $('<div class="settings settings--iptv"></div>');
-        const current_url = Lampa.Storage.get(SETTING_PLAYLIST_URL_NAME, DEFAULT_PLAYLIST_URL);
+    // --- Настройки и меню ---
+    function configurePlaylist(i) {
+        // Обрабатываем только первый плейлист (i=0)
+        if (i > 0) return i + 1;
 
-        const url_title = $('<div class="settings-param-title"><span>' + Lampa.Lang.translate(PLUGIN_COMPONENT + '_playlist_url') + '</span></div>');
-        const url_input = $(`<div class="settings-param selector">
-            <div class="settings-param__name">` + Lampa.Lang.translate(PLUGIN_COMPONENT + '_playlist_url') + `</div>
-            <div class="settings-param__value">` + (current_url || '---') + `</div>
-            <input class="settings-param__input" type="text" placeholder="` + Lampa.Lang.translate(PLUGIN_COMPONENT + '_playlist_url_placeholder') + `" value="` + (current_url || '') + `">
-        </div>`);
-        const url_value = url_input.find('.settings-param__value');
-        const url_field = url_input.find('.settings-param__input');
+        addSettings('title', {title: Lampa.Lang.translate('4k_iptv_settings_playlist_num_group') + (i+1)});
+        var defName = plugin.name;
+        var activity = {
+            id: i,
+            url: '', // URL будет установлен позже
+            title: defName, // Название по умолчанию
+            // groups, currentGroup, component, page - как в оригинале, но упрощено
+            groups: [],
+            currentGroup: getStorage('last_catalog' + i, Lampa.Lang.translate('4k_iptv_default_playlist_cat')),
+            component: plugin.component,
+            page: 1
+        };
+        if (activity.currentGroup === '!!') activity.currentGroup = '';
 
-        url_input.on('hover:enter', function(){
-            Lampa.Input.edit({
-                value: url_field.val(),
-                free: true,
-                title: Lampa.Lang.translate(PLUGIN_COMPONENT + '_playlist_url')
-            }, function (new_value){
-                url_field.val(new_value || '');
-                url_value.text(new_value || '---');
-                Lampa.Controller.toggle('content');
+        addSettings('input', {
+            title: Lampa.Lang.translate('4k_iptv_settings_list_name'),
+            name: 'list_name_' + i,
+            default: defName,
+            placeholder: defName,
+            description: Lampa.Lang.translate('4k_iptv_settings_list_name_desc'),
+            onChange: function (newVal) {
+                var title = !newVal ? defName : newVal;
+                $('.js-' + plugin.component + '-menu' + i + '-title').text(title);
+                activity.title = title;
+            }
+        });
+
+        addSettings('input', {
+            title: Lampa.Lang.translate('4k_iptv_settings_list_url'),
+            name: 'list_url_' + i,
+            default: defaultPlaylistUrl,
+            placeholder: 'https://example.com/playlist.m3u',
+            onChange: function (url) {
+                // Логика отображения/скрытия меню из оригинала
+                if (/^https?:\/\/./i.test(url)) {
+                    activity.url = url;
+                    lists[i].menuEl.show();
+                } else {
+                    activity.url = '';
+                    lists[i].menuEl.hide();
+                }
+            }
+        });
+
+        // Получаем значения из настроек
+        var name = getSettings('list_name_' + i);
+        var url = getSettings('list_url_' + i);
+        var title = !name ? defName : name;
+        activity.title = title;
+
+        // Создаем элемент меню
+        var menuEl = $('<li class="menu__item selector js-' + plugin.component + '-menu' + i + '">'
+                        + '<div class="menu__ico">' + plugin.icon + '</div>'
+                        + '<div class="menu__text js-' + plugin.component + '-menu' + i + '-title">'
+                            + encoder.text(title).html()
+                        + '</div>'
+                    + '</li>')
+            .hide() // Изначально скрыт
+            .on('hover:enter', function(){
+                if (Lampa.Activity.active().component === plugin.component) {
+                    Lampa.Activity.replace(Lampa.Arrays.clone(activity));
+                } else {
+                    Lampa.Activity.push(Lampa.Arrays.clone(activity));
+                }
             });
-        });
 
-        const save_button = $('<div class="settings-param selector"><div class="settings-param__name">' + Lampa.Lang.translate(PLUGIN_COMPONENT + '_save_settings') + '</div></div>');
-        save_button.on('hover:enter', () => {
-            const new_url = url_field.val().trim();
-            Lampa.Storage.set(SETTING_PLAYLIST_URL_NAME, new_url || '');
-            Lampa.Notifications.show('Settings saved', 3000);
-            console.log('[' + PLUGIN_COMPONENT + '] Settings saved. New URL:', new_url);
-            Lampa.Controller.toggle('content');
-        });
+        // Проверяем URL при инициализации и показываем/скрываем меню
+        if (/^https?:\/\/./i.test(url)) {
+            activity.url = url;
+            menuEl.show();
+        } else {
+            activity.url = '';
+            menuEl.hide();
+        }
 
-        settings_body.append(url_title).append(url_input).append(save_button);
-        this.scroll.append(settings_body);
-        this.html.append(this.scroll.render());
-
-        this.activity.loader(false);
-        this.activity.toggle();
-        return this.html;
-    };
-
-    SettingsPage.prototype.start = function () {
-        Lampa.Controller.add('content', {
-            toggle: () => {
-                Lampa.Controller.collectionSet(this.scroll.render());
-                Lampa.Controller.collectionFocus(false, this.scroll.render());
-            },
-            up: () => { if (Navigator.canmove('up')) Navigator.move('up'); else Lampa.Controller.toggle('head'); },
-            down: () => { if (Navigator.canmove('down')) Navigator.move('down'); },
-            back: () => { Lampa.Activity.backward(); }
-        });
-        Lampa.Controller.toggle('content');
-    };
-
-    SettingsPage.prototype.pause = function () { };
-    SettingsPage.prototype.stop = function () { };
-    SettingsPage.prototype.render = function () { return this.html; };
-    SettingsPage.prototype.destroy = function () {
-        console.log('[' + PLUGIN_COMPONENT + '] Settings page destroyed.');
-        this.scroll.destroy();
-        this.html.remove();
-    };
+        lists.push({activity: activity, menuEl: menuEl, groups: []});
+        return !activity.url ? i + 1 : i;
+    }
 
     // --- Инициализация ---
-    function initPlugin() {
-        console.log('[' + PLUGIN_COMPONENT + '] Initializing plugin.');
+    Lampa.Component.add(plugin.component, pluginPage);
 
-        Lampa.Component.add(plugin.component, PluginPage);
-        Lampa.Component.add(SETTINGS_COMPONENT, SettingsPage);
+    // Добавляем плагин в настройки
+    Lampa.SettingsApi.addComponent(plugin);
 
-        // Пункт меню для плагина
-        const menuEl = $('<li class="menu__item selector js-' + plugin.component + '-menu0">'
-                    + '<div class="menu__ico">' + plugin.icon + '</div>'
-                    + '<div class="menu__text js-' + plugin.component + '-menu0-title">'
-                        + encoder.text(plugin.name).html()
-                    + '</div>'
-                + '</li>')
-        .on('hover:enter', function(){
-            console.log('[' + PLUGIN_COMPONENT + '] Opening plugin page.');
-            Lampa.Activity.push({ component: plugin.component });
-        });
+    // Настраиваем плейлист (только один)
+    var i = configurePlaylist(0);
 
-        // Пункт меню для настроек
-        const settingsMenuEl = $('<li class="menu__item selector">'
-                    + '<div class="menu__ico"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.67 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z" /></svg></div>'
-                    + '<div class="menu__text">' + encoder.text(Lampa.Lang.translate(PLUGIN_COMPONENT + '_menu_settings')).html() + '</div>'
-                + '</li>')
-        .on('hover:enter', function(){
-            console.log('[' + PLUGIN_COMPONENT + '] Opening settings page.');
-            Lampa.Activity.push({ component: SETTINGS_COMPONENT }); // Исправлено: было просто component: SETTINGS_COMPONENT
-        });
-
-        function pluginStart() {
-            if (!!window['plugin_' + plugin.component + '_ready']) return;
-            window['plugin_' + plugin.component + '_ready'] = true;
-            var menu = $('.menu .menu__list').eq(0);
-            menu.append(menuEl).append(settingsMenuEl);
-            console.log('[' + PLUGIN_COMPONENT + '] Menu items added.');
-        }
-
-        if (!!window.appready) {
-            pluginStart();
-        } else {
-            Lampa.Listener.follow('app', function(e){
-                if (e.type === 'ready') pluginStart();
-            });
+    // Добавляем пункт меню при запуске приложения
+    function pluginStart() {
+        if (!!window['plugin_' + plugin.component + '_ready']) return;
+        window['plugin_' + plugin.component + '_ready'] = true;
+        var menu = $('.menu .menu__list').eq(0);
+        // Добавляем пункт меню
+        if (lists.length > 0 && lists[0].menuEl) {
+             menu.append(lists[0].menuEl);
         }
     }
 
-    if (window.Lampa) {
-        initPlugin();
-    } else {
-        window.addEventListener('load', function(){ initPlugin(); });
-    }
+    if (!!window.appready) pluginStart();
+    else Lampa.Listener.follow('app', function(e){if (e.type === 'ready') pluginStart()});
 
 })();
