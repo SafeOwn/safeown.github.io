@@ -4,9 +4,10 @@
     'use strict';
 
     // --- ЖЕСТКО ЗАДАННЫЕ НАСТРОЙКИ ---
-    const HARDCODED_URL = 'https://safeown.github.io/plvideo_4k_final.m3u'; // Ваш URL
-    const HARDCODED_NAME = '4kTV'; // Ваше имя в меню
     const PLUGIN_COMPONENT = '4k_iptv'; // Внутреннее имя компонента
+    const HARDCODED_NAME = '4kTV'; // Жестко заданное имя в меню
+    const DEFAULT_PLAYLIST_URL = 'https://safeown.github.io/plvideo_4k_final.m3u'; // URL по умолчанию
+    const SETTING_PLAYLIST_URL_NAME = PLUGIN_COMPONENT + '_playlist_url'; // Имя настройки для URL
     // -------------------------------
 
     // --- Основной объект плагина ---
@@ -24,13 +25,18 @@
     // --- Добавляем переводы ---
     Lampa.Lang.add({
         ru: {
-            [PLUGIN_COMPONENT]: HARDCODED_NAME
-            // [PLUGIN_COMPONENT + '_search']: 'Поиск в ' + HARDCODED_NAME // Убрано
+            [PLUGIN_COMPONENT]: HARDCODED_NAME,
+            [PLUGIN_COMPONENT + '_playlist_url']: 'URL плейлиста',
+            [PLUGIN_COMPONENT + '_playlist_url_placeholder']: 'https://example.com/playlist.m3u',
+            [PLUGIN_COMPONENT + '_default_url']: DEFAULT_PLAYLIST_URL
         },
         en: {
-            [PLUGIN_COMPONENT]: HARDCODED_NAME
-            // [PLUGIN_COMPONENT + '_search']: 'Search in ' + HARDCODED_NAME // Убрано
+            [PLUGIN_COMPONENT]: HARDCODED_NAME,
+            [PLUGIN_COMPONENT + '_playlist_url']: 'Playlist URL',
+            [PLUGIN_COMPONENT + '_playlist_url_placeholder']: 'https://example.com/playlist.m3u',
+            [PLUGIN_COMPONENT + '_default_url']: DEFAULT_PLAYLIST_URL
         }
+        // Добавьте другие языки при необходимости
     });
 
     // --- Компонент страницы плагина ---
@@ -50,13 +56,22 @@
     };
 
     PluginPage.prototype.loadAndParsePlaylist = function () {
+        // Получаем URL из настроек
+        const playlistUrl = Lampa.Storage.get(SETTING_PLAYLIST_URL_NAME, DEFAULT_PLAYLIST_URL);
+        console.log('[' + PLUGIN_COMPONENT + '] Загрузка плейлиста из настроек:', playlistUrl);
+
+        if (!playlistUrl || typeof playlistUrl !== 'string' || !playlistUrl.trim().startsWith('http')) {
+             console.error('[' + PLUGIN_COMPONENT + '] Некорректный или пустой URL плейлиста в настройках.');
+             this.showError('Некорректный URL плейлиста в настройках. Проверьте настройки плагина.');
+             return;
+        }
+
         const network = new Lampa.Reguest();
-        console.log('[' + PLUGIN_COMPONENT + '] Загрузка плейлиста:', HARDCODED_URL);
         network.native(
-            HARDCODED_URL,
+            playlistUrl.trim(), // Используем URL из настроек
             (data) => { // Успех
                 if (typeof data === 'string' && data.trim().startsWith('#EXTM3U')) {
-                    parsedItems = this.parseM3U(data); // Используем метод компонента
+                    parsedItems = this.parseM3U(data);
                     console.log('[' + PLUGIN_COMPONENT + '] Плейлист загружен и распарсен. Элементов:', parsedItems.length);
                     if (parsedItems.length > 0) {
                          this.buildPage();
@@ -64,13 +79,22 @@
                          this.showError('Плейлист пуст или не содержит поддерживаемых записей.');
                     }
                 } else {
-                    console.error('[' + PLUGIN_COMPONENT + '] Полученные данные не являются корректным M3U.');
-                    this.showError('Полученные данные не являются корректным M3U плейлистом.');
+                    console.error('[' + PLUGIN_COMPONENT + '] Полученные данные не являются корректным M3U. URL:', playlistUrl);
+                    this.showError('Полученные данные не являются корректным M3U плейлистом. Проверьте URL в настройках.');
                 }
             },
             (error) => { // Ошибка
-                console.error('[' + PLUGIN_COMPONENT + '] Ошибка загрузки плейлиста:', error);
-                this.showError('Ошибка загрузки плейлиста: ' + (error.statusText || error.message || 'Неизвестная ошибка'));
+                console.error('[' + PLUGIN_COMPONENT + '] Ошибка загрузки плейлиста. URL:', playlistUrl, 'Ошибка:', error);
+                // Формируем более понятное сообщение об ошибке
+                let errorMsg = 'Ошибка загрузки плейлиста.';
+                if (error && error.status) {
+                     errorMsg += ' HTTP ' + error.status;
+                     if (error.statusText) errorMsg += ' (' + error.statusText + ')';
+                } else if (error && error.message) {
+                     errorMsg += ' ' + error.message;
+                }
+                errorMsg += ' Проверьте URL в настройках.';
+                this.showError(errorMsg);
             },
             false, // cache
             { dataType: 'text' }
@@ -127,11 +151,8 @@
                     }
                     /* Телефон: 2 колонки */
                     .${PLUGIN_COMPONENT}-card {
-                        /* Ширина карточки */
-                        width: calc(50% - 0.75em); /* 2 колонки: (100% - 1.5em отступ) / 2 */
-                        /* Фиксированная высота карточки */
-                        height: 250px; /* <--- Установите желаемую высоту карточки здесь */
-
+                        width: calc(50% - 0.75em); /* 2 колонки */
+                        height: 250px; /* Фиксированная высота карточки */
                         position: relative;
                         border-radius: 0.5em;
                         overflow: hidden;
@@ -142,9 +163,8 @@
                     }
 
                     .${PLUGIN_COMPONENT}-card__img-container {
-                        /* Контейнер для изображения или плейсхолдера */
                         width: 100%;
-                        flex-grow: 1; /* Занимает всё доступное пространство по высоте внутри .card */
+                        flex-grow: 1;
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -153,29 +173,20 @@
                         position: relative;
                     }
                     .${PLUGIN_COMPONENT}-card__img {
-                        /* Само изображение */
                         width: 100%;
                         height: 100%;
-                        object-fit: cover; /* Масштабирует изображение, обрезая края, чтобы заполнить контейнер */
+                        object-fit: cover;
                         display: block;
                     }
                     .${PLUGIN_COMPONENT}-card__img-placeholder {
-                        /* Плейсхолдер, если изображения нет */
                         color: #aaa;
                         font-size: 0.9em;
                         text-align: center;
                         padding: 0.5em;
                         box-sizing: border-box;
-                        /* position: absolute; Убираем absolute для простоты */
-                        /* top: 0; */
-                        /* left: 0; */
-                        /* width: 100%; */
-                        /* height: 100%; */
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        /* word-break: break-word; */
-                        /* padding: 10px; */
                     }
                     .${PLUGIN_COMPONENT}-card__title {
                         padding: 0.5em;
@@ -184,18 +195,14 @@
                         overflow: hidden;
                         text-overflow: ellipsis;
                         background-color: rgba(0,0,0,0.5);
-                        margin: 0; /* Убираем возможные margin от заголовка */
-                        /* Минимальная высота для заголовка, если нужно */
-                        /* min-height: 1.5em; */
+                        margin: 0;
                     }
 
                     /* Телевизор: 6 колонок */
                     @media screen and (min-width: 768px) {
                         .${PLUGIN_COMPONENT}-card {
-                            /* Ширина карточки для 6 колонок */
-                            width: calc(16.666% - 1.25em); /* 6 колонок: (100% - 5 * 1.5em) / 6 = 16.666% - 1.25em */
-                            /* Можно также изменить высоту для ТВ, если нужно */
-                            /* height: 300px; */
+                            width: calc(16.666% - 1.25em); /* 6 колонок */
+                            /* height: 300px; */ /* Можно изменить высоту для ТВ */
                         }
                     }
                 </style>
@@ -213,7 +220,6 @@
                 `;
             } else {
                 // Если лого нет, показываем название как плейсхолдер
-                // Ограничиваем длину текста плейсхолдера
                 const placeholderText = item.title.substring(0, 50) + (item.title.length > 50 ? '...' : '');
                 imgContent = `
                     <div class="${PLUGIN_COMPONENT}-card__img-container">
@@ -229,6 +235,22 @@
                 </div>
             `);
 
+            // --- Упрощенная обработка ошибок изображения ---
+            // Вместо замены содержимого контейнера, просто скрываем img и показываем плейсхолдер.
+            // Это может быть более стабильно.
+            const imgElement = card.find(`.${PLUGIN_COMPONENT}-card__img`)[0];
+            if (imgElement) {
+                imgElement.onerror = () => {
+                    console.log('[' + PLUGIN_COMPONENT + '] Ошибка загрузки изображения, показываем плейсхолдер для:', item.title);
+                    // $(imgElement).hide(); // Скрываем сломанное изображение
+                    // card.find(`.${PLUGIN_COMPONENT}-card__img-placeholder`).show(); // Плейсхолдер уже виден по умолчанию, если img не загрузился, он просто не перекроет его
+                    // Проще: просто ничего не делаем, плейсхолдер останется видимым, img будет поверх, но невидим из-за ошибки.
+                    // Или заменяем:
+                     const container = card.find(`.${PLUGIN_COMPONENT}-card__img-container`);
+                     container.empty().append(`<div class="${PLUGIN_COMPONENT}-card__img-placeholder">${encoder.text(item.title.substring(0, 50) + (item.title.length > 50 ? '...' : '')).html()}</div>`);
+                };
+            }
+
             card.on('hover:enter', () => {
                 console.log('[' + PLUGIN_COMPONENT + '] Воспроизведение:', item.title);
                 Lampa.Player.play({
@@ -236,17 +258,6 @@
                     url: item.url
                 });
             });
-
-            // Добавляем обработчики ошибок изображения прямо здесь
-            const imgElement = card.find(`.${PLUGIN_COMPONENT}-card__img`)[0];
-            if (imgElement) {
-                imgElement.onerror = () => {
-                    console.log('[' + PLUGIN_COMPONENT + '] Ошибка загрузки изображения для:', item.title);
-                    // При ошибке загрузки показываем плейсхолдер
-                    const container = card.find(`.${PLUGIN_COMPONENT}-card__img-container`);
-                    container.empty().append(`<div class="${PLUGIN_COMPONENT}-card__img-placeholder">${encoder.text(item.title.substring(0, 50) + (item.title.length > 50 ? '...' : '')).html()}</div>`);
-                };
-            }
 
             cards_container.append(card);
         });
@@ -283,24 +294,44 @@
         console.log('[' + PLUGIN_COMPONENT + '] Уничтожение компонента.');
         this.scroll.destroy();
         this.html.remove();
-        // Удаляем стили при уничтожении, если это последний экземпляр
+        // Всегда удаляем стили при уничтожении
         const styleId = PLUGIN_COMPONENT + '-styles';
-        // Проверяем, есть ли еще активные карточки этого плагина на странице
-        // if ($('.' + PLUGIN_COMPONENT + '-card').length === 0) { // Опционально
-             $('#' + styleId).remove();
-             console.log('[' + PLUGIN_COMPONENT + '] Стили удалены.');
-        // }
+        $('#' + styleId).remove();
+        console.log('[' + PLUGIN_COMPONENT + '] Стили удалены.');
         // Не очищаем parsedItems
     };
 
-    // --- Инициализация плагина ---
+    // --- Инициализация плагина и настроек ---
     function initPlugin() {
         console.log('[' + PLUGIN_COMPONENT + '] Плагин инициализирован.');
 
         // 1. Регистрируем компонент страницы
         Lampa.Component.add(plugin.component, PluginPage);
 
-        // 2. Добавляем пункт в главное меню (автоматически, без настроек)
+        // 2. Добавляем настройки
+        // Добавляем плагин в список компонентов настроек
+        Lampa.SettingsApi.addComponent({
+            component: plugin.component,
+            name: plugin.name // Имя в заголовке секции настроек
+        });
+
+        // Добавляем параметр настройки для URL
+        Lampa.SettingsApi.addParam({
+            component: plugin.component,
+            param: {
+                name: SETTING_PLAYLIST_URL_NAME, // Имя параметра в Storage
+                type: 'input', // Тип поля ввода
+                placeholder: Lampa.Lang.translate(PLUGIN_COMPONENT + '_playlist_url_placeholder'), // Плейсхолдер
+                default: DEFAULT_PLAYLIST_URL // Значение по умолчанию
+            },
+            field: {
+                name: Lampa.Lang.translate(PLUGIN_COMPONENT + '_playlist_url'), // Название настройки в UI
+                description: '' // Описание (можно добавить при необходимости)
+            }
+            // onChange: не нужен, плагин будет читать значение при каждой загрузке
+        });
+
+        // 3. Добавляем пункт в главное меню (автоматически, без условий)
         const menuEl = $('<li class="menu__item selector js-' + plugin.component + '-menu0">'
                     + '<div class="menu__ico">' + plugin.icon + '</div>'
                     + '<div class="menu__text js-' + plugin.component + '-menu0-title">'
@@ -315,7 +346,7 @@
             Lampa.Activity.push(activity);
         });
 
-        // 3. Добавляем пункт меню в главное меню при запуске приложения
+        // 4. Добавляем пункт меню в главное меню при запуске приложения
         function pluginStart() {
             if (!!window['plugin_' + plugin.component + '_ready']) {
                  console.log('[' + PLUGIN_COMPONENT + '] Плагин уже запущен.');
@@ -339,10 +370,6 @@
                 }
             });
         }
-
-        // 4. Интеграция в глобальный поиск УБРАНА
-        // console.log('[' + PLUGIN_COMPONENT + '] Регистрация в глобальном поиске УБРАНА.');
-        // Lampa.Search.addSource({...});
     }
 
     // --- Запуск после загрузки Lampa ---
