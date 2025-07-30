@@ -1,162 +1,144 @@
-(function () {
-    const plugin = {
-        name: 'm3u_loader',
-        version: '1.0.0',
-        description: 'Загрузка M3U плейлиста с обложками',
+Lampa.Plugin.add('m3u_loader', {
+    init: function () {
+        // Добавляем пункт меню
+        Lampa.Manifest.menu.push({
+            title: 'M3U Плейлисты',
+            component: 'm3u_loader_main',
+            icon: 'img/icons/menu/catalog.svg'
+        });
 
-        init: function () {
-            // Регистрация плагина в системе
-            if (typeof Lampa !== 'undefined') {
-                Lampa.Listener.follow('app', (e) => {
-                    if (e.type === 'ready') {
-                        this.addMenuItem();
-                    }
-                });
-            }
-        },
+        // Регистрируем компонент
+        Lampa.Component.add('m3u_loader_main', this.mainComponent.bind(this));
+    },
 
-        addMenuItem: function () {
-            Lampa.Manifest.plugins.push({
-                name: this.name,
-                component: 'm3u_loader',
-                title: 'M3U Плейлисты',
-                icon: 'img/icons/menu/catalog.svg'
+    mainComponent: function () {
+        var comp = new Lampa.Component();
+        
+        comp.create = function () {
+            this.activity = new Lampa.Activity({
+                component: 'm3u_loader_main',
+                template: this.template.bind(this)
             });
 
-            Lampa.Component.add('m3u_loader', this.component.bind(this));
-        },
+            this.activity.render();
 
-        component: function () {
-            const comp = new Lampa.Component();
+            this.loadPlaylist();
+
+            return this.activity;
+        };
+
+        comp.template = function () {
+            return $(`
+                <div class="m3u-loader">
+                    <div class="m3u-loader__header" style="padding: 20px; text-align: center;">
+                        Загрузка плейлиста...
+                    </div>
+                    <div class="m3u-loader__content" style="padding: 0 20px;"></div>
+                </div>
+            `);
+        };
+
+        comp.loadPlaylist = function () {
+            var url = 'https://safeown.github.io/plvideo_4k_final.m3u';
+            var _this = this;
             
-            comp.create = function () {
-                this.activity = new Lampa.Activity({
-                    component: 'm3u_loader',
-                    template: this.template.bind(this),
-                    onBack: () => {
-                        Lampa.Activity.out();
+            this.activity.loader(true);
+
+            fetch(url)
+                .then(function(response) {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
                     }
+                    return response.text();
+                })
+                .then(function(text) {
+                    _this.activity.loader(false);
+                    var channels = _this.parseM3U(text);
+                    _this.displayChannels(channels);
+                })
+                .catch(function(error) {
+                    _this.activity.loader(false);
+                    _this.activity.render().find('.m3u-loader__header').text('Ошибка загрузки: ' + error.message);
+                    console.error('M3U Loader Error:', error);
                 });
+        };
 
-                this.activity.render();
+        comp.parseM3U = function(text) {
+            var lines = text.split('\n');
+            var channels = [];
+            var currentChannel = null;
 
-                this.loadContent();
+            for (var i = 0; i < lines.length; i++) {
+                var line = lines[i].trim();
 
-                return this.activity;
-            };
+                if (line.startsWith('#EXTINF:')) {
+                    var logoMatch = line.match(/tvg-logo="([^"]+)"/);
+                    var nameMatch = line.split(',').pop();
+                    
+                    var logo = logoMatch ? logoMatch[1] : '';
+                    var name = nameMatch ? nameMatch.trim() : 'Без названия';
 
-            comp.template = function () {
-                return $(`
-                    <div class="m3u-loader">
-                        <div class="m3u-loader__header" style="padding: 20px; text-align: center; font-size: 18px;">
-                            Загрузка плейлиста...
+                    currentChannel = { 
+                        name: name, 
+                        logo: logo, 
+                        url: '' 
+                    };
+                } else if (currentChannel && line.startsWith('http')) {
+                    currentChannel.url = line;
+                    channels.push(currentChannel);
+                    currentChannel = null;
+                }
+            }
+
+            return channels;
+        };
+
+        comp.displayChannels = function(channels) {
+            var container = this.activity.render().find('.m3u-loader__content');
+            var header = this.activity.render().find('.m3u-loader__header');
+            
+            header.text('Каналов загружено: ' + channels.length);
+            
+            container.empty();
+
+            // Определяем количество колонок
+            var isMobile = window.innerWidth < 768;
+            var columns = isMobile ? 2 : 6;
+
+            var grid = $('<div class="m3u-grid" style="display: grid; grid-template-columns: repeat(' + columns + ', 1fr); gap: 15px;"></div>');
+
+            channels.forEach(function(channel, index) {
+                var item = $(`
+                    <div class="m3u-item" style="cursor: pointer; text-align: center; margin-bottom: 15px;">
+                        <div style="position: relative; border-radius: 8px; overflow: hidden; background: #333;">
+                            <img src="${channel.logo || 'img/empty.svg'}" 
+                                 style="width: 100%; height: auto; display: block;" 
+                                 onerror="this.src='img/empty.svg'"
+                            />
                         </div>
-                        <div class="m3u-loader__content" style="padding: 0 20px 20px;"></div>
+                        <div style="margin-top: 8px; font-size: 12px; padding: 0 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                            ${channel.name}
+                        </div>
                     </div>
                 `);
-            };
 
-            comp.loadContent = function () {
-                const playlistUrl = 'https://safeown.github.io/plvideo_4k_final.m3u';
-                
-                this.activity.loader(true);
-
-                this.loadPlaylist(playlistUrl)
-                    .then(channels => {
-                        this.activity.loader(false);
-                        this.displayChannels(channels);
-                    })
-                    .catch(err => {
-                        this.activity.loader(false);
-                        this.activity.render().find('.m3u-loader__header').text('Ошибка загрузки плейлиста');
-                        console.error('M3U Loader Error:', err);
+                item.on('click', function() {
+                    Lampa.Player.play({
+                        url: channel.url,
+                        title: channel.name,
+                        poster: channel.logo
                     });
-            };
-
-            comp.loadPlaylist = async function (url) {
-                try {
-                    const response = await fetch(url);
-                    if (!response.ok) throw new Error('Network response was not ok');
-                    
-                    const text = await response.text();
-                    const lines = text.split('\n');
-                    const channels = [];
-                    let currentChannel = null;
-
-                    for (let i = 0; i < lines.length; i++) {
-                        const line = lines[i].trim();
-
-                        if (line.startsWith('#EXTINF:')) {
-                            const logoMatch = line.match(/tvg-logo="([^"]+)"/);
-                            const nameMatch = line.split(',').pop();
-                            
-                            const logo = logoMatch ? logoMatch[1] : '';
-                            const name = nameMatch ? nameMatch.trim() : 'Без названия';
-
-                            currentChannel = { name, logo, url: '' };
-                        } else if (currentChannel && line.startsWith('http')) {
-                            currentChannel.url = line;
-                            channels.push(currentChannel);
-                            currentChannel = null;
-                        }
-                    }
-
-                    return channels;
-                } catch (error) {
-                    throw new Error('Failed to load playlist: ' + error.message);
-                }
-            };
-
-            comp.displayChannels = function (channels) {
-                const container = this.activity.render().find('.m3u-loader__content');
-                const header = this.activity.render().find('.m3u-loader__header');
-                
-                header.text(`Загружено каналов: ${channels.length}`);
-                
-                container.empty();
-
-                const isMobile = window.innerWidth < 768;
-                const columns = isMobile ? 2 : 6;
-
-                const grid = $(`<div class="m3u-grid" style="display: grid; grid-template-columns: repeat(${columns}, 1fr); gap: 15px;"></div>`);
-
-                channels.forEach((channel, index) => {
-                    const item = $(`
-                        <div class="m3u-item" data-index="${index}" style="cursor: pointer; text-align: center; margin-bottom: 10px;">
-                            <div style="position: relative; overflow: hidden; border-radius: 8px;">
-                                <img src="${channel.logo || 'img/empty.svg'}" 
-                                     style="width: 100%; height: auto; display: block;" 
-                                     onerror="this.src='img/empty.svg'"
-                                />
-                            </div>
-                            <div style="margin-top: 8px; font-size: 12px; padding: 0 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
-                                ${channel.name}
-                            </div>
-                        </div>
-                    `);
-
-                    item.on('click', () => {
-                        Lampa.Player.play({
-                            url: channel.url,
-                            title: channel.name,
-                            poster: channel.logo
-                        });
-                    });
-
-                    grid.append(item);
                 });
 
-                container.append(grid);
-            };
+                grid.append(item);
+            });
 
-            return comp.create();
-        }
-    };
+            container.append(grid);
+        };
 
-    // Инициализация плагина после загрузки Lampa
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', () => plugin.init());
-    } else {
-        plugin.init();
+        return comp.create();
     }
-})();
+});
+
+// Инициализируем плагин
+Lampa.Plugin.init('m3u_loader');
