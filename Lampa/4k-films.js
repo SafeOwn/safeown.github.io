@@ -2,23 +2,54 @@
     'use strict';
 
     var plugin_info = {
-        component: 'm3u_loader',
-        name: 'M3U Плейлисты',
-        icon: '<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>'
+        component: '4k_films',
+        name: '4K Фильмы',
+        icon: '<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M18 3v2h-2V3H8v2H6V3H4v18h2v-2h2v2h8v-2h2v2h2V3h-2zM8 17H6v-2h2v2zm0-4H6v-2h2v2zm0-4H6V7h2v2zm10 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V7h2v2z"/></svg>'
     };
 
     function PluginPage(data) {
         var network = new Lampa.Reguest();
         var scroll = new Lampa.Scroll({ mask: true, over: true });
         var html = $(`<div></div>`);
-        var body = $(`<div class="${plugin_info.component}"></div>`);
+        var body = $(`<div class="${plugin_info.component} category-full"></div>`);
         var info;
         var last;
+
+        // Добавляем стили для книжных постеров
+        var styles = $(`
+            <style>
+            .${plugin_info.component}.category-full {
+                padding-bottom: 10em;
+            }
+            .${plugin_info.component} .card__view {
+                position: relative;
+                background-color: #353535;
+                border-radius: 1em;
+                cursor: pointer;
+                padding-bottom: 150% !important; /* Книжный формат 2:3 */
+            }
+            .${plugin_info.component} img.card__img,
+            .${plugin_info.component} div.card__img {
+                background-color: unset;
+                border-radius: unset;
+                max-height: 200%;
+                max-width: 50%;
+                height: 200%;
+                width: 50%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 2em;
+            }
+            </style>
+        `);
+        $('head').append(styles);
 
         this.create = function () {
             this.activity.loader(true);
 
-            info = $(`<div class="info"><div class="info__title">${plugin_info.name}</div><div class="info__create">Загрузка...</div></div>`);
+            info = $(`<div class="info"><div class="info__title">${plugin_info.name}</div><div class="info__create">Загрузка плейлиста...</div></div>`);
             html.append(info);
 
             scroll.render().addClass('layer--wheight').data('mheight', info);
@@ -39,17 +70,17 @@
                 function (data) {
                     if (typeof data === 'string' && data.trim().startsWith('#EXTM3U')) {
                         var channels = _this.parseM3U(data);
-                        info.find('.info__create').text(`Загружено: ${channels.length} каналов`);
+                        info.find('.info__create').text(`Загружено каналов: ${channels.length}`);
                         _this.displayChannels(channels);
                     } else {
-                        _this.showError('Неверный формат');
+                        _this.showError('Неверный формат плейлиста');
                     }
                     _this.activity.loader(false);
                     _this.activity.toggle();
                 },
                 function (xhr) {
-                    console.error("Ошибка загрузки:", xhr);
-                    _this.showError('Ошибка загрузки');
+                    console.error("Ошибка загрузки плейлиста:", xhr);
+                    _this.showError('Ошибка загрузки плейлиста');
                     _this.activity.loader(false);
                     _this.activity.toggle();
                 },
@@ -109,16 +140,6 @@
                 // Устанавливаем ширину карточки
                 card.css('width', `calc(${100 / columns}% - 10px)`); 
                 
-                // --- НАЧАЛО ВСТАВКИ: Установка книжного вида ---
-                var cardView = card.find('.card__view');
-                cardView.css({
-                    'padding-bottom': '150%', // Книжный формат 2:3
-                    'height': '0',
-                    'position': 'relative',
-                    'overflow': 'hidden'
-                });
-                // --- КОНЕЦ ВСТАВКИ ---
-
                 var img = card.find('.card__img')[0];
                 
                 // Ленивая загрузка
@@ -207,6 +228,10 @@
             html.remove();
             body.remove();
             info = null;
+            // Удаляем стили при уничтожении
+            $('style').filter(function() {
+                return this.textContent.indexOf(plugin_info.component) !== -1;
+            }).remove();
         };
     }
 
