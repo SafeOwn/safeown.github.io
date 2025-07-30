@@ -17,108 +17,92 @@
         var info;
         var last;
 
-        // Добавляем CSS стили для полностью независимой сетки
+        // Добавляем CSS стили
         var styles = $(`
             <style>
-            /* Основные стили для плагина */
             .${plugin.component}.category-full {
                 padding-bottom: 10em;
             }
             
-            /* Контейнер для нашей независимой сетки */
-            .${plugin.component}_custom_grid {
-                position: relative;
-                width: 100%;
-                margin: 0;
-                padding: 0 20px 20px 20px;
+            /* Адаптивная сетка через CSS Grid */
+            .${plugin.component}_grid {
+                display: grid;
+                gap: 15px;
+                padding: 0 20px 20px;
+                /* По умолчанию для больших экранов (ТВ) - 6 колонок */
+                grid-template-columns: repeat(6, 1fr);
             }
             
-            /* Контейнер одной карточки */
-            .${plugin.component}_card_container {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: calc((100% - 85px) / 6); /* 6 колонок по умолчанию */
-                height: 0;
-                padding-bottom: calc(((100% - 85px) / 6) * 1.5); /* Высота 150% от ширины (книжный формат) */
-            }
-            
-            /* Стили для карточки */
-            .${plugin.component}_card {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background-color: #353535;
-                border-radius: 1em;
-                cursor: pointer;
-                overflow: hidden;
-                box-sizing: border-box;
-            }
-            
-            /* Изображение в карточке */
-            .${plugin.component}_card_img {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-size: 2em;
-                font-weight: bold;
-                color: #fff;
-            }
-            
-            /* Заголовок карточки */
-            .${plugin.component}_card_title {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                padding: 8px 4px;
-                margin: 0;
-                font-size: 12px;
-                text-align: center;
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                box-sizing: border-box;
-                background: rgba(0, 0, 0, 0.7);
-                color: #fff;
+            /* Для планшетов - 4 колонки */
+            @media screen and (max-width: 1200px) {
+                .${plugin.component}_grid {
+                    grid-template-columns: repeat(4, 1fr);
+                }
             }
             
             /* Для телефонов - 2 колонки */
             @media screen and (max-width: 768px) {
-                .${plugin.component}_card_container {
-                    width: calc((100% - 10px) / 2); /* 2 колонки */
-                    padding-bottom: calc(((100% - 10px) / 2) * 1.5); /* Высота 150% от ширины */
-                }
-                
-                .${plugin.component}_custom_grid {
-                    padding: 0 10px 10px 10px;
-                }
-                
-                .${plugin.component}_card_title {
-                    font-size: 14px;
-                }
-            }
-            
-            /* Для планшетов - 4 колонки */
-            @media screen and (min-width: 769px) and (max-width: 1200px) {
-                .${plugin.component}_card_container {
-                    width: calc((100% - 45px) / 4); /* 4 колонки */
-                    padding-bottom: calc(((100% - 45px) / 4) * 1.5); /* Высота 150% от ширины */
+                .${plugin.component}_grid {
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 10px;
+                    padding: 0 10px 10px;
                 }
             }
             
             /* Для очень маленьких экранов */
             @media screen and (max-width: 480px) {
-                .${plugin.component}_custom_grid {
-                    padding: 0 8px 8px 8px;
+                .${plugin.component}_grid {
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 8px;
+                    padding: 0 8px 8px;
+                }
+            }
+            
+            /* Стили для книжных карточек */
+            .${plugin.component} .card__view {
+                position: relative;
+                background-color: #353535;
+                border-radius: 1em;
+                cursor: pointer;
+                /* Книжный формат 2:3 */
+                padding-bottom: 150% !important;
+                height: 0;
+                overflow: hidden;
+            }
+            
+            .${plugin.component} img.card__img,
+            .${plugin.component} div.card__img {
+                background-color: unset;
+                border-radius: unset;
+                max-height: 200%;
+                max-width: 50%;
+                height: 200%;
+                width: 50%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 2em;
+                object-fit: cover;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+            }
+            
+            .${plugin.component} .card__title {
+                margin-top: 8px;
+                font-size: 12px;
+                text-align: center;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                padding: 0 4px;
+            }
+            
+            @media screen and (max-width: 768px) {
+                .${plugin.component} .card__title {
+                    font-size: 14px;
                 }
             }
             </style>
@@ -221,53 +205,45 @@
         this.displayChannels = function (channels) {
             body.empty();
 
-            // Создаем контейнер для нашей сетки
-            var grid = $(`<div class="${plugin.component}_custom_grid"></div>`);
-            
-            // Вычисляем количество колонок в зависимости от ширины экрана
-            var isMobile = window.innerWidth <= 768;
-            var isTablet = window.innerWidth > 768 && window.innerWidth <= 1200;
-            var columns = isMobile ? 2 : (isTablet ? 4 : 6);
-            
-            // Вычисляем ширину одной колонки в процентах
-            var columnWidth = isMobile ? 
-                ((100 - 10) / 2) : 
-                (isTablet ? ((100 - 45) / 4) : ((100 - 85) / 6));
-            
-            // Высота строки (150% от ширины колонки)
-            var rowHeight = columnWidth * 1.5;
-            
-            // Высота отступа между строками
-            var rowGap = isMobile ? 10 : (isTablet ? 15 : 15);
-            
-            // Ширина отступа между колонками
-            var columnGap = isMobile ? 10 : (isTablet ? 15 : 15);
+            // Создаем контейнер сетки
+            var grid = $(`<div class="${plugin.component}_grid"></div>`);
 
-            channels.forEach(function (channel, index) {
-                // Вычисляем позицию карточки
-                var row = Math.floor(index / columns);
-                var col = index % columns;
-                
-                // Позиционирование
-                var left = col * (columnWidth + columnGap);
-                var top = row * (rowHeight + rowGap);
-
-                // Создаем контейнер для карточки
-                var cardContainer = $(`<div class="${plugin.component}_card_container"></div>`);
-                cardContainer.css({
-                    'left': left + '%',
-                    'top': top + 'px'
+            channels.forEach(function (channel, chI) {
+                // Используем стандартный шаблон карточки Lampa
+                var card = Lampa.Template.get('card', {
+                    title: channel.Title,
+                    release_year: ''
                 });
 
-                // Создаем карточку
-                var card = $(`<div class="${plugin.component}_card" data-index="${index}"></div>`);
+                // Добавляем класс для коллекции
+                card.addClass('card--collection');
                 
-                // Создаем изображение или заглушку
-                var imgElement;
-                if (channel['tvg-logo']) {
-                    imgElement = $(`<img class="${plugin.component}_card_img" src="${channel['tvg-logo']}" alt="${channel.Title}" />`);
-                } else {
-                    // Создаем заглушку с инициалами
+                // --- ВАЖНО: Установка книжной формы карточки через cardView.css() ---
+                var cardView = card.find('.card__view');
+                // padding-bottom: 150% создает высоту, равную 150% от ширины (формат 2:3)
+                cardView.css({
+                    'padding-bottom': '150%', // Книжный формат 2:3
+                    'height': '0',
+                    'position': 'relative',
+                    'overflow': 'hidden'
+                });
+                // --- КОНЕЦ ВАЖНОЙ ВСТАВКИ ---
+                
+                var img = card.find('.card__img')[0];
+                
+                // Ленивая загрузка для оптимизации
+                if ('loading' in HTMLImageElement.prototype) {
+                    img.loading = (chI < 18 ? 'eager' : 'lazy');
+                }
+                
+                // Обработчик успешной загрузки изображения
+                img.onload = function () {
+                    card.addClass('card--loaded');
+                };
+                
+                // Обработчик ошибки загрузки изображения
+                img.onerror = function (e) {
+                    // Создаем заглушку с инициалами названия канала
                     var name = channel.Title.replace(/\s+\(([+-]?\d+)\)/, ' $1')
                                           .replace(/[-.()\s]+/g, ' ')
                                           .replace(/(^|\s+)(TV|ТВ)(\s+|$)/i, '$3');
@@ -282,32 +258,24 @@
                     var hex = (Lampa.Utils.hash(channel.Title) * 1).toString(16);
                     while (hex.length < 6) hex += hex;
                     hex = hex.substring(0,6);
+                    var r = parseInt(hex.slice(0, 2), 16),
+                        g = parseInt(hex.slice(2, 4), 16),
+                        b = parseInt(hex.slice(4, 6), 16);
+                    var hexText = (r * 0.299 + g * 0.587 + b * 0.114) > 186 ? '#000000' : '#FFFFFF';
                     
-                    imgElement = $(`<div class="${plugin.component}_card_img" style="background-color: #${hex};">${fl}</div>`);
+                    // Заменяем изображение на заглушку
+                    card.find('.card__img').replaceWith(`<div class="card__img" style="background-color: #${hex}; color: ${hexText};">${fl}</div>`);
+                    card.addClass('card--loaded');
+                };
+
+                // Устанавливаем источник изображения или вызываем onerror если лого нет
+                if (channel['tvg-logo']) {
+                    img.src = channel['tvg-logo'];
+                } else {
+                    img.onerror();
                 }
 
-                // Создаем заголовок
-                var titleElement = $(`<div class="${plugin.component}_card_title">${channel.Title}</div>`);
-
-                // Добавляем элементы в карточку
-                card.append(imgElement);
-                card.append(titleElement);
-
-                // Добавляем обработчики событий
-                card.on('click touchend', function(e) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    // Воспроизведение канала
-                    var video_data = {
-                        title: channel.Title,
-                        url: channel.Url,
-                        plugin: plugin.component,
-                        tv: true
-                    };
-                    Lampa.Player.play(video_data);
-                });
-
-                // Для навигации контроллером
+                // Обработчики событий навигации
                 card.on('hover:focus hover:hover', function (e) {
                     last = card[0];
                     scroll.update(card, true);
@@ -322,17 +290,8 @@
                     Lampa.Player.play(video_data);
                 });
 
-                // Добавляем карточку в контейнер
-                cardContainer.append(card);
-                grid.append(cardContainer);
+                grid.append(card);
             });
-
-            // Устанавливаем высоту контейнера сетки
-            if (channels.length > 0) {
-                var totalRows = Math.ceil(channels.length / columns);
-                var gridHeight = totalRows * (rowHeight + rowGap) - rowGap; // Вычитаем последний отступ
-                grid.css('height', gridHeight + 'px');
-            }
 
             body.append(grid);
         };
