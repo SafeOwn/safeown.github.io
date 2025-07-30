@@ -1,314 +1,458 @@
-/*// Плагин 4K Фильмы для Lampa*/
+/*
+// Плагин IPTV для Lampa
+// Загружает M3U плейлист и отображает каналы с обложками
+// Адаптирует количество колонок под тип устройства (телефон/телевизор)
+*/
 ;(function () {
     'use strict';
-    
+
+    // Основная конфигурация плагина
     var plugin = {
-        component: '4k_films',
-        name: '4K Фильмы',
-        icon: "<svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"currentColor\"><path d=\"M18 3v2h-2V3H8v2H6V3H4v18h2v-2h2v2h8v-2h2v2h2V3h-2zM8 17H6v-2h2v2zm0-4H6v-2h2v2zm0-4H6V7h2v2zm10 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V7h2v2z\"/></svg>",
-        url: 'https://safeown.github.io/plvideo_4k_final.m3u'
+        component: 'my_iptv_channels', // Уникальный идентификатор компонента
+        icon: "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-tv\"><rect x=\"2\" y=\"7\" width=\"20\" height=\"15\" rx=\"2\" ry=\"2\"></rect><polyline points=\"17 2 12 7 7 2\"></polyline></svg>",
+        name: 'My IPTV Channels'
     };
 
-    function pluginPage(data) {
+    // Глобальные переменные
+    var lists = []; // Хранит данные о плейлистах
+    var curListId = -1; // ID текущего плейлиста
+    var defaultGroup = 'Все каналы'; // Группа по умолчанию
+    var catalog = {}; // Каталог каналов по группам
+    var listCfg = {}; // Конфигурация плейлиста
+    var UID = ''; // Уникальный идентификатор пользователя
+
+    // Элементы интерфейса
+    var encoder = $('<div/>'); // Для экранирования HTML
+
+    /**
+     * Проверяет, является ли плейлист плагина
+     * @param {Array} playlist - Плейлист
+     * @returns {boolean}
+     */
+    function isPluginPlaylist(playlist) {
+        return !(!playlist.length || !playlist[0].tv || !playlist[0].plugin || playlist[0].plugin !== plugin.component);
+    }
+
+    /**
+     * Генерирует уникальную подпись для строки
+     * @param {string} string - Входная строка
+     * @returns {string}
+     */
+    function generateSigForString(string) {
+        var sigTime = Math.floor(Date.now() / 1000);
+        return sigTime.toString(36) + ':' + Lampa.Utils.hash((string || '') + sigTime + UID).toString(36);
+    }
+
+    /**
+     * Подготавливает URL, заменяя переменные
+     * @param {string} url - Исходный URL
+     * @returns {string}
+     */
+    function prepareUrl(url) {
+        var timestamp = Math.floor(Date.now() / 1000);
+        var replacements = {
+            '${timestamp}': timestamp,
+            '${uid}': UID,
+            '${token}': generateSigForString(Lampa.Storage.field('account_email').toLowerCase()),
+            // Можно добавить другие переменные при необходимости
+        };
+
+        for (var key in replacements) {
+            url = url.replace(new RegExp(key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), replacements[key]);
+        }
+        return url;
+    }
+
+    /**
+     * Получает значение из хранилища
+     * @param {string} name - Имя ключа
+     * @param {*} defaultValue - Значение по умолчанию
+     * @returns {*}
+     */
+    function getStorage(name, defaultValue) {
+        return Lampa.Storage.get(plugin.component + '_' + name, defaultValue);
+    }
+
+    /**
+     * Сохраняет значение в хранилище
+     * @param {string} name - Имя ключа
+     * @param {*} val - Значение
+     * @param {boolean} noListen - Не уведомлять слушателей
+     * @returns {*}
+     */
+    function setStorage(name, val, noListen) {
+        return Lampa.Storage.set(plugin.component + '_' + name, val, noListen);
+    }
+
+    /**
+     * Получает значение настройки
+     * @param {string} name - Имя настройки
+     * @returns {*}
+     */
+    function getSettings(name) {
+        return Lampa.Storage.field(plugin.component + '_' + name);
+    }
+
+    /**
+     * Добавляет параметр в настройки
+     * @param {string} type - Тип параметра (input, title и т.д.)
+     * @param {Object} param - Параметры
+     */
+    function addSettings(type, param) {
+        var data = {
+            component: plugin.component,
+            param: {
+                name: plugin.component + '_' + param.name,
+                type: type,
+                values: param.values || '',
+                placeholder: param.placeholder || '',
+                default: (typeof param.default === 'undefined') ? '' : param.default
+            },
+            field: {
+                name: param.title || param.name || ''
+            }
+        };
+
+        if (param.description) data.field.description = param.description;
+        if (param.onChange) data.onChange = param.onChange;
+
+        Lampa.SettingsApi.addParam(data);
+    }
+
+    /**
+     * Конфигурирует плейлист в настройках
+     * @param {number} i - Индекс плейлиста
+     * @returns {number}
+     */
+    function configurePlaylist(i) {
+        addSettings('title', { title: 'Плейлист ' + (i + 1) });
+
+        var defName = 'IPTV Плейлист ' + (i + 1);
+        var activity = {
+            id: i,
+            url: '',
+            title: defName,
+            groups: [],
+            currentGroup: getStorage('last_catalog_' + i, defaultGroup),
+            component: plugin.component,
+            page: 1
+        };
+
+        if (activity.currentGroup === '!!') activity.currentGroup = '';
+
+        addSettings('input', {
+            title: 'Название плейлиста',
+            name: 'list_name_' + i,
+            default: defName,
+            placeholder: defName,
+            description: 'Название плейлиста в меню',
+            onChange: function (newVal) {
+                var title = !newVal ? defName : newVal;
+                $('.js-' + plugin.component + '-menu' + i + '-title').text(title);
+                activity.title = title;
+                lists[i].activity.title = title; // Обновляем в списке
+            }
+        });
+
+        addSettings('input', {
+            title: 'URL плейлиста',
+            name: 'list_url_' + i,
+            default: 'https://safeown.github.io/plvideo_4k_final.m3u',
+            placeholder: 'https://example.com/playlist.m3u',
+            description: 'Ссылка на .m3u или .m3u8 файл',
+            onChange: function (url) {
+                if (url === activity.url) return;
+                if (activity.id === curListId) {
+                    catalog = {};
+                    curListId = -1;
+                }
+                if (/^https?:\/\/./i.test(url)) {
+                    activity.url = url;
+                    $('.js-' + plugin.component + '-menu' + i).show();
+                } else {
+                    activity.url = '';
+                    $('.js-' + plugin.component + '-menu' + i).hide();
+                }
+                lists[i].activity.url = url; // Обновляем в списке
+            }
+        });
+
+        var name = getSettings('list_name_' + i) || defName;
+        var url = getSettings('list_url_' + i) || 'https://safeown.github.io/plvideo_4k_final.m3u';
+        var title = name;
+
+        activity.title = title;
+        activity.url = url;
+
+        var menuEl = $('<li class="menu__item selector js-' + plugin.component + '-menu' + i + '">' +
+            '<div class="menu__ico">' + plugin.icon + '</div>' +
+            '<div class="menu__text js-' + plugin.component + '-menu' + i + '-title">' +
+            encoder.text(title).html() +
+            '</div>' +
+            '</li>')
+            .on('hover:enter', function () {
+                if (Lampa.Activity.active().component === plugin.component) {
+                    Lampa.Activity.replace(Lampa.Arrays.clone(activity));
+                } else {
+                    Lampa.Activity.push(Lampa.Arrays.clone(activity));
+                }
+            });
+
+        // Инициализируем видимость элемента меню
+        if (/^https?:\/\/./i.test(url)) {
+            menuEl.show();
+        } else {
+            menuEl.hide();
+        }
+
+        // Если список уже существует, обновляем его, иначе добавляем
+        if (lists[i]) {
+            lists[i].activity = activity;
+            lists[i].menuEl.replaceWith(menuEl);
+            lists[i].menuEl = menuEl;
+        } else {
+            lists.push({ activity: activity, menuEl: menuEl, groups: [] });
+        }
+
+        return i;
+    }
+
+    /**
+     * Основной класс страницы плагина
+     * @param {Object} object - Данные активности
+     */
+    function pluginPage(object) {
+        if (object.id !== curListId) {
+            catalog = {};
+            listCfg = {};
+            curListId = object.id;
+        }
+
         var network = new Lampa.Reguest();
-        var scroll = new Lampa.Scroll({ mask: true, over: true });
+        var scroll = new Lampa.Scroll({
+            mask: true,
+            over: true
+        });
+
         var html = $('<div></div>');
         var body = $('<div class="' + plugin.component + ' category-full"></div>');
+        
+        // Определяем количество колонок в зависимости от типа устройства
+        var isMobile = Lampa.Platform.is('mobile');
+        var isTablet = Lampa.Platform.is('tablet');
+        var columnsClass = 'columns-tv'; // По умолчанию для ТВ
+
+        if (isMobile) {
+            columnsClass = 'columns-mobile';
+        } else if (isTablet) {
+            columnsClass = 'columns-tablet';
+        }
+        body.addClass(columnsClass);
+
         var info;
         var last;
 
-        // Добавляем CSS стили
-        var styles = $(`
-            <style>
-            .${plugin.component}.category-full {
-                padding-bottom: 10em;
-            }
-            
-            /* Адаптивная сетка через float (как в оригинальном примере) */
-            .${plugin.component}_grid {
-                padding: 0 20px 20px;
-            }
-            
-            /* Карточка в сетке */
-            .${plugin.component}_item {
-                float: left;
-                /* Для больших экранов (ТВ) - 6 колонок */
-                width: calc((100% - 75px) / 6); /* 6 карточек - 5 промежутков по 15px = 75px */
-                margin-right: 15px;
-                margin-bottom: 15px;
-            }
-            
-            /* Сброс margin-right для последней карточки в строке */
-            .${plugin.component}_item:nth-child(6n) {
-                margin-right: 0;
-            }
-            
-            /* Для планшетов - 4 колонки */
-            @media screen and (max-width: 1200px) {
-                .${plugin.component}_item {
-                    width: calc((100% - 45px) / 4); /* 4 карточки - 3 промежутка по 15px = 45px */
-                }
-                
-                .${plugin.component}_item:nth-child(6n) {
-                    margin-right: 15px;
-                }
-                
-                .${plugin.component}_item:nth-child(4n) {
-                    margin-right: 0;
-                }
-            }
-            
-            /* Для телефонов - 2 колонки */
-            @media screen and (max-width: 768px) {
-                .${plugin.component}_grid {
-                    padding: 0 10px 10px;
-                }
-                
-                .${plugin.component}_item {
-                    width: calc((100% - 10px) / 2); /* 2 карточки - 1 промежуток по 10px */
-                    margin-right: 10px;
-                    margin-bottom: 10px;
-                }
-                
-                .${plugin.component}_item:nth-child(6n),
-                .${plugin.component}_item:nth-child(4n) {
-                    margin-right: 10px;
-                }
-                
-                .${plugin.component}_item:nth-child(2n) {
-                    margin-right: 0;
-                }
-            }
-            
-            /* Для очень маленьких экранов */
-            @media screen and (max-width: 480px) {
-                .${plugin.component}_grid {
-                    padding: 0 8px 8px;
-                }
-                
-                .${plugin.component}_item {
-                    margin-bottom: 8px;
-                }
-            }
-            
-            /* Очистка float */
-            .${plugin.component}_grid::after {
-                content: "";
-                display: table;
-                clear: both;
-            }
-            
-            /* Стили для книжных карточек */
-            .${plugin.component} .card {
-                width: 100% !important;
-                margin: 0 !important;
-            }
-            
-            .${plugin.component} .card__view {
-                position: relative;
-                background-color: #353535;
-                border-radius: 1em;
-                cursor: pointer;
-                /* Книжный формат 2:3 */
-                padding-bottom: 150% !important;
-                height: 0;
-                overflow: hidden;
-            }
-            
-            .${plugin.component} img.card__img,
-            .${plugin.component} div.card__img {
-                background-color: unset;
-                border-radius: unset;
-                max-height: 200%;
-                max-width: 50%;
-                height: 200%;
-                width: 50%;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                font-size: 1.5em;
-                object-fit: cover;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-weight: bold;
-            }
-            
-            .${plugin.component} .card__title {
-                margin-top: 8px;
-                font-size: 12px;
-                text-align: center;
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                padding: 0 4px;
-            }
-            
-            @media screen and (max-width: 768px) {
-                .${plugin.component} .card__title {
-                    font-size: 13px;
-                }
-                
-                .${plugin.component} img.card__img,
-                .${plugin.component} div.card__img {
-                    font-size: 1.2em;
-                }
-            }
-            </style>
-        `);
-        $('head').append(styles);
-
         this.create = function () {
+            var _this = this;
             this.activity.loader(true);
 
-            info = $(`<div class="info"><div class="info__title">${plugin.name}</div><div class="info__create">Загрузка плейлиста...</div></div>`);
-            html.append(info);
+            var emptyResult = function () {
+                var empty = new Lampa.Empty();
+                html.append(empty.render());
+                _this.start = empty.start;
+                _this.activity.loader(false);
+                _this.activity.toggle();
+            };
 
-            scroll.render().addClass('layer--wheight').data('mheight', info);
-            html.append(scroll.render());
-            scroll.append(body);
+            // Если каталог уже загружен
+            if (Object.keys(catalog).length) {
+                _this.build(
+                    !catalog[object.currentGroup] ?
+                    (lists[object.id].groups.length > 1 && catalog[lists[object.id].groups[1].key] ?
+                        catalog[lists[object.id].groups[1].key]['channels'] : []) :
+                    catalog[object.currentGroup]['channels']
+                );
+            } else if (!lists[object.id] || !object.url) {
+                emptyResult();
+                return;
+            } else {
+                // Загрузка и парсинг плейлиста
+                var listUrl = prepareUrl(object.url);
+                
+                var handleSuccess = function(data) {
+                    if (typeof data != 'string' || data.substr(0, 7).toUpperCase() !== "#EXTM3U") {
+                        emptyResult();
+                        return;
+                    }
 
-            this.loadPlaylist();
+                    catalog = {
+                        '': {
+                            title: 'Все каналы',
+                            channels: []
+                        }
+                    };
+
+                    lists[object.id].groups = [{
+                        title: 'Все каналы',
+                        key: ''
+                    }];
+
+                    var lines = data.split(/\r?\n/);
+                    var channel = null;
+                    var defGroup = defaultGroup;
+                    var chNum = 0;
+
+                    for (var i = 0; i < lines.length; i++) {
+                        var line = lines[i].trim();
+
+                        if (line.startsWith('#EXTGRP:')) {
+                            defGroup = line.substring(8).trim() || defaultGroup;
+                        }
+                        else if (line.startsWith('#EXTINF:')) {
+                            channel = {
+                                ChNum: ++chNum,
+                                Title: "Канал " + chNum,
+                                isYouTube: false,
+                                Url: '',
+                                Group: defGroup,
+                                Options: {},
+                                'tvg-logo': '',
+                                'group-title': defGroup
+                            };
+
+                            var titleMatch = line.match(/,(.*)$/);
+                            if (titleMatch) {
+                                channel.Title = titleMatch[1].trim();
+                            }
+
+                            // Парсим параметры #EXTINF
+                            var params = line.substring(8, line.indexOf(',')).split(' ');
+                            for (var p = 0; p < params.length; p++) {
+                                if (params[p].includes('=')) {
+                                    var pair = params[p].split('=');
+                                    var key = pair[0].toLowerCase();
+                                    // Убираем кавычки, если они есть
+                                    var value = pair[1];
+                                    if (value.startsWith('"') && value.endsWith('"')) {
+                                        value = value.substring(1, value.length - 1);
+                                    } else if (value.startsWith("'") && value.endsWith("'")) {
+                                        value = value.substring(1, value.length - 1);
+                                    }
+                                    channel[key] = value;
+                                }
+                            }
+                        }
+                        else if (line.startsWith('#EXTVLCOPT:')) {
+                            if (channel) {
+                                var optMatch = line.match(/#EXTVLCOPT:(.*)=(.*)/);
+                                if (optMatch) {
+                                    channel.Options[optMatch[1].toLowerCase()] = optMatch[2];
+                                }
+                            }
+                        }
+                        else if (line.match(/^(https?):\/\//)) {
+                            if (channel) {
+                                channel.Url = line;
+                                channel.isYouTube = line.includes('youtube.com');
+                                channel.Group = channel['group-title'] || defGroup;
+
+                                // Добавляем в каталог
+                                if (!catalog[channel.Group]) {
+                                    catalog[channel.Group] = {
+                                        title: channel.Group,
+                                        channels: []
+                                    };
+                                    lists[object.id].groups.push({
+                                        title: channel.Group,
+                                        key: channel.Group
+                                    });
+                                }
+                                catalog[channel.Group].channels.push(channel);
+                                catalog[''].channels.push(channel); // Все каналы
+                                channel = null; // Сброс для следующего канала
+                            }
+                        }
+                    }
+
+                    // Обновляем названия групп с количеством каналов
+                    for (i = 0; i < lists[object.id].groups.length; i++) {
+                        var group = lists[object.id].groups[i];
+                        if (catalog[group.key]) {
+                             group.title = catalog[group.key].title + ' [' + catalog[group.key].channels.length + ']';
+                        }
+                    }
+
+                    _this.build(
+                        !catalog[object.currentGroup] ?
+                        (lists[object.id].groups.length > 1 && !!catalog[lists[object.id].groups[1].key] ?
+                            catalog[lists[object.id].groups[1].key]['channels'] : []) :
+                        catalog[object.currentGroup]['channels']
+                    );
+                };
+
+                var handleError = function() {
+                    // Пробуем через прокси
+                    network.silent(
+                        Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(listUrl) +
+                        '&uid=' + UID + '&sig=' + generateSigForString(listUrl),
+                        handleSuccess,
+                        emptyResult,
+                        false,
+                        { dataType: 'text' }
+                    );
+                };
+
+                network.native(
+                    listUrl,
+                    handleSuccess,
+                    handleError,
+                    false,
+                    { dataType: 'text' }
+                );
+            }
 
             return this.render();
         };
 
-        this.loadPlaylist = function () {
-            var url = plugin.url;
-            var _this = this;
-
-            network.native(
-                url,
-                function (data) {
-                    if (typeof data === 'string' && data.trim().startsWith('#EXTM3U')) {
-                        var channels = _this.parseM3U(data);
-                        info.find('.info__create').text(`Загружено каналов: ${channels.length}`);
-                        _this.displayChannels(channels);
-                    } else {
-                        _this.showError('Неверный формат плейлиста');
-                    }
-                    _this.activity.loader(false);
-                    _this.activity.toggle();
-                },
-                function (xhr) {
-                    console.error("Ошибка загрузки плейлиста:", xhr);
-                    // Пробуем через прокси
-                    network.silent(
-                        Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(url),
-                        function (data) {
-                            if (typeof data === 'string' && data.trim().startsWith('#EXTM3U')) {
-                                var channels = _this.parseM3U(data);
-                                info.find('.info__create').text(`Загружено каналов: ${channels.length}`);
-                                _this.displayChannels(channels);
-                            } else {
-                                _this.showError('Неверный формат плейлиста (прокси)');
-                            }
-                            _this.activity.loader(false);
-                            _this.activity.toggle();
-                        },
-                        function (xhr2) {
-                            console.error("Ошибка загрузки через прокси:", xhr2);
-                            _this.showError('Не удалось загрузить плейлист');
-                            _this.activity.loader(false);
-                            _this.activity.toggle();
-                        },
-                        false,
-                        { dataType: 'text' }
-                    );
-                },
-                false,
-                { dataType: 'text' }
-            );
-        };
-
-        this.parseM3U = function (text) {
-            var lines = text.split(/\r?\n/);
-            var channels = [];
-            var currentChannel = null;
-
-            for (var i = 0; i < lines.length; i++) {
-                var line = lines[i].trim();
-
-                if (line.startsWith('#EXTINF:')) {
-                    // Извлекаем tvg-logo и название канала
-                    var logoMatch = line.match(/tvg-logo="([^"]+)"/);
-                    var nameMatch = line.split(',').pop();
-
-                    var logo = logoMatch ? logoMatch[1] : '';
-                    var name = nameMatch ? nameMatch.trim() : 'Без названия';
-
-                    currentChannel = {
-                        Title: name,
-                        'tvg-logo': logo,
-                        Url: ''
-                    };
-                } else if (currentChannel && line.startsWith('http')) {
-                    currentChannel.Url = line;
-                    channels.push(currentChannel);
-                    currentChannel = null;
-                }
-            }
-            return channels;
-        };
-
-        this.displayChannels = function (channels) {
-            body.empty();
-
-            // Создаем контейнер сетки
-            var grid = $(`<div class="${plugin.component}_grid"></div>`);
-
-            channels.forEach(function (channel, chI) {
-                // Создаем контейнер для карточки
-                var item = $(`<div class="${plugin.component}_item"></div>`);
-                
-                // Используем стандартный шаблон карточки Lampa
+        /**
+         * Добавляет каналы на страницу
+         * @param {Array} data - Массив каналов
+         */
+        this.append = function (data) {
+            var _this2 = this;
+            
+            // Определяем количество каналов для одновременной загрузки
+            var bulkSize = isMobile ? 10 : (isTablet ? 20 : 30);
+            
+            var bulkFn = function(channel) {
                 var card = Lampa.Template.get('card', {
                     title: channel.Title,
                     release_year: ''
                 });
-
-                // Добавляем класс для коллекции
+                
                 card.addClass('card--collection');
-                
-                // --- Установка книжной формы карточки через cardView.css() ---
-                var cardView = card.find('.card__view');
-                // padding-bottom: 150% создает высоту, равную 150% от ширины (формат 2:3)
-                cardView.css({
-                    'padding-bottom': '150%', // Книжный формат 2:3
-                    'height': '0',
-                    'position': 'relative',
-                    'overflow': 'hidden'
-                });
-                // --- Конец установки формы ---
-                
+
                 var img = card.find('.card__img')[0];
-                
-                // Ленивая загрузка для оптимизации
-                if ('loading' in HTMLImageElement.prototype) {
-                    img.loading = (chI < 18 ? 'eager' : 'lazy');
-                }
-                
-                // Обработчик успешной загрузки изображения
+                img.loading = 'lazy'; // Используем ленивую загрузку
+
                 img.onload = function () {
                     card.addClass('card--loaded');
                 };
-                
-                // Обработчик ошибки загрузки изображения
+
                 img.onerror = function (e) {
-                    // Создаем заглушку с инициалами названия канала
-                    var name = channel.Title.replace(/\s+\(([+-]?\d+)\)/, ' $1')
-                                          .replace(/[-.()\s]+/g, ' ')
-                                          .replace(/(^|\s+)(TV|ТВ)(\s+|$)/i, '$3');
-                    var fl = name.replace(/\s+/g, '').length > 5 ? 
-                             name.split(/\s+/).map(function(v) { 
-                                 return v.match(/^(\+?\d+|[UF]?HD|4K)$/i) ? v : v.substring(0,1).toUpperCase() 
-                             }).join('').substring(0,6) : 
-                             name.replace(/\s+/g, '');
+                    // Генерируем placeholder, если логотип не загрузился
+                    var name = channel.Title
+                        .replace(/\s+\(([+-]?\d+)\)/, ' $1')
+                        .replace(/[-.()\s]+/g, ' ')
+                        .replace(/(^|\s+)(TV|ТВ)(\s+|$)/i, '$3');
+                    var fl = name.replace(/\s+/g, '').length > 5 ?
+                        name.split(/\s+/).map(function(v) {
+                            return v.match(/^(\+?\d+|[UF]?HD|4K)$/i) ? v : v.substring(0,1).toUpperCase()
+                        }).join('').substring(0,6) :
+                        name.replace(/\s+/g, '');
                     fl = fl.replace(/([UF]?HD|4k|\+\d+)$/i, '<sup>$1</sup>');
                     
-                    // Генерируем цвет на основе названия
-                    var hex = (Lampa.Utils.hash(channel.Title) * 1).toString(16);
+                    var hex = Math.abs(Lampa.Utils.hash(channel.Title)).toString(16);
                     while (hex.length < 6) hex += hex;
                     hex = hex.substring(0,6);
                     var r = parseInt(hex.slice(0, 2), 16),
@@ -316,48 +460,193 @@
                         b = parseInt(hex.slice(4, 6), 16);
                     var hexText = (r * 0.299 + g * 0.587 + b * 0.114) > 186 ? '#000000' : '#FFFFFF';
                     
-                    // Заменяем изображение на заглушку
-                    card.find('.card__img').replaceWith(`<div class="card__img" style="background-color: #${hex}; color: ${hexText};">${fl}</div>`);
+                    card.find('.card__img').replaceWith('<div class="card__img">' + fl + '</div>');
+                    card.find('.card__view').css({'background-color': '#' + hex, 'color': hexText});
+                    channel['tvg-logo'] = '';
                     card.addClass('card--loaded');
                 };
 
-                // Устанавливаем источник изображения или вызываем onerror если лого нет
                 if (channel['tvg-logo']) {
                     img.src = channel['tvg-logo'];
                 } else {
                     img.onerror();
                 }
 
-                // Обработчики событий навигации
-                card.on('hover:focus hover:hover', function (e) {
+                card.on('hover:focus hover:hover', function (event) {
+                    if (event.type !== 'touchstart' && event.type !== 'hover:hover') scroll.update(card);
                     last = card[0];
-                    scroll.update(card, true);
+                    info.find('.info__title').text(channel.Title);
                 }).on('hover:enter', function () {
-                    // Воспроизведение канала
-                    var video_data = {
+                    var video = {
                         title: channel.Title,
-                        url: channel.Url,
+                        url: prepareUrl(channel.Url),
                         plugin: plugin.component,
                         tv: true
                     };
-                    Lampa.Player.play(video_data);
+
+                    // Создаем плейлист для внешнего плеера (начинается с текущего)
+                    var playlistForExternal = data.map(function(elem) {
+                        return {
+                            title: elem.Title,
+                            url: prepareUrl(elem.Url),
+                            tv: true
+                        };
+                    });
+
+                    // Создаем плейлист для внутреннего плеера (с номерами)
+                    var playlist = data.map(function(elem, index) {
+                        return {
+                            title: (index + 1) + '. ' + elem.Title,
+                            url: prepareUrl(elem.Url),
+                            plugin: plugin.component,
+                            tv: true
+                        };
+                    });
+
+                    video['playlist'] = playlistForExternal;
+
+                    // Воспроизводим
+                    Lampa.Player.play(video);
+                    Lampa.Player.playlist(playlist);
                 });
 
-                // Добавляем карточку в контейнер
-                item.append(card);
-                grid.append(item);
+                body.append(card);
+            };
+
+            // Добавляем каналы с контролем скорости
+            var index = 0;
+            var addNext = function() {
+                if (index < data.length) {
+                    bulkFn(data[index]);
+                    index++;
+                    setTimeout(addNext, 10); // Небольшая задержка для разгрузки
+                } else {
+                    _this2.activity.loader(false);
+                    _this2.activity.toggle();
+                }
+            };
+            
+            if (data.length > 0) {
+                addNext();
+            } else {
+                _this2.activity.loader(false);
+                _this2.activity.toggle();
+            }
+        };
+
+        /**
+         * Строит интерфейс страницы
+         * @param {Array} data - Массив каналов для отображения
+         */
+        this.build = function (data) {
+            Lampa.Background.change();
+
+            // Добавляем CSS для адаптивных колонок
+            Lampa.Template.add(plugin.component + '_styles', `
+                <style>
+                .${plugin.component}.columns-mobile .card--collection { width: calc(50% - var(--card-margin) * 2) !important; }
+                .${plugin.component}.columns-tablet .card--collection { width: calc(33.333% - var(--card-margin) * 2) !important; }
+                .${plugin.component}.columns-tv .card--collection { width: calc(16.666% - var(--card-margin) * 2) !important; }
+                
+                @media screen and (max-width: 2560px) and (min-width: 1201px) {
+                    .${plugin.component}.columns-tv .card--collection { width: calc(16.666% - var(--card-margin) * 2) !important; }
+                }
+                @media screen and (max-width: 1200px) and (min-width: 769px) {
+                    .${plugin.component}.columns-tv .card--collection, .${plugin.component}.columns-tablet .card--collection { width: calc(25% - var(--card-margin) * 2) !important; }
+                }
+                @media screen and (max-width: 768px) and (min-width: 481px) {
+                    .${plugin.component}.columns-tv .card--collection, .${plugin.component}.columns-tablet .card--collection { width: calc(33.333% - var(--card-margin) * 2) !important; }
+                    .${plugin.component}.columns-mobile .card--collection { width: calc(50% - var(--card-margin) * 2) !important; }
+                }
+                @media screen and (max-width: 480px) {
+                    .${plugin.component} .card--collection { width: calc(50% - var(--card-margin) * 2) !important; }
+                }
+                </style>
+            `);
+            if (!$('head').find('style').hasClass(plugin.component + '_styles')) {
+                $('head').append(Lampa.Template.get(plugin.component + '_styles', {}, true));
+            }
+
+
+            Lampa.Template.add(plugin.component + '_button_category', `
+                <div class="full-start__button selector view--category">
+                    <svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="info"/><g id="icons"><g id="menu">
+                            <path d="M20,10H4c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2C22,10.9,21.1,10,20,10z" fill="currentColor"/>
+                            <path d="M4,8h12c1.1,0,2-0.9,2-2c0-1.1-0.9-2-2-2H4C2.9,4,2,4.9,2,6C2,7.1,2.9,8,4,8z" fill="currentColor"/>
+                            <path d="M16,16H4c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2C18,16.9,17.1,16,16,16z" fill="currentColor"/>
+                        </g></g>
+                    </svg>
+                    <span>Категории</span>
+                </div>
+            `);
+
+            Lampa.Template.add(plugin.component + '_info', `
+                <div class="info layer--width">
+                    <div class="info__left">
+                        <div class="info__title"></div>
+                        <div class="info__title-original"></div>
+                    </div>
+                    <div class="info__right" style="display: flex !important;">
+                        <div id="category_filter"></div>
+                    </div>
+                </div>
+            `);
+
+            var btn = Lampa.Template.get(plugin.component + '_button_category');
+            info = Lampa.Template.get(plugin.component + '_info');
+            info.find('#category_filter').append(btn);
+
+            btn.on('hover:enter hover:click', function () {
+                _this2.selectGroup();
             });
 
-            body.append(grid);
+            info.find('.info__title-original').text(!catalog[object.currentGroup] ? '' : catalog[object.currentGroup].title);
+            html.append(info);
+
+            if (data.length) {
+                scroll.render().addClass('layer--wheight').data('mheight', info);
+                html.append(scroll.render());
+                this.append(data);
+                scroll.append(body);
+                setStorage('last_catalog_' + object.id, object.currentGroup ? object.currentGroup : '!!');
+                lists[object.id].activity.currentGroup = object.currentGroup;
+            } else {
+                var empty = new Lampa.Empty();
+                html.append(empty.render());
+                Lampa.Controller.collectionSet(info);
+                Navigator.move('right');
+            }
         };
 
-        this.showError = function (message) {
-            info.find('.info__create').text(message);
-            var empty = new Lampa.Empty({ title: 'Ошибка', text: message });
-            body.empty().append(empty.render());
+        /**
+         * Открывает выбор группы
+         */
+        this.selectGroup = function () {
+            var activity = Lampa.Arrays.clone(lists[object.id].activity);
+            Lampa.Select.show({
+                title: 'Категории',
+                items: Lampa.Arrays.clone(lists[object.id].groups),
+                onSelect: function(group) {
+                    if (object.currentGroup !== group.key) {
+                        activity.currentGroup = group.key;
+                        Lampa.Activity.replace(activity);
+                    } else {
+                        Lampa.Controller.toggle('content');
+                    }
+                },
+                onBack: function() {
+                    Lampa.Controller.toggle('content');
+                }
+            });
         };
 
+        /**
+         * Стартует активность
+         */
         this.start = function () {
+            if (Lampa.Activity.active().activity !== this.activity) return;
+
             var _this = this;
             Lampa.Controller.add('content', {
                 toggle: function () {
@@ -365,17 +654,28 @@
                     Lampa.Controller.collectionFocus(last || false, scroll.render());
                 },
                 left: function () {
-                    if (Lampa.Navigator.canmove('left')) Lampa.Navigator.move('left');
+                    if (Navigator.canmove('left')) Navigator.move('left');
                     else Lampa.Controller.toggle('menu');
                 },
                 right: function () {
-                    Lampa.Navigator.move('right');
+                    if (Navigator.canmove('right')) Navigator.move('right');
+                    else _this.selectGroup();
                 },
                 up: function () {
-                    Lampa.Navigator.move('up');
+                    if (Navigator.canmove('up')) {
+                        Navigator.move('up');
+                    } else {
+                        if (!info.find('.view--category').hasClass('focus')) {
+                            Lampa.Controller.collectionSet(info);
+                            Navigator.move('right')
+                        } else Lampa.Controller.toggle('head');
+                    }
                 },
                 down: function () {
-                    Lampa.Navigator.move('down');
+                    if (Navigator.canmove('down')) Navigator.move('down');
+                    else if (info.find('.view--category').hasClass('focus')) {
+                        Lampa.Controller.toggle('content');
+                    }
                 },
                 back: function () {
                     Lampa.Activity.backward();
@@ -384,58 +684,75 @@
             Lampa.Controller.toggle('content');
         };
 
-        this.pause = function () { };
-        this.stop = function () { };
         this.render = function () {
             return html;
         };
+
         this.destroy = function () {
             network.clear();
             scroll.destroy();
+            if (info) info.remove();
             html.remove();
             body.remove();
+            network = null;
+            html = null;
+            body = null;
             info = null;
-            // Удаляем стили при уничтожении
-            $('style').filter(function() {
-                return this.textContent.indexOf(plugin.component) !== -1;
-            }).remove();
         };
     }
 
-    // Инициализация плагина
-    function initPlugin() {
-        // Регистрируем компонент плагина
-        Lampa.Component.add(plugin.component, pluginPage);
+    // Локализация
+    if (!Lampa.Lang) {
+        var lang_data = {};
+        Lampa.Lang = {
+            add: function (data) { lang_data = data; },
+            translate: function (key) { return lang_data[key] ? lang_data[key].ru : key; }
+        };
+    }
 
-        // Функция добавления пункта меню
-        function addToMenu() {
-            var menu_item = $(`
-                <li class="menu__item selector" data-component="${plugin.component}">
-                    <div class="menu__ico">${plugin.icon}</div>
-                    <div class="menu__text">${plugin.name}</div>
-                </li>
-            `).on('hover:enter', function () {
-                Lampa.Activity.push({
-                    component: plugin.component
-                });
-            });
+    var langData = {};
+    function langAdd(name, values) {
+        langData[plugin.component + '_' + name] = values;
+    }
 
-            $('.menu .menu__list').first().append(menu_item);
-        }
+    // Добавляем переводы (если нужно)
+    langAdd('categories', { ru: 'Категории' });
+    Lampa.Lang.add(langData);
 
-        // Ждем готовности приложения перед добавлением в меню
-        if (window.appready) {
-            addToMenu();
-        } else {
-            Lampa.Listener.follow('app', function (e) {
-                if (e.type === 'ready') {
-                    addToMenu();
-                }
-            });
+    // Регистрация компонента и настроек
+    Lampa.Component.add(plugin.component, pluginPage);
+    Lampa.SettingsApi.addComponent(plugin);
+
+    // Конфигурация плейлиста (один по умолчанию)
+    configurePlaylist(0);
+
+    // Генерация или загрузка UID
+    UID = getStorage('uid', '');
+    if (!UID) {
+        UID = Lampa.Utils.uid(10).toUpperCase().replace(/(.{4})/g, '$1-');
+        setStorage('uid', UID);
+    } else if (UID.length > 12) {
+        UID = UID.substring(0, 12);
+        setStorage('uid', UID);
+    }
+
+    /**
+     * Инициализация плагина после готовности приложения
+     */
+    function pluginStart() {
+        if (window['plugin_' + plugin.component + '_ready']) return;
+        window['plugin_' + plugin.component + '_ready'] = true;
+
+        var menu = $('.menu .menu__list').eq(0);
+        // Добавляем элементы меню для всех сконфигурированных плейлистов
+        for (var i = 0; i < lists.length; i++) {
+            if (lists[i] && lists[i].menuEl) {
+                menu.append(lists[i].menuEl);
+            }
         }
     }
 
-    // Запускаем инициализацию плагина
-    initPlugin();
+    if (window.appready) pluginStart();
+    else Lampa.Listener.follow('app', function(e){ if (e.type === 'ready') pluginStart(); });
 
 })();
