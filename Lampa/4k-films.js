@@ -4,7 +4,7 @@
     'use strict';
 
     // --- ЖЕСТКО ЗАДАННЫЕ НАСТРОЙКИ ---
-    const HARDCODED_URL = 'https://safeown.github.io/plvideo_4k_final_with_posters.m3u'; // Ваш URL
+    const HARDCODED_URL = 'https://safeown.github.io/plvideo_4k_final.m3u'; // Ваш URL
     const HARDCODED_NAME = '4kTV'; // Ваше имя в меню
     const PLUGIN_COMPONENT = '4k_iptv'; // Внутреннее имя компонента
     // -------------------------------
