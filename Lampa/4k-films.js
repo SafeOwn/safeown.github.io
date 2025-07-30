@@ -25,47 +25,23 @@
                 padding-bottom: 10em;
             }
             
-            /* Адаптивная сетка - ОСНОВНОЙ КОНТЕЙНЕР */
+            /* Контейнер сетки */
             .${plugin.component}_grid {
-                display: grid;
-                gap: 15px;
-                padding: 0 20px 20px;
-                /* По умолчанию для больших экранов (ТВ) - 6 колонок */
-                grid-template-columns: repeat(6, 1fr);
+                /* Убираем padding по бокам изнутри, будем управлять отступами карточек */
+                padding: 0 !important;
+                /* Добавляем отступы снаружи контейнера */
+                margin: 0 20px 20px 20px !important;
             }
             
-            /* Для планшетов - 4 колонки */
-            @media screen and (max-width: 1200px) {
-                .${plugin.component}_grid {
-                    grid-template-columns: repeat(4, 1fr);
-                }
-            }
-            
-            /* Для телефонов - 2 колонки */
-            @media screen and (max-width: 768px) {
-                .${plugin.component}_grid {
-                    grid-template-columns: repeat(2, 1fr);
-                    gap: 10px;
-                    padding: 0 10px 10px;
-                }
-            }
-            
-            /* Для очень маленьких экранов */
-            @media screen and (max-width: 480px) {
-                .${plugin.component}_grid {
-                    grid-template-columns: repeat(2, 1fr);
-                    gap: 8px;
-                    padding: 0 8px 8px;
-                }
-            }
-            
-            /* ПЕРЕОПРЕДЕЛЕНИЕ СТИЛЕЙ КАРТОЧЕК LAMPA */
+            /* Базовые стили карточки */
             .${plugin.component} .card {
                 /* Убираем все стандартные ограничения */
                 width: auto !important;
                 min-width: unset !important;
                 max-width: unset !important;
                 margin: 0 !important;
+                /* Отступы между карточками */
+                margin-bottom: 15px !important;
             }
             
             /* Контейнер вида карточки - делаем его книжным */
@@ -115,6 +91,67 @@
                 .${plugin.component} .card__title {
                     font-size: 14px !important;
                 }
+            }
+            
+            /* --- АДАПТИВНАЯ СЕТКА С ПЛАВАЮЩИМИ КАРТОЧКАМИ --- */
+            /* По умолчанию для больших экранов (ТВ) - 6 колонок */
+            .${plugin.component}_grid .card {
+                float: left;
+                width: calc((100% - 85px) / 6) !important; /* 6 карточек - 5 промежутков по 15px = 75px, плюс 10px запас */
+                margin-right: 15px !important;
+            }
+            .${plugin.component}_grid .card:nth-child(6n) {
+                margin-right: 0 !important;
+            }
+            
+            /* Для планшетов - 4 колонки */
+            @media screen and (max-width: 1200px) {
+                .${plugin.component}_grid .card {
+                    width: calc((100% - 45px) / 4) !important; /* 4 карточки - 3 промежутка по 15px = 45px */
+                    margin-right: 15px !important;
+                }
+                .${plugin.component}_grid .card:nth-child(6n) {
+                    margin-right: 15px !important;
+                }
+                .${plugin.component}_grid .card:nth-child(4n) {
+                    margin-right: 0 !important;
+                }
+            }
+            
+            /* Для телефонов - 2 колонки */
+            @media screen and (max-width: 768px) {
+                .${plugin.component}_grid {
+                    margin: 0 10px 10px 10px !important;
+                }
+                .${plugin.component}_grid .card {
+                    width: calc((100% - 10px) / 2) !important; /* 2 карточки - 1 промежуток по 10px */
+                    margin-right: 10px !important;
+                    margin-bottom: 10px !important;
+                }
+                .${plugin.component}_grid .card:nth-child(6n),
+                .${plugin.component}_grid .card:nth-child(4n) {
+                    margin-right: 10px !important;
+                }
+                .${plugin.component}_grid .card:nth-child(2n) {
+                    margin-right: 0 !important;
+                }
+            }
+            
+            /* Для очень маленьких экранов */
+            @media screen and (max-width: 480px) {
+                .${plugin.component}_grid {
+                    margin: 0 8px 8px 8px !important;
+                }
+                .${plugin.component}_grid .card {
+                    margin-bottom: 8px !important;
+                }
+            }
+            
+            /* Очистка float после каждой строки */
+            .${plugin.component}_grid::after {
+                content: "";
+                display: table;
+                clear: both;
             }
             </style>
         `);
@@ -228,6 +265,17 @@
 
                 // Добавляем класс для коллекции
                 card.addClass('card--collection');
+                
+                // --- НАЧАЛО ВСТАВКИ: Установка книжной формы карточки ---
+                var cardView = card.find('.card__view');
+                // Принудительно устанавливаем стили для .card__view, чтобы сделать его книжным
+                cardView.css({
+                    'padding-bottom': '150%', // Книжный формат 2:3
+                    'height': '0',
+                    'position': 'relative',
+                    'overflow': 'hidden'
+                });
+                // --- КОНЕЦ ВСТАВКИ ---
                 
                 var img = card.find('.card__img')[0];
                 
