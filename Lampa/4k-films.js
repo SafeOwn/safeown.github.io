@@ -1,15 +1,16 @@
 (function () {
     'use strict';
 
+    // Основная информация о плагине
     var plugin_info = {
-        component: 'm3u_simple_loader', // Имя компонента
-        name: 'M3U Плейлисты',        // Отображаемое имя
-        icon: '<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>' // Простая SVG иконка
+        component: 'm3u_simple_loader',
+        name: 'M3U Плейлисты',
+        icon: '<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>'
     };
 
-    // Функция для создания страницы плагина
+    // Компонент страницы плагина
     function PluginPage() {
-        var network = new Lampa.Reguest(); // Для сетевых запросов
+        var network = new Lampa.Reguest();
         var scroll = new Lampa.Scroll({ mask: true, over: true });
         var html = $(`<div></div>`);
         var body = $(`<div class="${plugin_info.component}"></div>`);
@@ -38,12 +39,12 @@
         };
 
         this.loadPlaylist = function () {
-            var url = 'https://safeown.github.io/plvideo_4k_final.m3u'; // URL вашего плейлиста
+            var url = 'https://safeown.github.io/plvideo_4k_final.m3u';
             var _this = this;
 
             network.native(
                 url,
-                function (data) { // Успех
+                function (data) {
                     if (typeof data === 'string' && data.trim().startsWith('#EXTM3U')) {
                         var channels = _this.parseM3U(data);
                         info.find('.info__create').text(`Загружено каналов: ${channels.length}`);
@@ -54,9 +55,9 @@
                     _this.activity.loader(false);
                     _this.activity.toggle();
                 },
-                function (xhr) { // Ошибка
+                function (xhr) {
                     console.error("Ошибка загрузки плейлиста:", xhr);
-                    // Пробуем через прокси, если прямой запрос не удался (CORS)
+                    // Пробуем через прокси
                     network.silent(
                         Lampa.Utils.protocol() + 'epg.rootu.top/cors.php?url=' + encodeURIComponent(url),
                         function (data) {
@@ -128,7 +129,7 @@
                 // Используем стандартный шаблон карточки Lampa
                 var card = Lampa.Template.get('card', {
                     title: channel.name,
-                    release_year: '' // Можно использовать для группы, если нужно
+                    release_year: ''
                 });
 
                 card.addClass('card--collection');
@@ -159,14 +160,14 @@
                 // Обработчики событий
                 card.on('hover:focus hover:hover', function (e) {
                     last_focused_element = card[0];
-                    scroll.update(card, true); // Обновляем позицию скролла
+                    scroll.update(card, true);
                 }).on('hover:enter', function () {
                     // Воспроизведение канала
                     var video_data = {
                         title: channel.name,
                         url: channel.url,
                         plugin: plugin_info.component,
-                        tv: true // Указывает, что это ТВ поток
+                        tv: true
                     };
                     Lampa.Player.play(video_data);
                 });
@@ -225,13 +226,12 @@
         };
     }
 
-    // --- Инициализация плагина ---
+    // Инициализация плагина
     function initPlugin() {
-        // 1. Добавляем плагин в список компонентов
+        // Добавляем плагин в список компонентов
         Lampa.Component.add(plugin_info.component, PluginPage);
 
-        // 2. Добавляем пункт меню
-        // Дожидаемся готовности приложения
+        // Добавляем пункт меню
         if (window.appready) {
             addToMenu();
         } else {
@@ -249,10 +249,9 @@
                     <div class="menu__text">${plugin_info.name}</div>
                 </li>
             `).on('hover:enter', function () {
-                // Переход к активности плагина
                 Lampa.Activity.push({
                     component: plugin_info.component,
-                    page: 1 // Можно использовать для пагинации, если нужно
+                    page: 1
                 });
             });
 
@@ -262,6 +261,10 @@
     }
 
     // Запускаем инициализацию
-    initPlugin();
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initPlugin);
+    } else {
+        initPlugin();
+    }
 
 })();
