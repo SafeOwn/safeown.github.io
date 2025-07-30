@@ -1,35 +1,34 @@
 (function () {
     'use strict';
 
-    var plugin_info = {
+    var plugin = {
         component: '4k_films',
-        name: '4K Фильмы',
-        icon: '<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M18 3v2h-2V3H8v2H6V3H4v18h2v-2h2v2h8v-2h2v2h2V3h-2zM8 17H6v-2h2v2zm0-4H6v-2h2v2zm0-4H6V7h2v2zm10 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V7h2v2z"/></svg>'
+        name: '4K Фильмы'
     };
 
-    function PluginPage(data) {
+    function pluginPage(data) {
         var network = new Lampa.Reguest();
-        var scroll = new Lampa.Scroll({ mask: true, over: true });
-        var html = $(`<div></div>`);
-        var body = $(`<div class="${plugin_info.component} category-full"></div>`);
+        var scroll = new Lampa.Scroll({mask: true, over: true});
+        var html = $('<div></div>');
+        var body = $('<div class="' + plugin.component + ' category-full"></div>');
         var info;
         var last;
 
-        // Добавляем стили для книжных постеров
+        // Добавляем CSS стили для книжных постеров
         var styles = $(`
             <style>
-            .${plugin_info.component}.category-full {
+            .${plugin.component}.category-full {
                 padding-bottom: 10em;
             }
-            .${plugin_info.component} .card__view {
+            .${plugin.component} .card__view {
                 position: relative;
                 background-color: #353535;
                 border-radius: 1em;
                 cursor: pointer;
                 padding-bottom: 150% !important; /* Книжный формат 2:3 */
             }
-            .${plugin_info.component} img.card__img,
-            .${plugin_info.component} div.card__img {
+            .${plugin.component} img.card__img,
+            .${plugin.component} div.card__img {
                 background-color: unset;
                 border-radius: unset;
                 max-height: 200%;
@@ -49,7 +48,7 @@
         this.create = function () {
             this.activity.loader(true);
 
-            info = $(`<div class="info"><div class="info__title">${plugin_info.name}</div><div class="info__create">Загрузка плейлиста...</div></div>`);
+            info = $(`<div class="info"><div class="info__title">${plugin.name}</div><div class="info__create">Загрузка плейлиста...</div></div>`);
             html.append(info);
 
             scroll.render().addClass('layer--wheight').data('mheight', info);
@@ -172,7 +171,7 @@
                     var video_data = {
                         title: channel.name,
                         url: channel.url,
-                        plugin: plugin_info.component,
+                        plugin: plugin.component,
                         tv: true
                     };
                     Lampa.Player.play(video_data);
@@ -230,7 +229,7 @@
             info = null;
             // Удаляем стили при уничтожении
             $('style').filter(function() {
-                return this.textContent.indexOf(plugin_info.component) !== -1;
+                return this.textContent.indexOf(plugin.component) !== -1;
             }).remove();
         };
     }
@@ -238,18 +237,22 @@
     // Инициализация плагина
     function initPlugin() {
         // Регистрируем компонент
-        Lampa.Component.add(plugin_info.component, PluginPage);
+        Lampa.Component.add(plugin.component, pluginPage);
 
         // Добавляем в меню
         function addToMenu() {
             var menu_item = $(`
-                <li class="menu__item selector" data-component="${plugin_info.component}">
-                    <div class="menu__ico">${plugin_info.icon}</div>
-                    <div class="menu__text">${plugin_info.name}</div>
+                <li class="menu__item selector" data-component="${plugin.component}">
+                    <div class="menu__ico">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                            <path d="M18 3v2h-2V3H8v2H6V3H4v18h2v-2h2v2h8v-2h2v2h2V3h-2zM8 17H6v-2h2v2zm0-4H6v-2h2v2zm0-4H6V7h2v2zm10 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V7h2v2z"/>
+                        </svg>
+                    </div>
+                    <div class="menu__text">${plugin.name}</div>
                 </li>
             `).on('hover:enter', function () {
                 Lampa.Activity.push({
-                    component: plugin_info.component
+                    component: plugin.component
                 });
             });
 
