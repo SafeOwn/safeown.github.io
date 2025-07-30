@@ -9,7 +9,7 @@
     };
 
     // Компонент страницы плагина
-    function PluginPage() {
+    function PluginPage(data) {
         var network = new Lampa.Reguest();
         var scroll = new Lampa.Scroll({ mask: true, over: true });
         var html = $(`<div></div>`);
@@ -232,6 +232,23 @@
         Lampa.Component.add(plugin_info.component, PluginPage);
 
         // Добавляем пункт меню
+        function addToMenu() {
+            var menu_item = $(`
+                <li class="menu__item selector" data-component="${plugin_info.component}">
+                    <div class="menu__ico">${plugin_info.icon}</div>
+                    <div class="menu__text">${plugin_info.name}</div>
+                </li>
+            `).on('hover:enter', function () {
+                Lampa.Activity.push({
+                    component: plugin_info.component
+                });
+            });
+
+            // Добавляем пункт меню в основной список
+            $('.menu .menu__list').first().append(menu_item);
+        }
+
+        // Дожидаемся готовности приложения
         if (window.appready) {
             addToMenu();
         } else {
@@ -241,30 +258,9 @@
                 }
             });
         }
-
-        function addToMenu() {
-            var menu_item = $(`
-                <li class="menu__item selector" data-component="${plugin_info.component}">
-                    <div class="menu__ico">${plugin_info.icon}</div>
-                    <div class="menu__text">${plugin_info.name}</div>
-                </li>
-            `).on('hover:enter', function () {
-                Lampa.Activity.push({
-                    component: plugin_info.component,
-                    page: 1
-                });
-            });
-
-            // Добавляем пункт меню в основной список
-            $('.menu .menu__list').first().append(menu_item);
-        }
     }
 
     // Запускаем инициализацию
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initPlugin);
-    } else {
-        initPlugin();
-    }
+    initPlugin();
 
 })();
