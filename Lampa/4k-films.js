@@ -25,13 +25,13 @@
                 padding-bottom: 10em;
             }
             
-            /* Адаптивная сетка */
-            /* По умолчанию для больших экранов (ТВ) - 6 колонок */
+            /* Адаптивная сетка - ОСНОВНОЙ КОНТЕЙНЕР */
             .${plugin.component}_grid {
                 display: grid;
-                grid-template-columns: repeat(6, 1fr);
                 gap: 15px;
                 padding: 0 20px 20px;
+                /* По умолчанию для больших экранов (ТВ) - 6 колонок */
+                grid-template-columns: repeat(6, 1fr);
             }
             
             /* Для планшетов - 4 колонки */
@@ -50,7 +50,7 @@
                 }
             }
             
-            /* Для очень маленьких экранов - 2 колонки с меньшими отступами */
+            /* Для очень маленьких экранов */
             @media screen and (max-width: 480px) {
                 .${plugin.component}_grid {
                     grid-template-columns: repeat(2, 1fr);
@@ -59,41 +59,62 @@
                 }
             }
             
-            /* Стили для книжных карточек */
+            /* ПЕРЕОПРЕДЕЛЕНИЕ СТИЛЕЙ КАРТОЧЕК LAMPA */
             .${plugin.component} .card {
-                /* Убираем фиксированную ширину с карточки */
+                /* Убираем все стандартные ограничения */
                 width: auto !important;
+                min-width: unset !important;
+                max-width: unset !important;
+                margin: 0 !important;
             }
             
+            /* Контейнер вида карточки - делаем его книжным */
             .${plugin.component} .card__view {
-                position: relative;
-                background-color: #353535;
-                border-radius: 1em;
-                cursor: pointer;
-                /* Книжный формат 2:3 - увеличиваем высоту */
+                position: relative !important;
+                width: 100% !important;
+                height: 0 !important;
+                /* Книжный формат 2:3 - высота 150% от ширины */
                 padding-bottom: 150% !important;
-                height: 0;
-                overflow: hidden;
+                background-color: #353535 !important;
+                border-radius: 1em !important;
+                overflow: hidden !important;
+                cursor: pointer !important;
             }
             
-            .${plugin.component} img.card__img,
-            .${plugin.component} div.card__img {
-                background-color: unset;
-                border-radius: unset;
-                max-height: 200%;
-                max-width: 50%;
-                height: 200%;
-                width: 50%;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                font-size: 2em;
-                object-fit: cover; /* Сохраняем пропорции изображения */
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-weight: bold;
+            /* Изображение в карточке */
+            .${plugin.component} .card__img {
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+                width: 100% !important;
+                height: 100% !important;
+                object-fit: cover !important;
+                border-radius: 0 !important;
+                background-color: #353535 !important;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                font-size: 2em !important;
+                font-weight: bold !important;
+                color: #fff !important;
+            }
+            
+            /* Заголовок карточки */
+            .${plugin.component} .card__title {
+                margin-top: 8px !important;
+                font-size: 12px !important;
+                text-align: center !important;
+                white-space: nowrap !important;
+                overflow: hidden !important;
+                text-overflow: ellipsis !important;
+                padding: 0 4px !important;
+            }
+            
+            /* Для телефонов увеличиваем размер шрифта заголовка */
+            @media screen and (max-width: 768px) {
+                .${plugin.component} .card__title {
+                    font-size: 14px !important;
+                }
             }
             </style>
         `);
@@ -179,12 +200,11 @@
                     var name = nameMatch ? nameMatch.trim() : 'Без названия';
 
                     currentChannel = {
-                        Title: name, // Используем Title как в оригинальном плагине
+                        Title: name,
                         'tvg-logo': logo,
                         Url: ''
                     };
                 } else if (currentChannel && line.startsWith('http')) {
-                    // Следующая строка после #EXTINF содержит URL
                     currentChannel.Url = line;
                     channels.push(currentChannel);
                     currentChannel = null;
@@ -203,23 +223,11 @@
                 // Используем стандартный шаблон карточки Lampa
                 var card = Lampa.Template.get('card', {
                     title: channel.Title,
-                    release_year: '' // Можно использовать для группы, если нужно
+                    release_year: ''
                 });
 
                 // Добавляем класс для коллекции
                 card.addClass('card--collection');
-                
-                // --- НАЧАЛО ВСТАВКИ: Установка книжной формы карточки ---
-                var cardView = card.find('.card__view');
-                // Принудительно устанавливаем стили для .card__view, чтобы сделать его книжным
-                // padding-bottom: 150% создает высоту, равную 150% от ширины (формат 2:3)
-                cardView.css({
-                    'padding-bottom': '150%', // Книжный формат 2:3
-                    'height': '0',
-                    'position': 'relative',
-                    'overflow': 'hidden'
-                });
-                // --- КОНЕЦ ВСТАВКИ ---
                 
                 var img = card.find('.card__img')[0];
                 
@@ -256,7 +264,7 @@
                     var hexText = (r * 0.299 + g * 0.587 + b * 0.114) > 186 ? '#000000' : '#FFFFFF';
                     
                     // Заменяем изображение на заглушку
-                    card.find('.card__img').replaceWith('<div class="card__img" style="background-color: #' + hex + '; color: ' + hexText + ';">' + fl + '</div>');
+                    card.find('.card__img').replaceWith(`<div class="card__img" style="background-color: #${hex}; color: ${hexText};">${fl}</div>`);
                     card.addClass('card--loaded');
                 };
 
@@ -277,7 +285,7 @@
                         title: channel.Title,
                         url: channel.Url,
                         plugin: plugin.component,
-                        tv: true // Указывает, что это ТВ поток
+                        tv: true
                     };
                     Lampa.Player.play(video_data);
                 });
@@ -352,13 +360,11 @@
                     <div class="menu__text">${plugin.name}</div>
                 </li>
             `).on('hover:enter', function () {
-                // Переход к активности плагина
                 Lampa.Activity.push({
                     component: plugin.component
                 });
             });
 
-            // Добавляем пункт меню в основной список
             $('.menu .menu__list').first().append(menu_item);
         }
 
