@@ -1,0 +1,139 @@
+[
+   
+  {
+    "server": "51.178.43.237",
+    "server_port": 8443,
+    "password": "wqDCmg/DusOiw6UKMMKeBCFAw7rChsOeHsOZwozCkFrCt8OVwozDp8K3H8K/woLDtsOpw7/CnQ==",
+    "method": "aes-256-gcm",
+    "remarks": "🇫🇷 Франция (Android TV + Free TV)",
+    "route": "all",
+    "remote_dns": "one.one.one.one",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "37.59.112.70",
+    "server_port": 8443,
+    "password": "w6zCsXPCscKgfsKEBcOsUTrDhBIYZcOYwojDscKhw602BMO3wrl5ZsKlA8KoacO6bQ==",
+    "method": "aes-256-gcm",
+    "remarks": "🇫🇷 Франция 3 (Android TV + Free TV)",
+    "route": "all",
+    "remote_dns": "one.one.one.one",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },  
+  {
+    "server": "57.128.219.94",
+    "server_port": 8443,
+    "password": "cQLDncK8w4g/wo/CgsK3w6zDt8K9LcKMwqwiZsOTQDnCq8KGLhoHwqITPmrCoBfDig==",
+    "method": "aes-256-gcm",
+    "remarks": "🇵🇱 Польша (Android TV + Free TV)",
+    "route": "all",
+    "remote_dns": "one.one.one.one",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },  
+  {
+    "server": "167.172.186.211",
+    "server_port": 8443,
+    "password": "07d5dee3-7600-4765-8b23-78f32dd925d8",
+    "method": "aes-256-gcm",
+    "remarks": "🇸🇪 Швеция (Android TV + Free TV)",
+    "route": "all",
+    "remote_dns": "one.one.one.one",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },  
+  {
+    "server": "51.195.101.222",
+    "server_port": 8443,
+    "password": "6eeb834e-1d1a-4c4d-8969-0b93ba4fc293",
+    "method": "aes-256-gcm",
+    "remarks": "🇩🇪 Германия 2 (Android TV + Free TV)",
+    "route": "all",
+    "remote_dns": "one.one.one.one",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "54.36.162.84",
+    "server_port": 8443,
+    "password": "XlVqT8KdwrLDrybCvW96UMKyw4dGw6cfZXI/ZcOLc8OufcKmHlklwqIzwoA=",
+    "method": "aes-256-gcm",
+    "remarks": "🇬🇧 Великобритания (Android TV + Free TV)",
+    "route": "all",
+    "remote_dns": "one.one.one.one",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },  
+  {
+    "server": "51.195.202.129",
+    "server_port": 8443,
+    "password": "6e83ee6f-91b7-4578-b8c0-e699ed240307",
+    "method": "aes-256-gcm",
+    "remarks": "🇬🇧 Великобритания 2 (Android TV + Free TV)",
+    "route": "all",
+    "remote_dns": "one.one.one.one",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "178.128.245.246",
+    "server_port": 8443,
+    "password": "4dc7bb15-ffc3-4ed7-8984-9c5155bb2afe",
+    "method": "aes-256-gcm",
+    "remarks": "🇳🇱 Нидерланды 2 NEW (Android TV + Free TV)",
+    "route": "all",
+    "remote_dns": "one.one.one.one",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },  
+  {
+    "server": "109.201.152.181",
+    "server_port": 443,
+    "password": "shadowsocks",
+    "method": "aes-128-cfb",
+    "remarks": "🇳🇱 Нидерланды (Android TV + Free TV)",
+    "route": "all",
+    "remote_dns": "one.one.one.one",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  }
+
+]
