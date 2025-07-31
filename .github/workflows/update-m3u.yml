@@ -26,6 +26,7 @@ jobs:
           mkdir -p autoIPTV/LoganetXIPTV
           mkdir -p autoIPTV/maks-mk
           mkdir -p autoIPTV/Spirt007
+          mkdir -p autoIPTV/Dimonovich
           
           # Скачивание bormanulik playlist
           curl -L "https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u" -o autoIPTV/bormanulik/list.m3u
@@ -48,6 +49,11 @@ jobs:
           
           # Скачивание Spirt007 playlist
           curl -L "https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u" -o autoIPTV/Spirt007/Rus.m3u
+
+          # Скачивание Dimonovich playlist Android TV + Free TV + FILMS
+          curl -L "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV" -o autoIPTV/Dimonovich/TV.m3u
+          curl -L "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/FILMS" -o autoIPTV/Dimonovich/FILMS.m3u
+          curl -L "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/.m3u" -o autoIPTV/Dimonovich/TV.m3u
           
           echo "✅ All files downloaded"
 
