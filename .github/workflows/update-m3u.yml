@@ -53,7 +53,7 @@ jobs:
           # Скачивание Dimonovich playlist Android TV + Free TV + FILMS
           curl -L "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV" -o autoIPTV/Dimonovich/TV.m3u
           curl -L "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/FILMS" -o autoIPTV/Dimonovich/FILMS.m3u
-          curl -L "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/.m3u" -o autoIPTV/Dimonovich/TV.m3u
+          curl -L "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/.m3u" -o autoIPTV/Dimonovich/1.m3u
           
           echo "✅ All files downloaded"
 
