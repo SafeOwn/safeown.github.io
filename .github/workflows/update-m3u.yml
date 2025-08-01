@@ -27,6 +27,7 @@ jobs:
           mkdir -p autoIPTV/maks-mk
           mkdir -p autoIPTV/Spirt007
           mkdir -p autoIPTV/Dimonovich
+          mkdir -p autoIPTV/denisskashin
           
           # Скачивание bormanulik playlist
           curl -L "https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u" -o autoIPTV/bormanulik/list.m3u
@@ -54,6 +55,11 @@ jobs:
           curl -L "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV" -o autoIPTV/Dimonovich/TV.m3u
           curl -L "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/FILMS" -o autoIPTV/Dimonovich/FILMS.m3u
           curl -L "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/.m3u" -o autoIPTV/Dimonovich/1.m3u
+
+          # Скачивание denisskashin playlist Cartoons + RUS Cartoons + 480p
+          curl -L "https://raw.githubusercontent.com/denisskashin/iptv/main/cartoons.m3u" -o autoIPTV/denisskashin/cartoons.m3u
+          curl -L "https://raw.githubusercontent.com/denisskashin/iptv/main/rus_cartoons.m3u" -o autoIPTV/denisskashin/rus_cartoons.m3u
+        
           
           echo "✅ All files downloaded"
 
