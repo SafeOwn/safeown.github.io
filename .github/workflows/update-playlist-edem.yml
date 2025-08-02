@@ -28,7 +28,7 @@ jobs:
     
     - name: Run playlist checker
       run: |
-        cd iptv-playlist-manager
+        cd iptv-playlist-edem
         python check_playlist.py
     
     - name: Commit and push changes
