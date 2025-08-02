@@ -24,7 +24,12 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        # Явно устанавливаем requests
+        pip install requests
+        # Пытаемся установить из requirements.txt, если он есть
+        if [ -f iptv-playlist-edem/requirements.txt ]; then 
+          pip install -r iptv-playlist-edem/requirements.txt
+        fi
     
     - name: Run playlist checker
       run: |
