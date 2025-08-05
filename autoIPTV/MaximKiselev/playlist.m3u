@@ -446,7 +446,7 @@ http://77.235.1.19:8000/play/a083/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Кино" tvg-id="ultra-hd-cinema", Ultra HD Cinema (Архив)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/variant.m3u8
-#EXTINF:-1 group-title="Кино", VHS-кв HD
+#EXTINF:-1 group-title="Кино", VHS-ка HD
 http://158.160.149.81:8080/8270/index.m3u8
 #EXTINF:-1 group-title="Кино", Viasat Kino Comedy HD
 http://81.198.190.9:7878/VIPComedyHD/video.m3u8
@@ -1324,4 +1324,4 @@ https://bkm.beetv.kz/btv/live/hls/000004498.m3u8
 https://bkm.beetv.kz/btv/live/hls/000004499.m3u8
 #EXTINF:-1 group-title="Общие",Первый Тульский
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
-https://vsd153.okcdn.ru/hls/485900290780.m3u8/sig/sBPc_n0QumQ/expires/1754338986848/srcIp/135.232.232.66/urls/185.226.55.74/clientType/0/srcAg/CHROME/mid/977507065564/video.m3u8
+https://vsd158.okcdn.ru/hls/485900290780.m3u8/sig/5JtTHQZvG50/expires/1754425502463/srcIp/68.154.117.35/urls/185.226.55.74/clientType/0/srcAg/CHROME/mid/977507065564/video.m3u8
