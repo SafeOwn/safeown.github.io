@@ -165,6 +165,8 @@ http://tvip.btk.teleos.ru:8081/chid516/index.m3u8
 http://95.85.109.219:7000/play/a05v
 #EXTINF:-1 group-title="Кино", Еврокино
 http://31.210.208.171:8080/evrokino/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино", Еврокино HD
+http://178.217.72.66:8080/Yevrokino/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Кино", Иллюзион+
 http://158.160.149.81:8080/88/index.m3u8
 #EXTINF:-1 group-title="Кино", Индийское кино 
@@ -237,6 +239,8 @@ http://31.148.48.15/Mir_Seriala/index.m3u8
 http://178.217.72.66:8080/Mir_Seriala/index.m3u8
 #EXTINF:-1 group-title="Кино", Мосфильм. Золотая коллекция
 http://178.217.72.66:8080/mosfilm/index.m3u8
+#EXTINF:-1 group-title="Кино", Мосфильм. Золотая коллекция HD
+http://str6.oxtve.live:8080/mosfilm/mpegts
 #EXTINF:-1 group-title="Кино", Мужское кино
 http://158.101.222.193:88/georgia_play.php?id=interesnoetv
 #EXTINF:-1 group-title="Кино", Мужское кино HD
@@ -299,6 +303,8 @@ http://31.210.208.171:8080/xxi/index.m3u8?token=+W2MSER
 http://158.101.222.193:88/georgia_play.php?id=fenikspluskino
 #EXTINF:-1 group-title="Кино", Хит HD
 http://178.217.72.66:8080/hithd/index.m3u8
+#EXTINF:-1 group-title="Кино", Шокирующее HD
+http://str6.oxtve.live:8080/shokiruysheehd/mpegts
 #EXTINF:-1 group-title="Кино", Amedia 1
 http://158.101.222.193:88/georgia_play.php?id=amedia
 #EXTINF:-1 group-title="Кино", Amedia 1 HD
@@ -371,6 +377,8 @@ http://178.217.72.66:8080/CineMan_Thriller/index.m3u8
 http://158.160.149.81:8080/523/index.m3u8
 #EXTINF:-1 group-title="Кино", DetectiveJam HD
 http://158.160.149.81:8080/8426/index.m3u8
+#EXTINF:-1 group-title="Кино", Epic Drama HD
+http://str6.oxtve.live:8080/epicdrama/mpegts
 #EXTINF:-1 group-title="Кино", FAN 
 http://31.210.208.171:8080/fan/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Кино", FAN HD
@@ -385,10 +393,40 @@ http://158.160.149.81:8080/1967/index.m3u8
 http://81.198.190.9:7878/FILMUADRAMA/video.m3u8
 #EXTINF:-1 group-title="Кино", FilmZone HD
 http://81.198.190.9:7878/FilmZone/video.m3u8
+#EXTINF:-1 group-title="Кино", FilmZone+ HD
+http://str6.oxtve.live:8080/1105/mpegts
 #EXTINF:-1 group-title="Кино", FlixSnip
 http://176.62.72.48:8001/play/a039/index.m3u8
 #EXTINF:-1 group-title="Кино", FlixSnip HD
 http://178.217.72.66:8080/flixsnip/video.m3u8
+#EXTINF:-1 group-title="Кино", Fresh Adventure HD
+http://str6.oxtve.live:8080/Fresh_Adventure/mpegts
+#EXTINF:-1 group-title="Кино", Fresh Cinema HD
+http://str6.oxtve.live:8080/Fresh_Cinema/mpegts
+#EXTINF:-1 group-title="Кино", Fresh Comedy HD
+http://str6.oxtve.live:8080/Fresh_Comedy/mpegts
+#EXTINF:-1 group-title="Кино", Fresh Family HD
+http://str6.oxtve.live:8080/Fresh_Family/mpegts
+#EXTINF:-1 group-title="Кино", Fresh Fantastic HD
+http://str6.oxtve.live:8080/Fresh_Fantastic/mpegts
+#EXTINF:-1 group-title="Кино", Fresh Horror HD
+http://str6.oxtve.live:8080/Fresh_Horror/mpegts
+#EXTINF:-1 group-title="Кино", Fresh Premiere HD
+http://str6.oxtve.live:8080/Fresh_Premiere/mpegts
+#EXTINF:-1 group-title="Кино", Fresh Rating HD
+http://str6.oxtve.live:8080/Fresh_Rating/mpegts
+#EXTINF:-1 group-title="Кино", Fresh Romantic HD
+http://str6.oxtve.live:8080/Fresh_Romantic/mpegts
+#EXTINF:-1 group-title="Кино", Fresh Russian HD
+http://str6.oxtve.live:8080/Fresh_Russian/mpegts
+#EXTINF:-1 group-title="Кино", Fresh Series HD
+http://str6.oxtve.live:8080/Fresh_Series/mpegts
+#EXTINF:-1 group-title="Кино", Fresh Soviet HD
+http://str6.oxtve.live:8080/Fresh_Soviet/mpegts
+#EXTINF:-1 group-title="Кино", Fresh Thriller HD
+http://str6.oxtve.live:8080/Fresh_Thriller/mpegts
+#EXTINF:-1 group-title="Кино", Fresh VHS HD
+http://str6.oxtve.live:8080/Fresh_VHS/mpegts
 #EXTINF:-1 group-title="Кино", FX
 http://45.159.74.22/Fox/mono.m3u8
 #EXTINF:-1 group-title="Кино", FX HD
@@ -401,20 +439,90 @@ http://95.85.109.219:7000/play/a065
 http://176.62.72.48:8001/play/a02x/index.m3u8
 #EXTINF:-1 group-title="Кино", Hollywood HD
 http://178.217.72.66:8080/hollywoodhd/index.m3u8
+#EXTINF:-1 group-title="Кино", KBC Comics HD
+http://str6.oxtve.live:8080/KBC_comics/mpegts
+#EXTINF:-1 group-title="Кино", KBC Elile Comedy's HD
+http://str6.oxtve.live:8080/KBC_elitecomedys/mpegts
+#EXTINF:-1 group-title="Кино", KBC Fantastic HD
+http://str6.oxtve.live:8080/KBC_fantastic/mpegts
+#EXTINF:-1 group-title="Кино", KBC History HD
+http://str6.oxtve.live:8080/KBC_History/mpegts
+#EXTINF:-1 group-title="Кино", KBC Muskino HD
+http://str6.oxtve.live:8080/KBC_muskino/mpegts
+#EXTINF:-1 group-title="Кино", KBC New Film HD
+http://str6.oxtve.live:8080/KBC_Newfilm/mpegts
+#EXTINF:-1 group-title="Кино", KBC Russian Комедия HD
+http://str6.oxtve.live:8080/KBC_Russiancomedy/mpegts
+#EXTINF:-1 group-title="Кино", KBC War HD
+http://str6.oxtve.live:8080/KBC_war/mpegts
+#EXTINF:-1 group-title="Кино", KBC Аниме HD
+http://str6.oxtve.live:8080/KBC_anime/mpegts
+#EXTINF:-1 group-title="Кино", KBC В.О.В. HD
+http://str6.oxtve.live:8080/KBC_vov/mpegts
+#EXTINF:-1 group-title="Кино", KBC Вестерн HD
+http://str6.oxtve.live:8080/KBC_western/mpegts
+#EXTINF:-1 group-title="Кино", KBC Видак HD
+http://str6.oxtve.live:8080/KBC_vidac/mpegts
+#EXTINF:-1 group-title="Кино", KBC Гай Ritchie Tarantino HD
+http://str6.oxtve.live:8080/KBC_guyrichieandtarantino/mpegts
+#EXTINF:-1 group-title="Кино", KBC Гоблин HD
+http://str6.oxtve.live:8080/KBC_goblin/mpegts
+#EXTINF:-1 group-title="Кино", KBC Драма Tic HD
+http://str6.oxtve.live:8080/KBC_dramatic/mpegts
+#EXTINF:-1 group-title="Кино", KBC Кошмарное HD
+http://str6.oxtve.live:8080/KBC_koshmarnoe/mpegts
+#EXTINF:-1 group-title="Кино", KBC Легендарное HD
+http://str6.oxtve.live:8080/KBC_legend/mpegts
+#EXTINF:-1 group-title="Кино", KBC Спортмикс Кино HD
+http://str6.oxtve.live:8080/KBC_sportmix/mpegts
+#EXTINF:-1 group-title="Кино", KBC Страна СССР
+http://str6.oxtve.live:8080/KBC_stranaUSSR/mpegts
+#EXTINF:-1 group-title="Кино", KBC Шпионское HD
+http://str6.oxtve.live:8080/KBC_shpionskoe/mpegts
 #EXTINF:-1 group-title="Кино", Kino 1 HD
 http://81.198.190.9:7878/kino1/video.m3u8
 #EXTINF:-1 group-title="Кино", Kino 2 HD
 http://81.198.190.9:7878/kino2/video.m3u8
+#EXTINF:-1 group-title="Кино", KinoJam 1
+http://str6.oxtve.live:8080/kinodzhem_1/mpegts
 #EXTINF:-1 group-title="Кино", KinoJam 1 HD
 http://158.160.149.81:8080/8194/index.m3u8
+#EXTINF:-1 group-title="Кино", KinoJam 2 HD
+http://str6.oxtve.live:8080/kinodzhem_2/mpegts
 #EXTINF:-1 group-title="Кино", KinoLiving HD
 http://95.85.109.219:7000/play/a05x
+#EXTINF:-1 group-title="Кино", Magic Action HD
+http://str6.oxtve.live:8080/Magic_Action/mpegts
+#EXTINF:-1 group-title="Кино", Magic Adventure HD
+http://str6.oxtve.live:8080/Magic_Adventure/mpegts
+#EXTINF:-1 group-title="Кино", Magic Comedy HD
+http://str6.oxtve.live:8080/Magic_Comedy/mpegts
+#EXTINF:-1 group-title="Кино", Magic Family HD
+http://str6.oxtve.live:8080/Magic_Family/mpegts
+#EXTINF:-1 group-title="Кино", Magic Galaxy HD
+http://str6.oxtve.live:8080/Magic_Galaxy/mpegts
+#EXTINF:-1 group-title="Кино", Magic Horror HD
+http://str6.oxtve.live:8080/Magic_Horror/mpegts
+#EXTINF:-1 group-title="Кино", Magic Karate HD
+http://str6.oxtve.live:8080/Magic_Karate/mpegts
+#EXTINF:-1 group-title="Кино", Magic Love HD
+http://str6.oxtve.live:8080/Magic_Love/mpegts
+#EXTINF:-1 group-title="Кино", Magic Premiere HD
+http://str6.oxtve.live:8080/Magic_Premiere/mpegts
+#EXTINF:-1 group-title="Кино", Magic Russian HD
+http://str6.oxtve.live:8080/Magic_Russian/mpegts
+#EXTINF:-1 group-title="Кино", Magic Thriller HD
+http://str6.oxtve.live:8080/Magic_Thriller/mpegts
+#EXTINF:-1 group-title="Кино", Magic VHS HD
+http://str6.oxtve.live:8080/Magic_VHS/mpegts
 #EXTINF:-1 group-title="Кино", Novella TV HD
 http://158.160.149.81:8080/8327/index.m3u8
 #EXTINF:-1 group-title="Кино", Plan_B
 http://77.235.1.19:8000/play/a04z/index.m3u8
 #EXTINF:-1 group-title="Кино", Plan_B HD
 http://85.117.61.97:8000/play/a016/index.m3u8
+#EXTINF:-1 group-title="Кино", Red Docu HD
+http://95.85.109.219:7000/play/a06f
 #EXTINF:-1 group-title="Кино", Red Premium HD
 http://95.85.109.219:7000/play/a06e
 #EXTINF:-1 group-title="Кино", Red Thriller HD
@@ -427,6 +535,42 @@ http://178.212.71.253:8001/play/144/index.m3u8
 http://158.160.149.81:8080/8229/index.m3u8
 #EXTINF:-1 group-title="Кино", Shot TV
 http://77.235.1.19:8000/play/a075/index.m3u8
+#EXTINF:-1 group-title="Кино", Sky High Adult HD
+http://str6.oxtve.live:8080/SKYHIGHADULTHD/mpegts
+#EXTINF:-1 group-title="Кино", Sky High Anime HD
+http://str6.oxtve.live:8080/SKYHIGHANIMEHD/mpegts
+#EXTINF:-1 group-title="Кино", Sky High CHBU HD
+http://str6.oxtve.live:8080/SKYHIGHBYSLONKA/mpegts
+#EXTINF:-1 group-title="Кино", Sky High Drama 4K HDR
+http://str6.oxtve.live:8080/SKYHIGH3D/mpegts
+#EXTINF:-1 group-title="Кино", Sky High Epoch HD
+http://str6.oxtve.live:8080/SKYHIGHEPOCHHD/mpegts
+#EXTINF:-1 group-title="Кино", Sky High Fresh HD
+http://str6.oxtve.live:8080/SKYHIGHFRESHHD/mpegts
+#EXTINF:-1 group-title="Кино", Sky High Fresh HDR
+http://str6.oxtve.live:8080/SKYHIGHFRESHHDR/mpegts
+#EXTINF:-1 group-title="Кино", Sky High Heroes HD
+http://str6.oxtve.live:8080/SKYHIGHHEROESHD/mpegts
+#EXTINF:-1 group-title="Кино", Sky High Man HD
+http://str6.oxtve.live:8080/SKYHIGHMANHD/mpegts
+#EXTINF:-1 group-title="Кино", Sky High Mix 4K
+http://str6.oxtve.live:8080/SKYHIGHMIX4K/mpegts
+#EXTINF:-1 group-title="Кино", Sky High Noir HD
+http://str6.oxtve.live:8080/SKYHIGHNEW60/mpegts
+#EXTINF:-1 group-title="Кино", Sky High Orig HD
+http://str6.oxtve.live:8080/SKYHIGHORIGHD/mpegts
+#EXTINF:-1 group-title="Кино", Sky High Russian HD
+http://str6.oxtve.live:8080/SKYHIGHRUSSIANHD/mpegts
+#EXTINF:-1 group-title="Кино", Sky High Series HD
+http://str6.oxtve.live:8080/SKYHIGHSERIESHD/mpegts
+#EXTINF:-1 group-title="Кино", Sky High Space 4K HDR
+http://str6.oxtve.live:8080/SKYHIGHFUTUREHD/mpegts
+#EXTINF:-1 group-title="Кино", Sky High Spirit HD
+http://str6.oxtve.live:8080/SKYHIGHSPIRITHD/mpegts
+#EXTINF:-1 group-title="Кино", Sky High UHD HDR
+http://str6.oxtve.live:8080/SKYHIGHUHDHDR/mpegts
+#EXTINF:-1 group-title="Кино", Sky High VHS UHD
+http://str6.oxtve.live:8080/SKYHIGHVHSUHD/mpegts
 #EXTINF:-1 group-title="Кино", Star Cinema
 http://77.235.1.19:8000/play/a043/index.m3u8
 #EXTINF:-1 group-title="Кино", Star Family
@@ -443,6 +587,16 @@ https://livetv.mylifeisgood.net.ru/channels/strvf.m3u8
 http://77.235.1.19:8000/play/a051/index.m3u8
 #EXTINF:-1 group-title="Кино", Timeless Dizi 
 http://77.235.1.19:8000/play/a083/index.m3u8
+#EXTINF:-1 group-title="Кино", Top Budo HD
+http://str6.oxtve.live:8080/topbudohd/mpegts
+#EXTINF:-1 group-title="Кино", Top Cinema HD
+http://str6.oxtve.live:8080/topcinemahd/mpegts
+#EXTINF:-1 group-title="Кино", Top USSR HD
+http://str6.oxtve.live:8080/topussr/mpegts
+#EXTINF:-1 group-title="Кино", Top Великолепный век HD
+http://str6.oxtve.live:8080/topVelikolepnyyVek/mpegts
+#EXTINF:-1 group-title="Кино", Ultra HD Cinema
+http://str6.oxtve.live:8080/UltraHDCinema4K/mpegts
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Кино" tvg-id="ultra-hd-cinema", Ultra HD Cinema (Архив)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/variant.m3u8
@@ -549,22 +703,40 @@ http://stv.mediacdn.ru/live/cdn/ani/playlist.m3u8
 http://158.160.149.81/8185/index.m3u8
 #EXTINF:-1 group-title="Детские", Cartoon Classics
 http://77.235.1.19:8000/play/a052/index.m3u8
+#EXTINF:-1 group-title="Детские", Cartoonito
+http://str6.oxtve.live:8080/boomerang/mpegts
+#EXTINF:-1 group-title="Детские", Cartoon Network HD
+http://str6.oxtve.live:8080/CartoonNetworkHD/mpegts
 #EXTINF:-1 group-title="Детские", FamilyJam HD
 http://158.160.149.81:8080/8425/index.m3u8
 #EXTINF:-1 group-title="Детские", Fox Kids
 http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
+#EXTINF:-1 group-title="Детские", Fresh Kids
+http://str6.oxtve.live:8080/Fresh_Kids/mpegts
 #EXTINF:-1 group-title="Детские", Gulli Girl
 http://77.235.1.19:8000/play/a084/index.m3u8
 #EXTINF:-1 group-title="Детские", JimJam
 http://158.160.149.81:8080/269/index.m3u8
+#EXTINF:-1 group-title="Детские", KBC Family Animation HD
+http://str6.oxtve.live:8080/KBC_FamilyAnimation/mpegts
+#EXTINF:-1 group-title="Детские", KBC Союзмультзал
+http://str6.oxtve.live:8080/KBC_soyuzmultzal/mpegts
 #EXTINF:-1 group-title="Детские", Kids TV
 http://77.235.1.19:8000/play/a030/index.m3u8
 #EXTINF:-1 group-title="Детские", Kids TV HD
 http://158.160.149.81/8502/index.m3u8
+#EXTINF:-1 group-title="Детские", MS Animated HD
+http://str6.oxtve.live:8080/MSANIMATED/mpegts
+#EXTINF:-1 group-title="Детские", Magic Disney HD
+http://str6.oxtve.live:8080/Magic_Disney/mpegts
 #EXTINF:-1 group-title="Детские", Nickelodeon HD
 http://178.134.1.158:8081/nickelodeon/index.m3u8
 #EXTINF:-1 group-title="Детские", Nick Jr. 
 http://158.160.149.81:8080/520/tracks-v1a2/mono.m3u8
+#EXTINF:-1 group-title="Детские", Sky High Bunny HD
+http://str6.oxtve.live:8080/BUNNYHD/mpegts
+#EXTINF:-1 group-title="Детские", Sky High Kids USSR
+http://str6.oxtve.live:8080/SKYHIGHKIDSUSSR/mpegts
 #EXTINF:-1 group-title="Детские", Sumiko HD
 http://158.160.149.81:8080/8709/index.m3u8
 #EXTINF:-1 group-title="Детские", TiJi
@@ -674,6 +846,8 @@ http://media.16pm.ru/live/tracks-v1a1/mono.ts.m3u8
 https://streaming101.goodstream.cyou/live/43-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1 group-title="Познавательные", Поехали!
 http://178.217.72.66:8080/Poehali/index.m3u8
+#EXTINF:-1 group-title="Познавательные", Приключение
+http://178.217.72.66:8080/priklucheniyahd/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", Приключения HD
 http://tvip.btk.teleos.ru:8081/chid142/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Продвижение 
@@ -790,6 +964,8 @@ http://31.148.48.15/Animal_Planet_HD/index.m3u8
 http://45.159.74.22/AnimalPlanet/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", Big Planet
 http://178.217.72.66:8080/big_planet/index.m3u8
+#EXTINF:-1 group-title="Познавательные", Curiosity Stream HD
+http://178.217.72.66:8080/curiositystream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", Da Vinci
 http://178.217.72.66:8080/Da_Vinchi/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Discovery
@@ -800,16 +976,26 @@ http://178.217.72.66:8080/Discovery_HD/video.m3u8
 http://77.235.1.19:8000/play/a07w/index.m3u8
 #EXTINF:-1 group-title="Познавательные", DocuBox HD
 http://85.117.61.97:8000/play/a01h/index.m3u8
+#EXTINF:-1 group-title="Познавательные", HGTV HD
+http://str6.oxtve.live:8080/HGTV_HD/mpegts
 #EXTINF:-1 group-title="Познавательные", History
 http://95.85.109.219:7000/play/a069
 #EXTINF:-1 group-title="Познавательные", History HD
 http://45.159.74.22/Channel_123/mono.m3u8
+#EXTINF:-1 group-title="Познавательные", History 2
+http://str6.oxtve.live:8080/h2hd/mpegts
 #EXTINF:-1 group-title="Познавательные", History 2 HD 🛡️
 http://95.67.12.81:10620
 #EXTINF:-1 group-title="Познавательные", Investigation Discovery HD
 http://45.159.74.22/InvestigationDiscovery/mono.m3u8
+#EXTINF:-1 group-title="Познавательные", KBC +100500 HD
+http://str6.oxtve.live:8080/KBC_plus100500/mpegts
+#EXTINF:-1 group-title="Познавательные", KBC Animals HD
+http://str6.oxtve.live:8080/KBC_animals/mpegts
 #EXTINF:-1 group-title="Познавательные", Love Nature 4k
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
+#EXTINF:-1 group-title="Познавательные", Museum TV HD
+http://str6.oxtve.live:8080/museumhd/mpegts
 #EXTINF:-1 group-title="Познавательные", Nano
 http://s1.tv-nano.com/Nano_rec/video.m3u8
 #EXTINF:-1 group-title="Познавательные", Nano HD
@@ -834,6 +1020,20 @@ http://77.235.1.19:8000/play/a05j/index.m3u8
 http://178.134.1.158:8081/rtvi/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Silk Way HD
 https://ikomg-kazakh.akamaized.net/kazakh/kazakh.m3u8
+#EXTINF:-1 group-title="Познавательные", Sky High StandUp HD
+http://str6.oxtve.live:8080/SKYHIGHSTANDUPHD/mpegts
+#EXTINF:-1 group-title="Познавательные", Sky High Brain HD
+http://str6.oxtve.live:8080/SKYHIGHBRAINHD/mpegts
+#EXTINF:-1 group-title="Познавательные", Sky High Doc HD
+http://str6.oxtve.live:8080/SKYHIGHDOCHD/mpegts
+#EXTINF:-1 group-title="Познавательные", Sky High Doc UHD
+http://str6.oxtve.live:8080/SKYHIGHDOCUHD/mpegts
+#EXTINF:-1 group-title="Познавательные", Sky High Nature HD
+http://str6.oxtve.live:8080/SKYHIGHNATUREFHD/mpegts
+#EXTINF:-1 group-title="Познавательные", Sky High Nature 4K
+http://str6.oxtve.live:8080/SKYHIGHNATURE4K/mpegts
+#EXTINF:-1 group-title="Познавательные", Sky High Nature 4K HDR
+http://str6.oxtve.live:8080/SKYHIGHNATURE4KHDR/mpegts
 #EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные", Terra
 http://77.235.1.19:8000/play/a076/index.m3u8
 #EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные", Terra HD
@@ -856,6 +1056,8 @@ http://85.187.13.40:18000/sts
 http://178.217.72.66:8080/Travel_And_Adventure/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Travel Channel
 http://178.217.72.66:8080/Travel_Channel/video.m3u8
+#EXTINF:-1 group-title="Познавательные", Unknown Planet
+http://stitch.teletarget.ru/api/v1/hls/vintera/neplaneta/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Viasat Nature HD
 http://85.187.13.40:18000/viasatnat
 #EXTINF:-1 group-title="Познавательные", viju Nature
@@ -977,6 +1179,8 @@ http://45.159.74.22/Telekafe/tracks-v1a1/mono.m3u8
 http://158.160.149.81:8080/145/index.m3u8
 #EXTINF:-1 group-title="Хобби" tvg-id="e-tv", E HD
 http://cdn-01.bonus-tv.ru:80/gsl/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Хобби", English Clasd
+http://str6.oxtve.live:8080/EnglishClub/mpegts
 #EXTINF:-1 group-title="Хобби", Fashion&LifeStyle HD
 http://31.148.48.15/Fashion_One_HD/index.m3u8
 #EXTINF:-1 group-title="Хобби", FashionBox
@@ -1057,12 +1261,14 @@ http://178.217.72.66:8080/Match_Futbol_3_HD/video.m3u8
 http://77.235.1.19:8000/play/a034/index.m3u8
 #EXTINF:-1 group-title="Спорт", Старт
 http://31.210.208.171:8080/start/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Спорт", Старт HD
+http://str6.oxtve.live:8080/RU_START_HD/mpegts
 #EXTINF:-1 group-title="Спорт", Старт Триумф
 http://77.235.1.19:8000/play/a033/index.m3u8
 #EXTINF:-1 group-title="Спорт", Старт Триумф
 http://77.235.1.19:8000/play/a033/index.m3u8
 #EXTINF:-1 group-title="Спорт", Футбол HD
-http://31.148.48.15/Futbol_HD/index.m3u8
+http://str6.oxtve.live:8080/futbolhd/mpegts
 #EXTINF:-1 group-title="Спорт", Arena Sport 1
 http://78.130.250.2:8023/play/a02o/index.m3u8
 #EXTINF:-1 group-title="Спорт", Bein Sports HD
@@ -1137,6 +1343,10 @@ http://95.85.109.219:7000/play/a05u
 http://158.160.149.81:8080/7080/index.m3u8
 #EXTINF:-1 group-title="Спорт", Russian Extreme
 http://195.26.83.96:7029/play/a008
+#EXTINF:-1 group-title="Спорт", Russian Extreme HD
+http://str6.oxtve.live:8080/russkiyekstrimhd/mpegts
+#EXTINF:-1 group-title="Спорт", Russian Extreme UHD
+http://str6.oxtve.live:8080/Russkiyekstrim4k/mpegts
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Спорт" tvg-id="russian-extreme-uhd", Russian Extreme UHD (Архив)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA/variant.m3u8
@@ -1150,30 +1360,44 @@ http://vod2.stb.tvime.ru/Setanta_Sports_2_HD/video.m3u8
 http://95.85.109.219:7000/play/a068
 #EXTINF:-1 group-title="Спорт", Setanta Sports+ HD
 http://158.160.149.81:8080/8829/index.m3u8
-#EXTINF:-1 group-title="Спорт", Sky Sports 1 NZ 🛡️
+#EXTINF:-1 group-title="Спорт", Sky High Fight HD
+http://str6.oxtve.live:8080/SKYHIGHFIGHT/mpegts
+#EXTINF:-1 group-title="Спорт", Sky Sport 1 HD
+http://str6.oxtve.live:8080/skysport1hd/mpegts
+#EXTINF:-1 group-title="Спорт", Sky Sport 2 HD
+http://str6.oxtve.live:8080/skysport2hd/mpegts
+#EXTINF:-1 group-title="Спорт", Sky Sport 1 NZ 🛡️
 https://7pal.short.gy/skyspt1nz
-#EXTINF:-1 group-title="Спорт", Sky Sports 2 NZ 🛡️
+#EXTINF:-1 group-title="Спорт", Sky Sport 2 NZ 🛡️
 https://7pal.short.gy/skyspt2nz
-#EXTINF:-1 group-title="Спорт", Sky Sports 3 NZ 🛡️
+#EXTINF:-1 group-title="Спорт", Sky Sport 3 NZ 🛡️
 https://7pal.short.gy/skyspt3nz
-#EXTINF:-1 group-title="Спорт", Sky Sports 4 NZ 🛡️
+#EXTINF:-1 group-title="Спорт", Sky Sport 4 NZ 🛡️
 https://7pal.short.gy/skyspt4nz
-#EXTINF:-1 group-title="Спорт" tvg-id="sky-sports-action", Sky Sports Action / NFL 🛡️
-https://7pal.short.gy/ssportsat
-#EXTINF:-1 group-title="Спорт", Sky Sports Golf 🛡️
-https://7pal.short.gy/ssportsgf
-#EXTINF:-1 group-title="Спорт", Sky Sports F1 🛡️
-https://7pal.short.gy/ssportsf1
-#EXTINF:-1 group-title="Спорт", Sky Sports F1 UHD 🛡️
+#EXTINF:-1 group-title="Спорт", Sky Sport Austria 1 HD
+http://str6.oxtve.live:8080/skysportaustriahd/mpegts
+#EXTINF:-1 group-title="Спорт", Sky Sport F1
+http://str6.oxtve.live:8080/skysportf1/mpegts
+#EXTINF:-1 group-title="Спорт", Sky Sport Golf 🛡️
+https://7pal.short.gy/ssportsg
+#EXTINF:-1 group-title="Спорт", Sky Sport F1
+http://str6.oxtve.live:8080/skysportf1/mpegts
+#EXTINF:-1 group-title="Спорт", Sky Sport F1 UHD 🛡️
 https://7pal.short.gy/SSF1uhd
-#EXTINF:-1 group-title="Спорт", Sky Sports Football 🛡️
+#EXTINF:-1 group-title="Спорт", Sky Sport Football 🛡️
 https://7pal.short.gy/ssportsfb
-#EXTINF:-1 group-title="Спорт", Sky Sports Main Event 🛡️
+#EXTINF:-1 group-title="Спорт", Sky Sport Main Event 🛡️
 https://7pal.short.gy/skspmaine
-#EXTINF:-1 group-title="Спорт", Sky Sports News 🛡️
+#EXTINF:-1 group-title="Спорт", Sky Sport Mix HD
+http://str6.oxtve.live:8080/DE_Sky_Sport_Mix/mpegts
+#EXTINF:-1 group-title="Спорт", Sky Sport News 🛡️
 https://7pal.short.gy/ssportsnw
-#EXTINF:-1 group-title="Спорт", Sky Sports Premier League 🛡️
-https://7pal.short.gy/ssportspl
+#EXTINF:-1 group-title="Спорт", Sky Sport Premier League HD
+http://str6.oxtve.live:8080/DE_Sky_Sport_Premier_League/mpegts
+#EXTINF:-1 group-title="Спорт", Sky Sport Tennis HD
+http://str6.oxtve.live:8080/DE_Sky_Sport_Tennis/mpegts
+#EXTINF:-1 group-title="Спорт", Sky Sport Top Event HD
+http://str6.oxtve.live:8080/DE_Sky_Sport_Top_Event/mpegts
 #EXTINF:-1 group-title="Спорт", Polsat Sport 1
 http://185.236.229.62:9981/play/a07n
 #EXTINF:-1 group-title="Спорт", Polsat Sport 2
@@ -1202,6 +1426,8 @@ http://91.247.68.229:8000/play/eee/index.m3u8
 http://77.235.1.19:8000/play/a025/index.m3u8
 #EXTINF:-1 group-title="Музыка", Курай
 http://bsttv.bonus-tv.ru/cdn/kurai/playlist.m3u8
+#EXTINF:-1 group-title="Музыка", ММТВ HD
+http://178.217.72.66:8080/MMTV_HD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыка" tvg-id="muztv", Муз ТВ (Архив)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
@@ -1258,6 +1484,8 @@ https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.
 http://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8
 #EXTINF:-1 group-title="Музыка", Europa Plus TV
 http://77.235.1.19:8000/play/a06h/index.m3u8
+#EXTINF:-1 group-title="Музыка", KBC Наш Rock HD
+http://str6.oxtve.live:8080/KBC_nashrock/mpegts
 #EXTINF:-1 group-title="Музыка", Kiss Kiss
 https://kk.fluid.stream/KKMulti/smil:KissKissTV.smil/chunklist.m3u8
 #EXTINF:-1 group-title="Музыка", Kronehit
@@ -1286,6 +1514,18 @@ http://178.212.71.253:8000/play/65/index.m3u8
 http://78.130.250.2:8023/play/a02r/index.m3u8
 #EXTINF:-1 group-title="Музыка", RU.TV HD
 http://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
+#EXTINF:-1 group-title="Музыка", Sky High Classic HD
+http://str6.oxtve.live:8080/SKYHIGHCLASSICHD/mpegts
+#EXTINF:-1 group-title="Музыка", Sky High Concert HD
+http://str6.oxtve.live:8080/SKYHIGHCONCERTHD/mpegts
+#EXTINF:-1 group-title="Музыка", Sky High Dance HD
+http://str6.oxtve.live:8080/SKYHIGHDANCEHD/mpegts
+#EXTINF:-1 group-title="Музыка", Sky High Lo-Fi HD
+http://str6.oxtve.live:8080/SKYHIGHLOFIHD/mpegts
+#EXTINF:-1 group-title="Музыка", Sky High Music HD
+http://str6.oxtve.live:8080/SKYHIGHMUSICHD/mpegts
+#EXTINF:-1 group-title="Музыка", Stingray iConcerts HD
+http://str6.oxtve.live:8080/iconcerts/mpegts
 #EXTINF:-1 group-title="Музыка", Viva TV Russia
 https://132544.edgevideo.ru/streams/132544_713325/1325441080/index.m3u8
 #EXTINF:-1 group-title="Музыка", Zerouno TV Music
