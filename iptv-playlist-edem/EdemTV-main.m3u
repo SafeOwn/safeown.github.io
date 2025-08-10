@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="http://epg.one/epg.xml.gz"
+#EXTM3U x-tvg-url="http://epg.one/epg.xml.gz" m3uautoload=1
 #EXTINF:0 group-title="новости" tvg-id="9051" tvg-logo="http://epg.one/img2/9051.png" tvg-rec="3",Sky Sports News HD 50 UK
 http://rhsbjv7k.tvclub.xyz/iptv/X3SB52VH9P584RLVQNY5ARNB/9314/index.m3u8
 #EXTINF:0 group-title="новости" tvg-id="9052" tvg-logo="http://epg.one/img2/9052.png" tvg-rec="0",Экоспаскоми (Коми)
