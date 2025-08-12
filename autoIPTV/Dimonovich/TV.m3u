@@ -95,14 +95,8 @@ https://api-tv.ipnet.ua/api/v1/manifest/2118742680.m3u8
 https://api-tv.ipnet.ua/api/v1/manifest/2118742632.m3u8
 #EXTINF:-1 group-title="TEST ⓵",4K travel 
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/4k-travel-tv/1967b0de-bf90-4339-a563-a5d06bba32ed/2.m3u8
-#EXTINF:-1 group-title="TEST ⓵" tvg-logo="http://ottpink.network/picons/loupe4k.png",Loupe 4K
-https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 #EXTINF:-1 group-title="TEST ⓵"  tvg-id="fashion-one-4k" tvg-logo="http://epg.it999.ru/img/2748.png",Fashion TV UHD
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
-#EXTINF:-1 group-title="TEST ⓵" tvg-logo="http://epg.it999.ru/img/2801.png",Love Nature 4k
-https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-#EXTINF:-1 group-title="TEST ⓵" tvg-logo="https://d1w9tvfspbvyah.cloudfront.net/wp-content/uploads/2020/06/logo-new-big.png",IMPACT! Wrestling
-https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
 
 
 
@@ -135,6 +129,28 @@ http://195.18.23.20:8000/play/10/index.m3u8
 http://195.18.23.20:8000/play/1/index.m3u8
 #EXTINF:-1 group-title="TEST (VPN)",Тамыр
 http://195.18.23.20:8000/play/2/index.m3u8
+#EXTINF:-1 group-title="TEST (VPN)",Приключения HD
+http://tvip.btk.teleos.ru:8081/chid142/tracks-v1a1/mono.m3u8   
+#EXTINF:-1 group-title="TEST (VPN)",Вкус
+http://tvip.btk.teleos.ru:8081/chid515/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="TEST (VPN)" tvg-id="lapki-live",Лапки LIVE
+http://tvip.btk.teleos.ru:8081/chid514/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="TEST (VPN)",Дорама
+http://tvip.btk.teleos.ru:8081/chid516/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="TEST (VPN)",Киносемья
+http://tvip.btk.teleos.ru:8081/chid517/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="TEST (VPN)",Кинопремьера HD
+http://tvip.btk.teleos.ru:8081/chid518/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="TEST (VPN)",Киносвидание
+http://tvip.btk.teleos.ru:8081/chid521/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="TEST (VPN)",Bridge HD
+http://tvip.btk.teleos.ru:8081/chid519/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="TEST (VPN)" tvg-id="bridge-tv-etno",Bridge TV Этно
+http://tvip.btk.teleos.ru:8081/chid520/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="TEST (VPN)",Спас
+http://tvip.btk.teleos.ru:8081/chid7/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="TEST (VPN)",БСТ 24
+http://tvip.btk.teleos.ru:8081/chid20/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="TEST (VPN)",Молдова 24
 https://132544.edgevideo.ru/streams/132544_782268/1325441080/index.m3u8
 #EXTINF:-1 group-title="TEST (VPN)",Вектор 24
