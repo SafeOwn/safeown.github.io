@@ -24,3 +24,11 @@ nixos-enter --root /mnt
 curl -L https://safeown.github.io/nixos-restore.sh | bash 
 
 ✅Через 2 минуты — всё восстановлено. 
+
+# Для второй системы Windows10 положить файлы efi
+смотрим lsblk -f
+
+mount /dev/nvme0n1p2 /tmp
+cp /tmp/boot/EFI/Microsoft/ в /boot/EFI/Microsoft/Boot/
+
+Boot сам найдет после перезагрузки
