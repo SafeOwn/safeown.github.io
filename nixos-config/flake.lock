@@ -1,0 +1,64 @@
+{
+  "nodes": {
+    "flake-compat": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1747046372,
+        "narHash": "sha256-CIVLLkVgvHYbgI2UpXvIIBJ12HWgX+fjA8Xf8PUmqCY=",
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "rev": "9100a0f413b0c601e0533d1d94ffd501ce2e7885",
+        "type": "github"
+      },
+      "original": {
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1755704039,
+        "narHash": "sha256-gKlP0LbyJ3qX0KObfIWcp5nbuHSb5EHwIvU6UcNBg2A=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "9cb344e96d5b6918e94e1bca2d9f3ea1e9615545",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "nixos-25.05",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "yandex-browser": "yandex-browser"
+      }
+    },
+    "yandex-browser": {
+      "inputs": {
+        "flake-compat": "flake-compat",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1752885027,
+        "narHash": "sha256-kciEHhM44lfewA0RMcwLGjVP0Tos+p9wecAPp+AfrOE=",
+        "owner": "miuirussia",
+        "repo": "yandex-browser.nix",
+        "rev": "ee0c0cd930cbf1c4f1364baddf75ee3c9bfc8350",
+        "type": "github"
+      },
+      "original": {
+        "owner": "miuirussia",
+        "repo": "yandex-browser.nix",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
