@@ -29,6 +29,6 @@ curl -L https://safeown.github.io/nixos-restore.sh | bash
 смотрим lsblk -f
 
 mount /dev/nvme0n1p2 /tmp
-cp /tmp/boot/EFI/Microsoft/ в /boot/EFI/Microsoft/Boot/
+cp /tmp/boot/EFI/Microsoft/ /boot/EFI/Microsoft/Boot/
 
 Boot сам найдет после перезагрузки
