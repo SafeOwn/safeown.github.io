@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 22.08 возможны задержки, нахожусь далеко
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 24.08 возможны задержки, нахожусь далеко
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="http://i122.fastpic.org/big/2023/0704/13/cd5a5508b20da12d6131cafd8eb23513.png" ,Первый канал HD
 https://live-mirror-01.ott.tricolor.tv/live/live/1TV_hd/hls_enc/1TV_hd.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODc5MTcyMCIsImV4cCI6MTc1NjI2NDI2MywiaHdpZCI6Ijk4OTk3MjA1ZDc4YzlmYmVjZTMxYzc4OGIyOTEyZTQyN2JhOWI4MjdmZjhlMzdiZTc5OTA3Y2U2Y2M5ZmRjODUiLCJsYXN0X3JlcV9kYXRlIjoxNzU1NjU5NDYzLCJzZXNzaW9uX2lkIjoiMTVmYWExZGUwZjY4MTI3NGM1OWYxNTA3ZmY3NGViZWIiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.U2MlnaPjiFjawSX8e-uWlhRBGmJACHNf1enmtGwA2qg
@@ -167,8 +167,6 @@ https://stream-msk-06.ott.tricolor.tv:443/dtv/id615_MSKSG-PVR-1--Zagorodniy_int_
 http://185.46.16.239:8000/Paramount_Comedy
 #EXTINF:-1  group-title="Познавательные"  tvg-id="sovsek" ,Совершенно секретно
 http://stream-msk-03.ott.tricolor.tv/dtv/id698_MSKSG-PVR-1--Top_secret/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODc5MTcyMCIsImV4cCI6MTc1NjI2NDI2MywiaHdpZCI6Ijk4OTk3MjA1ZDc4YzlmYmVjZTMxYzc4OGIyOTEyZTQyN2JhOWI4MjdmZjhlMzdiZTc5OTA3Y2U2Y2M5ZmRjODUiLCJsYXN0X3JlcV9kYXRlIjoxNzU1NjU5NDYzLCJzZXNzaW9uX2lkIjoiMTVmYWExZGUwZjY4MTI3NGM1OWYxNTA3ZmY3NGViZWIiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.U2MlnaPjiFjawSX8e-uWlhRBGmJACHNf1enmtGwA2qg
-#EXTINF:-1  group-title="Познавательные"  tvg-id="rtg-tv" ,RTG HD
-http://31.133.36.244:8000/178
 #EXTINF:-1  group-title="Познавательные"  tvg-id="oruzhie" ,Оружие
 http://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=Oruzhie.m3u8&serviceArea=MSK-SA-1&drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODc5MTcyMCIsImV4cCI6MTc1NjI2NDI2MywiaHdpZCI6Ijk4OTk3MjA1ZDc4YzlmYmVjZTMxYzc4OGIyOTEyZTQyN2JhOWI4MjdmZjhlMzdiZTc5OTA3Y2U2Y2M5ZmRjODUiLCJsYXN0X3JlcV9kYXRlIjoxNzU1NjU5NDYzLCJzZXNzaW9uX2lkIjoiMTVmYWExZGUwZjY4MTI3NGM1OWYxNTA3ZmY3NGViZWIiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.U2MlnaPjiFjawSX8e-uWlhRBGmJACHNf1enmtGwA2qg
 #EXTINF:-1  group-title="Познавательные"  tvg-id="arsenaltv" , Арсенал HD
@@ -193,16 +191,12 @@ https://stream-msk-14.ott.tricolor.tv/dtv/id926_MSKSG-PVR-1--LapkiLive/04/plst.m
 https://stream-msk-04.ott.tricolor.tv:443/dtv/id154_MSKSG-PVR-1--Telepyt/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODc5MTcyMCIsImV4cCI6MTc1NjI2NDI2MywiaHdpZCI6Ijk4OTk3MjA1ZDc4YzlmYmVjZTMxYzc4OGIyOTEyZTQyN2JhOWI4MjdmZjhlMzdiZTc5OTA3Y2U2Y2M5ZmRjODUiLCJsYXN0X3JlcV9kYXRlIjoxNzU1NjU5NDYzLCJzZXNzaW9uX2lkIjoiMTVmYWExZGUwZjY4MTI3NGM1OWYxNTA3ZmY3NGViZWIiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.U2MlnaPjiFjawSX8e-uWlhRBGmJACHNf1enmtGwA2qg
 #EXTINF:-1  group-title="Познавательные"  tvg-id="travel-adventure" , Travel+Adventure
 https://live-mirror-19.ott.tricolor.tv/dtv/id1019_MSKSG-PVR-1--TravelplusAdventure_HD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODc5MTcyMCIsImV4cCI6MTc1NjI2NDI2MywiaHdpZCI6Ijk4OTk3MjA1ZDc4YzlmYmVjZTMxYzc4OGIyOTEyZTQyN2JhOWI4MjdmZjhlMzdiZTc5OTA3Y2U2Y2M5ZmRjODUiLCJsYXN0X3JlcV9kYXRlIjoxNzU1NjU5NDYzLCJzZXNzaW9uX2lkIjoiMTVmYWExZGUwZjY4MTI3NGM1OWYxNTA3ZmY3NGViZWIiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.U2MlnaPjiFjawSX8e-uWlhRBGmJACHNf1enmtGwA2qg
-#EXTINF:-1  group-title="Познавательные"  tvg-id="travel-adventure" ,Travel+Adventure
-http://31.133.36.244:8000/171
 #EXTINF:-1  group-title="Познавательные"  tvg-id="zoopark" , ЗооПарк
 http://178.134.1.158:8081/zoopark/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="zhivaya-planeta" ,Живая Планета
 https://stream-msk-05.ott.tricolor.tv:443/dtv/id267_MSKSG-PVR-1--Zhivaya_Planeta/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODc5MTcyMCIsImV4cCI6MTc1NjI2NDI2MywiaHdpZCI6Ijk4OTk3MjA1ZDc4YzlmYmVjZTMxYzc4OGIyOTEyZTQyN2JhOWI4MjdmZjhlMzdiZTc5OTA3Y2U2Y2M5ZmRjODUiLCJsYXN0X3JlcV9kYXRlIjoxNzU1NjU5NDYzLCJzZXNzaW9uX2lkIjoiMTVmYWExZGUwZjY4MTI3NGM1OWYxNTA3ZmY3NGViZWIiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.U2MlnaPjiFjawSX8e-uWlhRBGmJACHNf1enmtGwA2qg
 #EXTINF:-1  group-title="Познавательные"  tvg-id="istoria" ,История
 http://stream-msk-04.ott.tricolor.tv/dtv/id259_MSKSG-PVR-1--Istoriya/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODc5MTcyMCIsImV4cCI6MTc1NjI2NDI2MywiaHdpZCI6Ijk4OTk3MjA1ZDc4YzlmYmVjZTMxYzc4OGIyOTEyZTQyN2JhOWI4MjdmZjhlMzdiZTc5OTA3Y2U2Y2M5ZmRjODUiLCJsYXN0X3JlcV9kYXRlIjoxNzU1NjU5NDYzLCJzZXNzaW9uX2lkIjoiMTVmYWExZGUwZjY4MTI3NGM1OWYxNTA3ZmY3NGViZWIiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.U2MlnaPjiFjawSX8e-uWlhRBGmJACHNf1enmtGwA2qg
-#EXTINF:-1  group-title="Познавательные"  tvg-id="tochka-otryva" , Точка отрыва
-http://192.162.64.99:5000/play/a03r/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="love-nature-4k" , Love Nature
 http://181.188.216.5:18000/play/a01u/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="nauka-20" ,Наука 2.0 HD
@@ -933,8 +927,6 @@ https://live-mirror-01.ott.tricolor.tv/dtv/id415_MSKSG-PVR-1--Kino_TV_HD/02/plst
 http://live-mirror-04.ott.tricolor.tv/dtv/id860_MSKSG-PVR-1--Kinojam_1/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODc5MTcyMCIsImV4cCI6MTc1NjI2NDI2MywiaHdpZCI6Ijk4OTk3MjA1ZDc4YzlmYmVjZTMxYzc4OGIyOTEyZTQyN2JhOWI4MjdmZjhlMzdiZTc5OTA3Y2U2Y2M5ZmRjODUiLCJsYXN0X3JlcV9kYXRlIjoxNzU1NjU5NDYzLCJzZXNzaW9uX2lkIjoiMTVmYWExZGUwZjY4MTI3NGM1OWYxNTA3ZmY3NGViZWIiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.U2MlnaPjiFjawSX8e-uWlhRBGmJACHNf1enmtGwA2qg
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinojam2" ,Kinojam 2 HD
 http://live-mirror-11.ott.tricolor.tv/dtv/id861_MSKSG-PVR-1--Kinojam_2/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODc5MTcyMCIsImV4cCI6MTc1NjI2NDI2MywiaHdpZCI6Ijk4OTk3MjA1ZDc4YzlmYmVjZTMxYzc4OGIyOTEyZTQyN2JhOWI4MjdmZjhlMzdiZTc5OTA3Y2U2Y2M5ZmRjODUiLCJsYXN0X3JlcV9kYXRlIjoxNzU1NjU5NDYzLCJzZXNzaW9uX2lkIjoiMTVmYWExZGUwZjY4MTI3NGM1OWYxNTA3ZmY3NGViZWIiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.U2MlnaPjiFjawSX8e-uWlhRBGmJACHNf1enmtGwA2qg
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinoliving" ,KinoLiving HD
-http://31.133.36.244:8000/51
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="pro100" , Про100 ТВ
 http://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="nst" ,Настоящее страшное ТВ
@@ -1241,342 +1233,732 @@ https://live-mirror-19.ott.tricolor.tv/dtv/id1018_MSKSG-PVR-1--Kinozal30_HD/02/p
 https://live-mirror-20.ott.tricolor.tv/dtv/id1038_MSKSG-PVR-1--Kinozal_32/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODc5MTcyMCIsImV4cCI6MTc1NjI2NDI2MywiaHdpZCI6Ijk4OTk3MjA1ZDc4YzlmYmVjZTMxYzc4OGIyOTEyZTQyN2JhOWI4MjdmZjhlMzdiZTc5OTA3Y2U2Y2M5ZmRjODUiLCJsYXN0X3JlcV9kYXRlIjoxNzU1NjU5NDYzLCJzZXNzaW9uX2lkIjoiMTVmYWExZGUwZjY4MTI3NGM1OWYxNTA3ZmY3NGViZWIiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.U2MlnaPjiFjawSX8e-uWlhRBGmJACHNf1enmtGwA2qg
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://cdn.nur.kz/images/1120x630/pogudx2cojg2jtu6kg.jpeg" , ВОСТОК-ЗАПАД
 https://live-mirror-18.ott.tricolor.tv/dtv/id1035_MSKSG-PVR-1--Kinozal_33/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODc5MTcyMCIsImV4cCI6MTc1NjI2NDI2MywiaHdpZCI6Ijk4OTk3MjA1ZDc4YzlmYmVjZTMxYzc4OGIyOTEyZTQyN2JhOWI4MjdmZjhlMzdiZTc5OTA3Y2U2Y2M5ZmRjODUiLCJsYXN0X3JlcV9kYXRlIjoxNzU1NjU5NDYzLCJzZXNzaW9uX2lkIjoiMTVmYWExZGUwZjY4MTI3NGM1OWYxNTA3ZmY3NGViZWIiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.U2MlnaPjiFjawSX8e-uWlhRBGmJACHNf1enmtGwA2qg
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-15/05/c1/05c144a3653d7c948009d8315a85f048.jpg" , Супермен (2025)
-https://river-1.rutube.ru/hls-vod/PCgQ3C7z0-TfIhKljryUmQ/1755966974/3346/0x5000c500e9ce2810/ac8412a928f347aebdef559710162cc6.mp4.m3u8?i=1920x1040_4084
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-11/44/e0/44e0ebe3fd0f639e56aa354a6ab0e85e.jpg" , Контратака (2025)
-https://river-1.rutube.ru/hls-vod/nDTjdQYDMd53lR4gBNaIXw/1755966976/3358/0x5000c500fa779149/6dcf213e42444f858ceca444426e656b.mp4.m3u8?i=1920x1080_2851
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-11/7d/27/7d27e63e31f7d852309569ad3f4d2407.jpg" , Большая двадцатка (2025)
-https://river-1.rutube.ru/hls-vod/ZsrWv8MJm61qQGUND5z1mg/1755966977/3354/0x5000c500e9cdaa5a/af16269fcbc8486799c9dc1fd752776a.mp4.m3u8?i=1920x800_1806
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-11/1c/f7/1cf76e2357bee7ebd656bbcb7079e3f8.jpg" , Мудрые парни (2025)
-https://river-1.rutube.ru/hls-vod/WxMJbAgk5ttggQmDW1UgAQ/1755966978/3272/0x5000c500e9ebf4f4/4ad0f2b304d34e978a6bff46d9075e46.mp4.m3u8?i=1920x800_1886
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-11/53/4d/534d24df00648844ebf3f1df482bf7f6.jpg" , Похороны сумасшедших (2025)
-https://river-1.rutube.ru/hls-vod/Ve981XRXV8n4jnbq-lAr3g/1755966979/3348/0x5000c500e9ebec74/b4bfbe813753452490bb340b7c38dbdd.mp4.m3u8?i=848x352_845
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-11/2a/60/2a60390e792072a36ac1c06c3739ac58.jpg" , Прости нас всех (2025)
-https://river-1.rutube.ru/hls-vod/XRWHPPjnZ6yxN_InCW-BzA/1755966980/2636/0x5000039ce83bf455/1b1d5718d63a408a80307ae9cc23a2ec.mp4.m3u8?i=1920x808_2034
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-11/7d/bc/7dbc1229306a5f3cb27186ef7e7c004e.jpg" , Послание в бутылке (2025)
-https://river-1.rutube.ru/hls-vod/FbUg-7quhKrvS64S7QLXqw/1755966981/3350/0x5000c500e9ea3d72/db7bce82003e42d6ac7b51333152b1e3.mp4.m3u8?i=848x456_698
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-14/b0/e8/b0e8d384cde56301d150ac052b6d886d.jpg" , Стерилизован (2025)
-https://river-1.rutube.ru/hls-vod/_MaN5BlxwdBzeBZ1feWORw/1755966982/3276/0x5000c500fa70057a/1c4c4bb090fe48a2aa3fdd022b076811.mp4.m3u8?i=1920x1080_2393
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-14/d7/9d/d79d4c25accacf2865e10a949a69851d.jpg" , Глухая (2025)
-https://river-1.rutube.ru/hls-vod/IM3f-QKvqWzxy7HyI2apCQ/1755966982/3364/0x5000c500fa7764a0/9fea0d73fc954ef582759e03611d695e.mp4.m3u8?i=800x480_965
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-14/cd/56/cd56f8f8d5b78113a211b78368f82c60.jpg" , Честная жизнь (2025)
-https://river-1.rutube.ru/hls-vod/D7lkpmK2MNCNziPwQSYzeA/1755966983/3406/0x5000c500dbb14d26/61a783f6690b4aa8b0703348d554e2c7.mp4.m3u8?i=848x352_720
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-05/7f/ec/7fecc531eedabe24dc457e889b4a83da.jpg" , Мир Юрского периода (2025)
-https://river-1.rutube.ru/hls-vod/ElwC7jFI3P-IdIdT7CinPQ/1755966984/2608/0x5000039ce8382e65/af4be00476894d68ac4714ffa11d3eae.mp4.m3u8?i=1920x800_2989
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-03/90/a8/90a8cb7a34bc5f48453e0a920d9557e5.jpg" , Мой год в Оксфорде (2025)
-https://river-1.rutube.ru/hls-vod/tqKoX5JPWsj1D7VU-8uLhQ/1755966985/3262/0x5000c500e9cf55b4/d95274b7f5ed421d80f593ef77c05395.mp4.m3u8?i=1920x1080_2202
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-05/e3/bf/e3bfb1863bcd6d1637aab37815b20008.jpg" , А там посмотрим (2025)
-https://river-1.rutube.ru/hls-vod/_bgUM2HteYgtfOIHZNrdDA/1755966986/3278/0x5000c500fa6e77d6/fdc8c31b360544d6b950c8e4cdaf0872.mp4.m3u8?i=848x352_813
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-05/ca/33/ca33c49b2ac3b768c7724e14c062ff85.jpg" , Принцесса поневоле (2025)
-https://river-1.rutube.ru/hls-vod/hwO6Ndvk8HzhVrg5ncaubA/1755966987/3262/0x5000c500e9dad30d/592a8ed84a66403a8fef84c720028fa5.mp4.m3u8?i=1920x1080_2932
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-05/90/56/90562f7bb0d67904f70765a4814dc850.jpg" , Герцог поневоле (2025)
-https://river-1.rutube.ru/hls-vod/N7SRoYL3hpoM5fhl9hbGAg/1755966987/2702/0x5000039ce86942d1/a8ffcea1d89c463aa211cbcfd589e318.mp4.m3u8?i=1920x1080_2470
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-07/d1/5f/d15ff3ace78bbe1914cf8dda8eba6172.jpg" , Ограбление (2025)
-https://river-1.rutube.ru/hls-vod/TVnH7Do1R80WXLGsmuxGfA/1755966989/1883/0x5000c500e5391e0b/91fd24c258584ac6bbfa110072622208.mp4.m3u8?i=1920x1080_2676
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-04/da/46/da46f2eecc85c3a58d1b5f82a41cda71.jpg" , 84 м² (2025)
-https://river-1.rutube.ru/hls-vod/3o-gjTbamrmwcXQoonRhfA/1755966990/1796/0x5000c500dc5ff078/f5b12be61ea74effb73057eec423365e.mp4.m3u8?i=1920x1080_1539
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-26/75/b6/75b63379f243862dcfd650ab54ff68bf.jpg" , Врата плоти (2025)
-https://river-1.rutube.ru/hls-vod/8xzN_6d0Bx7gryDXgNEFCA/1755966990/3268/0x5000c500e44d4435/9e87de632dc4408eb4bdde3674735935.mp4.m3u8?i=1920x1080_4385
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-27/1f/8b/1f8b27f981c77f58b5840ed063b8d5c6.jpg" , В путь (2025)
-https://river-1.rutube.ru/hls-vod/isXjjpw9lsMBs1ZzenPMuA/1755966991/2620/0x5000039ce8635dd1/522bee99fde64a8f998fb44b900501cf.mp4.m3u8?i=848x352_715
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-27/1f/0a/1f0a55601ef297db685d4b8c49b05461.jpg" , Свет (2025)
-https://river-1.rutube.ru/hls-vod/dxvD_0ssNkIQAAoDF56SFQ/1755966993/2670/0x5000039ce8402361/21cce90423784fa0989f7a62bebd8838.mp4.m3u8?i=848x424_1127
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-27/b0/06/b0061e5bf9a80dd613ae110f65314f47.jpg" , Горячая линия (2025)
-https://river-1.rutube.ru/hls-vod/-y5iZm0TsdERu5iRcsDNEA/1755966994/1830/0x5000c500e4ddef15/0a4de861a79d4a85b1c3517472591ed4.mp4.m3u8?i=800x480_568
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-30/2a/39/2a398389d6f5690f772a50525ecd9526.jpg" , Ярость (2025)
-https://river-1.rutube.ru/hls-vod/CjxFCLPOQf11yv6Pnkr4sQ/1755966995/2674/0x5000039ce83a4835/cb447a95d3374cd18b76e42bbea1a2b0.mp4.m3u8?i=800x480_697
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-30/9f/0f/9f0fd5bad422d0fd3d2eb837db82bc1a.jpg" , Великолепная пятёрка (2025)
-https://river-1.rutube.ru/hls-vod/O_n9VFjwjJBwvcgOLuK5jQ/1755966996/3262/0x5000c500e9d3799b/6c9f86055f054a1cb4f53901053488c2.mp4.m3u8?i=1920x1040_2461
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-01/b9/6f/b96f4046d2b6e07b43fa3e84912aa18c.jpg" , Вторая жертва (2025)
-https://river-1.rutube.ru/hls-vod/MaoQBiafR5CGdnuXgK-Weg/1755966997/2698/0x5000039ce832fb59/13a648a6bde34d588c765ab2315dbb89.mp4.m3u8?i=848x352_619
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-01/4e/2c/4e2c276066d2f7a9732df09c27ff37e5.jpg" , Горячее молоко (2025)
-https://river-1.rutube.ru/hls-vod/wSkabwNqUh5X1PmLfuALXA/1755966998/2716/0x5000039ce83975cd/ad3af68369d44e3daa3255c57b73d3e2.mp4.m3u8?i=848x480_770
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-18/0b/9d/0b9db1eb6193fd49552daea805c13184.jpg" , Преступник (2025)
-https://river-1.rutube.ru/hls-vod/9kQgkQtnDvExhH3IGPtA9w/1755966998/2714/0x5000039ce869f2a1/372c5576edd844a78814ed0c2a40a0fa.mp4.m3u8?i=1920x960_1878
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-20/f4/89/f489aceb5911d447808a2eac169a0241.jpg" , Безопасный дом (2025)
-https://river-1.rutube.ru/hls-vod/n7i6jlTq2KpXyUpNC3Yaxg/1755966999/2730/0x5000039ce868e935/f4fce6256088482484d0eca36eeed07b.mp4.m3u8?i=848x360_596
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-23/0f/11/0f11ee1032036b6d9ab2162fe87880a4.jpg" , Мистер Бёртон (2025)
-https://river-1.rutube.ru/hls-vod/w1gMdr_kivpECJnAya5dSg/1755967000/2644/0x5000039ce86a05c1/d5ebdcf23e494a2188006da0c58697c0.mp4.m3u8?i=848x352_444
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-25/fc/f1/fcf1f51c1bcfc9a4333f37678b40c7fa.jpg" , Умри от неё (2025)
-https://river-1.rutube.ru/hls-vod/F8xjC-XokfK-H9qcjI__3w/1755967001/2730/0x5000039ce8709359/5522fa0dd4904b9abc3f37fab1a234c0.mp4.m3u8?i=848x352_522
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-25/05/6f/056f07052ac3822b9bc04725c05e0840.jpg" , Пo кoлeнo (2025)
-https://river-1.rutube.ru/hls-vod/wIcfz2LwGkxRBT1l8U-CMA/1755967002/2642/0x5000039ce8694e21/bc9fee777b9a4dfdaf6744cdbd652589.mp4.m3u8?i=848x360_574
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-20/1c/9c/1c9cf0eb1f4af75e79293bfbd6e5e145.jpg" , В четырех стенах (2025)
-https://river-1.rutube.ru/hls-vod/RPtMbNbjiuHZXks1oaKe0Q/1755967003/2518/0x5000039ce8694051/ba00b6c8d9e24bacad93a97f433390c9.mp4.m3u8?i=1920x1080_1539
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-25/7f/6d/7f6dec021534c6e2b936e4ec94d0f3cf.jpg" , Счастливчик Гилмор 2 (2025)
-https://river-1.rutube.ru/hls-vod/lazucMSxhAoBtgYk8KW5gQ/1755967003/2668/0x5000039ce8403b0d/aebe3f85051b426b9e7f1ec524a036ac.mp4.m3u8?i=1920x1080_4180
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-25/0e/ed/0eed28104915d781b65b50ac6422baa0.jpg" , Море во дворе (2025)
-https://river-1.rutube.ru/hls-vod/DXigiIepVUqnnepD4-T0wQ/1755967004/2694/0x5000039ce8707a3d/b4c73559080c45009de20f552ea56573.mp4.m3u8?i=848x352_661
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-16/d9/0d/d90d2056d3394be3cd4fc2abdcaf0fe1.jpg" , Страх в глубине (2025)
-https://river-1.rutube.ru/hls-vod/ZteBEa67Fc5iG-q8szMCkg/1755967005/2640/0x5000039ce8638559/8720bd2de74544419ca493ce557852b9.mp4.m3u8?i=1920x800_2925
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-13/93/a4/93a4a5753c1257eede935842f08a73d3.jpg" , Экзотическая свадьба Мэдеи (2025)
-https://river-1.rutube.ru/hls-vod/8tSR7A3V65D2mxr5B-AFrA/1755967006/2514/0x5000039ce8397d15/8c1ffaeb89ef4187b9c95291725bff8d.mp4.m3u8?i=1920x1080_3793
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-14/72/0e/720e44f8d6c85c32a5c185ec436e5611.jpg" , Всё будет отлично (2025)
-https://river-1.rutube.ru/hls-vod/bL9BRdQbUf7uA3myWUVu_Q/1755967007/2724/0x5000039ce8635915/3b8393d7df0b4dfcb6e220ccab21cf4c.mp4.m3u8?i=848x352_560
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-14/e9/76/e9763eeb0aa41a3b11da5032de8ad99a.jpg" , Хитмэн 2 (2025)
-https://river-1.rutube.ru/hls-vod/ArR67LGly1kntS-DtHv5xA/1755967008/2678/0x5000039ce8708a29/da4984b0c6c64e67814607e4ed21bb76.mp4.m3u8?i=1920x1080_1820
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-16/e5/9f/e59f7e3d1433fb04982e2fe4398a64ad.jpg" , Меган 2.0 (2025)
-https://river-1.rutube.ru/hls-vod/ab4fkWKzRVBWlzLw9SqDHw/1755967009/2688/0x5000039ce86bfaa9/0bb7ddb095cc4243bc54c8f1ad473c53.mp4.m3u8?i=1920x800_2169
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-10/8f/cd/8fcd506a2ed7a9b3498b69505452f80d.jpg" , Кулаки против зомби (2025)
-https://river-1.rutube.ru/hls-vod/YxJer-Qcesc824uO4HlG6g/1755967009/2640/0x5000039ce83bb59d/264c0755f55b43c4a746ca39ea180544.mp4.m3u8?i=1920x1080_2249
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-17/27/51/275114fd47138b91667de33f6e0ec2c3.jpg" , Сердце знает (2025)
-https://river-1.rutube.ru/hls-vod/Y6yufqPoZxj2bJC7AMs7LA/1755967010/2502/0x5000039ce8703569/5d345dc153e34d81b94bc7c09ba0cd49.mp4.m3u8?i=1920x1080_2607
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-06-29/a5/63/a563e98aeb8e71ed4edd6b3faa046496.jpg" , Вне зоны доступа (2025)
-https://river-1.rutube.ru/hls-vod/Y9enTdCX1xaZNtdrrcQBkw/1755967011/2568/0x5000039ce839a079/c34763861ec2464d81b64dff640a49b6.mp4.m3u8?i=1920x1080_4106
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-08/80/f8/80f8b9e6b5ba2af5a4b4990c17ece62a.jpg" , Убийственный пирог: Расследование Ханны Свенсен (2025)
-https://river-1.rutube.ru/hls-vod/KdFu2-Uk-QCjhyx2URVAzA/1755967012/2718/0x5000039ce840d991/af93a4ac8bb64421b05fc424ac23d566.mp4.m3u8?i=1920x1080_2603
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-07/74/32/74324aa235a43073c558ef4a1ddb88c8.jpg" , Нежные листья (2025)
-https://river-1.rutube.ru/hls-vod/jhJ48-xZeSzrCUFTaRQpag/1755967013/2694/0x5000039ce8707b15/9c6f798522df4aaa8bc0687543fbf910.mp4.m3u8?i=848x456_725
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-07/f5/8d/f58d4feba653d23ead1a9ca8a9b7f8db.jpg" , Запретный город (2025)
-https://river-1.rutube.ru/hls-vod/35z4XWOYWQmgMuBRAySt2w/1755967014/2668/0x5000039ce8637475/ff65a66d87c64bb58597112ef5d59225.mp4.m3u8?i=848x352_589
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-10/8e/a4/8ea452b141ecb0b07f093b6a6a85b6ee.jpg" , Бесконечная свадьба (2025)
-https://river-1.rutube.ru/hls-vod/y8AgAW_Pix4chUyaX1UkhA/1755967015/2640/0x5000039ce8405ff1/66a247c6e48d4295b02af15fd57dc8b5.mp4.m3u8?i=848x352_811
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-10/90/e3/90e360b2ca0a85590fb0c764b78d3c63.jpg" , Нечестивая троица (2025)
-https://river-1.rutube.ru/hls-vod/8Znt7VasdA8SxQoXUxZUXA/1755967016/2676/0x5000039ce840421d/11488882f65741a7a55056acb735c0fe.mp4.m3u8?i=1920x1080_2272
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-08/62/33/62338b3264c7fc99edb63afa3a7a0733.jpg" , Каратэ-пацан: Легенды (2025)
-https://river-1.rutube.ru/hls-vod/KbtRJ-JXpqYZqLrrs0V93g/1755967017/2217/0x5000c500e75117cf/3e7a7b14485246a5b1c784517c5637c9.mp4.m3u8?i=3840x2072_11814
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-09/d6/60/d6602802fc6ac014ec7b951f43137055.jpg" , Путь рыцаря (2025)
-https://river-1.rutube.ru/hls-vod/-8j88MNHjsCPHFYJzY2UdA/1755967017/2602/0x5000039ce83bf30d/fcff2f3a79ed4d94be03a5419c07d1df.mp4.m3u8?i=1920x800_1297
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-09/80/d6/80d6d6c6f4ede2f8acf5bc439fd72629.jpg" , Ледяной драйв 2: Дорога в небо (2025)
-https://river-1.rutube.ru/hls-vod/OJ1z2WAhqIv2iZZBrMNdaA/1755967018/2634/0x5000039ce83a2685/12210ad612bb418799fa6784ace4b40f.mp4.m3u8?i=2560x1384_4611
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-11/f0/d4/f0d40b81e6b57aab849213f6b7adc2a9.jpg" , Кирпич (2025)
-https://river-1.rutube.ru/hls-vod/9JIaWQJc_3P9RerjEw4h9Q/1755967019/2544/0x5000039ce83bf1ed/d242385771e641a6a6a2b419bb9b4de4.mp4.m3u8?i=1920x1080_2159
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-10/12/a4/12a4381fd437c78c6f8e003335a34e41.jpg" , Бессмертная гвардия 2 (2025)
-https://river-1.rutube.ru/hls-vod/D6fIwEfpS12IzC41PLPv8w/1755967020/2564/0x5000039ce84026e9/88393c54dc13487cb2390f8f8b5b65de.mp4.m3u8?i=3840x2160_9311
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-11/72/9a/729a87fb2622e23d456a81ebe383b9cd.jpg" , Взвести курки (2025)
-https://river-1.rutube.ru/hls-vod/zXHm0Em2KonYVzYuI-is8A/1755967021/2710/0x5000039ce869a785/f52eb278cd1949e9ab14e8e7377a5769.mp4.m3u8?i=1920x800_1312
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-05/04/ea/04eace5d34b1ce1775d75ae9da787593.jpg" , Полицейский из Беверли-Хиллз: Аксель Фоули (2024)
-https://river-1.rutube.ru/hls-vod/ud7NSIZWXGC_yER6DzGh7w/1755967022/2163/0x5000c500e6847b34/92918fd27f1a469897b0b9ab2c46c6eb.mp4.m3u8?i=1920x800_6374
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/0b/71/0b71b82068ed65a8eddb8586216af076.jpg" , Властелин колец: Братство Кольца | Режиссёрская версия (2001)
-https://river-1.rutube.ru/hls-vod/32jR7tMTuLWDEcC7ET960Q/1755967023/2088/0x5000c500f1d65693/39a841bc94a1467480fe1e7475986612.mp4.m3u8?i=1920x800_3030
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/71/ba/71babe2ceb2b44fb320410d5ed1bc055.jpg" , Властелин колец: Две крепости | Режиссёрская версия (2002)
-https://river-1.rutube.ru/hls-vod/A7Xp06AKRcm4sekWVrursw/1755967024/2078/0x5000c500f1e59b02/d0f2431fa0514c18a922acc12c11863a.mp4.m3u8?i=1920x800_4143
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/5a/25/5a25a8d38e22801b808b794e9aea016a.jpg" , Властелин колец: Возвращение короля | Режиссёрская версия (2003)
-https://river-1.rutube.ru/hls-vod/RF7ndD9EClvzQQoFzQ6iXg/1755967025/2092/0x5000c500f1dc587c/0a24ef3899be43119b61835e67788fd9.mp4.m3u8?i=1920x792_4355
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/47/f4/47f4ad22f5bd2daacffc56be4603428c.jpg" , Бэтмен (1989)
-https://river-1.rutube.ru/hls-vod/qKw6k5f3BDBYIsouo2dAag/1755967026/2090/0x5000c500f1dece2c/36a7874b57634ef2ac1e1e72d4c152b8.mp4.m3u8?i=1920x1080_3401
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/5e/4f/5e4f6a1496112ebf58f7e3a6bc1c846d.jpg" , Бэтмен Возвращается (1992)
-https://river-1.rutube.ru/hls-vod/TKsCvnx0OlY0PUfHN7al1w/1755967027/2084/0x5000c500f1d96f55/0cf08fee2f814713b1d8ba60ad0ad505.mp4.m3u8?i=1920x1080_5059
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/05/76/05766873f73a3a810d30a8e4db8c7b62.jpg" , Бэтмен Навсегда (1995)
-https://river-1.rutube.ru/hls-vod/ZCiIhqdIJdiDSbcGOpc2_g/1755967028/2092/0x5000c500f1dcd48c/384306e8b72e4734ac3656e6a6c10440.mp4.m3u8?i=1920x1080_3754
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/b3/86/b3863a80c055bb3d51591ba2684f2861.jpg" , Бэтмен и Робин (1997)
-https://river-1.rutube.ru/hls-vod/FabYQl0mNI42Do3EUBb89w/1755967028/2088/0x5000c500f1e58f7d/45a2f783a0564d9f90769a0d920c4890.mp4.m3u8?i=1920x1080_4413
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/a7/57/a757c72e223b514ba1373600689841be.jpg" , Бэтмен: Начало (2005)
-https://river-1.rutube.ru/hls-vod/ufxWhG9yiAPcWG8FWddZyg/1755967029/2088/0x5000c500f1e4fc47/dac0e519b6da4660bb8a8b475923691b.mp4.m3u8?i=1920x800_2262
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/1a/99/1a9953fefa5c722099499648fb29bf70.jpg" , Темный рыцарь (2008)
-https://river-1.rutube.ru/hls-vod/kgmwRs-E-04EdJTjfNfSZA/1755967030/2080/0x5000c500f1da748a/d5263d18a7804f0ca327eef990f75fc0.mp4.m3u8?i=1920x1080_3481
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/0a/aa/0aaa60d1f98fb774e663ceeabda3ce71.png" , Темный рыцарь: Возрождение легенды (2012)
-https://river-1.rutube.ru/hls-vod/SwpcD3Q2AXL8VMkbc40Sog/1755967031/2090/0x5000c500f1e4482d/b032f3c59d794f938e46c3265b34f92a.mp4.m3u8?i=1920x1080_3262
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/cd/d6/cdd6a943c56cb91acb29eef176a235bf.jpg" , Бэтмен (2022)
-https://river-1.rutube.ru/hls-vod/ICiar6tZN-OOFC22kF_e_g/1755967032/2086/0x5000c500f1e56de3/9de2911dea204690ac0b1188951639ca.mp4.m3u8?i=1920x808_1744
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/fc/91/fc91c05aee140f8480be3d13d7c4291a.jpg" , Бэтмен против Супермена: На заре справедливости (2024)
-https://river-1.rutube.ru/hls-vod/yF4t2tC-4hOctufi-aRplw/1755967033/2074/0x5000c500f1da6e43/57645a3242bc4249b4a911fb85a7f290.mp4.m3u8?i=1920x800_2235
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/ef/6b/ef6b1dbbb66a58f5b8d288e9fb80457e.jpg" , Индиана Джонс: В поисках утраченного ковчега (1981)
-https://river-1.rutube.ru/hls-vod/ZfWHObsVmAhHLm4TmfOJkg/1755967034/2544/0x5000039ce861bbc9/c52ff8bb90904a49b0d272ac65e2f496.mp4.m3u8?i=1920x816_4502
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/e7/28/e728a99cc0c3d14734727f5591b48817.jpg" , Индиана Джонс и Храм Судьбы (1984)
-https://river-1.rutube.ru/hls-vod/wllhc131IFCYqT_UOA82CA/1755967034/2076/0x5000c500f1e52299/1533f43905004dc8ae06e74af4e9e9fd.mp4.m3u8?i=1920x816_6669
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/91/1a/911ab7e6cea9c7b3b52ce6313c5b92b1.jpg" , Индиана Джонс и последний крестовый поход (1989)
-https://river-1.rutube.ru/hls-vod/2fK28wIQN-Kl9LQ__KO99A/1755967035/2076/0x5000c500f1e52299/f599e848539a4da195a2220ec603b38b.mp4.m3u8?i=1920x816_10173
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/a8/04/a8043ef5fb7650aa4287646e3535c146.jpg" , Индиана Джонс и Королевство хрустального черепа (2008)
-https://river-1.rutube.ru/hls-vod/yiz17Kd3BFj9rt5NaFU0Rw/1755967036/2086/0x5000c500f1e563e5/3e0ceb5ffaad405b8f09c6b5a30e46f9.mp4.m3u8?i=1920x800_4764
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/60/5f/605f07a36213699a71be34788e261981.jpg" , Индиана Джонс и колесо судьбы (2023)
-https://river-1.rutube.ru/hls-vod/ef_qMERzPXEk7Bfi_hiybA/1755967039/2094/0x5000c500f1e373ab/6b6697d524144fe4a099b16ef6a7d590.mp4.m3u8?i=1920x800_3131
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-13/81/cc/81ccedec12f0773638cb12df14174e38.jpg" , Назад в будущее (1985)
-https://river-1.rutube.ru/hls-vod/TozNHasP8ryuDtoASMjrgQ/1755967040/1784/0x5000c500dc5d9c67/fae2976bf53f4554846adbdb96f8e0a7.mp4.m3u8?i=1920x1040_4457
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-13/29/db/29dbf4c552210960bb39264b3f18f1a7.jpg" , Назад в будущее 2 (1989)
-https://river-1.rutube.ru/hls-vod/IsxPk4WmBXfSsP35_BrwEw/1755967042/3300/0x5000c500e93c95b3/9a55d76d977643f390d2d0530a5c88e2.mp4.m3u8?i=1920x1040_3885
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-13/da/1c/da1cd279a6fdaaa5bd61cc46838a9948.jpg" , Назад в будущее 3 (1990)
-https://river-1.rutube.ru/hls-vod/12RapCtT1HpFYTNKskc7mg/1755967043/3358/0x5000c500fa77c05c/b5bad3c84ff049b9ada617ab09b85799.mp4.m3u8?i=1920x1040_4342
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/82/06/8206bf25a441e4c2bac79dea9ed52074.jpg" , Кровавый алмаз (2006)
-https://river-1.rutube.ru/hls-vod/fiYHV7LRVBY5YM7iBcIuzw/1755967044/2084/0x5000c500f1e5abcf/a373f1095d4f459f840d8bb603ce594f.mp4.m3u8?i=1920x792_3772
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/ae/96/ae967a3688ae726d15f5ea01cc73c855.jpg" , Лига выдающихся джентльменов (2003)
-https://river-1.rutube.ru/hls-vod/B8lqRo0GU8rQNp-G3JmMTg/1755967045/2211/0x5000c500e752644d/77bba4322c02486f922690a587c089c1.mp4.m3u8?i=1920x808_3115
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/a8/d8/a8d8cb9c34da8064875014f105129d95.jpg" , Блэйд (1998)
-https://river-1.rutube.ru/hls-vod/_RJonSz9u9gXWpw2QzcI-Q/1755967046/2082/0x5000c500f1db4f74/77930ec2cb98415689e265c5c1d99f40.mp4.m3u8?i=1920x808_3370
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/86/64/8664f8a0ff2259b701acb498bad1a2e3.jpg" , Блэйд 2 (2002)
-https://river-1.rutube.ru/hls-vod/gVuCrfEWEQC_TS7WZRmpmg/1755967047/2092/0x5000c500f1dc6662/27419ebf67ba468cb8dde37e95a3f61c.mp4.m3u8?i=1920x1080_3246
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/b2/72/b272a4e0a0d2d5211e61fd162ce9f76e.jpg" , Блэйд 3 (2004)
-https://river-1.rutube.ru/hls-vod/M4jtMms4_5W3lqSCMmmC0A/1755967048/2092/0x5000c500f1e2a661/6d6c325d5f2448ecb6d766a7b3306cb5.mp4.m3u8?i=1920x816_2862
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/c0/a4/c0a413d8798f37a59828943a7c0b563c.jpg" , Робокоп (1987)
-https://river-1.rutube.ru/hls-vod/cKcGNW3LNju773QnM30GRA/1755967049/2086/0x5000c500f1e579b3/b7236552664a4a8dae918093c2ce013f.mp4.m3u8?i=1920x1040_5794
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/34/bc/34bc4a61f719e39cae726d4c7e1df7c1.jpg" , Робокоп 2 (1990)
-https://river-1.rutube.ru/hls-vod/OO5s2JtyNd-mVeHEW5mZpA/1755967049/2078/0x5000c500f1e59b02/c5e81bd24deb4eff9589b0d79f0b9bc4.mp4.m3u8?i=1920x1040_3800
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/43/15/431577ddd04e2f8cecf714daab2e7c3e.jpg" , Робокоп 3 (1992)
-https://river-1.rutube.ru/hls-vod/sE8s8peTJlzCMn7dTC5efA/1755967050/2096/0x5000c500f1e59a45/cec8171628cd44858da5e5e8c08731fb.mp4.m3u8?i=1920x1040_3042
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/5b/0c/5b0cf95b728de333cfba7d1f9e685f4f.jpg" , Обитель зла (2002)
-https://river-1.rutube.ru/hls-vod/gar18Hf7vDh8uwdnF36CFw/1755967051/2076/0x5000c500f1d3b626/5b6ce3dbdf634277b00fae168c74a541.mp4.m3u8?i=1920x1040_3775
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/0a/d5/0ad5a42e00a6b32effd2235b04d2dbcc.jpg" , Обитель зла 2: Апокалипсис (2004)
-https://river-1.rutube.ru/hls-vod/cSVqYMfsoN2CT_MXplH7hg/1755967052/2076/0x5000c500f1e405ef/aeb8795f6f5c4d8e929a461e7028bf26.mp4.m3u8?i=1920x792_4058
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/47/9d/479d3e5529773d965e4f08a9f5c5a87e.jpg" , Обитель зла 3 (2007)
-https://river-1.rutube.ru/hls-vod/F1qbMqt5m_SDcoK6Y6PWAw/1755967053/2094/0x5000c500f1dc3e7f/8aeb9ea933534391ae8695f37e00ca81.mp4.m3u8?i=1920x800_4510
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2b/53/2b533e8ecbff8e2336908608ce748395.jpg" , Обитель зла 4: Жизнь после смерти (2010)
-https://river-1.rutube.ru/hls-vod/5kqGwBFwGH3c-vlhUUc2Kw/1755967054/2088/0x5000c500f1e58f7d/07657c479fec47d69474a2638db9ebbe.mp4.m3u8?i=1920x800_4046
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/1f/f2/1ff221182cf4a55b95a6b623c878adec.jpg" , Обитель Зла: Возмездие (2012)
-https://river-1.rutube.ru/hls-vod/JTm8UyrLuQOe5-tEFhGLxQ/1755967054/2094/0x5000c500f1e5b4c4/b563a3f7a16f4c4485d963abe4098a89.mp4.m3u8?i=1920x800_7683
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/73/50/73505682c824e3a91b567a07b7a38938.jpg" , Обитель зла: Последняя глава (2016)
-https://river-1.rutube.ru/hls-vod/xteZCsEmVop_N_8hqz9ozw/1755967057/2076/0x5000c500f1e31400/083a5dd97c6747489ef3698d875f7b62.mp4.m3u8?i=1920x800_2958
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/85/b7/85b75134c7b23c1df45732018fdf1556.jpg" , Терминатор (1984)
-https://river-1.rutube.ru/hls-vod/ryjLplFqgFGRN7p6k1sE9A/1755967059/2094/0x5000c500f1dd6d05/f8c016d4d0ef453293eea58a2615a842.mp4.m3u8?i=1920x1040_5058
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-05/90/73/9073297c9a3ed329bf8c2a2891bd9f45.jpg" , Терминатор 3: Восстание машин 60 fps (2003)
-https://river-1.rutube.ru/hls-vod/J4UioZBIFyqabIau-ooN6w/1755967060/2460/0x5000c500e8839ffe/ba92cb112ca240ccaa80e325b8ee50a1.mp4.m3u8?i=1920x784_8583
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2a/e6/2ae62fa4e0a0ae33b1dcbe4e45bf05c6.jpg" , Терминатор 4: Да прийдет спаситель (2009)
-https://river-1.rutube.ru/hls-vod/j7sDQ_VXhaEcf3fmbAx6QQ/1755967061/2094/0x5000c500f1db122f/1d3b3734284f473fbcd923f9ddc2d817.mp4.m3u8?i=1920x800_3637
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/b6/bb/b6bb9eb90c61172c7fe0ee64d8489d99.jpg" , Люди в черном (1997)
-https://river-1.rutube.ru/hls-vod/_Bc8HgRujA3zD2IJqck-2Q/1755967062/1861/0x5000c500e53c916b/0f27da6c54774499be1c5cc4691734a3.mp4.m3u8?i=1920x1032_10882
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/4b/06/4b06cb6ef3c6426cf417908452638a28.jpg" , Матрица (1999)
-https://river-1.rutube.ru/hls-vod/hLwkEs07dgjRHRf7Nnv4YQ/1755967063/2092/0x5000c500f1db0e75/2cfaad81a8dc452b92c9f0a99d35f0e9.mp4.m3u8?i=1920x800_3057
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/8c/15/8c157f869113d619f81e7ab0e9aa98c2.jpg" , Матрица: Перезагрузка (2003)
-https://river-1.rutube.ru/hls-vod/WjEZiEJUs4UBjBXfcR7r4A/1755967064/2096/0x5000c500f1d6b600/e198f30b21ba41fda5038630ace6030c.mp4.m3u8?i=1920x800_2965
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/72/35/72352bf2ab14f352dd59028e8fa88cba.jpg" , Матрица: Революция (2003)
-https://river-1.rutube.ru/hls-vod/uiKUe0kVCnw5ryKrQtTkzQ/1755967065/2086/0x5000c500f1d8b72b/a7bb4b89a5ae48a293f77d27baf276f9.mp4.m3u8?i=1920x800_3406
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/52/6e/526eff8fe10ab2210d8eccd7b1301650.jpg" , Матрица: Воскрешение (2021)
-https://river-1.rutube.ru/hls-vod/_P-c2U50BNqbn2ggMu3HjQ/1755967066/2090/0x5000c500f1e363b1/3d2c7b8be89044ffb958d07906b4f592.mp4.m3u8?i=1920x800_2781
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/7f/a6/7fa6ee03564a66ddd37676c7cd6e2912.jpg" , Смертельное оружие 1 (1987)
-https://river-1.rutube.ru/hls-vod/Jlq5qgikyCFfEK4bRjNo2A/1755967066/2078/0x5000c500f1dd70fe/4e75229a5c424a98b18e9acf1eaafa6d.mp4.m3u8?i=1920x1080_7279
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/8d/8b/8d8bd68d4691310f46248f5badb9c0df.jpg" , Смертельное оружие 2 (1989)
-https://river-1.rutube.ru/hls-vod/m-Im8lATK-OfrANNs0-SzA/1755967067/2078/0x5000c500f1e50e46/8e00639e9be74efe821523ef944f4163.mp4.m3u8?i=1920x800_2559
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/f0/b0/f0b0014c0b4abc1f524db4f624f3cd39.jpg" , Смертельное оружие 3 (1992)
-https://river-1.rutube.ru/hls-vod/X_m4iW09jspEUPdkz3GnkA/1755967068/2080/0x5000c500f1d9b395/f5639425e4ff4ff2b4dac49ef2f99428.mp4.m3u8?i=1920x792_3095
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/86/12/86122cb3b2d801870e6549eca72f636e.jpg" , Смертельное оружие 4 (1998)
-https://river-1.rutube.ru/hls-vod/vZhXVbEukY07uO72IbXpqg/1755967069/2092/0x5000c500f1db50ea/6573729710e74f9ca0f7b3336a10b85a.mp4.m3u8?i=1920x800_3130
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/04/04/0404cf5a3fa1f56c20510b160e332d41.jpg" , Крепкий орешек 1 (1988)
-https://river-1.rutube.ru/hls-vod/R90dIt-mqJrFTCoxL79ADw/1755967070/2080/0x5000c500f1e5bef2/eee9699e83834d5c9398806781620b61.mp4.m3u8?i=1920x808_3111
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/53/17/5317052db30ce9e38adbc49a21918df5.jpg" , Крепкий орешек 2 (1990)
-https://river-1.rutube.ru/hls-vod/2HIp7UFFWrkro_cXExmRtA/1755967071/2094/0x5000c500f1e373ab/58c8c5f7b0294431a70f9f3269a55c2a.mp4.m3u8?i=1920x808_2656
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/b8/2b/b82b12445a8e681f2f10d0c8424e4a46.jpg" , Крепкий орешек 3: Возмездие (1995)
-https://river-1.rutube.ru/hls-vod/-GFTWhb9K4jX5tu8Eu8I5g/1755967072/2086/0x5000c500f1e56de3/63095003d0344536a133943c076a361b.mp4.m3u8?i=1920x816_5140
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/05/4b/054b62ae2251c54fb2276f1a8907f996.jpg" , Крепкий орешек 4.0 (2007)
-https://river-1.rutube.ru/hls-vod/3-M8zbxuBj0durzcVM_4Ww/1755967073/2096/0x5000c500f1ddd63f/d40201d85254411688b481ea8c6e5cc4.mp4.m3u8?i=1920x800_4010
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/0b/5f/0b5f577cfcc881737deea91ad8517731.jpg" , Крепкий орешек: Хороший день чтобы умереть (2013)
-https://river-1.rutube.ru/hls-vod/tGZdCzAK_sXLa00HchcKjQ/1755967073/2074/0x5000c500f1e5bcb3/7f025662e55f448a84e4525daa024f1e.mp4.m3u8?i=1920x1040_6334
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-07/fe/ba/febad2a293776e460eff411e04d4f40c.jpg" , Голый пистолет (1988)
-https://river-1.rutube.ru/hls-vod/Q8DR9-ay-RlcADvkIPv0-w/1755967074/2389/0x5000c500f2b4348b/65c2d1794041468184173eb9b2a2a343.mp4.m3u8?i=1920x1080_9545
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/f3/39/f339f168247ca35cab03446e15a918b9.jpg" , Голый пистолет 2 1/2: Запах страха (1991)
-https://river-1.rutube.ru/hls-vod/fTE_o49t4lsHP8aE46lYnA/1755967075/2199/0x5000c500e74e8332/389d8de069f742acba88730f981d509e.mp4.m3u8?i=1920x1080_17617
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/fb/fe/fbfe21ad28f5f4f470759c6049e45125.jpg" , Голый пистолет 33 1/3: Последний выпад (1994)
-https://river-1.rutube.ru/hls-vod/UBgcefC30fqxWni9vFb01w/1755967077/2084/0x5000c500f1e56cb7/1c3a5ddc4fbb4c89a69270e74da7b80b.mp4.m3u8?i=1920x1080_5164
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/0e/24/0e24e3ebb01ddc1c89d67ca6d5e31d94.jpg" , Роман с камнем (1984)
-https://river-1.rutube.ru/hls-vod/Xt-jkcGAbAFXQc33mcIufA/1755967078/2088/0x5000c500f1e528b2/01a622d6ece446518bf60e650fbd6d48.mp4.m3u8?i=1920x808_4126
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/81/45/81450c4471e1bba861326b76e98e04e8.jpg" , За бортом (1987)
-https://river-1.rutube.ru/hls-vod/fgiZmu_k1rmvte_cG3C00Q/1755967079/2161/0x5000c500e716d47f/95ba52b3146e4bf6bd82d336288128f4.mp4.m3u8?i=1920x1040_7960
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-01-26/71/5c/715ca4d5769efa0a306b8484a11543a0.jpg" , Сонная Лощина (1999)
-https://river-1.rutube.ru/hls-vod/iAJTDidcfEMHqu-itqf1jw/1755967080/2594/0x5000039ce8611dd1/0df93f3df7924f5f839ed787966429dd.mp4.m3u8?i=1920x1040_8141
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/66/7e/667e2edd51783fa39d3b04dd90171279.jpg" , Эдвард руки-ножницы (1990)
-https://river-1.rutube.ru/hls-vod/FGhX8HOKHZkWV1TJw7o0FQ/1755967080/2082/0x5000c500f1e58de1/4a39ec11a1db471398cf5f861a484f56.mp4.m3u8?i=1920x1040_3623
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-17/8d/d3/8dd3efd1571ad3088a04ff6bd57ce75d.jpg" , Суини Тодд демон-парикмахер с Флит-стрит (2007)
-https://river-1.rutube.ru/hls-vod/lIGmq0zctfMMO-ZOTZu6Qw/1755967081/2084/0x5000c500f1d6eb4f/f34f9a60442644ff8945ab40cdec10cd.mp4.m3u8?i=1920x1080_4521
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/ea/a4/eaa459f67510076ba72d4cb504259317.jpg" , Бегущий по лезвию (1982)
-https://river-1.rutube.ru/hls-vod/dEhyPX27roIOjG4gc9xmiw/1755967082/2094/0x5000c500f1e56b86/a4b73c567f7c4008a015d195501e1322.mp4.m3u8?i=1920x800_4439
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/e5/b4/e5b4184bbe7d82a5f1886f443599e835.jpg" , Побег из Шоушенка (1994)
-https://river-1.rutube.ru/hls-vod/OFZbrDUTJdWMk7yRXFxbKA/1755967083/2090/0x5000c500f1e53ed1/fb597d78a4664d439e00bece9987f52a.mp4.m3u8?i=1920x1080_3158
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-05-17/fc/8a/fc8af4fb3c97f80f0bf46da7e6624b3d.jpg" , Плохие парни (1995)
-https://river-1.rutube.ru/hls-vod/N5kIe3W67LleqAG6nbKncg/1755967084/2520/0x5000039ce83829cd/ec44be3452214b1eb9557e766abde4fb.mp4.m3u8?i=1920x1040_3684
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-12-05/64/31/6431e9a43225355059b06b03e4083b0b.jpg" , Плохие парни 2 (2003)
-https://river-1.rutube.ru/hls-vod/i6h29XBEdx4yqGQr-ZJ4AA/1755967085/2468/0x5000c500e8838060/cf66e7867bf74f71ba202baa13b4264a.mp4.m3u8?i=1920x1080_7181
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-05/31/17/311720c151ce7b883eb8610422de777a.jpg" , Плохие парни навсегда (2020)
-https://river-1.rutube.ru/hls-vod/eDEYIfiSyu_cij52L5UgXQ/1755967086/2407/0x5000c500f2b8fd77/41b238f863414ee69f8e4c3706695c24.mp4.m3u8?i=1920x800_5410
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-05/45/0e/450eeae1f7086b72f90bf80251d93f91.jpg" , Плохие парни до конца (2024)
-https://river-1.rutube.ru/hls-vod/XynjUSyTlAxsa-8zLnCE5Q/1755967087/2195/0x5000c500e68dd46b/7709893a9127431b8d2e3542d508e7c5.mp4.m3u8?i=1920x800_4154
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/ef/ac/efac2db779f26a11e3b40820ff79e6b9.jpg" , Хищник 1 (1987)
-https://river-1.rutube.ru/hls-vod/Hi_CgXbPJOH1IDMl0fsInA/1755967088/2086/0x5000c500f1dc5f4c/e610d9ec709a46d188a7eb884048687a.mp4.m3u8?i=1920x1040_3276
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/89/b9/89b99a75e054b014b6f923beb3ca5330.jpg" , Хищник 2 (1990)
-https://river-1.rutube.ru/hls-vod/unecZJogP_Puwsvogwbl-w/1755967088/2084/0x5000c500f1d96f55/b401b1bbd15444f1920801e8644d0fa5.mp4.m3u8?i=1920x1040_3463
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-08/07/78/077803ed7756ebca48ccc4c154614e5e.jpg" , Харли Дэвидсон и ковбой Мальборо (1991)
-https://river-1.rutube.ru/hls-vod/4mGUHB2VdGCM3XNUVS5img/1755967089/2446/0x5000c500e883eb8a/2c4ba25009c54ceead8b309c1e5a427d.mp4.m3u8?i=1920x1080_10607
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/b1/c9/b1c970b015d0b81fe294403795f07d2c.jpg" , Хищники (2010)
-https://river-1.rutube.ru/hls-vod/W7xDdRqQpYw3vuMcrZ6Dkw/1755967090/2094/0x5000c500f1e5abf9/6b8948b8aa3b4bf3a94ca30f983aa630.mp4.m3u8?i=1920x816_4261
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/61/30/61309ef7b5f0bd9b55fd7d72020b4644.jpg" , Братство волка (2001)
-https://river-1.rutube.ru/hls-vod/zhQdV8yH8BMSxli4Q0fchg/1755967091/2550/0x5000039ce8405fc1/1bf6eca24e114ec7a641745355d4193c.mp4.m3u8?i=1920x824_3319
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/55/69/5569b8af0d772a65f3e5a95e6f2a02b1.jpg" , Патриот (2000)
-https://river-1.rutube.ru/hls-vod/MljrZnBt9Bn703UZSUfhYQ/1755967092/2094/0x5000c500f1e5251e/5fd295c49670408b99e8c6adb60685c3.mp4.m3u8?i=1920x800_3418
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/bf/a3/bfa336835233d6d8118c79116e0ea85e.jpg" , Багровые реки 2: Ангелы апокалипсиса (2001)
-https://river-1.rutube.ru/hls-vod/cCgruh1Jpn269E5fxI_ggQ/1755967093/2074/0x5000c500f1e5245e/0998d790978e4a9f8fe6d3a3afa18eac.mp4.m3u8?i=1920x808_2711
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-02-24/eb/78/eb786970635d0b0fb89cdd86f19b6633.jpg" , Труп невесты (2005)
-https://river-1.rutube.ru/hls-vod/-i-NNRJE7MCaG_sSIjz-gw/1755967093/1879/0x5000c500e5355ac6/e93b2fbb82534cdb92846a7f46211646.mp4.m3u8?i=1920x1080_3238
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/1f/e8/1fe805cefa7284ff7c6f4ec05757c59d.jpg" , Шрек (2001)
-https://river-1.rutube.ru/hls-vod/hm9b1OBVmKQnykErlUJNOw/1755967094/2084/0x5000c500f1e37576/2ca2b39ebe46452ea52a78ff68e899de.mp4.m3u8?i=1920x1080_4155
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/ea/a1/eaa11f59cda6e74713dd3f4c7da79aa5.jpg" , Сияние (1980)
-https://river-1.rutube.ru/hls-vod/zJ2nxpmacEb13nb_YixwQA/1755967095/2086/0x5000c500f1dd737a/61778e2f29b24b0f9b08e2a5ac789cd8.mp4.m3u8?i=1920x1080_2531
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/78/dc/78dc88e1e056b469739d037a5914ad8d.jpg" , Девятые врата (1999)
-https://river-1.rutube.ru/hls-vod/TNRbszVQkhE739mLqQ0j8Q/1755967096/1970/rutube-ds-origin-132-2/eec2312992094d108e2bd5fa628aad0b.mp4.m3u8?i=1920x816_1648
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-10-04/21/5c/215c446173b38ed2ae45da1e9dae7c24.jpg" , Человек тьмы 4K (1990)
-https://river-1.rutube.ru/hls-vod/YE5uBiRnXWmbiYsKWvQHQg/1755967097/1822/0x5000c500c8c54e6e/8de341325a954ce294d71aea60cf3878.mp4.m3u8?i=3840x2160_16011
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/94/a4/94a4d87ab55fd46c1537a77873f3fc11.jpg" , Тень (1994)
-https://river-1.rutube.ru/hls-vod/1lMH0gFWdaMeQRHhlD93FA/1755967098/2080/0x5000c500f1e579e7/63c7983d4528474a81ee35790eb7ba8c.mp4.m3u8?i=1920x1080_16172
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-12-01/ed/05/ed058741960331f0cd924afe4e1d171a.jpg" , Дракула (1992)
-https://river-1.rutube.ru/hls-vod/Tz9sTT7nUnwglD8QY-tYzQ/1755967099/2454/0x5000c500e883918f/afae75fe6b404565af920e8a9b22c941.mp4.m3u8?i=1920x1040_9349
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-04-24/39/ae/39ae56e47088d060ad47922e475520f1.jpg" , Храброе сердце (1995)
-https://river-1.rutube.ru/hls-vod/8HoFYPJpUHBeEIYOt4_lnQ/1755967099/1887/0x5000c500e53d01b1/7567e5ba9b4b4e4e8b9d898f943a5b39.mp4.m3u8?i=1920x816_5758
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/35/5f/355f73c20ec55afc3faae226135f98bd.jpg" , Скала (1996)
-https://river-1.rutube.ru/hls-vod/YwAKC7Fcjj30LV1UFjsdQw/1755967100/2219/0x5000c5007446408c/2adbb045f8a9444a84763592074598ec.mp4.m3u8?i=1920x816_8620
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/6d/46/6d46850282f89899148d7d3dca30a429.jpg" , Троя (2004)
-https://river-1.rutube.ru/hls-vod/yaZwh7Fb5jBv4sl9KsZFeg/1755967101/2090/0x5000c500f1e53ed1/90a9e35084074e7e9064af7cb873b067.mp4.m3u8?i=1920x792_3570
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-25/be/5c/be5cb0961b97f2243d37da8e9db458f5.jpg" , Гремлины (1984)
-https://river-1.rutube.ru/hls-vod/Qw9-s3no37hf0mN8Nfyx3w/1755967102/2448/0x5000c500e882ba60/d19532cb7a434d2691c9ea43bd718311.mp4.m3u8?i=1920x1080_4302
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-25/9c/45/9c45158432862c952a116179da709f36.jpg" , Гремлины 2: Новенькая партия (1990)
-https://river-1.rutube.ru/hls-vod/FitHVNOqVpdmtGBRrfLIYQ/1755967103/2397/0x5000c500f2b558a7/7c69a78d37c144d09a1a2343c2a5744c.mp4.m3u8?i=1920x1080_5455
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/bb/91/bb91626da8833229a77238edc23e8bea.jpg" , Царство небесное (2005)
-https://river-1.rutube.ru/hls-vod/P3-o1opaWMaCpjWQdA1LiQ/1755967104/2088/0x5000c500f1e14287/bf7a0e2b30444d00a7c9ddb5af4642fc.mp4.m3u8?i=1920x816_3352
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/b8/41/b841f26da9c610e80793de9f7440f1da.jpg" , Один дома (1990)
-https://river-1.rutube.ru/hls-vod/qGUptDxHc3BDetGu_qqDQg/1755967104/1893/0x5000c500e539c06f/d0618f08c897472f9c4de21f44ff781f.mp4.m3u8?i=1920x1032_15816
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-29/03/2d/032d1df370100c7433eda7257f8ad046.jpg" , Один дома 2: Затерянный в Нью-Йорке (2010)
-https://river-1.rutube.ru/hls-vod/Huig3-vc3FY04Ug_xUD4OQ/1755967105/1867/0x5000c500e53d02d1/4f87990c33ba494c8d6398fd965f5eaf.mp4.m3u8?i=1920x1040_8282
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/e8/f1/e8f1672324eeffd484884fd87445c294.jpg" , Принц Персии: Пески времени (2010)
-https://river-1.rutube.ru/hls-vod/nZeULES0H1M-o4eoPTUiqg/1755967106/2080/0x5000c500f1e5215e/139d7acc71564a8a994a7d7d2c59ddb8.mp4.m3u8?i=1920x800_4812
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/69/50/6950900d717abc493d434448087e6a2a.jpg" , Ван Хельсинг (2004)
-https://river-1.rutube.ru/hls-vod/d1DL48iwPrxOOZ9tCDdg1g/1755967107/1772/0x5000c500c45cabe9/0840331647944eb3868994c2f1617540.mp4.m3u8?i=1920x1040_6471
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-17/38/68/386800ff6f12f8871226eeda58919d4b.jpg" , Сайлент Хилл (2006)
-https://river-1.rutube.ru/hls-vod/dEYuxXxEONuk2JZ1ms1WYw/1755967108/1867/0x5000c500e53c8763/9fcfcfb520ed436894e63e3e9436bf81.mp4.m3u8?i=1920x816_4945
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-17/bd/9d/bd9dbf656c5f422bfa6da726f8b3c533.jpg" , Сайлент Хилл 2 (2012)
-https://river-1.rutube.ru/hls-vod/Cg2CRc4I-w0Rn4ycH0D9dQ/1755967109/2088/0x5000c500f1dd5272/09b0fc7833db4a258833f29562cd954b.mp4.m3u8?i=1920x800_4027
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/6c/a4/6ca4609018c4df3c6c67261090675444.jpg" , Спасти рядового Райана (1998)
-https://river-1.rutube.ru/hls-vod/rOVAWsyLiRfPy8o59wdmOA/1755967110/2076/0x5000c500f1e3e63b/bb4ac6697dc2407287174dd499373df9.mp4.m3u8?i=1920x1032_7893
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/c9/dd/c9ddf7b982fe7022dae957099ba3b186.jpg" , Перл-Харбор (2001)
-https://river-1.rutube.ru/hls-vod/HM1kDW4i4nJ8xhTLgVZffQ/1755967111/2094/0x5000c500f1e522dc/a3f8cba0c03e45a893390662dabd7339.mp4.m3u8?i=1920x800_3629
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/25/42/25428afd7226e67cda3c552fc233e92c.jpg" , Армагеддон (1998)
-https://river-1.rutube.ru/hls-vod/Wzf5VOkhNRuvuhbyQSxngQ/1755967111/1877/0x5000c500e539cbb9/f877b0389ecd41e0b5b6daa253a1d9f8.mp4.m3u8?i=1920x800_7584
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/ea/b1/eab16c487b80e0398f42f0ec74f3b6a1.jpg" , Бегущий человек (1987)
-https://river-1.rutube.ru/hls-vod/FhtKnolZvAAvDN_yIzsa4Q/1755967112/1871/0x5000c500e4db1142/10aab125431544c7acc2aff36ceb78ba.mp4.m3u8?i=848x480_1508
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/56/1a/561ac5e8a1a2e0932f136d70676c8576.jpg" , Эффект бабочки (2004)
-https://river-1.rutube.ru/hls-vod/oPfCbTtVpOURCCCouN_9TQ/1755967113/2167/0x5000c500e6685066/6b719a4751b844ad92096509569d9787.mp4.m3u8?i=1920x1080_7681
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/99/35/9935ee154f88f1f3380793a42fbdbe80.jpg" , Пираты Карибского моря. Проклятие Черной жемчужины (2003)
-https://river-1.rutube.ru/hls-vod/kpJXhUjIb9vR1G7mBP2ubg/1755967114/1861/0x5000c500e539f074/143b42bb4ee242dd9d660f01c2b8925c.mp4.m3u8?i=1920x1080_6473
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/40/cd/40cd7ae19d10c729471cd57ef0ce361b.png" , Пираты Карибского моря: Сундук мертвеца (2006)
-https://river-1.rutube.ru/hls-vod/yfVLensf-2NQqOswXx5XLg/1755967115/2090/0x5000c500f1e5b45d/0d4ca73a35cb4e70becf7254f9549a03.mp4.m3u8?i=1920x800_3894
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/b5/54/b5548a4b2b607155de33784fe24c9292.png" , Пираты Карибского моря: На краю Света (2007)
-https://river-1.rutube.ru/hls-vod/w1g-Ytfhg5qMx1qQCbLLYw/1755967116/2086/0x5000c500f1e2773b/213d02ad10ab45e19cb295e105c758f3.mp4.m3u8?i=1920x800_3784
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/99/c7/99c71f487486ee6409ac7606deda8ef1.jpg" , Пираты Карибского моря: На странных берегах (2011)
-https://river-1.rutube.ru/hls-vod/kqzST43JY5LYOwBWG6EhNA/1755967117/2096/0x5000c500f1e53214/605bd8c592134555b0f053cffb26c179.mp4.m3u8?i=1920x800_3839
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/89/be/89be2af94d48273a12833cc06f7fbbba.png" , Пираты Карибского моря: Мертвецы не рассказывают сказки (2017)
-https://river-1.rutube.ru/hls-vod/Ai-ZBBSihdPMMdguN0hZEQ/1755967119/2092/0x5000c500f1e278c5/abf6800e5d244a80ad962f338feef7ca.mp4.m3u8?i=1920x800_5067
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/9a/56/9a563328673ebfda5de3087bbae8867a.jpg" , Остров головорезов (1995)
-https://river-1.rutube.ru/hls-vod/sFPqYn4L5O4ZbuqKP_Svkg/1755967120/2201/0x5000c5007446d66b/830f26601914454fba826cb33aa9cb28.mp4.m3u8?i=1920x816_3512
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/86/be/86beb602079c3abfe1adcaac41d64588.jpg" , Разрушитель (1993)
-https://river-1.rutube.ru/hls-vod/oDmWFZkGqQ5N3U6Vh6udeg/1755967121/2086/0x5000c500f1e5697c/f787157213a94061aa65e4082c73f37e.mp4.m3u8?i=1920x800_2579
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-07/be/69/be6997951212b273c3aed5b0e6fe3300.jpg" , Судья Дредд (1995)
-https://river-1.rutube.ru/hls-vod/v5x4CWycamPqUQJmrbs_2w/1755967122/2094/0x5000c500f1e5b4c4/a057446b03a44dad81482c771ec41efd.mp4.m3u8?i=1904x1080_9316
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/52/e4/52e4fad6bcd89234c114381f8fbd3f8e.jpg" , Звездный десант (1997)
-https://river-1.rutube.ru/hls-vod/auiayJ1tyLa32FVvhoC_GQ/1755967122/2096/0x5000c500f1e5ac51/35797a988b1c405f8dae381e1c52843a.mp4.m3u8?i=1920x1040_5893
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/b6/86/b68605f298d8abaf72de57f85c7ce2b6.jpg" , Маска (1994)
-https://river-1.rutube.ru/hls-vod/3n3uh1q7BaXEi0f_r-0i5g/1755967123/2088/0x5000c500f1e50207/2a73d46b6ead4b469a0f23b9f124ab3a.mp4.m3u8?i=1920x1080_2964
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/4a/f9/4af9c547d5b8f17be3b8707e91c44590.jpg" , Форрест Гамп (1994)
-https://river-1.rutube.ru/hls-vod/2B1Zr966h0lcjx6O6n9vfg/1755967124/2080/0x5000c500f1e4ee8f/98def6ae0af54c518a5792673792e81f.mp4.m3u8?i=1920x816_7406
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/a4/e7/a4e7fc51713fe07a7e74d68f3f3067dd.jpg" , К-9: (Собачья работа 1989)
-https://river-1.rutube.ru/hls-vod/qdhzhYaHFqC3m1UD4HkazQ/1755967125/1881/0x5000c500e539f380/6114d6a8726d468d9b20d97a867fe9a2.mp4.m3u8?i=1920x1040_14461
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/ba/4a/ba4a7cff1ae434162855e089994696bb.jpg" , Чужой (1979)
-https://river-1.rutube.ru/hls-vod/P6dZ3BCevrSRkrw62HfX7A/1755967126/1869/0x5000c500e53c0ba6/c159441ba24c4270b832f2ccf6b4c638.mp4.m3u8?i=1920x816_3577
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/f6/4e/f64e6150976bae41d4f82e8affdef8fc.jpg" , Чужие (1986)
-https://river-1.rutube.ru/hls-vod/KdDLe0XzaB57TPyydVblHA/1755967127/2084/0x5000c500f1e565cc/720238d9fbdd432099836d93b4f02e9c.mp4.m3u8?i=1920x1080_4495
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/51/ce/51ce5c9e08b75677efde118767fdd56a.png" , Чужой 3 (1992)
-https://river-1.rutube.ru/hls-vod/5v7FFbuc-eh8AHPYM-uRrQ/1755967128/2088/0x5000c500f1e5bbdf/6e1acd4f84504a119ac1a7eb2808ad9f.mp4.m3u8?i=1920x808_2837
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/f0/c3/f0c33f8970b44e497da4cc1156f8ee7b.jpg" , Чужой 4: Воскрешение (1997)
-https://river-1.rutube.ru/hls-vod/X7c4gxvSzXrLIKEc_96TPQ/1755967129/2096/0x5000c500f1e50966/157552c816314567b0bee921d4490b54.mp4.m3u8?i=1920x816_4061
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-05/2d/d3/2dd3e19e26244f931d6fe972ce33da5a.jpg" , Чужой: Завет (2017)
-https://river-1.rutube.ru/hls-vod/tQaFVn1NGjsOIYQ7KVhFwQ/1755967130/2506/0x5000039ce839b529/6a7a7e0db6ad474e9731b3eb6ce4f8e6.mp4.m3u8?i=1920x800_9695
-#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-10-14/d2/69/d269d7107dca7c61c3ee9ae6db2ecf4a.jpg" , Чужой: Ромул (2024)
-https://river-1.rutube.ru/hls-vod/Mvpz-D1Hb_eY7-_xTZkDcQ/1755967131/2460/0x5000c500e8834c2e/055d2b9eb61d40f2a2997f82d7f460c8.mp4.m3u8?i=2560x1064_3046
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-17/ed/f0/edf04e3e30b460ea5ba27f7cc19bb3bb.jpg" , Осада в Букит-Дури (2025)
+https://river-1.rutube.ru/hls-vod/QxTSq_fofEU-PYzFStgQlQ/1756575637/3354/0x5000c500e9cdd2c3/17dc5c825eed42818f8eabaf08d4e08c.mp4.m3u8?i=1920x1080_1690
 #EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-09-27/1c/d0/1cd0f257e09ef914172373f7c2bb3ec2.jpg" , Бешеные псы (1991)
-https://river-1.rutube.ru/hls-vod/Cm1-Bt28nVQFLEbwKuiDFw/1755967132/2417/0x5000c500f2b4a9bb/c09d0b20afc94057b1c502381e64d5af.mp4.m3u8?i=1920x1080_5179
+https://river-1.rutube.ru/hls-vod/3N5Wkq52PGqaa-GgSpz6NA/1756575831/2417/0x5000c500f2b4a9bb/c09d0b20afc94057b1c502381e64d5af.mp4.m3u8?i=1920x1080_5179
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-18/bf/e3/bfe361ff6074887f33893624be891bd6.jpg" , Миссия невыполнима: Финальная расплата (2025)
+https://river-1.rutube.ru/hls-vod/0AfbPorI2m0wQmdCjjZ-yg/1756575636/3366/0x5000c500fa77ecbf/6d8ec538b30b494f993bcd0f40fb04cf.mp4.m3u8?i=1920x1040_3054
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-17/01/e9/01e9285fe7dc1264b021cce0da82f322.jpg" , Ночь наступает всегда (2025)
+https://river-1.rutube.ru/hls-vod/Zv-K8jpDJqg0IoJvYgTmVw/1756575638/3334/0x5000c500fa78652f/ce3cfe2f7e6146c8b4d4764dc6258c5e.mp4.m3u8?i=1920x1080_1227
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-18/cc/da/ccdaab6e6fe0545ed4eb035ddf46dd04.jpg" , Смурфики в кино (2025)
+https://river-1.rutube.ru/hls-vod/91xwNEl7ZT5EgRYQv_ryQw/1756575639/3314/0x5000c500e989c647/db7c725726894c10b643d89411803617.mp4.m3u8?i=1920x800_2993
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-18/10/a5/10a57a077ca01e409d4ff84723777d25.jpg" , Континуум (2025)
+https://river-1.rutube.ru/hls-vod/xhDVVNMJhZFvX9vdZoyZ9Q/1756575640/3370/0x5000c500fa77ce0b/d6e8cc1428164cb2a5f4328adf379036.mp4.m3u8?i=1920x800_1818
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-19/1b/51/1b51cc420ccd44d92071656e8f0e666a.jpg" , Элио (2025)
+https://river-1.rutube.ru/hls-vod/I4X7ZJgR-0a6JXaidKLSgQ/1756575641/3400/0x5000c500fa779976/a5aa36cd408744fe91367340e1529bf9.mp4.m3u8?i=1920x800_3011
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-19/4a/72/4a72487f26ea43de5d8db1e06e3e2151.jpg" , Босс этого мира (2025)
+https://river-1.rutube.ru/hls-vod/fQ6xsVYb3T9I2tkbXuQAuw/1756575642/1869/0x5000c500e53c7a2b/3bbd4c476e854db0a9ce3f7164bd1e7d.mp4.m3u8?i=848x480_1445
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-19/c6/03/c60396b28e921340ab805c3e86231e3a.jpg" , Вера в невозможное (2025)
+https://river-1.rutube.ru/hls-vod/cWYW8zJuoCy3c3_mvCJppQ/1756575643/3358/0x5000c500fa6e8fa2/dcca0525298e4c1a88686bfab13d7dc8.mp4.m3u8?i=848x480_810
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-19/59/f3/59f30ac4dbe1a8733d8008ede74b9bc5.jpg" , Шелдон Планктон: Фильм (2025)
+https://river-1.rutube.ru/hls-vod/3ScyQD9nsoHQCVhm2OYJTA/1756575644/3388/0x5000c500e87576a1/328dd84db543495b8670ba43cbefd096.mp4.m3u8?i=1920x1080_2525
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-19/53/5a/535a3e48104800e9be61bc5e3613d0f5.jpg" , Братки 2 (2025)
+https://river-1.rutube.ru/hls-vod/Hwvia0XUVvnPIwQmTwe6fw/1756575645/3354/0x5000c500e9cf2211/978879756c1e463fa0ee083a0a9a6f4f.mp4.m3u8?i=848x352_580
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-19/51/9c/519cd6f76ffebb9909d626cc7a4927f3.jpg" , Подсчитай дозу (2025)
+https://river-1.rutube.ru/hls-vod/3SbIk-kXzUcRVgc5Oqqfvg/1756575646/3332/0x5000c500e9ebdb1e/e84e2afd85a24c438fb148bcae33f7ed.mp4.m3u8?i=848x480_854
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-20/09/72/09720fd3b117b187ad98b0db564bf2f8.jpg" , Не парковаться (2025)
+https://river-1.rutube.ru/hls-vod/a4SeNu5wY5Kk33pJ3i3vAg/1756575647/2650/0x5000039ce863f209/be4714859fe045ddb279bc7a53dd605b.mp4.m3u8?i=1920x1080_1243
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-22/78/3b/783be6531fdfe3df9c60e4c8d1d791f1.jpg" , Нора (2025)
+https://river-1.rutube.ru/hls-vod/qw7Giz9T98e6xxGiB2TWrg/1756575648/3412/0x5000c500fa90e023/6c4dafe56034475d98721914aca8d06a.mp4.m3u8?i=848x352_632
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-22/26/80/26801cfe8e8a75d86f34323d989b7cd8.jpg" , Формула 1 (2025)
+https://river-1.rutube.ru/hls-vod/AZSiM-eWiwliRYQUqS5Mvg/1756575649/3300/0x5000c500e9c95e34/7a0c377902ff42709a5e95770e2485a6.mp4.m3u8?i=1920x800_2920
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-23/e4/4b/e44b3ff283a2a33f3c6dbe7e1e2c803c.jpg" , Эники-Беники (2025)
+https://river-1.rutube.ru/hls-vod/TSaPCwCIHhsblKi60v31tg/1756575650/2660/0x5000039ce863f8cd/19a82c39ef004d23ba75c025fe1a0893.mp4.m3u8?i=1920x1080_1863
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-23/73/9d/739d8ae9059af09125461d696ecaa562.jpg" , Влюбись в меня до безумия (2025)
+https://river-1.rutube.ru/hls-vod/vNXM9Sly_zCe_3JGYDIzFg/1756575651/3368/0x5000c500fa6e5d88/07579355c6234f67b1889b13ae43ef4c.mp4.m3u8?i=1920x1080_3941
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-15/05/c1/05c144a3653d7c948009d8315a85f048.jpg" , Супермен (2025)
+https://river-1.rutube.ru/hls-vod/fegVdBnWYNvSDeI7znMWCg/1756575652/3346/0x5000c500e9ce2810/ac8412a928f347aebdef559710162cc6.mp4.m3u8?i=1920x1040_4084
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-11/44/e0/44e0ebe3fd0f639e56aa354a6ab0e85e.jpg" , Контратака (2025)
+https://river-1.rutube.ru/hls-vod/Rkowy-L2AubkR0G3krzxAA/1756575653/3322/0x5000c500e9cf284e/6dcf213e42444f858ceca444426e656b.mp4.m3u8?i=1920x1080_2851
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-11/7d/27/7d27e63e31f7d852309569ad3f4d2407.jpg" , Большая двадцатка (2025)
+https://river-1.rutube.ru/hls-vod/HcwMrxA57nxwHXKA9I785A/1756575654/3354/0x5000c500e9cdaa5a/af16269fcbc8486799c9dc1fd752776a.mp4.m3u8?i=1920x800_1806
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-11/1c/f7/1cf76e2357bee7ebd656bbcb7079e3f8.jpg" , Мудрые парни (2025)
+https://river-1.rutube.ru/hls-vod/jz1X0agUeCp5InbhPxbbVw/1756575654/3276/0x5000c500fa77803b/4ad0f2b304d34e978a6bff46d9075e46.mp4.m3u8?i=1920x800_1886
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-11/53/4d/534d24df00648844ebf3f1df482bf7f6.jpg" , Похороны сумасшедших (2025)
+https://river-1.rutube.ru/hls-vod/95ZuA7UIb7TJPypLfFrvQw/1756575655/3348/0x5000c500e9ebec74/b4bfbe813753452490bb340b7c38dbdd.mp4.m3u8?i=848x352_845
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-11/2a/60/2a60390e792072a36ac1c06c3739ac58.jpg" , Прости нас всех (2025)
+https://river-1.rutube.ru/hls-vod/D3S0GBXcj098OSlvD_3eDA/1756575656/3340/0x5000c500e986efe3/1b1d5718d63a408a80307ae9cc23a2ec.mp4.m3u8?i=1920x808_2034
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-11/7d/bc/7dbc1229306a5f3cb27186ef7e7c004e.jpg" , Послание в бутылке (2025)
+https://river-1.rutube.ru/hls-vod/BYlB7jMujRJ5akQyU5dV9Q/1756575658/3408/0x5000c500c7b2b46d/db7bce82003e42d6ac7b51333152b1e3.mp4.m3u8?i=848x456_698
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-14/b0/e8/b0e8d384cde56301d150ac052b6d886d.jpg" , Стерилизован (2025)
+https://river-1.rutube.ru/hls-vod/DW_RR13s99VnbtsM5pBThw/1756575658/3276/0x5000c500fa70057a/1c4c4bb090fe48a2aa3fdd022b076811.mp4.m3u8?i=1920x1080_2393
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-14/d7/9d/d79d4c25accacf2865e10a949a69851d.jpg" , Глухая (2025)
+https://river-1.rutube.ru/hls-vod/dsepY5sMd5KL4G-uaSXNWg/1756575661/3364/0x5000c500fa7764a0/9fea0d73fc954ef582759e03611d695e.mp4.m3u8?i=800x480_965
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-14/cd/56/cd56f8f8d5b78113a211b78368f82c60.jpg" , Честная жизнь (2025)
+https://river-1.rutube.ru/hls-vod/AydGPKy88QOumV4DQjtwnw/1756575662/3406/0x5000c500dbb14d26/61a783f6690b4aa8b0703348d554e2c7.mp4.m3u8?i=848x352_720
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-05/7f/ec/7fecc531eedabe24dc457e889b4a83da.jpg" , Мир Юрского периода (2025)
+https://river-1.rutube.ru/hls-vod/nvi88y0O_AhvkXpW4_wIrg/1756575663/3292/0x5000c500fa778212/af4be00476894d68ac4714ffa11d3eae.mp4.m3u8?i=1920x800_2989
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-03/90/a8/90a8cb7a34bc5f48453e0a920d9557e5.jpg" , Мой год в Оксфорде (2025)
+https://river-1.rutube.ru/hls-vod/R2kNNlBnky5BK2qarooAYw/1756575664/2722/0x5000039ce833a0d9/d95274b7f5ed421d80f593ef77c05395.mp4.m3u8?i=1920x1080_2202
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-05/e3/bf/e3bfb1863bcd6d1637aab37815b20008.jpg" , А там посмотрим (2025)
+https://river-1.rutube.ru/hls-vod/kSFteL7sHEh9xnaBTp8uyA/1756575665/2610/0x5000039ce869eb15/fdc8c31b360544d6b950c8e4cdaf0872.mp4.m3u8?i=848x352_813
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-05/ca/33/ca33c49b2ac3b768c7724e14c062ff85.jpg" , Принцесса поневоле (2025)
+https://river-1.rutube.ru/hls-vod/z8co0VsomC0NebR0V50DVw/1756575666/3262/0x5000c500e9dad30d/592a8ed84a66403a8fef84c720028fa5.mp4.m3u8?i=1920x1080_2932
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-05/90/56/90562f7bb0d67904f70765a4814dc850.jpg" , Герцог поневоле (2025)
+https://river-1.rutube.ru/hls-vod/C0ttBxHfSh1Wux6w9Bi9zQ/1756575667/2668/0x5000039ce83a2235/a8ffcea1d89c463aa211cbcfd589e318.mp4.m3u8?i=1920x1080_2470
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-07/d1/5f/d15ff3ace78bbe1914cf8dda8eba6172.jpg" , Ограбление (2025)
+https://river-1.rutube.ru/hls-vod/wX0HY-wnTjzU9UMW0eDDkw/1756575668/1883/0x5000c500e5391e0b/91fd24c258584ac6bbfa110072622208.mp4.m3u8?i=1920x1080_2676
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-04/da/46/da46f2eecc85c3a58d1b5f82a41cda71.jpg" , 84 м² (2025)
+https://river-1.rutube.ru/hls-vod/eaVqfawM1QuDfCqIzFX76g/1756575669/1796/0x5000c500dc5ff078/f5b12be61ea74effb73057eec423365e.mp4.m3u8?i=1920x1080_1539
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-26/75/b6/75b63379f243862dcfd650ab54ff68bf.jpg" , Врата плоти (2025)
+https://river-1.rutube.ru/hls-vod/VbWvJuI3XAnovDAABfZN7g/1756575671/3268/0x5000c500e44d4435/9e87de632dc4408eb4bdde3674735935.mp4.m3u8?i=1920x1080_4385
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-27/1f/8b/1f8b27f981c77f58b5840ed063b8d5c6.jpg" , В путь (2025)
+https://river-1.rutube.ru/hls-vod/sROh6Tgx-PmILWhouCG6Rg/1756575672/2620/0x5000039ce8635dd1/522bee99fde64a8f998fb44b900501cf.mp4.m3u8?i=848x352_715
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-27/b0/06/b0061e5bf9a80dd613ae110f65314f47.jpg" , Горячая линия (2025)
+https://river-1.rutube.ru/hls-vod/gthEtTltYLtfMmz9JwWXPA/1756575674/1830/0x5000c500e4ddef15/0a4de861a79d4a85b1c3517472591ed4.mp4.m3u8?i=800x480_568
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-30/2a/39/2a398389d6f5690f772a50525ecd9526.jpg" , Ярость (2025)
+https://river-1.rutube.ru/hls-vod/GWYY9ut4FP7jn89g0_kC8g/1756575675/2674/0x5000039ce83a4835/cb447a95d3374cd18b76e42bbea1a2b0.mp4.m3u8?i=800x480_697
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-30/9f/0f/9f0fd5bad422d0fd3d2eb837db82bc1a.jpg" , Великолепная пятёрка (2025)
+https://river-1.rutube.ru/hls-vod/fBf6-bxsZp6Z-B_greH4cA/1756575676/3278/0x5000c500fa6e4709/6c9f86055f054a1cb4f53901053488c2.mp4.m3u8?i=1920x1040_2461
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-01/4e/2c/4e2c276066d2f7a9732df09c27ff37e5.jpg" , Горячее молоко (2025)
+https://river-1.rutube.ru/hls-vod/LKV6pvp8QWLRpHT7yt42IQ/1756575678/2610/0x5000039ce83a2859/ad3af68369d44e3daa3255c57b73d3e2.mp4.m3u8?i=848x480_770
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-18/0b/9d/0b9db1eb6193fd49552daea805c13184.jpg" , Преступник (2025)
+https://river-1.rutube.ru/hls-vod/y02uRbpK6cOsn3HPcivyVg/1756575679/2714/0x5000039ce869f2a1/372c5576edd844a78814ed0c2a40a0fa.mp4.m3u8?i=1920x960_1878
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-20/f4/89/f489aceb5911d447808a2eac169a0241.jpg" , Безопасный дом (2025)
+https://river-1.rutube.ru/hls-vod/TELPBDiAxodZQSu8ccZP9A/1756575680/2708/0x5000039ce8382d75/f4fce6256088482484d0eca36eeed07b.mp4.m3u8?i=848x360_596
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-23/0f/11/0f11ee1032036b6d9ab2162fe87880a4.jpg" , Мистер Бёртон (2025)
+https://river-1.rutube.ru/hls-vod/_AXorE3-jl7Hjl_7lhyDkw/1756575681/3282/0x5000c500fa77c78c/d5ebdcf23e494a2188006da0c58697c0.mp4.m3u8?i=848x352_444
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-25/fc/f1/fcf1f51c1bcfc9a4333f37678b40c7fa.jpg" , Умри от неё (2025)
+https://river-1.rutube.ru/hls-vod/OkUIgbTN2VgY6FXRJKLxvw/1756575682/2730/0x5000039ce8709359/5522fa0dd4904b9abc3f37fab1a234c0.mp4.m3u8?i=848x352_522
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-25/05/6f/056f07052ac3822b9bc04725c05e0840.jpg" , Пo кoлeнo (2025)
+https://river-1.rutube.ru/hls-vod/095WA-UrraQRRE4Z6LVXRQ/1756575683/3276/0x5000c500fa77768e/bc9fee777b9a4dfdaf6744cdbd652589.mp4.m3u8?i=848x360_574
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-20/1c/9c/1c9cf0eb1f4af75e79293bfbd6e5e145.jpg" , В четырех стенах (2025)
+https://river-1.rutube.ru/hls-vod/lLxEt4kkGVVRF3w2vjWZwQ/1756575698/2730/0x5000039ce87098a5/ba00b6c8d9e24bacad93a97f433390c9.mp4.m3u8?i=1920x1080_1539
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-25/7f/6d/7f6dec021534c6e2b936e4ec94d0f3cf.jpg" , Счастливчик Гилмор 2 (2025)
+https://river-1.rutube.ru/hls-vod/XrkAhot-i2DxKEAGZ__siA/1756575699/3256/0x5000c500e9cc4240/aebe3f85051b426b9e7f1ec524a036ac.mp4.m3u8?i=1920x1080_4180
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-25/0e/ed/0eed28104915d781b65b50ac6422baa0.jpg" , Море во дворе (2025)
+https://river-1.rutube.ru/hls-vod/YZQvvylX3l-vSZLkGY1zpA/1756575700/2694/0x5000039ce8707a3d/b4c73559080c45009de20f552ea56573.mp4.m3u8?i=848x352_661
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-16/d9/0d/d90d2056d3394be3cd4fc2abdcaf0fe1.jpg" , Страх в глубине (2025)
+https://river-1.rutube.ru/hls-vod/bDQ-odtLHCeItxtksB8mQA/1756575701/2640/0x5000039ce8638559/8720bd2de74544419ca493ce557852b9.mp4.m3u8?i=1920x800_2925
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-13/93/a4/93a4a5753c1257eede935842f08a73d3.jpg" , Экзотическая свадьба Мэдеи (2025)
+https://river-1.rutube.ru/hls-vod/FvX5DFx_aK_T8GpNso6S4w/1756575702/2514/0x5000039ce8397d15/8c1ffaeb89ef4187b9c95291725bff8d.mp4.m3u8?i=1920x1080_3793
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-14/72/0e/720e44f8d6c85c32a5c185ec436e5611.jpg" , Всё будет отлично (2025)
+https://river-1.rutube.ru/hls-vod/sYoLebv2r3O2u8s4ffRwjA/1756575703/2680/0x5000039ce869aaa5/3b8393d7df0b4dfcb6e220ccab21cf4c.mp4.m3u8?i=848x352_560
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-14/e9/76/e9763eeb0aa41a3b11da5032de8ad99a.jpg" , Хитмэн 2 (2025)
+https://river-1.rutube.ru/hls-vod/xrHF8qxDXuw7DrrwiBv3HQ/1756575704/2700/0x5000039ce869840d/da4984b0c6c64e67814607e4ed21bb76.mp4.m3u8?i=1920x1080_1820
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-16/e5/9f/e59f7e3d1433fb04982e2fe4398a64ad.jpg" , Меган 2.0 (2025)
+https://river-1.rutube.ru/hls-vod/FeFkyZtZLs8kHUmRjFZHPg/1756575705/2544/0x5000039ce8637bb9/0bb7ddb095cc4243bc54c8f1ad473c53.mp4.m3u8?i=1920x800_2169
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-10/8f/cd/8fcd506a2ed7a9b3498b69505452f80d.jpg" , Кулаки против зомби (2025)
+https://river-1.rutube.ru/hls-vod/XZF6os21ucYpkckHyrRKRA/1756575706/2726/0x5000039ce8382991/264c0755f55b43c4a746ca39ea180544.mp4.m3u8?i=1920x1080_2249
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-17/27/51/275114fd47138b91667de33f6e0ec2c3.jpg" , Сердце знает (2025)
+https://river-1.rutube.ru/hls-vod/DQd09QDLk2KKWkITW3rqXw/1756575707/2662/0x5000039ce8703575/5d345dc153e34d81b94bc7c09ba0cd49.mp4.m3u8?i=1920x1080_2607
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-06-29/a5/63/a563e98aeb8e71ed4edd6b3faa046496.jpg" , Вне зоны доступа (2025)
+https://river-1.rutube.ru/hls-vod/NA_aknF28ttxip0topU_NA/1756575708/2568/0x5000039ce839a079/c34763861ec2464d81b64dff640a49b6.mp4.m3u8?i=1920x1080_4106
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-07-08/80/f8/80f8b9e6b5ba2af5a4b4990c17ece62a.jpg" , Убийственный пирог: Расследование Ханны Свенсен (2025)
+https://river-1.rutube.ru/hls-vod/U91-H7GA30Lg1UxdHiAq3A/1756575709/2718/0x5000039ce840d991/af93a4ac8bb64421b05fc424ac23d566.mp4.m3u8?i=1920x1080_2603
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-05/04/ea/04eace5d34b1ce1775d75ae9da787593.jpg" , Полицейский из Беверли-Хиллз: Аксель Фоули (2024)
+https://river-1.rutube.ru/hls-vod/ueAztEvBxJXdVTrmOyj0eQ/1756575710/2211/0x5000c500e7516238/92918fd27f1a469897b0b9ab2c46c6eb.mp4.m3u8?i=1920x800_6374
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/0b/71/0b71b82068ed65a8eddb8586216af076.jpg" , Властелин колец: Братство Кольца | Режиссёрская версия (2001)
+https://river-1.rutube.ru/hls-vod/DbSRfI6XljtaUbzzioDJQA/1756575711/2088/0x5000c500f1d65693/39a841bc94a1467480fe1e7475986612.mp4.m3u8?i=1920x800_3030
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/71/ba/71babe2ceb2b44fb320410d5ed1bc055.jpg" , Властелин колец: Две крепости | Режиссёрская версия (2002)
+https://river-1.rutube.ru/hls-vod/LTm6bBvpw0ImDJz_V83AaA/1756575711/2078/0x5000c500f1e59b02/d0f2431fa0514c18a922acc12c11863a.mp4.m3u8?i=1920x800_4143
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/5a/25/5a25a8d38e22801b808b794e9aea016a.jpg" , Властелин колец: Возвращение короля | Режиссёрская версия (2003)
+https://river-1.rutube.ru/hls-vod/i_onAXxDG6XqoIov7dsRvw/1756575712/2092/0x5000c500f1dc587c/0a24ef3899be43119b61835e67788fd9.mp4.m3u8?i=1920x792_4355
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/47/f4/47f4ad22f5bd2daacffc56be4603428c.jpg" , Бэтмен (1989)
+https://river-1.rutube.ru/hls-vod/9JG-7FYXK0GDVmpLcJtApg/1756575713/2090/0x5000c500f1dece2c/36a7874b57634ef2ac1e1e72d4c152b8.mp4.m3u8?i=1920x1080_3401
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/5e/4f/5e4f6a1496112ebf58f7e3a6bc1c846d.jpg" , Бэтмен Возвращается (1992)
+https://river-1.rutube.ru/hls-vod/XOY7xjkw2B-hyc4wQmZbQQ/1756575714/2088/0x5000c500f1e58f7d/0cf08fee2f814713b1d8ba60ad0ad505.mp4.m3u8?i=1920x1080_5059
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/05/76/05766873f73a3a810d30a8e4db8c7b62.jpg" , Бэтмен Навсегда (1995)
+https://river-1.rutube.ru/hls-vod/mDvIyFh9PTmSKINU-rZTLA/1756575716/2092/0x5000c500f1dcd48c/384306e8b72e4734ac3656e6a6c10440.mp4.m3u8?i=1920x1080_3754
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/b3/86/b3863a80c055bb3d51591ba2684f2861.jpg" , Бэтмен и Робин (1997)
+https://river-1.rutube.ru/hls-vod/V2W9wD3dvZ_vd7v3yapxSg/1756575717/2088/0x5000c500f1e58f7d/45a2f783a0564d9f90769a0d920c4890.mp4.m3u8?i=1920x1080_4413
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/a7/57/a757c72e223b514ba1373600689841be.jpg" , Бэтмен: Начало (2005)
+https://river-1.rutube.ru/hls-vod/Qqz2V4HkYpz1mIYqxE0r4w/1756575717/2088/0x5000c500f1e4fc47/dac0e519b6da4660bb8a8b475923691b.mp4.m3u8?i=1920x800_2262
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/1a/99/1a9953fefa5c722099499648fb29bf70.jpg" , Темный рыцарь (2008)
+https://river-1.rutube.ru/hls-vod/mlWDNQ0yRNj_9fsqcWqrVQ/1756575718/2080/0x5000c500f1da748a/d5263d18a7804f0ca327eef990f75fc0.mp4.m3u8?i=1920x1080_3481
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/0a/aa/0aaa60d1f98fb774e663ceeabda3ce71.png" , Темный рыцарь: Возрождение легенды (2012)
+https://river-1.rutube.ru/hls-vod/CHdW89zTkNTxy2C7dNojPA/1756575719/2090/0x5000c500f1e4482d/b032f3c59d794f938e46c3265b34f92a.mp4.m3u8?i=1920x1080_3262
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/cd/d6/cdd6a943c56cb91acb29eef176a235bf.jpg" , Бэтмен (2022)
+https://river-1.rutube.ru/hls-vod/FfP4sS_oIyXpvFiWZbCsRA/1756575720/2086/0x5000c500f1e56de3/9de2911dea204690ac0b1188951639ca.mp4.m3u8?i=1920x808_1744
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/fc/91/fc91c05aee140f8480be3d13d7c4291a.jpg" , Бэтмен против Супермена: На заре справедливости (2024)
+https://river-1.rutube.ru/hls-vod/0-0Yg3l-3UOglShZ9CZ2rA/1756575721/2074/0x5000c500f1da6e43/57645a3242bc4249b4a911fb85a7f290.mp4.m3u8?i=1920x800_2235
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/ef/6b/ef6b1dbbb66a58f5b8d288e9fb80457e.jpg" , Индиана Джонс: В поисках утраченного ковчега (1981)
+https://river-1.rutube.ru/hls-vod/Wep4bwcfbHNdos64X_THyA/1756575722/2094/0x5000c500f1e3ff75/c52ff8bb90904a49b0d272ac65e2f496.mp4.m3u8?i=1920x816_4502
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/e7/28/e728a99cc0c3d14734727f5591b48817.jpg" , Индиана Джонс и Храм Судьбы (1984)
+https://river-1.rutube.ru/hls-vod/U4gcgiCVKq0gZPbCjghcyQ/1756575723/2076/0x5000c500f1e52299/1533f43905004dc8ae06e74af4e9e9fd.mp4.m3u8?i=1920x816_6669
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/91/1a/911ab7e6cea9c7b3b52ce6313c5b92b1.jpg" , Индиана Джонс и последний крестовый поход (1989)
+https://river-1.rutube.ru/hls-vod/XZBtttV9Y7iLTMmCvqe6HA/1756575724/2076/0x5000c500f1e52299/f599e848539a4da195a2220ec603b38b.mp4.m3u8?i=1920x816_10173
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/a8/04/a8043ef5fb7650aa4287646e3535c146.jpg" , Индиана Джонс и Королевство хрустального черепа (2008)
+https://river-1.rutube.ru/hls-vod/fSIgeIA_HcfEkiqX1p-EkA/1756575726/2086/0x5000c500f1e563e5/3e0ceb5ffaad405b8f09c6b5a30e46f9.mp4.m3u8?i=1920x800_4764
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/60/5f/605f07a36213699a71be34788e261981.jpg" , Индиана Джонс и колесо судьбы (2023)
+https://river-1.rutube.ru/hls-vod/YAJNiOr136E-jpKYAK5uFA/1756575727/2094/0x5000c500f1e373ab/6b6697d524144fe4a099b16ef6a7d590.mp4.m3u8?i=1920x800_3131
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-13/81/cc/81ccedec12f0773638cb12df14174e38.jpg" , Назад в будущее (1985)
+https://river-1.rutube.ru/hls-vod/bM1Kd6ezkXJ1g-HYMDzuWA/1756575728/1784/0x5000c500dc5d9c67/fae2976bf53f4554846adbdb96f8e0a7.mp4.m3u8?i=1920x1040_4457
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-13/29/db/29dbf4c552210960bb39264b3f18f1a7.jpg" , Назад в будущее 2 (1989)
+https://river-1.rutube.ru/hls-vod/3xSn0C6xuRKkoN8uuybrsg/1756575729/3300/0x5000c500e93c95b3/9a55d76d977643f390d2d0530a5c88e2.mp4.m3u8?i=1920x1040_3885
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-08-13/da/1c/da1cd279a6fdaaa5bd61cc46838a9948.jpg" , Назад в будущее 3 (1990)
+https://river-1.rutube.ru/hls-vod/TnJW58znFItznq8ualgbPw/1756575730/3318/0x5000c500e9dae7d8/b5bad3c84ff049b9ada617ab09b85799.mp4.m3u8?i=1920x1040_4342
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/82/06/8206bf25a441e4c2bac79dea9ed52074.jpg" , Кровавый алмаз (2006)
+https://river-1.rutube.ru/hls-vod/ZeH4NALoC7sz6k0YcCnkuA/1756575731/2084/0x5000c500f1e5abcf/a373f1095d4f459f840d8bb603ce594f.mp4.m3u8?i=1920x792_3772
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/ae/96/ae967a3688ae726d15f5ea01cc73c855.jpg" , Лига выдающихся джентльменов (2003)
+https://river-1.rutube.ru/hls-vod/lAjDzOTAdJKSkwlNowwQgg/1756575732/2211/0x5000c500e752644d/77bba4322c02486f922690a587c089c1.mp4.m3u8?i=1920x808_3115
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/a8/d8/a8d8cb9c34da8064875014f105129d95.jpg" , Блэйд (1998)
+https://river-1.rutube.ru/hls-vod/sDHyao8FTgkt1ZwHw7FO6A/1756575732/2082/0x5000c500f1db4f74/77930ec2cb98415689e265c5c1d99f40.mp4.m3u8?i=1920x808_3370
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/86/64/8664f8a0ff2259b701acb498bad1a2e3.jpg" , Блэйд 2 (2002)
+https://river-1.rutube.ru/hls-vod/i3_wV8wYfo-t-6HGe7fRhw/1756575733/2092/0x5000c500f1dc6662/27419ebf67ba468cb8dde37e95a3f61c.mp4.m3u8?i=1920x1080_3246
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/b2/72/b272a4e0a0d2d5211e61fd162ce9f76e.jpg" , Блэйд 3 (2004)
+https://river-1.rutube.ru/hls-vod/2vk00hGZeGy3TQoOnIRAwQ/1756575734/2092/0x5000c500f1e2a661/6d6c325d5f2448ecb6d766a7b3306cb5.mp4.m3u8?i=1920x816_2862
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/c0/a4/c0a413d8798f37a59828943a7c0b563c.jpg" , Робокоп (1987)
+https://river-1.rutube.ru/hls-vod/TMCzUlAX-YLxWmcKt0rKHQ/1756575735/2086/0x5000c500f1e579b3/b7236552664a4a8dae918093c2ce013f.mp4.m3u8?i=1920x1040_5794
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/34/bc/34bc4a61f719e39cae726d4c7e1df7c1.jpg" , Робокоп 2 (1990)
+https://river-1.rutube.ru/hls-vod/pkKZDU6p-PsBVcOPDwIEvQ/1756575736/2092/0x5000c500f1df2daa/c5e81bd24deb4eff9589b0d79f0b9bc4.mp4.m3u8?i=1920x1040_3800
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/43/15/431577ddd04e2f8cecf714daab2e7c3e.jpg" , Робокоп 3 (1992)
+https://river-1.rutube.ru/hls-vod/Yg-DI1aviAhSs2KpXBVUqQ/1756575737/2096/0x5000c500f1e59a45/cec8171628cd44858da5e5e8c08731fb.mp4.m3u8?i=1920x1040_3042
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/5b/0c/5b0cf95b728de333cfba7d1f9e685f4f.jpg" , Обитель зла (2002)
+https://river-1.rutube.ru/hls-vod/7thtc3L-X4uy79YaooTZnA/1756575738/2076/0x5000c500f1d3b626/5b6ce3dbdf634277b00fae168c74a541.mp4.m3u8?i=1920x1040_3775
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/0a/d5/0ad5a42e00a6b32effd2235b04d2dbcc.jpg" , Обитель зла 2: Апокалипсис (2004)
+https://river-1.rutube.ru/hls-vod/awB09e7b0RCTvzzT7z-K8g/1756575739/2076/0x5000c500f1e405ef/aeb8795f6f5c4d8e929a461e7028bf26.mp4.m3u8?i=1920x792_4058
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/47/9d/479d3e5529773d965e4f08a9f5c5a87e.jpg" , Обитель зла 3 (2007)
+https://river-1.rutube.ru/hls-vod/03--yWRYKjYIf6RvtyGg9A/1756575740/2094/0x5000c500f1dc3e7f/8aeb9ea933534391ae8695f37e00ca81.mp4.m3u8?i=1920x800_4510
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2b/53/2b533e8ecbff8e2336908608ce748395.jpg" , Обитель зла 4: Жизнь после смерти (2010)
+https://river-1.rutube.ru/hls-vod/JCFB25uK7Q3lHFn8f18wqA/1756575741/2088/0x5000c500f1e58f7d/07657c479fec47d69474a2638db9ebbe.mp4.m3u8?i=1920x800_4046
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/1f/f2/1ff221182cf4a55b95a6b623c878adec.jpg" , Обитель Зла: Возмездие (2012)
+https://river-1.rutube.ru/hls-vod/tEPKpWhQKFaIjy1yxGqGuA/1756575742/2094/0x5000c500f1e5b4c4/b563a3f7a16f4c4485d963abe4098a89.mp4.m3u8?i=1920x800_7683
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/73/50/73505682c824e3a91b567a07b7a38938.jpg" , Обитель зла: Последняя глава (2016)
+https://river-1.rutube.ru/hls-vod/9pFQ8XqSHbzcNq5xM1nh-Q/1756575743/2076/0x5000c500f1e31400/083a5dd97c6747489ef3698d875f7b62.mp4.m3u8?i=1920x800_2958
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/85/b7/85b75134c7b23c1df45732018fdf1556.jpg" , Терминатор (1984)
+https://river-1.rutube.ru/hls-vod/eUO1BNlb7jNa_tVFYg7u4Q/1756575744/2094/0x5000c500f1dd6d05/f8c016d4d0ef453293eea58a2615a842.mp4.m3u8?i=1920x1040_5058
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-05/90/73/9073297c9a3ed329bf8c2a2891bd9f45.jpg" , Терминатор 3: Восстание машин 60 fps (2003)
+https://river-1.rutube.ru/hls-vod/kUj1oHusuPWwsWvlaRf49A/1756575745/2460/0x5000c500e8839ffe/ba92cb112ca240ccaa80e325b8ee50a1.mp4.m3u8?i=1920x784_8583
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2a/e6/2ae62fa4e0a0ae33b1dcbe4e45bf05c6.jpg" , Терминатор 4: Да прийдет спаситель (2009)
+https://river-1.rutube.ru/hls-vod/5H4EzELF2BNJNzq3cNxbug/1756575745/2094/0x5000c500f1db122f/1d3b3734284f473fbcd923f9ddc2d817.mp4.m3u8?i=1920x800_3637
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/b6/bb/b6bb9eb90c61172c7fe0ee64d8489d99.jpg" , Люди в черном (1997)
+https://river-1.rutube.ru/hls-vod/kND0McsmCSLP4IZg4mPXJw/1756575746/1861/0x5000c500e53c916b/0f27da6c54774499be1c5cc4691734a3.mp4.m3u8?i=1920x1032_10882
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/4b/06/4b06cb6ef3c6426cf417908452638a28.jpg" , Матрица (1999)
+https://river-1.rutube.ru/hls-vod/C7MP_FPsVUM7YZZ7hd8qOA/1756575748/2092/0x5000c500f1db0e75/2cfaad81a8dc452b92c9f0a99d35f0e9.mp4.m3u8?i=1920x800_3057
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/8c/15/8c157f869113d619f81e7ab0e9aa98c2.jpg" , Матрица: Перезагрузка (2003)
+https://river-1.rutube.ru/hls-vod/lCeaXmFK_QTCgPO3Y19cgQ/1756575749/2096/0x5000c500f1d6b600/e198f30b21ba41fda5038630ace6030c.mp4.m3u8?i=1920x800_2965
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/72/35/72352bf2ab14f352dd59028e8fa88cba.jpg" , Матрица: Революция (2003)
+https://river-1.rutube.ru/hls-vod/gX5a2EZEm2FKTr08Fd_rAg/1756575750/2086/0x5000c500f1d8b72b/a7bb4b89a5ae48a293f77d27baf276f9.mp4.m3u8?i=1920x800_3406
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/52/6e/526eff8fe10ab2210d8eccd7b1301650.jpg" , Матрица: Воскрешение (2021)
+https://river-1.rutube.ru/hls-vod/tm7_FJTmbQBVrZhpkj8rdQ/1756575751/2090/0x5000c500f1e363b1/3d2c7b8be89044ffb958d07906b4f592.mp4.m3u8?i=1920x800_2781
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/7f/a6/7fa6ee03564a66ddd37676c7cd6e2912.jpg" , Смертельное оружие 1 (1987)
+https://river-1.rutube.ru/hls-vod/bGSkBBibiHeoLhSAJCD8wg/1756575752/2078/0x5000c500f1dd70fe/4e75229a5c424a98b18e9acf1eaafa6d.mp4.m3u8?i=1920x1080_7279
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/8d/8b/8d8bd68d4691310f46248f5badb9c0df.jpg" , Смертельное оружие 2 (1989)
+https://river-1.rutube.ru/hls-vod/EaWCW0emx_TK_wNrgO6-Ug/1756575753/2078/0x5000c500f1e50e46/8e00639e9be74efe821523ef944f4163.mp4.m3u8?i=1920x800_2559
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/f0/b0/f0b0014c0b4abc1f524db4f624f3cd39.jpg" , Смертельное оружие 3 (1992)
+https://river-1.rutube.ru/hls-vod/YPO90gdTk9bQh58LA1Wpqw/1756575754/2080/0x5000c500f1d9b395/f5639425e4ff4ff2b4dac49ef2f99428.mp4.m3u8?i=1920x792_3095
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/86/12/86122cb3b2d801870e6549eca72f636e.jpg" , Смертельное оружие 4 (1998)
+https://river-1.rutube.ru/hls-vod/rJyLcnKrc45e2qmLEKJp6Q/1756575755/2092/0x5000c500f1db50ea/6573729710e74f9ca0f7b3336a10b85a.mp4.m3u8?i=1920x800_3130
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/04/04/0404cf5a3fa1f56c20510b160e332d41.jpg" , Крепкий орешек 1 (1988)
+https://river-1.rutube.ru/hls-vod/yd8t0FsZSwWnw32ZYa2vkg/1756575756/2080/0x5000c500f1e5bef2/eee9699e83834d5c9398806781620b61.mp4.m3u8?i=1920x808_3111
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/53/17/5317052db30ce9e38adbc49a21918df5.jpg" , Крепкий орешек 2 (1990)
+https://river-1.rutube.ru/hls-vod/I-snnlrHEW05QFuITghYaQ/1756575757/2094/0x5000c500f1e373ab/58c8c5f7b0294431a70f9f3269a55c2a.mp4.m3u8?i=1920x808_2656
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/b8/2b/b82b12445a8e681f2f10d0c8424e4a46.jpg" , Крепкий орешек 3: Возмездие (1995)
+https://river-1.rutube.ru/hls-vod/HIAZhybYPju5wNiid3yfpw/1756575758/2086/0x5000c500f1e56de3/63095003d0344536a133943c076a361b.mp4.m3u8?i=1920x816_5140
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/05/4b/054b62ae2251c54fb2276f1a8907f996.jpg" , Крепкий орешек 4.0 (2007)
+https://river-1.rutube.ru/hls-vod/OBaf0XremVhdKf8Y65trHw/1756575759/2076/0x5000c500f1df1a2d/d40201d85254411688b481ea8c6e5cc4.mp4.m3u8?i=1920x800_4010
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/0b/5f/0b5f577cfcc881737deea91ad8517731.jpg" , Крепкий орешек: Хороший день чтобы умереть (2013)
+https://river-1.rutube.ru/hls-vod/y2xUN9fdQJhJnG_MvpN_gA/1756575760/2074/0x5000c500f1e5bcb3/7f025662e55f448a84e4525daa024f1e.mp4.m3u8?i=1920x1040_6334
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-07/fe/ba/febad2a293776e460eff411e04d4f40c.jpg" , Голый пистолет (1988)
+https://river-1.rutube.ru/hls-vod/yapwPpi76kJxjVJ15YxOjA/1756575761/2389/0x5000c500f2b4348b/65c2d1794041468184173eb9b2a2a343.mp4.m3u8?i=1920x1080_9545
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/f3/39/f339f168247ca35cab03446e15a918b9.jpg" , Голый пистолет 2 1/2: Запах страха (1991)
+https://river-1.rutube.ru/hls-vod/wNbawG1iXSqEciNZTBXNhQ/1756575761/2177/0x5000c500e74f56e4/389d8de069f742acba88730f981d509e.mp4.m3u8?i=1920x1080_17617
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/fb/fe/fbfe21ad28f5f4f470759c6049e45125.jpg" , Голый пистолет 33 1/3: Последний выпад (1994)
+https://river-1.rutube.ru/hls-vod/CXMSZbLPkdx_cErGSw0Q_A/1756575763/2084/0x5000c500f1e56cb7/1c3a5ddc4fbb4c89a69270e74da7b80b.mp4.m3u8?i=1920x1080_5164
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/0e/24/0e24e3ebb01ddc1c89d67ca6d5e31d94.jpg" , Роман с камнем (1984)
+https://river-1.rutube.ru/hls-vod/B77Z4B9qUn_KFcZMwSa9RA/1756575764/2088/0x5000c500f1e528b2/01a622d6ece446518bf60e650fbd6d48.mp4.m3u8?i=1920x808_4126
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/81/45/81450c4471e1bba861326b76e98e04e8.jpg" , За бортом (1987)
+https://river-1.rutube.ru/hls-vod/XhpPojZBUSdD2ZKPnWY8zg/1756575765/2161/0x5000c500e716d47f/95ba52b3146e4bf6bd82d336288128f4.mp4.m3u8?i=1920x1040_7960
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-01-26/71/5c/715ca4d5769efa0a306b8484a11543a0.jpg" , Сонная Лощина (1999)
+https://river-1.rutube.ru/hls-vod/FY_vZKSIzktywYq05O8RVw/1756575766/2560/0x5000039ce86356a5/0df93f3df7924f5f839ed787966429dd.mp4.m3u8?i=1920x1040_8141
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/66/7e/667e2edd51783fa39d3b04dd90171279.jpg" , Эдвард руки-ножницы (1990)
+https://river-1.rutube.ru/hls-vod/4Qt5FzPYmuph0rx1kHmf1w/1756575767/2082/0x5000c500f1e58de1/4a39ec11a1db471398cf5f861a484f56.mp4.m3u8?i=1920x1040_3623
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-17/8d/d3/8dd3efd1571ad3088a04ff6bd57ce75d.jpg" , Суини Тодд демон-парикмахер с Флит-стрит (2007)
+https://river-1.rutube.ru/hls-vod/QkY6iooONhUNohzI1rRNNA/1756575767/2084/0x5000c500f1d6eb4f/f34f9a60442644ff8945ab40cdec10cd.mp4.m3u8?i=1920x1080_4521
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/ea/a4/eaa459f67510076ba72d4cb504259317.jpg" , Бегущий по лезвию (1982)
+https://river-1.rutube.ru/hls-vod/G6fSI7eru-T6-m4w15sMAQ/1756575768/2094/0x5000c500f1e56b86/a4b73c567f7c4008a015d195501e1322.mp4.m3u8?i=1920x800_4439
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/e5/b4/e5b4184bbe7d82a5f1886f443599e835.jpg" , Побег из Шоушенка (1994)
+https://river-1.rutube.ru/hls-vod/45KJgIwxJgOdMEP2WYhyCA/1756575769/2090/0x5000c500f1e53ed1/fb597d78a4664d439e00bece9987f52a.mp4.m3u8?i=1920x1080_3158
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-05-17/fc/8a/fc8af4fb3c97f80f0bf46da7e6624b3d.jpg" , Плохие парни (1995)
+https://river-1.rutube.ru/hls-vod/SWRdsBQy0GoZsnsO-5zBIQ/1756575770/2678/0x5000039ce8708905/ec44be3452214b1eb9557e766abde4fb.mp4.m3u8?i=1920x1040_3684
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-12-05/64/31/6431e9a43225355059b06b03e4083b0b.jpg" , Плохие парни 2 (2003)
+https://river-1.rutube.ru/hls-vod/vDKYmAjp40kZgK7FyEMt8A/1756575771/2468/0x5000c500e8838060/cf66e7867bf74f71ba202baa13b4264a.mp4.m3u8?i=1920x1080_7181
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-05/31/17/311720c151ce7b883eb8610422de777a.jpg" , Плохие парни навсегда (2020)
+https://river-1.rutube.ru/hls-vod/4-x5gPZ5A6HaCXw3U6JZRg/1756575772/2407/0x5000c500f2b8fd77/41b238f863414ee69f8e4c3706695c24.mp4.m3u8?i=1920x800_5410
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-05/45/0e/450eeae1f7086b72f90bf80251d93f91.jpg" , Плохие парни до конца (2024)
+https://river-1.rutube.ru/hls-vod/HP1jEf7rJcbtuyyUGcp5gg/1756575773/2195/0x5000c500e68dd46b/7709893a9127431b8d2e3542d508e7c5.mp4.m3u8?i=1920x800_4154
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/ef/ac/efac2db779f26a11e3b40820ff79e6b9.jpg" , Хищник 1 (1987)
+https://river-1.rutube.ru/hls-vod/sbBqfaVMGy17PVh_theMgw/1756575774/2080/0x5000c500f1e52678/e610d9ec709a46d188a7eb884048687a.mp4.m3u8?i=1920x1040_3276
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/89/b9/89b99a75e054b014b6f923beb3ca5330.jpg" , Хищник 2 (1990)
+https://river-1.rutube.ru/hls-vod/530w22nWhvOShptIg2m3tg/1756575775/2086/0x5000c500f1e563e5/b401b1bbd15444f1920801e8644d0fa5.mp4.m3u8?i=1920x1040_3463
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-08/07/78/077803ed7756ebca48ccc4c154614e5e.jpg" , Харли Дэвидсон и ковбой Мальборо (1991)
+https://river-1.rutube.ru/hls-vod/8041-QaNQ_bZkiB2bXKuiw/1756575776/2476/0x5000c500e8774f96/2c4ba25009c54ceead8b309c1e5a427d.mp4.m3u8?i=1920x1080_10607
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/b1/c9/b1c970b015d0b81fe294403795f07d2c.jpg" , Хищники (2010)
+https://river-1.rutube.ru/hls-vod/isenwRjl2pDPIyKQL7oMXw/1756575777/2080/0x5000c500f1db1d10/6b8948b8aa3b4bf3a94ca30f983aa630.mp4.m3u8?i=1920x816_4261
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/61/30/61309ef7b5f0bd9b55fd7d72020b4644.jpg" , Братство волка (2001)
+https://river-1.rutube.ru/hls-vod/TNjS6KA3lugb8mXuOR9rUA/1756575778/2550/0x5000039ce8405fc1/1bf6eca24e114ec7a641745355d4193c.mp4.m3u8?i=1920x824_3319
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/55/69/5569b8af0d772a65f3e5a95e6f2a02b1.jpg" , Патриот (2000)
+https://river-1.rutube.ru/hls-vod/7QuqgxUbSJ8dqhBlJJvdvA/1756575779/2094/0x5000c500f1e5251e/5fd295c49670408b99e8c6adb60685c3.mp4.m3u8?i=1920x800_3418
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/bf/a3/bfa336835233d6d8118c79116e0ea85e.jpg" , Багровые реки 2: Ангелы апокалипсиса (2001)
+https://river-1.rutube.ru/hls-vod/f4au70sM6EosNm_MzGHYWA/1756575780/2074/0x5000c500f1e5245e/0998d790978e4a9f8fe6d3a3afa18eac.mp4.m3u8?i=1920x808_2711
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-02-24/eb/78/eb786970635d0b0fb89cdd86f19b6633.jpg" , Труп невесты (2005)
+https://river-1.rutube.ru/hls-vod/qfQpA7IS77unki3AwQw3QA/1756575781/1879/0x5000c500e5355ac6/e93b2fbb82534cdb92846a7f46211646.mp4.m3u8?i=1920x1080_3238
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/1f/e8/1fe805cefa7284ff7c6f4ec05757c59d.jpg" , Шрек (2001)
+https://river-1.rutube.ru/hls-vod/dpZhJad3LCLTs2ZpgcVKpQ/1756575782/2084/0x5000c500f1e37576/2ca2b39ebe46452ea52a78ff68e899de.mp4.m3u8?i=1920x1080_4155
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/ea/a1/eaa11f59cda6e74713dd3f4c7da79aa5.jpg" , Сияние (1980)
+https://river-1.rutube.ru/hls-vod/q_xD9iKN5V9fOPGWb4CYoA/1756575783/2086/0x5000c500f1dd737a/61778e2f29b24b0f9b08e2a5ac789cd8.mp4.m3u8?i=1920x1080_2531
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/78/dc/78dc88e1e056b469739d037a5914ad8d.jpg" , Девятые врата (1999)
+https://river-1.rutube.ru/hls-vod/LnwoAiyrbVi9wUs4I6MAiw/1756575783/1970/rutube-ds-origin-132-2/eec2312992094d108e2bd5fa628aad0b.mp4.m3u8?i=1920x816_1648
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-10-04/21/5c/215c446173b38ed2ae45da1e9dae7c24.jpg" , Человек тьмы 4K (1990)
+https://river-1.rutube.ru/hls-vod/Ldi5Lw0wy44B6ibow7sLhA/1756575785/1822/0x5000c500c8c54e6e/8de341325a954ce294d71aea60cf3878.mp4.m3u8?i=3840x2160_16011
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/94/a4/94a4d87ab55fd46c1537a77873f3fc11.jpg" , Тень (1994)
+https://river-1.rutube.ru/hls-vod/nlrSYeCoIHS0lK8eCTFOrg/1756575786/2080/0x5000c500f1e579e7/63c7983d4528474a81ee35790eb7ba8c.mp4.m3u8?i=1920x1080_16172
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-12-01/ed/05/ed058741960331f0cd924afe4e1d171a.jpg" , Дракула (1992)
+https://river-1.rutube.ru/hls-vod/aaLRll2-ok26q_gFT0BtrQ/1756575787/2454/0x5000c500e883918f/afae75fe6b404565af920e8a9b22c941.mp4.m3u8?i=1920x1040_9349
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-04-24/39/ae/39ae56e47088d060ad47922e475520f1.jpg" , Храброе сердце (1995)
+https://river-1.rutube.ru/hls-vod/DB1KTmLLN4zvCppKAFzpQg/1756575788/1887/0x5000c500e53d01b1/7567e5ba9b4b4e4e8b9d898f943a5b39.mp4.m3u8?i=1920x816_5758
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/35/5f/355f73c20ec55afc3faae226135f98bd.jpg" , Скала (1996)
+https://river-1.rutube.ru/hls-vod/Ruvuw7oMCZFaGIzIdsZklw/1756575788/2219/0x5000c5007446408c/2adbb045f8a9444a84763592074598ec.mp4.m3u8?i=1920x816_8620
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/6d/46/6d46850282f89899148d7d3dca30a429.jpg" , Троя (2004)
+https://river-1.rutube.ru/hls-vod/5e65kKkc65kuJa24H9kP0Q/1756575789/2090/0x5000c500f1e53ed1/90a9e35084074e7e9064af7cb873b067.mp4.m3u8?i=1920x792_3570
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-25/be/5c/be5cb0961b97f2243d37da8e9db458f5.jpg" , Гремлины (1984)
+https://river-1.rutube.ru/hls-vod/IIbhcTwGnOVaN3RhwURuPw/1756575790/2448/0x5000c500e882ba60/d19532cb7a434d2691c9ea43bd718311.mp4.m3u8?i=1920x1080_4302
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-25/9c/45/9c45158432862c952a116179da709f36.jpg" , Гремлины 2: Новенькая партия (1990)
+https://river-1.rutube.ru/hls-vod/DZ8a8yRXfMJ86B0MtFjYQQ/1756575793/2397/0x5000c500f2b558a7/7c69a78d37c144d09a1a2343c2a5744c.mp4.m3u8?i=1920x1080_5455
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/bb/91/bb91626da8833229a77238edc23e8bea.jpg" , Царство небесное (2005)
+https://river-1.rutube.ru/hls-vod/To_dhLueB7DzxFQsMzUNyw/1756575798/2088/0x5000c500f1e14287/bf7a0e2b30444d00a7c9ddb5af4642fc.mp4.m3u8?i=1920x816_3352
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/b8/41/b841f26da9c610e80793de9f7440f1da.jpg" , Один дома (1990)
+https://river-1.rutube.ru/hls-vod/sxBOIEVNALY4RABWtLRVCA/1756575799/1877/0x5000c500e5110dfc/d0618f08c897472f9c4de21f44ff781f.mp4.m3u8?i=1920x1032_15816
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-29/03/2d/032d1df370100c7433eda7257f8ad046.jpg" , Один дома 2: Затерянный в Нью-Йорке (2010)
+https://river-1.rutube.ru/hls-vod/CN0G3Ywh9HoBMCnPz3PcKA/1756575800/1867/0x5000c500e53d02d1/4f87990c33ba494c8d6398fd965f5eaf.mp4.m3u8?i=1920x1040_8282
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/e8/f1/e8f1672324eeffd484884fd87445c294.jpg" , Принц Персии: Пески времени (2010)
+https://river-1.rutube.ru/hls-vod/9f0Mi4fTqkk44RhOiOj2Hw/1756575801/2080/0x5000c500f1e5215e/139d7acc71564a8a994a7d7d2c59ddb8.mp4.m3u8?i=1920x800_4812
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/69/50/6950900d717abc493d434448087e6a2a.jpg" , Ван Хельсинг (2004)
+https://river-1.rutube.ru/hls-vod/dM0zgGZjhFal23HMVlr2BQ/1756575802/1772/0x5000c500c45cabe9/0840331647944eb3868994c2f1617540.mp4.m3u8?i=1920x1040_6471
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-17/38/68/386800ff6f12f8871226eeda58919d4b.jpg" , Сайлент Хилл (2006)
+https://river-1.rutube.ru/hls-vod/RDvftWwniZDE9ecvEzlt9Q/1756575803/1867/0x5000c500e53c8763/9fcfcfb520ed436894e63e3e9436bf81.mp4.m3u8?i=1920x816_4945
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-17/bd/9d/bd9dbf656c5f422bfa6da726f8b3c533.jpg" , Сайлент Хилл 2 (2012)
+https://river-1.rutube.ru/hls-vod/-cX6sMX2OiQMdJIkBX1pvg/1756575804/2088/0x5000c500f1dd5272/09b0fc7833db4a258833f29562cd954b.mp4.m3u8?i=1920x800_4027
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/6c/a4/6ca4609018c4df3c6c67261090675444.jpg" , Спасти рядового Райана (1998)
+https://river-1.rutube.ru/hls-vod/o-fd76Mj39_PdhRQB5brdA/1756575805/2076/0x5000c500f1e3e63b/bb4ac6697dc2407287174dd499373df9.mp4.m3u8?i=1920x1032_7893
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/c9/dd/c9ddf7b982fe7022dae957099ba3b186.jpg" , Перл-Харбор (2001)
+https://river-1.rutube.ru/hls-vod/tfmfZ85q6NmKFajGYoE2eg/1756575806/2094/0x5000c500f1e522dc/a3f8cba0c03e45a893390662dabd7339.mp4.m3u8?i=1920x800_3629
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/25/42/25428afd7226e67cda3c552fc233e92c.jpg" , Армагеддон (1998)
+https://river-1.rutube.ru/hls-vod/1sSz7yY-OGvQnJylxKK-1Q/1756575807/1877/0x5000c500e539cbb9/f877b0389ecd41e0b5b6daa253a1d9f8.mp4.m3u8?i=1920x800_7584
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/ea/b1/eab16c487b80e0398f42f0ec74f3b6a1.jpg" , Бегущий человек (1987)
+https://river-1.rutube.ru/hls-vod/VO4XkW5VbW8-XNSm2l6s_Q/1756575808/1871/0x5000c500e4db1142/10aab125431544c7acc2aff36ceb78ba.mp4.m3u8?i=848x480_1508
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/56/1a/561ac5e8a1a2e0932f136d70676c8576.jpg" , Эффект бабочки (2004)
+https://river-1.rutube.ru/hls-vod/YoVT6OHXM71JCC2GziReZQ/1756575809/2167/0x5000c500e6685066/6b719a4751b844ad92096509569d9787.mp4.m3u8?i=1920x1080_7681
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/99/35/9935ee154f88f1f3380793a42fbdbe80.jpg" , Пираты Карибского моря. Проклятие Черной жемчужины (2003)
+https://river-1.rutube.ru/hls-vod/QQkSZ9T14aI6xaMQzpW4Eg/1756575810/1861/0x5000c500e539f074/143b42bb4ee242dd9d660f01c2b8925c.mp4.m3u8?i=1920x1080_6473
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/40/cd/40cd7ae19d10c729471cd57ef0ce361b.png" , Пираты Карибского моря: Сундук мертвеца (2006)
+https://river-1.rutube.ru/hls-vod/OeuH9UNT962mPZ077nMfEg/1756575811/2090/0x5000c500f1e5b45d/0d4ca73a35cb4e70becf7254f9549a03.mp4.m3u8?i=1920x800_3894
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/b5/54/b5548a4b2b607155de33784fe24c9292.png" , Пираты Карибского моря: На краю Света (2007)
+https://river-1.rutube.ru/hls-vod/6SB_lYRhabQRTVwGOCkcYw/1756575815/2086/0x5000c500f1e2773b/213d02ad10ab45e19cb295e105c758f3.mp4.m3u8?i=1920x800_3784
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/99/c7/99c71f487486ee6409ac7606deda8ef1.jpg" , Пираты Карибского моря: На странных берегах (2011)
+https://river-1.rutube.ru/hls-vod/jrRadfecFw6v501RjPm0fg/1756575816/2096/0x5000c500f1e53214/605bd8c592134555b0f053cffb26c179.mp4.m3u8?i=1920x800_3839
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/89/be/89be2af94d48273a12833cc06f7fbbba.png" , Пираты Карибского моря: Мертвецы не рассказывают сказки (2017)
+https://river-1.rutube.ru/hls-vod/Jpc7-0g_ozK3_t4MNSiggA/1756575817/2092/0x5000c500f1e278c5/abf6800e5d244a80ad962f338feef7ca.mp4.m3u8?i=1920x800_5067
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/9a/56/9a563328673ebfda5de3087bbae8867a.jpg" , Остров головорезов (1995)
+https://river-1.rutube.ru/hls-vod/xVFu13crl2uan9BRq3tTBw/1756575818/2179/0x5000c500e74e8867/830f26601914454fba826cb33aa9cb28.mp4.m3u8?i=1920x816_3512
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/86/be/86beb602079c3abfe1adcaac41d64588.jpg" , Разрушитель (1993)
+https://river-1.rutube.ru/hls-vod/GJf27ra1kIXld0QHxxdd_g/1756575819/2084/0x5000c500f1e5bc16/f787157213a94061aa65e4082c73f37e.mp4.m3u8?i=1920x800_2579
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-07/be/69/be6997951212b273c3aed5b0e6fe3300.jpg" , Судья Дредд (1995)
+https://river-1.rutube.ru/hls-vod/tlzX7994zMI5lIwWaH17AQ/1756575820/2094/0x5000c500f1e5b4c4/a057446b03a44dad81482c771ec41efd.mp4.m3u8?i=1904x1080_9316
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/52/e4/52e4fad6bcd89234c114381f8fbd3f8e.jpg" , Звездный десант (1997)
+https://river-1.rutube.ru/hls-vod/HENWQhYU51kijhD8G5aL1w/1756575821/2096/0x5000c500f1e5ac51/35797a988b1c405f8dae381e1c52843a.mp4.m3u8?i=1920x1040_5893
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/b6/86/b68605f298d8abaf72de57f85c7ce2b6.jpg" , Маска (1994)
+https://river-1.rutube.ru/hls-vod/WN1OEGzZ05F4eFIC4JVp0g/1756575822/2088/0x5000c500f1e50207/2a73d46b6ead4b469a0f23b9f124ab3a.mp4.m3u8?i=1920x1080_2964
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/4a/f9/4af9c547d5b8f17be3b8707e91c44590.jpg" , Форрест Гамп (1994)
+https://river-1.rutube.ru/hls-vod/9dgtx3kWsvZKpUXiH0drcw/1756575823/2080/0x5000c500f1e4ee8f/98def6ae0af54c518a5792673792e81f.mp4.m3u8?i=1920x816_7406
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/a4/e7/a4e7fc51713fe07a7e74d68f3f3067dd.jpg" , К-9: (Собачья работа 1989)
+https://river-1.rutube.ru/hls-vod/OBMFbymFFh5nZWIqr8x4-w/1756575824/1881/0x5000c500e539f380/6114d6a8726d468d9b20d97a867fe9a2.mp4.m3u8?i=1920x1040_14461
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/ba/4a/ba4a7cff1ae434162855e089994696bb.jpg" , Чужой (1979)
+https://river-1.rutube.ru/hls-vod/FGO8wN4Fix7OsZwS8If9ZA/1756575825/1869/0x5000c500e53c0ba6/c159441ba24c4270b832f2ccf6b4c638.mp4.m3u8?i=1920x816_3577
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/f6/4e/f64e6150976bae41d4f82e8affdef8fc.jpg" , Чужие (1986)
+https://river-1.rutube.ru/hls-vod/EUsK6j4YgP_ohO_PhipgTQ/1756575826/2084/0x5000c500f1e565cc/720238d9fbdd432099836d93b4f02e9c.mp4.m3u8?i=1920x1080_4495
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/51/ce/51ce5c9e08b75677efde118767fdd56a.png" , Чужой 3 (1992)
+https://river-1.rutube.ru/hls-vod/1UJJyhGsgIOczllSeqt6Jw/1756575827/2088/0x5000c500f1e5bbdf/6e1acd4f84504a119ac1a7eb2808ad9f.mp4.m3u8?i=1920x808_2837
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/f0/c3/f0c33f8970b44e497da4cc1156f8ee7b.jpg" , Чужой 4: Воскрешение (1997)
+https://river-1.rutube.ru/hls-vod/TEe-rtdIG8ex7Jb6TNga2w/1756575828/2096/0x5000c500f1e50966/157552c816314567b0bee921d4490b54.mp4.m3u8?i=1920x816_4061
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-11-05/2d/d3/2dd3e19e26244f931d6fe972ce33da5a.jpg" , Чужой: Завет (2017)
+https://river-1.rutube.ru/hls-vod/0-VurPPe80kz0ZDgb24cbQ/1756575829/2506/0x5000039ce839b529/6a7a7e0db6ad474e9731b3eb6ce4f8e6.mp4.m3u8?i=1920x800_9695
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2024-10-14/d2/69/d269d7107dca7c61c3ee9ae6db2ecf4a.jpg" , Чужой: Ромул (2024)
+https://river-1.rutube.ru/hls-vod/OIzuqS7W0Z7TsKn-ob63RA/1756575830/2462/0x5000c500e883042c/055d2b9eb61d40f2a2997f82d7f460c8.mp4.m3u8?i=2560x1064_3046
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Хан Соло: Звёздные войны. Истории (HDR)(2018)
+https://vod.plvideo.ru/xdhKhqAx/AZAevqJa5r/zE2SWKSL3N9qKgKnYjn/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Хищник (1987)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/5jktNnXgSi7erOBF4ym/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,12 разгневанных мужчин (1957)
+https://vod.plvideo.ru/GMPb65uk/AZAevqJa5r/zE2SWKSFrcFCIJNaAGr/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,65 (2023)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/zE2SWKSvHBrYwIXXnZF/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Аватар (HDR)(2009)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKS5ZV-3UaH7GBJ/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Аватар: Путь воды (2022)
+https://vod.plvideo.ru/GMPb65uk/KIxJeP4QQ0/zE2SWKSs8fFicNlOOeC/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Адвокат дьявола (1997)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSHZFieZd4XciX/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Аквамен (HDR)(2018)
+https://vod.plvideo.ru/GMPb65uk/L5GCiHLZ8G/zE2SWKSurVeqspBPRR0/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Аквамен и потерянное царство (2023)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/zE2SWKSPiT5iVqXzrQH/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Алита: Боевой ангел (2019)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSlFY4kf-XOk0F/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Американская история X (1998)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSVuQW70xk7Otj/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Анчартед: На картах не значится(HDR) (2022)
+https://vod.plvideo.ru/FbZEopwh/bTkXNvLx6U/zE2SWKSSo-oRKo_1Vzg/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Атлас (HDR)(2024)
+https://vod.plvideo.ru/xdhKhqAx/cXyXEGJ0A4/zE2SWKS-rUCs8RoImNS/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Аэроплан (HDR)(1980)
+https://vod.plvideo.ru/FbZEopwh/kfSkUj-sWy/zE2SWKSdZtDXU0KhPAL/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Аэроплан 2 (HDR)(1982)
+https://vod.plvideo.ru/JLxVTeJD/kfSkUj-sWy/zE2SWKS6ibiMgVhBjEh/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Бамблби (2018)
+https://vod.plvideo.ru/GMPb65uk/L5GCiHLZ8G/zE2SWKSmFDn3K4iSUFQ/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Бегущий по лезвию 2049 (HDR)(2017)
+https://vod.plvideo.ru/JLxVTeJD/bTkXNvLx6U/zE2SWKSwCLfKuoqf1Wc/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Без лица (1997)
+https://vod.plvideo.ru/FbZEopwh/bTkXNvLx6U/zE2SWKSYvgPTeLJAVxE/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Безумный Макс: Дорога ярости (2015)
+https://vod.plvideo.ru/xdhKhqAx/uknUrzHzQA/zE2SWKS18Eo70e5EcvL/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Белоснежка (HDR) (2025)
+https://vod.plvideo.ru/JLxVTeJD/zgo80TEGgy/zE2SWKSI90QQp7-KDcK/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Бесславные ублюдки (2009)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSEW5uXY2jLo3v/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Бешеные псы (1992)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKSlLW9nEMG4mt-/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Блэйд (1998)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSZHUSxcbgtKH9/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Бойцовский клуб (1999)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/zE2SWKSWmHhvj38Tz9r/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,В зоне особого внимания (1977)
+https://vod.plvideo.ru/GMPb65uk/zaA4EcW22E/zE2SWKSakBfGnMe-oT4/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Варкрафт (HDR)(2016)
+https://vod.plvideo.ru/JLxVTeJD/zgo80TEGgy/zE2SWKSKsYsVRVWvNoR/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Васаби (2001)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/zE2SWKStvSmAVka7OWB/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Веном (2018)
+https://vod.plvideo.ru/FbZEopwh/EiKYJIFOyO/zE2SWKSMEW9Z8kEVoRU/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Веном 2 (2021)
+https://vod.plvideo.ru/FbZEopwh/EiKYJIFOyO/zE2SWKSiZCFeaY70t5D/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Веном: Последний танец (2024)
+https://vod.plvideo.ru/JLxVTeJD/EiKYJIFOyO/zE2SWKS6zGgAiVTiA6e/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Властелин колец: Братство кольца (2001)
+https://vod.plvideo.ru/xdhKhqAx/cXyXEGJ0A4/zE2SWKSENNVroViBHiA/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Властелин колец: Возвращение короля (2003)
+https://vod.plvideo.ru/FbZEopwh/cXyXEGJ0A4/zE2SWKSzPG2_2novr9k/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Властелин колец: Две крепости (2002)
+https://vod.plvideo.ru/xdhKhqAx/cXyXEGJ0A4/zE2SWKS6Ur4gLSe4z_n/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Война миров (HDR)(2005)
+https://vod.plvideo.ru/FbZEopwh/zgo80TEGgy/zE2SWKSXSzZOIgKDMOt/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Выстрел в пустоту (2017)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKS7V4tUEhtCPP1/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Гладиатор (2000)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKSVTh5ZE0SItgR/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Глубоководный горизонт (2016)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/zE2SWKSwF0kKppnR313/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Гнев человеческий (2021)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/zE2SWKSTdbxHwzg2EH7/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Годзилла и Конг: Новая империя (2024)
+https://vod.plvideo.ru/JLxVTeJD/KIxJeP4QQ0/zE2SWKSsDNfqMj_8jWL/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Годзилла против Конга (2021)
+https://vod.plvideo.ru/FbZEopwh/KIxJeP4QQ0/zE2SWKSw2jaUe4Y_86s/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Голем (2016)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/5jktNnXC1SI41IpqUMc/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Денни - Цепной пёс (2005)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/zE2SWKSV-g4jvj1-dPd/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,День Курка (2019)
+https://vod.plvideo.ru/xdhKhqAx/EiKYJIFOyO/zE2SWKSElwtFdlNxGnr/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Джонни Мнемоник (1995)
+https://vod.plvideo.ru/xdhKhqAx/bTkXNvLx6U/zE2SWKSM-sIaXle1yXw/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Дневник Памяти (2004)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/zE2SWKS5eful0Zqg7qz/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Добыча (2022)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKS8pCFLeFzKQdW/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Довод (2020)
+https://vod.plvideo.ru/GMPb65uk/L5GCiHLZ8G/zE2SWKS9lMwWw0cM4tU/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Дракула (2014)
+https://vod.plvideo.ru/xdhKhqAx/uknUrzHzQA/zE2SWKSMES533v2RZKw/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Другой мир (2003)
+https://vod.plvideo.ru/GMPb65uk/L5GCiHLZ8G/5jktNnXFRcGgPJSrCQ4/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Другой мир 2 (2006)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/5jktNnXMuyh4O9JFYXg/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Дэдпул и Росомаха (2024)
+https://vod.plvideo.ru/JLxVTeJD/cXyXEGJ0A4/zE2SWKSiTfseW8bVdU8/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,ДЮНА: ЧАСТЬ ВТОРАЯ (2024)
+https://vod.plvideo.ru/FbZEopwh/KIxJeP4QQ0/zE2SWKS4SuPo9sWYs9W/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Дюна: Часть первая (2021)
+https://vod.plvideo.ru/xdhKhqAx/KIxJeP4QQ0/iyfN6I3VOl4Agl4VsGy/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Живая сталь (2011)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKSENA3ZaOeI5Of/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,За бортом (1987)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKSPvkNQopnbpZk/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,За пригоршню долларов (1964)
+https://vod.plvideo.ru/xdhKhqAx/uknUrzHzQA/zE2SWKSGmNib-8VvFmB/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Зависнуть в Палм-Спрингс (2020)
+https://vod.plvideo.ru/GMPb65uk/EiKYJIFOyO/zE2SWKSUKcHzOsvQnrk/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Завтрак у Тиффани (1961)
+https://vod.plvideo.ru/xdhKhqAx/L5GCiHLZ8G/zE2SWKSs1vWnXhw8jJF/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Заложница (2008)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/zE2SWKS_Pees8I5fQld/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Заложница (2008)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKS0EzlahoC_RG1/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Звёздные войны: Пробуждение силы (2015)
+https://vod.plvideo.ru/GMPb65uk/AZAevqJa5r/zE2SWKSmlZHEpB7PPt3/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Звёздные войны: Эпизод 1 – Скрытая угроза (HDR)(1999)
+https://vod.plvideo.ru/GMPb65uk/AZAevqJa5r/zE2SWKS62IZOMVZ-WLr/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Звёздные войны: Эпизод 2 – Атака клонов (HDR)(2002)
+https://vod.plvideo.ru/GMPb65uk/AZAevqJa5r/zE2SWKS2vAnzo-4ErOe/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Звёздные войны: Эпизод 3 – Месть ситхов (HDR)(2005)
+https://vod.plvideo.ru/FbZEopwh/AZAevqJa5r/zE2SWKSkCaKC-BA3IuK/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Звёздные войны: Эпизод 4 – Новая надежда (HDR)(1977)
+https://vod.plvideo.ru/FbZEopwh/AZAevqJa5r/zE2SWKS7RvHzAmGX_mR/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Звёздные войны: Эпизод 5 – Империя наносит ответный удар (HDR)(1980)
+https://vod.plvideo.ru/xdhKhqAx/AZAevqJa5r/zE2SWKSYMXDS1Xw6j2V/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Звёздные войны: Эпизод 6 – Возвращение Джедая (1983)
+https://vod.plvideo.ru/JLxVTeJD/AZAevqJa5r/YI8o3NtEi64V6cn172c/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Звездный десант (1997)
+https://vod.plvideo.ru/JLxVTeJD/AZAevqJa5r/zE2SWKSFGE_pWsaIxql/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Зеленая миля (1999)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKSiSXA4ndfjwKi/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Знакомьтесь Джо Блэк (1998)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSyNH0ayNPt0zQ/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Игра (1997)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSYhhWV6watVka/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Идентификация Борна (2002)
+https://vod.plvideo.ru/GMPb65uk/KIxJeP4QQ0/zE2SWKSUaG35yoGhP-s/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Интервью с вампиром (1994)
+https://vod.plvideo.ru/GMPb65uk/L5GCiHLZ8G/zE2SWKSQNAI9ul47bJ7/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Источник вечной молодости (HDR)(2025)
+https://vod.plvideo.ru/xdhKhqAx/bTkXNvLx6U/zE2SWKSD2KZhOtL3m_A/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Как приручить дракона (2025)
+https://vod.plvideo.ru/xdhKhqAx/L5GCiHLZ8G/zE2SWKSs8LvXTPtWTa-/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Как украсть миллион (1966)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/zE2SWKSqC_bU1b3M973/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Кикбоксёр (1989)
+https://vod.plvideo.ru/xdhKhqAx/L5GCiHLZ8G/zE2SWKSOaPsbB4EK0U4/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Константин: Повелитель тьмы 60 FPS (2005)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSbbt_iOoMTlsY/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Король говорит (2010)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKSXgSCFe1QgOHP/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Король лев (1994)
+https://vod.plvideo.ru/xdhKhqAx/L5GCiHLZ8G/zE2SWKSqpNEnaHXoKLj/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Король лев 2 (1998)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/zE2SWKSftZPcyo0TSOG/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Кровавый спорт (1988)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/zE2SWKSOs_l-9vEM-mq/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Лара Крофт Расхитительница Гробниц(HDR) (2001)
+https://vod.plvideo.ru/JLxVTeJD/bTkXNvLx6U/zE2SWKSN_IAUl02Bde4/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Лицо со шрамом (1983)
+https://vod.plvideo.ru/xdhKhqAx/L5GCiHLZ8G/zE2SWKSxe6gDKJQ-7P7/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Лучшие из лучших (1989)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKSNc0KpWuXr1qO/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Люди в чёрном 3 (2012)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKSyMxyBIZqj0NH/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Матрица (1999)
+https://vod.plvideo.ru/JLxVTeJD/EiKYJIFOyO/zE2SWKSBciPRIX89Msw/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Матрица: Перезагрузка (2003)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/zE2SWKSfzV0UkpeGjhW/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Матрица: Революция (2003)
+https://vod.plvideo.ru/xdhKhqAx/zaA4EcW22E/zE2SWKSaS4byTAheYJq/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Мег: Монстр глубины (2018)
+https://vod.plvideo.ru/GMPb65uk/L5GCiHLZ8G/zE2SWKSVBbcq1ri_vPj/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Мир Юрского периода: Господство (2022)
+https://vod.plvideo.ru/FbZEopwh/AZAevqJa5r/zE2SWKSJ1OMfyc_iY27/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Мстители (2012)
+https://vod.plvideo.ru/JLxVTeJD/KIxJeP4QQ0/zE2SWKSCbTJZOgtSa28/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Мстители: Война бесконечности (2018)
+https://vod.plvideo.ru/JLxVTeJD/KIxJeP4QQ0/zE2SWKSsbRyfLWUcWBP/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Мстители: Финал (2019)
+https://vod.plvideo.ru/GMPb65uk/KIxJeP4QQ0/zE2SWKSyvFWV-cEcnyf/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Мстители: Эра Альтрона (2015)
+https://vod.plvideo.ru/FbZEopwh/KIxJeP4QQ0/zE2SWKSpnTXHktNdQPP/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Мулен Руж (2001)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKSzZw9A0F0IoZW/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Мумия (1999)
+https://vod.plvideo.ru/xdhKhqAx/KIxJeP4QQ0/zE2SWKSUgs4tagydgkX/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,На гребне волны (1991)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSOETRlkKMSxLE/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Начало (2010)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSaX1tL8iIM3HJ/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Не пойман - не вор (2006)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSgjCWnaCZ1J4B/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Немыслимое (2010)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSJ3kF51j8vNRG/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Обитель зла (2002)
+https://vod.plvideo.ru/GMPb65uk/KIxJeP4QQ0/zE2SWKS8mHFImfrjmeK/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Обитель зла 2: Апокалипсис (2004)
+https://vod.plvideo.ru/JLxVTeJD/KIxJeP4QQ0/zE2SWKShWcovqCA2Il4/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Обитель зла 3 (2007)
+https://vod.plvideo.ru/FbZEopwh/KIxJeP4QQ0/zE2SWKSGehaUtInt2SN/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Обитель зла: Возмездие (2012)
+https://vod.plvideo.ru/JLxVTeJD/KIxJeP4QQ0/zE2SWKSaQLvbvL6rn2x/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Область тьмы (2011)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKSSs6VeeMxB284/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Обливион (2013)
+https://vod.plvideo.ru/GMPb65uk/L5GCiHLZ8G/zE2SWKSJWx9pQC6IfF0/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Один дома 2 (1990)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/zE2SWKScjRc2EFhHPlw/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Омерзительная восьмерка (2015)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKS452R7EHBnYv9/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Опустошение (2025)
+https://vod.plvideo.ru/FbZEopwh/cXyXEGJ0A4/zE2SWKSCv665aZH0xas/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Ослеплённый желаниями (2000)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKSgreECOezgph9/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,От заката до рассвета (1996)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/zE2SWKSjRoUPskdQ27l/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Отступники (2006)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/zE2SWKSAgVbNtBsqGkA/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Парк Юрского периода (1993)
+https://vod.plvideo.ru/FbZEopwh/AZAevqJa5r/zE2SWKSphhhIFYO7enQ/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Парк Юрского периода 2: Затерянный мир (1997)
+https://vod.plvideo.ru/JLxVTeJD/AZAevqJa5r/zE2SWKSFg_KAHjpuY7y/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Пароль Рыба-меч (2001)
+https://vod.plvideo.ru/JLxVTeJD/bTkXNvLx6U/zE2SWKSSv7hIsXU9kNp/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Пассажир 57 (1992)
+https://vod.plvideo.ru/xdhKhqAx/L5GCiHLZ8G/zE2SWKSHygqlCxt7Sgz/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Перелом (2007)
+https://vod.plvideo.ru/xdhKhqAx/zaA4EcW22E/zE2SWKSAV1AcBOWsn8x/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Пираты Карибского моря: Мертвецы не рассказывают сказки (2017)
+https://vod.plvideo.ru/GMPb65uk/L5GCiHLZ8G/zE2SWKSQpFdFKeSUJ2X/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Пираты Карибского моря: На краю света (2007)
+https://vod.plvideo.ru/xdhKhqAx/L5GCiHLZ8G/zE2SWKSA5BSXji0eNsp/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Пираты Карибского моря: На странных берегах (2011)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKSni9vz1WFhLFz/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Пираты Карибского моря: Проклятие Чёрной жемчужины (2003)
+https://vod.plvideo.ru/xdhKhqAx/L5GCiHLZ8G/zE2SWKSN6rHUvIL19HP/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Пираты Карибского моря: Сундук мертвеца (2006)
+https://vod.plvideo.ru/GMPb65uk/L5GCiHLZ8G/zE2SWKSM4zlVWRvKGaY/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Планета обезьян: Новое царство (2024)
+https://vod.plvideo.ru/JLxVTeJD/cXyXEGJ0A4/zE2SWKSwehMy1Sloz5f/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Побег из Шоушенка (1994)
+https://vod.plvideo.ru/GMPb65uk/L5GCiHLZ8G/zE2SWKSdg9SKB8R2WCZ/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Поезд в Пусан (2016)
+https://vod.plvideo.ru/JLxVTeJD/KIxJeP4QQ0/zE2SWKS07oiyXaqeM4I/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Поймай меня если сможешь (2002)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKSajpUsrSRfiPz/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Пока не сыграл в ящик (2007)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/zE2SWKS-YAmsd8Dh94E/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Послезавтра (HDR)(2004)
+https://vod.plvideo.ru/xdhKhqAx/cXyXEGJ0A4/zE2SWKSxib4b3T9slN7/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Поцелуй дракона (2001)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/5jktNnX-ZHDYtldt9KS/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Превосходство Борна (2004)
+https://vod.plvideo.ru/FbZEopwh/KIxJeP4QQ0/zE2SWKShQGODUCgHwWr/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Привидение (1990)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKSYTpj-1XlX0Yh/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Проект X: Дорвались (Расширенная версия) (2012)
+https://vod.plvideo.ru/JLxVTeJD/AZAevqJa5r/zE2SWKSGrzqHBtG7z_R/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Пункт назначения 2 (2003)
+https://vod.plvideo.ru/FbZEopwh/cXyXEGJ0A4/zE2SWKSmq2rmX9HZbuU/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Разоблачение (1994)
+https://vod.plvideo.ru/GMPb65uk/L5GCiHLZ8G/zE2SWKS9cyn-Gc3ofu-/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Рембо: Первая кровь (1982)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKS2Uzj1uUoCv3q/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Риддик (2013)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/zE2SWKSVcET80skMlEU/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,РОККИ (1976)
+https://vod.plvideo.ru/xdhKhqAx/KIxJeP4QQ0/zE2SWKS9e92eu9Y2gAG/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,РОККИ 2 (1979)
+https://vod.plvideo.ru/FbZEopwh/KIxJeP4QQ0/zE2SWKSScPutLTwHVnW/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,РОККИ 3 (1982)
+https://vod.plvideo.ru/xdhKhqAx/KIxJeP4QQ0/zE2SWKS1kgxPBnwloXU/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,РОККИ 4 (1985)
+https://vod.plvideo.ru/xdhKhqAx/KIxJeP4QQ0/zE2SWKSKifjcnNJvxEB/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,РОККИ 5 (1990)
+https://vod.plvideo.ru/GMPb65uk/KIxJeP4QQ0/zE2SWKSpeDQ1O33L5F5/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Рокки Бальбоа (2006)
+https://vod.plvideo.ru/FbZEopwh/KIxJeP4QQ0/zE2SWKSVf_6u_rXuKTK/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Рок-н-рольщик (2008)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/zE2SWKS_FTe8H4DsBQs/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Ромео должен умереть (2000)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKSkwc-9KfdxJpA/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Рэкетир (2007)
+https://vod.plvideo.ru/xdhKhqAx/AZAevqJa5r/zE2SWKSJnWXeSMKcZ_K/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Скала (1996)
+https://vod.plvideo.ru/JLxVTeJD/AZAevqJa5r/zE2SWKSSMBuNz-Uh3Ie/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Сквозь снег (2013)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/zE2SWKSokwcDsS9ZAwN/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Скорость (1994)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKS4Ory7A6w3u06/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Сломанная стрела (1996)
+https://vod.plvideo.ru/xdhKhqAx/bTkXNvLx6U/zE2SWKSjVHrTogfTT1u/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Смертельная битва (1995)
+https://vod.plvideo.ru/GMPb65uk/L5GCiHLZ8G/zE2SWKSBy43LEe5MGp0/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Смерть ей к лицу (1992)
+https://vod.plvideo.ru/xdhKhqAx/KIxJeP4QQ0/zE2SWKSsAXSNf5WETtp/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Сотовый (2004)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKSwbscpMTOAlCt/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Социальная сеть (2010)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSRvIWiyOfqzx3/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Стажёр (2015)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/zE2SWKSbpFhgD8kx6xn/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Судья Дредд (1995)
+https://vod.plvideo.ru/FbZEopwh/bTkXNvLx6U/zE2SWKSAxXBxskWbKZG/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Сфера (2017)
+https://vod.plvideo.ru/GMPb65uk/L5GCiHLZ8G/zE2SWKS8100T56D7j9P/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Схватка (1995)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSrpB_zlaYerV2/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Счастливое число Слевина (2006)
+https://vod.plvideo.ru/FbZEopwh/0GRdptsjAb/zE2SWKSAMobRAyXy7bk/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Такси (1998)
+https://vod.plvideo.ru/FbZEopwh/kfSkUj-sWy/zE2SWKSHw0z6WMgWK1c/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Такси 2 (2000)
+https://vod.plvideo.ru/xdhKhqAx/kfSkUj-sWy/zE2SWKSGaMXkeJU_NPb/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Такси 3 (2003)
+https://vod.plvideo.ru/FbZEopwh/kfSkUj-sWy/zE2SWKScUxMveDTTzuK/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Такси 4 (2007)
+https://vod.plvideo.ru/JLxVTeJD/kfSkUj-sWy/zE2SWKSjZnAtUL4Y5JT/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Терминатор 2: Судный день (1991)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKSH_0tB8c4E429/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Тихоокеанский рубеж (HDR)(2013)
+https://vod.plvideo.ru/JLxVTeJD/EiKYJIFOyO/zE2SWKS9knUxw5wBrlf/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Тихоокеанский рубеж 2 (2018)
+https://vod.plvideo.ru/xdhKhqAx/EiKYJIFOyO/zE2SWKS7aF7XBb8_BYs/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Топ Ган (1986)
+https://vod.plvideo.ru/JLxVTeJD/KIxJeP4QQ0/zE2SWKSndVG9WjwxBg6/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Топ Ган: Мэверик (2022)
+https://vod.plvideo.ru/GMPb65uk/KIxJeP4QQ0/zE2SWKSFCg1Aq0P2l_T/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Тренер Картер (2005)
+https://vod.plvideo.ru/GMPb65uk/AZAevqJa5r/zE2SWKSVsPnz2o1hECv/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Три дня на побег (2010)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKSS22BeXLJJlxX/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Тринадцать (2010)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKS9vndBE3jCxuJ/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Троя (2004)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKSZfX1fMVKLph_/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Трудная мишень (HDR)(1993)
+https://vod.plvideo.ru/xdhKhqAx/L5GCiHLZ8G/zE2SWKS8rO0Sfa2d1YG/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Убийца (2015)
+https://vod.plvideo.ru/FbZEopwh/0GRdptsjAb/zE2SWKSJ-k2r3Zg7ke_/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Ультиматум Борна (2007)
+https://vod.plvideo.ru/JLxVTeJD/KIxJeP4QQ0/zE2SWKSVYDuqvvs3Zpa/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Управление гневом (2003)
+https://vod.plvideo.ru/GMPb65uk/L5GCiHLZ8G/zE2SWKS5k2lG7hSm_dJ/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Ущелье (2025)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKSsMRyk2274i6K/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Форрест Гамп (1994)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/zE2SWKSibCibVfc3Fh0/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Форсаж (2001)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKS4YZUhfTLByke/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Хаос (2005)
+https://vod.plvideo.ru/GMPb65uk/L5GCiHLZ8G/zE2SWKSClCMlRPJOMom/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Хулиганы зеленой улицы (2005)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSlHCJoFxJpIVI/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Цыпочка (2002)
+https://vod.plvideo.ru/JLxVTeJD/KIxJeP4QQ0/zE2SWKS9J-OA9VhCsOj/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Час расплаты (2003)
+https://vod.plvideo.ru/GMPb65uk/L5GCiHLZ8G/zE2SWKSwQ3Vvw7VTlwL/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Чёрная дыра (2000)
+https://vod.plvideo.ru/FbZEopwh/cXyXEGJ0A4/zE2SWKS4LMwTZ5pt1vY/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Чужие (HDR)(1986)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKSqbogyre7EcQ_/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Чужой: Ромул (2024)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSjpl9odcxGS50/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Шакал (1997)
+https://vod.plvideo.ru/JLxVTeJD/L5GCiHLZ8G/zE2SWKS1PQQ_2zm7Gwi/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Шарада (1963)
+https://vod.plvideo.ru/xdhKhqAx/L5GCiHLZ8G/zE2SWKS_iEdhSTDPzHW/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Шпион (2015)
+https://vod.plvideo.ru/FbZEopwh/L5GCiHLZ8G/zE2SWKSTltILOGmX4O9/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Энни (2014)
+https://vod.plvideo.ru/FbZEopwh/KIxJeP4QQ0/zE2SWKSy2cUcJ38c8sd/ZX
+#EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://i.postimg.cc/FH6m8kSR/1.jpg" ,Эффект бабочки (2004)
+https://vod.plvideo.ru/FbZEopwh/EiKYJIFOyO/zE2SWKSO4wUdu0T8YYW/ZX
 #EXTINF:-1  group-title="Видеокассета"  tvg-logo="https://i.postimg.cc/W1V865z6/1.jpg" ,Голографический человек (Фантастика 1995)
 https://vod.plvideo.ru/FbZEopwh/bTkXNvLx6U/FP7MRNS697iSKKDrQrQ/ZX
 #EXTINF:-1  group-title="Видеокассета"  tvg-logo="https://i.postimg.cc/W1V865z6/1.jpg" ,Песочные часы (Триллер 1995)
@@ -10267,6 +10649,18 @@ https://7pal.short.gy/tntspts3
 http://178.134.1.158:8081/viasatsport/index.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="no_epg_sport"  tvg-logo="https://streamstak.com/billiardtv/wp-content/uploads/sites/2/2021/09/billiard-tv-thumbnail.jpg" , Billiard TV
 https://1621590671.rsc.cdn77.org/HLS/BILLIARDTV.m3u8
+#EXTINF:-1  group-title="Спортивные"  tvg-id="match-premier" ,Матч Премьер HD
+http://95.181.17.26/dvr01/hd1/NashFutHD/chunks.m3u8?&&wmsAuthSign=c2VydmVyX3RpbWU9OC8yNC8yMDI1IDc6MjA6MjQgQU0maGFzaF92YWx1ZT1KaGZ6NGVIaHhOd1hkakdHcmdWRTFBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
+#EXTINF:-1  group-title="Спортивные"  tvg-id="match-arena" ,Матч! Арена HD
+http://95.181.17.26/dvr02/hd1/sport1HD/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9OC8yNC8yMDI1IDc6MjA6MjQgQU0maGFzaF92YWx1ZT1KaGZ6NGVIaHhOd1hkakdHcmdWRTFBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
+#EXTINF:-1  group-title="Спортивные"  tvg-id="kxl" ,KHL
+http://arbiter.bolshoe.tv/?path=streaming/khl/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OC8yNC8yMDI1IDc6MjA6MjQgQU0maGFzaF92YWx1ZT1KaGZ6NGVIaHhOd1hkakdHcmdWRTFBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
+#EXTINF:-1  group-title="Спортивные"  tvg-id="kxl-hd" ,KHL Prime
+http://arbiter.bolshoe.tv/?path=abr2/khlHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OC8yNC8yMDI1IDc6MjA6MjQgQU0maGFzaF92YWx1ZT1KaGZ6NGVIaHhOd1hkakdHcmdWRTFBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
+#EXTINF:-1  group-title="Спортивные"  tvg-id="viasat-sport" ,Viasat Sport
+http://arbiter.bolshoe.tv/?path=streaming/viasat_sport/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OC8yNC8yMDI1IDc6MjA6MjQgQU0maGFzaF92YWx1ZT1KaGZ6NGVIaHhOd1hkakdHcmdWRTFBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
+#EXTINF:-1  group-title="Спортивные"  tvg-id="football-ru" ,Телеканал Футбол
+http://arbiter.bolshoe.tv/?path=abr1/futbol/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OC8yNC8yMDI1IDc6MjA6MjQgQU0maGFzaF92YWx1ZT1KaGZ6NGVIaHhOd1hkakdHcmdWRTFBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="bridge-tv-rock" , Bridge TV Rock
 http://178.212.71.253:8000/play/101/index.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="bridge-tv-shlager" , Bridge TV Шлягер
@@ -10430,159 +10824,159 @@ https://d2l4k8y57npunc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1  group-title="Релакс" , Underwater 4K
 https://dt9g97js2xsv9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rfve7l4mp37ko/SONOS45.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=US700012OU
 #EXTINF:-1  group-title="Релакс"  tvg-id="0x0-fireplace-hd"  tvg-logo="https://pic.rutube.ru/video/ec/3d/ec3d950ca1dbeac9c8017df68179aa35.jpg" , Камин
-https://river-1.rutube.ru/hls-vod/RYb00Xx7Ty8sCElarR_VHA/1755967311/3264/0x5000c500e9ebe935/8311ad94048f47808d4e72cc32aa7238.mp4.m3u8?i=3840x2160_6480
+https://river-1.rutube.ru/hls-vod/MrsPE_q8MrAQ4sxlPxjq_A/1756575895/3264/0x5000c500e9ebe935/8311ad94048f47808d4e72cc32aa7238.mp4.m3u8?i=3840x2160_6480
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2024-11-11/93/1c/931c2e26c7cf0c9cd46994dd45f5fdd0.jpg" , 4K Video ULTRA HD 60 FPS
-https://river-1.rutube.ru/hls-vod/MdclENLktE-WNlpJ8oEIEw/1755967312/2446/0x5000c500e883c25e/02951eadad024ba5bacf776269f05cf6.mp4.m3u8?i=3840x2160_22670
+https://river-1.rutube.ru/hls-vod/moH4rfWrFXENQHDb09KgYQ/1756575896/2446/0x5000c500e883c25e/02951eadad024ba5bacf776269f05cf6.mp4.m3u8?i=3840x2160_22670
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/78/e6/78e6107c83f9930a03e48fd0240859a1.jpg" , DOLBY VISION OLED Test Video (2024)
-https://river-1.rutube.ru/hls-vod/MA-Thq-QITVYPs2lu6lJJg/1755967313/2189/0x5000c500e65256bd/f23befa18842434085727d153a5e1ce9.mp4.m3u8?i=3840x2160_21172
+https://river-1.rutube.ru/hls-vod/6QPeIyljANEtC5BaijCu_Q/1756575897/2229/0x5000c500e74e9b81/f23befa18842434085727d153a5e1ce9.mp4.m3u8?i=3840x2160_21172
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/34/f6/34f6507b30ae4a747b11821304e6f1f0.jpg" , 4K ULTRA HD
-https://river-1.rutube.ru/hls-vod/EO3TtXPsZMCkvb7IJQ1piQ/1755967314/1816/0x5000c500c897aa45/8baceb688d3548c0a29a40f3980bceea.mp4.m3u8?i=3840x2160_24688
+https://river-1.rutube.ru/hls-vod/DArIRw8fjpeLXBFEbnT3OQ/1756575898/1816/0x5000c500c897aa45/8baceb688d3548c0a29a40f3980bceea.mp4.m3u8?i=3840x2160_24688
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/0d/56/0d56e874bcbea5a47faaf78fbd97c6e1.jpg" , COLORFUL WORLD ANIMALS - ANIMALS SOUNDS
-https://river-1.rutube.ru/hls-vod/FhkD3cBYIRS5JXO-boD79g/1755967315/2211/0x5000c500e72ad81b/44fa52380d5648fe8b8c49571feba70e.mp4.m3u8?i=3840x2160_22872
+https://river-1.rutube.ru/hls-vod/OMrREf2_7zrHwU4zT3LlUg/1756575899/2193/0x5000c500e74f9e90/44fa52380d5648fe8b8c49571feba70e.mp4.m3u8?i=3840x2160_22872
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/6b/dc/6bdc4cfedb4f634e840ac2f5c808022f.jpg" , 4K 60fps
-https://river-1.rutube.ru/hls-vod/wPv2-SYdngS2nXcm3gOAXw/1755967316/1786/0x5000c500c8a5aa7f/fc85c4ba867d442f8c3161a0ff3045fe.mp4.m3u8?i=3840x2160_20911
+https://river-1.rutube.ru/hls-vod/jAWpXT3mVYjO2tyKXWLQsw/1756575900/1786/0x5000c500c8a5aa7f/fc85c4ba867d442f8c3161a0ff3045fe.mp4.m3u8?i=3840x2160_20911
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/ec/62/ec62a116bb2e1320fbd89fb433eea909.jpg" , 4K 60fps COLORFUL WORLD - TRUE CINEMATIC
-https://river-1.rutube.ru/hls-vod/zKsjsKyXCrSUqnMDQ_hBTQ/1755967316/2199/0x5000c500e7189664/5b568af64882481c850fa2e1fe591cdd.mp4.m3u8?i=3840x2160_19199
+https://river-1.rutube.ru/hls-vod/o9G9YT4uCWHZVhD2GKOWJw/1756575901/2199/0x5000c500e7189664/5b568af64882481c850fa2e1fe591cdd.mp4.m3u8?i=3840x2160_19199
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/d8/14/d8145d9a9bbcd2c426c6ca2b3a5a7b87.jpg" , 4K Удивительные животные
-https://river-1.rutube.ru/hls-vod/zpTaDScqFSR2-t-Upr3n4A/1755967317/1772/0x5000c500db80bc6a/80e76c2d86c74a98a6d49b3d3f5abf97.mp4.m3u8?i=3840x2160_11616
+https://river-1.rutube.ru/hls-vod/S8qujOpry3EHS2RzDfQK_w/1756575902/1772/0x5000c500db80bc6a/80e76c2d86c74a98a6d49b3d3f5abf97.mp4.m3u8?i=3840x2160_11616
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/e4/e1/e4e1f5a94dc1ca569aeb2516c1c003bb.jpg" , Demo 4K
-https://river-1.rutube.ru/hls-vod/PYcTLXDAqmIPRrVlTvhyOQ/1755967319/2700/0x5000039ce86942bd/e2871e209eb74d2ca924c256233583d7.mp4.m3u8?i=3840x2160_29461
+https://river-1.rutube.ru/hls-vod/vbf_VLWPteHoWKE-B3uaVQ/1756575903/2700/0x5000039ce86942bd/e2871e209eb74d2ca924c256233583d7.mp4.m3u8?i=3840x2160_29461
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/39/b8/39b8682bf458aa9a88963f0de920b505.jpg" , THE MOST BEAUTIFUL 4K 60fps
-https://river-1.rutube.ru/hls-vod/l5puPART2dIFsZwmjMn9SQ/1755967320/2229/0x5000c500e658a29c/e7c39d45322d4f3c9e8ad0fdc9a9b1ff.mp4.m3u8?i=3840x2160_19712
+https://river-1.rutube.ru/hls-vod/k0w0BGEvAun_bVa1EzJJEA/1756575904/2229/0x5000c500e658a29c/e7c39d45322d4f3c9e8ad0fdc9a9b1ff.mp4.m3u8?i=3840x2160_19712
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/d0/e6/d0e61eaaf75c5de99cce846c6fc6d9ba.jpg" , Razer Sharp 60 fps 4K
-https://river-1.rutube.ru/hls-vod/7Oj2cIMaOTKRHyqb-P8UyA/1755967321/3280/0x5000c500fa776808/0e29af94ffe3489d83504c1f5a3d12fc.mp4.m3u8?i=3840x2160_14068
+https://river-1.rutube.ru/hls-vod/WBjgt-E0RFsRSyrdPcrrug/1756575906/3280/0x5000c500fa776808/0e29af94ffe3489d83504c1f5a3d12fc.mp4.m3u8?i=3840x2160_14068
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2024-09-29/28/29/2829eb8fb8255f87880c22269840dbd4.jpg" , 100 000 ЗАХВАТЫВАЮЩИХ ПЕЙЗАЖЕЙ
-https://river-1.rutube.ru/hls-vod/jBKBQ1N4-zMej7MI4hPDKw/1755967321/2391/0x5000c500f2b43337/d67559e76b5443bea16336bf56faf95f.mp4.m3u8?i=3840x2160_43614
+https://river-1.rutube.ru/hls-vod/bvBS44ssDppM9EsWzJ_pzA/1756575907/2401/0x5000c500f2b580cf/d67559e76b5443bea16336bf56faf95f.mp4.m3u8?i=3840x2160_43614
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/71/55/7155f0d06e9a06e5fa2201512ef5a21b.jpg" , World of Animals 4K
-https://river-1.rutube.ru/hls-vod/000_kFX4r_y4xFhU1H4U4g/1755967322/1788/0x5000c500c86146d5/cad2b76eaaa84797b8543b7cae4ac2f1.mp4.m3u8?i=3840x2160_26198
+https://river-1.rutube.ru/hls-vod/T3MpkM6G8DUj5FU9emOSgA/1756575908/1788/0x5000c500c86146d5/cad2b76eaaa84797b8543b7cae4ac2f1.mp4.m3u8?i=3840x2160_26198
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/61/19/6119d30ed9bd99327dfabed39633b97e.jpg" , РАЙСКИЕ МЕСТА НА ЗЕМЛЕ 4K 60fps
-https://river-1.rutube.ru/hls-vod/_QQhmyAZIkyRItZkrTXHVQ/1755967323/1822/0x5000c500c9978ccd/ce1ba50a90b24925a689493496d705d4.mp4.m3u8?i=3840x2160_12559
+https://river-1.rutube.ru/hls-vod/hl3gYoHqwa7iQCp8-5YDKg/1756575909/1822/0x5000c500c9978ccd/ce1ba50a90b24925a689493496d705d4.mp4.m3u8?i=3840x2160_12559
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/d9/e3/d9e35dc3b656decefb87bed06d3cc00f.jpg" , 4K HDR 60FPS Dolby Vision
-https://river-1.rutube.ru/hls-vod/shS4-BJdMo8MGxy01cOetA/1755967324/2211/0x5000c500e6995753/9db95b7858c347348a200119379788af.mp4.m3u8?i=3840x2160_21989
+https://river-1.rutube.ru/hls-vod/7CpjbJUMxPfA6xRoKk7GFw/1756575910/2211/0x5000c500e6995753/9db95b7858c347348a200119379788af.mp4.m3u8?i=3840x2160_21989
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/0b/90/0b904394c6e39bb08155fe4e5dfbc868.jpg" , Высококачественное видео
-https://river-1.rutube.ru/hls-vod/YFpoRzLnr8FvIMjYWGKpjg/1755967325/1790/0x5000c500db14be00/6f56967b122f447096b17b390a342bb9.mp4.m3u8?i=3840x2160_22125
+https://river-1.rutube.ru/hls-vod/drn3Nw0XQmyAl-BU0PyECQ/1756575911/1790/0x5000c500db14be00/6f56967b122f447096b17b390a342bb9.mp4.m3u8?i=3840x2160_22125
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/73/f5/73f5b3cfdc98158045f76038a018b75b.jpg" , PARADISE ON EARTH Best Travel
-https://river-1.rutube.ru/hls-vod/m85pMyXBYCI6yaqmUOF_LA/1755967326/2201/0x5000c5007446b38a/476aba05d6d94a1f8d799a4879737540.mp4.m3u8?i=3840x2160_32942
+https://river-1.rutube.ru/hls-vod/nVxEZuLUlFLKtwPBUsir2A/1756575912/2201/0x5000c5007446b38a/476aba05d6d94a1f8d799a4879737540.mp4.m3u8?i=3840x2160_32942
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/fe/10/fe10124b6dd01bbd556c4c9e0d096e8b.jpg" , FLYING OVER SEYCHELLES
-https://river-1.rutube.ru/hls-vod/jx6XEgkknQBRf9wZSt9e0Q/1755967327/2219/0x5000c500e83a7948/ec9d1eade8c746cca27743ab4f24e714.mp4.m3u8?i=3840x2160_13145
+https://river-1.rutube.ru/hls-vod/sXfglCTnPB4Ct_RpCkGKGA/1756575913/2596/0x5000039ce8400c99/ec9d1eade8c746cca27743ab4f24e714.mp4.m3u8?i=3840x2160_13145
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/04/bd/04bd807775ac8cef2b6b91c8563efc3a.jpg" , Невероятная Красота 4K
-https://river-1.rutube.ru/hls-vod/9dt0KlLetJLnIueENdwGgQ/1755967328/1766/0x5000c500e3493e2d/556a1a55f7d541ac9aecbe8f1378f025.mp4.m3u8?i=3840x2160_17089
+https://river-1.rutube.ru/hls-vod/Q8hE8rEm7DZjdDsA_JoWcA/1756575915/1766/0x5000c500e3493e2d/556a1a55f7d541ac9aecbe8f1378f025.mp4.m3u8?i=3840x2160_17089
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/06/6b/066be4b119e215d35bdbd80894090b2b.jpg" , Птицы 4K
-https://river-1.rutube.ru/hls-vod/-IDjHJfc35i6uYJY-zQXbw/1755967328/1788/0x5000c500c4278cfd/9b3049d858f744bb9212feff045bc341.mp4.m3u8?i=3840x2160_24383
+https://river-1.rutube.ru/hls-vod/WpPFhqcA28xXfwy4_PtQpg/1756575916/1788/0x5000c500c4278cfd/9b3049d858f744bb9212feff045bc341.mp4.m3u8?i=3840x2160_24383
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/08/d0/08d0485c5371f760f1f46986054dde80.jpg" , Breathtaking landscape 4K
-https://river-1.rutube.ru/hls-vod/UCXHm1QsFdd93DI3YgHR8Q/1755967329/1832/0x5000c500c922666b/abada6c634ff488db2e1b0dd9a2b9b3e.mp4.m3u8?i=3840x2160_24551
+https://river-1.rutube.ru/hls-vod/HVjUnA6HXb37ucrovVQdzg/1756575917/1832/0x5000c500c922666b/abada6c634ff488db2e1b0dd9a2b9b3e.mp4.m3u8?i=3840x2160_24551
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/10/17/1017237de47e769c39708710bb89d188.jpg" , Mind Blowing 4K
-https://river-1.rutube.ru/hls-vod/-9X_BNxMl0am7Cj-jwEC4A/1755967330/1766/0x5000c500e34c00f5/f677cdd74de344c7ad26a748f42e912f.mp4.m3u8?i=3840x2160_22813
+https://river-1.rutube.ru/hls-vod/hlPXe1I5g7N52vNCb1wcVg/1756575918/1766/0x5000c500e34c00f5/f677cdd74de344c7ad26a748f42e912f.mp4.m3u8?i=3840x2160_22813
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2024-09-29/1e/99/1e99ee863752854d4a29ee44a1dc2a16.jpg" , Швейцария Железная дорога Кур–Ароза
-https://river-1.rutube.ru/hls-vod/qY72wJqiK2bnsgyupwOprg/1755967331/2405/0x5000c500f2b8ea17/e95a64a11f52468fa5ea91ac552b1f5f.mp4.m3u8?i=3840x2160_74994
+https://river-1.rutube.ru/hls-vod/D1wIbU7mo55rTYu7UfcNSQ/1756575919/2405/0x5000c500f2b8ea17/e95a64a11f52468fa5ea91ac552b1f5f.mp4.m3u8?i=3840x2160_74994
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/66/ab/66ab4b28270aef4dcc7fec431ab8bb38.jpg" , Каттегат в 4К С Музыкой Викингов
-https://river-1.rutube.ru/hls-vod/jiNo1vmvLeS_nklk60G-Bg/1755967332/1842/0x5000cca2841edef0/2b992c6cdb9d4df1ab6935813e352b05.mp4.m3u8?i=3840x2160_16049
+https://river-1.rutube.ru/hls-vod/BXXLdwDDFs-P-eDaLTtoKQ/1756575920/1842/0x5000cca2841edef0/2b992c6cdb9d4df1ab6935813e352b05.mp4.m3u8?i=3840x2160_16049
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/d0/db/d0db857627ef06a159f2f42d90476a73.jpg" , Коста Рика 4K 60fps
-https://river-1.rutube.ru/hls-vod/Prgx3y1oFQ137hkMVBQCSQ/1755967333/1865/0x5000c500e537c2c8/ba01d890ec944bdcb082cffe9bbdf1b2.mp4.m3u8?i=3840x2160_27042
+https://river-1.rutube.ru/hls-vod/wdR88kCY4JjdgLyRIbFw5w/1756575921/1865/0x5000c500e537c2c8/ba01d890ec944bdcb082cffe9bbdf1b2.mp4.m3u8?i=3840x2160_27042
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/31/21/312151af4084655231da8e85a78d379a.jpg" , Пакистан в 4К
-https://river-1.rutube.ru/hls-vod/jtgUaKxFz59VcH5lGJe9aQ/1755967334/1891/0x5000c500e539c97b/d2deee2b1e68476daa2645ef36da01db.mp4.m3u8?i=3840x2160_16056
+https://river-1.rutube.ru/hls-vod/rs_Vmjxdmtqq4Y_fky2zdQ/1756575922/1796/0x5000c500c884be1b/d2deee2b1e68476daa2645ef36da01db.mp4.m3u8?i=3840x2160_16056
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/7d/e0/7de0c641a0e47a2fc645444ba8c1b114.jpg" , Аляска 4K 60fps
-https://river-1.rutube.ru/hls-vod/1xwhmJHPxrpDu3EERsbFFQ/1755967335/1879/0x5000c500e5356ed6/4b2f01657cbb48109f10291e30b69f10.mp4.m3u8?i=3840x2160_26582
+https://river-1.rutube.ru/hls-vod/PWWklzmcNx5u-Pd_n7DyZQ/1756575923/1879/0x5000c500e5356ed6/4b2f01657cbb48109f10291e30b69f10.mp4.m3u8?i=3840x2160_26582
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/0f/c5/0fc5980685a33c9259252135090c2a7a.jpg" , Антарктика В 4К
-https://river-1.rutube.ru/hls-vod/6GO9zcRFZdt2hmkkSb-riw/1755967336/1770/0x5000c500c8b71440/43d466c1d81b44f895cad3ca5ea028e9.mp4.m3u8?i=3840x2160_10515
+https://river-1.rutube.ru/hls-vod/d9XYCaOdiDQaFnFWVMtT6g/1756575924/1770/0x5000c500c8b71440/43d466c1d81b44f895cad3ca5ea028e9.mp4.m3u8?i=3840x2160_10515
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/32/0b/320b1080d4ee71d56a021c5d39dc4fd0.jpg" , Греция 4K
-https://river-1.rutube.ru/hls-vod/kucYzEY1BkaPa-2mtMi28w/1755967337/1776/0x5000c500c750a96f/47ee63aaebd54d10aa7f9b7c0dadfe83.mp4.m3u8?i=3840x2160_10503
+https://river-1.rutube.ru/hls-vod/kMa4dWK6O3w1Kg_82ML3hA/1756575925/1776/0x5000c500c750a96f/47ee63aaebd54d10aa7f9b7c0dadfe83.mp4.m3u8?i=3840x2160_10503
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/19/d5/19d547d9f665a02f80f31cacb2238e7c.jpg" , Италия 4K
-https://river-1.rutube.ru/hls-vod/5V7QsvCaaj6HO8bVrzhv-g/1755967338/2163/0x5000c500e679cd9f/de35e42315ee4c6ea18fb3eebf5a6443.mp4.m3u8?i=3840x2160_18643
+https://river-1.rutube.ru/hls-vod/eLSz1X7UR-lDWWeXZKdE_g/1756575926/2163/0x5000c500e679cd9f/de35e42315ee4c6ea18fb3eebf5a6443.mp4.m3u8?i=3840x2160_18643
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/a3/3a/a33a36b9be68bc6b4ad150808171b434.jpg" , Украина 4K
-https://river-1.rutube.ru/hls-vod/1W4l3DFdlcqXuNDJLpbt6g/1755967338/2401/0x5000c500f2b43677/10eb8a693e514290b6118b54126b871c.mp4.m3u8?i=3840x2160_21591
+https://river-1.rutube.ru/hls-vod/0umLdukaJmXEW-XetGXsqg/1756575927/2401/0x5000c500f2b43677/10eb8a693e514290b6118b54126b871c.mp4.m3u8?i=3840x2160_21591
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2024-11-06/9d/4d/9d4db32c1fccd887099050905e6ca7a2.jpg" , Ирландия 4K
-https://river-1.rutube.ru/hls-vod/qmIfWEvT7Zpe44P1BvsCQQ/1755967339/2177/0x5000c500e751a53f/fe17f50a2d944aa4a083d3f8354e39ce.mp4.m3u8?i=3840x2160_20567
+https://river-1.rutube.ru/hls-vod/9eI34ZmhxrzlG7xoieGnaQ/1756575928/2177/0x5000c500e751a53f/fe17f50a2d944aa4a083d3f8354e39ce.mp4.m3u8?i=3840x2160_20567
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/89/8c/898c76f0adc25c6f485396fbc5fa22fa.jpg" , Казахстан 4K
-https://river-1.rutube.ru/hls-vod/rLHEN6iKy9-R0pB3m89Itg/1755967340/1871/0x5000c500e8d21c37/fa6af8430d704326bdbcec67fd5c4730.mp4.m3u8?i=3840x2160_24931
+https://river-1.rutube.ru/hls-vod/CTBijJBb98aWGVxNawZcpw/1756575929/1871/0x5000c500e8d21c37/fa6af8430d704326bdbcec67fd5c4730.mp4.m3u8?i=3840x2160_24931
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2025-01-15/6e/b5/6eb5c51090f81936e9b71f491e77cf2a.jpg" , Камчатка 4K
-https://river-1.rutube.ru/hls-vod/WuQlyb0G5NxOWmqQhMtdlQ/1755967341/2464/0x5000c500e883f3df/afaaf25369594e2984734f9089fccfb3.mp4.m3u8?i=3840x2160_16810
+https://river-1.rutube.ru/hls-vod/ruLLZICXHUXtpK0I2rC17A/1756575930/2464/0x5000c500e883f3df/afaaf25369594e2984734f9089fccfb3.mp4.m3u8?i=3840x2160_16810
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2d/8a/2d8a8c907dbb73073599001bc8c9b4d8.jpg" , Венгрия 4K
-https://river-1.rutube.ru/hls-vod/AuZHAuSQLyFCUw7-hW3dwg/1755967342/2171/0x5000c500e6697c05/3f9e42dad9d04963aed33112f9487717.mp4.m3u8?i=3840x2160_27572
+https://river-1.rutube.ru/hls-vod/PAGsWu00yxyVPt3z_dzrsg/1756575931/2171/0x5000c500e6697c05/3f9e42dad9d04963aed33112f9487717.mp4.m3u8?i=3840x2160_27572
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2024-11-29/ae/c0/aec0da30c96e0bd6eb5ec073e7a2f036.jpg" , Чехия 4K
-https://river-1.rutube.ru/hls-vod/mpc2BhWR3dFZSQKbHgqrLQ/1755967343/3266/0x5000c500e9cf1f50/60cacd1f9a70459d98d0a2e82534eb1c.mp4.m3u8?i=3840x2160_21897
-#EXTINF:-1  group-title="Релакс"  tvg-id="match-football2"  tvg-logo="https://pic.rutube.ru/video/2024-11-29/1e/8c/1e8cc4315000c9ae63907a6d01350f77.jpg" , Румыния 4K
-https://river-1.rutube.ru/hls-vod/uPYW52-ca2v38mNHiwIfvQ/1755967345/2391/0x5000c500f2b4324f/bb4d97b834ef41d9a21f838ddaa2042f.mp4.m3u8?i=3840x2160_19748
-#EXTINF:-1  group-title="Релакс"  tvg-id="match-football3"  tvg-logo="https://pic.rutube.ru/video/2025-01-12/fe/a6/fea6b41f1c8ad248d14982a661552d77.jpg" , Грузия 4K
-https://river-1.rutube.ru/hls-vod/3pSTXcusghkQQvC30N4nfA/1755967346/2508/0x5000039ce8635539/a30d636080c5491aa3422713c2bf4340.mp4.m3u8?i=3840x2160_17848
-#EXTINF:-1  group-title="Релакс"  tvg-id="match-igra"  tvg-logo="https://pic.rutube.ru/video/2024-11-29/90/e1/90e191cb901b8961de586066649cd350.jpg" , Фарерские острова 4K
-https://river-1.rutube.ru/hls-vod/l07HPRlZD5naK7iNL_NweA/1755967347/2448/0x5000c500e877503a/22aa3c3907ec47a9b24974ee281ffa57.mp4.m3u8?i=3840x2160_20258
-#EXTINF:-1  group-title="Релакс"  tvg-id="match-boets"  tvg-logo="https://pic.rutube.ru/video/2024-11-28/fb/74/fb744c28b33c79356992f1786aaf2ea7.jpg" , Сардиния 4K
-https://river-1.rutube.ru/hls-vod/R8qCu8lbBW3sYKBpddO35w/1755967348/2458/0x5000c500e882bed1/b0dfe6bc61184140944648230879b872.mp4.m3u8?i=3840x2160_20073
-#EXTINF:-1  group-title="Релакс"  tvg-id="match-premier"  tvg-logo="https://pic.rutube.ru/video/2024-11-28/a4/57/a457ea5ab440ca9e7ce055a775fee5f5.jpg" , Арабские Эмираты 4K
-https://river-1.rutube.ru/hls-vod/cqY_MfbPD0xwIQJIP-GJuQ/1755967349/2448/0x5000c500e88411ea/abc58c2f89e64751bbf0f9859fd418c1.mp4.m3u8?i=3840x2160_14179
-#EXTINF:-1  group-title="Релакс"  tvg-id="match-arena"  tvg-logo="https://pic.rutube.ru/video/2024-11-26/59/2b/592b894cccb625aabb60742d9a9b3113.jpg" , Фиджи 4K
-https://river-1.rutube.ru/hls-vod/LcAzlGTTKaIljYBFmDqt2w/1755967350/2171/0x5000c500e66298bc/c882a44ad50844a798a90efd18e444e7.mp4.m3u8?i=3840x2160_20635
-#EXTINF:-1  group-title="Релакс"  tvg-id="kxl"  tvg-logo="https://pic.rutube.ru/video/2024-11-24/1a/fa/1afaefabdaa0b6180082adac8e6e2efb.jpg" , Австралия 4K
-https://river-1.rutube.ru/hls-vod/4frAxQlw97az1-BMkuNYcw/1755967351/2387/0x5000c500f2b8e423/111fcb7d90cf410eabd47a8b498d1470.mp4.m3u8?i=3840x2160_18384
-#EXTINF:-1  group-title="Релакс"  tvg-id="kxl-hd"  tvg-logo="https://pic.rutube.ru/video/2024-11-26/a7/a6/a7a6d6f4175f21e601515ee4a6cfcabf.jpg" , Чили: Остров Пасхи 4K
-https://river-1.rutube.ru/hls-vod/ikDLFC4-vVn1FTNiylHCqg/1755967352/2391/0x5000c500f2b8d177/a622c298c3154d8fadd819e487b39950.mp4.m3u8?i=3840x2160_22880
-#EXTINF:-1  group-title="Релакс"  tvg-id="viasat-sport"  tvg-logo="https://pic.rutube.ru/video/f2/0b/f20b8f54d768f10587229cd15d6bebc4.jpg" , Мексика 4K
-https://river-1.rutube.ru/hls-vod/K4-rKGhQbFM-OtjJgh-7Mw/1755967353/2173/0x5000c500e7526f25/f45c7734f1ba41468e7a193691612393.mp4.m3u8?i=3840x2160_12898
-#EXTINF:-1  group-title="Релакс"  tvg-id="football-ru"  tvg-logo="https://pic.rutube.ru/video/2024-11-24/ea/71/ea714d2edce2ec512ec1f9625241b333.jpg" , Египет 4K
-https://river-1.rutube.ru/hls-vod/wy6q2LHNWAW3PJL3pzwMTA/1755967354/2462/0x5000c500e882c1db/4b68d566a84a46dbaf6211134b7b6564.mp4.m3u8?i=3840x2160_17172
+https://river-1.rutube.ru/hls-vod/5UkUhD_3-PssYAc_YQ-hGg/1756575933/2405/0x5000c500f2b5382f/60cacd1f9a70459d98d0a2e82534eb1c.mp4.m3u8?i=3840x2160_21897
+#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2024-11-29/1e/8c/1e8cc4315000c9ae63907a6d01350f77.jpg" , Румыния 4K
+https://river-1.rutube.ru/hls-vod/9ZMnwuswdKvzfkzq8YPSIw/1756575934/2391/0x5000c500f2b4324f/bb4d97b834ef41d9a21f838ddaa2042f.mp4.m3u8?i=3840x2160_19748
+#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2025-01-12/fe/a6/fea6b41f1c8ad248d14982a661552d77.jpg" , Грузия 4K
+https://river-1.rutube.ru/hls-vod/OXjMWcdxg4W2oDk7R-otsQ/1756575935/2508/0x5000039ce8635539/a30d636080c5491aa3422713c2bf4340.mp4.m3u8?i=3840x2160_17848
+#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2024-11-29/90/e1/90e191cb901b8961de586066649cd350.jpg" , Фарерские острова 4K
+https://river-1.rutube.ru/hls-vod/TgVvVm4Sycej7CsuWAYDBA/1756575936/2448/0x5000c500e877503a/22aa3c3907ec47a9b24974ee281ffa57.mp4.m3u8?i=3840x2160_20258
+#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2024-11-28/fb/74/fb744c28b33c79356992f1786aaf2ea7.jpg" , Сардиния 4K
+https://river-1.rutube.ru/hls-vod/8k_nNiUWI4ReW2_BacFI0g/1756575937/2458/0x5000c500e882bed1/b0dfe6bc61184140944648230879b872.mp4.m3u8?i=3840x2160_20073
+#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2024-11-28/a4/57/a457ea5ab440ca9e7ce055a775fee5f5.jpg" , Арабские Эмираты 4K
+https://river-1.rutube.ru/hls-vod/FUyccObX5O8c_SVhR_TOmg/1756575938/2462/0x5000c500e882e2d1/abc58c2f89e64751bbf0f9859fd418c1.mp4.m3u8?i=3840x2160_14179
+#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2024-11-26/59/2b/592b894cccb625aabb60742d9a9b3113.jpg" , Фиджи 4K
+https://river-1.rutube.ru/hls-vod/Yj5zvlPMk0jz5R6QYuvUaw/1756575939/2171/0x5000c500e66298bc/c882a44ad50844a798a90efd18e444e7.mp4.m3u8?i=3840x2160_20635
+#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2024-11-24/1a/fa/1afaefabdaa0b6180082adac8e6e2efb.jpg" , Австралия 4K
+https://river-1.rutube.ru/hls-vod/ElWTAuR04DJKbWoN673aaw/1756575940/2387/0x5000c500f2b8e423/111fcb7d90cf410eabd47a8b498d1470.mp4.m3u8?i=3840x2160_18384
+#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2024-11-26/a7/a6/a7a6d6f4175f21e601515ee4a6cfcabf.jpg" , Чили: Остров Пасхи 4K
+https://river-1.rutube.ru/hls-vod/xkfjU02tk8g_EeOs2dRO2w/1756575941/2391/0x5000c500f2b8d177/a622c298c3154d8fadd819e487b39950.mp4.m3u8?i=3840x2160_22880
+#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/f2/0b/f20b8f54d768f10587229cd15d6bebc4.jpg" , Мексика 4K
+https://river-1.rutube.ru/hls-vod/w2k2A7de2acYeoiT-CUVQQ/1756575942/2173/0x5000c500e7526f25/f45c7734f1ba41468e7a193691612393.mp4.m3u8?i=3840x2160_12898
+#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2024-11-24/ea/71/ea714d2edce2ec512ec1f9625241b333.jpg" , Египет 4K
+https://river-1.rutube.ru/hls-vod/LBqmBQmetCYfKqTs2DcqoA/1756575943/2462/0x5000c500e882c1db/4b68d566a84a46dbaf6211134b7b6564.mp4.m3u8?i=3840x2160_17172
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2024-11-24/af/3d/af3d36495c374850f3c4ec5794985847.jpg" , Греция 4K
-https://river-1.rutube.ru/hls-vod/QvC-YagXMHXj4NdqJr0y7w/1755967355/2464/0x5000c500e883d9e7/9580ad35a8cb4a57989d88cbe8cde4a5.mp4.m3u8?i=3840x2160_17590
+https://river-1.rutube.ru/hls-vod/ZZAn302kS_XFyxeyOIxGLA/1756575944/2464/0x5000c500e883d9e7/9580ad35a8cb4a57989d88cbe8cde4a5.mp4.m3u8?i=3840x2160_17590
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2025-02-04/08/3f/083fbbc3700afb477d888c2c542f67b1.jpg" , Гватемала 4K
-https://river-1.rutube.ru/hls-vod/mZhYhTlyQilbZkvfzJ-dPw/1755967356/2508/0x5000039ce8635b1d/3a373a9132d64a749df8c5fecfde1c18.mp4.m3u8?i=3840x2160_16954
+https://river-1.rutube.ru/hls-vod/tTWTi1NPhdJNg7FzF65tGw/1756575945/2508/0x5000039ce8635b1d/3a373a9132d64a749df8c5fecfde1c18.mp4.m3u8?i=3840x2160_16954
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2024-11-25/58/f5/58f5e23c31bd842373baf0acef107819.jpg" , Молдова 4K
-https://river-1.rutube.ru/hls-vod/9y39RbotKpwSp2Jif3duhg/1755967357/2207/0x5000c5007446425f/313be372eee6431fa282c70f46b9fe1e.mp4.m3u8?i=3840x2160_17436
+https://river-1.rutube.ru/hls-vod/hmNS8j76NoZ90ZwI8OTJwQ/1756575946/2207/0x5000c5007446425f/313be372eee6431fa282c70f46b9fe1e.mp4.m3u8?i=3840x2160_17436
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/3c/e3/3ce3c4358d71c935124cac5d2e11e79a.jpg" , Природа Аргентины 4K
-https://river-1.rutube.ru/hls-vod/V9nrS2Ti2CAn76FrkYtRYQ/1755967358/1780/0x5000c500db164266/c52a030a1c2044ffa66f78445eefa6ce.mp4.m3u8?i=3840x2160_21330
+https://river-1.rutube.ru/hls-vod/2SvnmSZ9_H8jMSvJdeGnDQ/1756575948/1780/0x5000c500db164266/c52a030a1c2044ffa66f78445eefa6ce.mp4.m3u8?i=3840x2160_21330
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2024-11-26/4e/15/4e15955f338e9fcfd1167c9feed9c052.jpg" , Гималаи 4K
-https://river-1.rutube.ru/hls-vod/dW-5173dkJTajb6rYMw5Qw/1755967361/2476/0x5000c500e8838463/1e65750016234b70bb6ee6055b790430.mp4.m3u8?i=3840x2160_17673
+https://river-1.rutube.ru/hls-vod/er6Wy62zFJd3MZWWU6yhGw/1756575949/2476/0x5000c500e8838463/1e65750016234b70bb6ee6055b790430.mp4.m3u8?i=3840x2160_17673
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/db/6e/db6e169d750caa2591c5e1c4ba4c732c.jpg" , Москва 4K
-https://river-1.rutube.ru/hls-vod/EYzrf2uUFQ0-I-QVOmdm9A/1755967364/1766/0x5000c500e34d8ba1/cf49bab452b0423e94330844a86f95d6.mp4.m3u8?i=3840x2024_25835
+https://river-1.rutube.ru/hls-vod/wRD5-wJ3Gqea2eq9yPoYpQ/1756575950/1766/0x5000c500e34d8ba1/cf49bab452b0423e94330844a86f95d6.mp4.m3u8?i=3840x2024_25835
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2025-03-09/86/9f/869f4ee057924413cf40143f4aefd766.jpg" , Ливия 4K
-https://river-1.rutube.ru/hls-vod/OWbO85fLXZSOm71XG5T5hw/1755967365/2552/0x5000039ce83385c1/5c3746f865e047fb86c316dd0ac053e1.mp4.m3u8?i=3840x2160_11659
+https://river-1.rutube.ru/hls-vod/dx6SVy1nRXTH_DueX1nk3Q/1756575951/2502/0x5000039ce8703b05/5c3746f865e047fb86c316dd0ac053e1.mp4.m3u8?i=3840x2160_11659
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2025-02-09/c3/4e/c34e7e095b3c96b405148a6686b86edb.jpg" , Киргизстан 4K
-https://river-1.rutube.ru/hls-vod/EP4M6GI8NCgd1M0LR018OA/1755967368/2508/0x5000039ce8686cb5/184bf36f277c4a70b7d2729b544353b4.mp4.m3u8?i=3840x2160_19422
+https://river-1.rutube.ru/hls-vod/RoXKo4XByoWYoy73DcDsKw/1756575952/2592/0x5000039ce869a88d/184bf36f277c4a70b7d2729b544353b4.mp4.m3u8?i=3840x2160_19422
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2025-01-02/a0/35/a0357779a326f76f03311d5064a752bf.jpg" , Узбекистан 4K
-https://river-1.rutube.ru/hls-vod/kDxCU75ufv2Ri_sTZ07oHA/1755967369/2612/0x5000039ce868ab25/22c69726f20b43069bf4793004fa3c27.mp4.m3u8?i=3840x2160_21010
+https://river-1.rutube.ru/hls-vod/FA-Z25QFCIP6udzgCM6RIQ/1756575953/2612/0x5000039ce868ab25/22c69726f20b43069bf4793004fa3c27.mp4.m3u8?i=3840x2160_21010
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2025-02-26/eb/db/ebdb900076c03be283ae82873d52c589.jpg" , Эквадор 4K
-https://river-1.rutube.ru/hls-vod/zOomC6-h-ox1En1rA08e0g/1755967370/2564/0x5000039ce84025f5/247fa9a63c5041f0976a98ee16e29fa9.mp4.m3u8?i=3840x2160_16246
+https://river-1.rutube.ru/hls-vod/HMOiRYeXRdp7GJl1eJvgzA/1756575954/2564/0x5000039ce84025f5/247fa9a63c5041f0976a98ee16e29fa9.mp4.m3u8?i=3840x2160_16246
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/87/0e/870e1a12792d3f8cf8aa189898c0e482.jpg" , Турция в 4K
-https://river-1.rutube.ru/hls-vod/RE63rDyvuQ60saiBtEn_Uw/1755967371/1798/0x5000c500e3d50955/1295d7750d224feba3eede8e73f16f7a.mp4.m3u8?i=3840x2160_25103
+https://river-1.rutube.ru/hls-vod/zusK0gVfW4iSfOx_QmpnEQ/1756575956/1848/0x5000cca2842313e4/1295d7750d224feba3eede8e73f16f7a.mp4.m3u8?i=3840x2160_25103
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/74/6d/746d5d1ba9c1c3a1259d166b73dec7a9.jpg" , Вьетнам в 4K
-https://river-1.rutube.ru/hls-vod/ZwvWb51znJHrJkQw-AQKnQ/1755967372/2161/0x5000c500e72baa8b/18ad4a3a69134dacb378d14d66138be8.mp4.m3u8?i=3840x2160_38998
+https://river-1.rutube.ru/hls-vod/KrANMrE7lTdJOJ1FuQth7g/1756575957/2409/0x5000c500f2b53d9f/18ad4a3a69134dacb378d14d66138be8.mp4.m3u8?i=3840x2160_38998
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/2024-11-26/15/53/15532340cc15ab3f3bf363f040896708.jpg" , Индия в 4K
-https://river-1.rutube.ru/hls-vod/nP1tJEt2LiMKZowOOIG3CA/1755967373/2470/0x5000c500e8833a16/808e39c40aea4025b53859152d3c3022.mp4.m3u8?i=3840x2160_18644
+https://river-1.rutube.ru/hls-vod/ii6qReevbFdSeDchuK10lA/1756575958/2470/0x5000c500e8833a16/808e39c40aea4025b53859152d3c3022.mp4.m3u8?i=3840x2160_18644
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/b3/3d/b33db6df61ad9fc77e54f98f03d8fc9d.jpg" , Манила в 4K
-https://river-1.rutube.ru/hls-vod/D7bFEQArlCwAafM1-_jaKQ/1755967374/1776/0x5000c500d6d906ed/c541fdacbbda415fb50a782ad5d1fcf9.mp4.m3u8?i=3840x2160_20784
+https://river-1.rutube.ru/hls-vod/5AomSSDd6R1_55DkaXznBw/1756575960/1776/0x5000c500d6d906ed/c541fdacbbda415fb50a782ad5d1fcf9.mp4.m3u8?i=3840x2160_20784
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/a7/13/a7139249b7fe0bf2b2ddffbbaba6a913.jpg" , Болгария 4K
-https://river-1.rutube.ru/hls-vod/O5kv48to6PxAwQ9lQbC_nw/1755967375/1895/0x5000c500e53979ec/b527c6a1a6084c1ba9202bb8b607f90d.mp4.m3u8?i=3840x2160_25379
+https://river-1.rutube.ru/hls-vod/MmlYiOm07DPB4RAt8GMr5A/1756575961/1895/0x5000c500e53979ec/b527c6a1a6084c1ba9202bb8b607f90d.mp4.m3u8?i=3840x2160_25379
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/5a/89/5a894e03615d859ca15497ca636e79e2.jpg" , Перу 4K 60fps
-https://river-1.rutube.ru/hls-vod/d-BdMoXMqtGlvOPPGcHS5w/1755967376/1875/0x5000c500e53957cd/30b0c3590b9e4880a6a00ac6fea26165.mp4.m3u8?i=3840x2160_26231
+https://river-1.rutube.ru/hls-vod/YseBP_CeZYsmDwrvccqPIw/1756575962/1875/0x5000c500e53957cd/30b0c3590b9e4880a6a00ac6fea26165.mp4.m3u8?i=3840x2160_26231
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/ec/6e/ec6eb7f0891bcf8f4ad9699fcfbdb205.jpg" , Кения В 4К
-https://river-1.rutube.ru/hls-vod/lNTCJu2S5e08GsIaXNIgOw/1755967377/1816/0x5000c500c91c4b8c/378db7d4f4ad4aafbb4535e9125ce221.mp4.m3u8?i=3840x2160_15323
+https://river-1.rutube.ru/hls-vod/rL_nKdYtYNli2-kfYo_N5g/1756575963/1816/0x5000c500c91c4b8c/378db7d4f4ad4aafbb4535e9125ce221.mp4.m3u8?i=3840x2160_15323
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/bf/63/bf63ccc22cd2bacdefb8b27571dff50b.jpg" , Бора-Бора в 4К
-https://river-1.rutube.ru/hls-vod/qxG8MnQEFGzy0LswP2aTFw/1755967378/1873/0x5000c500e539127b/2421863b9a0e4c9ea67de9fe0855f530.mp4.m3u8?i=3840x2160_17254
+https://river-1.rutube.ru/hls-vod/BKYgD1NDvtc-zXoS1Q-dMg/1756575964/1873/0x5000c500e539127b/2421863b9a0e4c9ea67de9fe0855f530.mp4.m3u8?i=3840x2160_17254
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/29/31/29318086e00da1c865da25131f866d4f.jpg" , Карибы в 4К
-https://river-1.rutube.ru/hls-vod/UJImySdC2t29EM4IhXuKzg/1755967379/1772/0x5000c500d6d78c87/c002696df2d3474e95bf422d74a10427.mp4.m3u8?i=3840x2160_11480
+https://river-1.rutube.ru/hls-vod/vEJctuG66S5eCVcnD_ygaw/1756575965/1772/0x5000c500d6d78c87/c002696df2d3474e95bf422d74a10427.mp4.m3u8?i=3840x2160_11480
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/51/f3/51f330a0fe798c746cda323431220662.jpg" , Намибия в 4К
-https://river-1.rutube.ru/hls-vod/HNohjvn7_uV0sESoyTmYqA/1755967379/1764/0x5000c500e34cbd12/881a26935b1f4adb927b518c0b77d489.mp4.m3u8?i=3840x2160_11828
+https://river-1.rutube.ru/hls-vod/B2cX9x7eRbb42fbRMDFs-A/1756575966/1764/0x5000c500e34cbd12/881a26935b1f4adb927b518c0b77d489.mp4.m3u8?i=3840x2160_11828
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/b7/fc/b7fc29123ab95b0ad408e42280ad1b71.jpg" , Китай В 4К
-https://river-1.rutube.ru/hls-vod/-4Z7fkCut5u5ixfv4JRYMw/1755967380/1863/0x5000c500e538cbf2/c978b1e2beaa4b8f92c50918c7ecc933.mp4.m3u8?i=3840x2160_12530
+https://river-1.rutube.ru/hls-vod/R6zzWzi8i6UPJQL8lvkOnw/1756575967/1863/0x5000c500e538cbf2/c978b1e2beaa4b8f92c50918c7ecc933.mp4.m3u8?i=3840x2160_12530
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/72/6a/726a9243184bbfe47c42763b374a1f25.jpg" , Мальдивы в 4К
-https://river-1.rutube.ru/hls-vod/6noGq6gHGbNZjbkD-VkeGA/1755967381/1848/0x5000cca28420b4e4/344cdc5a75cd406a9c81daa62c025492.mp4.m3u8?i=3840x2160_23873
+https://river-1.rutube.ru/hls-vod/CPHSTolH01k17OgTx6orow/1756575968/1848/0x5000cca28420b4e4/344cdc5a75cd406a9c81daa62c025492.mp4.m3u8?i=3840x2160_23873
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/5e/5a/5e5a9cb6a10424f8ede9adc9848680c8.jpg" , Дубай в 4K
-https://river-1.rutube.ru/hls-vod/OOkSDIj4GDCWGxNuVvJxZQ/1755967383/2462/0x5000c500e8828a7e/63d24580fb304a30a0daa941446ffe7d.mp4.m3u8?i=3840x2160_23768
+https://river-1.rutube.ru/hls-vod/HAwDnnMLfR7-f-GVBrTS2Q/1756575969/2462/0x5000c500e8828a7e/63d24580fb304a30a0daa941446ffe7d.mp4.m3u8?i=3840x2160_23768
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/14/98/14988617a7aed21381889ab5ceb7b1d9.jpg" , Германия в 4K
-https://river-1.rutube.ru/hls-vod/BWIgUMi2GSw7j_brHtPdpw/1755967384/1776/0x5000c500c92079c7/b46cf235dbb14ddcbabe81d4f63a9fd4.mp4.m3u8?i=3840x2160_9532
+https://river-1.rutube.ru/hls-vod/tUEkPCGtxHtQwcO56_aK4A/1756575969/1776/0x5000c500c92079c7/b46cf235dbb14ddcbabe81d4f63a9fd4.mp4.m3u8?i=3840x2160_9532
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/1d/b4/1db4116552339ca6a936c366f7582b38.jpg" , Россия В 4К
-https://river-1.rutube.ru/hls-vod/dDFlJLad-Ye-kkArysFLCA/1755967400/1776/0x5000c500c3920f7f/9195d28dad90489aac2cb7c6dd6725aa.mp4.m3u8?i=3840x2160_15878
+https://river-1.rutube.ru/hls-vod/7IFWtKgdsKs4LQDs8ufqKw/1756575970/1776/0x5000c500c3920f7f/9195d28dad90489aac2cb7c6dd6725aa.mp4.m3u8?i=3840x2160_15878
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/7b/88/7b881e1b446bd5519251f5a89b197144.jpg" , Подводный Мир В 4К
-https://river-1.rutube.ru/hls-vod/15v2Y08IMnyt5XllQw4LZw/1755967401/1877/0x5000c500e53bc570/8a19e5ed6a9840349280d2cba180870a.mp4.m3u8?i=3840x2160_16302
+https://river-1.rutube.ru/hls-vod/tKZT6VLtWwl_IAuF6cQY3A/1756575971/1877/0x5000c500e53bc570/8a19e5ed6a9840349280d2cba180870a.mp4.m3u8?i=3840x2160_16302
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/c7/4c/c74ce2aa0d060a142070e9724fde3bef.jpg" , Детеныши Животных В 4К
-https://river-1.rutube.ru/hls-vod/lBuAo44laTuIlUAi-08WBg/1755967402/1865/0x5000c500e53951e2/5481e2c1a8e5473c804cfbc908dd7899.mp4.m3u8?i=3840x2160_15516
+https://river-1.rutube.ru/hls-vod/Ln-tT14rki6QSC29NnFskg/1756575973/1865/0x5000c500e53951e2/5481e2c1a8e5473c804cfbc908dd7899.mp4.m3u8?i=3840x2160_15516
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/10/9e/109e637b8250d8471f1c1b6fd7d8e290.jpg" , Животные Австралии В 4К
-https://river-1.rutube.ru/hls-vod/GUE9_dhSKALROULSOTCEhw/1755967403/1877/0x5000c500e539cbb9/bec395a0100c42a1b52bec53605116a4.mp4.m3u8?i=3840x2160_16020
+https://river-1.rutube.ru/hls-vod/MCY_AzXVRMU32jQjAwogFw/1756575974/1877/0x5000c500e539cbb9/bec395a0100c42a1b52bec53605116a4.mp4.m3u8?i=3840x2160_16020
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/91/3e/913e20d0e2711442e9b835ade3a86737.jpg" , Повседневные Вещи В Макро Съемке
-https://river-1.rutube.ru/hls-vod/mLLMfc2Lk9fj4ZpkiguY8w/1755967404/1790/0x5000c500d6c05d87/7ea3d827b7234257abffc94e1cce193e.mp4.m3u8?i=3840x2160_11802
+https://river-1.rutube.ru/hls-vod/AE9ehauia3xoxJUaK6PAIg/1756575975/1790/0x5000c500d6c05d87/7ea3d827b7234257abffc94e1cce193e.mp4.m3u8?i=3840x2160_11802
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/ce/01/ce01d4f2b1984d8dc9468e192f5816e9.jpg" , Океан В 4К Релакс
-https://river-1.rutube.ru/hls-vod/ZwvJRVDTekwWi4kDNmGXcg/1755967405/1788/0x5000c500c939412d/954d4f0b6c9640eea3b9d0daff375899.mp4.m3u8?i=3840x2160_12765
+https://river-1.rutube.ru/hls-vod/zp-uYZnQc4hTxPfZ1UCHpA/1756575975/1788/0x5000c500c939412d/954d4f0b6c9640eea3b9d0daff375899.mp4.m3u8?i=3840x2160_12765
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rutube.ru/video/8a/8f/8a8fb71bed7423746a80654fc5ba541e.jpg" , Лес В 4К
-https://river-1.rutube.ru/hls-vod/1nXSQcQl5WfhOFreyHrz1A/1755967405/1846/0x5000c500db17284f/3a14e22cc0b24da0b4c9994cfbbfff0a.mp4.m3u8?i=3840x2160_15561
+https://river-1.rutube.ru/hls-vod/yu-gTQHzmKw9fIMP4pLSbQ/1756575977/1846/0x5000c500c921884f/3a14e22cc0b24da0b4c9994cfbbfff0a.mp4.m3u8?i=3840x2160_15561
 #EXTINF:-1  group-title="Региональные"  tvg-id="reportior-73"  tvg-logo="https://app.playlistbox.com/icon/l5gOW7dpJq9LRZAX9lMEkNQX2Bn6V1bA.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Репортер 73", Репортер 73
 http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_REP73/variant.m3u8
 #EXTINF:-1  group-title="Региональные"  tvg-id="rifey-tv"  tvg-logo="http://fe-ural.svc.iptv.rt.ru/images/broadcastChannel1531138277952.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Рифей-ТВ", Рифей-ТВ
