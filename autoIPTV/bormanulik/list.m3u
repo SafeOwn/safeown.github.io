@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 10.09.25 
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 11.09.25 
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy" ,Первый канал HD
 https://live-mirror-01.ott.tricolor.tv/live/live/1TV_hd/hls_enc/1TV_hd.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc1ODA3NDQyNywiaHdpZCI6IjhkMjA0NWE1N2E3NjVkYzUyMjVmYzJkZmRlNWY0NzViMDA0NzU0MmFlZDhjMWEyNGNlY2YzODNkY2ZjYmY2MjYiLCJsYXN0X3JlcV9kYXRlIjoxNzU3NDY5NjI3LCJzZXNzaW9uX2lkIjoiZDlmZTgxOTFmYTFjMjQ4ZjUzN2ViNjVlOWE0M2ZjOGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.g1L-cwTkjltXHyAVVKPyFgLG7fmTOOKtj33WrsSL8hE
@@ -131,8 +131,6 @@ https://stream-msk-06.ott.tricolor.tv:443/dtv/id615_MSKSG-PVR-1--Zagorodniy_int_
 http://vs6.cdn.mrf.tvime.ru/Animal_Planet_CEE_HD/video.m3u8?token=billing_w7zMwxDfeEzh!BOw3c3IduQe&21yo=0
 #EXTINF:-1  group-title="Познавательные"  tvg-id="365-dnej" , 365 дней
 http://185.46.16.239:8000/Paramount_Comedy
-#EXTINF:-1  group-title="Познавательные"  tvg-id="kto-est-kto" , Кто есть кто
-http://158.101.222.193:88/georgia_play.php?id=ktoestkto
 #EXTINF:-1  group-title="Познавательные"  tvg-id="sovsek" ,Совершенно секретно
 http://stream-msk-03.ott.tricolor.tv/dtv/id698_MSKSG-PVR-1--Top_secret/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc1ODA3NDQyNywiaHdpZCI6IjhkMjA0NWE1N2E3NjVkYzUyMjVmYzJkZmRlNWY0NzViMDA0NzU0MmFlZDhjMWEyNGNlY2YzODNkY2ZjYmY2MjYiLCJsYXN0X3JlcV9kYXRlIjoxNzU3NDY5NjI3LCJzZXNzaW9uX2lkIjoiZDlmZTgxOTFmYTFjMjQ4ZjUzN2ViNjVlOWE0M2ZjOGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.g1L-cwTkjltXHyAVVKPyFgLG7fmTOOKtj33WrsSL8hE
 #EXTINF:-1  group-title="Познавательные"  tvg-id="rtg-tv" ,RTG TV
@@ -165,8 +163,6 @@ https://stream-msk-14.ott.tricolor.tv/dtv/id926_MSKSG-PVR-1--LapkiLive/04/plst.m
 https://stream-msk-04.ott.tricolor.tv:443/dtv/id154_MSKSG-PVR-1--Telepyt/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc1ODA3NDQyNywiaHdpZCI6IjhkMjA0NWE1N2E3NjVkYzUyMjVmYzJkZmRlNWY0NzViMDA0NzU0MmFlZDhjMWEyNGNlY2YzODNkY2ZjYmY2MjYiLCJsYXN0X3JlcV9kYXRlIjoxNzU3NDY5NjI3LCJzZXNzaW9uX2lkIjoiZDlmZTgxOTFmYTFjMjQ4ZjUzN2ViNjVlOWE0M2ZjOGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.g1L-cwTkjltXHyAVVKPyFgLG7fmTOOKtj33WrsSL8hE
 #EXTINF:-1  group-title="Познавательные"  tvg-id="travel-adventure" , Travel+Adventure
 https://live-mirror-19.ott.tricolor.tv/dtv/id1019_MSKSG-PVR-1--TravelplusAdventure_HD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc1ODA3NDQyNywiaHdpZCI6IjhkMjA0NWE1N2E3NjVkYzUyMjVmYzJkZmRlNWY0NzViMDA0NzU0MmFlZDhjMWEyNGNlY2YzODNkY2ZjYmY2MjYiLCJsYXN0X3JlcV9kYXRlIjoxNzU3NDY5NjI3LCJzZXNzaW9uX2lkIjoiZDlmZTgxOTFmYTFjMjQ4ZjUzN2ViNjVlOWE0M2ZjOGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.g1L-cwTkjltXHyAVVKPyFgLG7fmTOOKtj33WrsSL8hE
-#EXTINF:-1  group-title="Познавательные"  tvg-id="hd-life" ,Точка.РФ
-http://158.101.222.193:88/georgia_play.php?id=hdlife
 #EXTINF:-1  group-title="Познавательные"  tvg-id="zhivaya-planeta" ,Живая Планета
 https://stream-msk-05.ott.tricolor.tv:443/dtv/id267_MSKSG-PVR-1--Zhivaya_Planeta/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc1ODA3NDQyNywiaHdpZCI6IjhkMjA0NWE1N2E3NjVkYzUyMjVmYzJkZmRlNWY0NzViMDA0NzU0MmFlZDhjMWEyNGNlY2YzODNkY2ZjYmY2MjYiLCJsYXN0X3JlcV9kYXRlIjoxNzU3NDY5NjI3LCJzZXNzaW9uX2lkIjoiZDlmZTgxOTFmYTFjMjQ4ZjUzN2ViNjVlOWE0M2ZjOGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.g1L-cwTkjltXHyAVVKPyFgLG7fmTOOKtj33WrsSL8hE
 #EXTINF:-1  group-title="Познавательные"  tvg-id="istoria" ,История
@@ -295,8 +291,6 @@ https://streaming101.goodstream.cyou/live/43-req_offset_28000000-req_window_0-1k
 http://origin5.mediacdn.ru/live/prodvizhenie_new/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="prosveschenie" , Просвещение 
 https://cdn-01.bonus-tv.ru/prosveschenie_edge/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="docubox-hd" , DocuBox HD
-http://85.117.61.97:8000/play/a01h/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="avto-plus" , Авто Плюс 
 http://31.148.48.15/Avto_Plus/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="konny-mir" , Конный мир 
@@ -307,16 +301,8 @@ http://31.148.48.15/Eda_Premium_HD/index.m3u8
 http://tvip.btk.teleos.ru:8081/chid514/index.m3u8
 #EXTINF:-1  group-title="Познавательные" , Fashion&LifeStyle HD
 http://31.148.48.15/Fashion_One_HD/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-history" , VIASAT HISTORY
-http://85.117.61.97:8000/play/a010/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-nature" , VIASAT NATURE
-http://85.117.61.97:8000/play/a011/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-nature-history-hd" , VIJU+ PLANET HD
 http://de.online24.pm/play/91/FB4F94DA00C3BE0/video.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="oxota-i-rybalka" , ОХОТА И РЫБАЛКА
-http://85.117.61.97:8000/play/a01e/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="dikiy" , ДИКИЙ
-http://85.117.61.97:8000/play/a01f/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="glazami-turista" , Глазами туриста
 http://77.235.1.19:8000/play/a05h/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="zal-suda" , Зал суда
@@ -347,8 +333,6 @@ http://77.235.1.19:8000/play/a02n/index.m3u8
 http://185.46.16.239:8000/Zhivaya_Planeta
 #EXTINF:-1  group-title="Познавательные"  tvg-id="zvezda-plus" , Звезда Плюс
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/tracks-v2a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="istoria" , История
-http://178.217.72.66:8080/Istoriya/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="kluch" , Ключ
 http://77.235.1.19:8000/play/a064/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="kongresstv" , Конгресс ТВ
@@ -437,8 +421,6 @@ http://cdn.wfc.tv/cdn/stream-rus-1080p.m3u8
 https://stream-msk-15.ott.tricolor.tv/dtv/id907_MSKSG-PVR-1--Kinozal_8/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc1ODA3NDQyNywiaHdpZCI6IjhkMjA0NWE1N2E3NjVkYzUyMjVmYzJkZmRlNWY0NzViMDA0NzU0MmFlZDhjMWEyNGNlY2YzODNkY2ZjYmY2MjYiLCJsYXN0X3JlcV9kYXRlIjoxNzU3NDY5NjI3LCJzZXNzaW9uX2lkIjoiZDlmZTgxOTFmYTFjMjQ4ZjUzN2ViNjVlOWE0M2ZjOGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.g1L-cwTkjltXHyAVVKPyFgLG7fmTOOKtj33WrsSL8hE
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="gags-network" ,Gags Network HD
 https://stream-msk-06.ott.tricolor.tv:443/dtv/id697_MSKSG-PVR-1--Gagsnetwork/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc1ODA3NDQyNywiaHdpZCI6IjhkMjA0NWE1N2E3NjVkYzUyMjVmYzJkZmRlNWY0NzViMDA0NzU0MmFlZDhjMWEyNGNlY2YzODNkY2ZjYmY2MjYiLCJsYXN0X3JlcV9kYXRlIjoxNzU3NDY5NjI3LCJzZXNzaW9uX2lkIjoiZDlmZTgxOTFmYTFjMjQ4ZjUzN2ViNjVlOWE0M2ZjOGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.g1L-cwTkjltXHyAVVKPyFgLG7fmTOOKtj33WrsSL8hE
-#EXTINF:-1  group-title="Развлекательные"  tvg-id="kvn-tv" , КВН
-http://45.159.74.22/Bober/mono.m3u8
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="anekdottv" ,Анекдот ТВ
 http://stream-msk-06.ott.tricolor.tv/dtv/id358_MSKSG-PVR-1--Anekdot_TV/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc1ODA3NDQyNywiaHdpZCI6IjhkMjA0NWE1N2E3NjVkYzUyMjVmYzJkZmRlNWY0NzViMDA0NzU0MmFlZDhjMWEyNGNlY2YzODNkY2ZjYmY2MjYiLCJsYXN0X3JlcV9kYXRlIjoxNzU3NDY5NjI3LCJzZXNzaW9uX2lkIjoiZDlmZTgxOTFmYTFjMjQ4ZjUzN2ViNjVlOWE0M2ZjOGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.g1L-cwTkjltXHyAVVKPyFgLG7fmTOOKtj33WrsSL8hE
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="sarafan" , Сарафан
@@ -1033,8 +1015,6 @@ http://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=Mosfilm_HD.m3
 https://stream-msk-16.ott.tricolor.tv/dtv/id932_MSKSG-PVR-1--Sovetskay_kinoclassica_HD/02/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc1ODA3NDQyNywiaHdpZCI6IjhkMjA0NWE1N2E3NjVkYzUyMjVmYzJkZmRlNWY0NzViMDA0NzU0MmFlZDhjMWEyNGNlY2YzODNkY2ZjYmY2MjYiLCJsYXN0X3JlcV9kYXRlIjoxNzU3NDY5NjI3LCJzZXNzaW9uX2lkIjoiZDlmZTgxOTFmYTFjMjQ4ZjUzN2ViNjVlOWE0M2ZjOGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.g1L-cwTkjltXHyAVVKPyFgLG7fmTOOKtj33WrsSL8hE
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fanhd" , FAN HD
 http://stream-msk-08.ott.tricolor.tv/dtv/id511_MSKSG-PVR-1--FAN_HD/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc1ODA3NDQyNywiaHdpZCI6IjhkMjA0NWE1N2E3NjVkYzUyMjVmYzJkZmRlNWY0NzViMDA0NzU0MmFlZDhjMWEyNGNlY2YzODNkY2ZjYmY2MjYiLCJsYXN0X3JlcV9kYXRlIjoxNzU3NDY5NjI3LCJzZXNzaW9uX2lkIjoiZDlmZTgxOTFmYTFjMjQ4ZjUzN2ViNjVlOWE0M2ZjOGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.g1L-cwTkjltXHyAVVKPyFgLG7fmTOOKtj33WrsSL8hE
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="evrokino" ,Еврокино HD
-http://89.221.57.5:8000/play/a00o/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="bollywood-hd" ,Bollywood
 http://stream-msk-10.ott.tricolor.tv/dtv/id640_MSKSG-PVR-1--Bollywood/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc1ODA3NDQyNywiaHdpZCI6IjhkMjA0NWE1N2E3NjVkYzUyMjVmYzJkZmRlNWY0NzViMDA0NzU0MmFlZDhjMWEyNGNlY2YzODNkY2ZjYmY2MjYiLCJsYXN0X3JlcV9kYXRlIjoxNzU3NDY5NjI3LCJzZXNzaW9uX2lkIjoiZDlmZTgxOTFmYTFjMjQ4ZjUzN2ViNjVlOWE0M2ZjOGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.g1L-cwTkjltXHyAVVKPyFgLG7fmTOOKtj33WrsSL8hE
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="vremia" , Время
@@ -1159,8 +1139,6 @@ https://livetv.mylifeisgood.net.ru/channels/strwc.m3u8
 https://livetv.mylifeisgood.net.ru/channels/strvf.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="tv1000" , viju TV1000 HD
 http://95.85.109.219:7000/play/a08v
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="tv1000-russkoe-kino" , viju TV1000 русское
-http://85.117.61.97:8000/play/a00x/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="sony-tv" , .Red HD
 http://77.235.1.19:8000/play/a07e/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="blokbaster-hd" , Блокбастер HD
@@ -1261,8 +1239,6 @@ http://132544.edgevideo.ru/streams/132544_931337/1325441080/index.m3u8
 https://fl1001.bozztv.com/ushba-rvisionmovies/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" , Retrovision Кинопанорама
 https://fl1001.bozztv.com/ushba-rvisionkinopanorama/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы" , Сити Эдем — Киноазия
-https://autopilot.catcast.tv/content/34393/index.m3u8?password=promolive
 #EXTINF:-1  group-title="Кино и сериалы" , Сити Эдем — Кинодок
 https://autopilot.catcast.tv/content/38354/index.m3u8?password=promolive
 #EXTINF:-1  group-title="Кино и сериалы" , Сити Эдем — Киноклассика
@@ -1277,8 +1253,6 @@ https://autopilot.catcast.tv/content/41333/index.m3u8?password=promolive
 https://autopilot.catcast.tv/content/46209/index.m3u8?password=promolive
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="34246" , Сити Эдем — Христианский
 https://autopilot.catcast.tv/content/34246/index.m3u8?password=promolive
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="cityedem-kinoazia"  tvg-logo="https://www.cityeden.info/logotv/kinoazija_logotip.png" , Сити Эдем - КиноАзия
-https://cityeden.catcast.tv/content/34393/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://www.cityeden.info/logotv/logotip_kinoart.png" , Сити Эдем - КиноАрт
 https://cityeden.catcast.tv/content/38398/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://www.cityeden.info/logotv/logotip_kinodetektiv.png" , Сити Эдем - КиноДетектив
@@ -10787,12 +10761,8 @@ http://boxviptv.net:25461/sp60/882762/273
 http://boxviptv.net:25461/sp60/882762/213
 #EXTINF:-1  group-title="Спортивные"  tvg-id="bein-sport-3" , BEIN SPORTS 3 HD
 http://boxviptv.net:25461/sp60/882762/214
-#EXTINF:-1  group-title="Спортивные"  tvg-id="bein-sport-4" , BEIN SPORTS 4 HD
-http://boxviptv.net:25461/sp60/882762/215
 #EXTINF:-1  group-title="Спортивные" , SPORT TV + HD
 http://vocotv.pro:80/h123456/h123456/273597
-#EXTINF:-1  group-title="Спортивные"  tvg-id="polsat-sport-extra" , POLSAT SPORT 2
-http://de.online24.pm/play/5452/BC28182177585B5/video.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-football1" , Матч! Футбол 1
 http://77.235.1.19:8000/play/a002/index.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-football1" , Матч! Футбол 1 HD
@@ -10811,42 +10781,18 @@ http://213.169.39.30:5216
 http://45.11.139.43:8555/extsport/index.m3u8
 #EXTINF:-1  group-title="Спортивные" , Fast&FunBox
 http://77.235.1.19:8000/play/a07z/index.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="fastfunbox-hd" , Fast&FunBox HD
-http://85.117.61.97:8000/play/a024/index.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="fightbox-hd" , FightBox
 http://77.235.1.19:8000/play/a080/index.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="fightbox-hd" , FightBox HD
-http://85.117.61.97:8000/play/a023/index.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="kxl-hd" , KHL Prime
 http://194.143.148.28:8080/KHL_HD/mpegts
 #EXTINF:-1  group-title="Спортивные"  tvg-id="kxl-hd" , KHL Prime HD
 http://77.235.1.19:8000/play/a062/index.m3u8
-#EXTINF:-1  group-title="Спортивные" , Premier Sport 1 🛡️
-https://7pal.short.gy/prsport1
-#EXTINF:-1  group-title="Спортивные" , Premier Sport 2 🛡️
-https://7pal.short.gy/prsport2
 #EXTINF:-1  group-title="Спортивные"  tvg-id="setanta-sports" , Setanta Sports 1
 http://94.130.221.219/setanta1/mpegts
 #EXTINF:-1  group-title="Спортивные" , Udar
 http://178.217.72.66:8080/udarhd/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Спортивные" , Udar HD
 http://95.85.109.219:7000/play/a066
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-football2" ,Матч! Футбол 2 HD
-http://arbiter.bolshoe.tv/?path=abr2/NTVplusfut2HD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS8xMC8yMDI1IDY6NTU6MTEgQU0maGFzaF92YWx1ZT1ocHRTUFlIQ2FCb3psak9MM3NFbTFBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-football3" ,Матч! Футбол 3 HD
-http://95.181.17.14/dvr02/mobile1/NTVplusfut3HD/chunks.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9OS8xMC8yMDI1IDY6NTU6MTEgQU0maGFzaF92YWx1ZT1ocHRTUFlIQ2FCb3psak9MM3NFbTFBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-premier" ,Матч Премьер HD
-http://95.181.17.26/dvr01/hd1/NashFutHD/chunks.m3u8?&&wmsAuthSign=c2VydmVyX3RpbWU9OS8xMC8yMDI1IDY6NTU6MTEgQU0maGFzaF92YWx1ZT1ocHRTUFlIQ2FCb3psak9MM3NFbTFBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-arena" ,Матч! Арена HD
-http://95.181.17.26/dvr02/hd1/sport1HD/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9OS8xMC8yMDI1IDY6NTU6MTEgQU0maGFzaF92YWx1ZT1ocHRTUFlIQ2FCb3psak9MM3NFbTFBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
-#EXTINF:-1  group-title="Спортивные"  tvg-id="kxl" ,KHL
-http://arbiter.bolshoe.tv/?path=streaming/khl/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS8xMC8yMDI1IDY6NTU6MTEgQU0maGFzaF92YWx1ZT1ocHRTUFlIQ2FCb3psak9MM3NFbTFBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
-#EXTINF:-1  group-title="Спортивные"  tvg-id="kxl-hd" ,KHL Prime
-http://arbiter.bolshoe.tv/?path=abr2/khlHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS8xMC8yMDI1IDY6NTU6MTEgQU0maGFzaF92YWx1ZT1ocHRTUFlIQ2FCb3psak9MM3NFbTFBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
-#EXTINF:-1  group-title="Спортивные"  tvg-id="viasat-sport" ,Viasat Sport
-http://arbiter.bolshoe.tv/?path=streaming/viasat_sport/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS8xMC8yMDI1IDY6NTU6MTEgQU0maGFzaF92YWx1ZT1ocHRTUFlIQ2FCb3psak9MM3NFbTFBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
-#EXTINF:-1  group-title="Спортивные"  tvg-id="football-ru" ,Телеканал Футбол
-http://arbiter.bolshoe.tv/?path=abr1/futbol/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS8xMC8yMDI1IDY6NTU6MTEgQU0maGFzaF92YWx1ZT1ocHRTUFlIQ2FCb3psak9MM3NFbTFBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="bridge-tv-classic" , Bridge Classic
 http://77.235.1.19:8000/play/a04e/index.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="bridge-hd" , Bridge Deluxe HD
@@ -10989,8 +10935,6 @@ https://d1xc25jm9e0l4b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 http://hz1.teleport.cc/HLS/SD.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="radio-strana-fm-tv" , Страна FM
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="tnt-music" , ТНТ Music
-http://85.117.61.97:8000/play/a021/index.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="tnt-music" , ТНТ Music HD
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdhigh.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="shanson-tv" , Шансон-ТВ
@@ -12873,66 +12817,6 @@ http://178.212.71.253:8000/play/77/index.m3u8
 http://178.212.71.253:8000/play/47/index.m3u8
 #EXTINF:-1  group-title="Крым"  tvg-id="multimuzyka" ,Мультимузыка
 http://178.212.71.253:8000/play/116/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="pervy" ,Первый HD
-http://85.117.61.97:8000/play/a01n/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="ntv-mir" ,НТВ-Мир
-http://85.117.61.97:8000/play/a01u/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="rentv-int" ,Рен ТВ International
-http://85.117.61.97:8000/play/a01t/index.m3u8
-#EXTINF:-1  group-title="Кавказ" ,Планета РТР
-http://85.117.61.97:8000/play/a01s/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="tayny-galaktiki" ,Тайны галактики
-http://85.117.61.97:8000/play/a01c/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="drive" ,Драйв
-http://85.117.61.97:8000/play/a022/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="nauka" ,Наука
-http://85.117.61.97:8000/play/a01d/index.m3u8
-#EXTINF:-1  group-title="Кавказ" ,Зоопарк
-http://85.117.61.97:8000/play/a01g/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="amedia-premium" ,Amedia Premium
-http://85.117.61.97:8000/play/a013/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="amedia-hit" ,Amedia Hit
-http://85.117.61.97:8000/play/a015/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="amedia1" ,Amedia 1
-http://85.117.61.97:8000/play/a012/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="amedia2" ,Amedia 2
-http://85.117.61.97:8000/play/a014/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="cinema-ru" ,Cinema
-http://85.117.61.97:8000/play/a01a/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="evrokino" ,Еврокино
-http://85.117.61.97:8000/play/a017/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="nst" ,НСТ
-http://85.117.61.97:8000/play/a019/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="plan-b" ,Plan B
-http://85.117.61.97:8000/play/a016/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="tvxxi" ,TV XXI
-http://85.117.61.97:8000/play/a018/index.m3u8
-#EXTINF:-1  group-title="Кавказ" ,TV 25
-http://85.117.61.97:8000/play/a00h/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="vip-comedy" ,VIP Comedy
-http://85.117.61.97:8000/play/a00s/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="vip-megahit" ,VIP Megahit
-http://85.117.61.97:8000/play/a00t/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="vip-premiere" ,VIP Premiere
-http://85.117.61.97:8000/play/a00u/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="domashny" ,Домашний
-http://85.117.61.97:8000/play/a01i/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="mir" ,Мир
-http://85.117.61.97:8000/play/a01v/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="novy-kanal-ua" ,Новый канал
-http://85.117.61.97:8000/play/a01l/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="space-tv" ,Space TV
-http://85.117.61.97:8000/play/a028/index.m3u8
-#EXTINF:-1  group-title="Кавказ" ,Musik box ge
-http://85.117.61.97:8000/play/a00n/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="sts-kids-hd" ,СТС Kids
-http://85.117.61.97:8000/play/a01y/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="mult" ,Мульт
-http://85.117.61.97:8000/play/a01r/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="karusel" ,Карусель
-http://85.117.61.97:8000/play/a01z/index.m3u8
-#EXTINF:-1  group-title="Кавказ"  tvg-id="detsky" ,Уникум
-http://85.117.61.97:8000/play/a01q/index.m3u8
 #EXTINF:-1  group-title="Осс"  tvg-id="rentv" ,Рен ТВ HD
 http://178.217.72.66:8080/REN_TV/index.m3u8
 #EXTINF:-1  group-title="Осс"  tvg-id="rossia1" ,Россия 1 HD
@@ -13365,148 +13249,4 @@ http://93.125.121.61:8383/play/a00q
 http://93.125.121.61:8383/play/a00d
 #EXTINF:-1  group-title="Лнт" ,Extreme Sports Channel
 http://93.125.121.61:8383/play/a02a
-#EXTINF:-1  group-title="Орак"  tvg-id="texno-24" ,24 техно
-http://158.101.222.193:88/georgia_play.php?id=24techno
-#EXTINF:-1  group-title="Орак"  tvg-id="viasat-explore" ,Viasat explore
-http://158.101.222.193:88/georgia_play.php?id=viasatexp
-#EXTINF:-1  group-title="Орак"  tvg-id="viasat-history" ,Viasat History
-http://158.101.222.193:88/georgia_play.php?id=viasathist
-#EXTINF:-1  group-title="Орак"  tvg-id="viasat-nature" ,Viasat Nature
-http://158.101.222.193:88/georgia_play.php?id=viasatnat
-#EXTINF:-1  group-title="Орак"  tvg-id="viasat-sport" ,Viasat Sport
-http://158.101.222.193:88/georgia_play.php?id=viasatsport
-#EXTINF:-1  group-title="Орак"  tvg-id="oruzhie" ,Оружие
-http://158.101.222.193:88/georgia_play.php?id=oruzhie
-#EXTINF:-1  group-title="Орак"  tvg-id="365-dnej" ,365 дней
-http://158.101.222.193:88/georgia_play.php?id=365day
-#EXTINF:-1  group-title="Орак"  tvg-id="amedia1" ,Amedia 1
-http://158.101.222.193:88/georgia_play.php?id=amedia
-#EXTINF:-1  group-title="Орак"  tvg-id="amedia2" ,Amedia 2
-http://158.101.222.193:88/georgia_play.php?id=amedia2
-#EXTINF:-1  group-title="Орак"  tvg-id="amedia-hit" ,Amedia Hit
-http://158.101.222.193:88/georgia_play.php?id=amediahit
-#EXTINF:-1  group-title="Орак"  tvg-id="amedia-premium" ,Amedia Premium HD
-http://158.101.222.193:88/georgia_play.php?id=amediapremium
-#EXTINF:-1  group-title="Орак"  tvg-id="avto24" ,Авто 24
-http://158.101.222.193:88/georgia_play.php?id=auto24
-#EXTINF:-1  group-title="Орак"  tvg-id="avto-plus" ,Авто плюс
-http://158.101.222.193:88/georgia_play.php?id=autoplus
-#EXTINF:-1  group-title="Орак"  tvg-id="sony-turbo" ,.black
-http://158.101.222.193:88/georgia_play.php?id=black
-#EXTINF:-1  group-title="Орак"  tvg-id="sony-tv" ,.red
-http://158.101.222.193:88/georgia_play.php?id=red
-#EXTINF:-1  group-title="Орак"  tvg-id="sts" ,СТС
-http://158.101.222.193:88/georgia_play.php?id=ctctv
-#EXTINF:-1  group-title="Орак"  tvg-id="evrokino" ,Еврокино
-http://158.101.222.193:88/georgia_play.php?id=eurokino
-#EXTINF:-1  group-title="Орак"  tvg-id="feniks-plus-kino" ,Феникс+Кино
-http://158.101.222.193:88/georgia_play.php?id=fenikspluskino
-#EXTINF:-1  group-title="Орак"  tvg-id="piatnica-int" ,Пятница! International
-http://158.101.222.193:88/georgia_play.php?id=friday
-#EXTINF:-1  group-title="Орак"  tvg-id="illuzion-plus" ,Иллюзион+
-http://158.101.222.193:88/georgia_play.php?id=illuzionplus
-#EXTINF:-1  group-title="Орак"  tvg-id="zhivi" ,Живи
-http://158.101.222.193:88/georgia_play.php?id=jivi
-#EXTINF:-1  group-title="Орак"  tvg-id="muzhskoe-kino" ,Мужское кино
-http://158.101.222.193:88/georgia_play.php?id=interesnoetv
-#EXTINF:-1  group-title="Орак"  tvg-id="kinoxit" ,Кинохит
-http://158.101.222.193:88/georgia_play.php?id=kinohit
-#EXTINF:-1  group-title="Орак"  tvg-id="kinokomedia" ,Кинокомедия
-http://158.101.222.193:88/georgia_play.php?id=kinokomediya
-#EXTINF:-1  group-title="Орак"  tvg-id="kinomiks" ,Киномикс
-http://158.101.222.193:88/georgia_play.php?id=kinomiks
-#EXTINF:-1  group-title="Орак"  tvg-id="kinopremiera-hd" ,Кинопремьера HD
-http://158.101.222.193:88/georgia_play.php?id=kinopremyerahd
-#EXTINF:-1  group-title="Орак"  tvg-id="kinosemiya" ,Киносемья
-http://158.101.222.193:88/georgia_play.php?id=kinosemya
-#EXTINF:-1  group-title="Орак"  tvg-id="nashe-novoe-kino" ,Наше новое кино
-http://158.101.222.193:88/georgia_play.php?id=nashanovoekino
-#EXTINF:-1  group-title="Орак"  tvg-id="kinoseria" ,Киносерия
-http://158.101.222.193:88/georgia_play.php?id=kinoseria
-#EXTINF:-1  group-title="Орак"  tvg-id="kinosvidanie" ,Киносвидание
-http://158.101.222.193:88/georgia_play.php?id=kinosvidanie
-#EXTINF:-1  group-title="Орак"  tvg-id="kinouzhas" ,Киноужас
-http://158.101.222.193:88/georgia_play.php?id=kinoujas
-#EXTINF:-1  group-title="Орак"  tvg-id="kvn-tv" ,КВН ТВ
-http://158.101.222.193:88/georgia_play.php?id=kvntv
-#EXTINF:-1  group-title="Орак"  tvg-id="mir-24" ,Мир 24
-http://158.101.222.193:88/georgia_play.php?id=mir24
-#EXTINF:-1  group-title="Орак"  tvg-id="mir" ,Мир
-http://158.101.222.193:88/georgia_play.php?id=mir
-#EXTINF:-1  group-title="Орак"  tvg-id="muzhskoy" ,Мужской
-http://158.101.222.193:88/georgia_play.php?id=muzhskoy
-#EXTINF:-1  group-title="Орак"  tvg-id="nostalgia" ,Ностальгия
-http://158.101.222.193:88/georgia_play.php?id=nostalgy
-#EXTINF:-1  group-title="Орак"  tvg-id="perec-int" ,Перец
-http://158.101.222.193:88/georgia_play.php?id=perec
-#EXTINF:-1  group-title="Орак"  tvg-id="tv1000-russkoe-kino" ,TV1000 Русское кино
-http://158.101.222.193:88/georgia_play.php?id=tv1000rukino
-#EXTINF:-1  group-title="Орак"  tvg-id="uspex" ,Успех
-http://158.101.222.193:88/georgia_play.php?id=uspeh
-#EXTINF:-1  group-title="Орак" ,Зоопарк
-http://158.101.222.193:88/georgia_play.php?id=zoo
-#EXTINF:-1  group-title="Орак"  tvg-id="zee-tv" ,Индия
-http://158.101.222.193:88/georgia_play.php?id=zeetv
-#EXTINF:-1  group-title="Орак" ,М1 HD UA
-http://158.101.222.193:88/georgia_play.php?id=m1
-#EXTINF:-1  group-title="Орак"  tvg-id="mezzo" ,Mezzo
-http://158.101.222.193:88/georgia_play.php?id=mezzo
-#EXTINF:-1  group-title="Орак"  tvg-id="malysh" ,Супергерои
-http://158.101.222.193:88/georgia_play.php?id=malysh
-#EXTINF:-1  group-title="Орак"  tvg-id="da-vinci" ,Da vinci
-http://158.101.222.193:88/georgia_play.php?id=davinci
-#EXTINF:-1  group-title="Орак"  tvg-id="detsky" ,Уникум
-http://158.101.222.193:88/georgia_play.php?id=unikum
-#EXTINF:-1  group-title="Орак"  tvg-id="detsky-mir" ,Детский мир
-http://158.101.222.193:88/georgia_play.php?id=detskymir
-#EXTINF:-1  group-title="Орак" ,Setanta Sports 1 GE
-http://158.101.222.193:88/georgia_play.php?id=setanta_georgia
-#EXTINF:-1  group-title="Орак"  tvg-id="match-planeta" ,Матч! Планета
-http://158.101.222.193:88/georgia_play.php?id=matchplaneta
-#EXTINF:-1  group-title="Орак"  tvg-id="box-tv" ,Бокс ТВ
-http://158.101.222.193:88/georgia_play.php?id=boxtv
-#EXTINF:-1  group-title="Орак" ,Formula
-http://158.101.222.193:88/georgia_play.php?id=formula
-#EXTINF:-1  group-title="Орак" ,maestro
-http://158.101.222.193:88/georgia_play.php?id=maestro
-#EXTINF:-1  group-title="Орак" ,Marao
-http://158.101.222.193:88/georgia_play.php?id=marao
-#EXTINF:-1  group-title="Орак" ,egrisitv HD
-http://158.101.222.193:88/georgia_play.php?id=egrisitv
-#EXTINF:-1  group-title="Орак" ,diatv HD
-http://158.101.222.193:88/georgia_play.php?id=diatv
-#EXTINF:-1  group-title="Орак" ,Agrotv HD GE
-http://158.101.222.193:88/georgia_play.php?id=agrotv
-#EXTINF:-1  group-title="Орак" ,Abkhaz
-http://158.101.222.193:88/georgia_play.php?id=abkhaz
-#EXTINF:-1  group-title="Орак" ,argotv
-http://158.101.222.193:88/georgia_play.php?id=argotv
-#EXTINF:-1  group-title="Орак" ,caucasia HD
-http://158.101.222.193:88/georgia_play.php?id=caucasia
-#EXTINF:-1  group-title="Орак" ,Comedy Arkhi
-http://158.101.222.193:88/georgia_play.php?id=comedy
-#EXTINF:-1  group-title="Орак" ,Ertsulovneba
-http://158.101.222.193:88/georgia_play.php?id=ertsulovneba
-#EXTINF:-1  group-title="Орак" ,Girchi TV GE
-http://158.101.222.193:88/georgia_play.php?id=girchitv
-#EXTINF:-1  group-title="Орак" ,GDS TV GE
-http://158.101.222.193:88/georgia_play.php?id=gttv
-#EXTINF:-1  group-title="Орак" ,guriatv HD
-http://158.101.222.193:88/georgia_play.php?id=guriatv
-#EXTINF:-1  group-title="Орак" ,gms HD
-http://158.101.222.193:88/georgia_play.php?id=gms
-#EXTINF:-1  group-title="Орак" ,Imedi TV GE
-http://158.101.222.193:88/georgia_play.php?id=imedihd
-#EXTINF:-1  group-title="Орак" ,qvemoqartli HD
-http://158.101.222.193:88/georgia_play.php?id=qvemoqartli
-#EXTINF:-1  group-title="Орак" ,Pirveli GE
-http://158.101.222.193:88/georgia_play.php?id=pirvelitv
-#EXTINF:-1  group-title="Орак" ,pktv HD
-http://158.101.222.193:88/georgia_play.php?id=pktv
-#EXTINF:-1  group-title="Орак" ,POS TV HD GE
-http://158.101.222.193:88/georgia_play.php?id=postv
-#EXTINF:-1  group-title="Орак" ,nwbctv
-http://158.101.222.193:88/georgia_play.php?id=nwbctv
-#EXTINF:-1  group-title="Орак" ,obiektivi HD
-http://158.101.222.193:88/georgia_play.php?id=obiektivi
 #EXT-X-ENDLIST
