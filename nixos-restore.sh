@@ -26,10 +26,10 @@ nix-env -iA nixos.git
 # 3. Клонируем репозиторий
 echo "📥 Клонирую конфигурацию из GitHub..."
 cd /tmp
-git clone https://github.com/SafeOwn/safeown.github.io.git repo-temp
+git clone https://github.com/SafeOwn/safeown.github.io.git nixos-kde
 mkdir -p /etc/nixos
-cp -r repo-temp/nixos-config/* /etc/nixos/
-rm -rf repo-temp
+cp -r nixos-kde/* /etc/nixos/
+rm -rf nixos-kde
 
 # 4. Генерируем новый hardware-configuration.nix
 echo "🔧 Генерирую hardware-configuration для этой машины..."
@@ -37,7 +37,7 @@ nixos-generate-config --root / --show-hardware-config > /etc/nixos/hardware-conf
 
 # 5. Проверяем, что flake.nix на месте
 if [ ! -f /etc/nixos/flake.nix ]; then
-  echo "❌ Не найден flake.nix! Проверь, что nixos-config содержит flake.nix"
+  echo "❌ Не найден flake.nix! Проверь, что nixos-kde содержит flake.nix"
   exit 1
 fi
 
@@ -52,14 +52,14 @@ echo "🔧 Настраиваю алиасы..."
 cat >> /root/.bashrc << 'EOF'
 
 # NixOS aliases
-alias nixos-backup="sudo /etc/nixos/scripts/nixos-backup.sh"
+alias backup="bash /etc/nixos/scripts/nixos-backup.sh"
 
 # Автобэкап после rebuild
 nixos-rebuild() {
   command nixos-rebuild "$@"
   if [[ "$?" == "0" && "$1" == "switch" ]]; then
     echo "🔁 Автобэкап конфигурации..."
-    nixos-backup
+    backup
   fi
 }
 EOF
@@ -81,7 +81,7 @@ echo "   Потом добавь публичный ключ в GitHub: https://
 
 # 10. Пересобираем систему
 echo "🔄 Пересобираем систему..."
-nixos-rebuild switch --flake /etc/nixos#yandex
+nixos-rebuild switch --flake /etc/nixos#pc
 
 # 11. Готово
 echo "🎉 Восстановление завершено!"
