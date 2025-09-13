@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=rundll32
-MimeType=application/x-ms-application;
-Exec=env WINEPREFIX="/home/safe/.local/share/LuxWine/wprefixes/defprefix_dotnet/dosdevices/h:/.local/share/LuxWine/wprefixes/defprefix_dotnet" wine start /ProgIDOpen Application.Manifest %f
-NoDisplay=true
-StartupNotify=true
-Icon=5742_rundll32.0

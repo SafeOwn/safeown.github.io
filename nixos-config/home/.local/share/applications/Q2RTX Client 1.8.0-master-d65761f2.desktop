@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Q2RTX Client 1.8.0-master-d65761f2
-Exec=flatpak run ru.linux_gaming.PortProton "/home/safe/.var/app/ru.linux_gaming.PortProton/data/prefixes/DEFAULT/drive_c/Games/Quake2RTX/q2rtx.exe"
-Type=Application
-Categories=Game
-StartupNotify=true
-Path=/home/safe/.var/app/ru.linux_gaming.PortProton/data/scripts/
-Icon=/home/safe/.var/app/ru.linux_gaming.PortProton/data/img/Quake_II_RTX.png

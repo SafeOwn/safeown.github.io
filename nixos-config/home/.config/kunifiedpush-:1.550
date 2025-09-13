@@ -1,9 +1,0 @@
-[Client]
-ContentEncryptionPrivateKey=@ByteArray(\xa9\xbe\x82\xb1\xea\n\xf\x92l\xb6s.\xad\xd2MN\xd1\x43\f\xac\xc3~\x87\x43\xbd\x9d\x95\xbd\x9a\xca~D)
-ContentEncryptionPublicKey=@ByteArray(\x4\x18\x12\x30\x97\xe0^\n-\x4:\a\x8d\x18\0\x43\xef\a\x1cUM\x17g\xd9\xb0(\xa2\xed\x4S\x83/\xdf\xba\b\xd9\x31hP\x8f|5\x8c<[H#@\xdc\xba\x9d\b7\x9e\xf1\xec\xb5\xb3/X\x85\xaa\xd8?\xe8)
-Description=Push notification self-test.
-Endpoint=https://updates.push.services.mozilla.com/wpush/v2/gAAAAABotsE1D04y5Mon8yFRGGAjFz1dz0Od1oiyi-ifQ9aeJ985EpK8HuVkAqi56PwWnAabRiYoacfgfh4skiEUtPL9GJof-yzMtZp0d69gbswMNcNJ5Aj0OximiO_-ZFsm6IeWRwyBcpF6VYtL1OxkJYSY4qVPWd-L05iwgytxSmn0HSnp1lM
-Token={ada3af4c-608e-493a-bfec-e58a257ed84e}
-VapidPublicKey=BCzlgilO4rGwV9yvrW8afgUJes4-wy4HuVRWH0BIt-5858aF21oSmB9agUz5eyvmxpAUruVyU7pBaQ9HvcWY0TY
-VapidRequired=true
-contentEncryptionAuthSecret="@ByteArray(3|\xda\xf\xe\0\xed\x9b\x65\x62.};\b\xe9=)"

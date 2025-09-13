@@ -1,7 +1,0 @@
-[Daemon]
-RequirePassword=false
-
-[Greeter][Wallpaper][org.kde.image][General]
-Image=/home/safe/Изображения/lock.jpg
-PreviewImage=/home/safe/Изображения/lock.jpg
-SlidePaths=/nix/store/nxb4pq6q7mcj59b4skyaxy2dwraybpkj-breeze-6.4.4/share/wallpapers/,/etc/profiles/per-user/safe/share/wallpapers/,/run/current-system/sw/share/wallpapers/
