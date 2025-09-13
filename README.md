@@ -1,29 +1,16 @@
-# ======== 1) ПЕРЕУСТАНОВКА с НУЛЯ ========    
+# ======== ПЕРЕУСТАНОВКА с НУЛЯ NIXOS KDE 6 ========    
 
-
-После nixos-generate-config
-nixos-enter --root /mnt
 
 Скачай и запусти скрипт
-curl -L https://safeown.github.io/nixos-full-setup.sh | bash
+curl -L https://safeown.github.io/nixos-kde-install.sh | bash
+  или
+bash <(curl -fsSL https://raw.githubusercontent.com/SafeOwn/safeown.github.io/master/nixos-kde-install.sh)
+  или 
+Сократите ссылку через https://bitly.com/
 
-# ======== 2) ПЕРЕУСТАНОВКА ПОСЛЕ СБОЯ ========
+Вся инструкция в скрипте по шагам...
 
 
-
-1. Разметь диск, смонтируй / в /mnt
-mount /dev/sda1 /mnt
-
-2. Сгенерируй базовый конфиг (нужен для chroot)
-nixos-generate-config --root /mnt
-
-3. Войди в chroot
-nixos-enter --root /mnt
-
-4. Запусти восстановление
-curl -L https://safeown.github.io/nixos-restore.sh | bash 
-
-✅Через 2 минуты — всё восстановлено. 
 
 # Для второй системы Windows10 положить файлы efi
 смотрим lsblk -f
