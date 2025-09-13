@@ -1,0 +1,518 @@
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+window#waybar,
+tooltip {
+  background: alpha(@base00, 1.000000);
+  color: @base05;
+}
+
+tooltip {
+  border-color: @base0D;
+
+}
+
+tooltip label {
+  color: @base05;
+}
+
+#wireplumber,
+#pulseaudio,
+#sndio {
+  padding: 0 10px;
+}
+
+#wireplumber.muted,
+#pulseaudio.muted,
+#sndio.muted {
+  padding: 0 10px;
+}
+
+#upower,
+#battery {
+  padding: 0 10px;
+}
+
+#upower.charging,
+#battery.Charging {
+  padding: 0 10px;
+}
+
+#network {
+  padding: 0 10px;
+}
+
+#network.disconnected {
+  padding: 0 10px;
+}
+
+#bluetooth {
+  padding: 0 10px;
+}
+
+#user {
+  padding: 0 10px;
+}
+
+#clock {
+  padding: 0 5px;
+}
+
+#backlight {
+  padding: 0 10px;
+}
+
+#cpu {
+  padding: 0 10px;
+}
+
+#disk {
+  padding: 0 10px;
+}
+
+#idle_inhibitor {
+  padding: 0 10px;
+}
+
+#temperature {
+  padding: 0 5px;
+}
+
+#mpd {
+  padding: 0 5px;
+}
+
+#language {
+  padding: 0 5px;
+}
+
+#keyboard-state {
+  padding: 0 5px;
+}
+
+#memory {
+  padding: 0 10px;
+}
+
+#window {
+  padding: 0 5px;
+}
+
+#custom-perfomance {
+  padding: 0 10px;
+}
+
+#custom-tray {
+  padding: 0 10px;
+}
+
+window .modules-left #workspaces button {
+  background-color: @base00;
+  color: @base05;
+
+}
+
+.modules-left #wireplumber,
+.modules-left #pulseaudio,
+.modules-left #sndio {
+  background-color: @base09;
+  color: @base00;
+}
+
+.modules-left #workspaces button {
+  padding: 0 0px;
+}
+
+.modules-left #workspaces button.focused,
+.modules-left #workspaces button.active {
+  background-color: @base00;
+  color: @base0B;
+}
+
+.modules-left #workspaces button.urgent {
+  background-color: @base00;
+  color: @base08;
+}
+
+.modules-left #wireplumber.muted,
+.modules-left #pulseaudio.muted,
+.modules-left #sndio.muted {
+  background-color: @base0C;
+}
+
+.modules-left #upower,
+.modules-left #battery {
+  background-color: @base0D;
+  color: @base00;
+}
+
+.modules-left #upower.charging,
+.modules-left #battery.Charging {
+  background-color: @base0E;
+}
+
+.modules-left #battery.charging,
+.modules-left #battery.plugged {
+  color: #fabd2f;
+}
+
+
+.modules-left #network {
+  background-color: @base0B;
+  color: @base00;
+}
+
+.modules-left #network.disconnected {
+  background-color: @base0C;
+}
+
+.modules-left #user {
+  background-color: @base00;
+  color: @base07;
+}
+
+.modules-left #clock {
+  background-color: @base03;
+  color: @base00;
+}
+
+.modules-left #backlight {
+  background-color: @base0E;
+  color: @base00;
+}
+
+.modules-left #cpu {
+  background-color: @base0B;
+  color: @base00;
+}
+
+.modules-left #disk {
+  background-color: @base02;
+  color: @base00;
+}
+
+.modules-left #idle_inhibitor {
+  background-color: @base06;
+  color: @base00;
+}
+
+.modules-left #temperature {
+  background-color: @base07;
+  color: @base00;
+}
+
+.modules-left #mpd {
+  background-color: @base02;
+  color: @base00;
+}
+
+.modules-left #language {
+  background-color: @base02;
+  color: @base00;
+}
+
+.modules-left #keyboard-state {
+  background-color: @base03;
+  color: @base00;
+}
+
+.modules-left #memory {
+  background-color: @base09;
+  color: @base00;
+}
+
+.modules-left #window {
+  background-color: @base00;
+  color: @base0B;
+}
+
+.modules-left #custom-menu {
+  background-color: @base00;
+  color: @base0D;
+}
+
+window .modules-center #workspaces button {
+  background-color: @base07;
+  color: @base00;
+}
+
+.modules-center #wireplumber,
+.modules-center #pulseaudio,
+.modules-center #sndio {
+  background-color: @base09;
+  color: @base00;
+}
+
+.modules-center #workspaces button.focused,
+.modules-center #workspaces button.active {
+  background: @base03;
+}
+
+.modules-center #workspaces button.urgent {
+  background-color: @base08;
+}
+
+.modules-center #wireplumber.muted,
+.modules-center #pulseaudio.muted,
+.modules-center #sndio.muted {
+  background-color: @base0C;
+}
+
+.modules-center #upower,
+.modules-center #battery {
+  background-color: @base0D;
+  color: @base00;
+}
+
+.modules-center #upower.charging,
+.modules-center #battery.Charging {
+  background-color: @base0E;
+}
+
+
+.modules-center #battery.charging,
+.modules-center #battery.plugged {
+  color: #fabd2f;
+}
+
+.modules-center #network {
+  background-color: @base0B;
+  color: @base00;
+}
+
+.modules-center #network.disconnected {
+  background-color: @base0C;
+}
+
+.modules-center #user {
+  background-color: @base00;
+  color: @base07;
+}
+
+.modules-center #clock {
+  background-color: @base00;
+  color: @base05;
+}
+
+.modules-center #backlight {
+  background-color: @base0E;
+  color: @base00;
+}
+
+.modules-center #cpu {
+  background-color: @base0B;
+  color: @base00;
+}
+
+.modules-center #disk {
+  background-color: @base02;
+  color: @base00;
+}
+
+.modules-center #idle_inhibitor {
+  background-color: @base00;
+  color: @base05;
+}
+
+.modules-center #custom-tray {
+  background-color: @base00;
+  color: @base05;
+}
+
+.modules-center #temperature {
+  background-color: @base07;
+  color: @base00;
+}
+
+.modules-center #mpd {
+  background-color: @base02;
+  color: @base00;
+}
+
+.modules-center #language {
+  background-color: @base00;
+  color: @base05;
+}
+
+.modules-center #keyboard-state {
+  background-color: @base00;
+  color: @base05;
+}
+
+.modules-center #memory {
+  background-color: @base09;
+  color: @base00;
+}
+
+.modules-center #window {
+  background-color: @base0C;
+  color: @base00;
+}
+
+.modules-left #custom-perfomance {
+  background-color: @base00;
+  color: @base08;
+}
+
+window .modules-right #workspaces button {
+  background-color: @base00;
+  color: @base07;
+}
+
+.modules-right #wireplumber,
+.modules-right #pulseaudio,
+.modules-right #pulseaudio.input,
+.modules-right #pulseaudio.output,
+.modules-right #sndio {
+  background-color: @base00;
+  color: @base05;
+}
+
+.modules-right #workspaces button.focused,
+.modules-right #workspaces button.active {
+  background: @base03;
+}
+
+.modules-right #workspaces button.urgent {
+  background-color: @base00;
+  color: @base08;
+}
+
+.modules-right #wireplumber.muted,
+.modules-right #pulseaudio.input.source-muted,
+.modules-right #pulseaudio.output.muted,
+.modules-right #sndio.muted {
+  background-color: @base00;
+  color: @base08;
+}
+
+.modules-right #upower,
+.modules-right #battery {
+  background-color: @base00;
+  color: @base05;
+}
+
+.modules-right #upower.charging,
+.modules-right #battery.charging {
+  background-color: @base00;
+  color: @base0A;
+}
+
+.modules-right #upower.plugged,
+.modules-right #battery.plugged,
+.modules-right #battery.full {
+  background-color: @base00;
+  color: @base0B;
+}
+
+.modules-right #battery.critical:not(.charging) {
+  color: @base08;
+}
+
+.modules-right #network.wifi {
+  background-color: @base00;
+  color: @base0D;
+}
+
+.modules-right #network.disabled {
+  background-color: @base00;
+  color: @base08;
+}
+
+.modules-right #network.disconnected {
+  background-color: @base00;
+  color: @base08;
+}
+
+.modules-right #user {
+  background-color: @base00;
+  color: @base05;
+}
+
+.modules-right #clock {
+  background-color: @base00;
+  color: @base07;
+}
+
+.modules-right #backlight {
+  background-color: @base00;
+  color: @base05;
+}
+
+.modules-right #cpu {
+  background-color: @base00;
+  color: @base05;
+}
+
+.modules-right #disk {
+  background-color: @base02;
+  color: @base05;
+}
+
+.modules-right #idle_inhibitor {
+  background-color: @base00;
+  color: @base07;
+}
+
+.modules-right #temperature {
+  background-color: @base07;
+  color: @base05;
+}
+
+.modules-right #mpd {
+  background-color: @base02;
+  color: @base00;
+}
+
+.modules-right #language {
+  background-color: @base00;
+  color: @base07;
+}
+
+.modules-right #keyboard-state {
+  background-color: @base00;
+  color: @base07;
+}
+
+.modules-right #memory {
+  background-color: @base00;
+  color: @base05;
+}
+
+.modules-right #window {
+  background-color: @base00;
+  color: @base07;
+}
+
+.modules-right #bluetooth {
+  background-color: @base00;
+  color: @base05;
+}
+
+.modules-right #bluetooth.connected {
+  background-color: @base00;
+  color: @base0D;
+}
+
+.modules-right #bluetooth.off {
+  background-color: @base00;
+  color: @base08;
+}
+
+.modules-left #custom-perfomance {
+  background-color: @base00;
+  color: @base08;
+}
+
+.modules-right #custom-power {
+  background-color: @base00;
+  color: @base0A;
+}
+
+.modules-right #custom-off {
+  background-color: @base00;
+  color: @base08;
+}
