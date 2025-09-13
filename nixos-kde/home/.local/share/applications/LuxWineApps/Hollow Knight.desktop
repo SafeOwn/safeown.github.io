@@ -1,0 +1,115 @@
+[Desktop Entry]
+Name=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe'
+Type=Application
+Categories=Lux Wine Apps
+StartupNotify=true
+Icon=Hollow Knight
+Actions=rmapp;config;openpfx;debug;cmd;explorer;control;regedit;winecfg;taskmgr;uninstaller;winetricks;clearpfx;pfxbackup;pfxrestore;killwine;version;init
+
+[Desktop Action rmapp]
+Name=Remove shortcut
+Name[ru_RU]=Удалить ярлык
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -rmapp 'Hollow Knight'
+
+[Desktop Action config]
+Name=Settings
+Name[ru_RU]=Настройки
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -config '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe' 
+
+[Desktop Action openpfx]
+Name=Open drive C:\\\
+Name[ru_RU]=Открыть диск C:\\\
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -openpfx '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe'
+
+[Desktop Action debug]
+Name=DEBUG
+Name[ru_RU]=ДЕБАГ
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -debug '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe' 
+
+[Desktop Action cmd]
+Name=Open in CMD
+Name[ru_RU]=Открыть в CMD
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -cmd '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe' 
+
+[Desktop Action explorer]
+Name=Explorer
+Name[ru_RU]=Рабочий стол
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -explorer '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe'
+
+[Desktop Action control]
+Name=Control panel
+Name[ru_RU]=Панель управления
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -control '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe'
+
+[Desktop Action regedit]
+Name=Registry editor
+Name[ru_RU]=Редактор реестра
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -regedit '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe'
+
+[Desktop Action winecfg]
+Name=Wine settings
+Name[ru_RU]=Настройки Wine
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -winecfg '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe'
+
+[Desktop Action taskmgr]
+Name=Task manager
+Name[ru_RU]=Диспетчер задач
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -taskmgr '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe'
+
+[Desktop Action uninstaller]
+Name=Wine uninstaller
+Name[ru_RU]=Устан/удал программ
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -uninstaller '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe'
+
+[Desktop Action winetricks]
+Name=Winetricks
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -winetricks '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe'
+
+[Desktop Action clearpfx]
+Name=Clear prefix
+Name[ru_RU]=Очистить префикс
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -clearpfx '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe'
+
+[Desktop Action pfxbackup]
+Name=Create prefix backup
+Name[ru_RU]=Создать бекап префикса
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -pfxbackup '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe'
+
+[Desktop Action pfxrestore]
+Name=Restore prefix from backup
+Name[ru_RU]=Восстановить префикс
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -pfxrestore '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe'
+
+[Desktop Action killwine]
+Name=Kill Wine processes
+Name[ru_RU]=Убить процессы Wine
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -killwine '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe'
+
+[Desktop Action version]
+Name=Version info
+Name[ru_RU]=Версия
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -version '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe'
+
+[Desktop Action init]
+Name=Forced initialization
+Name[ru_RU]=Принудительная инициализация
+Icon=Hollow Knight
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -init '/home/safe/Загрузки/Hollow-Knight-AtopGames.com/Hollow Knight v1.5.78.11833/Hollow Knight.exe'
