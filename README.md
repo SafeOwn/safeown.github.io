@@ -1,8 +1,9 @@
 ## ==== ПЕРЕУСТАНОВКА с НУЛЯ NIXOS KDE 6 ====    
 
 
-(>Как только загрузитесь через live cd:<br/>
-  введите `sudo -i` и `setfont sun12x22`<br/>) 
+>Как только загрузитесь через live cd:<br/>
+  введите `sudo -i` и `setfont sun12x22`<br/>
+  
 Скачай и запусти скрипт
 ```
 curl -L https://safeown.github.io/nixos-kde-install.sh | bash
