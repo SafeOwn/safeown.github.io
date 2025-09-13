@@ -1,0 +1,115 @@
+[Desktop Entry]
+Name=Split Second
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' '/mnt/game/Split Second/SplitSecond.exe'
+Type=Application
+Categories=Lux Wine Apps
+StartupNotify=true
+Icon=SplitSecond
+Actions=rmapp;config;openpfx;debug;cmd;explorer;control;regedit;winecfg;taskmgr;uninstaller;winetricks;clearpfx;pfxbackup;pfxrestore;killwine;version;init
+
+[Desktop Action rmapp]
+Name=Remove shortcut
+Name[ru_RU]=Удалить ярлык
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -rmapp 'Split Second'
+
+[Desktop Action config]
+Name=Settings
+Name[ru_RU]=Настройки
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -config '/mnt/game/Split Second/SplitSecond.exe' 
+
+[Desktop Action openpfx]
+Name=Open drive C:\\\
+Name[ru_RU]=Открыть диск C:\\\
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -openpfx '/mnt/game/Split Second/SplitSecond.exe'
+
+[Desktop Action debug]
+Name=DEBUG
+Name[ru_RU]=ДЕБАГ
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -debug '/mnt/game/Split Second/SplitSecond.exe' 
+
+[Desktop Action cmd]
+Name=Open in CMD
+Name[ru_RU]=Открыть в CMD
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -cmd '/mnt/game/Split Second/SplitSecond.exe' 
+
+[Desktop Action explorer]
+Name=Explorer
+Name[ru_RU]=Рабочий стол
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -explorer '/mnt/game/Split Second/SplitSecond.exe'
+
+[Desktop Action control]
+Name=Control panel
+Name[ru_RU]=Панель управления
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -control '/mnt/game/Split Second/SplitSecond.exe'
+
+[Desktop Action regedit]
+Name=Registry editor
+Name[ru_RU]=Редактор реестра
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -regedit '/mnt/game/Split Second/SplitSecond.exe'
+
+[Desktop Action winecfg]
+Name=Wine settings
+Name[ru_RU]=Настройки Wine
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -winecfg '/mnt/game/Split Second/SplitSecond.exe'
+
+[Desktop Action taskmgr]
+Name=Task manager
+Name[ru_RU]=Диспетчер задач
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -taskmgr '/mnt/game/Split Second/SplitSecond.exe'
+
+[Desktop Action uninstaller]
+Name=Wine uninstaller
+Name[ru_RU]=Устан/удал программ
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -uninstaller '/mnt/game/Split Second/SplitSecond.exe'
+
+[Desktop Action winetricks]
+Name=Winetricks
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -winetricks '/mnt/game/Split Second/SplitSecond.exe'
+
+[Desktop Action clearpfx]
+Name=Clear prefix
+Name[ru_RU]=Очистить префикс
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -clearpfx '/mnt/game/Split Second/SplitSecond.exe'
+
+[Desktop Action pfxbackup]
+Name=Create prefix backup
+Name[ru_RU]=Создать бекап префикса
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -pfxbackup '/mnt/game/Split Second/SplitSecond.exe'
+
+[Desktop Action pfxrestore]
+Name=Restore prefix from backup
+Name[ru_RU]=Восстановить префикс
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -pfxrestore '/mnt/game/Split Second/SplitSecond.exe'
+
+[Desktop Action killwine]
+Name=Kill Wine processes
+Name[ru_RU]=Убить процессы Wine
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -killwine '/mnt/game/Split Second/SplitSecond.exe'
+
+[Desktop Action version]
+Name=Version info
+Name[ru_RU]=Версия
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -version '/mnt/game/Split Second/SplitSecond.exe'
+
+[Desktop Action init]
+Name=Forced initialization
+Name[ru_RU]=Принудительная инициализация
+Icon=SplitSecond
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -init '/mnt/game/Split Second/SplitSecond.exe'

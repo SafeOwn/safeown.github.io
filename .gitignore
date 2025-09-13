@@ -1,3 +1,4 @@
+# Временные и системные файлы
 *.swp
 *~
 *.bak
@@ -5,3 +6,15 @@
 .nix-*
 result*
 .direnv
+*.backup
+*.old
+*.tmp
+
+# История и кэш
+.bash_history
+.zsh_history
+.cache/
+.local/share/nix/
+
+# Файлы, созданные Nix при сборке
+.drv

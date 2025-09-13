@@ -1,0 +1,88 @@
+# 1. Убедись, что Waydroid установлен (через configuration.nix + rebuild)
+sudo nixos-rebuild switch
+
+# 2. Останови всё
+waydroid session stop 2>/dev/null || true
+sudo systemctl stop waydroid-container 2>/dev/null || true
+
+# 3. Удали старый образ
+sudo rm -rf /var/lib/waydroid
+
+# 4. Инициализируй с GApps
+sudo waydroid init -s GAPPS -c https://ota.waydro.id/system -v https://ota.waydro.id/vendor -f
+
+# 5. Запусти
+sudo systemctl start waydroid-container
+waydroid session start  # в отдельном терминале
+waydroid show-full-ui
+
+# 6. Получи Android ID
+sudo waydroid shell
+# → внутри shell:
+ANDROID_RUNTIME_ROOT=/apex/com.android.runtime ANDROID_DATA=/data ANDROID_TZDATA_ROOT=/apex/com.android.tzdata ANDROID_I18N_ROOT=/apex/com.android.i18n sqlite3 /data/data/com.google.android.gsf/databases/gservices.db "select * from main where name = \"android_id\";"
+# → exit
+
+
+
+----------------------
+# Зарегистрировать ID устройства waydroid
+Заходим на сайт
+    https://www.google.com/android/uncertified
+
+Пример: [safe@nixos:~]$ sudo waydroid shell
+/com.google.android.gsf/databases/gservices.db "select * from main where name = \"android_id\";"            <
+android_id|4139384354294551506
+
+и вводим 4139384354294551506
+Регистрируем
+
+sudo waydroid container stop
+waydroid session stop
+
+waydroid session start
+
+waydroid show-full-ui # открыть андроид
+
+
+
+
+
+
+----Установка скрипта для неподдерживаемых игр (каждый раз запускать, если перезагружаем комп)---------
+waydroid session start
+waydroid show-full-ui
+
+nix-shell -p git python3 lzip
+git clone https://github.com/casualsnek/waydroid_script
+cd waydroid_script
+sudo venv/bin/python3 main.py install libhoudini
+
+waydroid session stop
+sudo systemctl restart waydroid-container
+waydroid session start
+waydroid show-full-ui
+
+-------------
+# Проверка nvidia карты
+adb shell dumpsys SurfaceFlinger | grep GLES
+
+
+---------------------
+# Установка apk файлов
+
+adb device # проверяем включен ли андроил по ip
+cd /home/safe/Загрузки/
+waydroid app install Subway_Surfers_3.52.1_APKPure.apk
+
+Или
+cd /home/safe/Загрузки/
+adb install Greak-Memories-of-Azur-v1-2-9-patched.apk
+
+
+
+
+-----Перезагрузка----
+waydroid session stop
+sudo systemctl restart waydroid-container
+waydroid session start
+waydroid show-full-ui
