@@ -123,6 +123,11 @@
           # 🔧 Основная конфигурация системы
           ./configuration.nix
 
+           # 💾 Автозагрузка
+          ./modules/autorun/openrgb.nix
+          ./modules/autorun/ciadpi.nix
+          ./modules/autorun/clash_verge.nix
+
           # 💾 Аппаратные модули
           ./modules/boot-disk.nix            # Настройка загрузки (systemd-boot)
           ./modules/hardware/cpu-gpu.nix              # CPU, GPU, NVIDIA
@@ -148,7 +153,7 @@
            home-manager.nixosModules.home-manager
 
           # 🧩 Дополнительный модуль: home-manager с передачей данных
-          ({ config, pkgs, ... }:
+          ({ config, lib, pkgs, ... }:
             let
               lockscreen-wallpaper = pkgs.runCommand "lockscreen-wallpaper" {} ''
                 cp ${./home/wallpaper/lockscreen-wallpaper.jpg} $out
@@ -162,6 +167,9 @@
               home-manager.useUserPackages = true;         # Добавлять пакеты из home.packages
               home-manager.extraSpecialArgs = { inherit inputs lockscreen-wallpaper; };  # Передаём inputs в home.nix
               home-manager.users.safe = import ./home.nix; # Конфиг пользователя safe
+
+              # 🔧 Отключаем системный сервис HM — он не должен тормозить загрузку
+              systemd.services."home-manager-safe".enable = lib.mkForce false;
             }
           )
         ];

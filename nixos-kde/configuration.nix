@@ -1,13 +1,3 @@
-
-
-# я тебе буду последовательно файлы кидать ты оставляешь все кроме то что я сказал и добавляешь комментарии что бы была наглядность, делай уже везде такие заголовки
-  # ========================================
-  # 🖼️ X Server (графическая подсистема)
-  # Настройка дисплея, клавиатуры, драйверов
-  # ========================================
-
-
-
 # ========================================
 # 📄 /etc/nixos/configuration.nix
 # Основной конфигурационный файл NixOS
@@ -42,6 +32,7 @@ let
   });
 in
 {
+
   # ========================================
   # 📦 Импортируемые модули
   # Подключаем внешние .nix файлы с настройками
@@ -57,6 +48,7 @@ in
     ./overlay_stable.nix       # 🧱 Overlay: nixpkgs-stable
     ./modules/users/root.nix
     ./modules/hardware/smb.nix
+    ./modules/hardware/openrgb.nix
     #./modules/zapret-discord-youtube.nix
   ];
 
@@ -131,8 +123,10 @@ in
 #   };
 
 
-  # Добавляем переменные для всех GUI-приложений  # Масштабирование на 4K для всех сеансов
-  # Масштабирование на 4K
+  # ========================================
+  # 🖥️ Масштабирование GUI (экраны 4K)
+  # Переменные окружения для Qt, GTK, Electron
+  # ========================================
 #   services.xserver.displayManager.sessionCommands = ''
 #     # Общее масштабирование
 #     export GDK_SCALE="2"
@@ -199,12 +193,12 @@ in
 
       # 🔗 Binary caches (ускоряют установку)
       substituters = [
-        "https://nix-community.cachix.org/"
-        "https://chaotic-nyx.cachix.org/"
-        "https://yazi.cachix.org"
-        "https://ghostty.cachix.org"
-        "https://wezterm.cachix.org"
-        # "https://wezterm-nightly.cachix.org"
+        "https://nix-community.cachix.org/  "
+        "https://chaotic-nyx.cachix.org/  "
+        "https://yazi.cachix.org  "
+        "https://ghostty.cachix.org  "
+        "https://wezterm.cachix.org  "
+        # "https://wezterm-nightly.cachix.org  "
       ];
 
       # 🔐 Доверенные ключи (чтобы Nix принимал пакеты из кэшей)
@@ -257,11 +251,12 @@ in
   # 👤 Пользователи
   # Создание пользователя 'safe'
   # ========================================
-  virtualisation.libvirtd.enable = true;
-  virtualisation.waydroid.enable = true;
-  services.hardware.openrgb.enable = true;
-  users.groups.fuse = {};  # ← создаём группу `fuse` (обычно GID=101)
-  users.groups.transmission = {};  # ← создаём группу `transmission` (обычно GID=1001)
+  virtualisation.libvirtd.enable = true;   # Виртуализация через libvirt
+  virtualisation.waydroid.enable = true;   # Android-эмулятор Waydroid
+  virtualisation.docker.enable = true;     # Docker
+
+  users.groups.fuse = {};                  # Группа для FUSE
+  users.groups.transmission = {};          # Группа для Transmission
 
   users.users.safe = {
     isNormalUser = true;      # Обычный пользователь (не root)
@@ -274,6 +269,7 @@ in
       "transmission"          # Доступ к торрент-клиенту
       "fuse"                  # Включить модуль ядра fuse
       "libvirtd"
+      "docker"
     ];
   };
 
@@ -386,8 +382,7 @@ in
     pkgs.fuse
     pkgs.appimage-run
 
-
-
+    # 📁 Создание .directory и .menu для Lux Wine в меню приложений
     (pkgs.writeTextDir "share/desktop-directories/lux-wine.directory" ''
       [Desktop Entry]
       Type=Directory
@@ -418,15 +413,15 @@ in
 
   services.dbus.packages = [ pkgs.waydroid ];
   # ✅ Включить модуль ядра fuse
-  boot.kernelModules = [ "fuse" "i2c-dev" "binder_linux" "ashmem_linux" ];
-  hardware.i2c.enable = true;
+  boot.kernelModules = [ "fuse" "binder_linux" "ashmem_linux" ];
 
-security.wrappers.fusermount = {
-  source = "${pkgs.fuse}/bin/fusermount";
-  owner = "root";
-  group = lib.mkForce "wheel";  # ← Силой задаём группу, игнорируя дефолтное "root"
-  setuid = true;
-};
+
+  security.wrappers.fusermount = {
+    source = "${pkgs.fuse}/bin/fusermount";
+    owner = "root";
+    group = lib.mkForce "wheel";  # ← Силой задаём группу, игнорируя дефолтное "root"
+    setuid = true;
+  };
 
   environment.pathsToLink = [ "/bin" ];  # чтобы /bin/mount существовал
 
@@ -450,46 +445,44 @@ security.wrappers.fusermount = {
     enable = true;
     libraries = with pkgs; [
       # Системные библиотеки
-      glibc
-      stdenv.cc.cc
-      zlib
-      libx11
-      libxext
-      xorg.libXrender
-      libxcb
-      xorg.libXcursor
-      xorg.libXi
-      libxkbcommon
-      mesa
-      fontconfig
-      freetype
-      glib
-      pulseaudio
-      openssl
-      zstd
-      krb5
+      glibc                         # Стандартная библиотека C — основа всех программ в Linux
+      stdenv.cc.cc                  # Системный компилятор (обычно GCC или Clang) — нужен для динамической линковки
+      zlib                          # Библиотека сжатия данных (используется почти везде: PNG, gzip, и др.)
+      libx11                        # Базовая библиотека X11 — для взаимодействия с графической подсистемой
+      libxext                       # Расширения X11 (Shape, XTest, и др.)
+      xorg.libXrender               # Поддержка аппаратного рендеринга в X11 (сглаживание, альфа-каналы)
+      libxcb                        # Современная низкоуровневая библиотека для X11 (альтернатива Xlib)
+      xorg.libXcursor               # Управление курсорами мыши в X11
+      xorg.libXi                    # Расширение ввода X11 (мульти-клавиатура, геймпады, планшеты)
+      libxkbcommon                  # Обработка раскладок клавиатуры (Wayland/X11), особенно для Qt/Wayland
+      mesa                          # OpenGL-совместимый драйвер рендеринга (для GPU)
+      fontconfig                    # Настройка и выбор шрифтов в системе
+      freetype                      # Рендеринг шрифтов (работает в паре с fontconfig)
+      glib                          # Утилиты GLib — основа для GTK, GNOME и многих приложений
+      pulseaudio                    # Звуковая система PulseAudio (даже если используется PipeWire — совместимость)
+      openssl                       # Криптография, TLS/SSL — для HTTPS, безопасных соединений
+      zstd                          # Современный алгоритм сжатия (быстрее gzip, лучше сжатие)
+      krb5                          # Kerberos 5 — аутентификация в корпоративных сетях
 
       # Только Qt6 через kdePackages — НИЧЕГО другого Qt не добавляй!
-      kdePackages.qtbase
-      kdePackages.qtdeclarative
-      kdePackages.qtmultimedia
-      kdePackages.qt5compat
+      kdePackages.qtbase            # Ядро Qt6 — основные классы, GUI, события, виджеты
+      kdePackages.qtdeclarative     # QML и Qt Quick — декларативный UI (для современных Qt-приложений)
+      kdePackages.qtmultimedia      # Аудио/видео в Qt — воспроизведение, камеры, микрофоны
+      kdePackages.qt5compat         # Совместимость с Qt5 API — для старых приложений
 
-      nss
-      nspr
-      atk
-      alsa-lib
-      libxcrypt
-      libepoxy
-
-
-
+      nss                           # Network Security Services — криптография от Mozilla (Firefox, Thunderbird)
+      nspr                          # Netscape Portable Runtime — низкоуровневые системные API для NSS
+      atk                           # Accessibility Toolkit — доступность для инвалидов (экранное чтение и др.)
+      alsa-lib                      # Низкоуровневый звуковой интерфейс (даже если используется Pulse/PipeWire)
+      libxcrypt                     # Современная реализация crypt() — хеширование паролей
+      libepoxy                      # Упрощённый OpenGL API — для приложений, использующих OpenGL поверх EGL/GLX
     ];
   };
 
+  # ========================================
+  # 📦 Flatpak — поддержка сторонних приложений
+  # ========================================
   services.flatpak.enable = true;
-
-
 
   # ========================================
   # 📦 Версия состояния системы
