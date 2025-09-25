@@ -1,11 +1,43 @@
-{
-  config, lib,
-  pkgs,
-  ...
-}:
+  # 🧠 Как переключить ядро:
+  # 1. Раскомментируй нужное ядро ниже.
+  # 2. Выполни: sudo nixos-rebuild boot --upgrade --flake /etc/nixos#pc --option description "🎮 XanMod"
+  # 3. Перезагрузись → выбери ядро в меню.
+  #
+  # 📦 Занимает ~750 МБ на каждое ядро — программы не дублируются.
+{ config, lib, pkgs, ... }:
 
 let
   pkgs32 = import <nixpkgs> { system = "i686-linux"; };
+
+  # ✅ Выбор ядра: раскомментируй нужное
+  kernelPackages = pkgs.linuxPackages_xanmod;             # 🎮 XanMod — для гейминга (⭐⭐⭐ FPS)
+  # kernelPackages = pkgs.linuxPackages_latest;           # 🖥️ Стандартное последняя 6.16 — для стабильности (⭐ FPS)
+  # kernelPackages = pkgs.linuxPackages;                  # 🖥️ Стандартное 6.6 — для стабильности (❌ FPS)
+  # kernelPackages = pkgs.linuxPackages_zen;              # ⚖️ Баланс (⭐⭐ FPS)
+  # kernelPackages = pkgs.cachyos.linuxPackages.cachyos;  # 🚀 CachyOS — максимум FPS на i9 (⭐⭐⭐⭐ FPS) нужно собирать вручную
+
+  # ✅ Привязываем NVIDIA драйвер к выбранному ядру
+  nvidiaPackages = kernelPackages.nvidiaPackages.beta;
+
+  # --- РЕЖИМ: NVIDIA (по умолчанию) ---
+  # Раскомментируй, чтобы использовать NVIDIA
+  blacklistedKernelModules = [
+    "i915"               # Intel GPU — ты используешь NVIDIA
+    "int3515"            # Неизвестный модуль (возможно, от материнки)
+    "spd5118"            # То же
+    "acpi_cpufreq_init"  # Управление частотой CPU — может мешать performance governor
+    "radeon"             # Старый AMD GPU драйвер — не нужен
+  ];  #  Intel iGPU
+
+  # --- РЕЖИМ: INTEL ---
+  # Раскомментируй, чтобы использовать Intel (и закомментируй блок выше РЕЖИМ: NVIDIA) подключи HDMI к материнской плате
+  # boot.blacklistedKernelModules = [   # сделай nixos-rebuild switch
+  #   "nvidia"
+  #   "nouveau"
+  #   "nvidia-uvm"
+  #   "nvidia-drm"
+  #   "nvidia-modeset" "int3515" "spd5118"
+  # ];
 in
 {
   # ==============================================================
@@ -18,37 +50,30 @@ in
   ];
 
   # ==============================================================
-  # 📦 NVIDIA ДРАЙВЕР (open-source)
+  # 📦 NVIDIA ДРАЙВЕР (open-source) ЯДРО
   # ==============================================================
   hardware.nvidia = {
     open = false;  # Отключаем open-драйвер
-    package = config.boot.kernelPackages.nvidiaPackages.beta; # или beta или latest # Включаем проприетарный
+    package = nvidiaPackages; # или beta или latest # Включаем проприетарный
     nvidiaSettings = true;
     # Режимы
     modesetting.enable = true;
-    powerManagement.enable = true;   # ✅ КРИТИЧНО
+    powerManagement.enable = true;   # ✅ если false не будет сна
     powerManagement.finegrained = false;
   };
 
-  # --- РЕЖИМ: NVIDIA (по умолчанию) ---
-  # Раскомментируй, чтобы использовать NVIDIA
-  boot.blacklistedKernelModules = [ "i915" "int3515" "spd5118" ];  #  Intel iGPU
-
-  # --- РЕЖИМ: INTEL ---
-  # Раскомментируй, чтобы использовать Intel (и закомментируй блок выше РЕЖИМ: NVIDIA) подключи HDMI к материнской плате
-  # boot.blacklistedKernelModules = [   # сделай nixos-rebuild switch
-  #   "nvidia"
-  #   "nouveau"
-  #   "nvidia-uvm"
-  #   "nvidia-drm"
-  #   "nvidia-modeset" "int3515" "spd5118"
-  # ];
+  boot.kernelPatches = [ ];
+  boot.kernel.sysctl."fs.pipe-max-size" = 1048576;
 
   # Параметры ядра
   boot.kernelParams = lib.mkAfter [
+    "mitigations=off"          # +FPS, -security (для игр нормально)  снижает безопасность, но даёт прирост FPS
+    "nowatchdog"               # меньше задержек
+    "threadirqs"               # IRQ в отдельных потоках → отзывчивость
     "drm.edid_firmware=DP-2:edid/dp-edid.bin"
     #"video=DP-2:3840x2160@160" # если расскоментировать проблема со сном, если разная герцовка тут 160 в kde 144, ошибка
     "nvidia.NVreg_PreserveVideoMemoryAllocations=1"
+    "nvidia-drm.modeset=1"
     # Скрыть ядро вомманды при включении и выключении компьютера
     "quiet"
     "splash"
@@ -68,6 +93,10 @@ in
 
   # Дополнительные настройки модулей # Обязательный параметр: сохранять всю VRAM
   boot.extraModprobeConfig = ''
+    options nvidia-drm modeset=1
+    options nvidia NVreg_RegistryDwords="AllowFreesync=1; EnableFreesync=1; EnableGsync=1"
+    options nvidia-drm modeset=1
+
     options nvidia_modeset vblank_sem_control=0
     options nvidia NVreg_TemporaryFilePath=/var/tmp
     options nvidia NVreg_InteractivePowerManagement=1
@@ -77,10 +106,20 @@ in
     install ashmem_linux /sbin/modprobe --all ashmem_linux
   '';
 
-  services.xserver.displayManager.sessionCommands = ''  # Атозагрузка для HDR цветов
-    nvidia-settings --load-config-only &
-    xrandr --output DP-2 --set "Broadcast RGB" "Full" &
+  services.xserver.displayManager.sessionCommands = ''
+    # Принудительно включаем Full Range
+    xrandr --output DP-2 --set "Broadcast RGB" "Full" > /dev/null 2>&1 &
 
+    # Принудительно включаем HDR в NVIDIA
+    nvidia-settings --assign "DigitalVibrance=1024" > /dev/null 2>&1 &
+    nvidia-settings --assign "ColorRange=1" > /dev/null 2>&1 &
+    nvidia-settings --assign "ColorSpace=1" > /dev/null 2>&1 &
+    nvidia-settings --assign "ContentColorSpace=1" > /dev/null 2>&1 &
+
+    # Включаем HDR-совместимые настройки
+    nvidia-settings --assign "AllowHdmiHdcp=1" --assign "AllowHdcp=1" > /dev/null 2>&1 &
+
+    # Запускаем твой скрипт
     if [ "$XDG_SESSION_TYPE" = "x11" ] || [ "$XDG_SESSION_TYPE" = "wayland" ]; then
       (/etc/nixos/scripts/nvidia-tray.py &) &
     fi
@@ -111,20 +150,64 @@ in
   # Переменные окружения для NVIDIA (важно для Wayland и Vulkan)
   environment.sessionVariables = {
     # Для NVIDIA
+       DXVK_ASYNC = "1";  # ⚡ КРИТИЧНО для FPS в DXVK-играх
+       DXVK_STATE_CACHE_PATH = "\${XDG_CACHE_HOME:-$HOME/.cache}/dxvk";
+       VKD3D_SHADER_CACHE_PATH = "\${XDG_CACHE_HOME:-$HOME/.cache}/vkd3d";
+       WINE_FULLSCREEN_FORCE_REFRESH = "1";
+       VKD3D_CONFIG = "dxr11"; # улучшает HDR + DX12 производительность
+       PROTON_ENABLE_FSYNC = "1"; # Proton GE — он включает Fsync автоматически, но лучше явно указать.
+       PROTON_ENABLE_NVAPI = "1";
+       __GL_SHADER_DISK_CACHE = "1";
+       __GL_SHADER_DISK_CACHE_PATH = "\${XDG_CACHE_HOME:-$HOME/.cache}/nvidia";
+
+#      MANGOHUD = "1";                     # Включает MangoHud по умолчанию
+       WINEESYNC = "1";                    # Альтернатива Fsync (если Fsync не работает)
+       WINEFSYNC = "1";                    # Явное включение Fsync
+#        __GL_SYNC_TO_VBLANK = "0";          # Отключает vsync на уровне драйвера (если не нужен)
+       SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS = "0"; # Не минимизировать при потере фокуса
+       GBM_BACKEND = "nvidia-drm";         # Для Wayland + NVIDIA
+       SDL_VIDEODRIVER = "wayland";
+       SDL_MOUSE_RELATIVE = "1";
+       WINE_LARGE_ADDRESS_AWARE = "1";
+
+       # ✅ Включение VRR в KWin (обязательно для NVIDIA + Wayland)
+      KWIN_DRM_ALLOW_VRR = "1";
+      KWIN_FORCE_REPAINT_ON_VSYNC = "1";
+      KWIN_TRIPLE_BUFFER = "1";
+      KWIN_USE_BUFFER_AGE = "1";
+      KWIN_COMPOSE = "O2";
+
+
+
+
+#     __GL_THREADED_OPTIMIZATIONS = "1";  # NVIDIA: многопоточная оптимизация OpenGL    ВНИМВНИЕ!!! нет загрузки, ломает цвета в kde, fps
+#     __EGL_VENDOR_LIBRARY_FILENAMES = "nvidia.json"; # Явное указание EGL              ВНИМВНИЕ!!! нет загрузки, ломает цвета в kde, fps
+
+
+    LD_LIBRARY_PATH = "/run/opengl-driver/lib"; # если не отображается температура в виджетах
     __GLX_VENDOR_LIBRARY_NAME = "nvidia"; # Форсирует использование драйвера NVIDIA (не nouveau)
     __VK_LAYER_NV_optimus = "NVIDIA_only"; # Включает Vulkan на dGPU (важно для игр)
 
     # Для корректной работы Wayland с NVIDIA
-    WLR_NO_HARDWARE_CURSORS = "1";  # Убирает "дрожание" и шлейфы от аппаратного курсора
-    __GL_YIELD = "USLEEP";  # Уменьшает "агрессивность" драйвера NVIDIA, помогает от артефактов при переключении буферов
+    #WLR_NO_HARDWARE_CURSORS = "1";  # Убирает "дрожание" и шлейфы от аппаратного курсора
+    #__GL_YIELD = "USLEEP";  # Уменьшает "агрессивность" драйвера NVIDIA, помогает от артефактов при переключении буферов
 
      # Для Offload Mode
 #     __NV_PRIME_RENDER_OFFLOAD = "1";
 #     __NV_PRIME_RENDER_OFFLOAD_PROVIDER = "NVIDIA-G0";
 
-    # Для масштабирования (если 4K) плохо масштабирует программы
-    #GDK_SCALE = "2";
-    #QT_SCALE_FACTOR = "2";
+
+    # Эти переменные управляют масштабом GUI-приложений.
+    # Используй, если текст/иконки слишком мелкие на высоком разрешении (например, 4K).
+    # Значение 1.0 = 100%, 1.2 = 120%, 2.0 = 200% и т.д.
+#     GDK_SCALE = "2";          # 🟢 Масштаб GTK2/GTK3 приложений (например, Firefox, LibreOffice, GIMP)
+#     GDK_DPI_SCALE = "1.2";      # 🟡 Дополнительное масштабирование DPI для GTK (обычно дублирует GDK_SCALE, но можно тонко настроить)
+# #     QT_SCALE_FACTOR = "1.2";    # 🔵 Масштаб Qt5/Qt6 приложений (например, KDE, VLC, Telegram, qBittorrent)
+#     SCALE_FACTOR = "1.2";           # 🟤 Универсальное масштабирование (поддерживается не всеми приложениями, например, Electron)
+#     ELECTRON_SCALE_FACTOR = "1.2";  # 🟣 Для Electron-приложений (VSCode, Discord, Slack, Teams) — если не подхватывают сист масшт
+    XCURSOR_SIZE = "28";            # 🖱️ Размер курсора мыши (по умолчанию 24, для HiDPI можно 32, 48, 64)
+
+
 
   };
 
@@ -152,6 +235,8 @@ in
     pkgsi686Linux.mesa       # ✅ 32-битная версия
     egl-wayland              # ✅ Интеграция EGL с Wayland (для gamescope)
     xwayland                 # ✅ Запуск X11-приложений в Wayland
+    xorg.libSM
+    xorg.libXrender
     xorg.libX11                   # ✅ Основная X11 библиотека
     xorg.libXext                  # ✅ Расширения X11
     xorg.libXcursor               # ✅ Курсоры (важно для игр)
@@ -168,6 +253,8 @@ in
     libpciaccess             # ✅ Доступ к PCI-устройствам
     libva                    # ✅ Video Acceleration (VA-API)
     libvdpau                 # ✅ Video Decode and Presentation API (VDPAU)
+    vulkan-tools           # → для vkcube
+    kdePackages.kconfig    # → для kreadconfig5
 
     # === 🎨 UI, ОКНА, ДЕКОРАЦИИ (для gamescope, PortProton, Wayland) ===
     libdecor                 # ✅ Современные рамки окон в Wayland
@@ -257,6 +344,35 @@ in
     extraCompatPackages = with pkgs; [ proton-ge-bin sc-controller ];
     # =====================================
   };
+
+
+
+
+    # ✅ Применяем ядро и чёрный список
+  boot.kernelPackages = lib.mkDefault kernelPackages;
+  boot.blacklistedKernelModules = lib.mkDefault blacklistedKernelModules;
+
+
+
+  environment.etc."dconf/db/local.d/00-xwayland-vrr".text = ''
+    [org/kde/kwin/xwayland]
+    scale-monitor-framebuffer=true
+    variable-refresh-rate=true
+    native-scaling=true
+  '';
+
+  environment.etc."dconf/db/local.d/locks/xwayland-vrr".text = ''
+    /org/kde/kwin/xwayland/scale-monitor-framebuffer
+    /org/kde/kwin/xwayland/variable-refresh-rate
+    /org/kde/kwin/xwayland/native-scaling
+  '';
+
+  system.activationScripts.updateDconf = let
+    dconf = pkgs.dconf;
+  in ''
+    ${dconf}/bin/dconf update
+  '';
+
 
   # === 🧩 ДОПОЛНИТЕЛЬНЫЕ НАСТРОЙКИ (не меняй) ===
   # ...

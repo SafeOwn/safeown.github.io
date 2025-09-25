@@ -26,11 +26,16 @@
 
     # 🔄 Дублирующий нестабильный канал (альтернативный источник)
     # Может использоваться для переключения или тестирования
+#    nixpkgs-unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
     nixpkgs-unstable.url = "nixpkgs/nixos-unstable";
 
     # 🎯 Chaotic-Nyx — сторонний репозиторий с патченными и новыми пакетами
     # Включает обновлённые версии ядер, KDE, драйверов и т.д.
     chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
+#    chaotic = {
+#      url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
+#      inputs.nixpkgs.follows = "nixpkgs";
+#    };
 
     # 🎨 Stylix — темизация системы на основе base16
     # Автоматически применяет цветовую схему к GTK, консолям, Wayland
@@ -124,9 +129,10 @@
           ./configuration.nix
 
            # 💾 Автозагрузка
-          ./modules/autorun/openrgb.nix
-          ./modules/autorun/ciadpi.nix
-          ./modules/autorun/clash_verge.nix
+          ./modules/autorun/openrgb.nix           # Автозагрузка подсветки
+          ./modules/autorun/cladpi/ciadpi.nix     # Автозагрузка обход интернета CiaDpi
+          ./modules/autorun/clash_verge.nix       # Автозагрузка обход интернета Clash Vrge
+          ./modules/autorun/ds4drv/ds4drv.nix     # Автозагрузка геймпада DualShok4 (определяется как xbox, нужен для LuxWine)
 
           # 💾 Аппаратные модули
           ./modules/boot-disk.nix            # Настройка загрузки (systemd-boot)

@@ -1,4 +1,4 @@
-# /etc/nixos/modules/autorun/ciadpi.nix
+# /etc/nixos/modules/autorun/cladpi/ciadpi.nix
 { config, pkgs, ... }:
 
 let

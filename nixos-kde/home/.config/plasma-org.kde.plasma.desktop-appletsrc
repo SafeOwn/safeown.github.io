@@ -20,11 +20,11 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][125][General]
-positions={"2259x1271":["10","20","desktop:/sdd.desktop","0","11","desktop:/zapret-service.desktop","1","12","desktop:/nixos.desktop","2","0","desktop:/win10.desktop","0","2","desktop:/trash:⁄.desktop","9","19","desktop:/nixos-root.desktop","0","0","desktop:/disel.desktop","0","8","desktop:/kate-root.desktop","2","1","desktop:/загрузки.desktop","1","1","desktop:/program.desktop","0","7","desktop:/archive.desktop","0","6","desktop:/command.txt","1","11","desktop:/game.desktop","0","13","desktop:/torrent.desktop","1","0"]}
+positions={"2259x1271":["10","20","desktop:/загрузки.desktop","1","1","desktop:/torrent.desktop","1","0","desktop:/Q2RTX Client 1.8.0-master-d65761f2.desktop","0","10","desktop:/trash:⁄.desktop","9","19","desktop:/PortProton.desktop","0","14","desktop:/program.desktop","0","7","desktop:/Hollow Knight.desktop","0","15","desktop:/disel.desktop","0","8","desktop:/freedownloadmanager.desktop","0","12","desktop:/command.txt","1","11","desktop:/firefox.desktop","0","16","desktop:/xnviewmp.desktop","0","1","desktop:/zapret-service.desktop","1","12","desktop:/mpv.desktop","0","5","desktop:/game.desktop","0","13","desktop:/nixos-root.desktop","0","0","desktop:/nixos.desktop","2","0","desktop:/win10.desktop","0","2","desktop:/gog_com-Alwas_Legacy_1.desktop","0","4","desktop:/archive.desktop","0","6","desktop:/sdd.desktop","0","11","desktop:/Zapret Discord YouTube Install.desktop","0","9","desktop:/RPCS3.desktop","0","3","desktop:/kate-root.desktop","2","1"]}
 sortMode=-1
 
 [Containments][125][Wallpaper][org.kde.image][General]
-Image=/home/safe/Изображения/wallpaper.jpg
+Image=file:///nix/store/hbs2kmfbg3iys6xkms0b1ynrrbcgccsy-wallpaper
 SlidePaths=/nix/store/nxb4pq6q7mcj59b4skyaxy2dwraybpkj-breeze-6.4.4/share/wallpapers/,/etc/profiles/per-user/safe/share/wallpapers/,/run/current-system/sw/share/wallpapers/
 
 [Containments][77]
@@ -82,11 +82,11 @@ cpu/all/maximumTemperature=23,85,0
 cpu/all/usage=61,174,233
 disk/all/read=233,120,61
 disk/all/write=61,174,233
-gpu/gpu1/temperature=83,0,127
+gpu/gpu2/temperature=83,0,127
 
 [Containments][77][Applets][110][Configuration][Sensors]
-highPrioritySensorIds=["gpu/gpu1/temperature"]
-totalSensors=["gpu/gpu1/temperature"]
+highPrioritySensorIds=["gpu/gpu2/temperature"]
+totalSensors=["gpu/gpu2/temperature"]
 
 [Containments][77][Applets][115]
 immutability=1
@@ -113,7 +113,7 @@ showTitle=false
 [Containments][77][Applets][115][Configuration][SensorColors]
 cpu/all/maximumTemperature=23,85,0
 cpu/all/usage=61,174,233
-gpu/gpu1/temperature=233,61,206
+gpu/gpu2/temperature=233,61,206
 
 [Containments][77][Applets][115][Configuration][SensorLabels]
 cpu/all/maximumTemperature=Максимальная темература
@@ -267,14 +267,14 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][77][Applets][82][Applets][96][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][77][Applets][82][Applets][97]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][77][Applets][82][Applets][97][Configuration]
-PreloadWeight=31
+PreloadWeight=23
 
 [Containments][77][Applets][82][Applets][98]
 immutability=1
@@ -322,5 +322,5 @@ plugin=org.kde.plasma.showdesktop
 AppletOrder=124;79;101;104;81;100;120;115;110;82;94;95
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,abafe1a5-199a-40b5-8c5f-c461fa673918,26,file:///home/safe/Видео,file:///home/safe/nixos,file:///home/safe/Games,file:///home/safe/Sync,file:///home/safe/Pictures,file:///home/safe/zapret-discord-youtube-linux,file:///home/safe/Videos,file:///home/safe/Public,file:///home/safe/Downloads,file:///home/safe/Music,file:///home/safe/Disel,file:///home/safe/Документы,file:///home/safe/SDD,file:///home/safe/Изображения,file:///home/safe/Torrent,file:///home/safe/Archive,file:///home/safe/Windows,file:///home/safe/Templates,file:///home/safe/Documents,file:///home/safe/Общедоступные,file:///home/safe/Музыка,file:///home/safe/Programs,file:///home/safe/Рабочий стол,file:///home/safe/Шаблоны,file:///home/safe/Desktop,file:///home/safe/Загрузки
-screenMapping=desktop:/win10.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/program.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/archive.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/game.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/nixos.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/sdd.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/command.txt,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/disel.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/torrent.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/command.txt,0,abafe1a5-199a-40b5-8c5f-c461fa673918,desktop:/zapret-service.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/загрузки.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/kate-root.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/command.txt,0,a5114779-69ea-4a51-b68b-02513b79640c,desktop:/kate-root.desktop,0,abafe1a5-199a-40b5-8c5f-c461fa673918,desktop:/nixos-root.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/trash:⁄.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/zapret-service.desktop,0,a5114779-69ea-4a51-b68b-02513b79640c,desktop:/zapret-service.desktop,0,abafe1a5-199a-40b5-8c5f-c461fa673918
+itemsOnDisabledScreens=0,abafe1a5-199a-40b5-8c5f-c461fa673918,26,file:///home/safe/Музыка,file:///home/safe/Programs,file:///home/safe/Общедоступные,file:///home/safe/Desktop,file:///home/safe/Шаблоны,file:///home/safe/Рабочий стол,file:///home/safe/Загрузки,file:///home/safe/Torrent,file:///home/safe/Изображения,file:///home/safe/Templates,file:///home/safe/Windows,file:///home/safe/Archive,file:///home/safe/Documents,file:///home/safe/Videos,file:///home/safe/zapret-discord-youtube-linux,file:///home/safe/Pictures,file:///home/safe/Music,file:///home/safe/Public,file:///home/safe/Downloads,file:///home/safe/Документы,file:///home/safe/Disel,file:///home/safe/SDD,file:///home/safe/nixos,file:///home/safe/Видео,file:///home/safe/Games,file:///home/safe/Sync
+screenMapping=desktop:/game.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/trash:⁄.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/загрузки.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/command.txt,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/PortProton.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/Zapret Discord YouTube Install.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/Q2RTX Client 1.8.0-master-d65761f2.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/kate-root.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/zapret-service.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/RPCS3.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/nixos.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/archive.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/disel.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/command.txt,0,a5114779-69ea-4a51-b68b-02513b79640c,desktop:/mpv.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/command.txt,0,abafe1a5-199a-40b5-8c5f-c461fa673918,desktop:/gog_com-Alwas_Legacy_1.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/nixos-root.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/freedownloadmanager.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/sdd.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/firefox.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/program.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/kate-root.desktop,0,abafe1a5-199a-40b5-8c5f-c461fa673918,desktop:/zapret-service.desktop,0,abafe1a5-199a-40b5-8c5f-c461fa673918,desktop:/zapret-service.desktop,0,a5114779-69ea-4a51-b68b-02513b79640c,desktop:/Hollow Knight.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/torrent.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/xnviewmp.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/win10.desktop,0,99661030-7939-4851-8f68-03c67e9658e5

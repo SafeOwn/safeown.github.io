@@ -21,14 +21,21 @@
 #     imageScalingMode = "fill"; # Растягивать фон
 
     # 🎨 Цветовая схема: Gruvbox Dark Hard
-     base16Scheme = ./gruvbox-dark-hard-black.yaml;
+    base16Scheme = ./gruvbox-dark-hard-black.yaml;
 
 #     # 🖱️ Курсор: Bibata
-#     cursor = {
+#      cursor = {
 #       package = pkgs.bibata-cursors;
 #       name = "Bibata-Modern-Classic";
 #       size = 28;
-#     };
+#      };
+
+    cursor = {
+      package = pkgs.kdePackages.breeze;
+      name = "breeze_cursors";
+      size = 28;
+    };
+
 
     # 🔳 Прозрачность
     opacity = {

@@ -127,11 +127,11 @@ in
     cpu/all/usage=61,174,233
     disk/all/read=233,120,61
     disk/all/write=61,174,233
-    gpu/gpu1/temperature=83,0,127
+    gpu/gpu2/temperature=83,0,127
 
     [Containments][77][Applets][110][Configuration][Sensors]
-    highPrioritySensorIds=["gpu/gpu1/temperature"]
-    totalSensors=["gpu/gpu1/temperature"]
+    highPrioritySensorIds=["gpu/gpu2/temperature"]
+    totalSensors=["gpu/gpu2/temperature"]
 
     [Containments][77][Applets][115]
     immutability=1
@@ -158,7 +158,7 @@ in
     [Containments][77][Applets][115][Configuration][SensorColors]
     cpu/all/maximumTemperature=23,85,0
     cpu/all/usage=61,174,233
-    gpu/gpu1/temperature=233,61,206
+    gpu/gpu2/temperature=233,61,206
 
     [Containments][77][Applets][115][Configuration][SensorLabels]
     cpu/all/maximumTemperature=Максимальная темература
@@ -369,6 +369,9 @@ in
     [ScreenMapping]
     itemsOnDisabledScreens=0,abafe1a5-199a-40b5-8c5f-c461fa673918,26,file:///home/safe/Видео,file:///home/safe/nixos,file:///home/safe/Games,file:///home/safe/Sync,file:///home/safe/Pictures,file:///home/safe/zapret-discord-youtube-linux,file:///home/safe/Videos,file:///home/safe/Public,file:///home/safe/Downloads,file:///home/safe/Music,file:///home/safe/Disel,file:///home/safe/Документы,file:///home/safe/SDD,file:///home/safe/Изображения,file:///home/safe/Torrent,file:///home/safe/Archive,file:///home/safe/Windows,file:///home/safe/Templates,file:///home/safe/Documents,file:///home/safe/Общедоступные,file:///home/safe/Музыка,file:///home/safe/Programs,file:///home/safe/Рабочий стол,file:///home/safe/Шаблоны,file:///home/safe/Desktop,file:///home/safe/Загрузки
     screenMapping=desktop:/win10.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/program.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/archive.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/game.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/nixos.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/sdd.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/command.txt,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/disel.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/torrent.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/command.txt,0,abafe1a5-199a-40b5-8c5f-c461fa673918,desktop:/zapret-service.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/загрузки.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/kate-root.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/command.txt,0,a5114779-69ea-4a51-b68b-02513b79640c,desktop:/kate-root.desktop,0,abafe1a5-199a-40b5-8c5f-c461fa673918,desktop:/nixos-root.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/trash:⁄.desktop,0,99661030-7939-4851-8f68-03c67e9658e5,desktop:/zapret-service.desktop,0,a5114779-69ea-4a51-b68b-02513b79640c,desktop:/zapret-service.desktop,0,abafe1a5-199a-40b5-8c5f-c461fa673918
+
+
+
 
 
    '';

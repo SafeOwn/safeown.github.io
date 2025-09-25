@@ -8,7 +8,7 @@
 # - Брандмауэром
 # Работает в любом DE/WM, включая KDE
 # ========================================
-{pkgs, ... }:
+{pkgs, lib, ... }:
 
 {
 
@@ -238,9 +238,26 @@
 #      };
 #    };
 
+  services.resolved.enable = lib.mkForce false;
+
+
+  # ✅ Отключаем IPv6, чтобы избежать таймаутов
+  boot.kernel.sysctl = {
+    "net.ipv6.conf.all.disable_ipv6" = 1;
+    "net.ipv6.conf.default.disable_ipv6" = 1;
+  };
+
   networking = {
     networkmanager.enable = true;  # ✅ Включить интернет NetworkManager
     hostName = "nixos"; # Имя вашего компьютера в сети
+
+    networkmanager.dns = "none";  # ✅ Запрещаем NetworkManager управлять DNS
+    nameservers = [
+      "8.8.8.8"      # Google DNS
+      "1.1.1.1"      # Cloudflare DNS
+      "8.8.4.4"      # Google DNS backup
+      "208.67.222.222" # OpenDNS
+    ];
 
     # ========================================
     # 📶 Wi-Fi (через iwd)

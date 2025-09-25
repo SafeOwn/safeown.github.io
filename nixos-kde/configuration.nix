@@ -44,11 +44,14 @@ in
     (import ./modules/hardware/keyboard-touchpad.nix { inherit pkgs; })    # ⌨️ Настройка клавиатуры и тачпада
     ./modules/hardware/audi-bluetooth.nix       # 🔊 Аудио, Bluetooth, PipeWire
     ./modules/hardware/networks.nix             # 🌐 Сеть: NetworkManager, firewall
-    ./overlay_unstable.nix     # 🧪 Overlay: nixpkgs-unstable
-    ./overlay_stable.nix       # 🧱 Overlay: nixpkgs-stable
-    ./modules/users/root.nix
-    ./modules/hardware/smb.nix
-    ./modules/hardware/openrgb.nix
+    ./overlay_unstable.nix                      # 🧪 Overlay: nixpkgs-unstable
+    ./overlay_stable.nix                        # 🧱 Overlay: nixpkgs-stable
+    ./modules/users/root.nix                    # 🔧 Алиасы и bash т.д. для root
+    ./modules/hardware/smb.nix                  # 🌐 Настройка локальной сети
+    ./modules/hardware/openrgb.nix              # 🧱 Настройка подсветки
+#    ./modules/app/rustdesk.nix                # Не работает только через flatpak
+    ./modules/app/flatpak.nix
+##     ./modules/hardware/ds4drv.nix
     #./modules/zapret-discord-youtube.nix
   ];
 
@@ -270,6 +273,7 @@ in
       "fuse"                  # Включить модуль ядра fuse
       "libvirtd"
       "docker"
+      "input"
     ];
   };
 
@@ -479,10 +483,7 @@ in
     ];
   };
 
-  # ========================================
-  # 📦 Flatpak — поддержка сторонних приложений
-  # ========================================
-  services.flatpak.enable = true;
+
 
   # ========================================
   # 📦 Версия состояния системы
