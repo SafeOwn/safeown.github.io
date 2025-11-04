@@ -2,7 +2,7 @@ name: Update Playlist
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 0 1 1 *'  # Каждые 6 часов, но с 30 минутами сдвига заменить на '30 */6 * * *'
   workflow_dispatch:
 
 jobs:
