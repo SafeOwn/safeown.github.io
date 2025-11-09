@@ -19,6 +19,7 @@
   # 🌐 Сетевое обнаружение (Avahi + WSDD)
   # Чтобы компьютеры видели друг друга в сети
   # ========================================
+  networking.extraHosts = "192.168.1.1 keenetic.local";
 
   # === Avahi (mDNS) — для обнаружения .local устройств ===
   services.avahi = {
@@ -59,7 +60,7 @@
   environment.etc."nsswitch.conf".text = ''
     passwd: files systemd
     group: files systemd
-    hosts: files mdns_minimal [NOTFOUND=return] dns
+    hosts: files dns
     services: files
   '';
 
@@ -200,7 +201,9 @@
     text = ''
         if ! smbpasswd -e safe &>/dev/null; then
         echo ""
-        echo "⚠️  ВАЖНО: Не забудьте создать пароль Samba: sudo smbpasswd -a safe"
+        echo "⚠️  IMPORTANT: Don't forget to enter your password Samba: sudo smbpasswd -a safe"
+        echo "⚠️  INSTALL: docker_acestream_install.sh, docker_lampac_install.sh"
+        echo "⚠️  INSTALL: docker_torrserver_install.sh, install-and-run-play-with-mpv.sh"
         echo ""
         fi
     '';

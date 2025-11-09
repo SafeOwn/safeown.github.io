@@ -179,6 +179,8 @@ DXVK_HDR=1 ENABLE_HDR_WSI=1 %command%
 🎯 ПРОФИЛЬ 1.0: Все параметры если отключать глобально (а так не нужно вводить)
 SDL_VIDEODRIVER=wayland DXVK_HDR=1 ENABLE_HDR_WSI=1 DXVK_ASYNC=1 PROTON_ENABLE_NVAPI=1 PROTON_ENABLE_FSYNC=1 SDL_MOUSE_RELATIVE=1 __GL_SYNC_TO_VBLANK=0 __GL_SHADER_DISK_CACHE=1 __GL_SHADER_DISK_CACHE_PATH=~/.cache/nvidia WINE_LARGE_ADDRESS_AWARE=1 %command%
 
+🎯 ПРОФИЛЬ 2.0: -dx12
+
 
 Внимание!!!! Основные профили 1 и 0.0 для hdr
                         или

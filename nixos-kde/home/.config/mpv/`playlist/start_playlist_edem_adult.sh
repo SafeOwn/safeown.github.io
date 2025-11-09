@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Просто "барьер" с паролем
+pkexec bash -c 'true' || exit 1
 
 ENABLE_HDR_WSI=1 mpv \
     --vo=gpu-next \

@@ -53,7 +53,7 @@
   # Все программы, доступные глобально в PATH — отсортированы по категориям
   # ========================================
   environment.systemPackages = with pkgs; [
-
+    docker-compose
     # ========================================
     # 🔧 СИСТЕМНЫЕ УТИЛИТЫ — диагностика, железо, мониторинг
     # ========================================
@@ -377,7 +377,10 @@
     dosbox-staging              # DOS
     dosbox-x                    # DOS (расширенный)
     xemu                        # Xbox
+    xenia-canary                # Xbox 360
     x16                         # Commander X16
+
+    ruffle                      # Adobe Flash Player emulator
 
     # Эмуляторы (через RetroArch — закомментированы)
     #retroarch-full          # Мультиплатформенный фронтенд для эмуляторов (RetroArch)
@@ -437,7 +440,6 @@
     # 📥 ЗАГРУЗЧИКИ И ТОРРЕНТЫ
     # ========================================
     qbittorrent                 # Торрент-клиент qBittorrent
-    kdePackages.ktorrent        # Торрент-клиент KDE
     kdePackages.kget            # Загрузчик KDE
     #xdman
 

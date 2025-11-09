@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=StartWine
-Exec=env "/home/safe/StartWine/data/runtime/sw" %F
-Comment[en_GB]=Launch Windows applications on Linux operating systems
-Comment[ru]=Запуск приложений Windows в операционных системах Linux
-Type=Application
-MimeType=application/x-wine-extension-msp;application/x-msi;application/x-ms-dos-executable;
-Categories=Game;
-Icon=/home/safe/StartWine/data/img/gui_icons/sw_icon.svg

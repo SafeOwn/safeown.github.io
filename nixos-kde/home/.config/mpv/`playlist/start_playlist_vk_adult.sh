@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Просто "барьер" с паролем
+pkexec bash -c 'true' || exit 1
 
 ENABLE_HDR_WSI=1 mpv \
     --vo=gpu-next \
@@ -9,4 +11,4 @@ ENABLE_HDR_WSI=1 mpv \
     --prefetch-playlist=yes \
     --hwdec \
     --msg-level=ytdl_hook=debug \
-    --playlist=playlist_vk_adult.txt
+    --playlist='/home/safe/.config/mpv/`playlist/playlist_vk_adult.txt'

@@ -8,7 +8,7 @@ local msg = require 'mp.msg'
 
 msg.info("[NUCLEAR] СКРИПТ ЗАГРУЖЕН")
 
-local TIMEOUT = 8  -- секунд ждать начала воспроизведения
+local TIMEOUT = 15  -- секунд ждать начала воспроизведения
 local CHECK_INTERVAL = 2
 local timer = nil
 

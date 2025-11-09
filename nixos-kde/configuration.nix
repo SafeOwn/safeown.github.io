@@ -157,14 +157,18 @@ in
     enableDefaultPackages = true;  # Включить стандартные шрифты (DejaVu и др.)
 
     packages = with pkgs; [
+      noto-fonts          # ✅ Обязательно — полная поддержка кириллицы
+      dejavu_fonts        # ✅ Надёжный fallback
+      liberation_ttf      # ✅ Замена Arial/Times с кириллицей
+
       nerd-fonts.jetbrains-mono   # JetBrains Mono с иконками (Nerd Fonts)
     ];
 
     fontconfig = {
       defaultFonts = {
-        serif = [ "JetBrainsMono Nerd Font" ];     # Шрифт с засечками
-        sansSerif = [ "JetBrainsMono Nerd Font" ]; # Без засечек
-        monospace = [ "JetBrainsMono Nerd Font Mono" ]; # Моноширинный (для терминалов)
+        serif = [ "DejaVu Serif" "Noto Serif" ];
+        sansSerif = [ "DejaVu Sans" "Noto Sans" ];
+        monospace = [ "JetBrainsMono Nerd Font Mono" "DejaVu Sans Mono" ];
       };
     };
   };

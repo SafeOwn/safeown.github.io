@@ -10,4 +10,6 @@ ENABLE_HDR_WSI=1 mpv \
     --msg-level=EPGTV=debug \
     --hwdec \
     --msg-level=ytdl_hook=debug \
+    --no-save-position-on-quit \
+    --no-resume-playback \
     --playlist=https://safeown.github.io/iptv-playlist-edem/EdemTV-main.m3u

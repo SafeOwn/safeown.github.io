@@ -167,20 +167,29 @@
   # ========================================
   # 📁 Принудительная синхронизация .config (декларативно, как в Nix)
   # ========================================
-  home.activation.copyConfig = lib.mkOrder 500 ''
-    echo "🔁 Принудительно применяем ~/.config из шаблона..."
+#   home.activation.copyConfig = lib.mkOrder 500 ''
+#     echo "🔁 Принудительно применяем ~/.config из шаблона..."
+#
+#     mkdir -p "$HOME/.config"
+#
+#     # Копируем всё рекурсивно, с перезаписью, без подтверждений
+#     cp -rLf "${./home/.config}/." "$HOME/.config/" 2>/dev/null || true
+#
+#     # Фиксим права на всякий случай
+#     chown -R "$(whoami)" "$HOME/.config" 2>/dev/null || true
+#     chmod -R u+rw "$HOME/.config" 2>/dev/null || true
+#
+#     echo "✅ ~/.config успешно синхронизирован"
+#   '';
 
-    mkdir -p "$HOME/.config"
-
-    # Копируем всё рекурсивно, с перезаписью, без подтверждений
-    cp -rLf "${./home/.config}/." "$HOME/.config/" 2>/dev/null || true
-
-    # Фиксим права на всякий случай
-    chown -R "$(whoami)" "$HOME/.config" 2>/dev/null || true
-    chmod -R u+rw "$HOME/.config" 2>/dev/null || true
-
-    echo "✅ ~/.config успешно синхронизирован"
-  '';
+    # Второй метот копирования после загрузки kde
+#   home.file.".config/autostart/copy-config.desktop".text = ''
+#     [Desktop Entry]
+#     Name=Copy config
+#     Exec=sh -c 'cp -rLf "${./home/.config}/." "$HOME/.config/" 2>/dev/null; chmod -R u+rw "$HOME/.config"'
+#     Type=Application
+#     NoDisplay=true
+#   '';
 
 
   # ========================================
@@ -239,6 +248,17 @@
   home.file."Рабочий стол/kate-root.desktop".executable = false;
 
 
+
+  # ========================================
+  # 🎮 Запуск x11 игр на wayland (game-run)
+  # ========================================
+  home.file.".local/bin/game-run".text = ''
+    #!/usr/bin/env sh
+    exec env GDK_BACKEND=x11 SDL_VIDEODRIVER=x11 QT_QPA_PLATFORM=xcb steam-run "$@"
+  '';
+  home.file.".local/bin/game-run".executable = true;
+
+
   # ========================================
   # 📦 Версия home-manager
   # ========================================
@@ -247,5 +267,5 @@
   # ========================================
   # 🔧 Включение home-manager
   # ========================================
-  programs.home-manager.enable = true;
+  #programs.home-manager.enable = true;
 }

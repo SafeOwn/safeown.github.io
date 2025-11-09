@@ -10,4 +10,5 @@ ENABLE_HDR_WSI=1 mpv \
     --ytdl-raw-options-append=proxy=http://127.0.0.1:7897 \
     --hwdec \
     --msg-level=ytdl_hook=debug \
-    --playlist=playlist_youtube.txt
+    --ytdl-raw-options="cookies-from-browser=firefox" \
+    --playlist='/home/safe/.config/mpv/`playlist/playlist_youtube.txt'

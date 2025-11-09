@@ -133,6 +133,9 @@
           ./modules/autorun/cladpi/ciadpi.nix     # Автозагрузка обход интернета CiaDpi
           ./modules/autorun/clash_verge.nix       # Автозагрузка обход интернета Clash Vrge
           ./modules/autorun/ds4drv/ds4drv.nix     # Автозагрузка геймпада DualShok4 (определяется как xbox, нужен для LuxWine)
+#           ./modules/autorun/lampac.nix            # Автозагрузка Lampac
+#           ./modules/autorun/play-with-mpv.nix     # Автозагрузка расширения https://addons.mozilla.org/ru/firefox/addon/play-with-mpv/
+
 
           # 💾 Аппаратные модули
           ./modules/boot-disk.nix            # Настройка загрузки (systemd-boot)
@@ -155,6 +158,16 @@
           # ✅ ИСПОЛЬЗУЕТСЯ: sddm (будет включен в configuration.nix)
           # chaotic.nixosModules.default  # Включает sddm и другие сервисы Chaotic-Nyx
 
+          # 💥 УДАЛЕНИЕ БЭКАПОВ ДО HM
+          {
+            system.activationScripts.prune-backups = {
+              text = ''
+                find /home/safe -name "*.backup" -delete 2>/dev/null || true
+              '';
+              deps = [ "users" ];
+            };
+          }
+
           # 🏠 Home Manager — управление пользовательскими настройками
            home-manager.nixosModules.home-manager
 
@@ -173,9 +186,6 @@
               home-manager.useUserPackages = true;         # Добавлять пакеты из home.packages
               home-manager.extraSpecialArgs = { inherit inputs lockscreen-wallpaper; };  # Передаём inputs в home.nix
               home-manager.users.safe = import ./home.nix; # Конфиг пользователя safe
-
-              # 🔧 Отключаем системный сервис HM — он не должен тормозить загрузку
-              systemd.services."home-manager-safe".enable = lib.mkForce false;
             }
           )
         ];
