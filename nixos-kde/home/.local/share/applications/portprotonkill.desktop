@@ -1,8 +1,0 @@
-[Desktop Entry]
-Icon=ru.linux_gaming.PortProton
-Exec=bash -c pkill -9 -f "gamescopereaper"; pkill -9 -f "portproton"
-Terminal=false
-Type=Application
-Categories=Lux Wine;
-Name=Закрыть всё PortProton
-

@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Lampac (с открытием в Firefox)
-Comment=Запускает Lampac и открывает http://127.0.0.1:9118 в Firefox
-Exec=bash -c 'firefox "http://127.0.0.1:9118/"'
-Icon=/home/safe/.local/share/desktop-directories/icon/lampac.png
-Terminal=false
-Type=Application
-Categories=Ip tv;
-StartupNotify=false
