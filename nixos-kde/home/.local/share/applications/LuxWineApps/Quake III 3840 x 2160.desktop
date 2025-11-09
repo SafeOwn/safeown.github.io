@@ -1,0 +1,115 @@
+[Desktop Entry]
+Name=Quake III 3840 x 2160
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe' +set r_fullscreen "1" +set r_customaspect "1" +set r_customwidth "3840" +set r_customheight "2160" +set r_mode "-1"
+Type=Application
+Categories=Lux Wine Apps
+StartupNotify=true
+Icon=Quake III
+Actions=rmapp;config;openpfx;debug;cmd;explorer;control;regedit;winecfg;taskmgr;uninstaller;winetricks;clearpfx;pfxbackup;pfxrestore;killwine;version;init
+
+[Desktop Action rmapp]
+Name=Remove shortcut
+Name[ru_RU]=Удалить ярлык
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -rmapp 'Quake III 3840 x 2160'
+
+[Desktop Action config]
+Name=Settings
+Name[ru_RU]=Настройки
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -config '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe' +set r_fullscreen "1" +set r_customaspect "1" +set r_customwidth "3840" +set r_customheight "2160" +set r_mode "-1"
+
+[Desktop Action openpfx]
+Name=Open drive C:\\\
+Name[ru_RU]=Открыть диск C:\\\
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -openpfx '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe'
+
+[Desktop Action debug]
+Name=DEBUG
+Name[ru_RU]=ДЕБАГ
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -debug '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe' +set r_fullscreen "1" +set r_customaspect "1" +set r_customwidth "3840" +set r_customheight "2160" +set r_mode "-1"
+
+[Desktop Action cmd]
+Name=Open in CMD
+Name[ru_RU]=Открыть в CMD
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -cmd '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe' +set r_fullscreen "1" +set r_customaspect "1" +set r_customwidth "3840" +set r_customheight "2160" +set r_mode "-1"
+
+[Desktop Action explorer]
+Name=Explorer
+Name[ru_RU]=Рабочий стол
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -explorer '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe'
+
+[Desktop Action control]
+Name=Control panel
+Name[ru_RU]=Панель управления
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -control '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe'
+
+[Desktop Action regedit]
+Name=Registry editor
+Name[ru_RU]=Редактор реестра
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -regedit '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe'
+
+[Desktop Action winecfg]
+Name=Wine settings
+Name[ru_RU]=Настройки Wine
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -winecfg '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe'
+
+[Desktop Action taskmgr]
+Name=Task manager
+Name[ru_RU]=Диспетчер задач
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -taskmgr '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe'
+
+[Desktop Action uninstaller]
+Name=Wine uninstaller
+Name[ru_RU]=Устан/удал программ
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -uninstaller '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe'
+
+[Desktop Action winetricks]
+Name=Winetricks
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -winetricks '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe'
+
+[Desktop Action clearpfx]
+Name=Clear prefix
+Name[ru_RU]=Очистить префикс
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -clearpfx '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe'
+
+[Desktop Action pfxbackup]
+Name=Create prefix backup
+Name[ru_RU]=Создать бекап префикса
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -pfxbackup '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe'
+
+[Desktop Action pfxrestore]
+Name=Restore prefix from backup
+Name[ru_RU]=Восстановить префикс
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -pfxrestore '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe'
+
+[Desktop Action killwine]
+Name=Kill Wine processes
+Name[ru_RU]=Убить процессы Wine
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -killwine '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe'
+
+[Desktop Action version]
+Name=Version info
+Name[ru_RU]=Версия
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -version '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe'
+
+[Desktop Action init]
+Name=Forced initialization
+Name[ru_RU]=Принудительная инициализация
+Icon=Quake III
+Exec='/home/safe/.local/share/LuxWine/bin/lwrun' -init '/home/safe/.local/share/LuxWine/wprefixes/defprefix/dosdevices/d:/Quake III Arena/quake3.exe'

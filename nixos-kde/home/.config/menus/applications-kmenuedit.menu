@@ -1,0 +1,95 @@
+<!DOCTYPE Menu PUBLIC '-//freedesktop//DTD Menu 1.0//EN' 'http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd'>
+<Menu>
+ <Layout>
+  <Merge type="menus"/>
+  <Menuname>Lux Wine</Menuname>
+  <Menuname>Lux Wine Apps</Menuname>
+  <Menuname>Ip tv</Menuname>
+  <Menuname>Emulator</Menuname>
+  <Menuname>Waydroid</Menuname>
+  <Menuname>Graphics</Menuname>
+  <Menuname>Games</Menuname>
+  <Menuname>Internet</Menuname>
+  <Menuname>Multimedia</Menuname>
+  <Menuname>Science</Menuname>
+  <Menuname>Education</Menuname>
+  <Menuname>Office</Menuname>
+  <Menuname>Development</Menuname>
+  <Menuname>System</Menuname>
+  <Menuname>Utilities</Menuname>
+  <Menuname>Help</Menuname>
+  <Menuname>Applications</Menuname>
+ </Layout>
+ <!-- Категория "Lux Wine" — включает все .desktop файлы с Categories=LuxWine; -->
+ <Menu>
+  <Name>Lux Wine</Name>
+  <Directory>LuxWine.directory</Directory>
+  <Include>
+   <Category>Lux Wine</Category>
+  </Include>
+ </Menu>
+ <!-- Категория "Lux Wine Apps" — включает все .desktop файлы с Categories=LuxWineApps; -->
+ <Menu>
+  <Name>Lux Wine Apps</Name>
+  <Directory>LuxWineApps.directory</Directory>
+  <Include>
+   <Category>Lux Wine Apps</Category>
+  </Include>
+ </Menu>
+
+ <!-- Категория "Ip tv" — включает все .desktop файлы с Categories=LuxWineApps; -->
+ <Menu>
+  <Name>Ip tv</Name>
+  <Directory>Iptv.directory</Directory>
+  <Include>
+   <Category>Ip tv</Category>
+  </Include>
+ </Menu>
+
+ <!-- Категория "Emulator" — включает все .desktop файлы с Categories=Emulator; -->
+ <Menu>
+  <Name>Emulator</Name>
+  <Directory>Emulator.directory</Directory>
+  <Include>
+   <Category>Emulator</Category>
+  </Include>
+ </Menu>
+ <Menu>
+  <Name>Games</Name>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Arcade</Menuname>
+   <Menuname>Kidsgames</Menuname>
+   <Menuname>Card</Menuname>
+   <Menuname>Logic</Menuname>
+   <Menuname>Board</Menuname>
+   <Menuname>TacticStrategy</Menuname>
+   <Merge type="files"/>
+   <Filename>io.github.antimicrox.antimicrox.desktop</Filename>
+   <Filename>bsnes.desktop</Filename>
+   <Filename>com.dosbox_x.DOSBox-X.desktop</Filename>
+   <Filename>flare.desktop</Filename>
+   <Filename>com.heroicgameslauncher.hgl.desktop</Filename>
+   <Filename>hydralauncher.desktop</Filename>
+   <Filename>net.lutris.Lutris.desktop</Filename>
+   <Filename>ru.linux_gaming.PortProton.desktop</Filename>
+   <Filename>protonup-qt.desktop</Filename>
+   <Filename>Q2RTX Client 1.8.0-master-d65761f2.desktop</Filename>
+   <Filename>qjoypad.desktop</Filename>
+   <Filename>Quake II RTX.desktop</Filename>
+   <Filename>steam.desktop</Filename>
+   <Filename>steam-lw.desktop</Filename>
+   <Filename>Untitled Goose Game.desktop</Filename>
+   <Filename>page.kramo.Cartridges.desktop</Filename>
+  </Layout>
+  <Exclude>
+   <Filename>ru.launcher.StartWine.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>.hidden</Name>
+  <Include>
+   <Filename>ru.launcher.StartWine.desktop</Filename>
+  </Include>
+ </Menu>
+</Menu>

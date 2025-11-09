@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=playlist_webtorrent
+Comment=Просмотр playlist_webtorrent
+Exec=bash '/home/safe/.config/mpv/`playlist/start_playlist_webtorrent.sh'
+Icon=/home/safe/.local/share/desktop-directories/icon/webtorrent.png
+Terminal=false
+StartupNotify=false
+X-SingleMainWindow=true
+Categories=Ip tv;
+

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Hydra
+Exec=tsocks hydralauncher
+Terminal=false
+Type=Application
+Icon=hydralauncher
+StartupWMClass=Hydra
+X-AppImage-Version=3.6.3
+Comment=Hydra через прокси Clash Verge
+MimeType=x-scheme-handler/hydralauncher;
+Categories=Game;

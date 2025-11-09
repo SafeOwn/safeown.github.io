@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=playlist_youtube
+Comment=Просмотр playlist_youtube
+Exec=bash '/home/safe/.config/mpv/`playlist/start_playlist_youtube.sh'
+Icon=/home/safe/.local/share/desktop-directories/icon/youtube.png
+Terminal=false
+StartupNotify=false
+X-SingleMainWindow=true
+Categories=Ip tv;
+
