@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=TorrServer WEB (с открытием в Firefox)
-Comment=TorrServer WEB http://127.0.0.1:8090 в Firefox
-Exec=bash -c 'firefox "http://127.0.0.1:8090/"'
-Icon=/home/safe/.local/share/desktop-directories/icon/torrserver.png
-Terminal=false
-Type=Application
-Categories=Ip tv;
-StartupNotify=false
