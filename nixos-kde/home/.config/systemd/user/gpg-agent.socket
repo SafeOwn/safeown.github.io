@@ -1,0 +1,13 @@
+[Install]
+WantedBy=sockets.target
+
+[Socket]
+DirectoryMode=0700
+FileDescriptorName=std
+ListenStream=%t/gnupg/S.gpg-agent
+Service=gpg-agent.service
+SocketMode=0600
+
+[Unit]
+Description=GnuPG cryptographic agent and passphrase cache
+Documentation=man:gpg-agent(1)

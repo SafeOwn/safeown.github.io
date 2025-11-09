@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Lampac admin (с открытием в Firefox)
+Comment=Пароль: docker exec -it lampac cat /app/passwd
+Exec=bash -c 'firefox "http://127.0.0.1:9118/admin"'
+Icon=/home/safe/.local/share/desktop-directories/icon/lampac.png
+Terminal=false
+Type=Application
+Categories=Ip tv;
+StartupNotify=false

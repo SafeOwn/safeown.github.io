@@ -1,0 +1,42 @@
+privoxy
+
+
+Создаем
+nano ~/.config/privoxy/config
+
+
+# Основные настройки
+user-manual /usr/share/doc/privoxy/user-manual/
+confdir /etc/privoxy
+logdir /tmp
+
+# Перенаправлять ВСЁ через ваш SOCKS5-прокси (ciadpi)
+forward-socks5 / 127.0.0.1:1080 .
+
+# Порт, на котором будет слушать HTTP-прокси
+listen-address  127.0.0.1:1081
+
+# Логи (опционально)
+logfile privoxy.log
+debug   1 # Запросы и соединения
+debug   2 # Логика
+debug   4 # Разбор заголовков
+debug   8 # Матчинг фильтров
+debug  16 # Вербозный дебаг
+debug  32 # Статистика
+debug  64 # Данные конфига
+debug 128 # Данные фильтров
+debug 256 # Данные запросов
+debug 512 # Данные ответов
+
+Запускаем
+privoxy ~/.config/privoxy/config
+
+Проверяем
+ss -tuln | grep 1081
+curl --proxy http://127.0.0.1:1081 https://httpbin.org/ip
+
+
+
+был socks5://127.0.0.1:1080 стал http://127.0.0.1:1081
+    Везде используем http://127.0.0.1:1081

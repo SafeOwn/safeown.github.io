@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Clash Verge
+Exec=/nix/store/380v6lb4syvdlsygc3jvmpsc1672c2v9-clash-verge-rev-2.4.0/bin/.clash-verge-wrapped %u
+Terminal=false
+NoDisplay=true
+MimeType=x-scheme-handler/clash-verge;x-scheme-handler/clash

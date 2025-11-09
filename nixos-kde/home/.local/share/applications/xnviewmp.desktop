@@ -1,0 +1,20 @@
+[Desktop Entry]
+Categories=Graphics;2DGraphics;Viewer;
+Comment[ru_RU]=FDM is a powerful modern download accelerator and organizer
+Comment=FDM is a powerful modern download accelerator and organizer
+Exec=xnviewmp %F
+GenericName[ru_RU]=
+GenericName=
+Icon=xnviewmp
+Keywords=download;manager;free;fdm;
+MimeType=image/bmp;image/gif;image/jpeg;image/jpg;image/png;image/tiff;image/webp;image/x-ico;image/x-portable-pixmap;image/x-xbitmap;image/svg+xml;image/x-psd;image/x-tga;image/x-exr;image/x-jng;image/x-mng;image/x-pcx;image/x-xcf;image/x-xpixmap;image/x-xwindowdump;image/x-rgb;image/x-pict;image/x-cmu-raster;image/x-sun-raster;image/x-xcursor;
+Name[ru_RU]=XnView MP
+Name=XnView MP
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+StartupWMClass=XnViewMP
