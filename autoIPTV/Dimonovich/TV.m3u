@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptvx.one/EPG,http://epg.one/epg2.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz,https://ry7wpjhjwylg7u7.vxdgroup-84jzo19.xyz/tv4epg.xml"
+#EXTM3U url-tvg="https://iptvx.one/EPG,http://epg.one/epg2.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz,https://ry7wpjhjwylg7u7.vxdgroup-84jzo19.xyz/tv4epg.xml,https://ry7wpjhjwylg7u7.vxdgroup-84jzo19.xyz/tv4ru.xml"
 
 
 #EXTINF:-1 group-title="🔺 INFO 🔺" tvg-logo="https://i.postimg.cc/76BWD3tc/1.gif",Обновление:08.12.2025
@@ -20,7 +20,7 @@ http://194.26.229.213/chdtv_rock/index.m3u8
 http://194.26.229.213/souzmultfilm/index.m3u8
 #EXTINF:-1 group-title="TEST ⓵" tvg-logo="https://i.postimg.cc/BvqS8HVV/1.png",Чип и Дейл
 http://194.26.229.213/chip-n-dale-rescue-rangers/index.m3u8
-#EXTINF:-1 group-title="TEST ⓵" tvg-logo="https://i.ibb.co/mVR1d4qx/hdlogo.png",TV4 Русское Кино HD
+#EXTINF:-1 group-title="TEST ⓵" tvg-logo="https://i.ibb.co/mVR1d4qx/hdlogo.png" tvg-id="TV4RU",TV4 Русское Кино HD
 https://dvr3.vokkavideo.xyz/TV4RUKINO/index.m3u8
 #EXTINF:-1 group-title="TEST ⓵" tvg-logo="https://i.ibb.co/FbRDGTB9/tv4hd.png",TV4 HD
 https://dvr3.vokkavideo.xyz/TV4HD/index.m3u8
@@ -619,7 +619,7 @@ http://185.223.125.136:8005/vn?token=test
 http://185.223.125.136:8005/vh?token=test
 #EXTINF:-1 group-title="Interlink",Viasat Explore
 http://185.223.125.136:8005/ve?token=test
-#EXTINF:-1 group-title="Interlink",Терра
+#EXTINF:-1 group-title="Interlink",Terra
 http://185.223.125.136:8005/ng?token=test
 #EXTINF:-1 group-title="Interlink",Телекафе
 http://185.223.125.136:8005/krik?token=test
@@ -8319,3 +8319,4 @@ http://127.0.0.1:6878/ace/getstream?infohash=ce9dfe7efa2fd304947f8b57554a524479b
 http://127.0.0.1:6878/ace/getstream?infohash=ab4f0c0791a41b00cf45e26e3a783314750481ac
 #EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",[magenta] Sport 11 - myTeamTV
 http://127.0.0.1:6878/ace/getstream?infohash=348ef293fa3338b18559c37f96b7ce1861fa4f11
+ 
