@@ -127,6 +127,10 @@ https://fl1001.bozztv.com/ushba28/tracks-v1a1/mono.m3u8
 https://fl1001.bozztv.com/ushba29/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="no_epg"  tvg-logo="https://cf2.ppt-online.org/files2/slide/q/QawGdDELZ6zF4AUJkR9iCylu1jvxHKWM50NoSYtsc/slide-0.jpg" , Документалка 3
 https://fl1001.bozztv.com/ushba38/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="no_epg"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Документалка 5
+https://fl1001.bozztv.com/ushba30/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="no_epg"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Документалка 8 
+https://fl1001.bozztv.com/ushba68/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="no_epg"  tvg-logo="https://cinemaplex.ru/wp-content/uploads/2018/03/unnamed-optimized.jpg" , Star Media
 https://fl1001.bozztv.com/ushba4/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="krasnaya-linia" , Красная линия 
@@ -329,6 +333,10 @@ http://hls127.freeott.top:8080/Kuhnya_TV/mono.m3u8
 http://hls127.freeott.top:8080/Kluch/mono.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="sovsek" ,Совершенно секретно
 http://hls127.freeott.top:8080/Sovershenno_Sekretno/mono.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-logo="https://i.ibb.co/nMsMD0Q4/image-34.png" , Следствие вели... 
+https://cdn-dvr.ntv.ru/sledstvie/tracks-v1a1/rewind-240.ts.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="no_epg"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Военный
+http://fl1001.bozztv.com/ushba16/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="sts"  tvg-logo="https://app.playlistbox.com/icon/90B7b8PKO54QkGZ6lqxNEqAYzmrVWyjg.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="СТС", СТС
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="tnt"  tvg-logo="https://app.playlistbox.com/icon/W82YEm9Vw51D0poVvmoNr4jQPOGd7KJb.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="ТНТ", ТНТ
@@ -373,6 +381,20 @@ http://hls127.freeott.top:8080/Nostalgiya/mono.m3u8
 http://hls127.freeott.top:8080/Teatr/mono.m3u8
 #EXTINF:-1  group-title="Развлекательные" ,alpha Funny 
 http://195.9.195.3:8080/hls/206963.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-logo="https://i.ibb.co/4ZwcfR6P/image-28.png" ,Кибер Задов
+http://hls.goodgame.ru:8080/hls/210558.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-logo="https://i.ibb.co/zhXqdPF5/image-11.png" ,🔴 Британский юмор 😐
+http://hls.goodgame.ru:8080/hls/218490.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-logo="https://i.ibb.co/CpYZFf54/image-38.png" , Ты супер !
+https://cdn-dvr.ntv.ru/Super/tracks-v1a1/rewind-240.ts.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/zTDczZ19/image-15.png" , Ералаш
+http://fl1001.bozztv.com/ushba8/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/zTDczZ19/image-15.png" , Ералаш 2
+https://fl1001.bozztv.com/ushba10/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Приколы 1
+https://fl1001.bozztv.com/ushba11/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Приколы 2
+https://fl1001.bozztv.com/ushba20/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Кларксон&Ко"  tvg-logo="https://i.postimg.cc/tgzRWnjf/1.jpg" ,01x1
 https://s2.gencit.info/content/stream/films/the.grand.tour.s01e01.webrip.1080p.rus.eng.alexfilm_252866/hls/1080/index.m3u8
 #EXTINF:-1  group-title="Кларксон&Ко"  tvg-logo="https://i.postimg.cc/tgzRWnjf/1.jpg" ,01x2
@@ -1057,6 +1079,60 @@ http://195.9.195.3:8080/hls/204709.m3u8
 http://195.9.195.3:8080/hls/163253.m3u8
 #EXTINF:-1  group-title="Кино и сериалы" ,Millenniym UHD
 http://195.9.195.3:8080/hls/206461.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/zhXqdPF5/image-11.png" , Новый Русский
+https://dvr3.vokkavideo.xyz/NEWRUSSIAHD/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/zhXqdPF5/image-11.png" ,SSA Film
+https://fl1003.bozztv.com/ushba-films-c/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/zhXqdPF5/image-11.png" ,Cinema Test
+https://rpn3.bozztv.com/dvrfl07/ushba64/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="muvitv"  tvg-logo="https://i.ibb.co/zhXqdPF5/image-11.png" ,МУви ТВ
+http://cdn.voka.tv/live/5007-req_5k_v5.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/zhXqdPF5/image-11.png" , TV4 SD
+https://dvr3.vokkavideo.xyz/TV4SD/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/gG2bNbq/image-30.png" , Скрипач ТВ
+https://live21.bozztv.com/akamaissh101/ssh101/scripachmovie/chunks.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/zhXqdPF5/image-11.png" , HTV HD
+https://dvr3.vokkavideo.xyz/HTVHD/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/zhXqdPF5/image-11.png" , Кинозал
+http://185.57.68.33/237/mpegts
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/994jvr6f/image-4.png" ,Film Best
+http://hls.goodgame.ru:8080/hls/212682.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/DHfCmsV5/image-29.png" ,Katastroff
+http://hls.goodgame.ru:8080/hls/208789.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/q3DYpX5n/image-9.png" ,Zubrilom Franchise
+http://hls.goodgame.ru:8080/hls/218193.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/q3DYpX5n/image-9.png" ,Zubrilom Film 2
+http://hls.goodgame.ru:8080/hls/218251.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/N6sYPbwM/image-11.png" ,Восход ТВ
+http://hls.goodgame.ru:8080/hls/202997.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/jZkZJZ5z/image-48.png" ,ВИДЕОСАЛОН VHS
+http://hls.goodgame.ru:8080/hls/175764.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/m5xtPMJq/image-16.png" , Kino Mix
+http://hls.goodgame.ru:8080/hls/216612.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/hFs2QPrZ/image-35.png" , FMC 
+http://hls.goodgame.ru:8080/hls/187741.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/BH5Kfx36/image-4.png" , Logovo Films
+https://stream.ushba.tv/akamaiushba/ushba-films-a/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/MDMY0JNB/image-43.png" , CyberTV_1
+http://hls.goodgame.ru:8080/hls/214454.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/MDMY0JNB/image-43.png" , CyberTV_2
+http://hls.goodgame.ru:8080/hls/214433.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/MDMY0JNB/image-43.png" , CyberTV_3
+http://hls.goodgame.ru:8080/hls/214421.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/zhXqdPF5/image-11.png" ,LollyDragon
+http://hls.goodgame.ru:8080/hls/183946_prem.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/zhXqdPF5/image-11.png" , P Boy Podpischik
+http://hls.goodgame.ru:8080/manifest/40391_master.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/zhXqdPF5/image-11.png" ,AlexVira
+http://hls.goodgame.ru:8080/hls/106103.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/MDG9Q7YH/image-36.png" , MGM
+https://autopilot.catcast.tv/content/44051/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/3ycBZqx3/image-14.png" , PRO100 TV
+http://sirius.greenhosting.ru/Pro100tvRu/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/4nV26ShC/image-4.png" , Смотрим Кино и сериалы
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v5a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="strk" , СТРК HD
+http://sochinskayatrk.ru/hdtv/hls/CTPK_400/playlist.m3u8
 #EXTINF:-1  group-title="Кино и сериалы" ,Восход ТВ
 http://195.9.195.3:8080/manifest/202997_master.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="bolt" ,Bolt
@@ -1185,6 +1261,14 @@ http://hls127.freeott.top:8080/Clarity4K_Gamefilm/mono.m3u8
 http://hls127.freeott.top:8080/Clarity4K_Kosmomir/mono.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="clarity4k-netflix" ,Clarity4K Netflix
 http://hls127.freeott.top:8080/Clarity4K_Netflix/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision
+https://fl1001.bozztv.com/ushba-rvision/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision Motor
+https://fl1001.bozztv.com/ushba-rvisionmotor/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision Movies
+https://fl1001.bozztv.com/ushba-rvisionmovies/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision Classic
+https://fl1001.bozztv.com/ushba-rvisionclassic/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-12-01/f5/aa/f5aa2042f29407be8b49bdcb9246eabf.jpg" , Щенячий Патруль: Рождество (2025)
 https://river-1.rutube.ru/hls-vod/Mx_fs6xoLnxdDNJo-HBtCg/1765648720/3282/0x5000c500fa77c53a/50febe6c3cc7415a873a4a7a08310704.mp4.m3u8?i=1920x1080_3554
 #EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rutube.ru/video/2025-12-01/74/af/74af1cfa9c898c427042cb790033740d.jpg" , Домашняя камера (2025)
@@ -10283,6 +10367,80 @@ https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u
 https://lotus.stingray.com/manifest/ose-190ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1  group-title="Музыкальные" ,Stingray Urban Beat
 https://lotus.stingray.com/manifest/ose-133ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch314/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch325/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch345/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch329/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch302/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch340/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch339/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch304/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch348/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch319/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch318/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch312/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch328/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch330/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch331/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch341/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch350/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch343/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch332/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch305/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch338/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch347/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch351/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch335/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch346/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch316/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch327/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://185.57.68.33/232/mpegts
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch349/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch315/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch303/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch344/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://iptv.prosto.tv:7000/ch336/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
+http://camsecure.co/HLS/boatq1.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00549.jpg" ,Avia Stream
+http://iptv.prosto.tv:7000/ch306/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00307.jpg" ,Relaxon
+http://iptv.prosto.tv:7000/ch317/video.m3u8
+#EXTINF:-1  group-title="Релакс"  tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500027DS_20240520T212949SQUARE.png" ,ZenLIFE by Stingray
+https://d27toxk63drks3.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-pibqoi1zv0ree/manifest/zenlife-zen001-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=USBD3500027DS
 #EXTINF:-1  group-title="Релакс" , Релакс
 http://185.57.68.33/232/mpegts
 #EXTINF:-1  group-title="Релакс"  tvg-id="no_epg"  tvg-logo="https://i.pinimg.com/736x/40/5c/09/405c093cd19c8f0820329972b5deff0f.jpg" , Cozy Vibes
@@ -12027,436 +12185,4 @@ http://178.212.71.253:8000/play/77/index.m3u8
 http://178.212.71.253:8000/play/47/index.m3u8
 #EXTINF:-1  group-title="Крым"  tvg-id="multimuzyka" ,Мультимузыка
 http://178.212.71.253:8000/play/116/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="BOX Apocalypse",BOX Apocalypse 
-http://50.7.28.226/8441/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="box-fantasy"   tvg-name="BOX Fantasy",BOX Fantasy 
-http://50.7.28.226/8430/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="box-gangster"   tvg-name="BOX Gangster",BOX Gangster 
-http://50.7.28.226/8985/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="box-m-serial"   tvg-name="BOX M.Serial",BOX M.Serial 
-http://50.7.28.226/8988/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="box-spy"   tvg-name="BOX Spy",BOX Spy 
-http://50.7.28.226/8354/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="box-zombie"   tvg-name="BOX Zombie",BOX Zombie 
-http://50.7.28.226/8418/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="box-sssr-4k"   tvg-name="BOX СССР 4K",BOX СССР 4K
-http://50.7.28.226/8445/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="BOX Autotrend",BOX Autotrend 
-http://50.7.28.226/8440/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="BOX Lo-Fi",BOX Lo-Fi 
-http://50.7.28.226/8446/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="box-myday"   tvg-name="BOX Mayday HD",BOX Mayday HD 
-http://50.7.28.226/8434/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="box-stories"   tvg-name="BOX Stories",BOX Stories 
-http://50.7.28.226/8429/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="box-travel"   tvg-name="BOX TRAVEL",BOX TRAVEL 
-http://50.7.28.226/8416/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="box-ultrastars-4k"   tvg-name="BOX ULTRASTARS 4K",BOX ULTRASTARS 4K 
-http://50.7.28.226/8444/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="cineman"   tvg-name="CineMan",CineMan 
-http://50.7.28.226/9121/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="CineMan 1",CineMan 1 
-http://50.7.28.226/8821/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="CineMan 10",CineMan 10 
-http://50.7.28.226/8960/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="CineMan 2",CineMan 2 
-http://50.7.28.226/8824/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="CineMan 3",CineMan 3 
-http://50.7.28.226/8825/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="CineMan 4",CineMan 4 
-http://50.7.28.226/8826/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="CineMan 5",CineMan 5 
-http://50.7.28.226/8951/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="CineMan 6",CineMan 6 
-http://50.7.28.226/8952/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="CineMan 7",CineMan 7 
-http://50.7.28.226/8955/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="CineMan 8",CineMan 8 
-http://50.7.28.226/8957/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="CineMan 9",CineMan 9 
-http://50.7.28.226/8959/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="cineman-miniseries"   tvg-name="CineMan MiniSeries",CineMan MiniSeries 
-http://50.7.28.226/8961/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="cineman-thriller"   tvg-name="CineMan Thriller",CineMan Thriller 
-http://50.7.28.226/8954/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="cineman-vhs"   tvg-name="CineMan VHS",CineMan VHS 
-http://50.7.28.226/8807/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="cineman-rukino"   tvg-name="CineMan РуКино",CineMan РуКино 
-http://50.7.28.226/8871/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="CineMan Мулт",CineMan Мулт 
-http://50.7.28.226/8812/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="cineman-simps"   tvg-name="CineMan Симпсоны",CineMan Симпсоны 
-http://50.7.28.226/8833/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="goldline-exist"   tvg-name="GOLD Line EXIST",GOLD Line EXIST 
-http://50.7.28.226/8489/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="goldline-psy"   tvg-name="GOLD Line PSYCHO",GOLD Line PSYCHO 
-http://50.7.28.226/8483/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="goldline-detektiv"   tvg-name="GOLD Line Детектив",GOLD Line Детектив 
-http://50.7.28.226/8573/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM 007",MM 007 
-http://50.7.28.226/8327/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Celebrity",MM Celebrity 
-http://50.7.28.226/8991/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Love",MM Love 
-http://50.7.28.226/8328/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM NewFilm 1",MM NewFilm 1 
-http://50.7.28.226/8741/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM NewFilm 2",MM NewFilm 2 
-http://50.7.28.226/8742/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM NewFilm 3",MM NewFilm 3 
-http://50.7.28.226/8743/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM NewFilm.RU",MM NewFilm.RU 
-http://50.7.28.226/8706/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM UFO",MM UFO 
-http://50.7.28.226/8410/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM WALT DISNEY",MM WALT DISNEY 
-http://50.7.28.226/8914/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM БОЕВИК КЛАССИК",MM БОЕВИК КЛАССИК 
-http://50.7.28.226/8411/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Драма",MM Драма 
-http://50.7.28.226/8634/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Катастрофа",MM Катастрофа 
-http://50.7.28.226/8746/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Комедия",MM Комедия 
-http://50.7.28.226/8708/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Комедия Classic",MM Комедия Classic 
-http://50.7.28.226/8744/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Кунг-Фу",MM Кунг-Фу 
-http://50.7.28.226/8559/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Нуар",MM Нуар 
-http://50.7.28.226/8733/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Погружение",MM Погружение 
-http://50.7.28.226/8799/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Приключения",MM Приключения 
-http://50.7.28.226/8779/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Роскино",MM Роскино 
-http://50.7.28.226/8709/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM СЕМЕЙНЫЙ",MM СЕМЕЙНЫЙ 
-http://50.7.28.226/8442/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM СЕМЕЙНЫЙ 2",MM СЕМЕЙНЫЙ 2 
-http://50.7.28.226/8449/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM СКОРОСТЬ",MM СКОРОСТЬ 
-http://50.7.28.226/8916/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Спорт",MM Спорт 
-http://157.90.0.245:8070/minimax-sport/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Супергерои",MM Супергерои 
-http://50.7.28.226/8710/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Триллер",MM Триллер 
-http://50.7.28.226/8778/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Ужасы",MM Ужасы 
-http://50.7.28.226/8725/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Honey",MM Honey 
-http://50.7.28.226/8895/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Relax",MM Relax 
-http://50.7.28.226/8793/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Rock",MM Rock 
-http://50.7.28.226/8679/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Макромир",MM Макромир 
-http://50.7.28.226/8636/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MM Мегамир",MM Мегамир 
-http://50.7.28.226/8770/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="MS Crime",MS Crime 
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/15136/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-svaty"   tvg-name="BCU Сваты",BCU Сваты 
-http://50.7.28.226/8889/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="BCU Catastrophe",BCU Catastrophe 
-http://50.7.28.226/8877/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-multserial"   tvg-name="BCU MULTSERIAL",BCU MULTSERIAL 
-http://50.7.28.226/8874/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-kids-plus"   tvg-name="BCU Kids+",BCU Kids+ 
-http://50.7.28.226/8454/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-little"   tvg-name="BCU LITTLE",BCU LITTLE 
-http://50.7.28.226/8979/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-cinema"   tvg-name="BCU Cinema",BCU Cinema 
-http://50.7.28.226/8891/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-comedy"   tvg-name="BCU Comedy",BCU Comedy 
-http://50.7.28.226/8480/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="BCU Comedy 2",BCU Comedy 2 
-http://50.7.28.226/8878/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-criminal"   tvg-name="BCU Criminal",BCU Criminal 
-http://50.7.28.226/8890/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-fantastic"   tvg-name="BCU Fantastic",BCU Fantastic 
-http://50.7.28.226/8879/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="BCU FilMystic",BCU FilMystic 
-http://50.7.28.226/8479/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="BCU FilMystic 2",BCU FilMystic 2 
-http://50.7.28.226/8880/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-history"   tvg-name="BCU History",BCU History 
-http://50.7.28.226/8881/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-kinorating"   tvg-name="BCU Kinorating",BCU Kinorating 
-http://50.7.28.226/8455/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="BCU Marvel 2",BCU Marvel 2 
-http://50.7.28.226/8822/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-premiere"   tvg-name="BCU Premiere",BCU Premiere 
-http://50.7.28.226/8468/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-kinozal-prem-2"   tvg-name="BCU Premiere 2",BCU Premiere 2 
-http://50.7.28.226/8473/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-kinozal-prem-3"   tvg-name="BCU Premiere 3",BCU Premiere 3 
-http://50.7.28.226/8474/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="BCU Premiere 4",BCU Premiere 4 
-http://50.7.28.226/8475/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="BCU Premiere 5",BCU Premiere 5 
-http://50.7.28.226/8872/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="BCU Premiere 6",BCU Premiere 6 
-http://50.7.28.226/8873/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-name="BCU Premiere 7",BCU Premiere 7 
-http://50.7.28.226/8883/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-reality"   tvg-name="BCU Reality",BCU Reality 
-http://50.7.28.226/8910/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-romantic"   tvg-name="BCU Romantic",BCU Romantic 
-http://50.7.28.226/8884/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-russian"   tvg-name="BCU Russian",BCU Russian 
-http://50.7.28.226/8457/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-stars"   tvg-name="BCU Stars",BCU Stars 
-http://50.7.28.226/8885/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-survival"   tvg-name="BCU Survival",BCU Survival 
-http://50.7.28.226/8912/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bcu-trumotion"   tvg-name="BCU TruMotion",BCU TruMotion 
-http://50.7.28.226/8977/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="pervy" , Первый HD
-http://50.7.28.226/8150/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="tnt" , ТНТ HD
-http://50.7.28.226/8311/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="ntv" , НТВ HD
-http://50.7.28.226/8156/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="ntv-mir" , НТВ-Мир
-http://50.7.28.226/8011/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="ntv" , НТВ
-http://50.7.28.226/8298/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="tnt4" , ТНТ4
-http://50.7.28.226/8058/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="rossia1" , Россия 1 HD
-http://50.7.28.226/8152/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="travel-adventure" , Travel+Adventure
-http://50.7.28.226/8170/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="travel-channel" , Travel Channel HD
-http://50.7.28.226/8315/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="viasat-history" , Viasat History
-http://50.7.28.226/9017/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="istoria" , История 
-http://50.7.28.226/8082/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="discovery-channel" , Discovery HD
-http://50.7.28.226/8748/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="history-ru" , History HD
-http://50.7.28.226/8356/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="hd-life" , Точка РФ
-http://50.7.28.226/8175/index.m3u8
-#EXTINF:-1  group-title="Сервер" , Galaxy
-http://50.7.28.226/8337/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="glazami-turista" , Глазами туриста
-http://50.7.28.226/8904/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="national-geographic" , National Geographic
-http://50.7.28.226/8080/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="sovsek" , Top Secret
-http://50.7.28.226/8073/index.m3u8
-#EXTINF:-1  group-title="Сервер" , Travelxp
-http://50.7.28.226/8680/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="dikaya-rybalka-hd" , Дикая рыбалка HD
-http://50.7.28.226/8316/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="oxota-i-rybalka" , Охота и рыбалка
-http://50.7.28.226/8065/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="oruzhie" , Оружие
-http://50.7.28.226/8206/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="nauka-20" , Наука 2.0
-http://50.7.28.226/8104/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="nasha-sibir" , Наша Сибирь HD
-http://50.7.28.226/8677/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="eureka-hd" , Первый космический HD
-http://50.7.28.226/8369/index.m3u8
-#EXTINF:-1  group-title="Сервер" , Quadro 4К
-http://50.7.28.226/8681/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="rtg-tv" , RTG HD
-http://50.7.28.226/8151/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="sts-love" , СТС Love 
-http://50.7.28.226/8174/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="bollywood-hd" , Bollywood 
-http://50.7.28.226/8240/index.m3u8
-#EXTINF:-1  group-title="Сервер" , Среда 
-http://50.7.28.226/8295/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="spas" , Спас
-http://50.7.28.226/8301/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="belarus1" , Беларусь 1 HD
-http://50.7.28.226/8546/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="belarus2" , Беларусь 2 HD
-http://50.7.28.226/8302/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="belarus24" , Беларусь 24
-http://50.7.28.226/8144/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="tro" , БелРос
-http://50.7.28.226/8381/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="shot-tv" , Shot TV
-http://50.7.28.226/8358/index.m3u8
-#EXTINF:-1  group-title="Сервер" , Docu Box
-http://50.7.28.226/8528/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="fanhd" , Fan HD
-http://50.7.28.226/8386/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="fox" , Fox
-http://50.7.28.226/8168/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="kineko" , Кинеко
-http://50.7.28.226/8370/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="bcu-action" , BCU Action HD
-http://50.7.28.226/8478/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="bcu-kids" , BCU Kids HD
-http://50.7.28.226/8458/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="prodvizhenie" , Продвижение 
-http://50.7.28.226/8665/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="nashe-muzhskoe-hd" , Наше Мужское HD
-http://50.7.28.226/8740/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="cinema-ru" , Cinema 
-http://50.7.28.226/8949/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="romantichnoe-hd" , Романтичное HD
-http://50.7.28.226/8948/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="tv1000-cee" , Viasat Kino
-http://50.7.28.226/9020/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="domashny" , Домашний
-http://50.7.28.226/9204/index.m3u8
-#EXTINF:-1  group-title="Сервер" , 1+1 Марафон UA
-http://50.7.28.226/8116/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="ictv-ua" , ICTV
-http://50.7.28.226/8092/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="novy-kanal-ua" , Новий Канал
-http://50.7.28.226/8130/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="stb-ua" , СТБ
-http://50.7.28.226/8090/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="domkino" , Дом кино 
-http://50.7.28.226/8136/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="kinomiks" , Киномикс
-http://50.7.28.226/8040/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="kinopremiera-hd" , Кинопремьера HD
-http://50.7.28.226/8199/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="kinouzhas" , Киноужас HD
-http://50.7.28.226/8357/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="rodnoe-kino" , Родное кино
-http://50.7.28.226/8096/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="vip-serial" , VIP Serial
-http://50.7.28.226/9222/index.m3u8
-#EXTINF:-1  group-title="Сервер" , Твоё ТВ
-http://50.7.28.226/9236/index.m3u8
-#EXTINF:-1  group-title="Сервер" , Твоё ТВ Юмор
-http://50.7.28.226/9246/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="bigudi" , Бигуди 
-http://50.7.28.226/9328/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="enter-film" , Enter-фільм
-http://50.7.28.226/9327/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="2na2" ,2x2
-http://50.7.28.226/8045/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="5kanal-ua" ,5 канал
-http://50.7.28.226/8093/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="amedia1" ,Amedia 1
-http://50.7.28.226/8035/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="rtvi" ,RTVI
-http://50.7.28.226/8118/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="tvxxi" ,TV XXI
-http://50.7.28.226/8213/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="tv1000" ,TV1000
-http://50.7.28.226/8048/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="avto-plus" ,Авто плюс
-http://50.7.28.226/8095/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="voprosy-i-otvety" ,Вопросы и ответы
-http://50.7.28.226/8053/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="vremia" ,Время
-http://50.7.28.226/8012/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="domashny" ,Домашний
-http://50.7.28.226/8124/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="eda" ,Еда
-http://50.7.28.226/8140/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="zhara" ,Жара
-http://50.7.28.226/8361/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="zvezda" ,Звезда
-http://50.7.28.226/8037/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="zee-tv" ,Индия
-http://50.7.28.226/8155/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="kvartal-tv" ,Квартал ТВ
-http://50.7.28.226/8345/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="kino-tv" ,Кино ТВ HD
-http://50.7.28.226/8207/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="konny-mir" ,Конный мир
-http://50.7.28.226/8326/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="krasnaya-linia" ,Красная линия
-http://50.7.28.226/8390/index.m3u8
-#EXTINF:-1  group-title="Сервер" ,Мосфильм. Золотая коллекция HD
-http://50.7.28.226/8707/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="nashe-lubimoe-hd" ,Наше любимое HD
-http://50.7.28.226/8310/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="otr" ,ОТР
-http://50.7.28.226/8146/index.m3u8
-#EXTINF:-1  group-title="Сервер" ,Планета РТР
-http://50.7.28.226/8121/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="pobeda" ,Победа
-http://50.7.28.226/8391/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="piatnica" ,Пятница
-http://50.7.28.226/8066/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="5kanal-ru" ,Пятый канал
-http://50.7.28.226/8009/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="rbk" ,РБК
-http://50.7.28.226/8197/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="russky-bestseller" ,Русский бестселлер
-http://50.7.28.226/8162/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="russky-detektiv" ,Русский детектив
-http://50.7.28.226/8161/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="russky-roman" ,Русский роман
-http://50.7.28.226/8010/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="sarafan" ,Сарафан
-http://50.7.28.226/8020/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="soyuz" ,Союз
-http://50.7.28.226/8401/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="sts" ,СТС
-http://50.7.28.226/8005/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="tv3-ru" ,ТВ3
-http://50.7.28.226/8114/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="tvcentr" ,ТВЦ
-http://50.7.28.226/8006/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="teatr" ,Театр
-http://50.7.28.226/8670/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="uspex" ,Успех
-http://50.7.28.226/8164/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="centralnoye-tv" ,Центральное телевидение
-http://50.7.28.226/8575/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="che" ,Че
-http://50.7.28.226/8008/index.m3u8
-#EXTINF:-1  group-title="Сервер" , MCM Top HD
-http://50.7.28.226/8351/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="mezzo" , Mezzo
-http://50.7.28.226/8031/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="muztv" , МузТВ
-http://50.7.28.226/8190/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="tnt-music" , ТНТ Music
-http://50.7.28.226/8350/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="vh1-classic" , MTV 80s
-http://50.7.28.226/8137/index.m3u8
-#EXTINF:-1  group-title="Сервер" , М2 HD UA
-http://50.7.28.226/8336/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="bridge-tv" , Bridge TV
-http://50.7.28.226/8527/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="bridge-tv-classic" , Bridge TV Classic
-http://50.7.28.226/8450/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="bridge-tv-dance" , Bridge TV Hits
-http://50.7.28.226/9202/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="bridge-tv-rock" , Bridge TV Rock
-http://50.7.28.226/9229/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="bridge-tv-fresh" , Bridge TV Фрэш
-http://50.7.28.226/9230/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="bridge-tv-etno" , Bridge TV Этно
-http://50.7.28.226/9231/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="russian-musicbox" , Russian Music Box
-http://50.7.28.226/8189/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="lapki-live" , Лапки Live
-http://50.7.28.226/8551/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="mult" , Мульт
-http://50.7.28.226/8223/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="kinomult" , Киномульт
-http://50.7.28.226/8576/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="karusel" , Карусель
-http://50.7.28.226/8057/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="o_" , О!
-http://50.7.28.226/8664/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="bolt" , Bolt
-http://50.7.28.226/9329/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="solnce" , Солнце
-http://50.7.28.226/8054/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="mult" , Мульт
-http://50.7.28.226/8157/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="liova" , Лёва HD
-http://50.7.28.226/8375/index.m3u8
-#EXTINF:-1  group-title="Сервер"  tvg-id="ryzhy" , Рыжий
-http://50.7.28.226/9224/index.m3u8
 #EXT-X-ENDLIST
