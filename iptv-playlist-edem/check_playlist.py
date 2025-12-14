@@ -96,9 +96,8 @@ def check_aes_key_availability(playlist_url: str, playlist_content: str):
     except Exception as e:
         print(f"  ❌ Ошибка при получении ключа: {e}")
         return False
-
 def get_m3u8_total_bytes(url, test_time=TEST_TIME):
-    """Проверяет: объём, шифрование, наличие живого видео"""
+    """Проверяет: объём, шифрование, движение, и количество сегментов"""
     print("  📊 Проверка потока...")
     
     try:
@@ -116,9 +115,13 @@ def get_m3u8_total_bytes(url, test_time=TEST_TIME):
 
         # Извлечение .ts
         ts_urls = re.findall(r'^[^#\n].*\.ts.*$', playlist_content, re.MULTILINE)
+        print(f"  📜 Сегментов в плейлисте: {len(ts_urls)}")
+        if len(ts_urls) < 2:
+            print("  ❌ Мало сегментов — вероятно, заглушка")
+            return 0, 0, False
 
         if not ts_urls:
-            # Поиск вложенного плейлиста
+            # Вложенный плейлист
             sub_playlist_urls = re.findall(r'^[^#\n].*\.m3u8.*$', playlist_content, re.MULTILINE)
             if sub_playlist_urls:
                 sub_url = urljoin(url, sub_playlist_urls[0])
@@ -127,9 +130,13 @@ def get_m3u8_total_bytes(url, test_time=TEST_TIME):
                     if sub_response.status_code == 200:
                         sub_content = sub_response.text
                         if not check_aes_key_availability(sub_url, sub_content):
-                            print("  ❌ Вложенный плейлист зашифрован без доступного ключа")
+                            print("  ❌ Вложенный плейлист зашифрован без ключа")
                             return 0, 0, False
                         ts_urls = re.findall(r'^[^#\n].*\.ts.*$', sub_content, re.MULTILINE)
+                        print(f"  📜 Сегментов во вложенном плейлисте: {len(ts_urls)}")
+                        if len(ts_urls) < 2:
+                            print("  ❌ Мало сегментов во вложенном плейлисте")
+                            return 0, 0, False
                 except Exception as e:
                     print(f"  ❌ Ошибка загрузки вложенного плейлиста: {e}")
 
@@ -139,15 +146,12 @@ def get_m3u8_total_bytes(url, test_time=TEST_TIME):
 
         total_bytes = 0
         start_check_time = time.time()
-        segments_checked = 0
-        max_segments = min(4, len(ts_urls))  # достаточно 4 сегментов
-        segment_bodies = []  # ← храним тела для анализа движения
+        segment_bodies = []
 
-        for i in range(max_segments):
-            elapsed = time.time() - start_check_time
-            if elapsed > test_time:
+        # Скачиваем только первые 2–3 сегмента (для анализа движения)
+        for i in range(min(3, len(ts_urls))):
+            if time.time() - start_check_time > test_time:
                 break
-
             ts_url = urljoin(url, ts_urls[i])
             try:
                 seg_response = requests.get(ts_url, timeout=8)
@@ -155,23 +159,18 @@ def get_m3u8_total_bytes(url, test_time=TEST_TIME):
                     content = seg_response.content
                     seg_size = len(content)
                     total_bytes += seg_size
-                    segments_checked += 1
-
-                    # Сохраняем только достаточно большие сегменты (>50 КБ)
                     if seg_size > 50_000:
                         segment_bodies.append(content)
                         print(f"  📦 Сегмент {i+1}: {seg_size//1024} KB")
                 elif seg_response.status_code in [403, 404]:
-                    print(f"  ❌ Сегмент {i+1} недоступен (HTTP {seg_response.status_code})")
                     break
-            except Exception as e:
-                print(f"  ❌ Ошибка загрузки сегмента {i+1}: {e}")
+            except:
                 continue
 
         total_time = time.time() - start_check_time
         print(f"  📊 Итого: {total_bytes//1024} KB за {total_time:.1f} сек ({len(segment_bodies)} сегм. для анализа)")
 
-        # 🔍 Анализ: есть ли движение?
+        # 🔍 Анализ движения
         real_video = has_real_video(segment_bodies)
         return total_bytes, total_time, real_video
 
@@ -299,3 +298,4 @@ if __name__ == "__main__":
             input("Нажмите Enter для выхода...")
         except EOFError:
             print("✅ Автоматическое завершение")
+
