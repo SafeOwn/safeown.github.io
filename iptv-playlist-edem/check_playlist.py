@@ -163,7 +163,7 @@ def main():
     main_key = extract_key_from_playlist(MAIN_PLAYLIST)
     
     if main_key:
-        main_url = replace_key_in_url("http://jexywacp.tvclub.xyz/iptv/KEY/6238/index.m3u8", main_key)
+        main_url = replace_key_in_url("http://kuh5nj4q.rostelekom.xyz/iptv/KEY/6238/index.m3u8", main_key)
         print("  Проверка ключа: " + main_key[:20] + "...")
         main_key_good = is_stream_good(main_url, MIN_TOTAL_BYTES)
         print("  " + ("✅ ХОРОШИЙ" if main_key_good else "❌ ПЛОХОЙ"))
@@ -187,7 +187,7 @@ def main():
     
     for i, key in enumerate(keys):
         print("🔍 ПРОВЕРКА КЛЮЧА " + str(i+1) + " (" + key[:15] + "...):")
-        test_url = replace_key_in_url("http://jexywacp.tvclub.xyz/iptv/KEY/6238/index.m3u8", key)
+        test_url = replace_key_in_url("http://kuh5nj4q.rostelekom.xyz/iptv/KEY/6238/index.m3u8", key)
         is_good = is_stream_good(test_url, MIN_TOTAL_BYTES)
         print("  " + ("✅ ХОРОШИЙ" if is_good else "❌ ПЛОХОЙ"))
         print()
@@ -239,4 +239,5 @@ else:
     try:
         input("Нажмите Enter для выхода...")
     except EOFError:
+
         print("✅ Автоматическое завершение")
