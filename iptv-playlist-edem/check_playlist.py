@@ -7,8 +7,8 @@ from urllib.parse import urljoin
 # НАСТРОЙКИ
 MAIN_PLAYLIST = "EdemTV-main.m3u"
 KEYS_FILE = "keys.txt"
-MIN_TOTAL_BYTES = 2000 * 1024  # 2000 KB
-TEST_TIME = 10  # секунд
+MIN_TOTAL_BYTES = 5000 * 1024  # 2000 KB
+TEST_TIME = 20  # секунд
 
 def get_m3u8_total_bytes(url, test_time=TEST_TIME):
     """Проверяет объем данных M3U8 потока"""
@@ -241,3 +241,4 @@ else:
     except EOFError:
 
         print("✅ Автоматическое завершение")
+
