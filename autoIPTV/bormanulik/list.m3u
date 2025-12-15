@@ -167,6 +167,26 @@ http://31.47.199.45:1401/tv3/index.m3u8
 http://31.47.199.45:1401/8kanal/index.m3u8
 #EXTINF:-1  group-title="Эфирные" ,ЗВЕЗДА ПЛЮС HD
 http://31.47.199.45:1402/zvezdaplus/index.m3u8
+#EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://iptvx.one/picons/pervy.png" ,1 канал HD
+https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
+#EXTINF:-1  group-title="Эфирные"  tvg-id="360-podmoskovie"  tvg-logo="https://iptvx.one/picons/360-podmoskovie.png" ,360° HD
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/playlist.m3u8
+#EXTINF:-1  group-title="Эфирные"  tvg-id="neizvestnaya-rosia"  tvg-logo="https://iptvx.one/picons/neizvestnaya-rosia.png" ,Неизвестная Россия HD
+http://cdn.ntv.ru/unknown_russia/tracks-v3a1/mono.m3u8
+#EXTINF:-1  group-title="Эфирные"  tvg-id="ntv"  tvg-logo="https://iptvx.one/picons/ntv.png" ,НТВ HD
+http://cdn2.ntv.ru/ntv0_hd/playlist.m3u8
+#EXTINF:-1  group-title="Эфирные"  tvg-id="stv-by"  tvg-logo="https://iptvx.one/picons/stv-by.png" ,CTV.BY HD
+http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
+#EXTINF:-1  group-title="Эфирные"  tvg-id="360-news"  tvg-logo="https://iptvx.one/picons/360-news.png" ,360° Новости HD
+https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
+#EXTINF:-1  group-title="Эфирные"  tvg-id="izvestia"  tvg-logo="https://iptvx.one/picons/izvestia.png" ,Известия HD
+http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
+#EXTINF:-1  group-title="Эфирные"  tvg-id="mir-24"  tvg-logo="https://iptvx.one/picons/mir24.png" ,Мир 24 HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+#EXTINF:-1  group-title="Эфирные"  tvg-id="rbk"  tvg-logo="https://iptvx.one/picons/rbk.png" ,РБК HD
+http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
+#EXTINF:-1  group-title="Эфирные"  tvg-id="solovjinypomiot"  tvg-logo="https://iptvx.one/picons/solovjinypomiot.png" ,Соловьев.Live HD
+https://player.smotrim.ru/iframe/stream/live_id/985d5c7b-9727-4942-a4ba-a6e852caf0c1
 #EXTINF:-1  group-title="Познавательные"  tvg-id="rtg-tv" , RTG HD
 http://95.66.188.74/RTGHD/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="bolshaya-azia" , Большая Азия HD
@@ -525,6 +545,20 @@ http://31.47.199.45:1402/avto24/index.m3u8
 http://hls.goodgame.ru:8080/hls/192005.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/SXsV7qpb/image-26.png" , Сити Эдем - МедЗдрав
 https://cityeden.catcast.tv/content/47519/index.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="one-planet" , ONE PLANET HD
+http://95.67.12.82:9088
+#EXTINF:-1  group-title="Познавательные"  tvg-id="no_epg"  tvg-logo="http://epg.one/img2/2136.png" ,Life TV
+http://lifetv.bitflip.ee/live/stream1_1/index.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="nadezhda"  tvg-logo="https://iptvx.one/picons/nadezhda.png" ,Надежда HD
+http://tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/tracks-v1a1/mono.m3u8?hls_proxy_host=5edf215ae950326c87f8788991c1ffc7
+#EXTINF:-1  group-title="Познавательные"  tvg-id="muzsoyuz"  tvg-logo="https://iptvx.one/picons/muzsoyuz.png" ,МузСоюз HD
+http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="soyuz"  tvg-logo="https://iptvx.one/picons/soyuz.png" ,Союз HD
+http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="spas"  tvg-logo="https://iptvx.one/picons/spas.png" ,Спас
+http://tvspas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="univer-tv"  tvg-logo="https://iptvx.one/picons/univer-tv.png" ,Univer HD
+http://cdn.universmotri.ru/live/univer.sdp_1080p/playlist.m3u8
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="sts"  tvg-logo="https://app.playlistbox.com/icon/90B7b8PKO54QkGZ6lqxNEqAYzmrVWyjg.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="СТС", СТС
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="tnt"  tvg-logo="https://app.playlistbox.com/icon/W82YEm9Vw51D0poVvmoNr4jQPOGd7KJb.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="ТНТ", ТНТ
@@ -883,6 +917,12 @@ http://193.25.8.59:8000/tnv
 http://193.25.8.59:8000/TV1000
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="tv1000-russkoe-kino" ,TV1000 Русское кино
 http://193.25.8.59:8000/TV1000RU
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="sony-turbo"  tvg-logo="https://iptvx.one/picons/sony-turbo.png" ,.black
+http://158.101.222.193:88/georgia_play.php?id=black
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="ntv-xit"  tvg-logo="https://iptvx.one/picons/ntv-xit.png" ,НТВ Хит
+http://cdn2.ntv.ru/th_hit/playlist.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="patriot"  tvg-logo="https://epg.iptvx.one/picons/patriot.png" ,Патриот
+http://catchup.videoline.ru/asvtv/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kineko" ,Кинеко
 http://194.143.148.28:8080/KINEKO/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Кино и сериалы" ,Восход ТВ
@@ -905,6 +945,14 @@ http://31.47.199.45:1401/red/index.m3u8
 http://31.47.199.45:1401/black/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="sony-scifi" ,.Sci-Fi
 http://31.47.199.45:1401/scifi/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="dorama" , ДОРАМА HD
+http://95.67.12.82:9046
+#EXTINF:-1  group-title="Кино и сериалы" , KINOSWEET HD
+http://193.27.209.122/kinosweet/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы" , ACTION TVOE KINO HD
+http://193.27.209.122/tvoje_kino_action/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="tv1000" , VIJU TV1000 HD
+http://vod.splay.uz/live_splay/original/TV1000/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://cdn2-static.ntv.ru/home/schedule/2025/20250926/1st_otdel_vert_live.jpg" ,НТВ Сериалы Первый отдел
 https://cdn-dvr.ntv.ru/Perviy_otdel/tracks-v1a1/rewind-240.ts.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://cdn2-static.ntv.ru/home/schedule/2025/20250926/shef_vert_live_1.jpg" ,НТВ Сериалы Шеф
@@ -1497,6 +1545,10 @@ http://31.47.199.45:1401/solnce/index.m3u8
 http://cdn.iptvcinema.ru/magic_family/index.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-logo="https://i.ibb.co/zhXqdPF5/image-11.png" ,МУЛЬТИКИ И СКАЗКИ
 http://hls.goodgame.ru:8080/hls/198446.m3u8
+#EXTINF:-1  group-title="Детские"  tvg-id="ani"  tvg-logo="https://iptvx.one/picons/ani.png" ,Ani
+http://stv.mediacdn.ru/live/cdn/ani/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Детские"  tvg-id="multimuzyka"  tvg-logo="https://iptvx.one/picons/multimuzyka.png" ,МУЛЬТиМУЗЫКА
+http://stv.mediacdn.ru/live/cdn/multimuzika/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1  group-title="Мульты СССР"  tvg-logo="https://i.postimg.cc/W42nL6bj/1.jpg" ,"Метеор" на ринге
 https://mults.info/mp4/meteor_na_ringe.mp4
 #EXTINF:-1  group-title="Мульты СССР"  tvg-logo="https://i.postimg.cc/W42nL6bj/1.jpg" ,«Что делать?» или Куйгорож
@@ -10015,6 +10067,10 @@ http://live-3.otcnet.ru/sportivny/index.m3u8
 http://2.57.217.85:8000/play/a0a0/index.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="fastfunbox-hd" ,Fast & FunBox
 http://193.25.8.59:8000/Avto24
+#EXTINF:-1  group-title="Спортивные"  tvg-id="konny-mir"  tvg-logo="https://iptvx.one/picons/konny-mir.png" ,Конный Мир
+https://cdn-01.bonus-tv.ru/kmir/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Спортивные"  tvg-id="start-triumf"  tvg-logo="https://iptvx.one/picons/start-triumf.png" ,Мир баскетбола
+https://bl.webcaster.pro/media/playlist/free_672d700f2f9510be660253786e4406fe_hd/33_85479982/1080p/4eaec8986e2012fb936478856fbf3b4b/4818731006.m3u8?live=15&ref=https://tvstart.ru/ru/pages/start-triumph/
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="bridge-tv-rock" , Bridge Rock
 http://178.212.71.253:8000/play/101/index.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="bridge-tv-shlager" , Bridge Шлягер
@@ -11997,206 +12053,4 @@ https://centrfm.dc.beltelecom.by/centrfm/livestream/playlist.m3u8
 http://live.novoeradio.by:8081/live/novoeradio_1080p/chunks.m3u8
 #EXTINF:-1  group-title="Беларусь" , Ридио Юмор FM BY
 https://player.humorfm.by/mylive/humStudio-low/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="tnt4" ,ТНТ4
-http://188.225.31.197/bpk-tv/000002926/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="ntv-pravo" ,НТВ ПРАВО
-http://188.225.31.197/bpk-tv/000002759/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="ntv-serial" ,НТВ СЕРИАЛ
-http://188.225.31.197/bpk-tv/000002760/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="ntv-style" ,НТВ СТИЛЬ
-http://188.225.31.197/bpk-tv/000002761/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="ntv-mir" ,НТВ-МИР
-http://188.225.31.197/bpk-tv/000000079/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="rossia-24" ,РОССИЯ 24
-http://188.225.31.197/bpk-tv/000000198/tve/index.m3u8
-#EXTINF:-1  group-title="Время" ,РОССИЯ РТР
-http://188.225.31.197/bpk-tv/000000812/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="animal-planet-eu" ,ANIMAL PLANET
-http://188.225.31.197/bpk-tv/000000216/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="history-ru" ,History HD
-http://188.225.31.197/bpk-tv/000001000/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="big-planet" ,Big Planet HD
-http://188.225.31.197/bpk-tv/000008052/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="viasat-explore" ,Viasat Explore HD
-http://188.225.31.197/bpk-tv/000004157/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="viasat-history" ,Viasat History HD
-http://188.225.31.197/bpk-tv/000005528/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="viasat-nature" ,Viasat Nature HD
-http://188.225.31.197/bpk-tv/000006482/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="national-geographic" ,National Geographic
-http://188.225.31.197/bpk-tv/000000034/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="discovery-channel" ,DISCOVERY CHANNEL
-http://188.225.31.197/bpk-tv/000001496/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="dikaya-oxota-hd" ,Дикая охота HD
-http://188.225.31.197/bpk-tv/000004609/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="dikaya-rybalka-hd" ,Дикая рыбалка HD
-http://188.225.31.197/bpk-tv/000004610/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="dialogi-o-rybalke" ,Диалоги о Рыбалке
-http://188.225.31.197/bpk-tv/000003174/tve/index.m3u8
-#EXTINF:-1  group-title="Время" ,Terra HD
-http://188.225.31.197/bpk-tv/000008142/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="nat-geo-wild" ,Nat Geo Wild HD
-http://188.225.31.197/bpk-tv/000004474/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="glazami-turista" ,ГЛАЗАМИ ТУРИСТА
-http://188.225.31.197/bpk-tv/000001414/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="domashnie-zhivotnye" ,ДОМАШНИЕ ЖИВОТНЫЕ
-http://188.225.31.197/bpk-tv/000000146/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="zhivaya-priroda" ,ЖИВАЯ ПРИРОДА
-http://188.225.31.197/bpk-tv/000001187/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="zagorodny" ,ЗАГОРОДНЫЙ
-http://188.225.31.197/bpk-tv/000000235/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="texno-24" ,ТЕХНО 24
-http://188.225.31.197/bpk-tv/000000008/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="tnv-planeta" ,ТНВ-Планета
-http://188.225.31.197/bpk-tv/000000418/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="zagorodnaya-zhizn" ,ЗАГОРОДНАЯ ЖИЗНЬ
-http://188.225.31.197/bpk-tv/000000289/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="zdorovoe-tv" ,ЗДОРОВОЕ ТВ
-http://188.225.31.197/bpk-tv/000000057/tve/index.m3u8
-#EXTINF:-1  group-title="Время" ,ЗООПАРК
-http://188.225.31.197/bpk-tv/000000260/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="moya-planeta" ,МОЯ ПЛАНЕТА
-http://188.225.31.197/bpk-tv/000001049/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="poexali" ,ПОЕХАЛИ!
-http://188.225.31.197/bpk-tv/000002991/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="prikluchenia-hd" ,ПРИКЛЮЧЕНИЯ HD
-http://188.225.31.197/bpk-tv/000000277/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="eureka-hd" ,ПЕРВЫЙ КОСМИЧЕСКИЙ
-http://188.225.31.197/bpk-tv/000001220/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="rybalka-i-oxota" ,РЫБАЛКА И ОХОТА
-http://188.225.31.197/bpk-tv/000002510/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="oruzhie" ,ОРУЖИЕ
-http://188.225.31.197/bpk-tv/000000308/tve/index.m3u8
-#EXTINF:-1  group-title="Время" ,GALAXY
-http://188.225.31.197/bpk-tv/000000332/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="oxotnik-i-rybolov" ,ОХОТНИК И РЫБОЛОВ
-http://188.225.31.197/bpk-tv/000000608/tve/index.m3u8
-#EXTINF:-1  group-title="Время" ,Премиум Кино HD
-http://188.225.31.197/bpk-tv/000008491/tve/index.m3u8
-#EXTINF:-1  group-title="Время" ,Мировое Кино HD
-http://188.225.31.197/bpk-tv/000008488/tve/index.m3u8
-#EXTINF:-1  group-title="Время" ,Семейное кино HD
-http://188.225.31.197/bpk-tv/000008489/tve/index.m3u8
-#EXTINF:-1  group-title="Время" ,Кинобоевик HD
-http://188.225.31.197/bpk-tv/000008490/tve/index.m3u8
-#EXTINF:-1  group-title="Время" ,Киноман
-http://188.225.31.197/bpk-tv/000003871/tve/index.m3u8
-#EXTINF:-1  group-title="Время" ,Кинеко HD
-http://188.225.31.197/bpk-tv/000008136/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="sapfir" ,Сапфир HD
-http://188.225.31.197/bpk-tv/000008135/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="illuzion-plus" ,Иллюзион+
-http://188.225.31.197/bpk-tv/000004582/tve/index.m3u8
-#EXTINF:-1  group-title="Время" ,FlixSnip HD
-http://188.225.31.197/bpk-tv/000004466/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="russky-illuzion" ,Русский Иллюзион
-http://188.225.31.197/bpk-tv/000004207/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="fox" ,FOX HD
-http://188.225.31.197/bpk-tv/000004472/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="foxlife" ,FOX Life HD
-http://188.225.31.197/bpk-tv/000004471/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="dorama" ,Дорама HD
-http://188.225.31.197/bpk-tv/000003392/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="pobeda" ,Победа
-http://188.225.31.197/bpk-tv/000004534/tve/index.m3u8
-#EXTINF:-1  group-title="Время" ,FILM UA Drama
-http://188.225.31.197/bpk-tv/000003028/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="sony-tv" ,.RED
-http://188.225.31.197/bpk-tv/000000213/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="sony-scifi" ,.SCI-FI
-http://188.225.31.197/bpk-tv/000000134/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="sony-turbo" ,.BLACK
-http://188.225.31.197/bpk-tv/000000520/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="amedia1" ,Amedia 1
-http://188.225.31.197/bpk-tv/000000710/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="amedia2" ,Amedia 2
-http://188.225.31.197/bpk-tv/000000351/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="amedia-premium" ,Amedia premium
-http://188.225.31.197/bpk-tv/000000709/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="amedia-hit" ,Amedia Hit
-http://188.225.31.197/bpk-tv/000001662/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="bollywood-hd" ,BOLLYWOOD
-http://188.225.31.197/bpk-tv/000001419/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="cinema-ru" ,Cinema
-http://188.225.31.197/bpk-tv/000000239/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="paramount-comedy" ,COMEDY CENTRAL
-http://188.225.31.197/bpk-tv/000000452/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="hollywood" ,HOLLYWOOD
-http://188.225.31.197/bpk-tv/000000031/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="vip-comedy" ,VIP COMEDY
-http://188.225.31.197/bpk-tv/000000870/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="vip-megahit" ,VIP MEGAHIT
-http://188.225.31.197/bpk-tv/000000869/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="vip-premiere" ,VIP PREMIERE
-http://188.225.31.197/bpk-tv/000000868/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="vip-serial" ,VIP Serial HD
-http://188.225.31.197/bpk-tv/000004375/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="vremia" ,Время
-http://188.225.31.197/bpk-tv/000000205/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="domkino" ,ДОМ КИНО
-http://188.225.31.197/bpk-tv/000000050/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="domkino-premium" ,ДОМ КИНО ПРЕМИУМ
-http://188.225.31.197/bpk-tv/000002943/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="evrokino" ,Еврокино
-http://188.225.31.197/bpk-tv/000000152/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="ginger-hd" ,КАПИТАН ФАНТАСТИКА
-http://188.225.31.197/bpk-tv/000001474/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="lubimoe-kino" ,ЛЮБИМОЕ КИНО
-http://188.225.31.197/bpk-tv/000000283/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="mir-seriala" ,МИР СЕРИАЛА
-http://188.225.31.197/bpk-tv/000000319/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="nst" ,НСТ
-http://188.225.31.197/bpk-tv/000000078/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="tvxxi" ,TV XXI
-http://188.225.31.197/bpk-tv/000000006/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="plan-b" ,Plan B
-http://188.225.31.197/bpk-tv/000007625/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="mosfilm" ,Мосфильм. Золотая коллекция
-http://188.225.31.197/bpk-tv/000006365/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="feniks-plus-kino" ,ФЕНИКС+КИНО
-http://188.225.31.197/bpk-tv/000000125/tve/index.m3u8
-#EXTINF:-1  group-title="Время" ,START Air HD
-http://188.225.31.197/bpk-tv/000007815/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="start-world" ,START World
-http://188.225.31.197/bpk-tv/000007818/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="tv1000" ,TV1000 HD
-http://188.225.31.197/bpk-tv/000003747/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="tv1000-action" ,TV1000 action HD
-http://188.225.31.197/bpk-tv/000003910/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="tv1000-russkoe-kino" ,TV1000 русское кино
-http://188.225.31.197/bpk-tv/000003748/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="perec-int" ,ПЕРЕЦ
-http://188.225.31.197/bpk-tv/000001248/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="anekdottv" ,АНЕКДОТ ТВ
-http://188.225.31.197/bpk-tv/000001921/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="pervy-vegetariansky" ,ПЕРВЫЙ ВЕГЕТАРИАНСКИЙ
-http://188.225.31.197/bpk-tv/000002927/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="8kanal-ru" ,8 КАНАЛ
-http://188.225.31.197/bpk-tv/000001564/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="avto24" ,АВТО 24
-http://188.225.31.197/bpk-tv/000000815/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="belarus24" ,БЕЛАРУСЬ 24
-http://188.225.31.197/bpk-tv/000000360/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="uspex" ,УСПЕХ
-http://188.225.31.197/bpk-tv/000000288/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="voprosy-i-otvety" ,ВОПРОСЫ И ОТВЕТЫ
-http://188.225.31.197/bpk-tv/000000195/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="eda" ,ЕДА
-http://188.225.31.197/bpk-tv/000000588/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="psixologia-21" ,ПСИХОЛОГИЯ 21
-http://188.225.31.197/bpk-tv/000000147/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="mir-uvlecheniy" ,КТО КУДА
-http://188.225.31.197/bpk-tv/000001377/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="telekafe" ,ТЕЛЕКАФЕ
-http://188.225.31.197/bpk-tv/000000206/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="rtvi" ,RTVI
-http://188.225.31.197/bpk-tv/000000039/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="nasha-tema" ,Наша Тема
-http://188.225.31.197/bpk-tv/000003785/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="tochka-otryva" ,Точка отрыва
-http://188.225.31.197/bpk-tv/000003208/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="rika" ,Рика
-http://188.225.31.197/bpk-tv/000001514/tve/index.m3u8
-#EXTINF:-1  group-title="Время"  tvg-id="muzhskoy" ,МУЖСКОЙ
-http://188.225.31.197/bpk-tv/000000286/tve/index.m3u8
 #EXT-X-ENDLIST
