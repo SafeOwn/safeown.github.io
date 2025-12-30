@@ -839,8 +839,6 @@ http://195.158.223.132:8006/Sarafan
 http://31.148.48.15:80/Sochi_HD/index.m3u8
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="telekafe" ,Телекафе
 http://45.11.139.43:8555/telekafe/index.m3u8
-#EXTINF:-1  group-title="Развлекательные"  tvg-id="kvn-tv" ,КВН ТВ
-http://62.89.220.15/streams/media/kvn-tv_720x576/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="vhs-ka"  tvg-logo="https://epg.iptvx.one/picons/vhs-ka.png" , VHS-ка HD 
 http://95.66.188.74/VHS/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="cinema-ru" , Cinema
@@ -1063,8 +1061,6 @@ http://193.25.8.59:8000/tochka
 http://188.208.197.173/kinojelezo/video.m3u8?token=tvon
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/zhXqdPF5/image-11.png" ,Кинолаффка
 http://188.208.197.173/kinolafka/video.m3u8?token=tvon
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia1" ,Amedia 1
-http://sc.id-tv.kz/A1.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia1" ,Amedia 1
 http://31.148.48.15:80/A1/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia2" ,Amedia 2
@@ -1541,8 +1537,6 @@ http://95.66.188.74/Multilandia/mono.m3u8
 http://95.66.188.74/O/mono.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="cartoon-classics" , Cartoon Classics
 http://95.66.188.74/Cartoon_Classics/index.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="boomerang" , Cartoonito
-http://88.216.112.114/Cartoonito/index.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="tiji" ,Tiji
 http://193.27.209.122/tiji/index.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="detsky" ,Уникум
@@ -1569,8 +1563,6 @@ http://5.188.159.128:8070/2x2/index.m3u8
 http://5.188.159.128:8070/Cartoon_Network/index.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="da-vinci" ,Da Vinci
 http://195.158.223.132:8001/Da_Vinci
-#EXTINF:-1  group-title="Детские"  tvg-id="fanhd" ,FAN
-http://195.9.195.3:8080/hls/157239.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="gulli-girl" ,Gulli Girl
 http://213.230.65.254:8000/play/a027
 #EXTINF:-1  group-title="Детские"  tvg-id="detsky-mir" ,Детский Мир
@@ -9937,8 +9929,6 @@ http://45.145.32.13:20440/match_futbol_2_hd/index.m3u8?token=test
 http://45.145.32.13:20440/match_football3/index.m3u8?token=test
 #EXTINF:-1  group-title="Спортивные"  tvg-id="viasat-sport" ,Viasat Sport
 http://45.145.32.13:20440/viasat_sport/index.m3u8?token=test
-#EXTINF:-1  group-title="Спортивные"  tvg-id="extreme-sports" ,Extreme sports
-http://45.145.32.13:20440/extreme_sports/index.m3u8?token=test
 #EXTINF:-1  group-title="Спортивные"  tvg-id="extreme-sports" ,Extreme Sports
 http://45.11.139.43:8555/extsport/index.m3u8
 #EXTINF:-1  group-title="Спортивные" ,Fight Box
@@ -11863,8 +11853,6 @@ http://api.peers.tv/timeshift/mir_basketbola/126/playlist.m3u8?token=eyJhbGciOiJ
 http://api.peers.tv/timeshift/start/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjcxMjQ3MjcsImlhdCI6MTc2NzAzODMyNywiY2lkIjo2LCJ1aWQiOjk4MTg4MjcxNywicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.-cYZZpbolAiJokPIq9j_eI6d5eepfzi5hK5_oxQjMAw&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="russky-ekstrim"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Русский Экстрим
 http://api.peers.tv/timeshift/ru_extrem/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjcxMjQ3MjcsImlhdCI6MTc2NzAzODMyNywiY2lkIjo2LCJ1aWQiOjk4MTg4MjcxNywicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.-cYZZpbolAiJokPIq9j_eI6d5eepfzi5hK5_oxQjMAw&offset=10
-#EXTINF:-1  group-title="Крым"  tvg-id="pervy" ,Первый канал HD 
-http://178.212.71.253:8000/play/62/index.m3u8
 #EXTINF:-1  group-title="Крым"  tvg-id="pervy" ,Первый канал
 http://178.212.71.253:8000/play/1/index.m3u8
 #EXTINF:-1  group-title="Крым"  tvg-id="tnt4" ,ТНТ4
