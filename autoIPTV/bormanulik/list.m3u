@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 05.01.26 
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 06.01.26 
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg"   tvg-name="Первый канал", Первый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
@@ -651,8 +651,6 @@ http://95.66.188.74:80/Kuhnya/mono.m3u8
 http://46.46.143.222:1935/live/mp4:ldpr.stream_480p/playlist.m3u8
 #EXTINF:-1  group-title="Познавательные" ,ЛДПР ТВ HD
 http://46.46.143.222:1935/live/mp4:ldpr.stream/playlist.m3u8
-#EXTINF:-1  group-title="Познавательные" ,Конгресс ТВ HD
-http://live-3.otcnet.ru/congresstv/index.m3u8
 #EXTINF:-1  group-title="Познавательные" ,Магнат ТВ
 http://s1.tv-nano.com/Magnat/tracks-v3a1/mono.m3u8
 #EXTINF:-1  group-title="Познавательные" ,Магнат ТВ HD
@@ -871,8 +869,6 @@ http://195.9.195.3:8080/hls/218193.m3u8
 http://195.9.195.3:8080/hls/218251.m3u8
 #EXTINF:-1  group-title="Кино и сериалы" ,alpha Onenite 
 http://195.9.195.3:8080/hls/205116.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/688SVFy/image-38.png" ,Фантом
-http://195.9.195.3:8080/hls/204722.m3u8
 #EXTINF:-1  group-title="Кино и сериалы" ,Кошмар HD
 http://195.9.195.3:8080/hls/204709.m3u8
 #EXTINF:-1  group-title="Кино и сериалы" ,Selecao TV
@@ -891,8 +887,6 @@ http://185.57.68.33/237/mpegts
 http://hls.goodgame.ru:8080/hls/218193.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/q3DYpX5n/image-9.png" ,Zubrilom Film 2
 http://hls.goodgame.ru:8080/hls/218251.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/N6sYPbwM/image-11.png" ,Восход ТВ
-http://hls.goodgame.ru:8080/hls/202997.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/m5xtPMJq/image-16.png" , Kino Mix
 http://hls.goodgame.ru:8080/hls/216612.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/hFs2QPrZ/image-35.png" , FMC 
@@ -1000,8 +994,6 @@ http://193.25.8.59:8000/tochka
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia1" ,Amedia 1
 http://31.148.48.15:80/A1/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia2" ,Amedia 2
-http://sc.id-tv.kz/A2.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia2" ,Amedia 2
 http://31.148.48.15:80/A2/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia-hit" ,Amedia Hit HD
 http://31.148.48.15:80/Amedia_HIT_HD/index.m3u8
@@ -1085,8 +1077,6 @@ http://31.148.48.15/Sapfir/index.m3u8
 http://31.148.48.15:80/Telekafe/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы" ,Filmax 1
 http://195.9.195.3:8080/hls/204708.m3u8
-#EXTINF:-1  group-title="Кино и сериалы" ,Filmax 2
-http://195.9.195.3:8080/hls/204717.m3u8
 #EXTINF:-1  group-title="Кино и сериалы" ,Malder Все ТВ
 http://195.9.195.3:8080/hls/153640.m3u8
 #EXTINF:-1  group-title="Кино и сериалы" ,Твое ТВ
@@ -1099,8 +1089,6 @@ http://193.25.8.59:8000/TV1000RU
 http://cdn2.ntv.ru/th_hit/playlist.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="patriot"  tvg-logo="https://epg.iptvx.one/picons/patriot.png" ,Патриот
 http://catchup.videoline.ru/asvtv/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы" ,Восход ТВ
-http://195.9.195.3:8080/manifest/202997_master.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="312-kino"  tvg-logo="https://iptvx.one/picons/312-kino.png"   tvg-name="312 Кино",312 Кино
 http://176.126.166.43:1935/live/312kino/playlist.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="312TV.kg@SD"  tvg-logo="https://i.ibb.co/S6sZvqk/iLSGi6c.png"   tvg-name="312 ТВ",312 ТВ
@@ -1129,8 +1117,6 @@ https://dvrfl07.bozztv.com/ushba-films-yz/tracks-v1a1/mono.m3u8
 http://195.9.195.3:8080/hls/186021.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/RKk8ncX/image-34.png" , Видеокассета VHS
 https://live21.bozztv.com/akamaissh101/ssh101/livevhs90e/chunks.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/gG2bNbq/image-30.png" , Скрипач ТВ
-http://195.9.195.3:8080/hls/217083.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/JL8WjZQ/image-32.png" , Dimpon HD
 http://195.9.195.3:8080/hls/210470.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/m5xtPMJq/image-16.png" , Kino Mix
@@ -1145,8 +1131,6 @@ http://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
 http://195.9.195.3:8080/hls/218886.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/zhXqdPF5/image-11.png" ,Tocoxoj361
 http://195.9.195.3:8080/hls/218475.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/zhXqdPF5/image-11.png" , УЖАСЫ ФАНТАСТИКА 80-90-00
-http://195.9.195.3:8080/hls/211351.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/zhXqdPF5/image-11.png" , KPOT666NETOT
 http://195.9.195.3:8080/hls/207482.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://cdn2-static.ntv.ru/home/schedule/2025/20250926/shef_vert_live_1.jpg" ,НТВ Сериалы Шеф
@@ -10147,8 +10131,6 @@ http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
 https://hls-03-video.webcaramba.com/rutv/live_480/index.m3u8
 #EXTINF:-1  group-title="Музыкальные" ,RU TV HD
 https://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="zhar-ptica" ,Жар-Птица
-http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="zhara" ,Жара
 http://31.148.48.15:80/Zhara/index.m3u8
 #EXTINF:-1  group-title="Музыкальные" ,Матур ТВ HD
@@ -10221,16 +10203,6 @@ https://mbit1.worldcast.tv/dancetelevisionsix/stream_0.m3u8
 https://m2b2.worldcast.tv:7443/dancetelevisionthree/2/dancetelevisionthree.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="DanceTelevision.nl"  tvg-logo="https://i.ibb.co/yQVwqnz/resize-53.png"   tvg-name="DT", Dance TV Techno Warehouse
 https://m2b2.worldcast.tv:7443/dancetelevisionfour/2/dancetelevisionfour.m3u8
-#EXTINF:-1  group-title="Музыкальные"  tvg-logo="https://i.ibb.co/jv23JCCq/image-31.png" , DAR 21
-http://sltv2.be:8080/DeNiSoNkEl/nPcCsz5hHn/432711
-#EXTINF:-1  group-title="Музыкальные"  tvg-logo="https://i.ibb.co/V03DHtWR/image-4.png" ,Dark Festive 1
-http://cm1.portaltv.info:777/AvniLatifi/151515/6006
-#EXTINF:-1  group-title="Музыкальные"  tvg-logo="https://i.ibb.co/V03DHtWR/image-4.png" ,Dark Festive 2
-http://cm1.portaltv.info:777/5R0Tqhz7bC/8biAnmNHif/6007
-#EXTINF:-1  group-title="Музыкальные"  tvg-logo="https://i.ibb.co/V03DHtWR/image-4.png" ,Dark Festive 3
-http://cm1.portaltv.info:777/AvniLatifi/151515/6008
-#EXTINF:-1  group-title="Музыкальные"  tvg-logo="https://i.ibb.co/V03DHtWR/image-4.png" ,Dark Festive 4
-http://cm1.portaltv.info:777/AvniLatifi/151515/6009
 #EXTINF:-1  group-title="Музыкальные"  tvg-logo="https://i.ibb.co/mfjkGMY/image-2025-08-30-T115328-733.png" , DASDING 90.8
 https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-logo="https://i.ibb.co/KpfrT3RY/image-27.png" , DBM TV 
