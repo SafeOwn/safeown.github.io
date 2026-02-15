@@ -46,8 +46,6 @@ https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Romantika_HD.smil/tracks-
 https://iptv.itv.uz/hls/live/t/Yv8TO7PtCQ-DJIbxOr9N_g/e/1799038269/4000/index.m3u8
 #EXTINF:-1 group-title="TEST ⓵" tvg-logo="https://i.postimg.cc/MTbNhVZc/i-TV-Music-Logo.png",ITV Music
 https://iptv.itv.uz/hls/live/t/iR8iDnzqJIQrEetuXnP3iA/e/1799038327/4001/index.m3u8
-#EXTINF:-1 group-title="TEST ⓵" tvg-logo="https://i.postimg.cc/KYtnPSjY/image.png", Scripach TV
-https://kino-stream.online/hls/scripach.m3u8
 #EXTINF:-1 group-title="TEST ⓵",Супергерои
 http://86.57.209.210/Malish/index.m3u8
 #EXTINF:-1 group-title="TEST ⓵",Мульт
@@ -94,6 +92,16 @@ http://live-3.otcnet.ru/pskov/index.m3u8
 http://live-3.otcnet.ru/sportivny/index.m3u8
 #EXTINF:-1 group-title="TEST ⓵",CGTN Русский
 https://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802_hd.m3u8
+#EXTINF:-1 group-title="TEST ⓵",9 волна
+http://185.46.48.18:80/asvtv/mono.m3u8
+#EXTINF:-1 group-title="TEST ⓵",Cinema
+http://185.46.48.18:80/cinema/mono.m3u8
+#EXTINF:-1 group-title="TEST ⓵",Осетия Иристон
+http://185.46.48.18:80/iriston/mono.m3u8
+#EXTINF:-1 group-title="TEST ⓵",Матч ТВ
+http://185.46.48.18:80/match/mono.m3u8
+#EXTINF:-1 group-title="TEST ⓵",Шансон ТВ
+http://185.46.48.18:80/shanson/mono.m3u8
 #EXTINF:-1 group-title="TEST ⓵", Київ HD
 https://api-tv.ipnet.ua/api/v1/manifest/1293296300.m3u8
 #EXTINF:-1 group-title="TEST ⓵", 5 Канал HD
@@ -1831,12 +1839,6 @@ https://ikomg-kazakh.akamaized.net/kazakh/kazakh.m3u8
 https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
 #EXTINF:-1 group-title="С сайтов" tvg-logo="http://epg.it999.ru/img/2142.png",Настоящее время
 https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8
-#EXTINF:-1 group-title="С сайтов" tvg-logo="https://i.postimg.cc/nLwPZgX2/image.jpg",ТСВ
-https://iptv-hls.idc.md/hls/2/live1.m3u8
-#EXTINF:-1 group-title="С сайтов" tvg-logo="https://tv7plus.com/wp-content/uploads/2022/03/cropped-tv7_500h500-180x180.jpg",ТВ7+
-https://tv7plus.com/hls/tv7_site.m3u8
-#EXTINF:-1 group-title="С сайтов" tvg-logo="https://i.postimg.cc/GtKZ2wHT/unnamed.jpg",ГІТ
-https://stream.uagit.tv/gittv.m3u8
 #EXTINF:-1 group-title="С сайтов" tvg-logo="https://www.ntktv.ua/bitrix/templates/ntk_copy/images/logo.png",НТК ТВ
 https://stream.ntktv.ua/s/ntk/ntk.m3u8
 #EXTINF:-1 group-title="С сайтов" tvg-logo="https://tvmtm.online/wp-content/themes/tv-z/img/mtm-logo.png",МТМ
@@ -1861,8 +1863,6 @@ https://brodilo.tv/brodilotv.m3u
 https://wz-kt.ktk.kz/ktklive/smil:ktk-live.smil/playlist.m3u8
 #EXTINF:-1 group-title="С сайтов" tvg-logo="http://www.tbnbaltia.eu/img/tbn-baltia-2-white-trans.png",TBN BALTIA
 http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/rewind-21600.m3u8
-#EXTINF:-1 group-title="С сайтов" tvg-logo="https://i.postimg.cc/bwsLzK5M/213s.jpg",Небеса ТВ7
-https://vod.tv7.fi/tv7-ru/_definst_/smil:tv7-ru.smil/chunklist_w802965519_b946000_slru.m3u8
 #EXTINF:-1 group-title="С сайтов" tvg-logo="https://hd.traveltv.bg/wp-content/uploads/sites/3/2018/12/ThisIsBG.HDTV_.TV_-500x73.png",This is Bulgaria HD
 https://streamer103.neterra.tv/thisisbulgaria/thisisbulgaria_HD.m3u8
 
@@ -1974,11 +1974,11 @@ https://streaming.astrakhan.ru/telplushd/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="http://epg.it999.ru/img/6755.png",Волжский Плюс FHD
 http://flussonic.powernet.com.ru:8080/volplus/index.fmp4.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="http://epg.it999.ru/img/2440.png",Тамыр
-https://bsttv.bonus-tv.ru/cdn/tamyr/playlist_sdhigh.m3u8
+https://bsttv.bonus-tv.ru/cdn/tamyr/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="http://epg.it999.ru/img/2464.png",БСТ
 https://bsttv.bonus-tv.ru/cdn/bst/playlist_sdhigh.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="http://epg.it999.ru/img/2410.png",Курай TV
-https://bsttv.bonus-tv.ru/cdn/kurai/playlist_sdhigh.m3u8
+https://bsttv.bonus-tv.ru/cdn/kurai/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://assets.limehd.tv/uploads/channel/10428/thumb_2224509bdab82cfcfaffe6b73fe26e7c.png",Салям
 http://bsttv.bonus-tv.ru/cdn/salyam/playlist.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://bst.bratsk.ru/bst24_mainlogo_v1.png",БСТ 24
@@ -1988,7 +1988,7 @@ https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)",Звезда Плюс
 http://tvchannelstream1.tvzvezda.ru/cdn/zvezdaplus/playlist_hdlow.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://just-tv.lt/wp-content/themes/just/images/logo.png",Just TV
-https://fenixstream2.online/memfs/0ac46a4f-71ea-4bf7-bb62-312df327b6c8.m3u8
+https://nw.foreman.pp.ua/1/live/stream.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://i.postimg.cc/L8X5NW5Z/unnamed.jpg",Тивиком
 https://stream.trafjam.ru/tvcom/studio/tracks-v1a1/rewind-43200.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://pbs.twimg.com/profile_images/1161883563492564992/OPawdkI-_400x400.jpg",12 КАНАЛ (ОМСК)
@@ -1999,8 +1999,8 @@ http://trk555.tv:8888/live
 https://catchup.videoline.ru/iriston/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://ramtv.ru/wp-content/uploads/2021/12/cropped-Logo2020-white2-e1640011054620.png",Раменское ТВ
 https://e10-ll.facecast.net/rtv/0.m3u8
-#EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://1tourtv.ru/wp-content/uploads/2023/11/%D0%BB%D0%BE%D0%B3%D0%BE-%D1%86.png",Первый туристический
-https://stream.ms-rostov.ru/tourist1srt/srt/chunks.m3u8
+#EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://1tourtv.ru/wp-content/uploads/2026/01/sayt-scaled.png",Первый туристический
+http://91.186.196.185/hls/hotels/stream.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://s3.spbtv.com/rosing-production/b292391b35e16613df3e.png",Белгород 24
 https://belnovosti.cdn.easyhoster.ru:8443/stream.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://sitv.ru/img/tvprogram/86.jpg",С1 Сургут 86
@@ -2010,7 +2010,7 @@ https://air.tvk6.ru/tvk24/tracks-v2a1/mono.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://universmotri.ru/images/Univer-HD.png",Univer TV HD
 https://cdn.universmotri.ru/live/smil:univer.smil/chunklist_w911267907_b3628000_slru.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://i.postimg.cc/wTwrKSfy/1.jpg",Миллет
-http://live.trkmillet.ru/millet/index.m3u8
+https://live1.1tvcrimea.ru/milletlive.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://www.cableman.ru/sites/default/files/tv-briks_logo.jpg",Tv Brics
 http://brics.bonus-tv.ru/cdn/brics/russian/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)",РБК
@@ -2034,15 +2034,13 @@ https://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/tracks-v1a1/mon
 #EXTINF:-1 group-title="С сайтов (VPN)"  tvg-logo="https://alaniatv.ru/wp-content/uploads/2019/03/alania24.jpg" ,Алания 24
 https://hls-alaniatv.cdnvideo.ru/alaniatv/alania1/playlist.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" ,Истоки Орёл
-http://istoki.tv:1935/live/efir-istoki.stream/chunklist.m3u8
+https://istoki.tv//live/stream1/chunklist.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://sezon.tv/wp-content/uploads/2021/08/rodnoy.jpg",Родной Канал HD
 https://n1.slavmir.tv/live/slavmir/chunklist.m3u8
-#EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="http://trotek.online/img/logo.png",Тротек
-http://trotek.keenetic.pro/play.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://1yar.tv/photos/!design/logoNewBig.png",Первый Ярославский
-https://yaroslavl.mediacdn.ru/cdn/pervyaroslavsk/playlist_hdhigh.m3u8
+https://yaroslavl.mediacdn.ru/cdn/pervyaroslavsk/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://limehd.tv/images/seo/svoetv_1.jpg",Своё ТВ
-https://svoetv.mediacdn.ru/cdn/svoetv/playlist_hdhigh.m3u8
+https://svoetv.mediacdn.ru/cdn/svoetv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="http://epg.it999.ru/img/2157.png",Архыз 24
 http://live.mediacdn.ru/sr1/arhis24/playlist.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)",Север
@@ -2052,11 +2050,11 @@ https://live3.mediacdn.ru/sr1/tro/playlist_1.5M.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)",Радость Моя
 https://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://lime-tv.ru/wp-content/uploads/2020/10/1522085478_ing.jpeg",НТК ИНГУШЕТИЯ
-https://ingushetia.mediacdn.ru/cdn/ingushetia/playlist_hdhigh.m3u8
+https://ingushetia.mediacdn.ru/cdn/ingushetia/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://www.rgvktv.ru/templates/gk_gamenews/images/logo.png",РГВК Дагестан
 https://dagestan.mediacdn.ru/cdn/dagestan/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://tavriatv.ru/wp-content/uploads/2022/08/logotip-new.png",Таврия ТВ
-https://tavr.mediacdn.ru/cdn/tavria/playlist.m3u8
+https://rtpmedia-pull-hls.cdnvideo.ru/rtpmedia-pull/stream1/playlist.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="http://epg.it999.ru/img/2360.png",ТБН
 https://5f05e059699ae.streamlock.net/WEB_TBN/ngrp:TBN.stream-adaptive/chunklist.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="http://epg.it999.ru/img/2169.png",Грозный
@@ -2124,9 +2122,7 @@ https://1tvkz-stream.daitsuna.net/1tvkz/1tvkz/1tvkz/1tvkz_720/chunks.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="http://epg.it999.ru/img/2478.png",Хузур ТВ
 https://hls-mycdn08724960135.cdnvideo.ru/mycdn08724960135/stream1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="http://epg.it999.ru/img/2578.png",Хабар 24
-https://24kz-srt.cdnvideo.ru/24kzsrt/24kzsrt/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://mininfodnr.ru/wp-content/uploads/2023/02/photo_2022-08-15_20-30-45-e1675420476302.png",Мариуполь 24
-https://hls.cis.itvru.ru/hls/mariupol24/index.m3u8
+https://livekhabar-srt.cdnvideo.ru/khabarsrt/khabarsrt/playlist.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="http://epg.it999.ru/img/2474.png",КРЫМ 24
 https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-id="legendarny24",Легендарный 24    
@@ -2136,7 +2132,7 @@ https://simf.1tvcrimea.ru/simferopol24.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://www.archive.inform.kz/fotoarticles/20120221175352.jpg",QAZAQSTAN
 https://qazaqstantv-stream.qazcdn.com/qazaqstantv/qazaqstantv/qazaqstantv/qazaqstantv_720/chunks.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" tvg-logo="https://www.samru.ru/content/Image/News/logo/gis_logo1.jpg",Телеканал ГИС Самара
-https://tvsamaragis.tk/new/new/tracks-v1a1/mono.m3u8
+https://tv.samaragis.ru/new/new/tracks-v1a1/0/stream.m3u8
 
 
 
@@ -2411,10 +2407,14 @@ http://5.188.221.43:8080/play/ntv
 http://5.188.221.43:8080/play/ren-tv
 #EXTINF:-1 group-title="АСАРТА (VPN)",Моя планета
 http://5.188.221.43:8080/play/moya_planeta
+#EXTINF:-1 group-title="АСАРТА (VPN)",Discovery HD
+http://5.188.159.128:8070/DiscoveryChannel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="АСАРТА (VPN)",5 канал
 http://5.188.221.43:8080/play/5_kanal
 #EXTINF:-1 group-title="АСАРТА (VPN)",ТВЦ
 http://5.188.221.43:8080/play/tv-centr
+#EXTINF:-1 group-title="АСАРТА (VPN)",Киносвидание
+http://5.188.159.128:8070/kinosvidanie/index.m3u8
 #EXTINF:-1 group-title="АСАРТА (VPN)",СТС
 http://5.188.221.43:8080/play/sts
 #EXTINF:-1 group-title="АСАРТА (VPN)",Домашний
@@ -2447,6 +2447,8 @@ http://5.188.221.43:8080/play/disney
 http://5.188.221.43:8080/play/karusel
 #EXTINF:-1 group-title="АСАРТА (VPN)",МузТВ
 http://5.188.221.43:8080/play/muz_tv
+#EXTINF:-1 group-title="АСАРТА (VPN)",Bridge TV
+http://5.188.221.43:8080/play/bridge-tv
 #EXTINF:-1 group-title="АСАРТА (VPN)",Матч ТВ
 http://5.188.221.43:8080/play/match
 
@@ -5420,6 +5422,76 @@ https://v2.catcast.tv/content/40546/index.m3u8
 
 
 
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/20428041/avatar?change_time=1766171277&croped=1&mh=140&mw=140",Kinowalk_tv
+http://kinowalk.hopto.org/kinowalk_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://i.postimg.cc/ZK8brxhb/Kino-Jam.png",KinoJam
+http://kinowalk.hopto.org/kinojam_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://i.postimg.cc/gjR3t6sS/1.jpg", Малдер Всё ТВ
+http://kinowalk.hopto.org/vsetv_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://goodgame.ru/files/avatars/av_1643154_P8Jo.jpg",Dimpon TV
+http://kinowalk.hopto.org/dimpon_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://goodgame.ru/files/avatars/av_1676704_9wc1.jpg",MovieToper
+http://kinowalk.hopto.org/movietoper_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/18824582/avatar?change_time=1714643599&croped=1&mh=140&mw=140",ZubrilomFilm
+http://kinowalk.hopto.org/zubrilomfilm_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkplay.ru/user/18929766/avatar?change_time=1715176122&croped=1&mh=140&mw=140",ZubrilomFranchise
+http://kinowalk.hopto.org/zubrilommusic.ru_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/19829671/avatar?change_time=1734328186&croped=1&mh=140&mw=140",wihail
+http://kinowalk.hopto.org/wihail_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/19957061/avatar?change_time=1745459243&croped=1&mh=140&mw=140",Scarface
+http://kinowalk.hopto.org/filmomania_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://lastfm.freetls.fastly.net/i/u/300x300/e6ac114abd700e4d57b230a703187a26.jpg",KINOPRO
+http://kinowalk.hopto.org/kinopro_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/19223927/avatar?change_time=1753304099&croped=1&mh=140&mw=140",Akudji
+http://kinowalk.hopto.org/akudjitv_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://telik.live/images/4k-hits.png",4K — Кино и сериалы
+http://kinowalk.hopto.org/4khits_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/20495921/avatar?change_time=1742225886&croped=1&mh=140&mw=140",Мы из 90-х
+http://kinowalk.hopto.org/miiz90x_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://kino-stream.online/logo/scripach.png",ScripachTV
+http://kinowalk.hopto.org/scripachtv_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://kino-stream.online/logo/SeleCaoTV.png",SeleCaoTV
+http://kinowalk.hopto.org/selecaotv_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://i.imgur.com/FOhNoZe.png",Legion tv
+https://kinowalk.hopto.org/legion-tv_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://i.postimg.cc/MTw7GvDw/Video-Arsenal.png",VideoArsenal
+http://kinowalk.hopto.org/videoarsenal_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://i.postimg.cc/XvHKrWXQ/1.jpg",KinoMix Юрич
+http://kinowalk.hopto.org/yurich_kinomix_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/20655827/avatar?change_time=1752925345&croped=1&mh=140&mw=140",Kinofon
+http://kinowalk.hopto.org/kinofon_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/19397267/avatar?change_time=1763534733&croped=1&mh=140&mw=140",Alex.Films
+http://kinowalk.hopto.org/alex.films_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://lh3.googleusercontent.com/a/ACg8ocJRCQczrVJsPbG0Q7qgMvphfUBuJiGktsI7wwPXSYxQCcGPBu8=s96-c",EvGAMEN
+http://kinowalk.hopto.org/evgamen_movies_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/19940394/avatar?change_time=1734982742&croped=1&mh=140&mw=140",Фильмы сериалы
+http://kinowalk.hopto.org/dfsfsdg_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/25125777/avatar?change_time=1768089850&croped=1&mh=140&mw=140",Rus serials
+http://kinowalk.hopto.org/zzz881_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/30346500/avatar?change_time=1767118302&croped=1&mh=140&mw=140",SerialTV
+http://kinowalk.hopto.org/serialtv_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/20555010/avatar?change_time=1742524384&croped=1&mh=140&mw=140",serial4u
+http://kinowalk.hopto.org/serial4u_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/19857529/avatar?change_time=1735363832&croped=1&mh=140&mw=140",BOSSFILM
+http://kinowalk.hopto.org/bossfilm_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://avatars.mds.yandex.net/i?id=d8bb932a618b126fd382904f1cde2371_sr-5429110-images-thumbs&n=13",Maksim Films
+http://kinowalk.hopto.org/mmaxim0vich_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkplay.ru/user/19154240/avatar?change_time=1720968476&croped=1&mh=140&mw=140",VHS Forever
+http://kinowalk.hopto.org/vhs-forever_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/20292590/avatar?change_time=1746735412&croped=1&mh=140&mw=140",ROMEO Video
+http://kinowalk.hopto.org/romantic_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/20745126/avatar?change_time=1746520742&croped=1&mh=140&mw=140",Эквилибриум
+http://kinowalk.hopto.org/equilibrium_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/18725544/avatar?change_time=1764060712&croped=1&mh=140&mw=140",КОМЕДИИ 24/7
+http://kinowalk.hopto.org/cmexye4ku_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/19638295/avatar?change_time=1758747161&croped=1&mh=140&mw=140",ReanimatoR_VHS
+http://kinowalk.hopto.org/reanimator_vhs_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.contactout.com/companies/49ed994c26cb4d0d32669a350c721e43",Serial Productions
+http://kinowalk.hopto.org/swat2k_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/20737705/avatar?change_time=1746958066&croped=1&mh=140&mw=140",Video Channel
+http://kinowalk.hopto.org/video_channel_live
+#EXTINF:-1 group-title="Кинозалы (VPN)" tvg-logo="https://images.live.vkvideo.ru/user/13253802/avatar?change_time=1768739676&croped=1&mh=140&mw=140",Aisman
+http://kinowalk.hopto.org/aisman_live
 
 
 #EXTINF:-1 group-title="Спорткомплекс 🏆" ,Матч! HD
