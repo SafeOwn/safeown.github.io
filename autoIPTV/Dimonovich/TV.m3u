@@ -100,6 +100,24 @@ http://185.46.48.18:80/iriston/mono.m3u8
 http://185.46.48.18:80/match/mono.m3u8
 #EXTINF:-1 group-title="TEST ⓵",Шансон ТВ
 http://185.46.48.18:80/shanson/mono.m3u8
+#EXTINF:-1 group-title="TEST ⓵",1+1 HD
+http://cdn-bal.srv4you.net/0151/mpegts
+#EXTINF:-1 group-title="TEST ⓵",ІНТЕР HD
+http://cdn-bal.srv4you.net/0153/mpegts
+#EXTINF:-1 group-title="TEST ⓵",2+2 HD
+http://cdn-bal.srv4you.net/0152/mpegts
+#EXTINF:-1 group-title="TEST ⓵",НТН HD
+http://cdn-bal.srv4you.net/0157/mpegts
+#EXTINF:-1 group-title="TEST ⓵",K1 HD
+http://cdn-bal.srv4you.net/0158/mpegts
+#EXTINF:-1 group-title="TEST ⓵",K2 HD
+http://cdn-bal.srv4you.net/0169/mpegts
+#EXTINF:-1 group-title="TEST ⓵",СТБ HD
+http://cdn-bal.srv4you.net/0160/mpegts
+#EXTINF:-1 group-title="TEST ⓵",ТЕТ HD
+http://cdn-bal.srv4you.net/0164/mpegts
+#EXTINF:-1 group-title="TEST ⓵",Мега HD
+http://cdn-bal.srv4you.net/0171/mpegts
 #EXTINF:-1 group-title="TEST ⓵", Київ HD
 https://api-tv.ipnet.ua/api/v1/manifest/1293296300.m3u8
 #EXTINF:-1 group-title="TEST ⓵", 5 Канал HD
@@ -396,6 +414,185 @@ https://river-3-371.rtbcdn.ru/hls-vod/Z4nfbF5P8RiMmDdnMb0GGw/1773510452/1790/0x5
 https://river-4-426.rtbcdn.ru/hls-vod/WFN-JqTsyZDGl5zTeRNzJw/1773510453/1788/0x5000c500c939412d/954d4f0b6c9640eea3b9d0daff375899.mp4.m3u8?i=3840x2160_12765
 #EXTINF:-1 group-title="4K VIDEO (VPN)" tvg-logo="https://pic.rtbcdn.ru/video/8a/8f/8a8fb71bed7423746a80654fc5ba541e.jpg",Лес В 4К
 https://river-4-430.rtbcdn.ru/hls-vod/gH2MLvLLNNbtrar2Xdw3ag/1773510455/1846/0x5000c500db17284f/3a14e22cc0b24da0b4c9994cfbbfff0a.mp4.m3u8?i=3840x2160_15561
+
+
+#EXTINF:-1 group-title="Бегет",НТВ Сериал
+https://telluri.ru/video/cog-dl/2065.m3u8
+#EXTINF:-1 group-title="Бегет",НТВ Право
+https://telluri.ru/video/vj/992.m3u8
+#EXTINF:-1 group-title="Бегет",Travel+adventure
+https://telluri.ru/video/tr-and/964.m3u8
+#EXTINF:-1 group-title="Бегет",Terra
+https://telluri.ru/video/tr-and/1500.m3u8
+#EXTINF:-1 group-title="Бегет",Viju+ Planet
+https://telluri.ru/video/vj/6006.m3u8
+#EXTINF:-1 group-title="Бегет",Viasat Explore
+https://telluri.ru/video/vj/540.m3u8
+#EXTINF:-1 group-title="Бегет",Viasat History
+https://telluri.ru/video/vj/541.m3u8
+#EXTINF:-1 group-title="Бегет",Viasat Nature
+https://telluri.ru/video/vj/542.m3u8
+#EXTINF:-1 group-title="Бегет",Поехали!
+https://telluri.ru/video/tr-and/5028.m3u8
+#EXTINF:-1 group-title="Бегет",Curiosity Stream
+https://telluri.ru/video/vod/994.m3u8
+#EXTINF:-1 group-title="Бегет",VIP Megahit
+https://telluri.ru/video/vj/6002.m3u8
+#EXTINF:-1 group-title="Бегет",VIP Premiere
+https://telluri.ru/video/vj/6001.m3u8
+#EXTINF:-1 group-title="Бегет",VIP Comedy
+https://telluri.ru/video/vj/6003.m3u8
+#EXTINF:-1 group-title="Бегет",VIP Serial
+https://telluri.ru/video/vj/6004.m3u8
+#EXTINF:-1 group-title="Бегет",TV1000
+https://telluri.ru/video/vj/5107.m3u8
+#EXTINF:-1 group-title="Бегет",TV1000 Action
+https://telluri.ru/video/vj/5106.m3u8
+#EXTINF:-1 group-title="Бегет",TV1000 Русское кино
+https://telluri.ru/video/vj/5109.m3u8
+#EXTINF:-1 group-title="Бегет",TV1000 Romantica
+https://telluri.ru/video/vj/3111.m3u8
+#EXTINF:-1 group-title="Бегет",Viju+ Новелла
+https://telluri.ru/video/vj/545.m3u8
+#EXTINF:-1 group-title="Бегет",.Red
+https://telluri.ru/video/tr-and/1400.m3u8
+#EXTINF:-1 group-title="Бегет",Усадьба
+https://telluri.ru/video/vod/341.m3u8
+#EXTINF:-1 group-title="Бегет",8 канал
+https://telluri.ru/video/vod/962.m3u8
+#EXTINF:-1 group-title="Бегет",Novella TV
+https://telluri.ru/video/vod/1205.m3u8
+#EXTINF:-1 group-title="Бегет",Кинеко
+https://telluri.ru/video/vod/1812.m3u8
+#EXTINF:-1 group-title="Бегет",Советское кино
+https://telluri.ru/video/vod/3018.m3u8
+#EXTINF:-1 group-title="Бегет",VHS-ка
+https://telluri.ru/video/vj/1123.m3u8
+#EXTINF:-1 group-title="Бегет",НСТ
+https://telluri.ru/video/tr-and/6008.m3u8
+#EXTINF:-1 group-title="Бегет",Киноман
+https://telluri.ru/video/59.m3u8
+#EXTINF:-1 group-title="Бегет",Муви ТВ
+https://telluri.ru/video/tr-and/5007.m3u8
+#EXTINF:-1 group-title="Бегет",START World
+https://telluri.ru/video/vod/9011.m3u8
+#EXTINF:-1 group-title="Бегет",START Air
+https://telluri.ru/video/vod/1804.m3u8
+#EXTINF:-1 group-title="Бегет",.red
+https://telluri.ru/video/tr-and/1400.m3u8
+#EXTINF:-1 group-title="Бегет",Еврокино
+https://telluri.ru/video/vod/903.m3u8
+#EXTINF:-1 group-title="Бегет",Муви ТВ
+https://telluri.ru/video/tr-and/5007.m3u8
+#EXTINF:-1 group-title="Бегет",Феникс+кино
+https://telluri.ru/video/tr-and/332.m3u8
+#EXTINF:-1 group-title="Бегет",Мосфильм. Золотая коллекция
+https://telluri.ru/video/1124.m3u8
+#EXTINF:-1 group-title="Бегет",Русский иллюзион
+https://telluri.ru/video/vod/869.m3u8
+#EXTINF:-1 group-title="Бегет",Кинопоказ
+https://telluri.ru/video/tr-and/285.m3u8
+#EXTINF:-1 group-title="Бегет",Дом Кино Премиум
+https://telluri.ru/video/5111.m3u8
+#EXTINF:-1 group-title="Бегет",Кинопоказ
+https://telluri.ru/video/tr-and/285.m3u8
+#EXTINF:-1 group-title="Бегет",Ретро
+https://telluri.ru/video/tr-and/335.m3u8
+#EXTINF:-1 group-title="Бегет",Bridge TV
+https://telluri.ru/video/tr-and/110.m3u8
+#EXTINF:-1 group-title="Бегет",Европа Плюс ТВ
+https://telluri.ru/video/tr-and/963.m3u8
+
+
+#EXTINF:-1 group-title="Cloudflare_Inc!",Наука
+http://hls127.freeott.top:8080/NAUKA/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!",RTG TV
+http://hls127.freeott.top:8080/RTG_TV/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!",Ocean TV
+http://hls127.freeott.top:8080/Ocean_TV/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!",Дикий
+http://hls127.freeott.top:8080/Dikiy/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!",История
+http://hls127.freeott.top:8080/Istoriya/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!",Amedia 1
+http://hls127.freeott.top:8080/Amedia_1/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!",BCU Kinorating HD
+http://hls127.freeott.top:8080/BCUKinoratingHD/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!",BCU Stars HD
+http://hls127.freeott.top:8080/BCUStarsHD/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!",CPS Action 
+http://hls127.freeott.top:8080/CPS_Action/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!",CPS Comedy 
+http://hls127.freeott.top:8080/CPS_Comedy/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", CPS Drama 
+http://hls127.freeott.top:8080/CPS_Drama/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", CPS Fiction 
+http://hls127.freeott.top:8080/CPS_Fiction/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", CPS Fresh 
+http://hls127.freeott.top:8080/CPS_Fresh/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", CPS Investigation 
+http://hls127.freeott.top:8080/CPS_Investigation/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", CPS Cartoon 
+http://hls127.freeott.top:8080/CPS_Cartoon/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", CPS FreshUA 
+http://hls127.freeott.top:8080/CPS_Fresh_UA/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", BOX Anime HD
+http://hls127.freeott.top:8080/box_anime_hd/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", BOX Metall HD
+http://hls127.freeott.top:8080/BOX_Metall_HD/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Gags Network
+http://hls127.freeott.top:8080/Gagsnetwork/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", НСТ
+http://hls127.freeott.top:8080/HCTV/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Кинопоказ HD
+http://hls127.freeott.top:8080/Kinopokaz_HD/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Ключ
+http://hls127.freeott.top:8080/Kluch/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Театр
+http://hls127.freeott.top:8080/Teatr/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Кухня ТВ
+http://hls127.freeott.top:8080/Kuhnya_TV/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Maydan
+http://hls127.freeott.top:8080/Maydan/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Мосфильм. Золотая коллекция
+http://hls127.freeott.top:8080/Mosfilm/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", MyTV
+http://hls127.freeott.top:8080/MyTV/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Наше HD
+http://hls127.freeott.top:8080/Nashe_HD/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Ностальгия
+http://hls127.freeott.top:8080/Nostalgiya/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Про любовь HD
+http://hls127.freeott.top:8080/ProLubovHD/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", РБК
+http://hls127.freeott.top:8080/RBK/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Жара 
+http://hls127.freeott.top:8080/Zhara/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", OstWest 
+http://hls127.freeott.top:8080/OstWest/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Союз
+http://hls127.freeott.top:8080/Souz/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Совершенно секретно
+http://hls127.freeott.top:8080/Sovershenno_Sekretno/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Спас
+http://hls127.freeott.top:8080/Spas/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", BRIDGE TV
+http://hls127.freeott.top:8080/BRIDGE_TV/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Bridge TV Classic 
+http://hls127.freeott.top:8080/Bridge_Classic/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", МузТВ 
+http://hls127.freeott.top:8080/MUZ_TV/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", СТС Kids
+http://hls127.freeott.top:8080/STS_Kids/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Бобёр
+http://hls127.freeott.top:8080/Bober/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Bolt
+http://hls127.freeott.top:8080/Bolt/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Da Vinci
+http://hls127.freeott.top:8080/Da_Vinci_Learning/video.m3u8
+#EXTINF:-1 group-title="Cloudflare_Inc!", Футбол
+http://hls127.freeott.top:8080/Football/video.m3u8
+
 
 
 
