@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 08.03.26 
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 09.03.26 
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg"   tvg-name="Первый канал", Первый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
@@ -237,10 +237,6 @@ http://176.118.197.101/RBK/index.m3u8
 http://185.46.16.239:8000/Rossiya_K
 #EXTINF:-1  group-title="Эфирные"  tvg-id="rossia-24" ,Россия 24
 http://185.46.16.239:8000/Rossiya_24
-#EXTINF:-1  group-title="Эфирные"  tvg-id="tv3-ru" ,ТВ3
-http://185.234.59.200:8080/tv3/index.m3u8
-#EXTINF:-1  group-title="Эфирные"  tvg-id="zvezda" ,Звезда
-http://185.234.59.200:8080/zvezda/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="rtg-tv" , RTG TV
 http://176.118.197.125/RTG-TV/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="bolshaya-azia"  tvg-logo="https://app.playlistbox.com/icon/2q94OaJj6rD5gYx8yYM1ELBXGWRzPQ0A.png"   tvg-name="Большая Азия", Большая Азия
@@ -313,8 +309,6 @@ https://bl.rutube.ru/livestream/9ae8e8a6dc58bdad66190475f9872ecd/index.m3u8?s=If
 https://bl.rutube.ru/livestream/495ab964b755baa2c9fc7481a2e40f7d/index.m3u8?s=Gmlc9AoKQsc_SsKXpHLc3g&e=2067513311&scheme=https
 #EXTINF:-1  group-title="Познавательные" ,Нано ТВ
 https://bl.rutube.ru/livestream/cf958b6c9ae4504be5fc2c1de358a017/index.m3u8?s=HUIB_Q-AfUzR9YLx1CIJBw&e=2067513311&scheme=https
-#EXTINF:-1  group-title="Познавательные"  tvg-id="zagorodny-int" ,Загородный International
-https://bl.rutube.ru/livestream/406973c72e9d0449feef05ef7811ad01/index.m3u8?s=Ojq7S2VbkQE__vYVdq4L3w&e=2067513312&scheme=https
 #EXTINF:-1  group-title="Познавательные"  tvg-id="tayna" ,Тайна
 https://bl.rutube.ru/livestream/a11c890a0ec0730ad33bdaaf2d244e1a/index.m3u8?s=IyCa78pM5BrRNppGf2RBRQ&e=2067513312&scheme=https
 #EXTINF:-1  group-title="Познавательные"  tvg-id="krasnaya-linia" , Красная линия 
@@ -579,8 +573,6 @@ https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
 https://vod.tuva.ru/nauka2/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="(no tvg-id)"   tvg-name="Discovery",Discovery
 http://188.225.31.197/bpk-tv/000001496/tve/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="oxotnik-i-rybolov" ,Охотник и рыболов
-https://bl.rutube.ru/livestream/1da5d92af8c55b16241f1eb12a27f00c/index.m3u8?s=azNN8MsdWZOGlcgQOa1znA&e=2067513311&scheme=https
 #EXTINF:-1  group-title="Познавательные" ,HHQ
 https://bl.rutube.ru/livestream/2d7fa51716500fba52586d594201777f/index.m3u8?s=RWKAkXWr3FopTV6Z6IXKjA&e=2067513313&scheme=https
 #EXTINF:-1  group-title="Познавательные"  tvg-id="prodvizhenie" ,Продвижение
@@ -601,12 +593,26 @@ http://188.225.31.197/bpk-tv/000008142/tve/index.m3u8
 http://cdn.universmotri.ru/live/smil:mbr.smil/chunklist_b3628000_slru.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="drive"   audio-track="rus", Драйв
 http://185.164.82.18:9009/aDxLhVQm_Drive
-#EXTINF:-1  group-title="Познавательные"  tvg-id="nat-geo-wild" ,Nat Geo Wild
-http://185.234.59.200:8080/nat_geo_wild/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="oxotnik-i-rybolov" ,Охотник и рыболов
-http://185.234.59.200:8080/ohotnik_i_rybolov_hd/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="bobior" ,Бобёр
-http://185.234.59.200:8080/bobyor/index.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="travel-adventure" ,Travel+adventure
+https://telluri.ru/video/tr-and/964.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="terra-ru" ,Terra
+https://telluri.ru/video/tr-and/1500.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-nature-history-hd" ,Viju+ Planet
+https://telluri.ru/video/vj/6006.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-explore" ,Viasat Explore
+https://telluri.ru/video/vj/540.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-history" ,Viasat History
+https://telluri.ru/video/vj/541.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-nature" ,Viasat Nature
+https://telluri.ru/video/vj/542.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="poexali" ,Поехали!
+https://telluri.ru/video/tr-and/5028.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="curiosity-stream" ,Curiosity Stream
+https://telluri.ru/video/vod/994.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="usadba" ,Усадьба
+https://telluri.ru/video/vod/341.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="8kanal-ru" ,8 канал
+https://telluri.ru/video/vod/962.m3u8
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="sts"  tvg-logo="https://app.playlistbox.com/icon/90B7b8PKO54QkGZ6lqxNEqAYzmrVWyjg.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="СТС", СТС
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="tnt"  tvg-logo="https://app.playlistbox.com/icon/W82YEm9Vw51D0poVvmoNr4jQPOGd7KJb.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="ТНТ", ТНТ
@@ -1069,24 +1075,62 @@ http://188.225.31.197/bpk-tv/000004466/tve/index.m3u8
 http://kinowalk.hopto.org/zubrilomfilm_live
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://images.live.vkplay.ru/user/19154240/avatar?change_time=1720968476&croped=1&mh=140&mw=140" ,VHS Forever
 http://kinowalk.hopto.org/vhs-forever_live
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="bcu-marvel" ,BCU Marvel HD
-http://185.234.59.200:8080/BCU_Marvel_HD/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="bcu-action" ,BCU Action HD
-http://185.234.59.200:8080/BCU_Action_HD/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="bcu-catastrophe" ,BCU Catastrophe HD
-http://185.234.59.200:8080/BCU_Catastrophe_HD/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="bcu-comedy" ,BCU Comedy HD
-http://185.234.59.200:8080/BCU_Comedy_HD/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="bcu-fantastic" ,BCU Fantastic HD
-http://185.234.59.200:8080/BCU_Fantastic_HD/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="bcu-romantic" ,BCU Romantic HD
-http://185.234.59.200:8080/BCU_Romantic_HD/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="bcu-vhs" ,BCU VHS HD
-http://185.234.59.200:8080/BCU_VHS_HD/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="bcu-stars" ,BCU Stars HD
-http://185.234.59.200:8080/BCU_Stars_HD/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="bcu-kinorating" ,BCU Kinorating HD
-http://185.234.59.200:8080/BCU_Kinorating_HD/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="ntv-serial" ,НТВ Сериал
+https://telluri.ru/video/cog-dl/2065.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="ntv-pravo" ,НТВ Право
+https://telluri.ru/video/vj/992.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="vip-megahit" ,VIP Megahit
+https://telluri.ru/video/vj/6002.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="vip-premiere" ,VIP Premiere
+https://telluri.ru/video/vj/6001.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="vip-comedy" ,VIP Comedy
+https://telluri.ru/video/vj/6003.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="vip-serial" ,VIP Serial
+https://telluri.ru/video/vj/6004.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="tv1000" ,TV1000
+https://telluri.ru/video/vj/5107.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="tv1000-action" ,TV1000 Action
+https://telluri.ru/video/vj/5106.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="tv1000-russkoe-kino" ,TV1000 Русское кино
+https://telluri.ru/video/vj/5109.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="viju-tv1000-romantica" ,viju TV1000 romantica
+https://telluri.ru/video/vj/3111.m3u8
+#EXTINF:-1  group-title="Кино и сериалы" ,Viju TV1000 Новелла HD
+https://telluri.ru/video/vj/545.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="sony-tv" ,.Red
+https://telluri.ru/video/tr-and/1400.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="novellatv" ,Novella TV
+https://telluri.ru/video/vod/1205.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kineko" ,Кинеко
+https://telluri.ru/video/vod/1812.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="sovkino" ,Советское кино
+https://telluri.ru/video/vod/3018.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="vhs-ka" ,VHS-ка
+https://telluri.ru/video/vj/1123.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="nst" ,НСТ
+https://telluri.ru/video/tr-and/6008.m3u8
+#EXTINF:-1  group-title="Кино и сериалы" ,Киноман
+https://telluri.ru/video/59.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="muvitv" ,Муви ТВ
+https://telluri.ru/video/tr-and/5007.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="start-world" ,START World
+https://telluri.ru/video/vod/9011.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="start-air" ,START Air
+https://telluri.ru/video/vod/1804.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="evrokino" ,Еврокино
+https://telluri.ru/video/vod/903.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="feniks-plus-kino" ,Феникс+кино
+https://telluri.ru/video/tr-and/332.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="mosfilm" ,Мосфильм. Золотая коллекция
+https://telluri.ru/video/1124.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="russky-illuzion" ,Русский иллюзион
+https://telluri.ru/video/vod/869.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinopokaz" ,Кинопоказ
+https://telluri.ru/video/tr-and/285.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="domkino-premium" ,Дом Кино Премиум
+https://telluri.ru/video/5111.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="retro-tv" ,Ретро
+https://telluri.ru/video/tr-and/335.m3u8
 #EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rtbcdn.ru/video/2026-03-06/7c/c4/7cc4ea07f98303827b72ff4dbb55f134.jpg" , Клинок рассекающий демонов: Бесконечная крепость — Возвращение Акадзы (2025)
 https://river-1.rutube.ru/hls-vod/MUQUzSWUT-9php0VpfVI3g/1773508966/2646/0x5000039ce83be585/e1ca628ec26040559c11bf617271d256.mp4.m3u8?i=1920x1080_3185
 #EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rtbcdn.ru/video/2026-03-03/e2/b4/e2b46d5535eac5c3b61252b9b1b85b4c.jpg" , Павана (2026)
@@ -2050,21 +2094,21 @@ http://87.76.32.36:8001/matchplaneta
 #EXTINF:-1  group-title="Спортивные"  tvg-id="box-tv" , Бокс ТВ
 http://87.76.32.36:8001/bokstv
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-football2" ,Матч! Футбол 2 HD
-http://arbiter.bolshoe.tv/?path=abr2/NTVplusfut2HD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9My84LzIwMjYgNzo1Mjo1MyBBTSZoYXNoX3ZhbHVlPWpRY2RjdVh3Y2VtejMvMzFNNStydGc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr2/NTVplusfut2HD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9My84LzIwMjYgODowMDoxNCBQTSZoYXNoX3ZhbHVlPWlWcWhUVVYyVkxrZERXc0d5SElGNnc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-football3" ,Матч! Футбол 3 HD
-http://arbiter.bolshoe.tv/?path=abr2/NTVplusfut3HD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9My84LzIwMjYgNzo1Mjo1MyBBTSZoYXNoX3ZhbHVlPWpRY2RjdVh3Y2VtejMvMzFNNStydGc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr2/NTVplusfut3HD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9My84LzIwMjYgODowMDoxNCBQTSZoYXNoX3ZhbHVlPWlWcWhUVVYyVkxrZERXc0d5SElGNnc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-igra" ,Матч! Игра HD
-http://arbiter.bolshoe.tv/?path=abr2/sport2HD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9My84LzIwMjYgNzo1Mjo1MyBBTSZoYXNoX3ZhbHVlPWpRY2RjdVh3Y2VtejMvMzFNNStydGc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr2/sport2HD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9My84LzIwMjYgODowMDoxNCBQTSZoYXNoX3ZhbHVlPWlWcWhUVVYyVkxrZERXc0d5SElGNnc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-premier" ,Матч Премьер HD
-http://95.181.17.26/dvr01/hd1/NashFutHD/chunks.m3u8?&&wmsAuthSign=c2VydmVyX3RpbWU9My84LzIwMjYgNzo1Mjo1MyBBTSZoYXNoX3ZhbHVlPWpRY2RjdVh3Y2VtejMvMzFNNStydGc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://95.181.17.26/dvr01/hd1/NashFutHD/chunks.m3u8?&&wmsAuthSign=c2VydmVyX3RpbWU9My84LzIwMjYgODowMDoxNCBQTSZoYXNoX3ZhbHVlPWlWcWhUVVYyVkxrZERXc0d5SElGNnc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-arena" ,Матч! Арена HD
-http://95.181.17.26/dvr02/hd1/sport1HD/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9My84LzIwMjYgNzo1Mjo1MyBBTSZoYXNoX3ZhbHVlPWpRY2RjdVh3Y2VtejMvMzFNNStydGc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://95.181.17.26/dvr02/hd1/sport1HD/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9My84LzIwMjYgODowMDoxNCBQTSZoYXNoX3ZhbHVlPWlWcWhUVVYyVkxrZERXc0d5SElGNnc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-nash-sport" ,Матч! Страна HD
-http://95.181.17.18/dvr01/sd2/ntvsport/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9My84LzIwMjYgNzo1Mjo1MyBBTSZoYXNoX3ZhbHVlPWpRY2RjdVh3Y2VtejMvMzFNNStydGc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://95.181.17.18/dvr01/sd2/ntvsport/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9My84LzIwMjYgODowMDoxNCBQTSZoYXNoX3ZhbHVlPWlWcWhUVVYyVkxrZERXc0d5SElGNnc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1  group-title="Спортивные"  tvg-id="kxl-hd" ,KHL Prime
-http://arbiter.bolshoe.tv/?path=abr2/khlHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9My84LzIwMjYgNzo1Mjo1MyBBTSZoYXNoX3ZhbHVlPWpRY2RjdVh3Y2VtejMvMzFNNStydGc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr2/khlHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9My84LzIwMjYgODowMDoxNCBQTSZoYXNoX3ZhbHVlPWlWcWhUVVYyVkxrZERXc0d5SElGNnc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1  group-title="Спортивные"  tvg-id="viasat-sport" ,Viasat Sport
-http://arbiter.bolshoe.tv/?path=streaming/viasat_sport/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9My84LzIwMjYgNzo1Mjo1MyBBTSZoYXNoX3ZhbHVlPWpRY2RjdVh3Y2VtejMvMzFNNStydGc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=streaming/viasat_sport/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9My84LzIwMjYgODowMDoxNCBQTSZoYXNoX3ZhbHVlPWlWcWhUVVYyVkxrZERXc0d5SElGNnc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="muztv" ,Муз ТВ
 https://livetv.mylifeisgood.net.ru/channels/muztvhd.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="zhara" ,ЖАРА
@@ -2185,6 +2229,10 @@ https://bl.rutube.ru/livestream/b5f4e1d43e11888455a0a66f0872e77b/index.m3u8?s=kI
 https://bl.rutube.ru/livestream/60b73481dcc9880850f22690142c8d17/index.m3u8?s=Arncn85RChOKj3vpAiv5RQ&e=2067513341&scheme=https
 #EXTINF:-1  group-title="Музыкальные" ,Record Trance
 https://bl.rutube.ru/livestream/26aeb9043f519687846255556ee891aa/index.m3u8?s=IXDZPOCSxA4UlfXFMFkPdA&e=2067513341&scheme=https
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="bridge-tv" ,Bridge TV
+https://telluri.ru/video/tr-and/110.m3u8
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="europa-plus-tv" ,Европа Плюс ТВ
+https://telluri.ru/video/tr-and/963.m3u8
 #EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
 http://iptv.prosto.tv:7000/ch314/video.m3u8
 #EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
@@ -3244,395 +3292,395 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
 #EXTINF:-1  group-title="Региoнальные плюс"  tvg-id="yu-pl7"  tvg-logo="https://app.playlistbox.com/icon/mGYXlVJ1Da0RjxXJaLZzy8dek2wvP5gW.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Ю (+7)", Ю (+7)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
 #EXTINF:-1  group-title="Сибирь (+4)"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Первый канал HD +4
-http://api.peers.tv/timeshift/1kanal_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/1kanal_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="pervy-pl4"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Первый канал +4
-http://api.peers.tv/timeshift/1kanal/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/1kanal/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="rossia1"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Россия HD
-http://api.peers.tv/timeshift/russiahd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/russiahd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Россия-1 +4
-http://api.peers.tv/timeshift/rossija/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/rossija/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="rossia-24"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Россия 24
-http://api.peers.tv/timeshift/vesti/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/vesti/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="kultura"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Россия К
-http://api.peers.tv/timeshift/kultura/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/kultura/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="ntv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",НТВ HD
-http://api.peers.tv/timeshift/ntv_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/ntv_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="ntv-pl4"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",НТВ (+4)
-http://api.peers.tv/timeshift/ntv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/ntv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="tnt"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",ТНТ HD
-http://api.peers.tv/timeshift/tnt_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tnt_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="tnt"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",ТНТ
-http://api.peers.tv/timeshift/tnt/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tnt/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="rentv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",РЕН ТВ HD
-http://api.peers.tv/timeshift/ren_tv_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/ren_tv_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="rentv-pl4"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Рен ТВ +4
-http://api.peers.tv/timeshift/rentv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/rentv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="tnt4"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",ТНТ4
-http://api.peers.tv/timeshift/tnt4/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tnt4/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="the-explorers"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",The Explorers
-http://api.peers.tv/timeshift/the_explorers/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/the_explorers/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="ocean-tv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Ocean TV
-http://api.peers.tv/timeshift/docubox_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/docubox_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="viasat-explore"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Viasat Explore
-http://api.peers.tv/timeshift/viasat_explorer/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/viasat_explorer/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="viasat-nature"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Viasat Nature
-http://api.peers.tv/timeshift/viasat_nature/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/viasat_nature/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="viasat-history"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Viasat History
-http://api.peers.tv/timeshift/viasat_history/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/viasat_history/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="prikluchenia-hd"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Приключения HD
-http://api.peers.tv/timeshift/teleputeshestvija_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/teleputeshestvija_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="glazami-turista"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Глазами Туриста HD
-http://api.peers.tv/timeshift/glazami_turista_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/glazami_turista_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="terra-ru"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",TERRA
-http://api.peers.tv/timeshift/terras/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/terras/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",TERRA HD
-http://api.peers.tv/timeshift/terra_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/terra_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="travel-adventure"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Travel+Adventure
-http://api.peers.tv/timeshift/travad/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/travad/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="travel-adventure"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Travel+Adventure HD
-http://api.peers.tv/timeshift/travel_adventure_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/travel_adventure_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="zhivaya-planeta"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Живая планета
-http://api.peers.tv/timeshift/zhivaya_planeta/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/zhivaya_planeta/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="moya-planeta"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Моя планета
-http://api.peers.tv/timeshift/my_planet/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/my_planet/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="oxota-i-rybalka"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Охота и рыбалка
-http://api.peers.tv/timeshift/hafi/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/hafi/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="dialogi-o-rybalke"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Диалоги о рыбалке
-http://api.peers.tv/timeshift/dialogi_o_rybalke/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/dialogi_o_rybalke/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="galaxy-tv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Galaxy TV
-http://api.peers.tv/timeshift/galaxy_tv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/galaxy_tv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="nasha-sibir"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Наша сибирь HD
-http://api.peers.tv/timeshift/nasha_sibir/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/nasha_sibir/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="oruzhie"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Оружие
-http://api.peers.tv/timeshift/oruzhie/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/oruzhie/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="texno-24"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Т24
-http://api.peers.tv/timeshift/24techno/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/24techno/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="zoopark"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Zooпарк
-http://api.peers.tv/timeshift/zoopark/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/zoopark/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="nauka-20"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Наука 2.0
-http://api.peers.tv/timeshift/nauka_20/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/nauka_20/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="sony-turbo"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",.black
-http://api.peers.tv/timeshift/sony_turbo/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/sony_turbo/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="sony-tv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",.red
-http://api.peers.tv/timeshift/set/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/set/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="sony-scifi"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",.sci-fi
-http://api.peers.tv/timeshift/sonyscifi/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/sonyscifi/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="2na2-pl4"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",2x2 (+4)
-http://api.peers.tv/timeshift/2x2tv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/2x2tv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="amedia1"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Amedia 1
-http://api.peers.tv/timeshift/amedia1/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/amedia1/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="amedia2"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Amedia 2
-http://api.peers.tv/timeshift/amedia_2/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/amedia_2/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="amedia-premium"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Amedia Premium HD
-http://api.peers.tv/timeshift/amediapremium_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/amediapremium_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="cinema-ru"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Cinema
-http://api.peers.tv/timeshift/ipark/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/ipark/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="fanhd"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Fan HD
-http://api.peers.tv/timeshift/fan_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/fan_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",FILMBOX
-http://api.peers.tv/timeshift/filmbox/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/filmbox/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="filmbox-arthouse"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Filmbox Arthouse
-http://api.peers.tv/timeshift/filmbox_arthouse/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/filmbox_arthouse/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="star-family"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Star Family HD
-http://api.peers.tv/timeshift/star_family_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/star_family_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="tvxxi"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",TV XXI
-http://api.peers.tv/timeshift/tv21/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tv21/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="tv1000"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",TV1000
-http://api.peers.tv/timeshift/tv1000/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tv1000/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="tv1000-action"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",TV1000 Action
-http://api.peers.tv/timeshift/tv1000_action/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tv1000_action/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="tv1000-russkoe-kino"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",TV1000 Русское кино
-http://api.peers.tv/timeshift/tv_1000_rus_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tv_1000_rus_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="vip-megahit"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",VIP Megahit HD
-http://api.peers.tv/timeshift/tv1000_megahit_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tv1000_megahit_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="vip-premiere"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",VIP Premiere HD
-http://api.peers.tv/timeshift/tv1000_premium_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tv1000_premium_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="vip-comedy"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",VIP Comedy HD
-http://api.peers.tv/timeshift/tv1000_comedy_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tv1000_comedy_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="vip-serial"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",VIP Serial HD
-http://api.peers.tv/timeshift/viasat_golf_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/viasat_golf_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="domkino"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Дом кино
-http://api.peers.tv/timeshift/dom_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/dom_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="domkino-premium"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Дом кино Премиум
-http://api.peers.tv/timeshift/dom_kino_premium/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/dom_kino_premium/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="illuzion-plus"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Иллюзион+
-http://api.peers.tv/timeshift/illyuzion/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/illyuzion/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="ginger-hd"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Капитан Фантастика
-http://api.peers.tv/timeshift/ginger_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/ginger_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="kineko"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",КИНЕКО
-http://api.peers.tv/timeshift/kineko_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/kineko_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="russky-bestseller"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Русский бестселлер
-http://api.peers.tv/timeshift/russia_best/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/russia_best/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="russky-detektiv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Русский детектив
-http://api.peers.tv/timeshift/russkiy_detektiv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/russkiy_detektiv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="russky-illuzion"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Русский иллюзион
-http://api.peers.tv/timeshift/russian_illusion/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/russian_illusion/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="russky-roman"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Русский роман
-http://api.peers.tv/timeshift/russian_roman/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/russian_roman/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="sapfir"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",САПФИР
-http://api.peers.tv/timeshift/sapfir_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/sapfir_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="dorama"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Дорама
-http://api.peers.tv/timeshift/dorama/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/dorama/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="nst"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",НСТ
-http://api.peers.tv/timeshift/nstv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/nstv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="lubimoe-kino"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Любимое кино
-http://api.peers.tv/timeshift/favmovie/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/favmovie/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="timeless-dizi"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Timeless Dizi Channel
-http://api.peers.tv/timeshift/timeless_dizi_channel/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/timeless_dizi_channel/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="sovkino"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Советское кино
-http://api.peers.tv/timeshift/sovetskoekino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/sovetskoekino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="kinopremiera-hd"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Кинопремьера HD
-http://api.peers.tv/timeshift/premera/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/premera/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="kinoxit"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",КиноХит
-http://api.peers.tv/timeshift/kinohit/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/kinohit/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="kinokomedia"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Кинокомедия
-http://api.peers.tv/timeshift/comedytv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/comedytv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="kinomiks"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Киномикс
-http://api.peers.tv/timeshift/ntv_kino_plyus/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/ntv_kino_plyus/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="kinosvidanie"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Киносвидание
-http://api.peers.tv/timeshift/kinoklub/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/kinoklub/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="kinosemiya"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Киносемья
-http://api.peers.tv/timeshift/hd_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/hd_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="nashe-novoe-kino"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Наше новое кино
-http://api.peers.tv/timeshift/nashe_novoe_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/nashe_novoe_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="kinoseria"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Киносерия
-http://api.peers.tv/timeshift/kinoseriya/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/kinoseriya/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="kinouzhas"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Киноужас
-http://api.peers.tv/timeshift/kinouzhas/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/kinouzhas/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="indiyskoe-kino"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Индийское кино
-http://api.peers.tv/timeshift/indiatv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/indiatv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="zee-tv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Индия
-http://api.peers.tv/timeshift/zee-tv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/zee-tv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="kinopokaz"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Кинопоказ
-http://api.peers.tv/timeshift/kinopokaz/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/kinopokaz/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="klassika-kino"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Классика Кино
-http://api.peers.tv/timeshift/klassikakino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/klassikakino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="russkaya-komedia"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Комедия
-http://api.peers.tv/timeshift/komediya/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/komediya/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="mir-seriala"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Мир сериала
-http://api.peers.tv/timeshift/mir_seriala/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/mir_seriala/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="mosfilm"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Мосфильм. Золотая коллекция
-http://api.peers.tv/timeshift/mosfilm_zolotaya_kollektsiya_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/mosfilm_zolotaya_kollektsiya_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="muzhskoy"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Мужской
-http://api.peers.tv/timeshift/muzhskoj/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/muzhskoj/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Краснодар HD
-http://api.peers.tv/timeshift/krasnodar_on_layn/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/krasnodar_on_layn/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="krik-tv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",КРИК-ТВ
-http://api.peers.tv/timeshift/krik_tv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/krik_tv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="mir-uvlecheniy"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Кто Куда
-http://api.peers.tv/timeshift/mir_uvlecheniy/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/mir_uvlecheniy/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="kuxnia-tv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Кухня ТВ
-http://api.peers.tv/timeshift/kitchentv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/kitchentv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="ldpr-tv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",ЛДПР ТВ
-http://api.peers.tv/timeshift/ldpr_tv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/ldpr_tv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="lot-47"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Лен ТВ 24
-http://api.peers.tv/timeshift/len_tv24/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/len_tv24/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="mir"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Мир
-http://api.peers.tv/timeshift/mir/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/mir/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="mir-24"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Мир 24
-http://api.peers.tv/timeshift/mir24/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/mir24/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="moskva-24"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Москва-24
-http://api.peers.tv/timeshift/moskva_24/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/moskva_24/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Наша Тема HD
-http://api.peers.tv/timeshift/nasha_tema/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/nasha_tema/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="nntv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",ННТВ
-http://api.peers.tv/timeshift/nntv/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/nntv/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",НТС
-http://api.peers.tv/timeshift/nts/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/nts/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",ОРТРК 12 канал
-http://api.peers.tv/timeshift/ortrk12/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/ortrk12/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="otr"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",ОТР
-http://api.peers.tv/timeshift/otvrus/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/otvrus/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",ОТР (+4)
-http://api.peers.tv/timeshift/otvrus/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/otvrus/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="ots"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",ОТС HD
-http://api.peers.tv/timeshift/ots/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/ots/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="365-dnej"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",365 дней
-http://api.peers.tv/timeshift/365_days/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/365_days/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Кузбасс 1 FHD
-http://api.peers.tv/timeshift/gtrk_kuzbass/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/gtrk_kuzbass/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="kinosat"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Киносат
-http://api.peers.tv/timeshift/kinosat/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/kinosat/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",MyZen TV
-http://api.peers.tv/timeshift/myzen_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/myzen_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="nostalgia"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Ностальгия
-http://api.peers.tv/timeshift/nostalgy/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/nostalgy/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="pobeda"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Победа HD
-http://api.peers.tv/timeshift/pobeda_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/pobeda_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="poexali"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Поехали!
-http://api.peers.tv/timeshift/poehali/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/poehali/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="domashny"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Домашний
-http://api.peers.tv/timeshift/domashny/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/domashny/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="avto24"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Авто 24
-http://api.peers.tv/timeshift/avto_24/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/avto_24/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="avto-plus"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Авто плюс
-http://api.peers.tv/timeshift/auto_plus/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/auto_plus/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="vremia"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",ВРЕМЯ
-http://api.peers.tv/timeshift/time/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/time/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="don-24"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",ДОН 24
-http://api.peers.tv/timeshift/don_24/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/don_24/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="12-omsk"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",12 Канал (Омск)
-http://api.peers.tv/timeshift/kanal_12/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/kanal_12/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="drive"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Драйв
-http://api.peers.tv/timeshift/drive/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/drive/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="evpatoria-tv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Евпатория ТВ
-http://api.peers.tv/timeshift/evpatorija/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/evpatorija/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="evrokino"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Еврокино
-http://api.peers.tv/timeshift/eurokino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/eurokino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="eda-hd"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Еда Премиум
-http://api.peers.tv/timeshift/eda_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/eda_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="zhivi"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Живи
-http://api.peers.tv/timeshift/jv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/jv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="zvezda"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Звезда
-http://api.peers.tv/timeshift/zvezda/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/zvezda/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="izvestia"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Известия HD
-http://api.peers.tv/timeshift/izvestiya_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/izvestiya_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="pervy-vegetariansky"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Первый вегетарианский
-http://api.peers.tv/timeshift/pervyy_vegetarianskiy/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/pervyy_vegetarianskiy/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="pro-zhizn"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Про Жизнь
-http://api.peers.tv/timeshift/pro_zhizn/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/pro_zhizn/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="psixologia-21"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Психология 21
-http://api.peers.tv/timeshift/psych_21/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/psych_21/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="piatnica"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Пятница
-http://api.peers.tv/timeshift/friday/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/friday/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="rbk"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",РБК
-http://api.peers.tv/timeshift/rbk/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/rbk/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="salam"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Салям
-http://api.peers.tv/timeshift/salyam/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/salyam/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",САМОТЛОР (Нижневартовск)
-http://api.peers.tv/timeshift/samotlor/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/samotlor/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="sankt-peterburg"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Санкт-Петербург
-http://api.peers.tv/timeshift/topspb/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/topspb/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="360-news"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",360 Новости
-http://api.peers.tv/timeshift/360_novosti/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/360_novosti/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="49kanal"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",49 КАНАЛ
-http://api.peers.tv/timeshift/49kanal/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/49kanal/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="5kanal-ru-pl4"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Пятый канал +4
-http://api.peers.tv/timeshift/5kanal/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/5kanal/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="8kanal-ru"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",8 канал
-http://api.peers.tv/timeshift/8_kanal/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/8_kanal/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="8kanal-krasnoyarsk"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",8 канал Красноярский край
-http://api.peers.tv/timeshift/ya1pm/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/ya1pm/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="sarafan"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Сарафан
-http://api.peers.tv/timeshift/sarafan/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/sarafan/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="sibir24"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Сибирь 24
-http://api.peers.tv/timeshift/sibir_24/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/sibir_24/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="soyuz"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Союз
-http://api.peers.tv/timeshift/soyuz/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/soyuz/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="spas"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",СПАС
-http://api.peers.tv/timeshift/spas/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/spas/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="sts"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",СТС
-http://api.peers.tv/timeshift/sts/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/sts/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="sts-love"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",СТС love
-http://api.peers.tv/timeshift/sts_love/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/sts_love/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",ТВЦ +4
-http://api.peers.tv/timeshift/tvc/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tvc/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="tv3-ru"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",ТВ3
-http://api.peers.tv/timeshift/tv3/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tv3/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",ТВК FHD
-http://api.peers.tv/timeshift/tvk_6/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tvk_6/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="telekafe"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Телекафе
-http://api.peers.tv/timeshift/telekafe/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/telekafe/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="tivikom"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",ТИВИКОМ
-http://api.peers.tv/timeshift/tivikom/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tivikom/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="tnv-planeta"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",ТНВ-Планета
-http://api.peers.tv/timeshift/tnv/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tnv/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="usadba"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Усадьба
-http://api.peers.tv/timeshift/usadba/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/usadba/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="centralnoye-tv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Центральное телевидение
-http://api.peers.tv/timeshift/tvc_ctv/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tvc_ctv/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="che"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Че
-http://api.peers.tv/timeshift/perec/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/perec/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="yu-pl4"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Ю (+4)
-http://api.peers.tv/timeshift/utv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/utv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="yuvelirochka"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Ювелирочка
-http://api.peers.tv/timeshift/yuvelirochka/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/yuvelirochka/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="tnt-music"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",ТНТ Music
-http://api.peers.tv/timeshift/tnt_music/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tnt_music/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="muztv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",МузТВ
-http://api.peers.tv/timeshift/muz_tvnew/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/muz_tvnew/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="la-minor"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Ля-минор
-http://api.peers.tv/timeshift/la_minor/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/la_minor/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="ru-tv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",RU.TV
-http://api.peers.tv/timeshift/rutv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/rutv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="1hd"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",1HD
-http://api.peers.tv/timeshift/firstmuz/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/firstmuz/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="song-tv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Song TV Armenia
-http://api.peers.tv/timeshift/songtv_armenia/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/songtv_armenia/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="song-tv-ru"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Song TV Russia
-http://hls.peers.tv/streaming/songtv_russia/126/copy/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://hls.peers.tv/streaming/songtv_russia/126/copy/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Music Box Russia
-http://hls.peers.tv/streaming/musboxru/126/vh1w/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://hls.peers.tv/streaming/musboxru/126/vh1w/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="shanson-tv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Шансон ТВ
-http://api.peers.tv/timeshift/shanson/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/shanson/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="multimuzyka"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Мультимузыка
-http://api.peers.tv/timeshift/multmusic/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/multmusic/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="detsky"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Уникум
-http://api.peers.tv/timeshift/forkids/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/forkids/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="sts-kids-hd"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",СТС Kids HD
-http://api.peers.tv/timeshift/sts_kids_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/sts_kids_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="skazki-zayki"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Сказки Зайки
-http://api.peers.tv/timeshift/skazkizayki/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/skazkizayki/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="ryzhy"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Рыжий
-http://api.peers.tv/timeshift/red/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/red/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="radost-moya"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Радость моя
-http://api.peers.tv/timeshift/radost_moj/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/radost_moj/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="mult"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",МУЛЬТ
-http://api.peers.tv/timeshift/mult/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/mult/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="mama"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Мама
-http://api.peers.tv/timeshift/motherchi/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/motherchi/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="karusel"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Карусель
-http://api.peers.tv/timeshift/karusel/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/karusel/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="malysh"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Супергерои
-http://api.peers.tv/timeshift/supergeroi/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/supergeroi/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="smaylik-tv"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Смайлик ТВ
-http://hls.peers.tv/streaming/smayliktv/126/tvrecw/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://hls.peers.tv/streaming/smayliktv/126/tvrecw/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="detsky-mir"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Детский мир
-http://api.peers.tv/timeshift/detskij_mir/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/detskij_mir/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="liova"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Лёва
-http://api.peers.tv/timeshift/lyova/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/lyova/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="solnce"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Солнце
-http://api.peers.tv/timeshift/solntse/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/solntse/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="v-gostiax-u-skazki"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",В гостях у сказки
-http://api.peers.tv/timeshift/v_gostyah_u_skazki/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/v_gostyah_u_skazki/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="tiji"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",TiJi
-http://api.peers.tv/timeshift/tiji/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/tiji/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="gulli-girl"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Gulli Girl
-http://api.peers.tv/timeshift/gulli_girl/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/gulli_girl/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="da-vinci"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Da Vinci
-http://api.peers.tv/timeshift/da_vinci/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/da_vinci/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="bolt"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Bolt HD
-http://api.peers.tv/timeshift/bolt_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/bolt_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="ani"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Ani
-http://api.peers.tv/timeshift/ani/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/ani/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="multimania"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Мультиландия
-http://api.peers.tv/timeshift/multilandiya/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/multilandiya/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="multimania"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Мультимания
-http://api.peers.tv/timeshift/multimania/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/multimania/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="zal-10-tricolor"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Советские мультфильмы
-http://api.peers.tv/timeshift/sovetskiemult/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/sovetskiemult/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="match-igra"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Матч! Игра
-http://api.peers.tv/timeshift/sport_2/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/sport_2/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="match-nash-sport"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Матч! страна
-http://api.peers.tv/timeshift/match_nash_sport/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/match_nash_sport/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="viasat-sport"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Viasat Sport HD
-http://api.peers.tv/timeshift/viasat_sport_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/viasat_sport_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="football-ru"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Футбол HD
-http://api.peers.tv/timeshift/futbol_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/futbol_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="match-boets"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Матч! Боец
-http://api.peers.tv/timeshift/boets/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/boets/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="kxl"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",KHL
-http://api.peers.tv/timeshift/khl/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/khl/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",KHL Prime HD
-http://api.peers.tv/timeshift/kxl_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/kxl_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",MMA-TV.COM
-http://api.peers.tv/timeshift/mma_tv_com/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/mma_tv_com/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="mir-basketbola"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Мир Баскетбола
-http://api.peers.tv/timeshift/mir_basketbola/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/mir_basketbola/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="start"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Старт
-http://api.peers.tv/timeshift/start/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/start/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Сибирь (+4)"  tvg-id="russky-ekstrim"   catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Русский Экстрим
-http://api.peers.tv/timeshift/ru_extrem/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
+http://api.peers.tv/timeshift/ru_extrem/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwODY0MTIsImlhdCI6MTc3MzAwMDAxMiwiY2lkIjo2LCJ1aWQiOjEwMTY5MTYxODYsInJlZyI6ZmFsc2UsImlwIjozNTg0Mzc1ODQ2LCJhZHVsdCI6ZmFsc2V9.XXoQDDlqhazDBL5VCZbc5-ib8m9vaUyAnMDnmJT6SwA&offset=10
 #EXTINF:-1  group-title="Евразия"  tvg-id="pervy" ,Первый канал
 https://stream8.cinerama.uz/1019/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Евразия"  tvg-id="ntv" ,НТВ
@@ -4507,4 +4555,184 @@ https://a3569457567-s70378.cdn.ngenix.net/karusel/1/index.m3u8
 https://a3569457567-s70378.cdn.ngenix.net/da_vinci/1/index.m3u8
 #EXTINF:-1  group-title="Сети"  tvg-id="detsky-mir" , Детский мир
 https://a3569457567-s70378.cdn.ngenix.net/detskij_mir/1/index.m3u8
+#EXTINF:-1  group-title="Домашнее"  tvg-id="rossia1" ,Россия HD
+http://91.198.104.13:8001/udp/237.0.12.2:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="ntv" ,НТВ
+http://91.198.104.13:8001/udp/237.0.11.32:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="5kanal-ru" ,Пятый канал
+http://91.198.104.13:8001/udp/237.0.11.31:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="otr" ,ОТР
+http://91.198.104.13:8001/udp/237.0.11.56:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="tvcentr" ,ТВ Центр
+http://91.198.104.13:8001/udp/237.0.11.57:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="zvezda" ,Звезда
+http://91.198.104.13:8001/udp/237.0.10.5:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="mir" ,МИР
+http://91.198.104.13:8001/udp/237.0.10.19:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="mir-belogoria" ,Мир Белогорья
+http://91.198.104.13:8001/udp/237.0.10.36:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="gubernia" ,Губерния
+http://91.198.104.13:8001/udp/237.0.13.1:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="8kanal-ru" ,8 канал
+http://91.198.104.13:8001/udp/237.0.13.25:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="tnv" ,ТНВ
+http://91.198.104.13:8001/udp/237.0.12.112:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="tnv-planeta" ,ТНВ-планета
+http://91.198.104.13:8001/udp/237.0.11.20:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="tnt" ,ТНТ
+http://91.198.104.13:8001/udp/237.0.13.20:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="sts" ,СТС
+http://91.198.104.13:8001/udp/237.0.10.15:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="che" ,Че
+http://91.198.104.13:8001/udp/237.0.13.86:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="rentv" ,Рен ТВ
+http://91.198.104.13:8001/udp/237.0.13.19:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="tv3-ru" ,ТВ-3
+http://91.198.104.13:8001/udp/237.0.13.6:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="tnt4" ,ТНТ4
+http://91.198.104.13:8001/udp/237.0.11.10:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="kaleydoskop-tv" ,Калейдоскоп ТВ
+http://91.198.104.13:8001/udp/237.0.13.47:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="piatnica" ,Пятница
+http://91.198.104.13:8001/udp/237.0.13.21:10000
+#EXTINF:-1  group-title="Домашнее" ,Сарафан ТВ
+http://91.198.104.13:8001/udp/237.0.13.42:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="yu" ,Ю
+http://91.198.104.13:8001/udp/237.0.13.52:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="domashny" ,Домашний
+http://91.198.104.13:8001/udp/237.0.11.35:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="sts-love" ,СТС Love
+http://91.198.104.13:8001/udp/237.0.13.2:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="shot-tv" ,SHOT TV
+http://91.198.104.13:8001/udp/237.0.12.23:10000
+#EXTINF:-1  group-title="Домашнее" ,Канал 2x2
+http://91.198.104.13:8001/udp/237.0.11.11:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="super" ,Суббота!
+http://91.198.104.13:8001/udp/237.0.11.12:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="tro" ,ТРО
+http://91.198.104.13:8001/udp/237.0.10.3:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="avto24" ,Авто24 HD
+http://91.198.104.13:8001/udp/237.0.10.32:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="bobior" ,Бобер
+http://91.198.104.13:8001/udp/237.0.10.40:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="vkusnoe-tv" ,Вкусное TV
+http://91.198.104.13:8001/udp/237.0.10.35:10000
+#EXTINF:-1  group-title="Домашнее" ,Драйв ТВ
+http://91.198.104.13:8001/udp/237.0.10.34:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="zootv" ,Зоо ТВ
+http://91.198.104.13:8001/udp/237.0.10.16:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="zagorodny" ,Загородный
+http://91.198.104.13:8001/udp/237.0.10.43:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="istoria" ,История
+http://91.198.104.13:8001/udp/237.0.13.46:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="kultura" ,Культура
+http://91.198.104.13:8001/udp/237.0.10.38:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="moya-planeta" ,Моя планета
+http://91.198.104.13:8001/udp/237.0.13.7:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="nauka-20" ,Наука 2.0
+http://91.198.104.13:8001/udp/237.0.13.22:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="otkryty-mir" ,Открытый мир
+http://91.198.104.13:8001/udp/237.0.13.55:10000
+#EXTINF:-1  group-title="Домашнее" ,Russian Travel Guide (RTG TV)
+http://91.198.104.13:8001/udp/237.0.11.9:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="tochka-tv" ,Точка тв
+http://91.198.104.13:8001/udp/237.0.10.45:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="teleputeshestvia" ,Телепутешествия
+http://91.198.104.13:8001/udp/237.0.10.9:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="tochka-otryva" ,Точка отрыва
+http://91.198.104.13:8001/udp/237.0.10.41:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="uspex" ,Успех
+http://91.198.104.13:8001/udp/237.0.11.4:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="usadba" ,Усадьба
+http://91.198.104.13:8001/udp/237.0.10.23:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="krasnaya-linia" ,Красная линия
+http://91.198.104.13:8001/udp/237.0.13.57:10000
+#EXTINF:-1  group-title="Домашнее" ,Silk Way HD
+http://91.198.104.13:8001/udp/237.0.13.64:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="belarus24" ,Беларусь 24
+http://91.198.104.13:8001/udp/237.0.13.27:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="izvestia" ,Известия
+http://91.198.104.13:8001/udp/237.0.13.63:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="krym24" ,Крым 24
+http://91.198.104.13:8001/udp/237.0.13.59:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="mir-24" ,Мир 24
+http://91.198.104.13:8001/udp/237.0.13.85:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="360-news" ,360 Новости
+http://91.198.104.13:8001/udp/237.0.10.42:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="pervy-krymsky" ,Первый Крымский
+http://91.198.104.13:8001/udp/237.0.13.58:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="rbk" ,РБК
+http://91.198.104.13:8001/udp/237.0.10.28:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="rossia-24" ,Россия 24
+http://91.198.104.13:8001/udp/237.0.11.29:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="samara24" ,Самара 24
+http://91.198.104.13:8001/udp/237.0.11.22:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="360-podmoskovie" ,Телеканал 360
+http://91.198.104.13:8001/udp/237.0.10.37:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="tolyatti24" ,Тольятти 24
+http://91.198.104.13:8001/udp/237.0.10.95:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="soyuz" ,Союз
+http://91.198.104.13:8001/udp/237.0.13.23:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="spas" ,Спас ТВ
+http://91.198.104.13:8001/udp/237.0.10.44:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="amedia1" ,A1
+http://91.198.104.13:8001/udp/237.0.13.80:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="amedia2" ,А2
+http://91.198.104.13:8001/udp/237.0.13.12:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="amedia-hit" ,Amedia Hit
+http://91.198.104.13:8001/udp/237.0.13.13:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="evrokino" ,Еврокино
+http://91.198.104.13:8001/udp/237.0.10.29:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="kino-tv" ,Кино ТВ
+http://91.198.104.13:8001/udp/237.0.12.24:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="kinopokaz" ,Кинопоказ SD
+http://91.198.104.13:8001/udp/237.0.10.11:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="cinema-ru" ,Cinema
+http://91.198.104.13:8001/udp/237.0.13.17:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="mosfilm" ,Мосфильм. Золотая коллекция
+http://91.198.104.13:8001/udp/237.0.12.4:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="ntv-xit" ,НТВ Хит
+http://91.198.104.13:8001/udp/237.0.12.8:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="retro-tv" ,Ретро ТВ
+http://91.198.104.13:8001/udp/237.0.10.27:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="russky-roman" ,Русский роман
+http://91.198.104.13:8001/udp/237.0.13.37:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="russky-illuzion" ,Русский Иллюзион
+http://91.198.104.13:8001/udp/237.0.10.25:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="start-air" ,START Air
+http://91.198.104.13:8001/udp/237.0.12.21:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="start-world" ,START World
+http://91.198.104.13:8001/udp/237.0.12.22:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="karusel" ,Карусель
+http://91.198.104.13:8001/udp/237.0.11.37:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="mama" ,Мама
+http://91.198.104.13:8001/udp/237.0.13.41:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="mult" ,Мульт
+http://91.198.104.13:8001/udp/237.0.13.24:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="ryzhy" ,Рыжий
+http://91.198.104.13:8001/udp/237.0.10.20:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="solnce" ,Солнце
+http://91.198.104.13:8001/udp/237.0.13.51:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="detsky" ,Уникум
+http://91.198.104.13:8001/udp/237.0.10.24:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="match-tv" ,МАТЧ!
+http://91.198.104.13:8001/udp/237.0.11.30:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="tonus-tv" ,Тонус ТВ
+http://91.198.104.13:8001/udp/237.0.10.10:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="football-ru" ,Футбол
+http://91.198.104.13:8001/udp/237.0.11.7:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="bridge-tv-classic" ,Bridge TV Classic
+http://91.198.104.13:8001/udp/237.0.10.17:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="bridge-tv-dance" ,Bridge TV Hits
+http://91.198.104.13:8001/udp/237.0.10.22:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="muztv" ,Муз-ТВ
+http://91.198.104.13:8001/udp/237.0.13.9:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="ru-tv" ,Ru TV
+http://91.198.104.13:8001/udp/237.0.10.47:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="tnt-music" ,ТНТ Music
+http://91.198.104.13:8001/udp/237.0.13.16:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="shanson-tv" ,Шансон ТВ
+http://91.198.104.13:8001/udp/237.0.13.35:10000
+#EXTINF:-1  group-title="Домашнее"  tvg-id="muzsoyuz" ,МузСоюз
+http://91.198.104.13:8001/udp/237.0.13.45:10000
 #EXT-X-ENDLIST
