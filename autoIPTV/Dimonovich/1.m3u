@@ -475,11 +475,13 @@ http://46.53.208.4:80/live/6004-req_offset_28000000-req_window_0-1k_v5.m3u8
 
 
 #EXTINF:-1, TV1000 HD
-https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/TV1000_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=Mh42R1t899Dj47YFVhk1Yg&e=1774643545&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
+https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/TV1000_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=hEjt2wWFQHmDkaaBYZu-1w&e=1775684230&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
 #EXTINF:-1, TV1000 Action
-https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/TV1000_Action_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=ruZ3HMnCsrB_yPj_m4ZoQw&e=1774643497&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
+https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/TV1000_Action_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=HfkR7hbtpynU7YEdVK_v4A&e=1775684246&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
 #EXTINF:-1, viju TV1000 romantica
-https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Romantika_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=V-YU604eZ-Q-MJy3Nq9_tw&e=1774643440&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
+https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Romantika_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=xnMnLlxg7kDSJUr7Vd2ftQ&e=1775684200&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
+
+
 
 #EXTINF:-1,Terra
 https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
@@ -620,19 +622,29 @@ https://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8
 #EXTINF:-1 group-title="С сайтов (VPN)" ,Арктика 24
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/arhangelsk/arktika24-hd/index.m3u8
 
-#EXTINF:-1 group-title="Музыкальные 🎶" tvg-id="city-tv-bg",City TV
+
+#EXTINF:-1 ,CHD-TV RU Rock HD
+http://194.26.229.213/chdtv_ru_rock/index.m3u8
+#EXTINF:-1 ,CHD-TV Rock
+http://194.26.229.213/chdtv_rock/index.m3u8
+#EXTINF:-1 ,СоюзМультфильм
+http://194.26.229.213/souzmultfilm/index.m3u8
+#EXTINF:-1 ,Чип и Дейл
+http://194.26.229.213/chip-n-dale-rescue-rangers/index.m3u8
+
+#EXTINF:-1 group-title="Музыкальные 🎶" ,City TV
 https://tv.city.bg/play/tshls/citytv/2.m3u8
-#EXTINF:-1 group-title="Музыкальные 🎶" tvg-logo="https://sat.kharkiv.ua/images/Strani/evropa/north%20macedonia/sky%20folk%20tv.jpg",SKY Folk TV
+#EXTINF:-1 group-title="Музыкальные 🎶" ,SKY Folk TV
 http://eu.live.skyfolk.mk/live.m3u8
-#EXTINF:-1 group-title="Музыкальные 🎶" tvg-logo="https://www.radio-banovina.hr/wp-content/uploads/2015/01/logo-120_00000.png",Banovina TV
+#EXTINF:-1 group-title="Музыкальные 🎶" ,Banovina TV
 http://video.radio-banovina.hr:1935/live/myStream/chunklist_w1164976177.m3u8
-#EXTINF:-1 group-title="Музыкальные 🎶" tvg-logo="https://i.postimg.cc/JzrfFnQw/2024-02-24-182647787.png",OF-TV
+#EXTINF:-1 group-title="Музыкальные 🎶" ,OF-TV
 https://5864df9ceac85.streamlock.net/germanpictures-live/_definst_/mp4:streamschedule/playlist.m3u8
 #EXTINF:-1 group-title="Музыкальные 🎶" ,AFN Music
 https://bozztv.com/1gbw5/tintv2/tintv2/chunklist.m3u8
-#EXTINF:-1 group-title="Музыкальные 🎶" tvg-logo="https://www.aparatchi.com/images/TV/7xmusic.png",7X MUSIC
+#EXTINF:-1 group-title="Музыкальные 🎶" ,7X MUSIC
 https://stream.e2is.in/hls/7xMusic.m3u8
-#EXTINF:-1 group-title="Музыкальные 🎶" tvg-logo="https://euroindiemusic.info/wp-content/uploads/2021/06/Aqua-Play-Icon-Personal-Logo-700x700.png",Euro Indie Music Chart TV
+#EXTINF:-1 group-title="Музыкальные 🎶" ,Euro Indie Music Chart TV
 http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
 #EXTINF:-1 group-title="Музыкальные 🎶" ,Qello Concerts by Stingray
 https://lotus.stingray.com/manifest/qello-qello001-montreal/samsungtvplus/master.m3u8
