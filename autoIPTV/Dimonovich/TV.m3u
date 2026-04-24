@@ -21,11 +21,11 @@ http://194.26.229.213/souzmultfilm/index.m3u8
 #EXTINF:-1 group-title="TEST ⓵" tvg-logo="https://i.postimg.cc/BvqS8HVV/1.png",Чип и Дейл
 http://194.26.229.213/chip-n-dale-rescue-rangers/index.m3u8
 #EXTINF:-1 group-title="TEST ⓵",TV1000 HD
-https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/TV1000_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=YXqDtJ5PrDSe3tmc8MeOEA&e=1776885041&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
+https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/TV1000_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=nC3HcJniXQS3T2KS5xojSw&e=1777998177&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
 #EXTINF:-1 group-title="TEST ⓵",TV1000 Action HD
-https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/TV1000_Action_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=cyHkNHyNlKjyMSaDl9s5Iw&e=1776885054&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
+https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/TV1000_Action_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=KjTPc_Y88PPgHXz1EnT6bg&e=1777998193&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
 #EXTINF:-1 group-title="TEST ⓵",Viju TV1000 Romantica HD
-https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Romantika_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=w2FNAGw5P6Xh1HesXSylPQ&e=1776885025&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
+https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Romantika_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=hDVXfOe6KkbonXhEjIc93w&e=1777998159&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
 #EXTINF:-1 group-title="TEST ⓵",Investigation Discovery
 http://dtv.vol.net.ua/Investigation_Discovery/index.m3u8
 #EXTINF:-1 group-title="TEST ⓵",DocuBox HD
@@ -34,22 +34,6 @@ http://dtv.vol.net.ua/DOCUBOX_HD/index.m3u8
 http://45.132.87.69:8080/cartoon_network/index.m3u8
 #EXTINF:-1 group-title="TEST ⓵",Матч ТВ
 http://45.132.87.69:8080/match/index.m3u8
-#EXTINF:-1 group-title="TEST ⓵",Россия 1 HD
-http://87.246.54.249:8080/Rossia1/index.m3u8
-#EXTINF:-1 group-title="TEST ⓵",Пятница! International
-http://87.246.54.90:8080/piatnica/mpegts
-#EXTINF:-1 group-title="TEST ⓵",Viasat Nature
-http://87.246.54.249:8080/ViasatNature/index.m3u8
-#EXTINF:-1 group-title="TEST ⓵",СТБ UA
-http://87.246.54.249:8080/espressotv/index.m3u8
-#EXTINF:-1 group-title="TEST ⓵",Мир сериала
-http://87.246.54.249:8080/MirSeriala/index.m3u8
-#EXTINF:-1 group-title="TEST ⓵",RTVI
-http://87.246.54.249:8080/RTVI/index.m3u8
-#EXTINF:-1 group-title="TEST ⓵",СТС Kids
-http://87.246.54.249:8080/CTC_Kids/index.m3u8
-#EXTINF:-1 group-title="TEST ⓵",Карусель
-http://87.246.54.249:8080/Karusel/index.m3u8
 #EXTINF:-1 group-title="TEST ⓵" tvg-logo="https://i.postimg.cc/J4wRwcQn/i-TV-Cinema-Logo.png",ITV Cinema
 https://iptv.itv.uz/hls/live/t/Yv8TO7PtCQ-DJIbxOr9N_g/e/1799038269/4000/index.m3u8
 #EXTINF:-1 group-title="TEST ⓵" tvg-logo="https://i.postimg.cc/MTbNhVZc/i-TV-Music-Logo.png",ITV Music
@@ -106,6 +90,12 @@ https://api-tv.ipnet.ua/api/v1/manifest/2118742505.m3u8
 https://api-tv.ipnet.ua/api/v1/manifest/2118742680.m3u8
 #EXTINF:-1 group-title="TEST ⓵",Армія ТБ
 https://api-tv.ipnet.ua/api/v1/manifest/2118742632.m3u8
+#EXTINF:-1 group-title="TEST ⓵" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC4500001A5_20260422T013953SQUARE.png" ,tvN 환혼 4K
+https://jmp2.uk/stvp-KRBC4500001A5
+#EXTINF:-1 group-title="TEST ⓵" channel-id="USBA3400003IP" tvg-id="USBA3400003IP" tvg-chno="3532" tvg-name="Love Nature 4K" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3400003IP_20260421T142045SQUARE.png" ,Love Nature 4K
+https://jmp2.uk/stvp-USBA3400003IP
+#EXTINF:-1 group-title="TEST ⓵" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBB500039Y5_20260422T012620SQUARE.png" ,Bloomberg TV+ UHD
+https://jmp2.uk/stvp-KRBB500039Y5
 
 
 
@@ -706,7 +696,7 @@ http://85.117.37.41/amediahit/index.m3u8
 http://85.117.37.41/arirang/index.m3u8
 #EXTINF:-1 group-title="Кавкасус Онлайн",Драйв
 http://85.117.37.41/drive/index.m3u8
-#EXTINF:-1 group-title="Кавкасус Онлайн",Deutsche Welle
+#EXTINF:-1 group-title="Кавкасус Онлайн" tvg-id="deutsche-welle-eu", Deutsche Welle
 http://85.117.37.41/dw/index.m3u8
 #EXTINF:-1 group-title="Кавкасус Онлайн",Bloomberg
 http://85.117.37.41/bloomberg/index.m3u8
@@ -2562,9 +2552,6 @@ http://176.118.197.101/KHL/index.m3u8
 
 
 
-https://live20.bozztv.com/giatvplayout7/ushba-midnightlustmusic/index.m3u8
-
-
 #EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg",Доктор Достоевский
 https://live20.bozztv.com/giatvplayout7/ushba3/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Star Media
@@ -2731,98 +2718,96 @@ https://live20.bozztv.com/giatvplayout7/ushba19/tracks-v1a1/mono.m3u8
 
 
 
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://deluxemusic.de/wp-content/uploads/sites/4/2023/01/DLXM_LOUNGE_LOGO.png",Deluxe Lounge HD
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://deluxemusic.de/wp-content/uploads/sites/4/2023/01/DLXM_LOUNGE_LOGO.png",Deluxe Lounge HD
 https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://i.imgur.com/LMHrQJu.png",Better Life Nature Channel
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://i.imgur.com/LMHrQJu.png",Better Life Nature Channel
 https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://avatars.mds.yandex.net/get-pdb/3946622/f25f8a24-de20-4c9e-8f05-98db50810075/orig",WORLD HD
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://avatars.mds.yandex.net/get-pdb/3946622/f25f8a24-de20-4c9e-8f05-98db50810075/orig",WORLD HD
 http://185.57.68.33/232/index.m3u8
-#EXTINF:-1 group-title="RELAX",Stingray Naturescape
+#EXTINF:-1 group-title="RELAX🏝️",Stingray Naturescape
 https://stream.ads.ottera.tv/cl/240211cn4j7g65sur7fq378vpg/1920x1080_5711200_3_f.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://tgtv.ua/images/tgtv_logo.png",Travel Guide TV
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://tgtv.ua/images/tgtv_logo.png",Travel Guide TV
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00307.jpg",Relaxon
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00307.jpg",Relaxon
 http://iptv.prosto.tv:7000/ch317/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00310.png",Камин
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00310.png",Камин
 http://iptv.prosto.tv:7000/ch318/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00522.jpg",Пейзаж
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00522.jpg",Пейзаж
 http://iptv.prosto.tv:7000/ch343/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00297.png",Space Stream
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00297.png",Space Stream
 http://iptv.prosto.tv:7000/ch314/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00301.png",Про Факт
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00301.png",Про Факт
 http://iptv.prosto.tv:7000/ch315/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00314.png",Зоо
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00314.png",Зоо
 http://iptv.prosto.tv:7000/ch319/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00598.jpg",Свет вокруг 
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00598.jpg",Свет вокруг 
 http://iptv.prosto.tv:7000/ch351/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00509.jpg",Терраса
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00509.jpg",Терраса
 http://iptv.prosto.tv:7000/ch336/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="http://img.prosto.tv/storage/channel/logo/ch00564.jpg",Горная долина
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="http://img.prosto.tv/storage/channel/logo/ch00564.jpg",Горная долина
 http://iptv.prosto.tv:7000/ch302/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00563.jpg",Просто Украина
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00563.jpg",Просто Украина
 http://iptv.prosto.tv:7000/ch303/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00562.jpg",Дожди
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00562.jpg",Дожди
 http://iptv.prosto.tv:7000/ch304/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00561.jpg",Подводный мир
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00561.jpg",Подводный мир
 http://iptv.prosto.tv:7000/ch305/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00549.jpg",Avia Stream
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00549.jpg",Avia Stream
 http://iptv.prosto.tv:7000/ch306/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00295.jpg",Катастрофы 
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00295.jpg",Катастрофы 
 http://iptv.prosto.tv:7000/ch312/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00302.png",ЭКО система
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00302.png",ЭКО система
 http://iptv.prosto.tv:7000/ch316/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00318.png",Stream City
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00318.png",Stream City
 http://iptv.prosto.tv:7000/ch321/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00348.png",Аквариум 
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00348.png",Аквариум 
 http://iptv.prosto.tv:7000/ch325/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00492.jpg",Комната релакс
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00492.jpg",Комната релакс
 http://iptv.prosto.tv:7000/ch328/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00491.jpg",Зима
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00491.jpg",Зима
 http://iptv.prosto.tv:7000/ch327/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00555.jpg",Ночь
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00555.jpg",Ночь
 http://iptv.prosto.tv:7000/ch349/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00500.jpg",Водопад
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00500.jpg",Водопад
 http://iptv.prosto.tv:7000/ch329/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00503.jpg",Лес
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00503.jpg",Лес
 http://iptv.prosto.tv:7000/ch330/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00504.jpg",Огонь
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00504.jpg",Огонь
 http://iptv.prosto.tv:7000/ch331/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00505.jpg",Пляж
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00505.jpg",Пляж
 http://iptv.prosto.tv:7000/ch332/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00508.jpg",Тропики
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00508.jpg",Тропики
 http://iptv.prosto.tv:7000/ch335/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00512.jpg",Река
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00512.jpg",Река
 http://iptv.prosto.tv:7000/ch338/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00513.jpg",Джунгли
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00513.jpg",Джунгли
 http://iptv.prosto.tv:7000/ch339/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00514.jpg",Горы
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00514.jpg",Горы
 http://iptv.prosto.tv:7000/ch340/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00515.jpg",Озеро 
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00515.jpg",Озеро 
 http://iptv.prosto.tv:7000/ch341/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00532.jpg",Рыбалка 
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00532.jpg",Рыбалка 
 http://iptv.prosto.tv:7000/ch344/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00533.jpg",Бассейн
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00533.jpg",Бассейн
 http://iptv.prosto.tv:7000/ch345/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00536.jpg",Флора
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00536.jpg",Флора
 http://iptv.prosto.tv:7000/ch346/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00537.jpg",Сад
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00537.jpg",Сад
 http://iptv.prosto.tv:7000/ch347/video.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00544.jpg",Железная дорога
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00544.jpg",Железная дорога
 http://iptv.prosto.tv:7000/ch348/video.m3u8
-#EXTINF:-1 group-title="RELAX",Парк
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="http://img.prosto.tv/storage/channel/logo/ch00580.jpg",Парк
 http://iptv.prosto.tv:7000/ch350/video.m3u8
-#EXTINF:-1 channel-id="SamsungTVPlus-US2900005NW" tvg-name="Cozy Vibes" tvg-id="US2900005NW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2900005NW_20241010T194656SQUARE.png" group-title="RELAX" tvg-chno="4584",Cozy Vibes
-https://d2esizdt2xkmhp.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-qw5vkd4gzoaia/SONO60.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=US2900005NW
-#EXTINF:-1 channel-id="SamsungTVPlus-USBD3500038R6" tvg-name="Stingray Holidayscapes" tvg-id="USBD3500038R6" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500038R6_20240520T212838SQUARE.png" group-title="RELAX" tvg-chno="4570",Stingray Holidayscapes
+#EXTINF:-1 channel-id="SamsungTVPlus-USBD3500038R6" tvg-name="Stingray Holidayscapes" tvg-id="USBD3500038R6" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500038R6_20240520T212838SQUARE.png" group-title="RELAX🏝️" tvg-chno="4570",Stingray Holidayscapes
 https://d10cyxntpn0bwm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-udbgiwo3vva3o/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=USBD3500038R6
-#EXTINF:-1 channel-id="SamsungTVPlus-USAK3508705A" tvg-name="Stingray Naturescape" tvg-id="USAK3508705A" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAK3508705A_20240520T212618SQUARE.png" group-title="RELAX" tvg-chno="4572",Stingray Naturescape
-https://d2kil4r771hni8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-c6pkjy2v9xudz/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=USAK3508705A
-#EXTINF:-1 channel-id="SamsungTVPlus-USBD3500013DG" tvg-name="Stingray Spa" tvg-id="USBD3500013DG" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500013DG_20240520T212850SQUARE.png" group-title="RELAX" tvg-chno="4580",Stingray Spa
+#EXTINF:-1 channel-id="SamsungTVPlus-USAK3508705A" tvg-name="Stingray Naturescape" tvg-id="USAK3508705A" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAK3508705A_20240520T212618SQUARE.png" group-title="RELAX🏝️" tvg-chno="4572",Stingray Naturescape
+https://jmp2.uk/stvp-CAAJ3400003T7
+#EXTINF:-1 channel-id="SamsungTVPlus-USBD3500013DG" tvg-name="Stingray Spa" tvg-id="USBD3500013DG" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500013DG_20240520T212850SQUARE.png" group-title="RELAX🏝️" tvg-chno="4580",Stingray Spa
 https://d9rd4243pcy92.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-e4dxftqz7hlvi/manifest/ose-122ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=USBD3500013DG
-#EXTINF:-1 channel-id="SamsungTVPlus-USBD3500027DS" tvg-name="ZenLIFE by Stingray" tvg-id="USBD3500027DS" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500027DS_20240520T212949SQUARE.png" group-title="RELAX" tvg-chno="4578",ZenLIFE by Stingray
-https://d27toxk63drks3.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-pibqoi1zv0ree/manifest/zenlife-zen001-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=USBD3500027DS
-
-
+#EXTINF:-1 channel-id="SamsungTVPlus-USBD3500027DS" tvg-name="ZenLIFE by Stingray" tvg-id="USBD3500027DS" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500027DS_20240520T212949SQUARE.png" group-title="RELAX🏝️" tvg-chno="4578",ZenLIFE by Stingray
+https://jmp2.uk/rok-79876f8f79d0394ba8982259393e5e32.m3u8
+#EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBD44000025L_20260422T013535SQUARE.png" ,Fireplace 4K
+https://jmp2.uk/stvp-KRBD44000025L
 
 
 
@@ -3023,8 +3008,6 @@ https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 #EXTINF:-1 group-title="Музыкальные 🎶" tvg-logo="https://cdn.powergroup.com.tr/image/360x360/powerapp/channels/v3/logo_2542.png",PowerTürk Akustik
 https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
-#EXTINF:-1 group-title="Музыкальные 🎶" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-m/5da86c21d6a79912e3f698bff6234a2d.webp",Vibee TV
-https://abr.de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 group-title="Музыкальные 🎶" tvg-logo="https://myspirit.tv/wp-content/uploads/2017/01/SpiritLogoFull244x86.png",Spirit TV
 https://cdnlive.myspirit.tv/LS-ATL-43240-2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Музыкальные 🎶" tvg-logo="https://img15.lostpic.net/2019/08/31/21d2b07e6372b09404d0f4abcd1ae56e.png",Kronehit TV
@@ -3853,367 +3836,6 @@ http://95.47.155.244:8001/play/a003
 
 
 
-
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Первый канал Евразия
-http://188.225.31.197/bpk-tv/000000669/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Первый канал
-http://188.225.31.197/bpk-tv/000001227/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",РОССИЯ 24
-http://188.225.31.197/bpk-tv/000000198/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",РОССИЯ К
-http://188.225.31.197/bpk-tv/000000066/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",РОССИЯ РТР
-http://188.225.31.197/bpk-tv/000000812/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",ТНТ HD
-http://188.225.31.197/bpk-tv/000007833/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",НТВ-МИР
-http://188.225.31.197/bpk-tv/000000079/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",НТВ ПРАВО
-http://188.225.31.197/bpk-tv/000002759/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",НТВ СЕРИАЛ
-http://188.225.31.197/bpk-tv/000002760/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",НТВ СТИЛЬ
-http://188.225.31.197/bpk-tv/000002761/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",ТНТ4
-http://188.225.31.197/bpk-tv/000002926/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Рен ТВ
-http://188.225.31.197/bpk-tv/000002472/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Пятница! International
-http://188.225.31.197/bpk-tv/000007816/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Домашний International
-http://188.225.31.197/bpk-tv/000002348/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",ТВ3 International
-http://188.225.31.197/bpk-tv/000004712/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",СТС International
-http://188.225.31.197/bpk-tv/000000428/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",National Geographic
-http://188.225.31.197/bpk-tv/000000034/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Discovery channel
-http://188.225.31.197/bpk-tv/000001496/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Big Planet HD
-http://188.225.31.197/bpk-tv/000008052/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",H2 HD
-http://188.225.31.197/bpk-tv/000002722/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Nat Geo Wild HD
-http://188.225.31.197/bpk-tv/000004474/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",History HD
-http://188.225.31.197/bpk-tv/000001000/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Viasat Explore HD
-http://188.225.31.197/bpk-tv/000004157/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Viasat Nature HD
-http://188.225.31.197/bpk-tv/000006482/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Viasat History HD
-http://188.225.31.197/bpk-tv/000005528/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",ГЛАЗАМИ ТУРИСТА
-http://188.225.31.197/bpk-tv/000001414/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",ТНВ-Планета
-http://188.225.31.197/bpk-tv/000000418/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Animal Planet
-http://188.225.31.197/bpk-tv/000000216/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Terra
-http://188.225.31.197/bpk-tv/000008142/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Тайны галактики HD
-http://188.225.31.197/bpk-tv/000000332/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Техно 24
-http://188.225.31.197/bpk-tv/000000008/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Планета HD
-http://188.225.31.197/bpk-tv/000001049/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Живая природа HD
-http://188.225.31.197/bpk-tv/000001187/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Домашние животные
-http://188.225.31.197/bpk-tv/000000146/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Зоопарк
-http://188.225.31.197/bpk-tv/000000260/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Диалоги о Рыбалке
-http://188.225.31.197/bpk-tv/000003174/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Загородная жизнь HD
-http://188.225.31.197/bpk-tv/000000289/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Поехали!
-http://188.225.31.197/bpk-tv/000002991/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Рыбалка и охота
-http://188.225.31.197/bpk-tv/000002510/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Точка отрыва
-http://188.225.31.197/bpk-tv/000003208/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Здоровое ТВ
-http://188.225.31.197/bpk-tv/000000057/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Премиум Кино KZ
-http://188.225.31.197/bpk-tv/000008491/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Мировое Кино KZ
-http://188.225.31.197/bpk-tv/000008488/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Семейное Кино KZ
-http://188.225.31.197/bpk-tv/000008489/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Боевик Кино KZ
-http://188.225.31.197/bpk-tv/000008490/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Драма Кино KZ
-http://188.225.31.197/bpk-tv/000005449/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Сериал Кино KZ
-http://188.225.31.197/bpk-tv/000005450/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Победа
-http://188.225.31.197/bpk-tv/000004534/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Мосфильм. Золотая коллекция
-http://188.225.31.197/bpk-tv/000006365/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Vip COMEDY
-http://188.225.31.197/bpk-tv/000000870/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Vip MEGAHIT
-http://188.225.31.197/bpk-tv/000000869/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Vip Premiere
-http://188.225.31.197/bpk-tv/000000868/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Vip Serial HD
-http://188.225.31.197/bpk-tv/000004375/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",НСТ
-http://188.225.31.197/bpk-tv/000000078/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Твоё телевидение
-http://188.225.31.197/bpk-tv/000002721/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Новый игровой канал
-http://188.225.31.197/bpk-tv/000008615/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Start Air HD
-http://188.225.31.197/bpk-tv/000007815/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Start World HD
-http://188.225.31.197/bpk-tv/000007818/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",.Black
-http://188.225.31.197/bpk-tv/000000520/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",.RED
-http://188.225.31.197/bpk-tv/000000213/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",.SCI-FI
-http://188.225.31.197/bpk-tv/000000134/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Amedia 1 HD
-http://188.225.31.197/bpk-tv/000000710/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Amedia 2
-http://188.225.31.197/bpk-tv/000000351/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Amedia HiT HD
-http://188.225.31.197/bpk-tv/000001662/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Amedia Premium HD
-http://188.225.31.197/bpk-tv/000000709/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Cinema
-http://188.225.31.197/bpk-tv/000000239/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Hollywood
-http://188.225.31.197/bpk-tv/000000031/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",TV1000 Action HD
-http://188.225.31.197/bpk-tv/000003910/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",TV1000 HD
-http://188.225.31.197/bpk-tv/000003747/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",TV1000 Русское кино
-http://188.225.31.197/bpk-tv/000003748/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Дом кино
-http://188.225.31.197/bpk-tv/000000050/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Дом Кино Премиум HD
-http://188.225.31.197/bpk-tv/000002943/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Еврокино
-http://188.225.31.197/bpk-tv/000000152/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Кинеко HD
-http://188.225.31.197/bpk-tv/000008136/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Ключ
-http://188.225.31.197/bpk-tv/000004585/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Мужской
-http://188.225.31.197/bpk-tv/000000286/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Fox HD
-http://188.225.31.197/bpk-tv/000004472/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Flix Snip
-http://188.225.31.197/bpk-tv/000004466/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Fox Life HD
-http://188.225.31.197/bpk-tv/000004471/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Дорама HD
-http://188.225.31.197/bpk-tv/000003392/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",ЛЮБИМОЕ КИНО
-http://188.225.31.197/bpk-tv/000000283/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Русский Иллюзион
-http://188.225.31.197/bpk-tv/000004207/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Иллюзион+
-http://188.225.31.197/bpk-tv/000004582/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Феникс+Кино
-http://188.225.31.197/bpk-tv/000000125/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Bollywood HD
-http://188.225.31.197/bpk-tv/000001419/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Film.UA Drama
-http://188.225.31.197/bpk-tv/000003028/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Romance
-http://188.225.31.197/bpk-tv/000008780/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Suspense
-http://188.225.31.197/bpk-tv/000008739/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",8 канал
-http://188.225.31.197/bpk-tv/000001564/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Время
-http://188.225.31.197/bpk-tv/000000205/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Зал суда
-http://188.225.31.197/bpk-tv/000006638/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Кто Куда
-http://188.225.31.197/bpk-tv/000001377/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Оружие
-http://188.225.31.197/bpk-tv/000000308/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",АВТО 24
-http://188.225.31.197/bpk-tv/000000815/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",РБК
-http://188.225.31.197/bpk-tv/000000091/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",RTVI
-http://188.225.31.197/bpk-tv/000000039/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",ВОПРОСЫ И ОТВЕТЫ
-http://188.225.31.197/bpk-tv/000000195/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",ЕДА
-http://188.225.31.197/bpk-tv/000000588/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Мир 24
-http://188.225.31.197/bpk-tv/000002557/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Мир
-http://188.225.31.197/bpk-tv/000002555/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",МИР СЕРИАЛА
-http://188.225.31.197/bpk-tv/000000319/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Наша тема
-http://188.225.31.197/bpk-tv/000003785/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",5 канал
-http://188.225.31.197/bpk-tv/000003718/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",СПАС
-http://188.225.31.197/bpk-tv/000000247/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",TV XXI
-http://188.225.31.197/bpk-tv/000000006/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Центральное телевидение
-http://188.225.31.197/bpk-tv/000001880/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",English Club TV
-http://188.225.31.197/bpk-tv/000000202/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Аппетитный
-http://188.225.31.197/bpk-tv/000008877/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Gags network
-http://188.225.31.197/bpk-tv/000006639/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",HIT TV
-http://188.225.31.197/bpk-tv/000001213/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Анекдот ТВ
-http://188.225.31.197/bpk-tv/000001921/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Телекафе
-http://188.225.31.197/bpk-tv/000000206/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Народ Всё Видит
-http://188.225.31.197/bpk-tv/000008614/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",ТВЦ HD
-http://188.225.31.197/bpk-tv/000000112/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Сапфир
-http://188.225.31.197/bpk-tv/000008135/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",31 канал
-http://188.225.31.197/bpk-tv/000000663/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",5 канал [KZ]
-http://188.225.31.197/bpk-tv/000000950/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Almaty tv
-http://188.225.31.197/bpk-tv/000000667/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Balapan
-http://188.225.31.197/bpk-tv/000005178/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Jambyl
-http://188.225.31.197/bpk-tv/000003244/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Saryarqa
-http://188.225.31.197/bpk-tv/000003146/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Semei
-http://188.225.31.197/bpk-tv/000003250/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",TLC HD
-http://188.225.31.197/bpk-tv/000001498/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Turan TV
-http://188.225.31.197/bpk-tv/000001404/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Women's Magazine HD
-http://188.225.31.197/bpk-tv/000008065/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Алау ТВ
-http://188.225.31.197/bpk-tv/000001511/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Ирбис
-http://188.225.31.197/bpk-tv/000001513/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",НТК HD
-http://188.225.31.197/bpk-tv/000000673/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",КТК HD
-http://188.225.31.197/bpk-tv/000000672/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Новое Телевидение
-http://188.225.31.197/bpk-tv/000001380/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Перец
-http://188.225.31.197/bpk-tv/000001248/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Рика
-http://188.225.31.197/bpk-tv/000001514/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Седьмой канал
-http://188.225.31.197/bpk-tv/000000659/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Той Думан
-http://188.225.31.197/bpk-tv/000002936/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",ТВК6 Красноярск
-http://188.225.31.197/bpk-tv/000001516/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",ТДК 42
-http://188.225.31.197/bpk-tv/000001507/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",АСТАНА
-http://188.225.31.197/bpk-tv/000000666/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Abai TV
-http://188.225.31.197/bpk-tv/000006116/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Туркестан
-http://188.225.31.197/bpk-tv/000007248/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Euronews
-http://188.225.31.197/bpk-tv/000000025/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Cartoon Classics
-http://188.225.31.197/bpk-tv/000008795/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",TIJI
-http://188.225.31.197/bpk-tv/000000174/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",NICK JR
-http://188.225.31.197/bpk-tv/000000449/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Уникум
-http://188.225.31.197/bpk-tv/000000048/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Карусель International
-http://188.225.31.197/bpk-tv/000000781/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Cartoon Network
-http://188.225.31.197/bpk-tv/000000015/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Cartoonito
-http://188.225.31.197/bpk-tv/000000160/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Nickelodeon
-http://188.225.31.197/bpk-tv/000000499/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Nicktoons
-http://188.225.31.197/bpk-tv/000004365/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Детский мир
-http://188.225.31.197/bpk-tv/000000049/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Мульт
-http://188.225.31.197/bpk-tv/000001207/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Бобер
-http://188.225.31.197/bpk-tv/000001478/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Лёва
-http://188.225.31.197/bpk-tv/000008003/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Лапки LIVE
-http://188.225.31.197/bpk-tv/000008551/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Da Vinci
-http://188.225.31.197/bpk-tv/000000333/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",О!
-http://188.225.31.197/bpk-tv/000002928/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",В гостях у сказки
-http://188.225.31.197/bpk-tv/000002762/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",Gulli Girl
-http://188.225.31.197/bpk-tv/000000284/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",СТС Kids
-http://188.225.31.197/bpk-tv/000003892/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",ШАНСОН ТВ
-http://188.225.31.197/bpk-tv/000000210/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",ТНТ Music
-http://188.225.31.197/bpk-tv/000000013/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",MCM TOP
-http://188.225.31.197/bpk-tv/000000327/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",1HD
-http://188.225.31.197/bpk-tv/000001020/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",MEZZO
-http://188.225.31.197/bpk-tv/000000030/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",MuzZone
-http://188.225.31.197/bpk-tv/000000783/tve/index.m3u8
-#EXTINF:-1 group-title="ТаймВэб (VPN)",МУЗЫКА ПЕРВОГО
-http://188.225.31.197/bpk-tv/000000204/tve/index.m3u8
-#EXTINF:-1 group-title="Спорткомплекс 🏆",Sport+
-http://188.225.31.197/bpk-tv/000008731/tve/index.m3u8
-#EXTINF:-1 group-title="Спорткомплекс 🏆",Q Football
-http://188.225.31.197/bpk-tv/000008848/tve/index.m3u8
-#EXTINF:-1 group-title="Спорткомплекс 🏆",Q Sport Arena HD
-http://188.225.31.197/bpk-tv/000007615/tve/index.m3u8
-#EXTINF:-1 group-title="Спорткомплекс 🏆",Q Sport League HD
-http://188.225.31.197/bpk-tv/000006969/tve/index.m3u8
-#EXTINF:-1 group-title="Спорткомплекс 🏆",viju+ Sport
-http://188.225.31.197/bpk-tv/000000135/tve/index.m3u8
-#EXTINF:-1 group-title="Спорткомплекс 🏆",Eurosport 1 HD
-http://188.225.31.197/bpk-tv/000002478/tve/index.m3u8
-#EXTINF:-1 group-title="Спорткомплекс 🏆",Eurosport 2 HD
-http://188.225.31.197/bpk-tv/000002479/tve/index.m3u8
-#EXTINF:-1 group-title="Спорткомплекс 🏆",Setanta Sports 1 HD
-http://188.225.31.197/bpk-tv/000004498/tve/index.m3u8
-#EXTINF:-1 group-title="Спорткомплекс 🏆",Setanta Sports 2 HD
-http://188.225.31.197/bpk-tv/000004499/tve/index.m3u8
-#EXTINF:-1 group-title="Спорткомплекс 🏆",Trace Sport Stars HD
-http://188.225.31.197/bpk-tv/000001122/tve/index.m3u8
-#EXTINF:-1 group-title="Спорткомплекс 🏆",Удар HD
-http://188.225.31.197/bpk-tv/000007802/tve/index.m3u8
-#EXTINF:-1 group-title="Спорткомплекс 🏆",Qazaqstan HD
-http://188.225.31.197/bpk-tv/000004208/tve/index.m3u8
-#EXTINF:-1 group-title="Спорткомплекс 🏆",Qazsport HD
-http://188.225.31.197/bpk-tv/000003038/tve/index.m3u8
-#EXTINF:-1 group-title="Спорткомплекс 🏆",Setanta Qazaqstan HD
-http://188.225.31.197/bpk-tv/000002649/tve/index.m3u8
 
 
 
