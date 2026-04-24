@@ -207,8 +207,6 @@ http://s1.tv-nano.com/Luxury_rec/video.m3u8
 http://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
 #EXTINF:-1  group-title="Познавательные" , Univer
 http://cdn.universmotri.ru/live/mq.sdp/playlist.m3u8
-#EXTINF:-1  group-title="Познавательные" , World Fashion Channel HD
-http://cdn.wfc.tv/cdn/stream-rus-1080p.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="pervy-info-by" , Первый информационный Беларусь
 https://edge50.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/chunklist_b5160000_sleng.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="rt-news" ,RT News HD
@@ -305,12 +303,6 @@ http://31.148.48.15/Terra/index.m3u8
 http://cdn.universmotri.ru/live/univer.sdp_576p/playlist.m3u8
 #EXTINF:-1  group-title="Познавательные" ,Univer TV HD
 http://cdn.universmotri.ru/live/hq.sdp/playlist.m3u8
-#EXTINF:-1  group-title="Познавательные" ,WFC
-http://cdn.wfc.tv/cdn/stream-rus-720p.m3u8
-#EXTINF:-1  group-title="Познавательные" ,WFC International
-http://cdn.wfc.tv/cdn/stream-eng-720p.m3u8
-#EXTINF:-1  group-title="Познавательные" ,WFC International HD
-http://cdn.wfc.tv/cdn/stream-eng-1080p.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="avto-plus" ,Авто Плюс
 http://31.148.48.15:80/Avto_Plus/index.m3u8
 #EXTINF:-1  group-title="Познавательные" ,Аист ТВ
@@ -455,6 +447,24 @@ https://cdn.ntv.ru/th_style/tracks-v1a1/playlist.m3u8
 rtmp://vkvsd158.okcdn.ru/playback/10332204051428?stkn=hVx0kn1sfv1eSrGAlIcUsySgZkHrd9_xf3lTnhlbP9v3QWoCIPDZ6tWCko0yGbsh45skapyzpt4&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
 #EXTINF:-1  group-title="Познавательные"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" , Телеканал ЛТВ
 rtmp://vkvsd70.okcdn.ru/playback/6374540258174?stkn=xq3Mb7tqvmgs58xveKmbdKCzSSEC_rQ3uMikuKbmMkmMnk3xsTTKPz8RETCmOZnBCis_rqufnCM&uid=0&sp=uid,sp&sig=vlibqm4nyu
+#EXTINF:-1  group-title="Познавательные"  tvg-id="no_epg"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Star Media
+https://rpn3.bozztv.com/dvrfl07/ushba4/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="no_epg"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Вне закона
+https://rpn3.bozztv.com/dvrfl07/ushba29/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="no_epg"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Военный
+https://rpn3.bozztv.com/dvrfl07/ushba16/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="no_epg"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Документалка Криминал
+https://rpn3.bozztv.com/dvrfl07/ushba28/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="no_epg"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Документалка 2
+https://rpn3.bozztv.com/dvrfl07/ushba27/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="no_epg"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Документалка 3
+https://rpn3.bozztv.com/dvrfl07/ushba38/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="no_epg"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Документалка 5
+https://rpn3.bozztv.com/dvrfl07/ushba30/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="no_epg"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Документалка 8 
+https://rpn3.bozztv.com/dvrfl07/ushba68/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Лекторий Достоевский
+https://rpn3.bozztv.com/dvrfl07/ushba3/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="sts"  tvg-logo="https://app.playlistbox.com/icon/90B7b8PKO54QkGZ6lqxNEqAYzmrVWyjg.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="СТС", СТС
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="tnt"  tvg-logo="https://app.playlistbox.com/icon/W82YEm9Vw51D0poVvmoNr4jQPOGd7KJb.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="ТНТ", ТНТ
@@ -511,6 +521,48 @@ https://cdn-dvr.ntv.ru/svoya_igra/tracks-v1a1/rewind-240.ts.m3u8
 rtmp://vkvsd211.okcdn.ru/playback/10851904072503?stkn=vuFWuALgx71Me_ImIyokT79ubnoxRPa5tX13N_kAoYvrXqqzlbVswhiDCtHEigaPYfKql22Cb_Ze&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
 #EXTINF:-1  group-title="Развлекательные"  tvg-logo="https://i.ibb.co/RkDr4pzm/image-19.png" , Alpha Funny
 http://live.15plusmg.ru/memfs/90b76c71-a86e-488a-aac4-cb66d6f88781.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/xtxRbnzj/image-11.png" ,Мистер Бин
+https://rpn3.bozztv.com/dvrfl07/ushba45/index.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/NnV5WSBK/image-12.png" ,Шоу Бенни Хилла
+https://rpn3.bozztv.com/dvrfl07/ushba62/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Залипательные Ролики
+https://rpn3.bozztv.com/dvrfl07/ushba60/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Приколы 1 Pet Club 
+https://rpn3.bozztv.com/dvrfl07/ushba11/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Приколы 2 TIGER PRODUCTIONS
+https://rpn3.bozztv.com/dvrfl07/ushba20/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Fashion Channel
+https://rpn3.bozztv.com/dvrfl07/ushba19/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Развлекательные" ,WFC International HD
+http://cdn.wfc.tv/cdn/stream-eng-1080p.m3u8
+#EXTINF:-1  group-title="Развлекательные" , World Fashion Channel HD
+http://cdn.wfc.tv/cdn/stream-rus-1080p.m3u8
+#EXTINF:-1  group-title="Развлекательные" ,WFC
+http://cdn.wfc.tv/cdn/stream-rus-720p.m3u8
+#EXTINF:-1  group-title="Развлекательные" ,WFC International
+http://cdn.wfc.tv/cdn/stream-eng-720p.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,  Нейросеть
+https://rpn3.bozztv.com/dvrfl07/ushba104/index.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/KpVKM3Nf/image-14.png" , Тик Ток
+https://rpn3.bozztv.com/dvrfl07/ushba61/index.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Мода 11
+https://rpn3.bozztv.com/dvrfl07/ushba72/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Мода 1 SHIFT TV
+https://rpn3.bozztv.com/dvrfl07/ushba-t8/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Мода 2
+https://rpn3.bozztv.com/dvrfl07/ushba-m6/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Мода 3
+https://rpn3.bozztv.com/dvrfl07/ushba-m7/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Мода 4
+https://rpn3.bozztv.com/dvrfl07/ushba-m8/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Мода 5
+https://rpn3.bozztv.com/dvrfl07/ushba-m9/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Мода 6
+https://rpn3.bozztv.com/dvrfl07/ushba-m1/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Мода 7
+https://rpn3.bozztv.com/dvrfl07/ushba21/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Развлекательные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Мода 10
+https://rpn3.bozztv.com/dvrfl07/ushba93/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kino-tv" , Кино ТВ
 http://vod.tuva.ru/kinotv/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kino-24" , Kino24
@@ -971,6 +1023,106 @@ rtmp://vkvsd69.okcdn.ru/playback/3780958366657?stkn=QkbWCnARWe2BdgDd2ZlIsACtDwpq
 https://live.15plusmg.ru/memfs/5a03fc7a-8417-4874-b56f-91b8aeba1210_output_0.m3u8?session=bomhMGCHEtND9D3hX7kb4M
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" ,Южный Парк
 rtmp://vkvsd8.okcdn.ru/playback/8993430186980?stkn=GGhSqZR-fwCnth4Qgp6V-8FWRYYkNgobKIyP4bDf_-mgfVTkXTdS41qOtuNnVfkvBf_6a3g29ec&uid=0&sp=uid,sp&sig=vlibqm4nyu
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,  KINO FILE
+https://rpn3.bozztv.com/dvrfl07/ushba99/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , K1HO
+https://rpn3.bozztv.com/dvrfl07/ushba100/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , UniverMedia
+https://rpn3.bozztv.com/dvrfl07/ushba101/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , KINOSTREAM
+https://rpn3.bozztv.com/dvrfl07/ushba102/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Logovo Films
+https://rpn3.bozztv.com/dvrfl07/ushba-films-a/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  3 Любимые фильмы
+https://rpn3.bozztv.com/dvrfl07/ushba24/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  4
+https://rpn3.bozztv.com/dvrfl07/ushba26/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  5 Globus TV
+https://rpn3.bozztv.com/dvrfl07/ushba-films-b/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  6 SSA Film
+https://rpn3.bozztv.com/dvrfl07/ushba-films-c/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  7
+https://rpn3.bozztv.com/dvrfl07/ushba-films-d/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  8
+https://rpn3.bozztv.com/dvrfl07/ushba-films-e/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  9 Sinema 360
+https://rpn3.bozztv.com/dvrfl07/ushba-films-f/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  10 Film Zone
+https://rpn3.bozztv.com/dvrfl07/ushba-films-g/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  11
+https://rpn3.bozztv.com/dvrfl07/ushba-films-h/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  12
+https://rpn3.bozztv.com/dvrfl07/ushba-films-i/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  13
+https://rpn3.bozztv.com/dvrfl07/ushba-films-j/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  14 KinoFilm
+https://rpn3.bozztv.com/dvrfl07/ushba-films-m/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  15 Cinemator
+https://rpn3.bozztv.com/dvrfl07/ushba-films-p/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  16 KinoMag
+https://rpn3.bozztv.com/dvrfl07/ushba-films-t/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  17 MB TV
+https://rpn3.bozztv.com/dvrfl07/ushba-films-yz/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  18
+https://rpn3.bozztv.com/dvrfl07/ushba-films-n/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  19 К-ПОКАЗ
+https://rpn3.bozztv.com/dvrfl07/ushba-films-qr/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  20 Popcorn Theatre
+https://rpn3.bozztv.com/dvrfl07/ushba-films-uv/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  21
+https://rpn3.bozztv.com/dvrfl07/ushba-films-o/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  22
+https://rpn3.bozztv.com/dvrfl07/ushba-films-s/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  23 LentaKino
+https://rpn3.bozztv.com/dvrfl07/ushba-films-w/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  24
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-0/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  25
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-a/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  26
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-b/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  27
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-c/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  28
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-d/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  29
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-e/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  30
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-g/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  31
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-i/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  32
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-p/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  33
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-v/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  34 Сов.Ком
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-z/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  35 FilmONN
+https://rpn3.bozztv.com/dvrfl07/ushba64/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  36 LAV-KINO
+https://rpn3.bozztv.com/dvrfl07/ushba32/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  37 FilmOFF
+https://rpn3.bozztv.com/dvrfl07/ushba65/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  38
+https://rpn3.bozztv.com/dvrfl07/ushba17/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  39
+https://rpn3.bozztv.com/dvrfl07/ushba56/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  41
+https://rpn3.bozztv.com/dvrfl07/ushba82/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  42
+https://rpn3.bozztv.com/dvrfl07/ushba-films-k/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  43
+https://rpn3.bozztv.com/dvrfl07/ushba77/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision
+https://rpn3.bozztv.com/dvrfl07/ushba-rvision/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision Motor
+https://rpn3.bozztv.com/dvrfl07/ushba-rvisionmotor/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision Movies
+https://rpn3.bozztv.com/dvrfl07/ushba-rvisionmovies/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision Classic
+https://rpn3.bozztv.com/dvrfl07/ushba-rvisionclassic/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision Кинопанорама
+https://rpn3.bozztv.com/dvrfl07/ushba-rvisionkinopanorama/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rtbcdn.ru/video/2026-04-14/34/e5/34e5f9f69bc5822b1cd863333424fd88.jpg" , Охота за амброй (2025)
 https://river-4-419.rtbcdn.ru/hls-vod/d1gGAC5c030hJdyLtdII4Q/1777131755/2694/0x5000039ce87077e5/6518c6e3d3854e9b9de833c213e53fa1.mp4.m3u8?i=1920x1080_3714
 #EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rtbcdn.ru/video/2026-04-11/ca/4c/ca4cbcd326547e1b4a7a925142db00d2.jpg" , Бесшумный флот: Битва в Северном Ледовитом океане (2025)
@@ -1872,6 +2024,26 @@ https://player.smotrim.ru/iframe/stream/live_id/29d87e02-f367-48b1-b63e-6ce7923a
 http://tv.mediacdn.ru/live/solntse/playlist.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="shayantv"  tvg-logo="https://iptvx.one/picons/shayantv.png" ,Шаян ТВ (Татарстан)
 http://s45177.cdn.ngenix.net/hls/CH_R03_SHAYNTV/variant.m3u8
+#EXTINF:-1  group-title="Детские"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Детский
+https://rpn3.bozztv.com/dvrfl07/ushba8/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Детские"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/zTDczZ19/image-15.png" , Ералаш 
+https://rpn3.bozztv.com/dvrfl07/ushba10/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Детские"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Маша и Медведь
+https://rpn3.bozztv.com/dvrfl07/ushba79/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Детские"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Маша и Медведь (Eng)
+https://rpn3.bozztv.com/dvrfl07/ushba78/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Детские"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/qZJGKb4/image-15.png" ,СССР Мульты
+https://rpn3.bozztv.com/dvrfl07/ushba80/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Спортивные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Овертайм
+https://rpn3.bozztv.com/dvrfl07/ushba55/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Спортивные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Гимнастика 1
+https://rpn3.bozztv.com/dvrfl07/ushba69/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Спортивные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Гимнастика 2
+https://rpn3.bozztv.com/dvrfl07/ushba73/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Спортивные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Спорт
+https://rpn3.bozztv.com/dvrfl07/ushba46/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Спортивные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Танцы 1
+https://rpn3.bozztv.com/dvrfl07/ushba7/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-tv"  tvg-logo="http://domnet.me/images/picons/tvico_n52.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Матч! ТВ
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-tv" , Матч! HD
@@ -2044,6 +2216,36 @@ http://stream-msk-04.ott.tricolor.tv/dtv/id633_MSKSG-PVR-1--Channel_LIVE5/03/pls
 http://stream-msk-03.ott.tricolor.tv/dtv/id632_MSKSG-PVR-1--Channel_LIVE4/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc3NzE5MTYyNiwiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzc2NTg2ODI2LCJzZXNzaW9uX2lkIjoiM2E3NmQ5Y2FlNDI2NjIxYWEyODRjMWM5ODBkZTI5NDMiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ._rVZNf0vbsZA52IfeNYtIZSoB3DIgWdQZbn8cZjg8rA
 #EXTINF:-1  group-title="Спортивные"  tvg-logo="https://raw.githubusercontent.com/blackbirdstudiorus/LoganetXIPTV/main/IMG_20230719_152756.png" ,Астрахань Спорт
 http://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Music 1
+https://rpn3.bozztv.com/dvrfl07/ushba-t5/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Music 6
+https://rpn3.bozztv.com/dvrfl07/ushba33/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Music 13
+https://fl1003.bozztv.com/ushba0/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Music 14
+https://rpn3.bozztv.com/dvrfl07/ushba67/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Music 15
+https://rpn3.bozztv.com/dvrfl07/ushba96/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Music 16 
+https://rpn3.bozztv.com/dvrfl07/ushba76/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Муз
+https://rpn3.bozztv.com/dvrfl07/ushba57/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Музыка 1
+https://rpn3.bozztv.com/dvrfl07/ushba-t1/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Музыка 2
+https://rpn3.bozztv.com/dvrfl07/ushba-t2/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Музыка 3
+https://rpn3.bozztv.com/dvrfl07/ushba-t3/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Музыка 4
+https://rpn3.bozztv.com/dvrfl07/ushba-t4/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Музыка 5
+https://rpn3.bozztv.com/dvrfl07/ushba63/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Музыка 6
+https://rpn3.bozztv.com/dvrfl07/ushba-mafia/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Музыка 7 STV HD
+https://rpn3.bozztv.com/dvrfl07/ushba42/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Музыка Рок
+https://rpn3.bozztv.com/dvrfl07/ushba-m2/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/SDGvD0bh/image-22.png" , Сити Эдем - Классическая Музыка
 https://cityeden.catcast.tv/content/47400/index.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="viasat-sport" ,VIVA Russia HD
@@ -3832,6 +4034,70 @@ http://46.53.208.4:80/live/2100-req_offset_28000000-req_window_0-1k_v5.m3u8
 http://46.53.208.4:80/live/9-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1  group-title="Беларусь"  tvg-id="viasat-sport" ,Viasat sport
 http://46.53.208.4:80/live/6005-req_offset_28000000-req_window_0-3k_v5.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus1" ,Беларусь 1
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS1.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus2" ,Беларусь 2
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS2.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus3" ,Беларусь 3
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS3.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus4-brest" ,Беларусь 4 Брест
+http://tinyurl.com/TvvZaTak/2013-req_5k_v5.m3u8?|User-Agent=http-user-agent=Lavf53.32.100
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus4-vitebsk" ,Беларусь 4 Витебск
+http://46.53.208.4:80/live/2012.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus4-mogilev" ,Беларусь 4 Могилев
+http://tinyurl.com/TvvZaTak/2097-req_offset_28000000-req_window_0-3k_v5.m3u8?|User-Agent=http-user-agent=Lavf53.32.100
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus24" ,Беларусь 24
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS24.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Спорт ТВ Беларусь
+http://46.53.208.4/live/8112.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="curiosity-stream" ,Curiosity Stream
+http://46.53.208.4/live/994.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Воен ТВ
+http://46.53.208.4/live/101.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="nashe-tv" ,Наше ТВ
+http://46.53.208.4/live/218.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="tv3-by" ,ТВ3 Беларусь
+http://46.53.208.4/live/5127.m3u8
+#EXTINF:-1  group-title="Беларусь" ,ТНТ International
+http://46.53.208.4:80/live/5120.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Первый Городской (Гомель)
+http://46.53.208.4/live/6036-req_5k_v5.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Скиф
+http://tinyurl.com/TvvZaTak/3101-req_offset_28000000-req_window_0-3k_v5.m3u8?|User-Agent=http-user-agent=Lavf53.32.100
+#EXTINF:-1  group-title="Беларусь"  tvg-id="zvyazda-by" ,Звязда
+http://tinyurl.com/TvvZaTak/6238-req_offset_28000000-req_window_0-3k_v5.m3u8?|User-Agent=http-user-agent=Lavf53.32.100
+#EXTINF:-1  group-title="Беларусь"  tvg-id="svetloe-tv" ,Светлое ТВ
+http://46.53.208.4:80/live/973.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ont-by" ,ОНТ
+http://194.158.222.36:6102/
+#EXTINF:-1  group-title="Беларусь"  tvg-id="tro" ,Союзный
+http://radio.tvs.by:8088/TRO/index.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Бобруйск
+http://tinyurl.com/TvvZaTak/6239-req_5k_v5.m3u8?|User-Agent=http-user-agent=Lavf53.32.100
+#EXTINF:-1  group-title="Беларусь"  tvg-id="bug-tv" ,Буг-ТВ
+http://tinyurl.com/TvvZaTak/7001-req_5k_v5.m3u8?|User-Agent=http-user-agent=Lavf53.32.100
+#EXTINF:-1  group-title="Беларусь"  tvg-id="vitebsk" ,Витебск
+https://ngtrk.dc.beltelecom.by/vtv/_definst_/vitebsk.stream/playlist.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="8kanal-ru" ,8 канал
+http://46.53.208.4/live/962.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Лагуна ТВ
+http://tinyurl.com/TvvZaTak/7002-req_5k_v5.m3u8?|User-Agent=http-user-agent=Lavf53.32.100
+#EXTINF:-1  group-title="Беларусь"  tvg-id="2-kanal-mogilev" ,ТВ2 Могилев
+http://tinyurl.com/TvvZaTak/1013-req_5k_v5.m3u8?|User-Agent=http-user-agent=Lavf53.32.100
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belmuztv" ,Белмуз ТВ
+http://46.53.208.4:80/live/966.m3u8
+#EXTINF:-1  group-title="Беларусь" ,RU.TV BY
+http://46.53.208.4/live/972.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belviasat-plustv" ,+TV
+http://46.53.208.4:80/live/977.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Белсат HD
+http://e87149a8.megogo.xyz/iptv/ZFDLBYXXKRZVUWU75BUSD2RW/10036/index.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="inteks-baranovichi" ,Интекс Барановичи
+http://86.57.177.44:8110/intex
+#EXTINF:-1  group-title="Беларусь" ,BelarusTomorrow
+https://hlspackager.akamaized.net/live/DB/BELARUS_TOMORROW/HLS/BELARUS_TOMORROW.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Радио Мир BY
+https://stream1.dc.beltelecom.by/radiomir/studio.stream/playlist.m3u8
 #EXTINF:-1  group-title="Армения"  tvg-id="rentv" , РЕН ТВ
 https://a3569457567-s70378.cdn.ngenix.net/ren_tv/1/index.m3u8
 #EXTINF:-1  group-title="Армения"  tvg-id="ntv-pravo" , НТВ Право
