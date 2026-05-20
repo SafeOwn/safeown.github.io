@@ -639,8 +639,6 @@ https://bl.rutube.ru/livestream/a11c890a0ec0730ad33bdaaf2d244e1a/index.m3u8?s=k9
 http://kinowalk.hopto.org/paranormal404_live
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" , КиноНонСтоп
 http://kinowalk.hopto.org/nonestopmovie_live
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" , LifeZ
-http://kinowalk.hopto.org/zhekos_live
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" , Tоny
 http://kinowalk.hopto.org/ordinary_people_live
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" , У КРАЯ БЕЗДНЫ
@@ -815,6 +813,16 @@ https://rpn3.bozztv.com/dvrfl07/ushba-rvisionmovies/tracks-v1a1/mono.m3u8
 https://rpn3.bozztv.com/dvrfl07/ushba-rvisionclassic/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision Кинопанорама
 https://rpn3.bozztv.com/dvrfl07/ushba-rvisionkinopanorama/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="tv1000" , TV1000
+http://85.117.37.41/tv1000/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="tv1000-cee" , VIASAT KINO HD
+http://tinyurl.com/TvZaTak40/74be03caf45786acbbecd5e0a7789a0d?token=128762f0bd32e94a005ad2b25d51fbd5
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="tv1000-action-cee" , VIASAT KINO ACTION HD
+http://tinyurl.com/TvZaTak41/687edb0b4918db4ed5a6f313e527f513?token=128762f0bd32e94a005ad2b25d51fbd5
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia-hit" , AMEDIA HIT
+http://85.117.37.41/amediahit/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia-premium" , AMEDIA PREMIUM
+http://85.117.37.41/amedipremium/index.m3u8
 #EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rtbcdn.ru/video/2026-03-30/e6/2d/e62d03dd84d20ad9272a77a2cd6356b6.jpg" , Джек и Эйва (2026)
 https://river-3-329.rtbcdn.ru/hls-vod/lgsoY0iq6fMIYLrljaOBkg/1779556672/1770/0x5000c500dc624724/46f828738767411ba2d3d197613e9e62.mp4.m3u8?i=848x352_305
 #EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rtbcdn.ru/video/2026-05-14/5c/2c/5c2cd39a8afb888fa8b71348acd95b55.jpg" , День Питера Худжара (2025)
@@ -1764,8 +1772,6 @@ https://rpn3.bozztv.com/dvrfl07/ushba78/tracks-v1a1/mono.ts.m3u8
 https://rpn3.bozztv.com/dvrfl07/ushba80/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1  group-title="Детские" , Мультфильмы 24/7
 http://kinowalk.hopto.org/mezontrop_live
-#EXTINF:-1  group-title="Детские" , ZumiBox
-http://kinowalk.hopto.org/zumibox_live
 #EXTINF:-1  group-title="Детские" , JTX Online
 http://kinowalk.hopto.org/jtxonline_live
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-tv"  tvg-logo="http://domnet.me/images/picons/tvico_n52.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Матч! ТВ
@@ -1824,16 +1830,6 @@ https://mts1.iptv-playoutcenter.de/mts/mts-web/mts/mtsw3/chunks.m3u8
 https://stream.polar.cz/vctv/vctvlive-1/playlist.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-logo="https://i.ibb.co/rKtVsr1G/image-16.png" , Realitatea Sportiva
 https://stream.realitatea.net/realitatea/sportiva_md/medialist_7351611093486677382_hls.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-logo="https://i.ibb.co/KpTPVZbR/image-44.png" , RS News Sports
-https://video03.logicahost.com.br/rssports5/rssports5/chunklist_w1908160722.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-logo="https://i.ibb.co/KpTPVZbR/image-44.png" , RS News Sports 2
-https://video03.logicahost.com.br/rssports2/rssports2/chunklist_w1763371149.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-logo="https://i.ibb.co/KpTPVZbR/image-44.png" , RS News Sports 3
-https://video03.logicahost.com.br/rssports3/rssports3/chunklist_w1660273309.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-logo="https://i.ibb.co/KpTPVZbR/image-44.png" , RS News Sports 4
-https://video03.logicahost.com.br/rssports4/rssports4/chunklist_w1217226869.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-logo="https://i.ibb.co/KpTPVZbR/image-44.png" , RS News Sports 5
-https://video03.logicahost.com.br/rssports5/rssports5/chunklist_w1651088250.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-logo="https://i.ibb.co/p6zjmKrR/image-40.png" , SOS Kanal Plus
 https://53be5ef2d13aa.streamlock.net/soskanalplus/soskanalplus.stream/chunklist_w1188730528.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-logo="https://i.ibb.co/3Xr475k/image-2025-10-10-T205150-012.png" , HT Spor
@@ -1930,14 +1926,80 @@ https://rpn3.bozztv.com/dvrfl07/ushba46/tracks-v1a1/mono.m3u8
 https://stream8.cinerama.uz/1263/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="setanta-sports-plus" ,Setanta Sports 2 HD
 https://stream8.cinerama.uz/1264/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-football3" ,Матч! Футбол 3 HD
-http://95.181.17.18/dvr01/sd2/NTVplusfut3HD/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI2IDc6MDY6MTQgQU0maGFzaF92YWx1ZT1qMTRrUTlrMFJRNm8wYXh1cjdwS1BBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
+#EXTINF:-1  group-title="Спортивные"  tvg-id="eurosport1" ,Eurosport 1 HD
+http://185.78.112.47:8077/Eurosport1HD/index.m3u8
+#EXTINF:-1  group-title="Спортивные"  tvg-id="eurosport2" ,Eurosport 2 HD
+http://185.78.112.47:8077/Eurosport2HD/index.m3u8
+#EXTINF:-1  group-title="Спортивные"  tvg-id="match-premier" ,Матч Премьер
+http://185.78.112.47:8077/nash-football/index.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-premier" ,Матч Премьер HD
-http://95.181.17.26/dvr01/hd1/NashFutHD/chunks.m3u8?&&wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI2IDc6MDY6MTQgQU0maGFzaF92YWx1ZT1qMTRrUTlrMFJRNm8wYXh1cjdwS1BBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-arena" ,Матч! Арена HD
-http://95.181.17.26/dvr02/hd1/sport1HD/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI2IDc6MDY6MTQgQU0maGFzaF92YWx1ZT1qMTRrUTlrMFJRNm8wYXh1cjdwS1BBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-nash-sport" ,Матч! Страна HD
-http://95.181.17.18/dvr01/sd2/ntvsport/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI2IDc6MDY6MTQgQU0maGFzaF92YWx1ZT1qMTRrUTlrMFJRNm8wYXh1cjdwS1BBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
+http://185.78.112.47:8077/nash_football_hd/index.m3u8
+#EXTINF:-1  group-title="Спортивные" ,Старт Live
+http://185.78.112.47:8077/start_hd/index.m3u8
+#EXTINF:-1  group-title="Спортивные"  tvg-id="eurosport1" , EUROSPORT 1 HD
+http://85.117.37.41/eurosport1/index.m3u8
+#EXTINF:-1  group-title="Спортивные"  tvg-id="eurosport2" , EUROSPORT 2 HD
+http://85.117.37.41/eurosport2/index.m3u8
+#EXTINF:-1  group-title="Спортивные" , SPORT 1 ISRAEL
+http://185.132.134.159:80/sport1/index.m3u8
+#EXTINF:-1  group-title="Спортивные" , SPORT 2 ISRAEL
+http://185.132.134.159:80/sport2/index.m3u8
+#EXTINF:-1  group-title="Спортивные" , SPORT 3 ISRAEL
+http://185.132.134.159:80/sport3/index.m3u8
+#EXTINF:-1  group-title="Спортивные" , SPORT 4 ISRAEL
+http://185.132.134.159:80/sport4/index.m3u8
+#EXTINF:-1  group-title="Спортивные" , SPORT 5 ISRAEL
+http://185.132.134.159:80/sport5/index.m3u8
+#EXTINF:-1  group-title="Спортивные" , SPORT 6 ISRAEL
+http://185.132.134.159:80/sport6/index.m3u8
+#EXTINF:-1  group-title="Спортивные" , BEIN SPORT HD 🇫🇷
+http://99.27.51.147:8080/BeinSport/index.m3u8
+#EXTINF:-1  group-title="Спортивные" , BEIN SPORT 2 HD 🇫🇷
+http://99.27.51.147:8080/BeinSport2/index.m3u8
+#EXTINF:-1  group-title="Спортивные" , BEIN SPORT 3 HD 🇫🇷
+http://99.27.51.147:8080/BeinSport3/index.m3u8
+#EXTINF:-1  group-title="Спортивные" , ESPN PREMIUM HD ИСПАНИЯ 🇪🇸
+http://181.224.255.210:8001/play/a0pt/index.m3u8
+#EXTINF:-1  group-title="Спортивные" , ESPN2 HD ИСПАНИЯ 🇪🇸
+http://181.224.255.210:8001/play/a0oj/index.m3u8
+#EXTINF:-1  group-title="Спортивные" , ESPN4 HD ИСПАНИЯ 🇪🇸
+http://181.224.255.210:8001/play/a0og/index.m3u8
+#EXTINF:-1  group-title="Спортивные" , ESPN5 HD ИСПАНИЯ 🇪🇸
+http://181.224.255.210:8001/play/a0pr/index.m3u8
+#EXTINF:-1  group-title="Спортивные" , ESPN6 HD ИСПАНИЯ 🇪🇸
+http://181.224.255.210:8001/play/a0eq/index.m3u8
+#EXTINF:-1  group-title="Спортивные" , ESPN7 HD ИСПАНИЯ 🇪🇸
+http://181.224.255.210:8001/play/a0m5/index.m3u8
+#EXTINF:-1  group-title="Спортивные"  tvg-id="arena-sport-1" , ARENA SPORT 1 HD
+http://178.253.194.79:10006
+#EXTINF:-1  group-title="Спортивные"  tvg-id="arena-sport-2" , ARENA SPORT 2 HD
+http://178.253.194.79:10007
+#EXTINF:-1  group-title="Спортивные"  tvg-id="arena-sport-3" , ARENA SPORT 3 HD
+http://178.253.194.79:10008
+#EXTINF:-1  group-title="Спортивные"  tvg-id="arena-sport-4" , ARENA SPORT 4 HD
+http://178.253.194.79:10009
+#EXTINF:-1  group-title="Спортивные"  tvg-id="arena-sport-5" , ARENA SPORT 5 HD
+http://178.253.194.79:10010
+#EXTINF:-1  group-title="Спортивные"  tvg-id="arena-sport-6" , ARENA SPORT 6 HD
+http://178.253.194.79:10011
+#EXTINF:-1  group-title="Спортивные"  tvg-id="arena-sport-7" , ARENA SPORT 7 HD
+http://178.253.194.79:10012
+#EXTINF:-1  group-title="Спортивные"  tvg-id="arena-sport-8" , ARENA SPORT 8 HD
+http://178.253.194.79:10013
+#EXTINF:-1  group-title="Спортивные" , ARENA SPORT 1 PREMIUM HD
+http://178.253.194.79:10001
+#EXTINF:-1  group-title="Спортивные" , ARENA SPORT 2 PREMIUM HD
+http://178.253.194.79:10004
+#EXTINF:-1  group-title="Спортивные" , ARENA SPORT 3 PREMIUM HD
+http://178.253.194.79:10005
+#EXTINF:-1  group-title="Спортивные" , ARENA SPORT 4 PREMIUM HD
+http://178.253.194.79:10016
+#EXTINF:-1  group-title="Спортивные" , ARENA SPORT 5 PREMIUM HD
+http://178.253.194.79:10017
+#EXTINF:-1  group-title="Спортивные" , ARENA TENNIS HD
+http://178.253.194.79:10019
+#EXTINF:-1  group-title="Спортивные" , ARENA ADRENALIN HD
+http://178.253.194.79:10018
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="muztv" ,МузТВ
 http://45.145.32.13:20440/muz_tv/index.m3u8?token=test
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="ru-tv" , RU.TV
@@ -1976,8 +2038,6 @@ http://31.148.48.15:80/Bridge_TV_Classic/index.m3u8
 http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b1228000.m3u8
 #EXTINF:-1  group-title="Музыкальные" ,Kronehit TV HD
 http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
-#EXTINF:-1  group-title="Музыкальные" ,MIXM TV
-http://89.179.247.144/hls/mixm.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="DanceTelevision.nl"  tvg-logo="https://i.ibb.co/yQVwqnz/resize-53.png"   tvg-name="DT", Dance TV Techno
 https://m2b2.worldcast.tv:7443/dancetelevisionthree/2/dancetelevisionthree.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="DanceTelevision.nl"  tvg-logo="https://i.ibb.co/yQVwqnz/resize-53.png"   tvg-name="DT", Dance TV Techno Warehouse
@@ -5066,4 +5126,382 @@ https://flussonic.mkpnet.ru/tv-1bfac9df3d938c1f/video.m3u8
 https://flussonic.mkpnet.ru/tv-ee3651e1e7ce5cbf/video.m3u8
 #EXTINF:-1  group-title="Сервис"  tvg-id="match-nash-sport" ,Матч! Страна
 https://flussonic.mkpnet.ru/tv-6db4f59c21aec361/video.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="pervy" ,Первый HD
+http://185.78.112.47:8077/ort_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="pervy" ,Первый канал
+http://185.78.112.47:8077/ort_msk/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="rossia-24" ,Россия 24
+http://185.78.112.47:8077/rossia_24/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="kultura" ,Россия К
+http://185.78.112.47:8077/rossia_k/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="tnt" ,ТНТ
+http://185.78.112.47:8077/tnt/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="tnt" ,ТНТ HD
+http://185.78.112.47:8077/tnt_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="tnt4" ,ТНТ4
+http://185.78.112.47:8077/tnt-4/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="ntv" ,НТВ
+http://185.78.112.47:8077/ntv_fed/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="ntv" ,НТВ HD
+http://185.78.112.47:8077/ntv_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="ntv-pravo" ,НТВ Право
+http://185.78.112.47:8077/ntv_pravo/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="ntv-serial" ,НТВ Сериал
+http://185.78.112.47:8077/ntv_serial/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="ntv-style" ,НТВ Стиль
+http://185.78.112.47:8077/ntv_stil/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="ntv-xit" ,НТВ Хит
+http://185.78.112.47:8077/ntv_hit/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="animal-planet-eu" ,Animal Planet
+http://185.78.112.47:8077/AnimalPlanetRussiaHD/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="big-planet" ,Big Planet HD
+http://185.78.112.47:8077/big_planet_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="dikaya-rybalka-hd" ,Дикая рыбалка HD
+http://185.78.112.47:8077/DikayaRybalkaHD/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="dikiy" ,Дикий
+http://185.78.112.47:8077/Dikiy/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="discovery-channel" ,Discovery Channel HD
+http://185.78.112.47:8077/DiscoveryChannelHD/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="home-4k" ,Home 4k
+http://185.78.112.47:8077/home4k/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="mir-vokrug" ,Мир вокруг
+http://185.78.112.47:8077/MirVokrugHD/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="terra-ru" ,Terra
+http://185.78.112.47:8077/natgeo_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="nat-geo-wild" ,Nat Geo Wild HD
+http://185.78.112.47:8077/natgeo_wild_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="rtg-tv" ,RTG HD
+http://185.78.112.47:8077/rtg_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="rtg-tv" ,RTG TV
+http://185.78.112.47:8077/rtg/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="ocean-tv" ,Ocean TV
+http://185.78.112.47:8077/OceanTV/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="quadro4k" ,Quadro 4K
+http://185.78.112.47:8077/Quadro4K/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="terra-ru" ,Terra
+http://185.78.112.47:8077/natgeo/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="viasat-nature" ,Viasat Nature
+http://185.78.112.47:8077/viju_nature_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="viasat-history" ,Viasat History HD
+http://185.78.112.47:8077/ViasatHistoryHD/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="zhivaya-planeta" ,Живая планета
+http://185.78.112.47:8077/zhivaya-planeta/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="moya-planeta" ,Моя планета
+http://185.78.112.47:8077/moya_planeta/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="moya-planeta" ,Моя планета HD
+http://185.78.112.47:8077/planeta_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="oxotnik-i-rybolov" ,Охотник и рыболов
+http://185.78.112.47:8077/ohot_i_rybolov_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="prikluchenia-hd" ,Приключения HD
+http://185.78.112.47:8077/teletravel_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="russky-ekstrim" ,Русский Экстрим
+http://185.78.112.47:8077/rus-extrim-hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="oxotnik-i-rybolov" ,Рыболов
+http://185.78.112.47:8077/ohotnik/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="oruzhie" ,Оружие
+http://185.78.112.47:8077/oruzhie/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="otkryty-mir" ,Открытый мир
+http://185.78.112.47:8077/otkr_mir/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="poexali" ,Поехали!
+http://185.78.112.47:8077/Poehali/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="tayna" ,Тайна
+http://185.78.112.47:8077/taina/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="teleputeshestvia" ,Телепутешествия
+http://185.78.112.47:8077/teleputeshestviya/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="texno-24" ,Техно 24
+http://185.78.112.47:8077/t24/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="zagorodny" ,Загородный
+http://185.78.112.47:8077/Zagorodniy/index.m3u8
+#EXTINF:-1  group-title="Маяк" ,Зоопарк
+http://185.78.112.47:8077/Zoopark/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="istoria" ,История
+http://185.78.112.47:8077/istoriya/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="zhivi" ,Живи
+http://185.78.112.47:8077/jivi/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="2na2" ,2x2
+http://185.78.112.47:8077/2x2/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="360-podmoskovie" ,360
+http://185.78.112.47:8077/rubl/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="365-dnej" ,365 дней
+http://185.78.112.47:8077/365_dnej/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="7tv" ,7ТВ
+http://185.78.112.47:8077/7tv/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="8kanal-ru" ,8 канал
+http://185.78.112.47:8077/8kanal/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="zee-tv" ,Индия
+http://185.78.112.47:8077/zee-tv/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="bcu-ultra4k" ,BCU Ultra 4K
+http://185.78.112.47:8077/BCU_Ultra_4K/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="bollywood-hd" ,Bollywood HD
+http://185.78.112.47:8077/BollywoodHD/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="amedia1" ,Amedia 1
+http://185.78.112.47:8077/amedia/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="amedia2" ,Amedia 2
+http://185.78.112.47:8077/amedia-2/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="amedia-hit" ,Amedia Hit HD
+http://185.78.112.47:8077/amedia_hit_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="amedia-premium" ,Amedia Premium
+http://185.78.112.47:8077/amedia_premium_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="arirang" ,arirang
+http://185.78.112.47:8077/arirang/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="art-tv" ,Арт
+http://185.78.112.47:8077/art/index.m3u8
+#EXTINF:-1  group-title="Маяк" ,atv
+http://185.78.112.47:8077/atv/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="bloomberg" ,Bloomberg
+http://185.78.112.47:8077/bloomberg/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="boomerang" ,Boomerang
+http://185.78.112.47:8077/Boomerang/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="cinema-ru" ,Cinema
+http://185.78.112.47:8077/cinema_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="centralnoye-tv" ,Центральное телевидение
+http://185.78.112.47:8077/ctv/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="domkino" ,Дом кино
+http://185.78.112.47:8077/dom_kino/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="domashny" ,Домашний
+http://185.78.112.47:8077/domashniy/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="dorama" ,Дорама
+http://185.78.112.47:8077/Dorama/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="fanhd" ,Fan
+http://185.78.112.47:8077/fan/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="fox" ,Fox
+http://185.78.112.47:8077/fox/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="foxlife" ,Fox life
+http://185.78.112.47:8077/fox-life/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="gags-network" ,Gags Network
+http://185.78.112.47:8077/raz-tv/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="kaleydoskop-tv" ,Калейдоскоп ТВ
+http://185.78.112.47:8077/kaleydoskop/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="kinoxit" ,Кинохит
+http://185.78.112.47:8077/kinohit/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="kinojam1" ,kinojam 1
+http://185.78.112.47:8077/kinojam1/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="kinojam2" ,kinojam 2
+http://185.78.112.47:8077/kinojam2/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="kinopremiera-hd" ,Кинопремьера
+http://185.78.112.47:8077/premiera/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="indiyskoe-kino" ,Индийское кино
+http://185.78.112.47:8077/indiya/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="kinoseria" ,Киносерия
+http://185.78.112.47:8077/mnogo-tv/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="nashe-novoe-kino" ,Наше новое кино
+http://185.78.112.47:8077/nashe-novoe-kino/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="rodnoe-kino" ,Родное кино
+http://185.78.112.47:8077/nashe-kino/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="russkaya-komedia" ,Комедия
+http://185.78.112.47:8077/comedy/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="kinomiks" ,Киномикс
+http://185.78.112.47:8077/kinomix/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="kinosemiya" ,Киносемья
+http://185.78.112.47:8077/kinosemya/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="kinosvidanie" ,Киносвидание
+http://185.78.112.47:8077/kinosvidanie/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="kinouzhas" ,Киноужас
+http://185.78.112.47:8077/kinoujas/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="russkaya-komedia" ,Комедия
+http://185.78.112.47:8077/komediya/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="kinopokaz" ,Кинопоказ
+http://185.78.112.47:8077/kinopokaz/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="muzhskoe-kino" ,Мужское кино HD
+http://185.78.112.47:8077/muzhskoe-kino_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="kinosat" ,Киносат
+http://185.78.112.47:8077/kinosat/index.m3u8
+#EXTINF:-1  group-title="Маяк" ,Life 78
+http://185.78.112.47:8077/life78/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="lubimoe-kino" ,Любимое кино
+http://185.78.112.47:8077/LubimoeKino/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="mir-seriala" ,Мир сериала
+http://185.78.112.47:8077/MirSeriala/index.m3u8
+#EXTINF:-1  group-title="Маяк" ,o2tv
+http://185.78.112.47:8077/o2_tv/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="plan-b" ,Plan b
+http://185.78.112.47:8077/planb/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="rtd-ru" ,RT Doc
+http://185.78.112.47:8077/rt-doc/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="russky-ekstrim" ,Русский Экстрим
+http://185.78.112.47:8077/rus-extrim/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="russky-illuzion" ,Русский иллюзион
+http://185.78.112.47:8077/RusskiyIllusion/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="shot-tv" ,Shot TV
+http://185.78.112.47:8077/shot_tv/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="start-air" ,Start air
+http://185.78.112.47:8077/start_air/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="start-world" ,Start world
+http://185.78.112.47:8077/start_world/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="tv1000" ,TV1000 HD
+http://185.78.112.47:8077/viju_tv1000_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="ultra-hd-cinema" ,Ultra HD Cinema
+http://185.78.112.47:8077/ultra_cinema_4k/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="usadba" ,Усадьба
+http://185.78.112.47:8077/Usadba/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="world-fashion-channel" ,World Fashion Channel
+http://185.78.112.47:8077/WorldFashionChannel/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="avto24" ,Авто 24
+http://185.78.112.47:8077/avto24/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="avto-plus" ,Авто плюс
+http://185.78.112.47:8077/avto_plus/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="arsenaltv" ,Арсенал HD
+http://185.78.112.47:8077/arsenal_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="blokbaster-hd" ,Блокбастер HD
+http://185.78.112.47:8077/blokbaster_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="zvezda" ,Звезда
+http://185.78.112.47:8077/zvezda/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="zvezda-plus" ,Звезда Плюс
+http://185.78.112.47:8077/zvezda_plus_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="zootv" ,Зоо ТВ
+http://185.78.112.47:8077/zoo_tv/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="kvn-tv" ,КВН ТВ
+http://185.78.112.47:8077/kvn_tv/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="kto-est-kto" ,Кто есть кто
+http://185.78.112.47:8077/kto-est-kto/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="kuxnia-tv" ,Кухня ТВ
+http://185.78.112.47:8077/kuhnya/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="mir" ,Мир
+http://185.78.112.47:8077/mir/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="mir-24" ,Мир 24
+http://185.78.112.47:8077/mir-24/index.m3u8
+#EXTINF:-1  group-title="Маяк" ,Мой мир
+http://185.78.112.47:8077/topshop/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="moskva-24" ,Москва 24
+http://185.78.112.47:8077/moskva_24/index.m3u8
+#EXTINF:-1  group-title="Маяк" ,Москва доверие
+http://185.78.112.47:8077/moskva_doverie/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="mosfilm" ,Мосфильм. Золотая коллекция
+http://185.78.112.47:8077/mosfilm/index.m3u8
+#EXTINF:-1  group-title="Маяк" ,Нано ТВ
+http://185.78.112.47:8077/nano-tv/index.m3u8
+#EXTINF:-1  group-title="Маяк" ,Нано ТВ HD
+http://185.78.112.47:8077/nano_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="nash-kinopokaz-hd" ,Наш Кинопоказ HD
+http://185.78.112.47:8077/nash_kinopokaz_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="nasha-tema" ,Наша тема
+http://185.78.112.47:8077/nasha_tema_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="nashesd" ,Наше
+http://185.78.112.47:8077/nashe/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="nostalgia" ,Ностальгия
+http://185.78.112.47:8077/nostalgia/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="nst" ,НСТ
+http://185.78.112.47:8077/nstv/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="o_" ,О!
+http://185.78.112.47:8077/o_/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="otr" ,ОТР
+http://185.78.112.47:8077/otr/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="pes-i-ko" ,Пес и Ко
+http://185.78.112.47:8077/pes_i_ko/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="pobeda" ,Победа
+http://185.78.112.47:8077/pobeda/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="pobeda" ,Победа HD
+http://185.78.112.47:8077/pobeda_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк" ,Прибой ТВ
+http://185.78.112.47:8077/priboy_tv_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="pro-lyubov" ,Про любовь
+http://185.78.112.47:8077/pro_lubov_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="prosveschenie" ,Просвещение
+http://185.78.112.47:8077/prosveshenie/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="piatnica" ,Пятница
+http://185.78.112.47:8077/Pyatnica/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="piatnica" ,Пятница HD
+http://185.78.112.47:8077/pyatnica_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="ratnik" ,Ратник
+http://185.78.112.47:8077/ratnik_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="rbk" ,РБК
+http://185.78.112.47:8077/rbc/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="russky-bestseller" ,Русский бестселлер
+http://185.78.112.47:8077/rus-bestseller/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="russky-detektiv" ,Русский детектив
+http://185.78.112.47:8077/rus-detective/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="russky-roman" ,Русский роман
+http://185.78.112.47:8077/rus-roman/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="russky-roman" ,Русский роман HD
+http://185.78.112.47:8077/russki_roman_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="sarafan" ,Сарафан
+http://185.78.112.47:8077/sarafan/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="soyuz" ,Союз
+http://185.78.112.47:8077/soyuz/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="spas" ,Спас
+http://185.78.112.47:8077/spas/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="sts" ,СТС HD
+http://185.78.112.47:8077/sts_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="sts-love" ,СТС Love
+http://185.78.112.47:8077/sts-love/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="super" ,Суббота
+http://185.78.112.47:8077/super/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="tv3-ru" ,ТВ3
+http://185.78.112.47:8077/tv3/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="tv3-ru" ,ТВ3 HD
+http://185.78.112.47:8077/tv3_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="teatr" ,Театр
+http://185.78.112.47:8077/strk_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="teledom" ,Теледом
+http://185.78.112.47:8077/teledom_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="tonus-tv" ,Тонус ТВ
+http://185.78.112.47:8077/tonus/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="tochka-tv" ,Точка ТВ
+http://185.78.112.47:8077/tochka/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="usadba" ,Усадьба
+http://185.78.112.47:8077/usadba/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="uspex" ,Успех
+http://185.78.112.47:8077/uspeh/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="che" ,Че
+http://185.78.112.47:8077/che/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="yu" ,Ю
+http://185.78.112.47:8077/utv/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="aiva" ,Aiva HD
+http://185.78.112.47:8077/aiva_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="1hd" ,1HD
+http://185.78.112.47:8077/1hd/index.m3u8
+#EXTINF:-1  group-title="Маяк" ,MCM Top Russia
+http://185.78.112.47:8077/MCMTopRussia/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="ru-tv" ,RU.TV
+http://185.78.112.47:8077/ru-tv/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="bridge-hd" ,Bridge HD
+http://185.78.112.47:8077/bridge_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="bridge-tv" ,Bridge TV
+http://185.78.112.47:8077/bridge-tv/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="bridge-tv-classic" ,Bridge TV Classic
+http://185.78.112.47:8077/topsong/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="bridge-tv-dance" ,Bridge TV Hits
+http://185.78.112.47:8077/dange/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="bridge-tv-ruxit" ,Bridge TV Русский Хит
+http://185.78.112.47:8077/rusong/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="russian-musicbox" ,Russian Music Box
+http://185.78.112.47:8077/music-box-ru/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="muztv" ,Муз ТВ
+http://185.78.112.47:8077/muz_tv/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="mult" ,Мульт
+http://185.78.112.47:8077/mult/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="mult" ,Мульт HD
+http://185.78.112.47:8077/thlum_hd/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="malysh" ,Малыш
+http://185.78.112.47:8077/malish/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="radost-moya" ,Радость моя
+http://185.78.112.47:8077/radost-moya/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="detsky" ,Уникум
+http://185.78.112.47:8077/detskiy/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="tiji" ,TiJi
+http://185.78.112.47:8077/TiJi/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="ryzhy" ,Рыжий
+http://185.78.112.47:8077/ryzhiy/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="sts-kids-hd" ,СТС Kids
+http://185.78.112.47:8077/sts_kids/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="nickelodeon-ru" ,Nickelodeon
+http://185.78.112.47:8077/nickelodeon/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="karusel" ,Карусель
+http://185.78.112.47:8077/karusel/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="jimjam" ,JimJam
+http://185.78.112.47:8077/JimJam/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="detsky-mir" ,Детский мир
+http://185.78.112.47:8077/Detskiy_Mir/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="cartoon-network" ,Cartoon Network
+http://185.78.112.47:8077/cartoon-net/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="ani" ,Ani
+http://185.78.112.47:8077/ani/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="mama" ,Мама
+http://185.78.112.47:8077/mama/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="solnce" ,Солнце
+http://185.78.112.47:8077/disney/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="multimania" ,Мультиландия
+http://185.78.112.47:8077/multimania/index.m3u8
+#EXTINF:-1  group-title="Маяк"  tvg-id="multimuzyka" ,Мультимузыка
+http://185.78.112.47:8077/strana/index.m3u8
 #EXT-X-ENDLIST
