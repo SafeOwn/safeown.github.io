@@ -10,14 +10,30 @@ let
   pkgs32 = import <nixpkgs> { system = "i686-linux"; };
 
   # ✅ Выбор ядра: раскомментируй нужное
-  kernelPackages = pkgs.linuxPackages_xanmod;             # 🎮 XanMod — для гейминга (⭐⭐⭐ FPS)
+  # ✅ Выбор ядра XanMod с исправлением ошибки загрузчика (bzImage) и фиксом BTF
+  kernelPackages = pkgs.linuxPackages_xanmod.extend (self: super: {
+    kernel = super.kernel.overrideAttrs (oldAttrs: {
+      # 1. Отключаем проверку ошибок BTF, которая ломает сборку модулей
+      ignore_btf_errors = true;
+
+      # 2. Оставляем прошлый хак для загрузчика
+      postInstall = (oldAttrs.postInstall or "") + ''
+        if [ -f $out/vmlinuz ] && [ ! -f $out/bzImage ]; then
+          ln -s vmlinuz $out/bzImage
+        fi
+      '';
+    });
+  });
+
+  #kernelPackages = pkgs.linuxPackages_xanmod;             # 🎮 XanMod — для гейминга (⭐⭐⭐ FPS)
   # kernelPackages = pkgs.linuxPackages_latest;           # 🖥️ Стандартное последняя 6.16 — для стабильности (⭐ FPS)
   # kernelPackages = pkgs.linuxPackages;                  # 🖥️ Стандартное 6.6 — для стабильности (❌ FPS)
   # kernelPackages = pkgs.linuxPackages_zen;              # ⚖️ Баланс (⭐⭐ FPS)
   # kernelPackages = pkgs.cachyos.linuxPackages.cachyos;  # 🚀 CachyOS — максимум FPS на i9 (⭐⭐⭐⭐ FPS) нужно собирать вручную
 
   # ✅ Привязываем NVIDIA драйвер к выбранному ядру
-  nvidiaPackages = kernelPackages.nvidiaPackages.beta;
+  #nvidiaPackages = kernelPackages.nvidiaPackages.legacy_590;
+  nvidiaPackages = kernelPackages.nvidiaPackages.beta;         # Самые свежие драйвера (595 или свежее)
 
   # --- РЕЖИМ: NVIDIA (по умолчанию) ---
   # Раскомментируй, чтобы использовать NVIDIA
@@ -177,6 +193,15 @@ in
       KWIN_USE_BUFFER_AGE = "1";
       KWIN_COMPOSE = "O2";
 
+#       # Исправление для Tauri/WebKit приложений на NVIDIA (Clash Verge, Obsidian, etc)
+#       WEBKIT_DISABLE_DMABUF_RENDERER = "0";
+#       WEBKIT_DISABLE_COMPOSITING_MODE = "1";
+#
+#
+#       # Принудительно только NVIDIA Vulkan (убирает Intel из Vulkan)
+#       VK_ICD_FILENAMES = "/run/opengl-driver/share/vulkan/icd.d/nvidia_icd.json:/run/opengl-driver-32/share/vulkan/icd.d/nvidia_icd.json";
+#       __NV_PRIME_RENDER_OFFLOAD = "1";
+
 
 
 
@@ -235,20 +260,20 @@ in
     pkgsi686Linux.mesa       # ✅ 32-битная версия
     egl-wayland              # ✅ Интеграция EGL с Wayland (для gamescope)
     xwayland                 # ✅ Запуск X11-приложений в Wayland
-    xorg.libSM
-    xorg.libXrender
-    xorg.libX11                   # ✅ Основная X11 библиотека
-    xorg.libXext                  # ✅ Расширения X11
-    xorg.libXcursor               # ✅ Курсоры (важно для игр)
-    xorg.libXi                    # ✅ Ввод (мышь, клавиатура)
-    xorg.libXinerama              # ✅ Мультимонитор
-    xorg.libXScrnSaver            # ✅ Защита экрана (иногда требуется)
-    xorg.libXtst                  # ✅ Симуляция ввода (для автоматизации)
-    xorg.libxshmfence             # ✅ Синхронизация GPU (важно для Vulkan)
-    xorg.libXrandr                # ✅ Изменение разрешения
-    xorg.libXxf86vm               # ✅ XFree86 видеомоды
-    xorg.libXcomposite            # ✅ Compositing (для оконных менеджеров)
-    xorg.libXdamage               # ✅ Отслеживание изменений в окнах
+    libSM
+    libXrender
+    libX11                   # ✅ Основная X11 библиотека
+    libXext                  # ✅ Расширения X11
+    libXcursor               # ✅ Курсоры (важно для игр)
+    libXi                    # ✅ Ввод (мышь, клавиатура)
+    libXinerama              # ✅ Мультимонитор
+    libXScrnSaver            # ✅ Защита экрана (иногда требуется)
+    libXtst                  # ✅ Симуляция ввода (для автоматизации)
+    libxshmfence             # ✅ Синхронизация GPU (важно для Vulkan)
+    libXrandr                # ✅ Изменение разрешения
+    libXxf86vm               # ✅ XFree86 видеомоды
+    libXcomposite            # ✅ Compositing (для оконных менеджеров)
+    libXdamage               # ✅ Отслеживание изменений в окнах
     libdrm                   # ✅ Прямой доступ к GPU
     libpciaccess             # ✅ Доступ к PCI-устройствам
     libva                    # ✅ Video Acceleration (VA-API)
@@ -286,7 +311,7 @@ in
     liberation_ttf           # ✅ Альтернатива corefonts
     noto-fonts               # ✅ Поддержка всех языков
     noto-fonts-cjk-sans      # ✅ Китайско-японско-корейские шрифты
-    noto-fonts-emoji         # ✅ Эмодзи
+    noto-fonts-color-emoji   # ✅ Эмодзи
 
     # === 🧰 ИНСТРУМЕНТЫ ДЛЯ ИГР ===
     gamemode                 # ✅ Режим производительности (Feral)
@@ -310,7 +335,7 @@ in
     steam-run                # ✅ FHS-окружение для Steam
 
     # === 🛠️ ОТЛАДКА И ДИАГНОСТИКА ===
-    glxinfo                  # ✅ Проверка OpenGL
+    mesa-demos                  # ✅ Проверка OpenGL
     vulkan-tools             # ✅ Включает vulkaninfo, vkvia и др.
     mesa_glu                 # ✅ GLU библиотека
     yad                      # ✅ GUI-диалоги (для скриптов)

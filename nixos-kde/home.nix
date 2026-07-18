@@ -60,6 +60,7 @@
     kdePackages.kate
     kdePackages.breeze
     nodejs
+    mpvScripts.webtorrent-mpv-hook
   ];
 
   # ========================================
@@ -67,9 +68,16 @@
   # ========================================
   programs.git = {
     enable = true;
-    userName = "SafeOwn";
-    userEmail = "safe@safeown.ru";
     lfs.enable = true;
+
+    # Новый правильный формат для имени и почты:
+    settings = {
+      user = {
+        name = "SafeOwn";
+        email = "safe@safeown.ru";
+      };
+    };
+
     ignores = [
       ".DS_Store"
       "__pycache__"
@@ -96,52 +104,70 @@
   # 🔄 Webtorrent node для mpv
   # ========================================
 
-  home.file.".npm-global/.keep".text = "";
-
+  # 🎬 Установка webtorrent-mpv-hook без использования ломающегося npm
   home.activation.install-webtorrent-mpv-hook = lib.mkOrder 1000 ''
-    echo "📦 Установка или обновление webtorrent-mpv-hook..."
-
-    # Добавляем node в PATH для дочерних процессов npm
-    export PATH="${pkgs.nodejs}/bin:$PATH"
-
-    mkdir -p ~/.npm-global
-    # Устанавливаем пакет, если его нет
-    if ! command -v webtorrent-mpv-hook &> /dev/null; then
-      ${pkgs.nodejs}/bin/npm install -g webtorrent-mpv-hook --prefix ~/.npm-global
-    fi
-
-    # Создаём директорию для скриптов mpv
+    echo "📦 Синхронизация webtorrent-mpv-hook..."
     mkdir -p ~/.config/mpv/scripts
-
-    # Пересоздаём симлинк — на случай, если путь изменился
     rm -f ~/.config/mpv/scripts/webtorrent.js
 
-    # Определяем, где лежит скрипт — build/ или dist/
-    SCRIPT_PATH=""
-    if [ -f ~/.npm-global/lib/node_modules/webtorrent-mpv-hook/dist/webtorrent.js ]; then
-      SCRIPT_PATH=~/.npm-global/lib/node_modules/webtorrent-mpv-hook/dist/webtorrent.js
-    elif [ -f ~/.npm-global/lib/node_modules/webtorrent-mpv-hook/build/webtorrent.js ]; then
-      SCRIPT_PATH=~/.npm-global/lib/node_modules/webtorrent-mpv-hook/build/webtorrent.js
+    # Берем готовый JS-файл напрямую из пакета NixOS
+    TARGET_JS="${pkgs.mpvScripts.webtorrent-mpv-hook}/share/mpv/scripts/webtorrent.js"
+
+    if [ -f "$TARGET_JS" ]; then
+      ln -sf "$TARGET_JS" ~/.config/mpv/scripts/webtorrent.js
+      echo "✅ Плагин успешно привязан!"
     else
-      echo "❌ Не найден webtorrent.js ни в dist/, ни в build/!"
-      exit 1
+      echo "❌ Ошибка: плагин не найден в хранилище Nix."
     fi
-
-    ln -sf "$SCRIPT_PATH" ~/.config/mpv/scripts/webtorrent.js
-    echo "✅ Симлинк создан: ~/.config/mpv/scripts/webtorrent.js -> $SCRIPT_PATH"
   '';
 
-  home.file.".config/mpv/script-opts/webtorrent.conf".text = ''
-    node_path=${pkgs.nodejs}/bin/node
-    path=./
-    maxConns=100
-    port=8888
-    utp=yes
-    dht=yes
-    lsd=yes
-    downloadLimit=-1
-    uploadLimit=-1
-  '';
+
+#   home.file.".npm-global/.keep".text = "";
+#
+#   home.activation.install-webtorrent-mpv-hook = lib.mkOrder 1000 ''
+#     echo "📦 Установка или обновление webtorrent-mpv-hook..."
+#
+#     # Добавляем node в PATH для дочерних процессов npm
+#     export PATH="${pkgs.nodejs}/bin:$PATH"
+#
+#     mkdir -p ~/.npm-global
+#     # Устанавливаем пакет, если его нет
+#     if ! command -v webtorrent-mpv-hook &> /dev/null; then
+#       ${pkgs.nodejs}/bin/npm install -g webtorrent-mpv-hook --prefix ~/.npm-global
+#     fi
+#
+#     # Создаём директорию для скриптов mpv
+#     mkdir -p ~/.config/mpv/scripts
+#
+#     # Пересоздаём симлинк — на случай, если путь изменился
+#     rm -f ~/.config/mpv/scripts/webtorrent.js
+#
+#     # Определяем, где лежит скрипт — build/ или dist/
+#     SCRIPT_PATH=""
+#     if [ -f ~/.npm-global/lib/node_modules/webtorrent-mpv-hook/dist/webtorrent.js ]; then
+#       SCRIPT_PATH=~/.npm-global/lib/node_modules/webtorrent-mpv-hook/dist/webtorrent.js
+#     elif [ -f ~/.npm-global/lib/node_modules/webtorrent-mpv-hook/build/webtorrent.js ]; then
+#       SCRIPT_PATH=~/.npm-global/lib/node_modules/webtorrent-mpv-hook/build/webtorrent.js
+#     else
+#       echo "❌ Не найден webtorrent.js ни в dist/, ни в build/!"
+#       exit 1
+#     fi
+#
+#     ln -sf "$SCRIPT_PATH" ~/.config/mpv/scripts/webtorrent.js
+#     echo "✅ Симлинк создан: ~/.config/mpv/scripts/webtorrent.js -> $SCRIPT_PATH"
+#   '';
+#
+#   home.file.".config/mpv/script-opts/webtorrent.conf".text = ''
+#     node_path=${pkgs.nodejs}/bin/node
+#     path=./
+#     maxConns=100
+#     port=8888
+#     utp=yes
+#     dht=yes
+#     lsd=yes
+#     downloadLimit=-1
+#     uploadLimit=-1
+#   '';
 
   # ========================================
   # 🖼️ KDE / PLASMA: интеграция и внешний вид
@@ -162,6 +188,36 @@
   xdg.userDirs.videos = "$HOME/Видео";
   xdg.userDirs.templates = "$HOME/Шаблоны";
   xdg.userDirs.publicShare = "$HOME/Общедоступные";
+
+
+  # ========================================
+  # 📁 Ярлык для браузера Brave и Chromium без запроса в начале пароль KDE Wallet
+  # ========================================
+  xdg.desktopEntries = {
+    # 1. Исправленный ярлык для Brave
+    "brave-browser" = {
+      name = "Brave Web Browser";
+      genericName = "Web Browser";
+      exec = "brave --password-store=basic --disable-features=DbusSecretPortal --enable-features=UseOzonePlatform --ozone-platform=wayland %U";
+      icon = "brave-browser";
+      terminal = false;
+      categories = [ "Network" "WebBrowser" ];
+      mimeType = [ "text/html" "text/xml" "application/xhtml+xml" "x-scheme-handler/http" "x-scheme-handler/https" ];
+    };
+
+    # 2. Исправленный ярлык для Chromium
+    "chromium-browser" = {
+      name = "Chromium Web Browser";
+      genericName = "Web Browser";
+      exec = "chromium --password-store=basic --disable-features=DbusSecretPortal --enable-features=UseOzonePlatform --ozone-platform=wayland %U";
+      icon = "chromium-browser";
+      terminal = false;
+      categories = [ "Network" "WebBrowser" ];
+      mimeType = [ "text/html" "text/xml" "application/xhtml+xml" "x-scheme-handler/http" "x-scheme-handler/https" ];
+    };
+  };
+
+
 
 
   # ========================================
@@ -260,12 +316,21 @@
 
 
   # ========================================
+  # 🖱️ Явное включение курсора для Home Manager
+  # (Обязательно, так как в stylix.nix отключен autoEnable)
+  # ========================================
+  home.pointerCursor.enable = true;
+
+
+  # ========================================
   # 📦 Версия home-manager
   # ========================================
-  home.stateVersion = "25.11";
+  home.stateVersion = "26.05";
+  programs.firefox.configPath = "${config.xdg.configHome}/mozilla/firefox";
+
 
   # ========================================
   # 🔧 Включение home-manager
   # ========================================
-  #programs.home-manager.enable = true;
+  programs.home-manager.enable = true;
 }

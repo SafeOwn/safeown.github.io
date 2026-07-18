@@ -1,9 +1,8 @@
 [Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=false
-Exec=xemu
 Name=xemu
-Comment=Emulator for the original Xbox console
-Icon=xemu
-Categories=Emulator;
+Exec=flatpak run ru.linux_gaming.PortProton "/home/safe/.var/app/ru.linux_gaming.PortProton/data/prefixes/DEFAULT/drive_c/Program Files (x86)/xemu/xemu.exe"
+Type=Application
+Categories=Game
+StartupNotify=true
+Path=/home/safe/.var/app/ru.linux_gaming.PortProton/data/scripts/
+Icon=/home/safe/.var/app/ru.linux_gaming.PortProton/data/img/xemu.png

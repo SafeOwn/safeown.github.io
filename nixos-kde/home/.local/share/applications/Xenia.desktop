@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Xenia
+Exec=flatpak run ru.linux_gaming.PortProton "/home/safe/.var/app/ru.linux_gaming.PortProton/data/prefixes/DEFAULT/drive_c/Program Files (x86)/xenia/xenia.exe"
+Type=Application
+Categories=Game
+StartupNotify=true
+Path=/home/safe/.var/app/ru.linux_gaming.PortProton/data/scripts/
+Icon=/home/safe/.var/app/ru.linux_gaming.PortProton/data/img/Xenia.png

@@ -1,0 +1,1 @@
+/nix/store/2mhvrddad4hmlzzb69l7shkq76g9m680-webtorrent-mpv-hook-1.4.6/share/mpv/scripts/webtorrent.js

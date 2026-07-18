@@ -37,7 +37,7 @@ git checkout "$BRANCH" || git checkout -b "$BRANCH"
 rm -rf nixos-kde 2>/dev/null || true
 
 echo "📂 Копируем ВЕСЬ /etc/nixos рекурсивно с разыменованием симлинков..."
-cp -rL /etc/nixos nixos-kde
+cp -a /etc/nixos nixos-kde
 
 # Создаём .gitignore для исключения временных файлов
 cat > .gitignore <<'EOF'

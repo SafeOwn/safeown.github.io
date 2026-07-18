@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=Lux Wine
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -killtray
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -killtray
 Icon=lw_default_icon
 Name=Kill tray
 Name[ru_RU]=Убить трей

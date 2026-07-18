@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=Lux Wine
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -killshell
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -killshell
 Icon=lw_default_icon
 Name=Kill SHELL
 Name[ru_RU]=Убить SHELL

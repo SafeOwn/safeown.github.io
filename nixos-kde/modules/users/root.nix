@@ -27,7 +27,7 @@
     alias gpl='git pull';
 
     # Твои кастомные алиасы
-    alias rebuild='sudo nixos-rebuild switch --flake /etc/nixos#yandex && home-manager switch'
+    alias rebuild='sudo nixos-rebuild switch --flake /etc/nixos#pc'
     alias backup='bash /etc/nixos/scripts/commit-nixos-git.sh'
     alias restart='pkill -9 plasmashell'
     alias ai-text='bash /etc/nixos/scripts/export-for-ai.sh'

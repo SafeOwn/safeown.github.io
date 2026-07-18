@@ -38,6 +38,8 @@
     alsa-ucm-conf
     pulseaudioFull  # ← для pactl, pavucontrol, ucm-профилей
     pavucontrol
+
+    pipewire
   ];
 
 

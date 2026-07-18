@@ -1,27 +1,25 @@
 { config, pkgs, ... }:
 
 {
-
-  # --- Clash Verge ---
   systemd.user.services.clash-verge-gui = {
-    description = "Clash Verge GUI on login (minimized to tray)";
+    description = "Clash Verge GUI";
+
     after = [ "graphical-session.target" ];
     wantedBy = [ "graphical-session.target" ];
 
     serviceConfig = {
       Type = "simple";
+      ExecStartPre = "${pkgs.coreutils}/bin/sleep 10";
       ExecStart = "${pkgs.clash-verge-rev}/bin/clash-verge";
+
+      # ГЛАВНОЕ: отключаем DMA-BUF и композитинг WebKit для NVIDIA
       Environment = [
-      "QT_QPA_PLATFORM=xcb"
-      "XDG_CURRENT_DESKTOP=KDE"
+        "WEBKIT_DISABLE_DMABUF_RENDERER=0"
+        "WEBKIT_DISABLE_COMPOSITING_MODE=1"
       ];
+
       Restart = "on-failure";
       RestartSec = "5s";
     };
   };
-
-  # --- Запускать оба при входе ---
-  systemd.user.targets.graphical-session.wants = [
-    "clash-verge-gui.service"
-  ];
 }

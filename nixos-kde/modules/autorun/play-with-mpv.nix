@@ -57,7 +57,7 @@ in
       Type = "simple";
       User = "safe";
       Group = "users";
-      ExecStart = "${playWithMpv}/bin/play-with-mpv";
+      ExecStart = "env ENABLE_HDR_WSI=1 ${playWithMpv}/bin/play-with-mpv";
       Restart = "on-failure";
       RestartSec = "5s";
       # Environment не задаём — всё в скрипте

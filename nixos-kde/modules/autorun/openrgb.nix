@@ -8,12 +8,13 @@
 
     serviceConfig = {
       Type = "simple";
-      ExecStart = "${config.services.hardware.openrgb.package}/bin/openrgb --profile \"safe\" --startminimized";
-      Environment = [ "QT_QPA_PLATFORM=xcb" ];
+      ExecStart = "${pkgs.openrgb}/bin/openrgb --profile \"safe\" --startminimized";
+      Environment = [ "QT_QPA_PLATFORM=wayland;xcb" ];
       Restart = "on-failure";
       RestartSec = "5s";
     };
   };
 
-  systemd.user.targets.graphical-session.wants = [ "openrgb-gui.service" ];
+  # ВАЖНО: Закомментируйте эту строку, она может вызывать дублирование
+  # systemd.user.targets.graphical-session.wants = [ "openrgb-gui.service" ];
 }

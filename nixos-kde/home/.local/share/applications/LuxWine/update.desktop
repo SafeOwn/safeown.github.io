@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=Lux Wine
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -update
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -update
 Icon=lw_default_icon
 Name=Update runtime
 Name[ru_RU]=Обновление рантайм

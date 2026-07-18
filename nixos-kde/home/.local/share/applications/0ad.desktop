@@ -1,0 +1,24 @@
+[Desktop Entry]
+Actions=Atlas;
+Categories=Game;StrategyGame;
+Comment=Игра в жанре исторической стратегии в реальном времени
+Exec=0ad %F
+Icon=0ad
+Keywords=RTS;Real-Time Strategy;Economic Simulation Game;History;Warfare;Infantry;Cavalry;Siege Engines;Fortress;Celtics;Hellenes;Athenians;Britons;Carthaginians;Gauls;Iberians;Macedonians;Mauryas;Persians;Ptolemies;Romans;Seleucids;Spartans;
+MimeType=application/x-pyromod+zip;
+Name=0 A.D.
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=true
+StartupNotify=true
+StartupWMClass=pyrogenesis
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.4
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+
+[Desktop Action Atlas]
+Exec=0ad -editor
+Name=Atlas Map Editor

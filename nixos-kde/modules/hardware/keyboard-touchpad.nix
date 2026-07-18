@@ -107,34 +107,34 @@
   # ========================================
   # Принудительно переключаем TTY, чтобы "разбудить" графический стек NVIDIA + Wayland
   # Трюк: TTY1 → TTY2 → возвращает фокус и перезапускает рендеринг
-  systemd.services.post-resume-delay = {
-    description = "Force graphics stack wake-up after resume";
-    script = ''
-      sleep 5
-
-      # 🔁 Переключаемся на TTY1 (текстовую консоль)
-      ${pkgs.utillinux}/bin/chvt 1
-      sleep 2
-
-      # 🔁 Переключаемся обратно на TTY2 (графическую сессию)
-      ${pkgs.utillinux}/bin/chvt 2
-      sleep 3
-
-      # Разблокируем сессии
-      loginctl unlock-sessions 2>/dev/null || true
-
-      # 💥 Гарантированно перезапускаем Plasma и KWin — даже если они "живы", но сломаны
-      systemctl --user restart plasma-plasmashell plasma-kwin_wayland 2>/dev/null || \
-      systemctl --user start plasma-plasmashell plasma-kwin_wayland 2>/dev/null || true
-    '';
-    serviceConfig = {
-      Type = "oneshot";
-      RemainAfterExit = true;
-      # Добавляем PATH, чтобы loginctl и systemctl работали корректно
-      Environment = "PATH=${pkgs.coreutils}/bin:${pkgs.utillinux}/bin:${pkgs.systemd}/bin";
-    };
-    wantedBy = [ "suspend.target" ];
-  };
+#   systemd.services.post-resume-delay = {
+#     description = "Force graphics stack wake-up after resume";
+#     script = ''
+#       sleep 5
+#
+#       # 🔁 Переключаемся на TTY1 (текстовую консоль)
+#       ${pkgs.kbd}/bin/chvt 1
+#       sleep 2
+#
+#       # 🔁 Переключаемся обратно на TTY2 (графическую сессию)
+#       ${pkgs.kbd}/bin/chvt 2
+#       sleep 3
+#
+#       # Разблокируем сессии
+#       loginctl unlock-sessions 2>/dev/null || true
+#
+#       # 💥 Гарантированно перезапускаем Plasma и KWin — даже если они "живы", но сломаны
+#       systemctl --user restart plasma-plasmashell plasma-kwin_wayland 2>/dev/null || \
+#       systemctl --user start plasma-plasmashell plasma-kwin_wayland 2>/dev/null || true
+#     '';
+#     serviceConfig = {
+#       Type = "oneshot";
+#       RemainAfterExit = true;
+#       # Добавляем PATH, чтобы loginctl и systemctl работали корректно
+#       Environment = "PATH=${pkgs.coreutils}/bin:${pkgs.kbd}/bin:${pkgs.systemd}/bin";
+#     };
+#     wantedBy = [ "suspend.target" ];
+#   };
 
 
   # ========================================
@@ -166,4 +166,5 @@
     # tapping = true;            # Тап для клика
     # clickMethod = "clickfinger"; # Одно/двух/трёхпальцевые клики
   };
+
 }

@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=Lux Wine
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -appcfg
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -appcfg
 Icon=lw_default_icon
 Name=Apps settings
 Name[ru_RU]=Настройки приложений

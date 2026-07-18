@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=Lux Wine
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -winemgr
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -winemgr
 Icon=lw_default_icon
 Name=Wine manager
 Name[ru_RU]=Wine менеджер

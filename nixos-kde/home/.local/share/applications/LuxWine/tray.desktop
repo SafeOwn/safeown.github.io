@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=Lux Wine
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -tray noclose
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -tray noclose
 Icon=lw_default_icon
 Name=Tray
 Name[ru_RU]=Трей

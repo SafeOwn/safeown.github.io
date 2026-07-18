@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=Lux Wine
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -backupmnt %f
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -backupmnt %f
 Icon=lw_default_icon
 MimeType=application/vnd.squashfs
 Name=Mount prefix backup

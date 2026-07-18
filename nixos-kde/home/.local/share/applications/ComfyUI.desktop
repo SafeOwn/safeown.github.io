@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ComfyUI
+Comment=Запуск ComfyUI (Linux)
+Exec=konsole --hold -e bash /mnt/game/ai/ComfyUI_windows_portable/run_nvidia_gpu_linux.sh
+Type=Application
+Categories=LLM;Graphics;
+StartupNotify=true
+Path=/mnt/game/ai/ComfyUI_windows_portable/
+Icon=/mnt/game/ai/ComfyUI_windows_portable/ComfyUI/comfyui.ico
+Terminal=false

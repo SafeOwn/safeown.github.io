@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=Lux Wine
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -shell %f
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -shell %f
 Icon=lw_default_icon
 Name=SHELL
 Name[ru_RU]=SHELL

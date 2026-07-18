@@ -1,25 +1,5 @@
 <!DOCTYPE Menu PUBLIC '-//freedesktop//DTD Menu 1.0//EN' 'http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd'>
 <Menu>
- <Layout>
-  <Merge type="menus"/>
-  <Menuname>Lux Wine</Menuname>
-  <Menuname>Lux Wine Apps</Menuname>
-  <Menuname>Ip tv</Menuname>
-  <Menuname>Emulator</Menuname>
-  <Menuname>Waydroid</Menuname>
-  <Menuname>Graphics</Menuname>
-  <Menuname>Games</Menuname>
-  <Menuname>Internet</Menuname>
-  <Menuname>Multimedia</Menuname>
-  <Menuname>Science</Menuname>
-  <Menuname>Education</Menuname>
-  <Menuname>Office</Menuname>
-  <Menuname>Development</Menuname>
-  <Menuname>System</Menuname>
-  <Menuname>Utilities</Menuname>
-  <Menuname>Help</Menuname>
-  <Menuname>Applications</Menuname>
- </Layout>
  <!-- Категория "Lux Wine" — включает все .desktop файлы с Categories=LuxWine; -->
  <Menu>
   <Name>Lux Wine</Name>
@@ -27,6 +7,7 @@
   <Include>
    <Category>Lux Wine</Category>
   </Include>
+  <Deleted/>
  </Menu>
  <!-- Категория "Lux Wine Apps" — включает все .desktop файлы с Categories=LuxWineApps; -->
  <Menu>
@@ -35,8 +16,27 @@
   <Include>
    <Category>Lux Wine Apps</Category>
   </Include>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>LuxWineApps-Hollow Knight.desktop</Filename>
+   <Filename>LuxWineApps-Quake III 3840 x 2160.desktop</Filename>
+   <Filename>LuxWineApps-Quake II RTX.desktop</Filename>
+   <Filename>LuxWineApps-Split Second.desktop</Filename>
+   <Filename>LuxWineApps-TheKillingAntidote.desktop</Filename>
+  </Layout>
+  <Exclude>
+   <Filename>LuxWineApps-Lost Records - Bloom  Rage.desktop</Filename>
+  </Exclude>
+  <Deleted/>
  </Menu>
-
+ <!-- Категория "LLM" — включает все .desktop файлы с Categories=LLM; -->
+ <Menu>
+  <Name>LLM</Name>
+  <Directory>LLM.directory</Directory>
+  <Include>
+   <Category>LLM</Category>
+  </Include>
+ </Menu>
  <!-- Категория "Ip tv" — включает все .desktop файлы с Categories=LuxWineApps; -->
  <Menu>
   <Name>Ip tv</Name>
@@ -45,7 +45,6 @@
    <Category>Ip tv</Category>
   </Include>
  </Menu>
-
  <!-- Категория "Emulator" — включает все .desktop файлы с Categories=Emulator; -->
  <Menu>
   <Name>Emulator</Name>
@@ -90,6 +89,67 @@
   <Name>.hidden</Name>
   <Include>
    <Filename>ru.launcher.StartWine.desktop</Filename>
+   <Filename>waydroid.com.cover.zombie.fire.shooter.desktop</Filename>
+   <Filename>waydroid.org.lineageos.jelly.desktop</Filename>
+   <Filename>waydroid.com.android.gallery3d.desktop</Filename>
+   <Filename>waydroid.org.lineageos.etar.desktop</Filename>
+   <Filename>waydroid.com.android.calculator2.desktop</Filename>
+   <Filename>waydroid.org.lineageos.aperture.desktop</Filename>
+   <Filename>waydroid.com.android.inputmethod.latin.desktop</Filename>
+   <Filename>waydroid.com.google.android.contacts.desktop</Filename>
+   <Filename>waydroid.org.lineageos.eleven.desktop</Filename>
+   <Filename>waydroid.com.android.settings.desktop</Filename>
+   <Filename>waydroid.org.lineageos.recorder.desktop</Filename>
+   <Filename>waydroid.com.google.android.apps.messaging.desktop</Filename>
+   <Filename>waydroid.com.android.documentsui.desktop</Filename>
+   <Filename>waydroid.com.android.deskclock.desktop</Filename>
+   <Filename>waydroid.com.actfirstgames.seven.desktop</Filename>
+   <Filename>LuxWineApps-Lost Records - Bloom  Rage.desktop</Filename>
   </Include>
  </Menu>
+ <Menu>
+  <Name>Waydroid</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>waydroid.com.android.vending.desktop</Filename>
+   <Filename>Waydroid.desktop</Filename>
+  </Layout>
+  <Exclude>
+   <Filename>waydroid.com.cover.zombie.fire.shooter.desktop</Filename>
+   <Filename>waydroid.org.lineageos.jelly.desktop</Filename>
+   <Filename>waydroid.com.android.gallery3d.desktop</Filename>
+   <Filename>waydroid.org.lineageos.etar.desktop</Filename>
+   <Filename>waydroid.com.android.calculator2.desktop</Filename>
+   <Filename>waydroid.org.lineageos.aperture.desktop</Filename>
+   <Filename>waydroid.com.android.inputmethod.latin.desktop</Filename>
+   <Filename>waydroid.com.google.android.contacts.desktop</Filename>
+   <Filename>waydroid.org.lineageos.eleven.desktop</Filename>
+   <Filename>waydroid.com.android.settings.desktop</Filename>
+   <Filename>waydroid.org.lineageos.recorder.desktop</Filename>
+   <Filename>waydroid.com.google.android.apps.messaging.desktop</Filename>
+   <Filename>waydroid.com.android.documentsui.desktop</Filename>
+   <Filename>waydroid.com.android.deskclock.desktop</Filename>
+   <Filename>waydroid.com.actfirstgames.seven.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Layout>
+  <Merge type="menus"/>
+  <Menuname>LuxWine</Menuname>
+  <Menuname>LuxWineApps</Menuname>
+  <Menuname>Ip tv</Menuname>
+  <Menuname>Emulator</Menuname>
+  <Menuname>Waydroid</Menuname>
+  <Menuname>Graphics</Menuname>
+  <Menuname>Games</Menuname>
+  <Menuname>Internet</Menuname>
+  <Menuname>Multimedia</Menuname>
+  <Menuname>Science</Menuname>
+  <Menuname>Education</Menuname>
+  <Menuname>Office</Menuname>
+  <Menuname>Development</Menuname>
+  <Menuname>System</Menuname>
+  <Menuname>Utilities</Menuname>
+  <Menuname>Help</Menuname>
+  <Menuname>Applications</Menuname>
+ </Layout>
 </Menu>

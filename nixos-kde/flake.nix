@@ -20,9 +20,9 @@
     # 🔧 Основной канал Nixpkgs — нестабильный (для доступа к новым пакетам, например, Plasma 6)
     nixpkgs.url = "nixpkgs/nixos-unstable";
 
-    # 🧱 Стабильный канал NixOS 25.05
+    # 🧱 Стабильный канал NixOS 25.11
     # Используется для стабильных пакетов через pkgs.stable.firefox и т.д.
-    nixpkgs-stable.url = "nixpkgs/nixos-25.05";
+    nixpkgs-stable.url = "nixpkgs/nixos-25.11";
 
     # 🔄 Дублирующий нестабильный канал (альтернативный источник)
     # Может использоваться для переключения или тестирования
@@ -50,13 +50,22 @@
        url = "github:nix-community/home-manager";
        inputs.nixpkgs.follows = "nixpkgs";
      };
+
+    # Позволит искать: nix-locate libxcb.so.1 → покажет какой пакет содержит файл.
+    nix-index-database = {
+      url = "github:Mic92/nix-index-database";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    nix-gaming.url = "github:fufexan/nix-gaming";         # Ускорит игры через Feral GameMode.
+
   };
 
   # ========================================
   # 🧩 Выходные данные (outputs)
   # Генерация конфигурации системы на основе inputs
   # ========================================
-  outputs = inputs@{ self, nixpkgs, nixpkgs-stable, nixpkgs-unstable, chaotic, stylix, home-manager }:
+  outputs = inputs@{ self, nixpkgs, nixpkgs-stable, nixpkgs-unstable, chaotic, stylix, home-manager, nix-index-database, nix-gaming }:
     let
       # Версия системы (для совместимости)
       version = "25.05";
@@ -107,6 +116,13 @@
               { config, pkgs, ... }:
               {
                   nixpkgs.config.allowUnfree = true;
+
+                  # 🔓 Глобальный обход для ВСЕХ инстансов и оверлеев Flake:
+                  nixpkgs.config.allowUnfreePredicate = (_: true);
+
+                  # 🛠️ Разрешаем установку помеченного как broken пакета AnyDesk:
+                  nixpkgs.config.allowBroken = true;
+
                   nixpkgs.config.permittedInsecurePackages = [
                     "fex-2508.1"
                     "qtwebengine-5.15.19"
@@ -129,10 +145,12 @@
           ./configuration.nix
 
            # 💾 Автозагрузка
-          ./modules/autorun/openrgb.nix           # Автозагрузка подсветки
-          ./modules/autorun/cladpi/ciadpi.nix     # Автозагрузка обход интернета CiaDpi
-          ./modules/autorun/clash_verge.nix       # Автозагрузка обход интернета Clash Vrge
-          ./modules/autorun/ds4drv/ds4drv.nix     # Автозагрузка геймпада DualShok4 (определяется как xbox, нужен для LuxWine)
+          ./modules/autorun/tts-silero.nix          # Автозагрузка Silero TTS сервера (озвучка)
+          ./modules/autorun/docker-searxng.nix      # Автозагрузка searxng (llm поиск) http://localhost:8888/
+          #./modules/autorun/openrgb.nix             # Автозагрузка подсветки
+          ./modules/autorun/cladpi/ciadpi.nix       # Автозагрузка обход интернета CiaDpi
+          #./modules/autorun/clash_verge.nix        # Автозагрузка обход интернета Clash Vrge
+          ./modules/autorun/ds4drv/ds4drv.nix       # Автозагрузка геймпада DualShok4 (определяется как xbox, нужен для LuxWine)
 #           ./modules/autorun/lampac.nix            # Автозагрузка Lampac
 #           ./modules/autorun/play-with-mpv.nix     # Автозагрузка расширения https://addons.mozilla.org/ru/firefox/addon/play-with-mpv/
 
@@ -152,6 +170,10 @@
 
 
 		  stylix.nixosModules.stylix   # ← Это активирует модуль Stylix в NixOS
+
+
+          inputs.nix-index-database.nixosModules.default        # Позволит искать: nix-locate libxcb.so.1
+          inputs.nix-gaming.nixosModules.pipewireLowLatency     # Ускорит игры через Feral GameMode.
 
           # 🔐 Менеджер входа
           # ❌ УДАЛЁН: greetd

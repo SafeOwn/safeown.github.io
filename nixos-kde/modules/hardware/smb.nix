@@ -38,13 +38,13 @@
     openFirewall = true;  # ← Открываем порты автоматически
   };
 
-  security.wrappers."mount.cifs" = {
-    program = "mount.cifs";
-    source = "${pkgs.cifs-utils}/bin/mount.cifs";
-    owner = "root";
-    group = "root";
-    setuid = true;
-    };
+  #security.wrappers."mount.cifs" = lib.mkForce {
+  #  program = "mount.cifs";
+  #  source = "${pkgs.cifs-utils}/sbin/mount.cifs";
+  #  owner = "root";
+  #  group = "root";
+  #  setuid = true;
+  #};
 
 
   # ========================================
@@ -58,10 +58,14 @@
 
   # === Чтобы имена .local разрешались корректно ===
   environment.etc."nsswitch.conf".text = ''
-    passwd: files systemd
-    group: files systemd
-    hosts: files dns
-    services: files
+    passwd:    files systemd
+    group:     files systemd
+    shadow:    files
+    hosts:     files mymachines mdns4_minimal [NOTFOUND=return] dns myhostname
+    networks:  files dns
+    services:  files
+    protocols: files
+    rpc:       files
   '';
 
 

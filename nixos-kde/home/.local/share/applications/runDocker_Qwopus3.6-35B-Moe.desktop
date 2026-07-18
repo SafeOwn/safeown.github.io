@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Модель - Qwopus 3.6 35B Moe
+GenericName=Локальная нейросеть (LLM)
+Comment=Запуск Qwopus 35B 160k контекста на GPU через Docker
+Exec=/home/safe/llama/runDocker_qwopus3.6-35b-moe.sh
+Terminal=true
+Icon=/home/safe/.local/share/desktop-directories/icon-llm2.png
+Categories=LLM;Development;

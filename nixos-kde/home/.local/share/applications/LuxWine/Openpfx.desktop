@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=Lux Wine
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -openpfx %f
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -openpfx %f
 Icon=lw_default_icon
 MimeType=application/x-ms-dos-executable;application/x-msdos-program;text/win-bat;application/x-ms-shortcut;text/x-ms-regedit;application/x-msi
 Name=Drive С:
@@ -15,31 +15,31 @@ Actions=pfxbackup;pfxrestore;clearpfx;backupmnt;backupunmnt
 
 
 [Desktop Action clearpfx]
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -clearpfx %f
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -clearpfx %f
 Icon=lw_default_icon
 Name=Clear
 Name[ru_RU]=Очистить
 
 [Desktop Action pfxbackup]
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -pfxbackup %f
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -pfxbackup %f
 Icon=lw_default_icon
 Name=Create backup
 Name[ru_RU]=Создать бекап
 
 [Desktop Action pfxrestore]
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -pfxrestore %f
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -pfxrestore %f
 Icon=lw_default_icon
 Name=Restore from backup
 Name[ru_RU]=Восстановить
 
 [Desktop Action backupmnt]
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -backupmnt %f
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -backupmnt %f
 Icon=lw_default_icon
 Name=Mount backup
 Name[ru_RU]=Монтировать бекап
 
 [Desktop Action backupunmnt]
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -backupunmnt %f
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -backupunmnt %f
 Icon=lw_default_icon
 Name=Unmount backup
 Name[ru_RU]=Отмонтировать бекап

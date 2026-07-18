@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=Lux Wine
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -help
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -help
 Icon=lw_default_icon
 Name=Usage info
 Name[ru_RU]=Использование

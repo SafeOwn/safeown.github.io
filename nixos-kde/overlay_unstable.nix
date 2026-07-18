@@ -10,8 +10,9 @@
   # Управление через NixOS-модули (автоматическая интеграция в систему)
   # ========================================
   programs = {
-    # ✅ Оставлено: Firefox
+
     firefox.enable = true;
+
 
     # ✅ Оставлено: AmneziaVPN
     amnezia-vpn.enable = true;
@@ -80,6 +81,7 @@
     procps                      # ps, top, free
     file                        # Определение типа файла
     curl                        # curl
+    curl.dev                    # curl.dev
     wget                        # Загрузка файлов
     git                         # Git
     nix                         # Nix CLI
@@ -89,7 +91,7 @@
     ncdu                        # Анализ диска
     qdirstat                    # Визуальный анализ диска
     cron                        # Планировщик задач
-    stacer                      # GUI системный оптимизатор
+    #stacer                      # GUI системный оптимизатор          НЕРАБОТАЕТ!!!!
     hardinfo2                   # GUI системная информация
     cpu-x                       # GUI мониторинг CPU/GPU
     corectrl                    # Управляйте компьютерным оборудованием с помощью профилей приложений
@@ -99,6 +101,9 @@
     # ========================================
     # 🛠 РАЗРАБОТКА — языки, компиляторы, отладчики, LSP
     # ========================================
+    sox
+    nvidia-docker               # Добавит nvidia-ctk
+    squashfsTools               # Создай образ драйвера из системных библиотек для nvidia
     gcc                         # C/C++ компилятор
     gnumake                     # make
     cmake                       # Сборка C++
@@ -121,12 +126,15 @@
     gdlv                        # GUI отладчик Go
 
     # Python
+    uv                          # Современная замена pip,  написана на Rust. Очень быстрый
+    pipx                        # Замена pip. Каждое приложение в изолированное окружение. Средняя скорость
     python3                     # Python 3.12
     python313                   # Python 3.13
     python313Packages.python-lsp-server  # LSP для Python
     python313Packages.python-lsp-ruff    # Интеграция Ruff в LSP
-    python313Packages.python-lsp-black   # Интеграция Black в LSP
+    #python313Packages.python-lsp-black   # Интеграция Black в LSP
     python313Packages.debugpy            # Отладчик Python
+    python3Packages.pyperclip
     ruff                        # Линтер Python
     yapf                        # Форматтер Python
 
@@ -153,7 +161,7 @@
 
     # Nix
     nil                         # Nix LSP
-    nixfmt-rfc-style            # Форматтер Nix (RFC-style)
+    nixfmt                      # Форматтер Nix (RFC-style)
     alejandra                   # Форматтер Nix (альтернатива)
 
     # Общие LSP
@@ -164,9 +172,12 @@
     ansible-language-server     # Ansible LSP
 
     # Отладчики и инструменты
+    xclip                       # Буфер обмена X11
+    xsel                        # Буфер обмена X11
     gdb                         # GNU Debugger
     jq                          # JSON processor
     hexyl                       # hex-дамп с подсветкой
+    alsa-utils                  # для aplay
 
 
     # ========================================
@@ -207,6 +218,11 @@
     # ========================================
     # 🖥️ ГРАФИЧЕСКИЕ УТИЛИТЫ — скриншоты, буфер, курсоры, шрифты
     # ========================================
+    zenity                      # GUI диалоги
+    libnotify                   # системные уведомления
+    slurp                       # выбор области экрана
+    kdePackages.spectacle       # KDE скриншотер
+    flameshot                   # скриншотер
     grim                        # Скриншоты (Wayland)
     wl-clipboard                # Буфер обмена Wayland
     wl-clip-persist             # Постоянный буфер
@@ -217,9 +233,9 @@
     terminus_font               # Шрифт для TTY с кириллицей
     wvkbd                       # Виртуальная клавиатура
     wayland-utils               # wayland-info
-    xorg.xwininfo               # Утилита для получения информации об окнах X11
-    xorg.libX11                 # Библиотека X11
-    xorg.libxcb                 # Библиотека XCB (X protocol C-language Binding)
+    xwininfo               # Утилита для получения информации об окнах X11
+    libX11                 # Библиотека X11
+    libxcb                 # Библиотека XCB (X protocol C-language Binding)
     libepoxy                    # OpenGL
     qt6.qtbase                  # Базовые библиотеки Qt6
     qt6.qttools                 # Инструменты Qt6 (linguist, designer и др.)
@@ -285,6 +301,7 @@
     # ========================================
     # 🎵 АУДИО И ВИДЕО — плееры, редакторы, эффекты, кодеки
     # ========================================
+    (python3.withPackages (ps: with ps; [edge-tts]))  # Синтезатор речи microsoft
     mpv                         # Видеоплеер
     vlc                         # Видеоплеер VLC
     ffmpeg                      # Конвертация
@@ -292,7 +309,7 @@
     ffmpegthumbnailer           # Миниатюры
     youtube-tui                 # YouTube в терминале
     yt-dlp                      # Загрузка видео
-    stremio                     # Стриминг
+    stremio-linux-shell         # Стриминг
     video-downloader            # GUI загрузчик видео
     mediainfo                   # Информация о медиафайлах
 
@@ -325,7 +342,7 @@
     # ========================================
     zathura                     # PDF-ридер
     poppler                     # PDF утилиты (pdftotext)
-    onlyoffice-bin              # Офисный пакет
+    onlyoffice-desktopeditors   # Офисный пакет
     peazip                      # Архиватор
     okteta                      # HEX-редактор
     bleachbit                   # Очистка системы
@@ -350,12 +367,19 @@
     flare                       # RPG
     zeroad                      # Стратегия
 
+    #env http_proxy=http://127.0.0.1:7897 https_proxy=http://127.0.0.1:7897 nix profile add github:NixOS/nixpkgs/nixos-unstable#zeroad - установка игры через прокси Clash Verge (2гб размер)
+    #nix profile list - Проверка что установлено
+    #nix profile remove zeroad - удалить игру
+
+
+
+
     cartridges                  # Лаунчер для игр
     hydralauncher               # Лаунчер для эмуляторов
 
     # Эмуляторы
     pcsx2                       # PlayStation 2
-    rpcs3                       # PlayStation 3
+    #rpcs3                       # PlayStation 3
     shadps4                     # PlayStation 4
     cemu-ti                     # Wii U
     mgba                        # Game Boy Advance
@@ -421,13 +445,14 @@
     firefox                     # Веб-браузер Firefox
     chromium                    # Веб-браузер Chromium
     vivaldi                     # Веб-браузер Vivaldi
-    floorp-bin                      # Веб-браузер Floorp (форк Firefox)
+    floorp-bin                  # Веб-браузер Floorp (форк Firefox)
+    brave                       # Веб-браузер быстрее чем Chromium на 10% (лучше для linux)
     telegram-desktop            # Мессенджер Telegram
-    discord                     # Мессенджер Discord
+    #discord                     # Мессенджер Discord
     nchat                       # TUI чат
     tdl                         # Telegram CLI
     katana                      # TUI-браузер
-    anydesk                     # Удалённый доступ
+    #anydesk                     # Удалённый доступ
     #nomachine-client           # Удалённый доступ
     #whatsapp-for-linux         # Неофициальный нативный клиент WhatsApp для Linux (устаревший/не поддерживается)
     #zapzap                     # Неофициальный Qt-клиент WhatsApp для Linux, основанный на веб-версии
@@ -459,7 +484,9 @@
     gpgme                       # GPG API
     #liana                      # Bitcoin кошелёк
     #wasabiwallet               # Bitcoin кошелёк
-    clash-verge-rev             # Прокси
+    #clash-verge-rev             # Прокси
+    throne                      # Прокси
+    v2rayn                      # Прокси
     mihomo                      # Прокси (Clash Meta)
     byedpi                      # Обход DPI
     proxychains-ng              # Перехватывает системные вызовы и направляет трафик через указанный прокси
@@ -497,14 +524,40 @@
     wayland                     # Протокол Wayland
     wayland-protocols           # Протоколы Wayland
     wayland-scanner             # Генератор кода для Wayland
-    nvtopPackages.nvidia        # Мониторинг NVIDIA
+    #nvtopPackages.nvidia       # Мониторинг NVIDIA
     nvidia-vaapi-driver         # VA-API для NVIDIA
+
+
+
+
+
+    # ========================================
+    # 🔤 OCR И ПЕРЕВОД (AurexTranslator)
+    # Нужен для OCR — распознавания текста с экрана
+    # ========================================
+    tesseract                                # Tesseract
+
+    # ========================================
+    # 🖥️ XDG PORTAL (Wayland захват экрана)
+    # ========================================
+    xdg-desktop-portal                       # Стандартный интерфейс для приложений чтобы захватывать экран
+    kdePackages.xdg-desktop-portal-kde       # KDE-специфичная реализация портала
+
+    # ========================================
+    # 🧠 НЕЙРОСЕТЬ — локальные LLM
+    # ========================================
+    #ollama                                   # CLI для запуска LLM (используется AurexTranslator)
+    #llama-cpp-vulkan                         # Vulkan на 80% от CUDA для LLM (http://127.0.0.1:8081/)
+    open-webui                               # Веб-интерфейс для LLM (http://127.0.0.1:3000/)
+
+
+
 
 
     # ========================================
     # 🖥️ KDE СИСТЕМНЫЕ УТИЛИТЫ — дополнения Plasma
     # ========================================
-    kdePackages.kwallet-pam     # Авторазблокировка кошелька
+    kdePackages.kwallet-pam                  # Авторазблокировка кошелька
   ];
 
 

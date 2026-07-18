@@ -54,20 +54,20 @@
   };
 
   # Раздел SDD NTFS
-  fileSystems."/mnt/sdd" = {
-    device = "/dev/disk/by-uuid/766666326665F2F3";  # ← Замени на UUID из blkid
-    fsType = "ntfs-3g";         # или "ntfs-3g"
-    options = [
-      "rw"                  # чтение и запись (если чтение и запись rw, но нужно отключить FastBoot Windows)
-      "nosuid"
-      "uid=1000"            # твой пользователь (safe → id 1000)
-      "gid=100"             # группа users
-      "dmask=022"
-      "fmask=133"
-      "windows_names"       # запрещает имена, которые сломают Windows
-      "nofail"              # ← если не смонтировался — не падать
-    ];
-  };
+#   fileSystems."/mnt/sdd" = {
+#     device = "/dev/disk/by-uuid/766666326665F2F3";  # ← Замени на UUID из blkid
+#     fsType = "ntfs-3g";         # или "ntfs-3g"
+#     options = [
+#       "rw"                  # чтение и запись (если чтение и запись rw, но нужно отключить FastBoot Windows)
+#       "nosuid"
+#       "uid=1000"            # твой пользователь (safe → id 1000)
+#       "gid=100"             # группа users
+#       "dmask=022"
+#       "fmask=133"
+#       "windows_names"       # запрещает имена, которые сломают Windows
+#       "nofail"              # ← если не смонтировался — не падать
+#     ];
+#   };
 
 
 
@@ -137,13 +137,14 @@
 #   };
 
    # ✅ Сервис: переводим /dev/sdb в standby при загрузке через 20 мин. ВНИМНИЕ!!! Большой износ, при перезагрузке и rebuild включается hdd
+   # ✅ Сервис: переводим HDD в standby при загрузке через 20 мин. по стабильному ID
    systemd.services.hdd-standby-at-boot = {
-     description = "Put HDD /dev/sdb into standby at boot";
+     description = "Put HDD Seagate into standby at boot";
      wantedBy = [ "multi-user.target" ];
      after = [ "local-fs.target" ];
      serviceConfig = {
        Type = "oneshot";
-       ExecStart = "${pkgs.hdparm}/bin/hdparm -S 240 /dev/sdb";
+       ExecStart = "${pkgs.hdparm}/bin/hdparm -S 240 /dev/disk/by-id/ata-ST31500341AS_9VS4TBHW";
        RemainAfterExit = true;
      };
    };
@@ -152,8 +153,9 @@
    environment.systemPackages = with pkgs; [ hdparm ];
 
    # ✅ Настройка udev: при монтировании раздела — ставим таймер сна диска (20 минут)
+   # ✅ Настройка udev: привязываемся к серийному номеру железки, чтобы диск не раскручивался при ребилде
    services.udev.extraRules = ''
-     KERNEL=="sdb*", ENV{DEVTYPE}=="partition", RUN+="/bin/sh -c 'if [ -e /dev/sdb ]; then ${pkgs.hdparm}/bin/hdparm -S 240 /dev/sdb; fi'"
+     SUBSYSTEM=="block", ATTRS{serial}=="9VS4TBHW", ENV{DEVTYPE}=="disk", RUN+="${pkgs.hdparm}/bin/hdparm -S 240 /dev/%k"
    '';
 
 

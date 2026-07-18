@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=Lux Wine
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" %f
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" %f
 Icon=lw_default_icon
 MimeType=application/x-ms-dos-executable;application/x-wine-extension-msp;application/x-msi;application/x-msdos-program;text/win-bat;application/x-ms-shortcut;text/x-ms-regedit
 Name=Lux Wine
@@ -15,13 +15,13 @@ Actions=debug;tray
 
 
 [Desktop Action debug]
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -debug %f
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -debug %f
 Icon=lw_default_icon
 Name=DEBUG
 Name[ru_RU]=ДЕБАГ
 
 [Desktop Action tray]
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -tray noclose
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -tray noclose
 Icon=lw_default_icon
 Name=Tray
 Name[ru_RU]=Трей

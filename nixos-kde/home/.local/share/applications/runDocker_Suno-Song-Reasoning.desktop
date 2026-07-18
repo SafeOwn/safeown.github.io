@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Модель - Suno Song Reasoning
+GenericName=Локальная нейросеть (LLM)
+Comment=Запуск Suno Song Reasoning 160k контекста на GPU через Docker
+Exec=/home/safe/llama/runDocker_suno-song-Reasoning.sh
+Terminal=true
+Icon=/home/safe/.local/share/desktop-directories/icon-llm2.png
+Categories=LLM;Development;

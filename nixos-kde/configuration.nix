@@ -53,6 +53,7 @@ in
     ./modules/app/flatpak.nix
 ##     ./modules/hardware/ds4drv.nix
     #./modules/zapret-discord-youtube.nix
+
   ];
 
 #   services.zapret-discord-youtube = {
@@ -68,6 +69,88 @@ in
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
 
   # ========================================
+  # 👤 Авто-восстановление прав на socket директорию Clash Verge
+  # ========================================
+  systemd.user.services.clash-verge-fix-perms = {
+    description = "Fix Clash Verge socket directory permissions";
+    wantedBy = [ "default.target" ];
+    before = [ "clash-verge.service" ];
+    serviceConfig = {
+      Type = "oneshot";
+      ExecStart = "${pkgs.bash}/bin/bash -c 'mkdir -p /run/user/1000/clash-verge-rev && chown safe:users /run/user/1000/clash-verge-rev && chmod 700 /run/user/1000/clash-verge-rev'";
+      RemainAfterExit = true;
+    };
+  };
+
+
+  # ========================================
+  # 🧠 НЕЙРОСЕТЬ — СЕРВИС OLLAMA
+  # ========================================
+  services.ollama = {
+    enable = true;
+  };
+
+  services.open-webui = {
+    enable = true;
+    port = 3000;
+    host = "127.0.0.1";
+    environment = {
+      # Убери MCP_SERVERS полностью
+
+      # Добавь явные настройки Web Search
+      ENABLE_RAG_WEB_SEARCH = "true";
+      RAG_WEB_SEARCH_ENGINE = "searxng";
+      SEARXNG_QUERY_URL = "http://localhost:8888/search?q=<query>";
+      RAG_WEB_SEARCH_CONCURRENT_REQUESTS = "5";
+      RAG_WEB_SEARCH_RESULT_COUNT = "10";
+    };
+  };
+
+  # Принудительно переопределяем изоляцию systemd через lib.mkForce
+  systemd.services.open-webui = {
+    serviceConfig = {
+      User = lib.mkForce "safe";
+      Group = lib.mkForce "users";
+
+      # Передаем булевы значения без кавычек и с mkForce
+      ProtectHome = lib.mkForce false;
+      ProtectSystem = lib.mkForce false;
+      ReadWritePaths = [ "/home/safe" ];
+
+      # НАСТРОЙКА СЕТИ: Разрешаем процессу подключаться к локальным портам системы
+      RestrictAddressFamilies = lib.mkForce [ "AF_INET" "AF_INET6" "AF_UNIX" ];
+      IPAddressAllow = [ "127.0.0.1" "::1" "localhost" ];
+    };
+  };
+
+
+  # ========================================
+  # 🖥️ # Позволит искать: nix-locate libxcb.so.1 → покажет какой пакет содержит файл.
+  # ========================================
+  programs.nix-index = {
+    enable = true;
+    enableBashIntegration = true;
+  };
+
+  programs.gamemode.enable = true;          # Ускорит игры через Feral GameMode.
+
+
+  # ========================================
+  # 🖥️ Vlash Verge
+  # включаем tun режим
+  # ========================================
+  programs.clash-verge = {
+    enable = true;
+    # ЖЕСТКО: берем пакет только из стабильного оверлея 25.11
+    package = pkgs.stable.clash-verge-rev;
+
+    # Включаем автозапуск и TUN правильно для стабильной версии:
+    #autoStart = true;         # ошибка при старте
+    tunMode = true;
+    serviceMode = true;             # Включает системную службу вместо ломающегося инсталлятора app
+  };
+
+  # ========================================
   # ⚙️ Службы (services)
   # Здесь настраиваются системные сервисы
   # ========================================
@@ -79,6 +162,7 @@ in
     # ✅ Оставлено: transmission — торрент-клиент с веб-интерфейсом
     transmission = {
       enable = true;
+      package = pkgs.transmission_4;
       user = "safe";                    # Пользователь, от которого запускается
       group = "users";                  # Группа
       home = "/home/safe";              # Домашняя директория
@@ -200,21 +284,23 @@ in
 
       # 🔗 Binary caches (ускоряют установку)
       substituters = [
-        "https://nix-community.cachix.org/  "
-        "https://chaotic-nyx.cachix.org/  "
-        "https://yazi.cachix.org  "
-        "https://ghostty.cachix.org  "
-        "https://wezterm.cachix.org  "
+        "https://nixos.org"
+        #"https://nix-community.cachix.org/  "
+        #"https://chaotic-nyx.cachix.org/  "
+        #"https://yazi.cachix.org  "
+        #"https://ghostty.cachix.org  "
+        #"https://wezterm.cachix.org  "
         # "https://wezterm-nightly.cachix.org  "
       ];
 
       # 🔐 Доверенные ключи (чтобы Nix принимал пакеты из кэшей)
       trusted-public-keys = [
-        "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="
-        "chaotic-nyx.cachix.org-1:HfnXSw4pj95iI/n17rIDy40agHj12WfF+Gqk6SonIT8="
-        "yazi.cachix.org-1:Dcdz63NZKfvUCbDGngQDAZq6kOroIrFoyO064uvLh8k="
-        "ghostty.cachix.org-1:QB389yTa6gTyneehvqG58y0WnHjQOqgnA+wBnpWWxns="
-        "wezterm.cachix.org-1:kAbhjYUC9qvblTE+s7S+kl5XM1zVa4skO+E/1IDWdH0="
+        "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
+        #"nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="
+        #"chaotic-nyx.cachix.org-1:HfnXSw4pj95iI/n17rIDy40agHj12WfF+Gqk6SonIT8="
+        #"yazi.cachix.org-1:Dcdz63NZKfvUCbDGngQDAZq6kOroIrFoyO064uvLh8k="
+        #"ghostty.cachix.org-1:QB389yTa6gTyneehvqG58y0WnHjQOqgnA+wBnpWWxns="
+        #"wezterm.cachix.org-1:kAbhjYUC9qvblTE+s7S+kl5XM1zVa4skO+E/1IDWdH0="
         # "wezterm-nightly.cachix.org-1:zsTr51TeTCRg+bHwUr0KfW3XIIb7Avisrj/hXwVzC2c="
       ];
     };
@@ -255,15 +341,20 @@ in
   };
 
   # ========================================
+  # ✅ Включи NVIDIA для Docker
+  # ========================================
+  hardware.nvidia-container-toolkit.enable = true;  # Включи NVIDIA для Docker
+  virtualisation.docker.enable = true;              # Виртуализация Docker
+
+  # ========================================
   # 👤 Пользователи
   # Создание пользователя 'safe'
   # ========================================
-  virtualisation.libvirtd.enable = true;   # Виртуализация через libvirt
-  virtualisation.waydroid.enable = true;   # Android-эмулятор Waydroid
-  virtualisation.docker.enable = true;     # Docker
+  virtualisation.libvirtd.enable = true;            # Виртуализация через libvirt
+  virtualisation.waydroid.enable = true;            # Android-эмулятор Waydroid
 
-  users.groups.fuse = {};                  # Группа для FUSE
-  users.groups.transmission = {};          # Группа для Transmission
+  users.groups.fuse = {};                           # Группа для FUSE
+  users.groups.transmission = {};                   # Группа для Transmission
 
   users.users.safe = {
     isNormalUser = true;      # Обычный пользователь (не root)
@@ -278,6 +369,8 @@ in
       "libvirtd"
       "docker"
       "input"
+      "networkmanager"        # СЮДА: Вернули права на управление сетевыми интерфейсами!
+      "kvm"                   # РЕКОМЕНДУЕТСЯ: Для полноценной работы libvirtd
     ];
   };
 
@@ -356,6 +449,19 @@ in
     xkb.options = "grp:ctrl_shift_toggle";
   };
 
+  # 🛡️ ПРИНУДИТЕЛЬНАЯ НАСТРОЙКА КЛАВИАТУРЫ ДЛЯ KDE PLASMA 6
+  # Записываем системный конфиг, который KDE обязана подхватить при старте
+  environment.etc."xdg/kxkbrc".text = ''
+    [Layout]
+    LayoutList=us,ru
+    Model=
+    Options=grp:ctrl_shift_toggle
+    ResetOldOptions=true
+    SwitchMode=Global
+    Use=true
+    Variant=
+  '';
+
   # ==============================================================
   # 🖼️ РАБОЧИЙ СТОЛ: PLASMA 6 + SDDM
   # ==============================================================
@@ -389,6 +495,7 @@ in
    # luxwine
     pkgs.fuse
     pkgs.appimage-run
+    pkgs.home-manager
 
     # 📁 Создание .directory и .menu для Lux Wine в меню приложений
     (pkgs.writeTextDir "share/desktop-directories/lux-wine.directory" ''
@@ -412,6 +519,15 @@ in
 
   ];
 
+  # ========================================
+  # 🔐 Отключить KWallet
+  # ========================================
+  security.pam.services = {
+      login.kwallet.enable = pkgs.lib.mkForce false;
+      kde.kwallet.enable = pkgs.lib.mkForce false;
+      sddm.kwallet.enable = pkgs.lib.mkForce false;
+    };
+  services.gnome.gnome-keyring.enable = false;
   # ========================================
   # 🔐 FUSE Распаковщик
   # ========================================
@@ -453,15 +569,18 @@ in
     enable = true;
     libraries = with pkgs; [
       # Системные библиотеки
+      qt6.qtbase                    # Содержит libQt6Network.so.6, libQt6Core.so.6 и т.д.
+      qt6.qtwebengine               # Если программа использует веб-движок
       glibc                         # Стандартная библиотека C — основа всех программ в Linux
       stdenv.cc.cc                  # Системный компилятор (обычно GCC или Clang) — нужен для динамической линковки
+      stdenv.cc.cc.lib              # Системный компилятор библиотек (обычно GCC или Clang) — нужен для динамической линковки
       zlib                          # Библиотека сжатия данных (используется почти везде: PNG, gzip, и др.)
       libx11                        # Базовая библиотека X11 — для взаимодействия с графической подсистемой
       libxext                       # Расширения X11 (Shape, XTest, и др.)
-      xorg.libXrender               # Поддержка аппаратного рендеринга в X11 (сглаживание, альфа-каналы)
+      libXrender                    # Поддержка аппаратного рендеринга в X11 (сглаживание, альфа-каналы)
       libxcb                        # Современная низкоуровневая библиотека для X11 (альтернатива Xlib)
-      xorg.libXcursor               # Управление курсорами мыши в X11
-      xorg.libXi                    # Расширение ввода X11 (мульти-клавиатура, геймпады, планшеты)
+      libXcursor                    # Управление курсорами мыши в X11
+      libXi                         # Расширение ввода X11 (мульти-клавиатура, геймпады, планшеты)
       libxkbcommon                  # Обработка раскладок клавиатуры (Wayland/X11), особенно для Qt/Wayland
       mesa                          # OpenGL-совместимый драйвер рендеринга (для GPU)
       fontconfig                    # Настройка и выбор шрифтов в системе

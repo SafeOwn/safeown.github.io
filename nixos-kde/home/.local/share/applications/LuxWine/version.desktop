@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=Lux Wine
-Exec="/home/safe/.local/share/LuxWine/bin/lwrun" -version %f
+Exec="/home/safe/.local/share/LuxWine/bin/lwrap" -version %f
 MimeType=application/x-ms-dos-executable;application/x-msdos-program;text/win-bat;application/x-ms-shortcut;text/x-ms-regedit;application/x-msi
 Icon=lw_default_icon
 Name=Version info

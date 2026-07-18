@@ -32,11 +32,21 @@
       gpl = "git pull";
 
       # Твои кастомные алиасы
-      rebuild = "sudo nixos-rebuild switch --flake /etc/nixos#yandex && home-manager switch";
+      rebuild = "sudo nixos-rebuild switch --flake /etc/nixos#pc";
       backup = "sudo bash /etc/nixos/scripts/commit-nixos-git.sh";
       restart = "pkill -9 plasmashell";
       ai-text = "sudo bash /etc/nixos/scripts/export-for-ai.sh";
       kate-root = "sudo -E kate";
+
+      # Brave/Chromium для ComfyUI
+      # Чистый, реактивный отклик интерфейса за счет CPU-отрисовки без нагрузки на VRAM
+      # Сверхбыстрый ComfyUI без запроса пароля
+      brave-comfy = "brave --password-store=basic --disable-features=DbusSecretPortal --enable-features=UseOzonePlatform --ozone-platform=wayland http://127.0.0.1:8188";
+      chromium-comfy = "chromium --password-store=basic --disable-features=DbusSecretPortal --enable-features=UseOzonePlatform --ozone-platform=wayland http://127.0.0.1:8188";
+
+      # Обычный запуск без KWallet для повседневного использования
+      brave = "brave --password-store=basic --disable-features=DbusSecretPortal --enable-features=UseOzonePlatform --ozone-platform=wayland";
+      chromium = "chromium --password-store=basic --disable-features=DbusSecretPortal --enable-features=UseOzonePlatform --ozone-platform=wayland";
     };
   };
 
