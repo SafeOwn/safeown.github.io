@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 10.08.26
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 11.08.26
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg"   tvg-name="Первый канал", Первый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
@@ -265,14 +265,10 @@ http://46.46.143.222:1935/live/ldpr.stream/playlist.m3u8
 http://vod.tuva.ru/nauka2/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="zvezda-plus" , Звезда Плюс
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="zootv" , Зоо ТВ
-http://31.148.48.15/Zoo_TV/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="rus-hualiang-tv" , Китай ТВ
 http://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="prodvizhenie" , Продвижение 
 http://origin5.mediacdn.ru/live/prodvizhenie_new/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="avto-plus" , Авто Плюс 
-http://31.148.48.15/Avto_Plus/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="bolshaya-azia" ,Большая азия
 https://bl.rutube.ru/livestream/495ab964b755baa2c9fc7481a2e40f7d/index.m3u8?s=Gmlc9AoKQsc_SsKXpHLc3g&e=2067513311&scheme=https
 #EXTINF:-1  group-title="Познавательные"  tvg-id="krasnaya-linia" , Красная линия
@@ -293,8 +289,6 @@ http://cdn.universmotri.ru/live/mq.sdp/playlist.m3u8
 http://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="yuvelirochka" ,Ювелирочка
 http://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="domashny-magazin" ,Leomax +
-https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="no_epg"  tvg-logo="http://tochkatv.tv/wp-content/uploads/2023/11/magnat_live-1170x720.jpg" ,Магнат
 https://s1.tv-nano.com/Magnat_HD_5119705/video.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="doktor" , Доктор
@@ -337,36 +331,22 @@ http://tvspas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.ts.m3u8
 http://cdn.universmotri.ru/live/univer.sdp_1080p/playlist.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="moya-planeta" ,Моя планета
 http://uiptv.do.am/1ufc/312275719/playlist.m3u8
-#EXTINF:-1  group-title="Познавательные" ,365
-http://31.148.48.15:80/365_dney/index.m3u8
-#EXTINF:-1  group-title="Познавательные" ,Food Time HD
-http://31.148.48.15:80/Eda_Premium_HD/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="luxury" ,Luxury
 http://s1.tv-nano.com/Luxury_rec/tracks-v3a1/mono.ts.m3u8
 #EXTINF:-1  group-title="Познавательные" ,RT Док
 http://rt-doc.rttv.com/dvr/rtdru/rtdru720.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="shopping-live" ,Shopping Live
-http://shoppinglive.mediacdn.ru/cdn/shopping/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1  group-title="Познавательные" ,Sochi 24
 http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="sochi-live" ,Sochi Live
 http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="terra-ru" ,Terra
-http://31.148.48.15/Terra/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="univer-tv" ,Univer TV
 http://cdn.universmotri.ru/live/univer.sdp_576p/playlist.m3u8
 #EXTINF:-1  group-title="Познавательные" ,Univer TV HD
 http://cdn.universmotri.ru/live/hq.sdp/playlist.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="avto-plus" ,Авто Плюс
-http://31.148.48.15:80/Avto_Plus/index.m3u8
 #EXTINF:-1  group-title="Познавательные" ,Аист ТВ
 http://194.143.148.28:8080/Aist/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="bolshaya-azia" ,Большая Азия
 https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/tracks-v2a1/mono.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="zhivaya-planeta" ,Живая Планета
-http://31.148.48.15:80/Zhivaya_Planeta/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="kto-est-kto" ,Кто есть кто
-http://31.148.48.15:80/Kto_est_kto/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="ldpr-tv" ,ЛДПР ТВ
 http://46.46.143.222:1935/live/mp4:ldpr.stream_480p/playlist.m3u8
 #EXTINF:-1  group-title="Познавательные" ,ЛДПР ТВ HD
@@ -405,16 +385,10 @@ https://bl.rutube.ru/livestream/9ad2099eed71b4a0e577292c3bfd0708/index.m3u8?s=Pt
 http://cdn.universmotri.ru/live/smil:mbr.smil/chunklist_b3628000_slru.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="(no tvg-id)"   tvg-name="555 Hunt & Fishing TV",555 Hunt & Fishing TV
 http://193.169.178.29:8081/podsekaiTV/chanelHD/playlist.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="(no tvg-id)"   tvg-name="Доктор HD",Доктор HD
-http://31.148.48.15/Doktor/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="(no tvg-id)"   tvg-name="Живи",Живи
-http://31.148.48.15:80/Zhivi/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="(no tvg-id)"   tvg-name="Конгресс ТВ",Конгресс ТВ
 https://stitch.teletarget.ru/api/v1/hls/504/135/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="kongresstv"   tvg-name="Конгресс ТВ HD",Конгресс ТВ HD
 https://live-4.otcnet.ru/504/135/1080p/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="(no tvg-id)"   tvg-name="Кухня",Кухня
-http://31.148.48.15:80/Kuhnya_TV/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="(no tvg-id)"   tvg-name="Первый Медицинский канал",Первый Медицинский канал
 https://rq3qltxnbx1.a.trbcdn.net/livemaster/8hwxnq4s0v_efir0_tcode1080p/playlist.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="discovery-channel" , Discovery Channel
@@ -455,14 +429,10 @@ https://flussonic.mkpnet.ru/tv-a651b413f5cb4c44/video.m3u8
 https://flussonic.mkpnet.ru/tv-6febc5aecf84848d/video.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="zhivi-aktivno" ,Живи Активно
 https://flussonic.mkpnet.ru/tv-fa810958620d77d8/video.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="zdorovoe-tv" ,Здоровое ТВ
-https://flussonic.mkpnet.ru/tv-92fa9d648cab0f3f/video.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="krasnaya-linia" ,Красная линия
 https://flussonic.mkpnet.ru/tv-3c6edc849aea7c07/video.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="rtd-ru" ,RTД
 https://flussonic.mkpnet.ru/tv-501eac834b24c3cf/video.m3u8
-#EXTINF:-1  group-title="Познавательные" ,Лад
-https://flussonic.mkpnet.ru/tv-7a5f996197077375/video.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="muzhskoy" ,Мужской
 https://flussonic.mkpnet.ru/tv-55c94e838b306657/video.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="nasha-tema" ,Наша Тема
@@ -557,26 +527,6 @@ http://31.210.208.171:8080/psihologiya/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/yuvelirochka/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Познавательные" ,Зоопарк
 http://31.210.208.171:8080/zoopark/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="avto24" ,Авто 24
-http://45.145.32.13:20440/avto24/index.m3u8?token=test
-#EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-explore" , VIASAT EXPLORE
-http://ua.online24.pm/play/8852/37C481E09158DA0/video.m3u8
-#EXTINF:-1  group-title="Познавательные" , VIASAT EXPLORE BEST HD
-http://ua.online24.pm/play/51100/37C481E09158DA0/video.m3u8
-#EXTINF:-1  group-title="Познавательные" , VIASAT HISTORY HD CEE
-http://ua.online24.pm/play/8850/37C481E09158DA0/video.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-nature" , VIASAT NATURE
-http://ua.online24.pm/play/8851/37C481E09158DA0/video.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-history" , VIASAT HISTORY HD
-http://ua.online24.pm/play/491/37C481E09158DA0/video.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-explore" , VIJU EXPLORE HD
-http://ua.online24.pm/play/79/37C481E09158DA0/video.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-history" , VIJU HISTORY HD
-http://ua.online24.pm/play/78/37C481E09158DA0/video.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-nature" , VIJU NATURE HD
-http://ua.online24.pm/play/119/37C481E09158DA0/video.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-nature-history-hd" , VIJU+ PLANET HD
-http://ua.online24.pm/play/91/37C481E09158DA0/video.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="tayna"  tvg-logo="https://iptvx.one/picons/tayna.png" ,Тайна
 https://bl.rutube.ru/livestream/a11c890a0ec0730ad33bdaaf2d244e1a/index.m3u8?s=hCc3BqSwghCQ0GRhDJ967A&e=2070623490&scheme=https
 #EXTINF:-1  group-title="Познавательные"  tvg-id="discovery-channel"  tvg-logo="https://iptvx.one/picons/discovery-channel.png" ,Discovery Channel HD
@@ -625,10 +575,6 @@ http://31.210.208.171:8080/kvn_tv/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/telecafe/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="tvoetv-humor"  tvg-logo="https://i.postimg.cc/85hJM1pk/Tvoe-TV-Umor.png" ,Твоё ТВ HD Юмор
 http://tvoetv.space:8080/tvoetv_humor/index.m3u8
-#EXTINF:-1  group-title="Развлекательные"  tvg-id="sarafan" ,Сарафан
-http://31.148.48.15:80/Sarafan/index.m3u8
-#EXTINF:-1  group-title="Развлекательные"  tvg-id="783"  tvg-logo="http://epg.it999.ru/img/783.png"   tvg-name="Ностальгия [R]",Ностальгия [R]
-http://31.148.48.15:80/Nostalgiya/index.m3u8?token=rostik_tv
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="rutube-tv"  tvg-logo="https://iptvx.one/picons/rutube-tv.png" ,RUTUBE TV
 https://bl.rutube.ru/livestream/9ae8e8a6dc58bdad66190475f9872ecd/index.m3u8?s=U_og5iHG6xVp0V3KXYMB0g&e=2070623479&scheme=https
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="perec-int" ,Перец
@@ -653,8 +599,6 @@ http://cdn.wfc.tv/cdn/stream-eng-720p.m3u8
 http://vod.tuva.ru/kinotv/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fanhd" ,FAN
 http://31.210.208.171:8080/fan/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="shot-tv" ,SHOT TV
-http://31.210.208.171:8080/shottv/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="dorama" ,ДОРАМА
 http://31.210.208.171:8080/dorama/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="evrokino" ,ЕВРОКИНО
@@ -747,12 +691,6 @@ https://flussonic.mkpnet.ru/tv-2997fed720614567/video.m3u8
 https://flussonic.mkpnet.ru/tv-ccf8c891702508a7/video.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="russky-roman" ,Русский роман
 https://flussonic.mkpnet.ru/tv-c90a71c34cc779ac/video.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia1" ,Amedia 1
-http://31.148.48.15:80/A1/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia2" ,Amedia 2
-http://31.148.48.15:80/A2/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="evrokino" ,Еврокино
-http://31.148.48.15:80/Evrokino/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы" ,Твое ТВ
 http://tvoetv.space:8080/tvoetv/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="russky-roman" ,Русский Роман
@@ -879,16 +817,12 @@ http://kinowalk.hopto.org/scripachtv_live
 https://bl.rutube.ru/livestream/3b7d1499da9396462bfd17282d758d30/index.m3u8?s=2ANj0RhjI1hrAkz7Jd83ZQ&e=2069068452&scheme=https
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" ,Киножелезо
 https://bl.rutube.ru/livestream/4965b7b928c4a143d708ab424be01d37/index.m3u8?s=gMBYxSllxsSYVvLG71o4eg&e=2066519765&scheme=https
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/rf5ChNbx/image-9.png" , KinoJam
-http://kinowalk.hopto.org/kinojam_live
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" , VHS кино
 http://kinowalk.hopto.org/and7610_live
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" , serial4u
 http://kinowalk.hopto.org/serial4u_live
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" , VHS Forever
 http://kinowalk.hopto.org/vhs-forever_live
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" , Wfliq
-http://kinowalk.hopto.org/wfliq_live
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" , ChowAmigo
 http://kinowalk.hopto.org/chowamigo_live
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" , 𝕂𝔸ℂℂ𝔼𝕋𝔸
@@ -939,8 +873,6 @@ https://rpn3.bozztv.com/dvrfl07/ushba82/tracks-v1a1/mono.m3u8
 https://rpn3.bozztv.com/dvrfl07/ushba-rvision/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision Motor
 https://rpn3.bozztv.com/dvrfl07/ushba-rvisionmotor/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision Movies
-https://rpn3.bozztv.com/dvrfl07/ushba-rvisionmovies/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision Classic
 https://rpn3.bozztv.com/dvrfl07/ushba-rvisionclassic/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia2" ,Amedia 2
@@ -953,8 +885,6 @@ http://45.145.32.13:20440/bollywood_hd/index.m3u8?token=test
 http://45.145.32.13:20440/flixsnip/index.m3u8?token=test
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="evrokino" ,Еврокино
 http://45.145.32.13:20440/eurokino/index.m3u8?token=test
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="mir-seriala" ,Мир сериала
-http://45.145.32.13:20440/ctc_kids_hd/index.m3u8?token=test
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="domkino-premium" ,Дом Кино Премиум
 http://45.145.32.13:20440/dom_kino_premium_hd/index.m3u8?token=test
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="vip-premiere" , VIJU+ PREMIERE HD
@@ -2297,16 +2227,10 @@ https://rpn3.bozztv.com/dvrfl07/giatv-208314/playlist.m3u8
 http://5.188.158.65:4040/IPTVPLAYMultSkazki.tv/video.m3u8?token=lqRGka5-YwwqF0
 #EXTINF:-1  group-title="Детские"  tvg-id="solnce"  tvg-logo="https://picon.ml/solnce.png"   tvg-name="Солнце", Солнце
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="ryzhy" , Рыжий 
-http://31.148.48.15/Rizhiy/index.m3u8
 #EXTINF:-1  group-title="Детские" , Тооку HD
 http://live-saha.cdnvideo.ru/saha/tooky/playlist.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="ryzhy" ,Рыжий
-http://31.148.48.15:80/Rizhiy/index.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="solnce" ,Солнце
 http://tv.mediacdn.ru/live/solntse/playlist_3000k.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="detsky" ,Уникум
-http://31.148.48.15:80/Detskiy/index.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="malysh" ,Супергерои
 http://109.94.1.3:8080/132/index.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="no_epg_cinema"  tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" ,Alpha Moretime
@@ -2350,8 +2274,6 @@ https://flussonic.mkpnet.ru/tv-ac43800065b9b1b7/video.m3u8
 https://flussonic.mkpnet.ru/tv-132f51b35b47b897/video.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="gulli-girl" ,Gulli Girl
 https://flussonic.mkpnet.ru/tv-d66fcf59f2f4c966/video.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="multimania" ,Мультиландия
-https://flussonic.mkpnet.ru/tv-89530153f25733fe/video.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="sts-kids-hd" ,СТС Kids
 https://flussonic.mkpnet.ru/tv-4af112c31b77e2a8/video.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="malysh" ,Малыш
@@ -2468,8 +2390,6 @@ http://217.174.225.146/hls/ch004_720/index.m3u8
 https://bl.rutube.ru/livestream/7a485ef5da9fe50ba939f36ca3e6ed96/index.m3u8?s=yPBrUbKIt9fYFkOqNFcO3A&e=2067513342&scheme=https
 #EXTINF:-1  group-title="Спортивные" ,Red Bull TV
 https://bl.rutube.ru/livestream/45b30eef1b89857182b03db2c25631d9/index.m3u8?s=19bu7O57-MKmY29gB9qRug&e=2067513342&scheme=https
-#EXTINF:-1  group-title="Спортивные"  tvg-id="nba-tv" ,NBA TV
-https://bl.rutube.ru/livestream/d01241e9fd2bc2d65dbf6d74cca02f89/index.m3u8?s=Dkn4hlij2606zeL9XmrHiA&e=2067513342&scheme=https
 #EXTINF:-1  group-title="Спортивные" ,beIN SPORTS XTRA Español
 https://bl.rutube.ru/livestream/05550e441b09aeec53e60de66b6c47bf/index.m3u8?s=SpG2eRp7yjd7qnlj8E2aWg&e=2067513343&scheme=https
 #EXTINF:-1  group-title="Спортивные"  tvg-id="sky-sports-tennis" ,Sky Sports Tennis
@@ -2516,8 +2436,6 @@ https://flussonic.mkpnet.ru/tv-6db4f59c21aec361/video.m3u8
 https://flussonic.mkpnet.ru/tv-e3d23fc7511b5fcd/video.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="extreme-sports" ,Extreme Sports
 https://flussonic.mkpnet.ru/tv-1a9441fd32d63873/video.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="konny-mir" ,Конный мир
-https://flussonic.mkpnet.ru/tv-7a5f996197077375/video.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-arena" ,МАТЧ! Арена
 https://flussonic.mkpnet.ru/tv-9dda1dd9d740a9a4/video.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-tv" ,МАТЧ!
@@ -2534,10 +2452,6 @@ http://185.46.16.239:8000/Match_Nash_Sport
 http://185.46.16.239:8000/Match_Igra
 #EXTINF:-1  group-title="Спортивные"  tvg-id="box-tv" ,Бокс ТВ
 http://185.46.16.239:8000/Eurosport_1
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-football1" ,Матч! Футбол 1 HD
-http://45.145.32.13:20440/match_futbol_1_hd/index.m3u8?token=test
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-football2" ,Матч! Футбол 2 HD
-http://45.145.32.13:20440/match_futbol_2_hd/index.m3u8?token=test
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-football3" ,Матч! Футбол 3 HD
 http://45.145.32.13:20440/match_futbol_3_hd/index.m3u8?token=test
 #EXTINF:-1  group-title="Спортивные"  tvg-id="m1global" ,MMA-TV
@@ -2725,167 +2639,165 @@ http://iptv.prosto.tv:7000/ch306/video.m3u8
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00307.jpg" ,Relaxon
 http://iptv.prosto.tv:7000/ch317/video.m3u8
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2026-01-23/7f/a0/7fa054982af0926bf046828356cf612f.jpg" , 4K UHD релакс
-https://river-4-404.rtbcdn.ru/hls-vod/mlvTJGEvxvDLxAPy8RJ--A/1786263768/3554/0x5000c500fad6b32c/11f5bc786dcf44b78243cfe33fb891ae.mp4.m3u8?i=3840x2160_30861
+https://river-4-404.rtbcdn.ru/hls-vod/cx_7X6_6mkebjWIZrIf07Q/1786820473/3554/0x5000c500fad6b32c/11f5bc786dcf44b78243cfe33fb891ae.mp4.m3u8?i=3840x2160_30861
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-08-31/16/b4/16b466e289f38aedbd6088284fe8def6.jpg" , Завораживающие пейзажи мира
-https://river-4-408.rtbcdn.ru/hls-vod/XPr52VIrNZu48u16oYwyWA/1786263768/1780/0x5000c500dc5d5c75/0e11c0a92a8b47bcae4bdb5c7fa184f7.mp4.m3u8?i=2560x1440_17757
+https://river-4-408.rtbcdn.ru/hls-vod/92OkYdU7n_0CFEfa0VDk6Q/1786820471/1780/0x5000c500dc5d5c75/0e11c0a92a8b47bcae4bdb5c7fa184f7.mp4.m3u8?i=2560x1440_17757
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-09-19/4f/f0/4ff007bdfd060d5fa3e1719822a1954a.jpg" , Земля без слов 4K
-https://river-4-450.rtbcdn.ru/hls-vod/_40ybk1ZsGjqer_weI-2XA/1786263768/2520/0x5000039ce869a19d/ca3c0ee693564a7ab67f62467123ddf3.mp4.m3u8?i=3840x2160_20896
+https://river-4-450.rtbcdn.ru/hls-vod/dkxe9oBXou0cbCNn-zd_FA/1786820473/2520/0x5000039ce869a19d/ca3c0ee693564a7ab67f62467123ddf3.mp4.m3u8?i=3840x2160_20896
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-08-27/4b/62/4b6266f15229d4e552126e0082dbacec.jpg" , 4K красота: закаты леса и мегаполисы
-https://river-4-425.rtbcdn.ru/hls-vod/DCudhRzfyit_GjNGbltGcA/1786263769/2474/0x5000c500e883a2b6/b6d409e4e0d94fd4aa77677c9299d645.mp4.m3u8?i=2560x1440_18930
+https://river-4-421.rtbcdn.ru/hls-vod/Fu1hE3OWoLyEdCAPiERstA/1786820473/2474/0x5000c500e883a2b6/b6d409e4e0d94fd4aa77677c9299d645.mp4.m3u8?i=2560x1440_18930
 #EXTINF:-1  group-title="Релакс"  tvg-id="0x0-fireplace-hd"  tvg-logo="https://pic.rtbcdn.ru/video/ec/3d/ec3d950ca1dbeac9c8017df68179aa35.jpg" , Камин
-https://river-4-421.rtbcdn.ru/hls-vod/KF5jVXPS2iH4lcFZyhg0Bg/1786263769/1899/0x5000c500e511570c/8311ad94048f47808d4e72cc32aa7238.mp4.m3u8?i=3840x2160_6480
+https://river-4-421.rtbcdn.ru/hls-vod/eiv_LfM-ZPheK46cYWl_sA/1786820475/3264/0x5000c500e9ebe935/8311ad94048f47808d4e72cc32aa7238.mp4.m3u8?i=3840x2160_6480
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-11/93/1c/931c2e26c7cf0c9cd46994dd45f5fdd0.jpg" , 4K Video ULTRA HD 60 FPS
-https://river-3-317.rtbcdn.ru/hls-vod/11aLTGQKLfcTPpa6uqOWjw/1786263769/3358/0x5000c500fa784e57/ad4bc68202d64fecb39ff4fdf05f3bfe.mp4.m3u8?i=3840x2160_18272
+https://river-ntv-ihome-d487.rtbcdn.ru/hls-vod/4w8HqoYAeHmyMqxHEE1B5g/1786820475/3310/0x5000c50074475c42/ad4bc68202d64fecb39ff4fdf05f3bfe.mp4.m3u8?i=3840x2160_18272
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/78/e6/78e6107c83f9930a03e48fd0240859a1.jpg" , DOLBY VISION OLED Test Video (2024)
-https://river-3-366.rtbcdn.ru/hls-vod/V5G0QV-zmqbsxmDOWiu-lQ/1786263770/2183/0x5000c500e6f0b871/a64c9366549b468689cbd47702889ec8.mp4.m3u8?i=3840x2160_19668
+https://river-3-312.rtbcdn.ru/hls-vod/M5wKfQOH_lyAbwHl1TpzdQ/1786820475/2183/0x5000c500e6f0b871/a64c9366549b468689cbd47702889ec8.mp4.m3u8?i=3840x2160_19668
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/34/f6/34f6507b30ae4a747b11821304e6f1f0.jpg" , 4K ULTRA HD
-https://river-4-463.rtbcdn.ru/hls-vod/bbI4wE1kM5oZYbAD8nOIhw/1786263770/3380/0x5000c500fa77bca6/8baceb688d3548c0a29a40f3980bceea.mp4.m3u8?i=3840x2160_24688
+https://river-4-463.rtbcdn.ru/hls-vod/ZaHr-f6ijkLLfPnUobT0rg/1786820477/1796/0x5000c5007443177b/8baceb688d3548c0a29a40f3980bceea.mp4.m3u8?i=3840x2160_24688
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/0d/56/0d56e874bcbea5a47faaf78fbd97c6e1.jpg" , COLORFUL WORLD ANIMALS - ANIMALS SOUNDS
-https://river-4-442.rtbcdn.ru/hls-vod/l_35At6eT0k_XumVa5prXQ/1786263770/2602/0x5000039ce86865d1/ce40366bbe4e400bad9e69ba72ea21af.mp4.m3u8?i=3840x2160_19145
+https://river-4-442.rtbcdn.ru/hls-vod/Wel56OVRgCx_mgxOI1NUgw/1786820477/2602/0x5000039ce86865d1/ce40366bbe4e400bad9e69ba72ea21af.mp4.m3u8?i=3840x2160_19145
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/6b/dc/6bdc4cfedb4f634e840ac2f5c808022f.jpg" , 4K 60fps
-https://river-4-425.rtbcdn.ru/hls-vod/jwSTGHvB-M28FnChPm3DHw/1786263771/1802/0x5000c500db111d72/fc85c4ba867d442f8c3161a0ff3045fe.mp4.m3u8?i=3840x2160_20911
+https://river-4-421.rtbcdn.ru/hls-vod/80poBwI9QfyGL0cjsoVs_w/1786820478/1802/0x5000c500db111d72/fc85c4ba867d442f8c3161a0ff3045fe.mp4.m3u8?i=3840x2160_20911
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/ec/62/ec62a116bb2e1320fbd89fb433eea909.jpg" , 4K 60fps COLORFUL WORLD - TRUE CINEMATIC
-https://river-4-453.rtbcdn.ru/hls-vod/3J66F7kKMh7uKkWb3wChfA/1786263771/2520/0x5000039ce8697ff9/faab509f8cc443a5a9677823f8d38df9.mp4.m3u8?i=3840x2160_16577
+https://river-4-421.rtbcdn.ru/hls-vod/rUR3WSCUkJavroHgbzsg7Q/1786820479/2520/0x5000039ce8697ff9/faab509f8cc443a5a9677823f8d38df9.mp4.m3u8?i=3840x2160_16577
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/d8/14/d8145d9a9bbcd2c426c6ca2b3a5a7b87.jpg" , 4K Удивительные животные
-https://river-4-445.rtbcdn.ru/hls-vod/fz8JA8ifUPz-KgveGlCihg/1786263771/3304/0x5000c500e9d36635/80e76c2d86c74a98a6d49b3d3f5abf97.mp4.m3u8?i=3840x2160_11616
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/e4/e1/e4e1f5a94dc1ca569aeb2516c1c003bb.jpg" , Demo 4K
-https://river-4-425.rtbcdn.ru/hls-vod/snV_qF3sdhyQ16IX62TWYQ/1786263772/2700/0x5000039ce86942bd/e2871e209eb74d2ca924c256233583d7.mp4.m3u8?i=3840x2160_29461
+https://river-4-445.rtbcdn.ru/hls-vod/5VgaV6nuj8DSlf9Aaxpwrw/1786820479/1772/0x5000c500db80bc6a/80e76c2d86c74a98a6d49b3d3f5abf97.mp4.m3u8?i=3840x2160_11616
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/39/b8/39b8682bf458aa9a88963f0de920b505.jpg" , THE MOST BEAUTIFUL 4K 60fps
-https://river-4-453.rtbcdn.ru/hls-vod/lgJXqMvj_ypJ7jT-uDUwPg/1786263772/2708/0x5000039ce8380695/d1161bd4d16d4ca1b492d440494f597e.mp4.m3u8?i=3840x2160_17738
+https://river-4-421.rtbcdn.ru/hls-vod/0zm5IzATbguAaYvzuNnD_A/1786820481/2708/0x5000039ce8380695/d1161bd4d16d4ca1b492d440494f597e.mp4.m3u8?i=3840x2160_17738
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/d0/e6/d0e61eaaf75c5de99cce846c6fc6d9ba.jpg" , Razer Sharp 60 fps 4K
-https://river-4-462.rtbcdn.ru/hls-vod/UJaP_vLHa8-b-edmAqbZWA/1786263772/2652/0x5000039ce8703151/0e29af94ffe3489d83504c1f5a3d12fc.mp4.m3u8?i=3840x2160_14068
+https://river-4-462.rtbcdn.ru/hls-vod/ZJRp0AAvfWO6oEnWh29pYQ/1786820481/2652/0x5000039ce8703151/0e29af94ffe3489d83504c1f5a3d12fc.mp4.m3u8?i=3840x2160_14068
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-09-29/28/29/2829eb8fb8255f87880c22269840dbd4.jpg" , 100 000 ЗАХВАТЫВАЮЩИХ ПЕЙЗАЖЕЙ
-https://river-4-425.rtbcdn.ru/hls-vod/diXcn-YPGJUdRYOAUEDnsg/1786263772/1897/0x5000c500e4a15fac/15684d4035e5453dac85c2650f8e6dbd.mp4.m3u8?i=3840x2160_32513
+https://river-4-421.rtbcdn.ru/hls-vod/pf-W5h40uIrPQ9bd4UM0Ow/1786820483/1897/0x5000c500e4a15fac/15684d4035e5453dac85c2650f8e6dbd.mp4.m3u8?i=3840x2160_32513
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/71/55/7155f0d06e9a06e5fa2201512ef5a21b.jpg" , World of Animals 4K
-https://river-4-425.rtbcdn.ru/hls-vod/4aSB7j4aOFutPfQYE-hvww/1786263773/1780/0x5000c500c3527c11/cad2b76eaaa84797b8543b7cae4ac2f1.mp4.m3u8?i=3840x2160_26198
+https://river-4-420.rtbcdn.ru/hls-vod/aWMvAqjn2XVhOyg083Qzbg/1786820482/1780/0x5000c500c3527c11/cad2b76eaaa84797b8543b7cae4ac2f1.mp4.m3u8?i=3840x2160_26198
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/61/19/6119d30ed9bd99327dfabed39633b97e.jpg" , РАЙСКИЕ МЕСТА НА ЗЕМЛЕ 4K 60fps
-https://river-4-444.rtbcdn.ru/hls-vod/X4GagNKnlemffHeOVwmyWg/1786263773/3270/0x5000c500744761a5/ce1ba50a90b24925a689493496d705d4.mp4.m3u8?i=3840x2160_12559
+https://river-4-421.rtbcdn.ru/hls-vod/wyYvXpo55_3hVizl3RtaDg/1786820485/3270/0x5000c500744761a5/ce1ba50a90b24925a689493496d705d4.mp4.m3u8?i=3840x2160_12559
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/d9/e3/d9e35dc3b656decefb87bed06d3cc00f.jpg" , 4K HDR 60FPS Dolby Vision
-https://river-4-448.rtbcdn.ru/hls-vod/R4AiP6fpKs0jWeia_z2_Rg/1786263773/2722/0x5000039ce8339e5d/2692352188cf4c0b98884a884aadbd50.mp4.m3u8?i=3840x2160_20589
+https://river-4-448.rtbcdn.ru/hls-vod/ldqowFw1tRzrii-lLQN_1Q/1786820485/2722/0x5000039ce8339e5d/2692352188cf4c0b98884a884aadbd50.mp4.m3u8?i=3840x2160_20589
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/0b/90/0b904394c6e39bb08155fe4e5dfbc868.jpg" , Высококачественное видео
-https://river-4-465.rtbcdn.ru/hls-vod/TiJcrqotdyP9FLqs1K28pw/1786263774/3314/0x5000c500e9c56efe/6f56967b122f447096b17b390a342bb9.mp4.m3u8?i=3840x2160_22125
+https://river-4-465.rtbcdn.ru/hls-vod/aivCVyeOz2RI9gc3QitPZQ/1786820486/3314/0x5000c500e9c56efe/6f56967b122f447096b17b390a342bb9.mp4.m3u8?i=3840x2160_22125
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/73/f5/73f5b3cfdc98158045f76038a018b75b.jpg" , PARADISE ON EARTH Best Travel
-https://river-4-425.rtbcdn.ru/hls-vod/Y8Tn6EZWfksm5i1PH0by7g/1786263774/2508/0x5000039ce8686d6d/9a66fdbba8824627bbef6ad970ea7274.mp4.m3u8?i=2560x1440_17635
+https://river-4-420.rtbcdn.ru/hls-vod/ckX7zjkZMdro9CYPYygiCQ/1786820487/2508/0x5000039ce8686d6d/9a66fdbba8824627bbef6ad970ea7274.mp4.m3u8?i=2560x1440_17635
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/fe/10/fe10124b6dd01bbd556c4c9e0d096e8b.jpg" , FLYING OVER SEYCHELLES
-https://river-4-459.rtbcdn.ru/hls-vod/X1R5hXfkYcQzIazKeW9jGQ/1786263774/2706/0x5000039ce8635efd/c648587aa98147a3a5f9d4f98d8592e0.mp4.m3u8?i=3840x2160_19507
+https://river-4-430.rtbcdn.ru/hls-vod/XqvMELC0-C705pSPEXZRMA/1786820488/2706/0x5000039ce8635efd/c648587aa98147a3a5f9d4f98d8592e0.mp4.m3u8?i=3840x2160_19507
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/04/bd/04bd807775ac8cef2b6b91c8563efc3a.jpg" , Невероятная Красота 4K
-https://river-4-453.rtbcdn.ru/hls-vod/Qtle1vfHMnhCmheTmCdHQQ/1786263775/1770/0x5000c500c58d6607/556a1a55f7d541ac9aecbe8f1378f025.mp4.m3u8?i=3840x2160_17089
+https://river-4-420.rtbcdn.ru/hls-vod/DD9irv71PfvGflqBCfiRcw/1786820488/1770/0x5000c500c58d6607/556a1a55f7d541ac9aecbe8f1378f025.mp4.m3u8?i=3840x2160_17089
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/06/6b/066be4b119e215d35bdbd80894090b2b.jpg" , Птицы 4K
-https://river-4-437.rtbcdn.ru/hls-vod/41N6PvX3C5LKY7QdaNapHw/1786263775/1780/0x5000c500c8e66220/9b3049d858f744bb9212feff045bc341.mp4.m3u8?i=3840x2160_24383
+https://river-4-437.rtbcdn.ru/hls-vod/OmU-yKfUkdhcKCJ8bAoPvw/1786820490/1780/0x5000c500c8e66220/9b3049d858f744bb9212feff045bc341.mp4.m3u8?i=3840x2160_24383
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/08/d0/08d0485c5371f760f1f46986054dde80.jpg" , Breathtaking landscape 4K
-https://river-4-465.rtbcdn.ru/hls-vod/hTIVUMOo5kOKwiBQl_03kA/1786263775/3350/0x5000c500e9ee0171/abada6c634ff488db2e1b0dd9a2b9b3e.mp4.m3u8?i=3840x2160_24551
+https://river-4-465.rtbcdn.ru/hls-vod/u5hF4Z7U9dn51hL12opMiw/1786820491/3350/0x5000c500e9ee0171/abada6c634ff488db2e1b0dd9a2b9b3e.mp4.m3u8?i=3840x2160_24551
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/10/17/1017237de47e769c39708710bb89d188.jpg" , Mind Blowing 4K
-https://river-4-462.rtbcdn.ru/hls-vod/uYO44XyIc--CnQS4lsAmhQ/1786263775/1774/0x5000c500dc5d11c3/f677cdd74de344c7ad26a748f42e912f.mp4.m3u8?i=3840x2160_22813
+https://river-4-462.rtbcdn.ru/hls-vod/U8Qf8be11FH2XgpY7HRosA/1786820492/1774/0x5000c500dc5d11c3/f677cdd74de344c7ad26a748f42e912f.mp4.m3u8?i=3840x2160_22813
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-09-29/1e/99/1e99ee863752854d4a29ee44a1dc2a16.jpg" , Швейцария Железная дорога Кур–Ароза
-https://river-4-467.rtbcdn.ru/hls-vod/2n7qYfp8t_GqbM9jFoZE8g/1786263776/2470/0x5000c500e8840cd6/e236a89398014141b0076380d02f05a4.mp4.m3u8?i=2560x1440_46799
+https://river-4-419.rtbcdn.ru/hls-vod/5UzA8IpHdIKPMgg2uUHRSA/1786820492/2470/0x5000c500e8840cd6/e236a89398014141b0076380d02f05a4.mp4.m3u8?i=2560x1440_46799
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/66/ab/66ab4b28270aef4dcc7fec431ab8bb38.jpg" , Каттегат в 4К С Музыкой Викингов
-https://river-4-444.rtbcdn.ru/hls-vod/E5nSOg0hYoCpN0XevR9HHg/1786263776/3298/0x5000c500e9ce2371/2b992c6cdb9d4df1ab6935813e352b05.mp4.m3u8?i=3840x2160_16049
+https://river-4-420.rtbcdn.ru/hls-vod/YRo4S2wesYBfF7KIKMnPJA/1786820494/3298/0x5000c500e9ce2371/2b992c6cdb9d4df1ab6935813e352b05.mp4.m3u8?i=3840x2160_16049
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/d0/db/d0db857627ef06a159f2f42d90476a73.jpg" , Коста Рика 4K 60fps
-https://river-4-425.rtbcdn.ru/hls-vod/bJK8JymJz04aIvlyMSIBvQ/1786263776/3372/0x5000c500fa775ff7/ba01d890ec944bdcb082cffe9bbdf1b2.mp4.m3u8?i=3840x2160_27042
+https://river-4-428.rtbcdn.ru/hls-vod/GBaBO136Qje4f5taCMlMuw/1786820494/1865/0x5000c500e537c2c8/ba01d890ec944bdcb082cffe9bbdf1b2.mp4.m3u8?i=3840x2160_27042
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/31/21/312151af4084655231da8e85a78d379a.jpg" , Пакистан в 4К
-https://river-4-446.rtbcdn.ru/hls-vod/Fwd1GuFzgfuGpKiz3x3sMw/1786263777/1891/0x5000c500e539c97b/d2deee2b1e68476daa2645ef36da01db.mp4.m3u8?i=3840x2160_16056
+https://river-4-446.rtbcdn.ru/hls-vod/MvjMBzKTEnsHMX0OfXWvWw/1786820495/1891/0x5000c500e539c97b/d2deee2b1e68476daa2645ef36da01db.mp4.m3u8?i=3840x2160_16056
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/7d/e0/7de0c641a0e47a2fc645444ba8c1b114.jpg" , Аляска 4K 60fps
-https://river-4-461.rtbcdn.ru/hls-vod/j5cGlQSBneGzM-p1lnEEGw/1786263777/1889/0x5000c500e538249f/4b2f01657cbb48109f10291e30b69f10.mp4.m3u8?i=3840x2160_26582
+https://river-4-461.rtbcdn.ru/hls-vod/8MFS8HXUJ1AEpujEiIbZrw/1786820496/1889/0x5000c500e538249f/4b2f01657cbb48109f10291e30b69f10.mp4.m3u8?i=3840x2160_26582
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/0f/c5/0fc5980685a33c9259252135090c2a7a.jpg" , Антарктика В 4К
-https://river-4-461.rtbcdn.ru/hls-vod/K0ZyGd-8aE3ll3iG9xc5-w/1786263777/1770/0x5000c500c8b71440/43d466c1d81b44f895cad3ca5ea028e9.mp4.m3u8?i=3840x2160_10515
+https://river-4-461.rtbcdn.ru/hls-vod/U802rpReJCFEAnSpw4Hnsg/1786820497/1770/0x5000c500c8b71440/43d466c1d81b44f895cad3ca5ea028e9.mp4.m3u8?i=3840x2160_10515
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/32/0b/320b1080d4ee71d56a021c5d39dc4fd0.jpg" , Греция 4K
-https://river-4-434.rtbcdn.ru/hls-vod/m6kdzV-pLJJR6ABStZjjxA/1786263777/1776/0x5000c500c750a96f/47ee63aaebd54d10aa7f9b7c0dadfe83.mp4.m3u8?i=3840x2160_10503
+https://river-4-434.rtbcdn.ru/hls-vod/EeUt4C4uLLGsdBAv5Jy7Xw/1786820500/1776/0x5000c500c750a96f/47ee63aaebd54d10aa7f9b7c0dadfe83.mp4.m3u8?i=3840x2160_10503
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/19/d5/19d547d9f665a02f80f31cacb2238e7c.jpg" , Италия 4K
-https://river-4-473.rtbcdn.ru/hls-vod/-s2UY9HDoeuB4RHqM1Y3JQ/1786263778/2564/0x5000039ce8638861/c8aafbc7b0b34bebb6650b10f718c8db.mp4.m3u8?i=3840x2160_35524
+https://river-4-473.rtbcdn.ru/hls-vod/WWuAqSRfVeXLs9lt_f2eXw/1786820499/2564/0x5000039ce8638861/c8aafbc7b0b34bebb6650b10f718c8db.mp4.m3u8?i=3840x2160_35524
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/a3/3a/a33a36b9be68bc6b4ad150808171b434.jpg" , Украина 4K
-https://river-4-459.rtbcdn.ru/hls-vod/ZohjJd1K7LJImHUFHFiSuA/1786263778/1889/0x5000c500e4dc0b83/08414c457fec4d4a9cb5a38cacd30aee.mp4.m3u8?i=3840x2160_19592
+https://river-4-459.rtbcdn.ru/hls-vod/Ne8_GsKbuMmLPv41c8RMqA/1786820501/1889/0x5000c500e4dc0b83/08414c457fec4d4a9cb5a38cacd30aee.mp4.m3u8?i=3840x2160_19592
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-06/9d/4d/9d4db32c1fccd887099050905e6ca7a2.jpg" , Ирландия 4K
-https://river-4-406.rtbcdn.ru/hls-vod/9RUOFLuLYM8fLhSzHh-I0A/1786263778/3306/0x5000c50074476884/d0a3235fff734ba2952b3bcdff9941be.mp4.m3u8?i=3840x2160_17488
+https://river-4-406.rtbcdn.ru/hls-vod/51k4aOw5HCyAjHyamRXfug/1786820502/3306/0x5000c50074476884/d0a3235fff734ba2952b3bcdff9941be.mp4.m3u8?i=3840x2160_17488
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/89/8c/898c76f0adc25c6f485396fbc5fa22fa.jpg" , Казахстан 4K
-https://river-4-456.rtbcdn.ru/hls-vod/KPJWs3fp7b9enfetBNoTIA/1786263778/3310/0x5000c500e9be79f9/1286e9b3e6064e11a141cb8d5289ce62.mp4.m3u8?i=3840x2160_21172
+https://river-4-420.rtbcdn.ru/hls-vod/jJ8xk3nC7tPdlkuz9Lc6pg/1786820503/3310/0x5000c500e9be79f9/1286e9b3e6064e11a141cb8d5289ce62.mp4.m3u8?i=3840x2160_21172
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-01-15/6e/b5/6eb5c51090f81936e9b71f491e77cf2a.jpg" , Камчатка 4K
-https://river-4-422.rtbcdn.ru/hls-vod/mrEHDO9_4scNACoJapqkAA/1786263778/2464/0x5000c500e883f3df/afaaf25369594e2984734f9089fccfb3.mp4.m3u8?i=3840x2160_16810
+https://river-4-410.rtbcdn.ru/hls-vod/AdMC8DAGa7X2sMp9HeRktA/1786820503/2464/0x5000c500e883f3df/afaaf25369594e2984734f9089fccfb3.mp4.m3u8?i=3840x2160_16810
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2d/8a/2d8a8c907dbb73073599001bc8c9b4d8.jpg" , Венгрия 4K
-https://river-4-414.rtbcdn.ru/hls-vod/fXynpSkFIE8i__Sr9DRvJg/1786263779/2610/0x5000039ce86a07dd/6a4ea26149e747f4a80ddf49368ebbdd.mp4.m3u8?i=3840x2160_25368
+https://river-4-420.rtbcdn.ru/hls-vod/3e9AeAHKyFvc-Qm0baJMyg/1786820505/2610/0x5000039ce86a07dd/6a4ea26149e747f4a80ddf49368ebbdd.mp4.m3u8?i=3840x2160_25368
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-29/ae/c0/aec0da30c96e0bd6eb5ec073e7a2f036.jpg" , Чехия 4K
-https://river-4-452.rtbcdn.ru/hls-vod/Gn9m680M73gfQLq-LYQedA/1786263779/2652/0x5000039ce869848d/3588f69c0914469bbb3caeb52dea8be9.mp4.m3u8?i=3840x2160_20107
+https://river-4-420.rtbcdn.ru/hls-vod/cVH03tregsnU-Eeiz6UxPw/1786820506/2652/0x5000039ce869848d/3588f69c0914469bbb3caeb52dea8be9.mp4.m3u8?i=3840x2160_20107
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-29/1e/8c/1e8cc4315000c9ae63907a6d01350f77.jpg" , Румыния 4K
-https://river-4-445.rtbcdn.ru/hls-vod/egQQn-d_kfRud8KZnbS8_w/1786263779/2708/0x5000039ce83804ad/a8ccfe5450874c30a42ecfc0c4268e81.mp4.m3u8?i=3840x2160_18063
+https://river-4-424.rtbcdn.ru/hls-vod/hRiXfpmsyUK2O3RWfLYhVA/1786820506/2708/0x5000039ce83804ad/a8ccfe5450874c30a42ecfc0c4268e81.mp4.m3u8?i=3840x2160_18063
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-01-12/fe/a6/fea6b41f1c8ad248d14982a661552d77.jpg" , Грузия 4K
-https://river-4-446.rtbcdn.ru/hls-vod/dicWH-n4uz796SiU5k0Paw/1786263780/2508/0x5000039ce8635539/a30d636080c5491aa3422713c2bf4340.mp4.m3u8?i=3840x2160_17848
+https://river-4-446.rtbcdn.ru/hls-vod/xGdUMZaKkxOmYS5pnZwyCQ/1786820507/2508/0x5000039ce8635539/a30d636080c5491aa3422713c2bf4340.mp4.m3u8?i=3840x2160_17848
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-29/90/e1/90e191cb901b8961de586066649cd350.jpg" , Фарерские острова 4K
-https://river-4-422.rtbcdn.ru/hls-vod/gor2DExnn2bO8l9xYc09Uw/1786263780/2652/0x5000039ce869a575/b34267622ec64886ab7e78784ea04111.mp4.m3u8?i=3840x2160_17447
+https://river-4-424.rtbcdn.ru/hls-vod/bQPDIMkvxCPYYzNfKPyKSw/1786820507/2652/0x5000039ce869a575/b34267622ec64886ab7e78784ea04111.mp4.m3u8?i=3840x2160_17447
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-28/fb/74/fb744c28b33c79356992f1786aaf2ea7.jpg" , Сардиния 4K
-https://river-4-406.rtbcdn.ru/hls-vod/BWx-om82v4ZI9TC_7EvIfg/1786263780/2213/0x5000c5007446881b/5324006e624c4589bc28514b1a15dcbb.mp4.m3u8?i=3840x2160_18188
+https://river-ntv-ihome-d485.rtbcdn.ru/hls-vod/3spDWCIdR2grQI6fpt33ag/1786820508/2213/0x5000c5007446881b/5324006e624c4589bc28514b1a15dcbb.mp4.m3u8?i=3840x2160_18188
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-28/a4/57/a457ea5ab440ca9e7ce055a775fee5f5.jpg" , Арабские Эмираты 4K
-https://river-4-463.rtbcdn.ru/hls-vod/0zKlC4Ps4V8fw6o9Px0iiQ/1786263781/2644/0x5000039ce838cfa5/35bbc97c1fe748ad802c0535daf1ed39.mp4.m3u8?i=3840x2160_12948
+https://river-4-463.rtbcdn.ru/hls-vod/3LBa8atjQ5jybNCXl1yhIA/1786820509/2644/0x5000039ce838cfa5/35bbc97c1fe748ad802c0535daf1ed39.mp4.m3u8?i=3840x2160_12948
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-26/59/2b/592b894cccb625aabb60742d9a9b3113.jpg" , Фиджи 4K
-https://river-4-451.rtbcdn.ru/hls-vod/zUlGvSsuj-Sc8wYULhCj8A/1786263781/2652/0x5000039ce869a495/943af4170c804868a4d741eb4a3ffd01.mp4.m3u8?i=3840x2160_18902
+https://river-ntv-ihome-d487.rtbcdn.ru/hls-vod/kNEvGbDPOnWD9n1e1C5b-Q/1786820509/2652/0x5000039ce869a495/943af4170c804868a4d741eb4a3ffd01.mp4.m3u8?i=3840x2160_18902
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-24/1a/fa/1afaefabdaa0b6180082adac8e6e2efb.jpg" , Австралия 4K
-https://river-4-473.rtbcdn.ru/hls-vod/wNWnO0zPtfbyhG-Zc8qEhA/1786263781/2604/0x5000039ce868e555/fd00b5fa081f43589134c7b1a96faa03.mp4.m3u8?i=3840x2160_16689
+https://river-4-473.rtbcdn.ru/hls-vod/0o6J-5dWg2LqP5ctDKFtQg/1786820511/2604/0x5000039ce868e555/fd00b5fa081f43589134c7b1a96faa03.mp4.m3u8?i=3840x2160_16689
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-26/a7/a6/a7a6d6f4175f21e601515ee4a6cfcabf.jpg" , Чили: Остров Пасхи 4K
-https://river-4-458.rtbcdn.ru/hls-vod/WYAn7g6xUtZ9pHz08IcHhg/1786263781/3334/0x5000c500e9dac121/64184e96d67f44c9b81953b97cdd1411.mp4.m3u8?i=3840x2160_21114
+https://river-4-458.rtbcdn.ru/hls-vod/kmvEE1bNG2q-y27Pt3f_LQ/1786820511/3334/0x5000c500e9dac121/64184e96d67f44c9b81953b97cdd1411.mp4.m3u8?i=3840x2160_21114
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/f2/0b/f20b8f54d768f10587229cd15d6bebc4.jpg" , Мексика 4K
-https://river-4-422.rtbcdn.ru/hls-vod/tsR3ty9DytIYSRsxEzO_Dw/1786263782/2219/0x5000c5007446b335/db1a2f0db22346818f392e3da16ab8dd.mp4.m3u8?i=3840x2160_16741
+https://river-4-428.rtbcdn.ru/hls-vod/ZZjtRRUuv_UEA1a1kAnOnA/1786820512/2219/0x5000c5007446b335/db1a2f0db22346818f392e3da16ab8dd.mp4.m3u8?i=3840x2160_16741
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-24/ea/71/ea714d2edce2ec512ec1f9625241b333.jpg" , Египет 4K
-https://river-4-431.rtbcdn.ru/hls-vod/tJVKqgvwr0c-y1MqPVMqAA/1786263782/3270/0x5000c500e9cc3272/e0fb7a3a4e194e77b0d5c66ae1cfc363.mp4.m3u8?i=3840x2160_15659
+https://river-4-431.rtbcdn.ru/hls-vod/Usx3dakkrGZYpPxY6V4cQQ/1786820512/3270/0x5000c500e9cc3272/e0fb7a3a4e194e77b0d5c66ae1cfc363.mp4.m3u8?i=3840x2160_15659
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-24/af/3d/af3d36495c374850f3c4ec5794985847.jpg" , Греция 4K
-https://river-4-434.rtbcdn.ru/hls-vod/ifV8AQX0bnBJOns-swdRdg/1786263782/2604/0x5000039ce863fb05/de0b9c989c4647a9ae665eb02c797dd8.mp4.m3u8?i=3840x2160_15900
+https://river-4-434.rtbcdn.ru/hls-vod/eO2I7kb8wXNZr7jSrAUmSw/1786820513/2604/0x5000039ce863fb05/de0b9c989c4647a9ae665eb02c797dd8.mp4.m3u8?i=3840x2160_15900
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-02-04/08/3f/083fbbc3700afb477d888c2c542f67b1.jpg" , Гватемала 4K
-https://river-4-459.rtbcdn.ru/hls-vod/QVKqkJZnJfJjhy-uSsupoQ/1786263782/2215/0x5000c500e74fb237/b1ef0dec64764a28b2eda1a9891ae6cd.mp4.m3u8?i=3840x2160_15565
+https://river-4-459.rtbcdn.ru/hls-vod/JQpHzS7klQKOq6qqcLZLNg/1786820513/2215/0x5000c500e74fb237/b1ef0dec64764a28b2eda1a9891ae6cd.mp4.m3u8?i=3840x2160_15565
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-25/58/f5/58f5e23c31bd842373baf0acef107819.jpg" , Молдова 4K
-https://river-4-421.rtbcdn.ru/hls-vod/Eli2znS2vXUoIz6jeqtzVg/1786263782/3308/0x5000c500e9d37d9c/1de0eaa62f294d15a84e057c4d3ab77d.mp4.m3u8?i=3840x2160_15962
+https://river-4-424.rtbcdn.ru/hls-vod/iCFxlbrFTPoEeHNjc8_VZA/1786820513/3308/0x5000c500e9d37d9c/1de0eaa62f294d15a84e057c4d3ab77d.mp4.m3u8?i=3840x2160_15962
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/3c/e3/3ce3c4358d71c935124cac5d2e11e79a.jpg" , Природа Аргентины 4K
-https://river-4-442.rtbcdn.ru/hls-vod/cknPnp8voMOloA53lvfYbw/1786263783/1780/0x5000c500db164266/c52a030a1c2044ffa66f78445eefa6ce.mp4.m3u8?i=3840x2160_21330
+https://river-4-442.rtbcdn.ru/hls-vod/1354-qSjoHvElAvsLqh3YQ/1786820515/1780/0x5000c500db164266/c52a030a1c2044ffa66f78445eefa6ce.mp4.m3u8?i=3840x2160_21330
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-26/4e/15/4e15955f338e9fcfd1167c9feed9c052.jpg" , Гималаи 4K
-https://river-4-425.rtbcdn.ru/hls-vod/beKMgsLJqJOXL0JHQmJevQ/1786263783/3302/0x5000c500e9ebb99a/9d841ed1950a49368c4420b771e2cdb3.mp4.m3u8?i=3840x2160_16227
+https://river-4-424.rtbcdn.ru/hls-vod/9cUP1UU-3TzJwaxwXpXRlg/1786820516/3302/0x5000c500e9ebb99a/9d841ed1950a49368c4420b771e2cdb3.mp4.m3u8?i=3840x2160_16227
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2026-01-16/87/de/87dec66bcd8f25305859854a2ea48ebe.jpg" , Москва 4K
-https://river-4-405.rtbcdn.ru/hls-vod/C1ivQ2x0V0tIkXax8jfRCQ/1786263783/1895/0x5000c500e539508b/cf49bab452b0423e94330844a86f95d6.mp4.m3u8?i=3840x2024_25835
+https://river-4-405.rtbcdn.ru/hls-vod/Akbnn-f5QkyQIbKTKT61Cg/1786820516/1780/0x5000c500c923ddc6/cf49bab452b0423e94330844a86f95d6.mp4.m3u8?i=3840x2024_25835
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-03-09/86/9f/869f4ee057924413cf40143f4aefd766.jpg" , Ливия 4K
-https://river-4-448.rtbcdn.ru/hls-vod/49E6UXP560N03cNmxOpcqA/1786263784/2692/0x5000039ce833aab9/4f0aedf12adf48afad30bcc0ae1fbccc.mp4.m3u8?i=3840x2160_10620
+https://river-4-448.rtbcdn.ru/hls-vod/rpok9uiuBXMz-Qec8Mbp-Q/1786820517/2692/0x5000039ce833aab9/4f0aedf12adf48afad30bcc0ae1fbccc.mp4.m3u8?i=3840x2160_10620
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-02-09/c3/4e/c34e7e095b3c96b405148a6686b86edb.jpg" , Киргизстан 4K
-https://river-4-435.rtbcdn.ru/hls-vod/Plxi6KwJeRM7JRJ_QyGFBg/1786263784/3306/0x5000c5007447610a/17236c39c63241ada18adb7a57bb6622.mp4.m3u8?i=3840x2160_17619
+https://river-4-435.rtbcdn.ru/hls-vod/ecq3fsLBE9t0YIDEImZ2IA/1786820518/3306/0x5000c5007447610a/17236c39c63241ada18adb7a57bb6622.mp4.m3u8?i=3840x2160_17619
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-01-02/a0/35/a0357779a326f76f03311d5064a752bf.jpg" , Узбекистан 4K
-https://river-4-422.rtbcdn.ru/hls-vod/M12mSdUCnwzNoJsfFlGoDQ/1786263784/2612/0x5000039ce868ab25/22c69726f20b43069bf4793004fa3c27.mp4.m3u8?i=3840x2160_21010
+https://river-4-424.rtbcdn.ru/hls-vod/ooyEcYSc0wJalxurPfMmKQ/1786820518/2612/0x5000039ce868ab25/22c69726f20b43069bf4793004fa3c27.mp4.m3u8?i=3840x2160_21010
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-02-26/eb/db/ebdb900076c03be283ae82873d52c589.jpg" , Эквадор 4K
-https://river-4-425.rtbcdn.ru/hls-vod/urbkTJdOS9-eQywCzB7x7g/1786263785/3546/0x5000c500faed2739/c13a85d615f641e39510e04883a12555.mp4.m3u8?i=3840x2160_14857
+https://river-4-422.rtbcdn.ru/hls-vod/9ARqDqQdE1Hm_t5YG6hF7w/1786820519/3546/0x5000c500faed2739/c13a85d615f641e39510e04883a12555.mp4.m3u8?i=3840x2160_14857
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/87/0e/870e1a12792d3f8cf8aa189898c0e482.jpg" , Турция в 4K
-https://river-4-455.rtbcdn.ru/hls-vod/oBk-NP8AZeYRN28i7LLmVQ/1786263785/1848/0x5000cca2842313e4/1295d7750d224feba3eede8e73f16f7a.mp4.m3u8?i=3840x2160_25103
+https://river-4-465.rtbcdn.ru/hls-vod/QXZTCcOfkLC1RChx0wne0A/1786820521/1848/0x5000cca2842313e4/1295d7750d224feba3eede8e73f16f7a.mp4.m3u8?i=3840x2160_25103
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/74/6d/746d5d1ba9c1c3a1259d166b73dec7a9.jpg" , Вьетнам в 4K
-https://river-4-437.rtbcdn.ru/hls-vod/0d1lU16qHDY3Ny7CLbEgug/1786263785/2654/0x5000039ce82b7c05/dcb94c9494274ecb81255e3756514e78.mp4.m3u8?i=3840x2160_36518
+https://river-ntv-ihome-d487.rtbcdn.ru/hls-vod/FG8D_fv0dzzHhoinBM7-uw/1786820520/2654/0x5000039ce82b7c05/dcb94c9494274ecb81255e3756514e78.mp4.m3u8?i=3840x2160_36518
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-26/15/53/15532340cc15ab3f3bf363f040896708.jpg" , Индия в 4K
-https://river-4-438.rtbcdn.ru/hls-vod/VRaLZHtFKNVIXgKTosRGgw/1786263785/2474/0x5000c500e883f57f/1967303e52a0455c9cc392e2ae1b0f0e.mp4.m3u8?i=3840x2160_17069
+https://river-4-438.rtbcdn.ru/hls-vod/F-6pUg6025w8BXAzEkNsCA/1786820522/2474/0x5000c500e883f57f/1967303e52a0455c9cc392e2ae1b0f0e.mp4.m3u8?i=3840x2160_17069
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/b3/3d/b33db6df61ad9fc77e54f98f03d8fc9d.jpg" , Манила в 4K
-https://river-4-459.rtbcdn.ru/hls-vod/f9T0ZJ8QoC5rG7zfoe60YQ/1786263786/1776/0x5000c500d6d906ed/c541fdacbbda415fb50a782ad5d1fcf9.mp4.m3u8?i=3840x2160_20784
+https://river-4-459.rtbcdn.ru/hls-vod/YwLWxxOrGhRKyswEQr-ekQ/1786820522/1776/0x5000c500d6d906ed/c541fdacbbda415fb50a782ad5d1fcf9.mp4.m3u8?i=3840x2160_20784
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/a7/13/a7139249b7fe0bf2b2ddffbbaba6a913.jpg" , Болгария 4K
-https://river-4-419.rtbcdn.ru/hls-vod/oAluGEMUy5bXvyK15CZtwA/1786263786/1895/0x5000c500e53979ec/b527c6a1a6084c1ba9202bb8b607f90d.mp4.m3u8?i=3840x2160_25379
+https://river-4-419.rtbcdn.ru/hls-vod/56qY13YOcCZfcFMoAYCVpQ/1786820523/1895/0x5000c500e53979ec/b527c6a1a6084c1ba9202bb8b607f90d.mp4.m3u8?i=3840x2160_25379
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/5a/89/5a894e03615d859ca15497ca636e79e2.jpg" , Перу 4K 60fps
-https://river-4-461.rtbcdn.ru/hls-vod/aVmsjx7i73IwD6CD2rv5bA/1786263786/1893/0x5000c500e539c5d1/30b0c3590b9e4880a6a00ac6fea26165.mp4.m3u8?i=3840x2160_26231
+https://river-4-461.rtbcdn.ru/hls-vod/OZGka662E_WZuO_seKmiRg/1786820524/1893/0x5000c500e539c5d1/30b0c3590b9e4880a6a00ac6fea26165.mp4.m3u8?i=3840x2160_26231
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/ec/6e/ec6eb7f0891bcf8f4ad9699fcfbdb205.jpg" , Кения В 4К
-https://river-4-435.rtbcdn.ru/hls-vod/n2xUVgNNCsv3ByY-2L1amg/1786263786/2658/0x5000039ce8401b5d/378db7d4f4ad4aafbb4535e9125ce221.mp4.m3u8?i=3840x2160_15323
+https://river-4-411.rtbcdn.ru/hls-vod/QXvuHCEaFPDM_rSaLEfnpQ/1786820524/2658/0x5000039ce8401b5d/378db7d4f4ad4aafbb4535e9125ce221.mp4.m3u8?i=3840x2160_15323
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/bf/63/bf63ccc22cd2bacdefb8b27571dff50b.jpg" , Бора-Бора в 4К
-https://river-4-455.rtbcdn.ru/hls-vod/FNHLSChRNVCAeoxxoVDHHQ/1786263787/1887/0x5000c500e53a12cf/2421863b9a0e4c9ea67de9fe0855f530.mp4.m3u8?i=3840x2160_17254
+https://river-4-475.rtbcdn.ru/hls-vod/h92qH6uwujAalGjEYXRR5A/1786820524/1887/0x5000c500e53a12cf/2421863b9a0e4c9ea67de9fe0855f530.mp4.m3u8?i=3840x2160_17254
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/29/31/29318086e00da1c865da25131f866d4f.jpg" , Карибы в 4К
-https://river-4-421.rtbcdn.ru/hls-vod/9nuHrOO3zj30ne1rNyhhwA/1786263787/1772/0x5000c500d6d78c87/c002696df2d3474e95bf422d74a10427.mp4.m3u8?i=3840x2160_11480
+https://river-4-422.rtbcdn.ru/hls-vod/V_e-WxtBawbS-dSs20374Q/1786820526/1772/0x5000c500d6d78c87/c002696df2d3474e95bf422d74a10427.mp4.m3u8?i=3840x2160_11480
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/51/f3/51f330a0fe798c746cda323431220662.jpg" , Намибия в 4К
-https://river-4-472.rtbcdn.ru/hls-vod/YWC9KXQpN0PT5iuBuY2rkQ/1786263787/2462/0x5000c500e88261c4/881a26935b1f4adb927b518c0b77d489.mp4.m3u8?i=3840x2160_11828
+https://river-4-472.rtbcdn.ru/hls-vod/Raq4kRRlq08qiFfRhXmhhA/1786820526/2462/0x5000c500e88261c4/881a26935b1f4adb927b518c0b77d489.mp4.m3u8?i=3840x2160_11828
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/b7/fc/b7fc29123ab95b0ad408e42280ad1b71.jpg" , Китай В 4К
-https://river-4-407.rtbcdn.ru/hls-vod/htsCDgtGVeOgogIZF9t9UA/1786263787/1899/0x5000c500e51127eb/c978b1e2beaa4b8f92c50918c7ecc933.mp4.m3u8?i=3840x2160_12530
+https://river-4-407.rtbcdn.ru/hls-vod/1SxxBpBSIhath9NTHJcYRw/1786820527/1899/0x5000c500e51127eb/c978b1e2beaa4b8f92c50918c7ecc933.mp4.m3u8?i=3840x2160_12530
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/72/6a/726a9243184bbfe47c42763b374a1f25.jpg" , Мальдивы в 4К
-https://river-4-414.rtbcdn.ru/hls-vod/zfsd0UMl6_8eRC3peI0HOA/1786263787/1848/0x5000cca28420b4e4/344cdc5a75cd406a9c81daa62c025492.mp4.m3u8?i=3840x2160_23873
+https://river-4-424.rtbcdn.ru/hls-vod/djMqQUfOvx6a0xlSDvRy2g/1786820527/1848/0x5000cca28420b4e4/344cdc5a75cd406a9c81daa62c025492.mp4.m3u8?i=3840x2160_23873
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/5e/5a/5e5a9cb6a10424f8ede9adc9848680c8.jpg" , Дубай в 4K
-https://river-4-451.rtbcdn.ru/hls-vod/ZO_ouCwJ5huy4iz77tF0-Q/1786263788/2462/0x5000c500e8828a7e/63d24580fb304a30a0daa941446ffe7d.mp4.m3u8?i=3840x2160_23768
+https://river-4-467.rtbcdn.ru/hls-vod/glsGjgD1kXrCGPm0ZrEuCg/1786820528/2462/0x5000c500e8828a7e/63d24580fb304a30a0daa941446ffe7d.mp4.m3u8?i=3840x2160_23768
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/14/98/14988617a7aed21381889ab5ceb7b1d9.jpg" , Германия в 4K
-https://river-4-449.rtbcdn.ru/hls-vod/Hfbie2cnf4WodvYbY1FoeA/1786263788/1776/0x5000c500c92079c7/b46cf235dbb14ddcbabe81d4f63a9fd4.mp4.m3u8?i=3840x2160_9532
+https://river-4-449.rtbcdn.ru/hls-vod/DFukOYd35-ORlirb6-CrMg/1786820528/1776/0x5000c500c92079c7/b46cf235dbb14ddcbabe81d4f63a9fd4.mp4.m3u8?i=3840x2160_9532
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/1d/b4/1db4116552339ca6a936c366f7582b38.jpg" , Россия В 4К
-https://river-3-399.rtbcdn.ru/hls-vod/B2GkBkDNBjOmE2uguffPXg/1786263788/1776/0x5000c500c3920f7f/9195d28dad90489aac2cb7c6dd6725aa.mp4.m3u8?i=3840x2160_15878
+https://river-ntv-ihome-d487.rtbcdn.ru/hls-vod/wpgUriNQxC3AOhb2AaFa8Q/1786820529/1776/0x5000c500c3920f7f/9195d28dad90489aac2cb7c6dd6725aa.mp4.m3u8?i=3840x2160_15878
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/7b/88/7b881e1b446bd5519251f5a89b197144.jpg" , Подводный Мир В 4К
-https://river-3-399.rtbcdn.ru/hls-vod/me541xfZUmP-nlFrtylNtQ/1786263788/1891/0x5000c500e539f596/8a19e5ed6a9840349280d2cba180870a.mp4.m3u8?i=3840x2160_16302
+https://river-ntv-ihome-d485.rtbcdn.ru/hls-vod/cXEiAsIoJiTLV7JPy4yLGg/1786820530/1891/0x5000c500e539f596/8a19e5ed6a9840349280d2cba180870a.mp4.m3u8?i=3840x2160_16302
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/c7/4c/c74ce2aa0d060a142070e9724fde3bef.jpg" , Детеныши Животных В 4К
-https://river-4-458.rtbcdn.ru/hls-vod/HgeScTQpsuTGorBRQDSBiA/1786263789/1897/0x5000c500e4a02f9a/5481e2c1a8e5473c804cfbc908dd7899.mp4.m3u8?i=3840x2160_15516
+https://river-4-458.rtbcdn.ru/hls-vod/Tcb2WhDw7u93qazasxP3Cw/1786820530/1897/0x5000c500e4a02f9a/5481e2c1a8e5473c804cfbc908dd7899.mp4.m3u8?i=3840x2160_15516
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/10/9e/109e637b8250d8471f1c1b6fd7d8e290.jpg" , Животные Австралии В 4К
-https://river-4-422.rtbcdn.ru/hls-vod/IcmMtcsBv5N_-OI5Jx0Q3A/1786263789/2211/0x5000c500e661f8f6/bec395a0100c42a1b52bec53605116a4.mp4.m3u8?i=3840x2160_16020
+https://river-4-467.rtbcdn.ru/hls-vod/7KOQQCP9gTrpnBarejtl2g/1786820530/2211/0x5000c500e661f8f6/bec395a0100c42a1b52bec53605116a4.mp4.m3u8?i=3840x2160_16020
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/91/3e/913e20d0e2711442e9b835ade3a86737.jpg" , Повседневные Вещи В Макро Съемке
-https://river-4-441.rtbcdn.ru/hls-vod/57FuZXDqsEWNbNmK-atLxg/1786263789/1790/0x5000c500d6c05d87/7ea3d827b7234257abffc94e1cce193e.mp4.m3u8?i=3840x2160_11802
+https://river-4-441.rtbcdn.ru/hls-vod/0YOHN0tk4M6EYf6pMBqRkQ/1786820531/3402/0x5000c500fa6e7d63/7ea3d827b7234257abffc94e1cce193e.mp4.m3u8?i=3840x2160_11802
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/ce/01/ce01d4f2b1984d8dc9468e192f5816e9.jpg" , Океан В 4К Релакс
-https://river-3-366.rtbcdn.ru/hls-vod/kP_OjtbcLzlfH27wpTYMaw/1786263789/1899/0x5000c500e53c9041/954d4f0b6c9640eea3b9d0daff375899.mp4.m3u8?i=3840x2160_12765
+https://river-4-467.rtbcdn.ru/hls-vod/cDWoSNrAIqgu-9X11W8FWg/1786820531/1899/0x5000c500e53c9041/954d4f0b6c9640eea3b9d0daff375899.mp4.m3u8?i=3840x2160_12765
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/8a/8f/8a8fb71bed7423746a80654fc5ba541e.jpg" , Лес В 4К
-https://river-4-422.rtbcdn.ru/hls-vod/6R8HC9ThSanudRQrc7uEJQ/1786263790/2656/0x5000039ce83bb529/3a14e22cc0b24da0b4c9994cfbbfff0a.mp4.m3u8?i=3840x2160_15561
+https://river-4-459.rtbcdn.ru/hls-vod/NroHX0J9dUcukf72MnosvA/1786820532/2656/0x5000039ce83bb529/3a14e22cc0b24da0b4c9994cfbbfff0a.mp4.m3u8?i=3840x2160_15561
 #EXTINF:-1  group-title="Региональные"  tvg-id="reportior-73"  tvg-logo="https://app.playlistbox.com/icon/l5gOW7dpJq9LRZAX9lMEkNQX2Bn6V1bA.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Репортер 73", Репортер 73
 http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_REP73/variant.m3u8
 #EXTINF:-1  group-title="Региональные"  tvg-id="rifey-tv"  tvg-logo="http://fe-ural.svc.iptv.rt.ru/images/broadcastChannel1531138277952.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Рифей-ТВ", Рифей-ТВ
@@ -5192,6 +5104,534 @@ https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1588629&exten
 https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1588628&extension=ts
 #EXTINF:-1  group-title="OnAir (limit)" ,Витрина ТВ
 https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1588634&extension=ts
+#EXTINF:-1  group-title="Халявка"  tvg-id="pervy" ,ПЕРВЫЙ КАНАЛ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132645&extension=ts&play_token=ZrCsttQ5cP
+#EXTINF:-1  group-title="Халявка"  tvg-id="pervy" ,ПЕРВЫЙ КАНАЛ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132644&extension=ts&play_token=bSZUcVXeJb
+#EXTINF:-1  group-title="Халявка"  tvg-id="pervy" ,ПЕРВЫЙ КАНАЛ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132442&extension=ts&play_token=6OuEKo287a
+#EXTINF:-1  group-title="Халявка"  tvg-id="pervy-kanal-eu" ,ПЕРВЫЙ КАНАЛ ЕВРОПА HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300913&extension=ts&play_token=ljq2KSjBxY
+#EXTINF:-1  group-title="Халявка"  tvg-id="rossia1" ,РОССИЯ 1
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132671&extension=ts&play_token=2o9sB6btFn
+#EXTINF:-1  group-title="Халявка"  tvg-id="rossia1" ,РОССИЯ 1
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132669&extension=ts&play_token=Q3Je9Ikokr
+#EXTINF:-1  group-title="Халявка" ,РТР ПЛАНЕТА
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132677&extension=ts&play_token=QpcPO4fFJm
+#EXTINF:-1  group-title="Халявка"  tvg-id="ntv" ,НТВ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132619&extension=ts&play_token=eMgBuW5plL
+#EXTINF:-1  group-title="Халявка"  tvg-id="ntv" ,НТВ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132512&extension=ts&play_token=yS03VqfGxr
+#EXTINF:-1  group-title="Халявка"  tvg-id="ntv-mir" ,НТВ МИР
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132620&extension=ts&play_token=XkhkWCFi5E
+#EXTINF:-1  group-title="Халявка"  tvg-id="5kanal-ru" ,5 КАНАЛ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300700&extension=ts&play_token=8C03SRIRWD
+#EXTINF:-1  group-title="Халявка"  tvg-id="rentv" ,PEH TB HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132642&extension=ts&play_token=A9ffsY72pt
+#EXTINF:-1  group-title="Халявка"  tvg-id="mir" ,МИР HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132578&extension=ts&play_token=WsvKsJJzml
+#EXTINF:-1  group-title="Халявка"  tvg-id="mir-24" ,МИР 24 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132579&extension=ts&play_token=servGPayna
+#EXTINF:-1  group-title="Халявка"  tvg-id="che" ,ЧЕ!
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132437&extension=ts&play_token=eu636elFHW
+#EXTINF:-1  group-title="Халявка"  tvg-id="pobeda"  tvg-logo="http://picons.cmshulk.com/picons/1523561.png" ,ПОБЕДА
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1523561&extension=ts&play_token=VxFlR6M1qE
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-arena" ,МАТЧ! АРЕНА HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132667&extension=ts&play_token=Z4EUJzssKW
+#EXTINF:-1  group-title="Халявка"  tvg-id="tvk-krasnoyarsk" ,TBK
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1416596&extension=ts&play_token=3oYDqwBsiz
+#EXTINF:-1  group-title="Халявка"  tvg-logo="http://picons.cmshulk.com/picons/132727.png" ,THT
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132727&extension=ts&play_token=9yLpsteKAL
+#EXTINF:-1  group-title="Халявка"  tvg-id="tnt" ,ТНТ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132733&extension=ts&play_token=6tN9CRcVBU
+#EXTINF:-1  group-title="Халявка"  tvg-id="tnt" ,ТНТ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132735&extension=ts&play_token=9WAqo5Y9tw
+#EXTINF:-1  group-title="Халявка"  tvg-id="tnt4" ,ТНТ4 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132737&extension=ts&play_token=CpSItWhhn4
+#EXTINF:-1  group-title="Халявка"  tvg-id="tnt4" ,ТНТ4 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132728&extension=ts&play_token=AnoxzWaDU2
+#EXTINF:-1  group-title="Халявка"  tvg-id="tvcentr"  tvg-logo="http://picons.cmshulk.com/picons/132755.png" ,ТВЦ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132755&extension=ts&play_token=J7H8HuJF9K
+#EXTINF:-1  group-title="Халявка"  tvg-id="zvezda" ,ЗВЕЗДА FD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132797&extension=ts&play_token=YyAkUUlwnH
+#EXTINF:-1  group-title="Халявка"  tvg-id="sts" ,СТС
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132710&extension=ts&play_token=pM2KDrfKcs
+#EXTINF:-1  group-title="Халявка"  tvg-id="sts" ,СТС HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148915&extension=ts&play_token=DnyKtyG51v
+#EXTINF:-1  group-title="Халявка"  tvg-id="sts-love" ,СТС Love
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132441&extension=ts&play_token=dxp1K8JebS
+#EXTINF:-1  group-title="Халявка"  tvg-id="tlc"  tvg-logo="http://picons.cmshulk.com/picons/132730.png" ,TLC
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132730&extension=ts&play_token=QD14NFcVrI
+#EXTINF:-1  group-title="Халявка"  tvg-id="tlc"  tvg-logo="http://picons.cmshulk.com/picons/132731.png" ,TLC SD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132731&extension=ts&play_token=oxMbHsK3VZ
+#EXTINF:-1  group-title="Халявка"  tvg-id="piatnica" ,ПЯТНИЦА! HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132664&extension=ts&play_token=p4q3f5S0e5
+#EXTINF:-1  group-title="Халявка"  tvg-id="sarafan" ,САРАФАН
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132697&extension=ts&play_token=7hbF9yRwzH
+#EXTINF:-1  group-title="Халявка" ,ДОМАШНИ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132456&extension=ts&play_token=EKTd5Yykex
+#EXTINF:-1  group-title="Халявка" ,FASHION TELEVISION HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132494&extension=ts&play_token=LjcDmE8z0i
+#EXTINF:-1  group-title="Халявка"  tvg-logo="http://picons.cmshulk.com/picons/132792.png" ,WORLD FASHION HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132792&extension=ts&play_token=jx74BxSIJv
+#EXTINF:-1  group-title="Халявка"  tvg-id="indiyskoe-kino" ,ИНДИЙСКОЕ КИНО
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132794&extension=ts&play_token=FyO3G04sCz
+#EXTINF:-1  group-title="Халявка"  tvg-id="euronews"  tvg-logo="http://picons.cmshulk.com/picons/132475.png" ,EURONEWS
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132475&extension=ts&play_token=P0KsRIBqRY
+#EXTINF:-1  group-title="Халявка"  tvg-id="rossia-24" ,РОССИЯ 24
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132687&extension=ts&play_token=lUhRJU2Yxj
+#EXTINF:-1  group-title="Халявка"  tvg-id="moskva-24" ,МОСКВА 24 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132582&extension=ts&play_token=64Tye1gyRa
+#EXTINF:-1  group-title="Халявка"  tvg-id="izvestia" ,ИЗВЕСТИЯ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148916&extension=ts&play_token=icwfQZtFkG
+#EXTINF:-1  group-title="Халявка"  tvg-id="rbk" ,РБК HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132666&extension=ts&play_token=5rkuM6yVDG
+#EXTINF:-1  group-title="Халявка"  tvg-id="tv1000"  tvg-logo="http://picons.cmshulk.com/picons/132749.png" ,VIJU TV1000 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132749&extension=ts&play_token=lk5N1Dc19K
+#EXTINF:-1  group-title="Халявка"  tvg-id="tv1000-action"  tvg-logo="http://picons.cmshulk.com/picons/132750.png" ,VIJU TV1000 ACTION HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132750&extension=ts&play_token=ydpwCca62X
+#EXTINF:-1  group-title="Халявка"  tvg-id="tv1000-russkoe-kino"  tvg-logo="http://picons.cmshulk.com/picons/132754.png" ,VIJU TV1000 РУССКОЕ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132754&extension=ts&play_token=yTLNmUtVNA
+#EXTINF:-1  group-title="Халявка"  tvg-id="tv1000-russkoe-kino"  tvg-logo="http://picons.cmshulk.com/picons/132784.png" ,TV1000 РУССКОЕ КИНО
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132784&extension=ts&play_token=k4BIFrVyF9
+#EXTINF:-1  group-title="Халявка"  tvg-id="vip-comedy" ,VIJU+ COMEDY HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132751&extension=ts&play_token=CZEZk9Iv4j
+#EXTINF:-1  group-title="Халявка"  tvg-id="vip-megahit" ,VIJU+ MEGAHIT HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132752&extension=ts&play_token=uaMNFMYT8G
+#EXTINF:-1  group-title="Халявка"  tvg-id="vip-premiere" ,Viju+ Premiere HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132753&extension=ts&play_token=bfmhMv8QoR
+#EXTINF:-1  group-title="Халявка"  tvg-id="fox" ,FX HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132491&extension=ts&play_token=J7xdKLPHop
+#EXTINF:-1  group-title="Халявка"  tvg-id="ntv-serial" ,НТВ СЕРИАЛ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132698&extension=ts&play_token=8hSyUpLFsP
+#EXTINF:-1  group-title="Халявка"  tvg-id="russkaya-komedia" ,КОМЕДИЯ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132532&extension=ts&play_token=s7S5FJQRRd
+#EXTINF:-1  group-title="Халявка"  tvg-id="nashehd" ,НАШЕ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132623&extension=ts&play_token=zUOPCpSdrv
+#EXTINF:-1  group-title="Халявка"  tvg-id="nashe-novoe-kino" ,НАШЕ НОВОЕ КИНО
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132608&extension=ts&play_token=3tWbuabSzQ
+#EXTINF:-1  group-title="Халявка"  tvg-id="rodnoe-kino" ,РОДНОЕ КИНО
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300891&extension=ts&play_token=xs1ocMJzSi
+#EXTINF:-1  group-title="Халявка"  tvg-id="domkino" ,ДОМ КИНО
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132454&extension=ts&play_token=ggOudEIust
+#EXTINF:-1  group-title="Халявка"  tvg-id="domkino-premium" ,ДОМ КИНО ПРЕМИУМ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300751&extension=ts&play_token=aZ7GkJE4LF
+#EXTINF:-1  group-title="Халявка"  tvg-id="evrokino" ,ЕВРОКИНО
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132482&extension=ts&play_token=LoywYlL7QB
+#EXTINF:-1  group-title="Халявка"  tvg-id="kinoxit" ,КИНОХИТ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132540&extension=ts&play_token=P0Mvl9mWQ9
+#EXTINF:-1  group-title="Халявка"  tvg-id="kinokomedia" ,КИНОКОМЕДИЯ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148926&extension=ts&play_token=cDziOprbSg
+#EXTINF:-1  group-title="Халявка"  tvg-id="kinomiks" ,КИНОМИКС HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132541&extension=ts&play_token=gDF4hPXi1G
+#EXTINF:-1  group-title="Халявка"  tvg-id="komedijnoe" ,Комедийное HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132543&extension=ts&play_token=f6GHkgMOjS
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-premier" ,МАТЧ! ПРЕМЬЕР HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132529&extension=ts&play_token=GviyagXI7i
+#EXTINF:-1  group-title="Халявка"  tvg-id="kinoseria" ,КИНОСЕРИЯ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132530&extension=ts&play_token=ZbQtAmPPpE
+#EXTINF:-1  group-title="Халявка"  tvg-id="kinoseria" ,КИНОСЕРИЯ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300823&extension=ts&play_token=WBEubZplrR
+#EXTINF:-1  group-title="Халявка"  tvg-id="kinosvidanie" ,КИНОСВИДАНИЕ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132531&extension=ts&play_token=uig4e9gYdR
+#EXTINF:-1  group-title="Халявка"  tvg-id="kino-tv" ,КИНО ТВ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300814&extension=ts&play_token=DXS742OSH7
+#EXTINF:-1  group-title="Халявка"  tvg-id="vip-serial" ,VIJU+ SERIAL HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148895&extension=ts&play_token=8YlhnVXvWA
+#EXTINF:-1  group-title="Халявка" ,KINO 7
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132604&extension=ts&play_token=RP0iUp6F5p
+#EXTINF:-1  group-title="Халявка"  tvg-id="docubox-hd" ,DocuBox HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132453&extension=ts&play_token=slwbsaDL79
+#EXTINF:-1  group-title="Халявка"  tvg-id="ostrosiuzhetnoe-hd" ,ОСТРОСЮЖЕТНОЕ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132638&extension=ts&play_token=EnoCao4vB6
+#EXTINF:-1  group-title="Халявка"  tvg-id="russky-roman" ,РУССКИЙ РОМАН HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132686&extension=ts&play_token=y09y9mCCdi
+#EXTINF:-1  group-title="Халявка"  tvg-id="feniks-plus-kino" ,ФЕНИКС+ КИНО HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300783&extension=ts&play_token=P9nqIaNMrb
+#EXTINF:-1  group-title="Халявка"  tvg-id="strashnoe-hd" ,СТРАШНОЕ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132722&extension=ts&play_token=vxTgZL8XLn
+#EXTINF:-1  group-title="Халявка"  tvg-id="strashnoe-hd" ,СТРАШНОЕ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148936&extension=ts&play_token=i1dMFddWYh
+#EXTINF:-1  group-title="Халявка"  tvg-id="kinouzhas" ,КИНОУЖАС
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148925&extension=ts&play_token=eY2AgEQyBU
+#EXTINF:-1  group-title="Халявка"  tvg-id="terra-ru" ,TERRA HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132581&extension=ts&play_token=duviaGbGyJ
+#EXTINF:-1  group-title="Халявка"  tvg-id="russky-illuzion" ,РУССКИЙ ИЛЛЮЗИОН
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132693&extension=ts&play_token=nhKOUFAqHK
+#EXTINF:-1  group-title="Халявка"  tvg-id="shokiruyushchee-hd" ,ШОКИРУЮЩЕЕ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132718&extension=ts&play_token=xQwevUjMYW
+#EXTINF:-1  group-title="Халявка"  tvg-id="shot-tv" ,SHOT TV HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132702&extension=ts&play_token=pCoW0C7ovo
+#EXTINF:-1  group-title="Халявка"  tvg-id="sony-tv" ,.RED
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132705&extension=ts&play_token=IuxPckDBTK
+#EXTINF:-1  group-title="Халявка"  tvg-id="sony-tv" ,.RED HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132704&extension=ts&play_token=f60SM23gm4
+#EXTINF:-1  group-title="Халявка"  tvg-id="sony-tv" ,.Red HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132699&extension=ts&play_token=0IfHxYrx7S
+#EXTINF:-1  group-title="Халявка"  tvg-id="sony-scifi" ,.SCI-FI HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132720&extension=ts&play_token=rIQF5DNX5z
+#EXTINF:-1  group-title="Халявка"  tvg-id="sony-turbo" ,.BLACK HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132706&extension=ts&play_token=H3xkd7CZ00
+#EXTINF:-1  group-title="Халявка"  tvg-id="vip-comedy"  tvg-logo="http://picons.cmshulk.com/picons/132785.png" ,VIP COMEDY HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132785&extension=ts&play_token=103j5mrLGg
+#EXTINF:-1  group-title="Халявка"  tvg-id="vip-megahit"  tvg-logo="http://picons.cmshulk.com/picons/132786.png" ,VIP MEGAHIT HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132786&extension=ts&play_token=ifNBhYcCYk
+#EXTINF:-1  group-title="Халявка"  tvg-id="vip-premiere"  tvg-logo="http://picons.cmshulk.com/picons/132787.png" ,VIP PREMIERE HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132787&extension=ts&play_token=8hXibGwhHK
+#EXTINF:-1  group-title="Халявка"  tvg-id="vip-serial" ,VIP SERIAL HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132788&extension=ts&play_token=fEOH61VYFX
+#EXTINF:-1  group-title="Халявка"  tvg-id="mir-seriala" ,МИР СЕРИАЛА HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300854&extension=ts&play_token=EwG0P38vlb
+#EXTINF:-1  group-title="Халявка"  tvg-id="russky-bestseller" ,РУССКИЙ БЕСТСЕЛЛЕР
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300933&extension=ts&play_token=N1nkwUNLVT
+#EXTINF:-1  group-title="Халявка"  tvg-id="ntv-xit" ,НТВ ХИТ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132510&extension=ts&play_token=az93hJeebC
+#EXTINF:-1  group-title="Халявка"  tvg-id="amc" ,AMC
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132402&extension=ts&play_token=aPTE5ZnW8R
+#EXTINF:-1  group-title="Халявка"  tvg-id="amedia1" ,A1 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132398&extension=ts&play_token=QbvHxkYLan
+#EXTINF:-1  group-title="Халявка"  tvg-id="amedia1" ,AMEDIA 1 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132403&extension=ts&play_token=UwHe9XEbEZ
+#EXTINF:-1  group-title="Халявка"  tvg-id="amedia2" ,AMEDIA 2 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132404&extension=ts&play_token=4DhsF389ca
+#EXTINF:-1  group-title="Халявка"  tvg-id="amedia-hit" ,AMEDIA HIT HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132405&extension=ts&play_token=EAzsc3UOly
+#EXTINF:-1  group-title="Халявка"  tvg-id="amedia-premium" ,AMEDIA PREMIUM SD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132407&extension=ts&play_token=wnuwMys1Zg
+#EXTINF:-1  group-title="Халявка"  tvg-id="amedia-premium" ,AMEDIA PREMIUM HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132408&extension=ts&play_token=SVcjIHlJgc
+#EXTINF:-1  group-title="Халявка"  tvg-id="nostalgia" ,НОСТАЛЬГИЯ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132616&extension=ts&play_token=IDQMKsANoJ
+#EXTINF:-1  group-title="Халявка"  tvg-id="bobior" ,БОБЕР
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300721&extension=ts&play_token=3JlLmIs31c
+#EXTINF:-1  group-title="Халявка"  tvg-id="doktor" ,ДОКТОР HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300760&extension=ts&play_token=UxA8pqegWX
+#EXTINF:-1  group-title="Халявка"  tvg-id="kto-est-kto" ,КТО ЕСТЬ КТО
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300815&extension=ts&play_token=88xVFlkk8B
+#EXTINF:-1  group-title="Халявка"  tvg-id="bollywood-hd" ,BOLLYWOOD HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132422&extension=ts&play_token=1FAWxENc2b
+#EXTINF:-1  group-title="Халявка"  tvg-id="bollywood-hd" ,BOLLYWOOD HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132423&extension=ts&play_token=vJvspkZYky
+#EXTINF:-1  group-title="Халявка"  tvg-id="belarus5" ,Беларусь 5 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148898&extension=ts&play_token=5dZ7e8PNcF
+#EXTINF:-1  group-title="Халявка" ,BCU PREMIER 1 HDR
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148906&extension=ts&play_token=rNDnpm9h7u
+#EXTINF:-1  group-title="Халявка" ,BCU PREMIER 3 HDR
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148904&extension=ts&play_token=QkH9EGNZWb
+#EXTINF:-1  group-title="Халявка" ,BCU MARVEL HDR
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148903&extension=ts&play_token=y87wg3eL3B
+#EXTINF:-1  group-title="Халявка"  tvg-id="bcu-action" ,BCU ACTION HDR
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148913&extension=ts&play_token=Ls1iVZemdU
+#EXTINF:-1  group-title="Халявка"  tvg-id="bcu-cinema" ,BCU CINEMA HDR
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148912&extension=ts&play_token=vpFlNYwLDT
+#EXTINF:-1  group-title="Халявка"  tvg-id="bcu-comedy" ,BCU COMEDY HDR
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148910&extension=ts&play_token=Y64wFjGpYa
+#EXTINF:-1  group-title="Халявка"  tvg-id="bcu-fantastic" ,BCU FANTASTIC HDR
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148909&extension=ts&play_token=cG3ImUAhOI
+#EXTINF:-1  group-title="Халявка"  tvg-id="bcu-multserial" ,BCU MULTSERIAL
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148902&extension=ts&play_token=VfREWwpp3K
+#EXTINF:-1  group-title="Халявка" ,WFC HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148907&extension=ts&play_token=Ly1axMGsu1
+#EXTINF:-1  group-title="Халявка"  tvg-id="fashion-tv" ,FASHION TV HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148932&extension=ts&play_token=p8WXmEA7cl
+#EXTINF:-1  group-title="Халявка"  tvg-id="amedia-premium" ,Amedia Premium
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300711&extension=ts&play_token=nWjXoWnbSi
+#EXTINF:-1  group-title="Халявка"  tvg-id="amedia2" ,AMEDIA 2 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300702&extension=ts&play_token=c0JoklKjac
+#EXTINF:-1  group-title="Халявка" ,DIZI
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132433&extension=ts&play_token=fRdLeGb26S
+#EXTINF:-1  group-title="Халявка"  tvg-id="tv3-ru" ,ТВ3
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132746&extension=ts&play_token=DHnvGaWzfH
+#EXTINF:-1  group-title="Халявка"  tvg-id="eurosport1" ,Eurosport 1
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132477&extension=ts&play_token=LY6rRDgLCz
+#EXTINF:-1  group-title="Халявка"  tvg-id="eurosport1" ,Eurosport 1 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132481&extension=ts&play_token=qoyVG4D2h2
+#EXTINF:-1  group-title="Халявка"  tvg-id="eurosport2" ,Eurosport 2 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132478&extension=ts&play_token=eB5piMOB24
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-tv" ,МАТЧ! HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132569&extension=ts&play_token=rtxhhmoK0D
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-boets" ,МАТЧ! БОЕЦ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300846&extension=ts&play_token=Q6wuv5UVgr
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-igra" ,МАТЧ! ИГРА HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300843&extension=ts&play_token=zoqrWg6y9X
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-igra" ,МАТЧ! ИГРА SD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132566&extension=ts&play_token=oqYP54TQc7
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-football1" ,МАТЧ! ФУТБОЛ 1 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300836&extension=ts&play_token=SrfIfczwGY
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-football1" ,МАТЧ! ФУТБОЛ 1 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132561&extension=ts&play_token=9QzcphVtak
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-football2" ,МАТЧ! ФУТБОЛ 2 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300839&extension=ts&play_token=gUu6XSEJSF
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-football3" ,МАТЧ! ФУТБОЛ 3 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132564&extension=ts&play_token=6CQk24JTgT
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-football3" ,МАТЧ! ФУТБОЛ 3 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132597&extension=ts&play_token=kr8t8FaDKY
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-nash-sport" ,МАТЧ! СТРАНА HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132595&extension=ts&play_token=uFOrwwp67P
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-arena" ,МАТЧ! АРЕНА HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132559&extension=ts&play_token=CD3x6kGmVP
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-arena" ,МАТЧ! АРЕНА HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132558&extension=ts&play_token=zvnPNjjvYa
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-nash-sport" ,МАТЧ! СТРАНА
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132568&extension=ts&play_token=tFK2IfMJ5P
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-tv" ,МАТЧ! HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148922&extension=ts&play_token=O5TIUmRFtU
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-premier" ,МАТЧ! ПРЕМЬЕР HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=459676&extension=ts&play_token=OfRDaRjHak
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-premier" ,МАТЧ! ПРЕМЬЕР FHD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148938&extension=ts&play_token=bEZu1UwMmW
+#EXTINF:-1  group-title="Халявка"  tvg-id="m1-ua" ,M1 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300832&extension=ts&play_token=dMHIzLtMbQ
+#EXTINF:-1  group-title="Халявка"  tvg-id="viasat-sport" ,VIASAT SPORT HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132781&extension=ts&play_token=ONafbhWs9Q
+#EXTINF:-1  group-title="Халявка"  tvg-id="viasat-sport" ,VIASAT SPORT HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132782&extension=ts&play_token=yIVwBaUINZ
+#EXTINF:-1  group-title="Халявка"  tvg-id="viasat-sport"  tvg-logo="http://picons.cmshulk.com/picons/1148896.png" ,VIJU SPORT HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148896&extension=ts&play_token=8k5K8KmBw7
+#EXTINF:-1  group-title="Халявка"  tvg-id="kxl" ,KHL
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132527&extension=ts&play_token=W509NZvjST
+#EXTINF:-1  group-title="Халявка"  tvg-id="kxl" ,KHL
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132526&extension=ts&play_token=Jout71Y3cc
+#EXTINF:-1  group-title="Халявка"  tvg-id="box-tv" ,БОКС ТВ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132430&extension=ts&play_token=Xq92EzlDE9
+#EXTINF:-1  group-title="Халявка"  tvg-id="avto24" ,ABTO 24
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132400&extension=ts&play_token=xXUXqUaUoA
+#EXTINF:-1  group-title="Халявка"  tvg-id="avto24" ,ABTO 24 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132415&extension=ts&play_token=gpkLfsjUwx
+#EXTINF:-1  group-title="Халявка"  tvg-id="avto-plus" ,ABTO ПЛЮС HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132416&extension=ts&play_token=15s9nLJ6bM
+#EXTINF:-1  group-title="Халявка"  tvg-id="extreme-sports"  tvg-logo="http://picons.cmshulk.com/picons/132483.png" ,EXTREME SPORTS HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132483&extension=ts&play_token=dW4SSA1AIZ
+#EXTINF:-1  group-title="Халявка"  tvg-id="start" ,СТАРТ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148937&extension=ts&play_token=Kx2whZZyMa
+#EXTINF:-1  group-title="Халявка"  tvg-id="football-ru" ,ФУТБОЛ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132726&extension=ts&play_token=3lVxt2N7tR
+#EXTINF:-1  group-title="Халявка"  tvg-id="setanta-sports" ,Setanta Sports 1 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132716&extension=ts&play_token=W2Za8uO5VR
+#EXTINF:-1  group-title="Халявка"  tvg-id="setanta-sports" ,SETANTA SPORTS 1 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1040314&extension=ts&play_token=lycnO3ycBl
+#EXTINF:-1  group-title="Халявка"  tvg-id="setanta-sports-plus" ,SETANTA SPORTS 2 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1040315&extension=ts&play_token=6NyroV8Q8t
+#EXTINF:-1  group-title="Халявка"  tvg-id="detsky" ,УНИКУМ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132445&extension=ts&play_token=mF1lheoVxC
+#EXTINF:-1  group-title="Халявка"  tvg-id="detsky-mir" ,ДЕТСКИЙ МИР
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132446&extension=ts&play_token=uZNYje9hAM
+#EXTINF:-1  group-title="Халявка"  tvg-id="karusel" ,КАРУСЕЛЬ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132538&extension=ts&play_token=elOlAqUV8b
+#EXTINF:-1  group-title="Халявка"  tvg-id="mult" ,МУЛЬТ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132588&extension=ts&play_token=RlnzrIGdmI
+#EXTINF:-1  group-title="Халявка"  tvg-id="v-gostiax-u-skazki" ,В ГОСТЯХ У СКАЗКИ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132500&extension=ts&play_token=TA3t1G7KTV
+#EXTINF:-1  group-title="Халявка" ,КАПИТАН ФАНТАСТИКА HD ТВ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132537&extension=ts&play_token=kFwfyoDEam
+#EXTINF:-1  group-title="Халявка"  tvg-id="nickelodeon-ru"  tvg-logo="http://picons.cmshulk.com/picons/132614.png" ,NICKELODEON
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132614&extension=ts&play_token=p3kN5fv2op
+#EXTINF:-1  group-title="Халявка"  tvg-id="nickelodeon-ru" ,NICKELODEON HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132615&extension=ts&play_token=nyvEWTecGw
+#EXTINF:-1  group-title="Халявка"  tvg-id="nick-jr"  tvg-logo="http://picons.cmshulk.com/picons/132629.png" ,NICK JUNIOR
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132629&extension=ts&play_token=YsWpuYZpCN
+#EXTINF:-1  group-title="Халявка"  tvg-id="cartoon-network"  tvg-logo="http://picons.cmshulk.com/picons/132432.png" ,CARTOON NETWORK HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132432&extension=ts&play_token=o9uo9ptDXw
+#EXTINF:-1  group-title="Халявка"  tvg-id="match-nash-sport" ,МАТЧ! СТРАНА
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132721&extension=ts&play_token=KfhFSBehDI
+#EXTINF:-1  group-title="Халявка"  tvg-id="gulli-girl" ,GULLI
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132502&extension=ts&play_token=h5YaCqlg2G
+#EXTINF:-1  group-title="Халявка"  tvg-id="2na2" ,2X2
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132390&extension=ts&play_token=lovJiuUAP0
+#EXTINF:-1  group-title="Халявка"  tvg-id="ani" ,ANI
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132409&extension=ts&play_token=hnuPEWM7nk
+#EXTINF:-1  group-title="Халявка"  tvg-id="sts-kids-hd"  tvg-logo="http://picons.cmshulk.com/picons/1148919.png" ,CTC KIDS HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148919&extension=ts&play_token=elOSfz7Yok
+#EXTINF:-1  group-title="Халявка"  tvg-id="lapki-live" ,Лапки LIVE
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148917&extension=ts&play_token=7FDsPN7ose
+#EXTINF:-1  group-title="Халявка"  tvg-id="solnce" ,Солнце
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132466&extension=ts&play_token=JgZLvt2XRe
+#EXTINF:-1  group-title="Халявка"  tvg-id="animal-planet-eu" ,ANIMAL PLANET
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132414&extension=ts&play_token=DYWP9xFq9v
+#EXTINF:-1  group-title="Халявка"  tvg-id="animal-planet-eu" ,ANIMAL PLANET SD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132410&extension=ts&play_token=bm3sycBDAc
+#EXTINF:-1  group-title="Халявка"  tvg-id="animal-planet-eu" ,ANIMAL PLANET HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132413&extension=ts&play_token=AomDJPg63v
+#EXTINF:-1  group-title="Халявка"  tvg-id="discovery-channel"  tvg-logo="http://picons.cmshulk.com/picons/132463.png" ,DISCOVERY CHANNEL
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132463&extension=ts&play_token=jyNUFMpe4G
+#EXTINF:-1  group-title="Халявка"  tvg-id="discovery-channel"  tvg-logo="http://picons.cmshulk.com/picons/132464.png" ,DISCOVERY CHANNEL SD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132464&extension=ts&play_token=CAmcB89yYE
+#EXTINF:-1  group-title="Халявка"  tvg-id="discovery-channel" ,DISCOVERY CHANNEL HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132465&extension=ts&play_token=8UwvJJ9o1X
+#EXTINF:-1  group-title="Халявка"  tvg-id="discovery-channel" ,DISCOVERY CHANNEL HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132451&extension=ts&play_token=yLEOsznkDL
+#EXTINF:-1  group-title="Халявка"  tvg-id="id-xtra-ru"  tvg-logo="http://picons.cmshulk.com/picons/132517.png" ,ID XTRA HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132517&extension=ts&play_token=55SVqKBe5w
+#EXTINF:-1  group-title="Халявка"  tvg-id="id-xtra-ru"  tvg-logo="http://picons.cmshulk.com/picons/132516.png" ,DISCOVERY ID XTRA HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300744&extension=ts&play_token=LrXMFQyZOV
+#EXTINF:-1  group-title="Халявка"  tvg-id="id-xtra-ru"  tvg-logo="http://picons.cmshulk.com/picons/132516.png" ,ID INVESTIGATION DISCOVERY
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132516&extension=ts&play_token=UTUSgB0IVV
+#EXTINF:-1  group-title="Халявка"  tvg-id="dikaya-oxota-hd" ,ДИКАЯ ОХОТА HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132461&extension=ts&play_token=TOwMz410HY
+#EXTINF:-1  group-title="Халявка"  tvg-id="dikaya-rybalka-hd" ,ДИКАЯ РЫБАЛКА HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132462&extension=ts&play_token=jXxjYrdWZk
+#EXTINF:-1  group-title="Халявка"  tvg-id="oxota-i-rybalka" ,ОХОТА И РЫБАЛКА
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132636&extension=ts&play_token=VaY6URzorT
+#EXTINF:-1  group-title="Халявка"  tvg-id="oxotnik-i-rybolov" ,ОХОТНИК И РЫБОЛОВ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132637&extension=ts&play_token=WryzuDWePl
+#EXTINF:-1  group-title="Халявка"  tvg-id="eda-hd" ,ЕДА HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132479&extension=ts&play_token=fJIZxep8S6
+#EXTINF:-1  group-title="Халявка"  tvg-id="glazami-turista" ,ГЛАЗАМИ ТУРИСТА HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132504&extension=ts&play_token=yJoc1hwRjU
+#EXTINF:-1  group-title="Халявка"  tvg-id="history-ru" ,History
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132513&extension=ts&play_token=qBkMzGUuni
+#EXTINF:-1  group-title="Халявка"  tvg-id="history-ru" ,History HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132509&extension=ts&play_token=r59aKlDxKx
+#EXTINF:-1  group-title="Халявка"  tvg-id="h2" ,H2 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=898806&extension=ts&play_token=nqtwdWHpxv
+#EXTINF:-1  group-title="Халявка"  tvg-id="hollywood-hd"  tvg-logo="http://picons.cmshulk.com/picons/132514.png" ,HOLLYWOOD HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132514&extension=ts&play_token=ohHSrJi6CQ
+#EXTINF:-1  group-title="Халявка"  tvg-id="illuzion-plus" ,ИЛЛЮЗИОН+ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132518&extension=ts&play_token=dvIB3OyqOX
+#EXTINF:-1  group-title="Халявка"  tvg-id="zhivi" ,ЖИВИ!
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132523&extension=ts&play_token=WBk0pUyv9I
+#EXTINF:-1  group-title="Халявка"  tvg-id="nat-geo-wild"  tvg-logo="http://picons.cmshulk.com/picons/132610.png" , NAT GEO WILD FD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132610&extension=ts&play_token=J5hIhlVI1U
+#EXTINF:-1  group-title="Халявка"  tvg-id="nat-geo-wild"  tvg-logo="http://picons.cmshulk.com/picons/132626.png" ,NAT GEO WILD HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132626&extension=ts&play_token=o8FXdx4kDM
+#EXTINF:-1  group-title="Халявка"  tvg-id="national-geographic" ,NATIONAL GEOGRAPHIC SD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132611&extension=ts&play_token=TK4YaXYmZ8
+#EXTINF:-1  group-title="Халявка"  tvg-id="national-geographic" ,NATIONAL GEOGRAPHIC HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132627&extension=ts&play_token=TS9y3Xagal
+#EXTINF:-1  group-title="Халявка"  tvg-id="viasat-nature"  tvg-logo="http://picons.cmshulk.com/picons/132779.png" ,VIASAT NATURE
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132779&extension=ts&play_token=6ff26Oih0M
+#EXTINF:-1  group-title="Халявка"  tvg-id="viasat-nature" ,VIASAT NATURE FD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148928&extension=ts&play_token=eARCTWLYIx
+#EXTINF:-1  group-title="Халявка"  tvg-id="nauka-20" ,НАУКА 2.0 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132628&extension=ts&play_token=lBzfsncNYs
+#EXTINF:-1  group-title="Халявка"  tvg-id="nst" ,НСТ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132618&extension=ts&play_token=FoNV6BXjKU
+#EXTINF:-1  group-title="Халявка"  tvg-id="oruzhie" ,ОРУЖИЕ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132633&extension=ts&play_token=LpsgaR34LV
+#EXTINF:-1  group-title="Халявка"  tvg-id="ntv-pravo" ,НТВ ПРАВО
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132650&extension=ts&play_token=sxIpEYiLri
+#EXTINF:-1  group-title="Халявка"  tvg-id="travel-channel"  tvg-logo="http://picons.cmshulk.com/picons/132745.png" ,Travel Channel
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132745&extension=ts&play_token=XrXh45dVYo
+#EXTINF:-1  group-title="Халявка"  tvg-id="travel-channel"  tvg-logo="http://picons.cmshulk.com/picons/132762.png" ,Travel Channel SD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132762&extension=ts&play_token=ILmHpzherf
+#EXTINF:-1  group-title="Халявка"  tvg-id="travel-adventure"  tvg-logo="http://picons.cmshulk.com/picons/132763.png" ,TRAVEL+ADVENTURE HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132763&extension=ts&play_token=qZqRtDpN1j
+#EXTINF:-1  group-title="Халявка"  tvg-id="zagorodnaya-zhizn" ,ЗАГОРОДНАЯ ЖИЗНЬ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132798&extension=ts&play_token=5GbSkTQoeb
+#EXTINF:-1  group-title="Халявка"  tvg-id="zagorodny" ,Загородный
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=301024&extension=ts&play_token=HfCZ6W9S4Y
+#EXTINF:-1  group-title="Халявка"  tvg-id="zagorodny" ,Загородный HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=301025&extension=ts&play_token=LKX7OnDZ3b
+#EXTINF:-1  group-title="Халявка"  tvg-id="viasat-explore"  tvg-logo="http://picons.cmshulk.com/picons/132772.png" ,VIASAT EXPLORE HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132772&extension=ts&play_token=uTtNXXxG6b
+#EXTINF:-1  group-title="Халявка"  tvg-id="viasat-explore"  tvg-logo="http://picons.cmshulk.com/picons/301004.png" ,VIASAT EXPLORE HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=301004&extension=ts&play_token=wGTh5R8fkd
+#EXTINF:-1  group-title="Халявка"  tvg-id="viasat-history"  tvg-logo="http://picons.cmshulk.com/picons/132775.png" ,VIASAT HISTORY
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132775&extension=ts&play_token=NKU1Y153iq
+#EXTINF:-1  group-title="Халявка"  tvg-id="viasat-history"  tvg-logo="http://picons.cmshulk.com/picons/132776.png" ,VIASAT HISTORY HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132776&extension=ts&play_token=cC20E4W7JH
+#EXTINF:-1  group-title="Халявка"  tvg-id="zoopark" ,ЗООПАРК
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132796&extension=ts&play_token=SxUVxOkvmV
+#EXTINF:-1  group-title="Халявка"  tvg-id="texno-24" ,Т24
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300696&extension=ts&play_token=xRkSGS6zHf
+#EXTINF:-1  group-title="Халявка"  tvg-id="domashnie-zhivotnye" ,ДОМАШНИЕ ЖИВОТНЫЕ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300749&extension=ts&play_token=NZ3YkTlL62
+#EXTINF:-1  group-title="Халявка"  tvg-id="1auto" ,ПЕРВЫЙ АВТОМОБИЛЬНЫЙ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300912&extension=ts&play_token=IXic5E0ZJn
+#EXTINF:-1  group-title="Халявка"  tvg-id="eureka-hd" ,Первый Космический
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300909&extension=ts&play_token=W4gusgw37t
+#EXTINF:-1  group-title="Халявка"  tvg-id="super" ,Суббота! HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300958&extension=ts&play_token=zPFyUHgmyS
+#EXTINF:-1  group-title="Халявка"  tvg-id="dialogi-o-rybalke" ,ДИАЛОГИ О РЫБАЛКЕ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148935&extension=ts&play_token=7YmGcJaDo9
+#EXTINF:-1  group-title="Халявка"  tvg-id="museum-4k"  tvg-logo="http://picons.cmshulk.com/picons/1148933.png" ,MUSEUM 4K
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148933&extension=ts&play_token=aPR4ljFm6z
+#EXTINF:-1  group-title="Халявка"  tvg-id="voprosy-i-otvety" ,ВОПРОСЫ И ОТВЕТЫ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=301016&extension=ts&play_token=odz9Fu6VED
+#EXTINF:-1  group-title="Халявка"  tvg-id="1hd" ,1 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132387&extension=ts&play_token=U8LVfaDwTw
+#EXTINF:-1  group-title="Халявка"  tvg-id="muztv" ,Муз ТВ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132593&extension=ts&play_token=hXmcG7Rj8z
+#EXTINF:-1  group-title="Халявка"  tvg-id="ru-tv"  tvg-logo="http://picons.cmshulk.com/picons/1148930.png" ,RU TV
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148930&extension=ts&play_token=tnm9rTo8zu
+#EXTINF:-1  group-title="Халявка" ,MUSIC CLASSIC HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132736&extension=ts&play_token=4Wbnruan4N
+#EXTINF:-1  group-title="Халявка"  tvg-id="europa-plus-tv" ,EUROPA PLUS TV HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132476&extension=ts&play_token=OydTIZ6lFO
+#EXTINF:-1  group-title="Халявка"  tvg-id="onemuz" ,ПЕРВЫЙ МУЗЫКАЛЬНЫЙ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132498&extension=ts&play_token=2Lm6HASxWp
+#EXTINF:-1  group-title="Халявка"  tvg-id="bridge-tv-shlager" ,Bridge Шлягер
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132427&extension=ts&play_token=yxS40gwzrD
+#EXTINF:-1  group-title="Халявка"  tvg-id="bridge-tv" ,BRIDGE
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132425&extension=ts&play_token=cg18ENHD3U
+#EXTINF:-1  group-title="Халявка"  tvg-id="bridge-tv-ruxit" ,Bridge Русский хит
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132431&extension=ts&play_token=Yi0iGDVkfR
+#EXTINF:-1  group-title="Халявка" ,WELLBEING HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300877&extension=ts&play_token=nTfNHBGIBu
+#EXTINF:-1  group-title="Халявка"  tvg-id="mcm-top"  tvg-logo="http://picons.cmshulk.com/picons/132572.png" ,MCM TOP
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132572&extension=ts&play_token=V65wYt3ivv
+#EXTINF:-1  group-title="Халявка"  tvg-id="la-minor" ,LIVE МУЗЫКА
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132551&extension=ts&play_token=9bxDZfTZ6E
+#EXTINF:-1  group-title="Халявка"  tvg-id="muzyka-pervogo" ,МУЗЫКА ПЕРВОГО
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132594&extension=ts&play_token=yVtYaT1MWH
+#EXTINF:-1  group-title="Халявка"  tvg-id="sankt-peterburg" ,САНКТ-ПЕТЕРБУРГ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132696&extension=ts&play_token=fwvYxW2Xpz
+#EXTINF:-1  group-title="Халявка"  tvg-id="sovsek" ,СОВЕРШЕННО СЕКРЕТНО
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132707&extension=ts&play_token=sVFX7IOT5D
+#EXTINF:-1  group-title="Халявка" ,4Y FD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132748&extension=ts&play_token=KbpXIFnAtm
+#EXTINF:-1  group-title="Халявка"  tvg-id="rtvi"  tvg-logo="http://picons.cmshulk.com/picons/300928.png" ,RTVi HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300928&extension=ts&play_token=1TUW1mhpiZ
+#EXTINF:-1  group-title="Халявка"  tvg-id="sts-baltic" ,СТС BALTIC
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300954&extension=ts&play_token=RsCGGFNKQj
+#EXTINF:-1  group-title="Халявка"  tvg-id="kultura" ,РОССИЯ К
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132689&extension=ts&play_token=FWXyj7cYm5
+#EXTINF:-1  group-title="Халявка"  tvg-id="vremia" ,ВРЕМЯ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132791&extension=ts&play_token=PV6lpxlSWI
+#EXTINF:-1  group-title="Халявка"  tvg-id="365-dnej" ,365 ДНЕЙ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132392&extension=ts&play_token=TzPtl84kPg
+#EXTINF:-1  group-title="Халявка"  tvg-id="rtg-hd" ,RTG HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132675&extension=ts&play_token=kYmmRdtKeL
+#EXTINF:-1  group-title="Халявка"  tvg-id="rtg-hd"  tvg-logo="http://picons.cmshulk.com/picons/132676.png" ,RTG HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132676&extension=ts&play_token=yo3OPhAEkV
+#EXTINF:-1  group-title="Халявка"  tvg-id="rt-news" ,RT HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132673&extension=ts&play_token=CyKNOMHQbC
+#EXTINF:-1  group-title="Халявка"  tvg-id="rtd-ru"  tvg-logo="http://picons.cmshulk.com/picons/132672.png" ,RT Док HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132672&extension=ts&play_token=KbwatFPrPk
+#EXTINF:-1  group-title="Халявка"  tvg-id="dozhd" ,ДОЖДЬ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300761&extension=ts&play_token=QTtrmxTujq
+#EXTINF:-1  group-title="Халявка"  tvg-id="dozhd" ,ДОЖДЬ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132470&extension=ts&play_token=xnoXTmSxEa
+#EXTINF:-1  group-title="Халявка" ,Точка.РФ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132552&extension=ts&play_token=WyWl2ApgfC
+#EXTINF:-1  group-title="Халявка"  tvg-id="da-vinci"  tvg-logo="http://picons.cmshulk.com/picons/132460.png" ,DA VINCI
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132460&extension=ts&play_token=b1Ex2MfYbq
+#EXTINF:-1  group-title="Халявка"  tvg-id="eureka-hd" ,ПЕРВЫЙ КОСМИЧЕСКИЙ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132480&extension=ts&play_token=3Ddxqk8TT5
+#EXTINF:-1  group-title="Халявка"  tvg-id="prikluchenia-hd" ,ПРИКЛЮЧЕНИЯ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132661&extension=ts&play_token=YKexuSgAfb
+#EXTINF:-1  group-title="Халявка"  tvg-id="psixologia-21" ,ПСИХОЛОГИЯ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132662&extension=ts&play_token=hGm47VYXwn
+#EXTINF:-1  group-title="Халявка"  tvg-id="5kanal-ua" ,5 канал
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132663&extension=ts&play_token=eqeDvlqX3H
+#EXTINF:-1  group-title="Халявка"  tvg-id="telekafe" ,ТЕЛЕКАФЕ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132759&extension=ts&play_token=bnesqsjjCI
+#EXTINF:-1  group-title="Халявка"  tvg-id="ntv-style" ,НТВ СТИЛЬ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132714&extension=ts&play_token=4ZmOf4GL2X
+#EXTINF:-1  group-title="Халявка"  tvg-id="tiji"  tvg-logo="http://picons.cmshulk.com/picons/132729.png" ,TIJI
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132729&extension=ts&play_token=JjHwloQ4GJ
+#EXTINF:-1  group-title="Халявка"  tvg-id="mult" ,МУЛЬТ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132732&extension=ts&play_token=Rfs9OmYfhc
+#EXTINF:-1  group-title="Халявка"  tvg-id="yu" ,Ю
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132764&extension=ts&play_token=EENs8v8GYM
+#EXTINF:-1  group-title="Халявка"  tvg-id="domashny-pl7" ,ДОМАШНИЙ +7
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300762&extension=ts&play_token=cGwqJDojok
+#EXTINF:-1  group-title="Халявка"  tvg-id="piatnica-int" ,ПЯТНИЦА! INTERNATIONAL
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148921&extension=ts&play_token=WS8UCWabWT
+#EXTINF:-1  group-title="Халявка"  tvg-id="spas" ,СПАС
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148920&extension=ts&play_token=QT7efXG2ZG
+#EXTINF:-1  group-title="Халявка"  tvg-id="grozny" ,ГРОЗНЫЙ SD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1298047&extension=ts&play_token=1XiRZcRINK
 #EXTINF:-1  group-title="Тест"  tvg-id="sts"   tvg-rec="7" timeshift="7",СТС
 http://stream.mcquack.net/138/index.m3u8
 #EXTINF:-1  group-title="Тест"  tvg-id="sts-love"   tvg-rec="7" timeshift="7",СТС Love
