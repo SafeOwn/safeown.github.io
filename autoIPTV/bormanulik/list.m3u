@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 13.08.26
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 14.08.26
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg"   tvg-name="Первый канал", Первый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
@@ -6024,4 +6024,250 @@ http://stream.mcquack.net/376/index.m3u8
 http://stream.mcquack.net/375/index.m3u8
 #EXTINF:-1  group-title="Тест"   tvg-rec="7" timeshift="7",One TV (Молдова)
 http://stream.mcquack.net/335/index.m3u8
+#EXTINF:-1  group-title="Связь"  tvg-id="pervy" ,ПЕРВЫЙ КАНАЛ
+http://95.215.124.204:5000/udp/225.1.2.1:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="rossia1" ,РОССИЯ 1
+http://95.215.124.204:5000/udp/225.1.2.2:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="prodvizhenie" ,Продвижение
+http://95.215.124.204:5000/udp/225.1.2.3:1234
+#EXTINF:-1  group-title="Связь" ,РОССИЯ-К
+http://95.215.124.204:5000/udp/225.1.2.4:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="5kanal-ru" ,ПЯТЫЙ КАНАЛ
+http://95.215.124.204:5000/udp/225.1.2.5:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="ntv" ,НТВ
+http://95.215.124.204:5000/udp/225.1.2.6:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="karusel" ,КАРУСЕЛЬ
+http://95.215.124.204:5000/udp/225.1.2.7:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="match-tv" ,МАТЧ!
+http://95.215.124.204:5000/udp/225.1.2.8:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="tvcentr" ,ТВ Центр
+http://95.215.124.204:5000/udp/225.1.2.10:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="tnt" ,ТНТ
+http://95.215.124.204:5000/udp/225.1.2.11:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="sts" ,СТС
+http://95.215.124.204:5000/udp/225.1.2.12:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="spas" ,Спас
+http://95.215.124.204:5000/udp/225.1.2.13:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="domashny" ,Домашний
+http://95.215.124.204:5000/udp/225.1.2.14:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="tv3-ru" ,ТВ3
+http://95.215.124.204:5000/udp/225.1.2.15:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="zvezda" ,Звезда
+http://95.215.124.204:5000/udp/225.1.2.16:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="piatnica" ,Пятница
+http://95.215.124.204:5000/udp/225.1.2.18:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="otr" ,ОТР
+http://95.215.124.204:5000/udp/225.1.2.19:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="mir" ,МИР
+http://95.215.124.204:5000/udp/225.1.2.20:1234
+#EXTINF:-1  group-title="Связь" ,RT Region SD
+http://95.215.124.204:5000/udp/225.1.2.21:1234
+#EXTINF:-1  group-title="Связь" ,Первый Крым
+http://95.215.124.204:5000/udp/225.1.2.22:1234
+#EXTINF:-1  group-title="Связь" ,Телеканал 360 HD
+http://95.215.124.204:5000/udp/225.1.2.23:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="muztv" ,МУЗ ТВ
+http://95.215.124.204:5000/udp/225.1.2.25:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="rentv" ,РЕН ТВ
+http://95.215.124.204:5000/udp/225.1.2.26:1234
+#EXTINF:-1  group-title="Связь" ,Аист ТВ HD
+http://95.215.124.204:5000/udp/225.1.2.27:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="izvestia" ,Известия
+http://95.215.124.204:5000/udp/225.1.2.28:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="sts-love" ,СТС Love
+http://95.215.124.204:5000/udp/225.1.2.29:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="2na2" ,2х2
+http://95.215.124.204:5000/udp/225.1.2.30:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="rossia-24" ,РОССИЯ 24
+http://95.215.124.204:5000/udp/225.1.2.9:1234
+#EXTINF:-1  group-title="Связь" ,Mир 24 HD
+http://95.215.124.204:5000/udp/225.1.2.31:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="che" ,Че!
+http://95.215.124.204:5000/udp/225.1.2.32:1234
+#EXTINF:-1  group-title="Связь" ,РБК HD
+http://95.215.124.204:5000/udp/225.1.2.33:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="solnce" ,Солнце
+http://95.215.124.204:5000/udp/225.1.2.34:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="tnt-music" ,ТНТ Music
+http://95.215.124.204:5000/udp/225.1.2.37:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="super" ,Суббота!
+http://95.215.124.204:5000/udp/225.1.2.40:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="yu" ,Ю ТВ
+http://95.215.124.204:5000/udp/225.1.2.38:1234
+#EXTINF:-1  group-title="Связь" ,Витрина ТВ
+http://95.215.124.204:5000/udp/225.1.2.41:1234
+#EXTINF:-1  group-title="Связь" ,Russian Music Box HD
+http://95.215.124.204:5000/udp/225.1.2.43:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="krasnaya-linia" ,Красная Линия
+http://95.215.124.204:5000/udp/225.1.2.44:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="anekdottv" ,Анекдот ТВ
+http://95.215.124.204:5000/udp/225.1.2.47:1234
+#EXTINF:-1  group-title="Связь" ,Телеканал Пингвин
+http://95.215.124.204:5000/udp/225.1.2.50:1234
+#EXTINF:-1  group-title="Связь" ,Первый Канал (+4) HD
+http://95.215.124.204:5000/udp/225.1.2.51:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="rossia1" ,Россия 1 HD
+http://95.215.124.204:5000/udp/225.1.2.52:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="rtd-ru" ,RT DOC
+http://95.215.124.204:5000/udp/225.1.2.54:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="zdorovoe-tv" ,Здоровое ТВ
+http://95.215.124.204:5000/udp/225.1.2.55:1234
+#EXTINF:-1  group-title="Связь" ,Психология
+http://95.215.124.204:5000/udp/225.1.2.56:1234
+#EXTINF:-1  group-title="Связь" ,Вопросы Ответы
+http://95.215.124.204:5000/udp/225.1.2.57:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="teatr" ,Театр
+http://95.215.124.204:5000/udp/225.1.2.60:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="nano-tv" ,Нано
+http://95.215.124.204:5000/udp/225.1.2.61:1234
+#EXTINF:-1  group-title="Связь" ,Europa Plus TV SD
+http://95.215.124.204:5000/udp/225.1.2.63:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="sarafan" ,Сарафан
+http://95.215.124.204:5000/udp/225.1.2.64:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="soyuz" ,Союз
+http://95.215.124.204:5000/udp/225.1.2.65:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="domashnie-zhivotnye" ,Домашние Животные
+http://95.215.124.204:5000/udp/225.1.2.66:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="nashe-muzhskoe" ,Наше Мужское
+http://95.215.124.204:5000/udp/225.1.2.67:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="blokbaster" ,Блокбастер
+http://95.215.124.204:5000/udp/225.1.2.68:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="rtg-tv" ,RTG TV
+http://95.215.124.204:5000/udp/225.1.2.69:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="kamedi" ,КАМЕДИ
+http://95.215.124.204:5000/udp/225.1.2.70:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="bridge-tv-classic" ,BRIDGE CLASSIC
+http://95.215.124.204:5000/udp/225.1.2.71:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="pobeda" ,Победа
+http://95.215.124.204:5000/udp/225.1.2.72:1234
+#EXTINF:-1  group-title="Связь" ,BRIDGE HITS
+http://95.215.124.204:5000/udp/225.1.2.73:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="ru-tv" ,RU.TV HD
+http://95.215.124.204:5000/udp/225.1.2.75:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="bridge-tv" ,BRIDGE
+http://95.215.124.204:5000/udp/225.1.2.77:1234
+#EXTINF:-1  group-title="Связь" ,BRIDGE Русский Хит
+http://95.215.124.204:5000/udp/225.1.2.79:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="shanson-tv" ,Шансон ТВ
+http://95.215.124.204:5000/udp/225.1.2.80:1234
+#EXTINF:-1  group-title="Связь" ,Techno 24
+http://95.215.124.204:5000/udp/225.1.2.81:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="football-ru" ,Телеканал Футбол
+http://95.215.124.204:5000/udp/225.1.2.82:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="rodnoe-kino" ,Родное Кино
+http://95.215.124.204:5000/udp/225.1.2.83:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="kinokomedia" ,Кинокомедия
+http://95.215.124.204:5000/udp/225.1.2.84:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="kinomiks" ,Киномикс
+http://95.215.124.204:5000/udp/225.1.2.85:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="nashe-novoe-kino" ,Наше Новое Кино
+http://95.215.124.204:5000/udp/225.1.2.86:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="domkino-premium" ,Дом Кино Премиум HD
+http://95.215.124.204:5000/udp/225.1.2.87:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="nst" ,НСТ
+http://95.215.124.204:5000/udp/225.1.2.88:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="doktor" ,Доктор
+http://95.215.124.204:5000/udp/225.1.2.89:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="box-tv" ,БОКС ТВ
+http://95.215.124.204:5000/udp/225.1.2.90:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="tnt4" ,ТНТ4
+http://95.215.124.204:5000/udp/225.1.2.91:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="kinouzhas" ,Киноужас
+http://95.215.124.204:5000/udp/225.1.2.92:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="oruzhie" ,Оружие
+http://95.215.124.204:5000/udp/225.1.2.94:1234
+#EXTINF:-1  group-title="Связь" ,Феникс плюс Кино
+http://95.215.124.204:5000/udp/225.1.2.95:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="muzhskoy" ,Мужской
+http://95.215.124.204:5000/udp/225.1.2.96:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="zagorodnaya-zhizn" ,Загородная жизнь
+http://95.215.124.204:5000/udp/225.1.2.97:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="tayny-galaktiki" ,Тайны галактики
+http://95.215.124.204:5000/udp/225.1.2.105:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="terra-ru" ,Terra
+http://95.215.124.204:5000/udp/225.1.2.107:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="russkaya-komedia" ,Комедия
+http://95.215.124.204:5000/udp/225.1.2.110:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="retro-tv" ,Ретро
+http://95.215.124.204:5000/udp/225.1.2.111:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="usadba" ,Усадьба
+http://95.215.124.204:5000/udp/225.1.2.112:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="oxota-i-rybalka" ,Охота и Рыбалка
+http://95.215.124.204:5000/udp/225.1.2.116:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="drive" ,Драйв
+http://95.215.124.204:5000/udp/225.1.2.118:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="sov-kinklass" ,Советская Киноклассика
+http://95.215.124.204:5000/udp/225.1.2.119:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="russky-ekstrim" ,Russian Extreme
+http://95.215.124.204:5000/udp/225.1.2.120:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="bobior" ,Бобёр
+http://95.215.124.204:5000/udp/225.1.2.121:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="domkino" ,Дом Кино
+http://95.215.124.204:5000/udp/225.1.2.122:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="muzyka-pervogo" ,Музыка Первого
+http://95.215.124.204:5000/udp/225.1.2.123:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="vremia" ,Время
+http://95.215.124.204:5000/udp/225.1.2.124:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="telekafe" ,Телекафе
+http://95.215.124.204:5000/udp/225.1.2.125:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="lapki-live" ,Лапки LIVE
+http://95.215.124.204:5000/udp/225.1.2.132:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="detsky" ,Уникум
+http://95.215.124.204:5000/udp/225.1.2.134:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="russky-illuzion" ,Русский Иллюзион
+http://95.215.124.204:5000/udp/225.1.2.135:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="illuzion-plus" ,Иллюзион +
+http://95.215.124.204:5000/udp/225.1.2.136:1234
+#EXTINF:-1  group-title="Связь" ,Zoo Парк
+http://95.215.124.204:5000/udp/225.1.2.137:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="avto24" ,АВТО 24
+http://95.215.124.204:5000/udp/225.1.2.138:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="evrokino" ,Еврокино
+http://95.215.124.204:5000/udp/225.1.2.139:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="russky-detektiv" ,Русский Детектив
+http://95.215.124.204:5000/udp/225.1.2.140:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="zhivaya-planeta" ,Живая Планета
+http://95.215.124.204:5000/udp/225.1.2.142:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="moya-planeta" ,Моя Планета
+http://95.215.124.204:5000/udp/225.1.2.143:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="nauka" ,Наука
+http://95.215.124.204:5000/udp/225.1.2.144:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="poexali" ,Поехали!
+http://95.215.124.204:5000/udp/225.1.2.145:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="russky-bestseller" ,Русский Бестселлер
+http://95.215.124.204:5000/udp/225.1.2.146:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="pro-lyubov" ,Про Любовь
+http://95.215.124.204:5000/udp/225.1.2.147:1234
+#EXTINF:-1  group-title="Связь" ,Телеканал О!
+http://95.215.124.204:5000/udp/225.1.2.148:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="kinoseria" ,Киносерия
+http://95.215.124.204:5000/udp/225.1.2.149:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="istoria" ,История
+http://95.215.124.204:5000/udp/225.1.2.150:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="cinema-ru" ,Cinema
+http://95.215.124.204:5000/udp/225.1.2.152:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="mult" ,Мульт
+http://95.215.124.204:5000/udp/225.1.2.153:1234
+#EXTINF:-1  group-title="Связь" ,Mama
+http://95.215.124.204:5000/udp/225.1.2.154:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="match-igra" ,Матч! Игра
+http://95.215.124.204:5000/udp/225.1.2.155:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="match-arena" ,Матч! Арена
+http://95.215.124.204:5000/udp/225.1.2.156:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="match-boets" ,Матч! Боец
+http://95.215.124.204:5000/udp/225.1.2.157:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="zee-tv" ,Индия
+http://95.215.124.204:5000/udp/225.1.2.159:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="multimania" ,Мультиландия
+http://95.215.124.204:5000/udp/225.1.2.160:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="kxl" ,КХЛ
+http://95.215.124.204:5000/udp/225.1.2.162:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="lubimoe-kino" ,Любимое Кино
+http://95.215.124.204:5000/udp/225.1.2.163:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="dorama" ,Дорама
+http://95.215.124.204:5000/udp/225.1.2.169:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="russkaya-noch" ,Русская Ночь
+http://95.215.124.204:5000/udp/225.1.2.175:1234
+#EXTINF:-1  group-title="Связь"  tvg-id="nash-kinopokaz" ,Наш Кинопоказ
+http://95.215.124.204:5000/udp/225.1.2.193:1234
 #EXT-X-ENDLIST
