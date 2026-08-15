@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 14.08.26
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 15.08.26
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg"   tvg-name="Первый канал", Первый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
@@ -99,66 +99,12 @@ https://bl.rutube.ru/livestream/673b559e08f8b99d65a4e8fbbceb911b/index.m3u8?s=Rr
 https://bl.rutube.ru/livestream/afef67d151b5a607dee1ef0aa299a52c/index.m3u8?s=7I-VE8_siP0qztv4IwITRA&e=2067513325&scheme=https
 #EXTINF:-1  group-title="Эфирные"  tvg-id="mir-24" ,Мир 24
 https://bl.rutube.ru/livestream/43269ba8fb179e298b1e497f557e8d2d/index.m3u8?s=oEy3QpmRYODq_laM6pXCdQ&e=2067513324&scheme=https
-#EXTINF:-1  group-title="Эфирные"  tvg-id="pervy" ,ПЕРВЫЙ КАНАЛ
-http://31.210.208.171:8080/1kanal/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="rentv" ,РЕН ТВ
-http://31.210.208.171:8080/ren/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="rossia1" ,РОССИЯ 1
-http://31.210.208.171:8080/russia1/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="rossia-24" ,РОССИЯ 24
-http://31.210.208.171:8080/russia24/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="ntv" ,НТВ
-http://31.210.208.171:8080/ntv/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="tnt" ,ТНТ
-http://31.210.208.171:8080/tnt/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="tnt4" ,ТНТ4
-http://31.210.208.171:8080/tnt4/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="kultura" ,Россия К
-http://31.210.208.171:8080/russiak/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="5kanal-ru" ,Пятый канал
-http://31.210.208.171:8080/5kanal/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="russia-today" ,RT
-http://31.210.208.171:8080/rt/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="domashny" ,ДОМАШНИЙ
-http://31.210.208.171:8080/home/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="zvezda" ,ЗВЕЗДА
-http://31.210.208.171:8080/zvezda/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="mir" ,МИР
-http://31.210.208.171:8080/mir/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные" ,МИР 24 HD
-http://31.210.208.171:8080/mir24/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="moskva-24" ,МОСКВА 24
-http://31.210.208.171:8080/moskva_24/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="otr" ,ОТР
-http://31.210.208.171:8080/otr/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="rbk" ,РБК
-http://31.210.208.171:8080/rbk/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="sts" ,СТС
-http://31.210.208.171:8080/sts/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="360-podmoskovie" ,360 HD
-http://31.210.208.171:8080/360_HD/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="piatnica" ,Пятница
-http://31.210.208.171:8080/piatnica/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="tv3-ru" ,ТВ3
-http://31.210.208.171:8080/tv3/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="tvcentr" ,ТВЦ
-http://31.210.208.171:8080/tvc/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="che" ,ЧЕ
-http://31.210.208.171:8080/che/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Эфирные"  tvg-id="yu" ,Ю
-http://31.210.208.171:8080/u/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Эфирные"  tvg-id="360-podmoskovie" ,360
 https://bl.rutube.ru/livestream/d14fcf59cb7d07a26c48ebc8c6565f44/index.m3u8?s=7MjKBiZ38mboacQxazoOsQ&e=2067513333&scheme=https
 #EXTINF:-1  group-title="Эфирные"  tvg-id="spas" ,Спас
 https://bl.rutube.ru/livestream/2bbfa9ebf9d79ade480d7281fcef1008/index.m3u8?s=yPF_CfouRhv98nuswf06LQ&e=2067513335&scheme=https
-#EXTINF:-1  group-title="Эфирные"  tvg-id="rossia-24" ,Россия 24
-http://uiptv.do.am/1ufc/000000006/playlist.m3u8
-#EXTINF:-1  group-title="Эфирные"  tvg-id="otr" ,ОТР
-http://uiptv.do.am/1ufc/000000008/playlist.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="rbk" ,РБК
 http://uiptv.do.am/1ufc/701293058/playlist.m3u8
-#EXTINF:-1  group-title="Эфирные"  tvg-id="rossia1" ,Россия 1
-http://uiptv.do.am/1ufc/000000002/playlist.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="zvezda" ,Звезда
 http://uiptv.do.am/1ufc/115312670/playlist.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="super" ,Суббота!
@@ -245,6 +191,32 @@ http://45.145.32.13:20440/mir/index.m3u8?token=test
 http://45.145.32.13:20440/mir_24/index.m3u8?token=test
 #EXTINF:-1  group-title="Эфирные"  tvg-id="sts" ,СТС
 http://45.145.32.13:20440/ctc/index.m3u8?token=test
+#EXTINF:-1  group-title="Эфирные"  tvg-id="rentv"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/REN TV.png" ,Рен ТВ
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031873&extension=ts&play_token=ePaeIF8QcH
+#EXTINF:-1  group-title="Эфирные"  tvg-id="rossia1"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RUSSIA 1.png" ,Россия 1 HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031874&extension=ts&play_token=pPg0TtHE6I
+#EXTINF:-1  group-title="Эфирные"  tvg-id="rossia-24"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/ROSSIYA 24.png" ,Россия 24
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031894&extension=ts&play_token=bPKqd5YmcE
+#EXTINF:-1  group-title="Эфирные"  tvg-id="ntv"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/NTV.png" ,НТВ HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031879&extension=ts&play_token=DSxpR4YJOT
+#EXTINF:-1  group-title="Эфирные"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RTR PLANETA.png" ,Россия РТР
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031881&extension=ts&play_token=VZLhMSSU1P
+#EXTINF:-1  group-title="Эфирные"  tvg-id="tnt"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TNT.png" ,ТНТ FD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031884&extension=ts&play_token=bxoi6Jcheb
+#EXTINF:-1  group-title="Эфирные"  tvg-id="tv3-ru"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TV 3.png" ,ТВ3
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031885&extension=ts&play_token=YhxnkvOHh3
+#EXTINF:-1  group-title="Эфирные"  tvg-id="5kanal-ru"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/5 KANAL.png" ,5 Канал
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031963&extension=ts&play_token=dtQnRyx2XK
+#EXTINF:-1  group-title="Эфирные"  tvg-id="zvezda"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/ZVEZDATV.png" ,Звезда HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031943&extension=ts&play_token=puVr9gJDDH
+#EXTINF:-1  group-title="Эфирные" ,ТВЦ HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031970&extension=ts&play_token=7vURzbxbKq
+#EXTINF:-1  group-title="Эфирные"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RBK TV.png" ,РБК HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031942&extension=ts&play_token=IWd85vLjE3
+#EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/PERVYJ KANAL.png" ,Первый канал HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031906&extension=ts&play_token=u76EuhnWWk
+#EXTINF:-1  group-title="Эфирные"  tvg-id="sts"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/CTC.png" ,СТС HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031969&extension=ts&play_token=0tW4hDAopr
 #EXTINF:-1  group-title="Познавательные"  tvg-id="bolshaya-azia"  tvg-logo="https://app.playlistbox.com/icon/2q94OaJj6rD5gYx8yYM1ELBXGWRzPQ0A.png"   tvg-name="Большая Азия", Большая Азия
 https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="bolshaya-azia" , Большая Азия HD
@@ -265,8 +237,6 @@ http://46.46.143.222:1935/live/ldpr.stream/playlist.m3u8
 http://vod.tuva.ru/nauka2/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="zvezda-plus" , Звезда Плюс
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="rus-hualiang-tv" , Китай ТВ
-http://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="prodvizhenie" , Продвижение 
 http://origin5.mediacdn.ru/live/prodvizhenie_new/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="bolshaya-azia" ,Большая азия
@@ -277,8 +247,6 @@ http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/tracks-v2a1/mono.ts.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="ldpr-tv" , ЛДПР ТВ
 http://46.46.143.222:1935/live/ldpr.stream_480p/playlist.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="pro-business" , Про бизнес
-https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/chunklist.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="luxury-hd" , Luxury HD
 http://s1.tv-nano.com/Luxury_rec/video.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="rtd-ru" , RTД HD
@@ -293,6 +261,8 @@ http://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
 https://s1.tv-nano.com/Magnat_HD_5119705/video.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="doktor" , Доктор
 http://45.11.139.43:8555/doctor/index.m3u8
+#EXTINF:-1  group-title="Познавательные"  tvg-id="pro-business" , Про бизнес
+https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/chunklist.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="ruskorabl" , Плюс Минус 16
 http://media.16pm.ru/live/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="prosveschenie" , Просвещение
@@ -369,8 +339,6 @@ http://cdn-01.bonus-tv.ru/prosveschenie_edge/tracks-v1a1/index.m3u8
 http://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="discovery-channel"   audio-track="rus", Discovery HD
 http://5.188.159.128:8070/DiscoveryChannel/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="rus-hualiang-tv" , Китай ТВ
-https://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="nauka-20"  tvg-logo="https://iptvx.one/picons/nauka-20.png" ,Наука
 https://vod.tuva.ru/nauka2/index.m3u8
 #EXTINF:-1  group-title="Познавательные" ,HHQ
@@ -471,8 +439,6 @@ https://flussonic.mkpnet.ru/tv-319cadb3fff5fb3e/video.m3u8
 https://flussonic.mkpnet.ru/tv-d5d21f78cdf69c47/video.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="zhivi-aktivno" ,Живи Активно
 https://flussonic.mkpnet.ru/tv-fa810958620d77d8/video.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="zdorovoe-tv" ,Здоровое ТВ
-https://flussonic.mkpnet.ru/tv-92fa9d648cab0f3f/video.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="moya-planeta" ,Моя планета
 https://flussonic.mkpnet.ru/tv-6febc5aecf84848d/video.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="nasha-tema" ,Наша тема
@@ -489,50 +455,12 @@ http://213.91.179.28:8000/play/a0bg
 http://213.91.179.28:8000/play/a0bw
 #EXTINF:-1  group-title="Познавательные"  tvg-id="animal-planet-eu" , ANIMAL PLANET
 https://stream8.cinerama.uz/1043/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="istoria" ,ИСТОРИЯ
-http://31.210.208.171:8080/istoriya/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="big-planet" ,Big Planet
-http://31.210.208.171:8080/big_planet/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-explore" ,Viasat Explore
-http://31.210.208.171:8080/viju_explore/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-history" ,Viasat History
-http://31.210.208.171:8080/viju_history/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="zagorodnaya-zhizn" ,Загородная жизнь
-http://31.210.208.171:8080/zagorodnaya_zhizn/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="zhivaya-planeta" ,Живая планета
-http://31.210.208.171:8080/zhivaya_planeta/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="zhivi" ,ЖИВИ
-http://31.210.208.171:8080/jivi/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="avto24" ,Авто 24
-http://31.210.208.171:8080/avto_24/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="avto-plus" ,Авто Плюс
-http://31.210.208.171:8080/avto_plus/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="kto-est-kto" ,Кто есть кто
-http://31.210.208.171:8080/kto_est_kto/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="kuxnia-tv" ,Кухня ТВ
-http://31.210.208.171:8080/kuhnya/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="spas" ,СПАС
-http://31.210.208.171:8080/spas/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="krasnaya-linia" ,Красная линия
-http://31.210.208.171:8080/krasnaya_liniya/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="nasha-tema" ,Наша тема
-http://31.210.208.171:8080/nasha_tema/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="oruzhie" ,Оружие
-http://31.210.208.171:8080/oruzhie/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="pes-i-ko" ,Пес и ко
-http://31.210.208.171:8080/pes_i_ko/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="psixologia-21" ,Психология 21
-http://31.210.208.171:8080/psihologiya/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="yuvelirochka" ,Ювелирочка
-http://31.210.208.171:8080/yuvelirochka/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные" ,Зоопарк
-http://31.210.208.171:8080/zoopark/index.m3u8?token=+W2MSER
+#EXTINF:-1  group-title="Познавательные"  tvg-id="akwatv"  tvg-logo="https://iptvx.one/picons/akwatv.png" ,Аква ТВ
+http://stitch.teletarget.ru/vintera/aquatv/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="tayna"  tvg-logo="https://iptvx.one/picons/tayna.png" ,Тайна
 https://bl.rutube.ru/livestream/a11c890a0ec0730ad33bdaaf2d244e1a/index.m3u8?s=hCc3BqSwghCQ0GRhDJ967A&e=2070623490&scheme=https
 #EXTINF:-1  group-title="Познавательные"  tvg-id="discovery-channel"  tvg-logo="https://iptvx.one/picons/discovery-channel.png" ,Discovery Channel HD
 https://stream8.cinerama.uz/1039/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="akwatv"  tvg-logo="https://iptvx.one/picons/akwatv.png" ,Аква ТВ
-http://stitch.teletarget.ru/vintera/aquatv/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="otkryty-mir"  tvg-logo="https://iptvx.one/picons/otkryty-mir.png" ,Открытый мир
 http://v4.proofix.ru/0mir/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="rzhd-tv"  tvg-logo="https://iptvx.one/picons/rzhd-tv.png" ,РЖД HD
@@ -541,6 +469,58 @@ http://hls.tva.cdnvideo.ru/tva/tvahd.sdp/playlist.m3u8
 https://flussonic.mkpnet.ru/tv-55c94e838b306657/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="oxotnik-i-rybolov"  tvg-logo="https://iptvx.one/picons/oxotnik-i-rybolov.png" , Охотник и рыболов
 https://bl.rutube.ru/livestream/1da5d92af8c55b16241f1eb12a27f00c/index.m3u8?s=QzqPo5cuxaeOJDvPy-nBvg&e=2070623488&scheme=https
+#EXTINF:-1  group-title="Познавательные"  tvg-id="rtd-ru"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RT.png" ,RT Д HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031882&extension=ts&play_token=69BTjSP3T6
+#EXTINF:-1  group-title="Познавательные"  tvg-id="rtg-hd"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RTG TV.png" ,RTG SD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031880&extension=ts&play_token=6AGPi9qIWx
+#EXTINF:-1  group-title="Познавательные"  tvg-id="zhivaya-priroda" ,Живая природа HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031944&extension=ts&play_token=ik3PIwiKHO
+#EXTINF:-1  group-title="Познавательные"  tvg-id="travel-channel"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TRAVEL.png" ,Travel Channel
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031947&extension=ts&play_token=9LMkZyoAWD
+#EXTINF:-1  group-title="Познавательные"  tvg-id="tlc"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TLC.png" ,TLC HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031913&extension=ts&play_token=smKn6c7ThT
+#EXTINF:-1  group-title="Познавательные"  tvg-id="sovsek"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/SOVERSHENNO SEKRETNO.png" ,СОВЕРШЕННО СЕКРЕТНО
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031950&extension=ts&play_token=w0MGOrKCzQ
+#EXTINF:-1  group-title="Познавательные"  tvg-id="oxotnik-i-rybolov-hd"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/OHOTNIK I RYBOLOV.png" ,Охотник и Рыболов HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031952&extension=ts&play_token=E5kxk3MSlX
+#EXTINF:-1  group-title="Познавательные"  tvg-id="oxota-i-rybalka"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/OHOTA I RYBALKA.png" ,Охота и рыбалка HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031951&extension=ts&play_token=upBAKshhfc
+#EXTINF:-1  group-title="Познавательные"  tvg-id="nauka-20"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/NAUKA 2.0.png" ,Наука 2.0 HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031956&extension=ts&play_token=GQUQwploSs
+#EXTINF:-1  group-title="Познавательные"  tvg-id="nat-geo-wild"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/NAT GEO WILD.png" ,NAT GEO WILD HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031927&extension=ts&play_token=Iiix12JsjW
+#EXTINF:-1  group-title="Познавательные"  tvg-id="galaxy-tv" ,GALAXY SD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031926&extension=ts&play_token=0W7MvUfcLZ
+#EXTINF:-1  group-title="Познавательные"  tvg-id="istoria"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/ISTORIA.png" ,История SD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031957&extension=ts&play_token=kZxohROmBe
+#EXTINF:-1  group-title="Познавательные"  tvg-id="glazami-turista"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/GLASAMI TURISTA.png" ,Глазами Туриста HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031959&extension=ts&play_token=z2sbZSztH9
+#EXTINF:-1  group-title="Познавательные"  tvg-id="discovery-channel" ,DISCOVERY HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031931&extension=ts&play_token=9C0hndElOQ
+#EXTINF:-1  group-title="Познавательные"  tvg-id="discovery-channel" ,DISCOVERY SD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031930&extension=ts&play_token=HDJpxgCN2L
+#EXTINF:-1  group-title="Познавательные"  tvg-id="discovery-channel"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/DISCOVERY CHANNEL.png" ,DISCOVERY CHANNEL FD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031928&extension=ts&play_token=ghKsJXNm1D
+#EXTINF:-1  group-title="Познавательные"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/DISCOVERY ID EXTRA.png" ,DISCOVERY ID EXTRA HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031929&extension=ts&play_token=61HrCjaM0q
+#EXTINF:-1  group-title="Познавательные"  tvg-id="dikaya-rybalka-hd"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/DIKAYA RYBALKA.png" ,Дикая Рыбалка HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031954&extension=ts&play_token=lYEyEiNWjH
+#EXTINF:-1  group-title="Познавательные"  tvg-id="dikaya-oxota-hd"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/DIKAYA OKHOTA.png" ,Дикая Охота HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031953&extension=ts&play_token=nrT3Px3835
+#EXTINF:-1  group-title="Познавательные"  tvg-id="belarus3"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/BELARUS 3.png" ,Беларусь 3 HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031966&extension=ts&play_token=cUaXe9eXi3
+#EXTINF:-1  group-title="Познавательные"  tvg-id="belarus24"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/BELARUS 24.png" ,Беларусь 24
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031968&extension=ts&play_token=mYmn26Co24
+#EXTINF:-1  group-title="Познавательные"  tvg-id="belarus2"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/BELARUS 2.png" ,Беларусь 2 HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031965&extension=ts&play_token=J4YDxemqt1
+#EXTINF:-1  group-title="Познавательные"  tvg-id="365-dnej" ,365 Дней
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031960&extension=ts&play_token=vOG0SzbmGx
+#EXTINF:-1  group-title="Познавательные"  tvg-id="9kanal-israel"  tvg-logo="http://picon.tivi-ott.net:25461/picon/ISRAEL/IL ISREAL/CHANNEL 9 HD.png" ,9 канал (Израиль) HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=904506&extension=ts&play_token=CYcOcLb5QH
+#EXTINF:-1  group-title="Познавательные"  tvg-id="9kanal-israel"  tvg-logo="http://picon.tivi-ott.net:25461/picon/ISRAEL/IL ISREAL/CHANNEL 9.png" ,9 канал (Израиль) SD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=904505&extension=ts&play_token=V7nSPLFBPG
+#EXTINF:-1  group-title="Познавательные"  tvg-id="cbc-az"  tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/AZERAIJAN/CBC_Logo.png" ,CBC
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=384772&extension=ts&play_token=I4H7WgEjLh
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="sts"  tvg-logo="https://app.playlistbox.com/icon/90B7b8PKO54QkGZ6lqxNEqAYzmrVWyjg.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="СТС", СТС
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="tnt"  tvg-logo="https://app.playlistbox.com/icon/W82YEm9Vw51D0poVvmoNr4jQPOGd7KJb.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="ТНТ", ТНТ
@@ -565,16 +545,6 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
 #EXTINF:-1  group-title="Развлекательные"  tvg-logo="https://i.ibb.co/CpYZFf54/image-38.png" , Ты супер !
 https://cdn-dvr.ntv.ru/Super/tracks-v1a1/rewind-240.ts.m3u8
-#EXTINF:-1  group-title="Развлекательные"  tvg-id="nostalgia" ,НОСТАЛЬГИЯ
-http://31.210.208.171:8080/nostalgiya/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Развлекательные"  tvg-id="sarafan" ,САРАФАН
-http://31.210.208.171:8080/sarafan/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Развлекательные"  tvg-id="kvn-tv" ,КВН ТВ
-http://31.210.208.171:8080/kvn_tv/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Развлекательные"  tvg-id="telekafe" ,ТЕЛЕКАФЕ
-http://31.210.208.171:8080/telecafe/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Развлекательные"  tvg-id="tvoetv-humor"  tvg-logo="https://i.postimg.cc/85hJM1pk/Tvoe-TV-Umor.png" ,Твоё ТВ HD Юмор
-http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="rutube-tv"  tvg-logo="https://iptvx.one/picons/rutube-tv.png" ,RUTUBE TV
 https://bl.rutube.ru/livestream/9ae8e8a6dc58bdad66190475f9872ecd/index.m3u8?s=U_og5iHG6xVp0V3KXYMB0g&e=2070623479&scheme=https
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="perec-int" ,Перец
@@ -597,56 +567,6 @@ http://cdn.wfc.tv/cdn/stream-rus-720p.m3u8
 http://cdn.wfc.tv/cdn/stream-eng-720p.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kino-tv" , Кино ТВ
 http://vod.tuva.ru/kinotv/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fanhd" ,FAN
-http://31.210.208.171:8080/fan/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="dorama" ,ДОРАМА
-http://31.210.208.171:8080/dorama/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="evrokino" ,ЕВРОКИНО
-http://31.210.208.171:8080/evrokino/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="muzhskoe-kino" ,Мужское кино
-http://31.210.208.171:8080/muzhskoe_kino/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kino-tv" ,КИНО ТВ
-http://31.210.208.171:8080/kinotv/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinomiks" ,КИНОМИКС
-http://31.210.208.171:8080/kinomix/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinoseria" ,КИНОСЕРИЯ
-http://31.210.208.171:8080/kinoseriya/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinouzhas" ,КИНОУЖАС
-http://31.210.208.171:8080/kinouzhas/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="nashe-novoe-kino" ,НАШЕ НОВОЕ КИНО
-http://31.210.208.171:8080/nashe_novoe_kino/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="nst" ,НСТ
-http://31.210.208.171:8080/nst/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="cinema-ru" ,Cinema
-http://31.210.208.171:8080/cinema/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="domkino" ,Дом кино
-http://31.210.208.171:8080/dom_kino/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="zee-tv" ,Индия
-http://31.210.208.171:8080/indiya/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы" ,Кинеко HD
-http://31.210.208.171:8080/kineko/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinosemiya" ,Киносемья
-http://31.210.208.171:8080/kinofamily/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinoxit" ,Кинохит
-http://31.210.208.171:8080/kinohit/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы" ,Киноман
-http://31.210.208.171:8080/kinoman/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinokomedia" ,Кинокомедия
-http://31.210.208.171:8080/kinokomedia/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinosvidanie" ,Киносвидание
-http://31.210.208.171:8080/kinosvidanie/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="russkaya-komedia" ,Комедия
-http://31.210.208.171:8080/komedia/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="lubimoe-kino" ,Любимое кино
-http://31.210.208.171:8080/lubimoe_kino/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="mosfilm" ,Мосфильм. Золотая коллекция
-http://31.210.208.171:8080/mosfilm/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="rodnoe-kino" ,Родное кино
-http://31.210.208.171:8080/rodnoe_kino/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="russky-roman" ,Русский роман
-http://31.210.208.171:8080/russian_roman/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="vremia" ,Время
-http://31.210.208.171:8080/vremya/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia-hit" ,Amedia HIT
 https://flussonic.mkpnet.ru/tv-8f04998179283ee5/video.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="tv1000" ,viju TV1000
@@ -765,8 +685,6 @@ https://live20.bozztv.com/giatv/giatv-tvzov%20RED/tvzov%20RED/chunks.m3u8
 https://stitch.teletarget.ru/vintera/movieclassic/1769345728421a8ea6e51c8383dc93762a02d599036121e311be997503169eb5/lvl1.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="sovkino"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" , Советское кино
 https://stitch.teletarget.ru/vintera/sovietmovie/17696847156167dd9935fac28723490766c9879588bc1d723892ef11c0282861/lvl1.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" , LIVETV 
-http://tv.mobyservice.ru/livetv/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/rf5ChNbx/image-9.png" , Паранормальный Архив
 http://kinowalk.hopto.org/paranormal404_live
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" , КиноНонСтоп
@@ -839,42 +757,6 @@ https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v
 rtmp://vkvsd80.okcdn.ru/playback/11445095639945?stkn=isz4WXJ0c-P9MNBOKakZS1dQYkSmIEQX81ccorrT3ZqaCJiGkrCrrBEClpFFXVYJSlMjslcRhb0A&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="tv1000-action-cee" , VIASAT KINO ACTION HD
 http://tinyurl.com/TvZaTak41/687edb0b4918db4ed5a6f313e527f513?token=128762f0bd32e94a005ad2b25d51fbd5
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  24
-https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-0/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  25
-https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-a/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  26
-https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-b/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  27
-https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-c/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  28
-https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-d/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  29
-https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-e/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  30
-https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-g/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  31
-https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-i/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  32
-https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-p/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  33
-https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-v/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  34 Сов.Ком
-https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-z/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  35 FilmONN
-https://rpn3.bozztv.com/dvrfl07/ushba64/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  37 FilmOFF
-https://rpn3.bozztv.com/dvrfl07/ushba65/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  39
-https://rpn3.bozztv.com/dvrfl07/ushba56/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  41
-https://rpn3.bozztv.com/dvrfl07/ushba82/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision
-https://rpn3.bozztv.com/dvrfl07/ushba-rvision/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision Motor
-https://rpn3.bozztv.com/dvrfl07/ushba-rvisionmotor/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision Classic
-https://rpn3.bozztv.com/dvrfl07/ushba-rvisionclassic/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia2" ,Amedia 2
 http://45.145.32.13:20440/kineko/index.m3u8?token=test
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia-hit" ,Amedia Hit
@@ -905,6 +787,96 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=4158
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" ,Alpha Cinema
 https://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="sony-scifi" ,.sci-fi
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031870&extension=ts&play_token=SuhvFEvtjE
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia1" ,AMEDIA 1 HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031869&extension=ts&play_token=0CugPHaVH8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia-premium" ,Amedia Premium HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031871&extension=ts&play_token=ZFrzKQWhyU
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia-hit" ,Amedia Hit HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031872&extension=ts&play_token=ANg69fnjoa
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinoseria" ,Киносерия HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031878&extension=ts&play_token=Bg8gFejbJD
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="zee-tv" ,Индия
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031886&extension=ts&play_token=UvTHdvHY5W
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/VIASAT NATURE.png" ,VIASAT NATURE FD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031925&extension=ts&play_token=9TuBeSrDA3
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="tv1000-russkoe-kino"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TV1000 РУССКОЕ.png" ,TV1000 РУССКОЕ
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031905&extension=ts&play_token=2hgUuYMmeo
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TV1000 РУССКОЕ.png" ,TV1000 РУССКОЕ HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031904&extension=ts&play_token=TngILrSNZd
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="tv1000-action"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TV1000 ACTION.png" ,TV1000 ACTION HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031903&extension=ts&play_token=UsEMFsmiYX
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="tv1000-cee" ,Viasat Kino SD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031902&extension=ts&play_token=AmozTNKLBB
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TV 1000 MEGAHIT.png" ,TV 1000 MEGAHIT HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031911&extension=ts&play_token=qC1mfoISwF
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TV1000.png" ,TV 1000 FD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031909&extension=ts&play_token=3xzzjsOYhT
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="vremia"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/VREMYA.png" ,Время
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031946&extension=ts&play_token=GgGNDdEFFI
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="russky-roman"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RUSSKIY ROMAN.png" ,Русский Роман HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031901&extension=ts&play_token=t8umm0KMTA
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="russky-illuzion"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RUSSKIY ILLYUZION.png" ,Русский Иллюзион HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031900&extension=ts&play_token=mBkWHtUyQZ
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="russky-ekstrim"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RUSSKIY EKSTRIM.png" ,Русский Экстрим
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031899&extension=ts&play_token=pJY5xrBhHh
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="russky-detektiv"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RUSSKIY DETEKTIV.png" ,Русский Детектив
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031898&extension=ts&play_token=ZuYKr6Sl47
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="russky-bestseller"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RUSSKIY BESTSELLER.png" ,Русский Бестселлер
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031897&extension=ts&play_token=zhQXUTiuD7
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="rodnoe-kino"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RODNOE KINO.png" ,Родное Кино
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031918&extension=ts&play_token=DGx5mjEKFf
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="pobeda" ,Победа
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031910&extension=ts&play_token=udtzi6uLyv
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="nashe-novoe-kino"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/NASHE NOVOE KINO.png" ,Наше Новое Кино HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031893&extension=ts&play_token=FVTY1Deq2j
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinoseria"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/KINOSERIYA.png" ,Киносерия HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031921&extension=ts&play_token=l1ap2Auu6n
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinokomedia" ,КИНОКОМЕДИЯ FD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031920&extension=ts&play_token=PfYb99JQ5W
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinoxit"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/KINOHIT.png" ,КИНОХИТ
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031890&extension=ts&play_token=N15C9EQfmI
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="foxlife"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/FOX LIFE.png" ,FOX Life HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031908&extension=ts&play_token=Ckgr9ctHtD
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fox"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/FOX.png" ,FOX HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031907&extension=ts&play_token=ONBvTBpmwA
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="evrokino"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/EVRO KINO.png" ,Еврокино HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031887&extension=ts&play_token=84xnOnH0ZV
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="illuzion-plus" ,ИЛЛЮЗИОН+ SD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031919&extension=ts&play_token=bbTv2UDQZL
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision Motor
+https://rpn3.bozztv.com/dvrfl07/ushba-rvisionmotor/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  24
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-0/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  25
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-a/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  26
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-b/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  27
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-c/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  28
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-d/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  29
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-e/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  30
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-g/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  31
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-i/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  32
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-p/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  33
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-v/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  34 Сов.Ком
+https://rpn3.bozztv.com/dvrfl07/ushba-rfilrms-z/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  35 FilmONN
+https://rpn3.bozztv.com/dvrfl07/ushba64/index.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  39
+https://rpn3.bozztv.com/dvrfl07/ushba56/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" ,Кинозалы  41
+https://rpn3.bozztv.com/dvrfl07/ushba82/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision
+https://rpn3.bozztv.com/dvrfl07/ushba-rvision/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rtbcdn.ru/video/2026-08-01/22/4a/224ab2d61d68e3f2814df8b5c0898cbc.png" , Лучи и тени (2026)
 https://river-4-425.rtbcdn.ru/hls-vod/LFA2O6isXg3aJn-NaR8cJw/1786815071/3590/0x5000c500fae91b8d/89a59f6d9ab14e3da3566d3380bc8baf.mp4.m3u8?i=848x352_403
 #EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rtbcdn.ru/video/2026-08-05/2e/21/2e21eef3e9e2c6509371ec0420b0ff15.png" , Дорогая Радхи (2026)
@@ -2227,8 +2199,6 @@ https://rpn3.bozztv.com/dvrfl07/giatv-208314/playlist.m3u8
 http://5.188.158.65:4040/IPTVPLAYMultSkazki.tv/video.m3u8?token=lqRGka5-YwwqF0
 #EXTINF:-1  group-title="Детские"  tvg-id="solnce"  tvg-logo="https://picon.ml/solnce.png"   tvg-name="Солнце", Солнце
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
-#EXTINF:-1  group-title="Детские" , Тооку HD
-http://live-saha.cdnvideo.ru/saha/tooky/playlist.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="solnce" ,Солнце
 http://tv.mediacdn.ru/live/solntse/playlist_3000k.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="malysh" ,Супергерои
@@ -2288,30 +2258,10 @@ https://flussonic.mkpnet.ru/tv-3848dd8604a262e0/video.m3u8
 https://flussonic.mkpnet.ru/tv-132f51b35b47b897/video.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="mult" ,Мульт
 https://flussonic.mkpnet.ru/tv-c8b065a591077c26/video.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="multimania" ,Мультиландия
-https://flussonic.mkpnet.ru/tv-89530153f25733fe/video.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="solnce" ,Солнце
 https://flussonic.mkpnet.ru/tv-ac43800065b9b1b7/video.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="sts-kids-hd" ,СТС Kids
 http://213.91.179.28:8000/play/a07g
-#EXTINF:-1  group-title="Детские"  tvg-id="2na2" ,2x2
-http://31.210.208.171:8080/2x2/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Детские"  tvg-id="mama" ,Мама
-http://31.210.208.171:8080/mama/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Детские"  tvg-id="ani" ,ANI
-http://31.210.208.171:8080/ani/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Детские"  tvg-id="solnce" ,СОЛНЦЕ
-http://31.210.208.171:8080/solnce/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Детские"  tvg-id="multimuzyka" ,Мультимузыка
-http://31.210.208.171:8080/mult_i_muzika/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Детские"  tvg-id="mult" ,МУЛЬТ HD
-http://31.210.208.171:8080/mult_HD/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Детские"  tvg-id="karusel" ,КАРУСЕЛЬ
-http://31.210.208.171:8080/karusel/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Детские"  tvg-id="v-gostiax-u-skazki" ,В гостях у сказки
-http://31.210.208.171:8080/v_gostyah_u_skazki/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Детские"  tvg-id="tiji" ,TIJI
-http://31.210.208.171:8080/tiji/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Детские"  tvg-id="karusel" ,Карусель
 http://45.145.32.13:20440/karusel/index.m3u8?token=test
 #EXTINF:-1  group-title="Детские"  tvg-id="detsky" ,Уникум
@@ -2320,8 +2270,10 @@ http://45.145.32.13:20440/nauka/index.m3u8?token=test
 https://flussonic.mkpnet.ru/tv-17540fb90079a865/video.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="cartoon-network"  tvg-logo="https://iptvx.one/picons/cartoon-network.png" ,Cartoon Network
 http://45.132.87.69:8080/cartoon_network/index.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="multimania"  tvg-logo="https://iptvx.one/picons/multimania.png" ,Мультиландия
-http://217.11.177.55/streams/media/multilandiya_720x576/index.m3u8
+#EXTINF:-1  group-title="Детские"  tvg-id="nickelodeon-ru"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/NICKELODEON.png" ,Nickelodeon HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031916&extension=ts&play_token=gNTdjvJt7O
+#EXTINF:-1  group-title="Детские"  tvg-id="mult"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/MULYT.png" ,Мульт
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031891&extension=ts&play_token=vvG1siV1Gn
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-tv"  tvg-logo="http://domnet.me/images/picons/tvico_n52.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Матч! ТВ
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-tv" , Матч! HD
@@ -2344,20 +2296,8 @@ http://45.145.32.13:20440/match_football2/index.m3u8?token=test
 http://45.145.32.13:20440/match_football3/index.m3u8?token=test
 #EXTINF:-1  group-title="Спортивные"  tvg-id="sportivny" ,ТВ Спорт
 http://live-3.otcnet.ru/sportivny/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="start" ,Старт
-https://bl.webcaster.pro/media/playlist/api_free_fd14ed34164a52d1090e4cb9db93683f/4_79276517/480p/d33bbf3e6ac7c41524eae5d1c3d9258d/4873167902.m3u8?live=15&ref=https://tvstart.ru/channels/tv-start/
-#EXTINF:-1  group-title="Спортивные"  tvg-id="start" ,Старт HD
-https://bl.webcaster.pro/media/playlist/api_free_fd14ed34164a52d1090e4cb9db93683f/4_79276517/1080p/d33bbf3e6ac7c41524eae5d1c3d9258d/4873167902.m3u8?live=15&ref=https://tvstart.ru/channels/tv-start/
-#EXTINF:-1  group-title="Спортивные"  tvg-id="start-basket" ,Старт Баскет
-https://bl.webcaster.pro/media/playlist/free_621d169e5c631c638136df3cb136c5c9/33_68881676/480p/b32eaae5fbf1d2b8211543566a1d9a78/4914392769.m3u8?live=15&ref=https://tvstart.ru/channels/start-basket-test/
-#EXTINF:-1  group-title="Спортивные"  tvg-id="start-triumf" ,Старт Триумф
-https://bl.webcaster.pro/media/playlist/free_672d700f2f9510be660253786e4406fe_hd/33_85479982/480p/4eaec8986e2012fb936478856fbf3b4b/4818731006.m3u8?live=15&ref=https://tvstart.ru/ru/pages/start-triumph/
 #EXTINF:-1  group-title="Спортивные"  tvg-id="sportivny" ,Спортивный
 http://live-3.otcnet.ru/sportivny/index.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="start-triumf"  tvg-logo="https://iptvx.one/picons/start-triumf.png" ,Мир баскетбола
-https://bl.webcaster.pro/media/playlist/free_672d700f2f9510be660253786e4406fe_hd/33_85479982/1080p/4eaec8986e2012fb936478856fbf3b4b/4818731006.m3u8?live=15&ref=https://tvstart.ru/ru/pages/start-triumph/
-#EXTINF:-1  group-title="Спортивные"  tvg-id="arena-sport-1-sk"  tvg-logo="https://app.playlistbox.com/icon/yWKm9lLEGakqPMQb4wZBOnNdRr06XV32.png"   tvg-name="Наш спорт 1", Наш спорт 1
-https://stream-msk-14.ott.tricolor.tv:443/dtv/id794_MSKSG-PVR-1--Nash_khokkey1/01/plst.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="no_epg_sport"  tvg-logo="https://photos.live-tv-channels.org/tv-logo/canal-motor-5880.webp" , Canal Motor
 http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="eleven-sports-1" , MOTOR SPORT TV HD
@@ -2382,8 +2322,6 @@ https://tjktv-live.tjk.org/tjktv/tjktv_480p.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvsboxing/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-logo="https://i.ibb.co/KcZhLKTK/image-2025-10-10-T153149-249.png" , TVS Turbo
 https://rpn.bozztv.com/gusa/gusa-tvsturbo/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-logo="https://i.ibb.co/Y7Rw62W7/image-2025-10-10-T152940-559.png" , TVS Women Sports
-https://rpn.bozztv.com/gusa/gusa-tvswsn/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Спортивные" ,Turkmen Sport
 http://217.174.225.146/hls/ch004_720/index.m3u8
 #EXTINF:-1  group-title="Спортивные" ,Sports Grid
@@ -2460,40 +2398,32 @@ http://213.91.179.28:8000/play/a048
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?xtreamiptv.m3u8
 #EXTINF:-1  group-title="Спортивные" , X-STREAM
 http://iptv.prosto.tv:7000/ch313/video.m3u8?secret=cledwwov
-#EXTINF:-1  group-title="Спортивные" , BEIN SPORT HD
-http://99.27.51.147:8080/BeinSport/index.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="bein-sport-2" , BEIN SPORT 2 HD
-http://99.27.51.147:8080/BeinSport2/index.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="bein-sport-3" , BEIN SPORT 3 HD
 http://99.27.51.147:8080/BeinSport3/index.m3u8
 #EXTINF:-1  group-title="Спортивные" , REAL MADRID
 https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-arena" ,Матч! Арена
-http://31.210.208.171:8080/match_arena/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-igra" ,МАТЧ! ИГРА
-http://31.210.208.171:8080/match_igra/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-boets" ,Матч! Боец
-http://31.210.208.171:8080/match_boec/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-nash-sport" ,Матч! Страна
-http://31.210.208.171:8080/match_strana/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Спортивные"  tvg-id="mma-tv-com" ,MMA-TV.COM
-http://31.210.208.171:8080/mma_tv/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Спортивные"  tvg-id="kxl" ,KHL
-http://31.210.208.171:8080/khl/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Спортивные"  tvg-id="box-tv" ,БОКС ТВ
-http://31.210.208.171:8080/box_tv/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Спортивные"  tvg-id="start" ,СТАРТ HD
-http://31.210.208.171:8080/start/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Спортивные" ,Матч! Футбол 3 SD
 http://185.57.68.33:8091/110/index.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="belarus5"  tvg-logo="https://iptvx.one/picons/belarus5hd.png" ,Беларусь 5 HD
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-tv"  tvg-logo="https://iptvx.one/picons/match-tv.png" ,Матч!
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="start-basket"  tvg-logo="https://iptvx.one/picons/start-basket.png" ,Старт Баскет
-https://bl.webcaster.pro/media/playlist/free_621d169e5c631c638136df3cb136c5c9/33_68881676/1080p/b32eaae5fbf1d2b8211543566a1d9a78/4914392769.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="start-triumf"  tvg-logo="https://iptvx.one/picons/start-triumf.png" ,Старт Триумф
-https://bl.webcaster.pro/media/playlist/free_672d700f2f9510be660253786e4406fe_hd/33_85479982/1080p/4eaec8986e2012fb936478856fbf3b4b/4818731006.m3u8
+#EXTINF:-1  group-title="Спортивные" ,MATCH!
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031941&extension=ts&play_token=VhG4J9rjsP
+#EXTINF:-1  group-title="Спортивные"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/MATCH TV.png" ,┃RU┃ MATCH TV HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031937&extension=ts&play_token=qEz9W7RYac
+#EXTINF:-1  group-title="Спортивные"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/MATCH! ARENA.png" ,┃RU┃ MATCH! ARENA HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031936&extension=ts&play_token=8LgXuUuiRU
+#EXTINF:-1  group-title="Спортивные"  tvg-id="eurosport1"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/EUROSPORT 1.png" ,EUROSPORT 1 HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031933&extension=ts&play_token=bEI2KpG7Ws
+#EXTINF:-1  group-title="Спортивные"  tvg-id="eurosport2"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/EUROSPORT 2.png" ,EUROSPORT 2 HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031934&extension=ts&play_token=3sswe5QZNJ
+#EXTINF:-1  group-title="Спортивные"  tvg-id="box-tv"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/BOKS TV.png" ,Бокс ТВ HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031948&extension=ts&play_token=iGlTehvpY7
+#EXTINF:-1  group-title="Спортивные"  tvg-id="belarus5"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/BELARUS 5.png" ,Беларусь 5 HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031967&extension=ts&play_token=yzUqaZTzRO
+#EXTINF:-1  group-title="Спортивные"  tvg-id="setanta-sports-plus" ,Setanta Sports 2 HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=384870&extension=ts&play_token=5NuX9A7KqQ
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="muztv" ,МузТВ
 http://45.145.32.13:20440/muz_tv/index.m3u8?token=test
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="bridge-tv-classic" , Bridge TV Classic
@@ -2504,8 +2434,6 @@ https://streamcdnm5-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uh
 https://bl.rutube.ru/livestream/965a025e4ebbaf0957415f80c6de8534/index.m3u8?s=ckwceO9X_G-d4tcDm-6i_Q&e=2067513338&scheme=https
 #EXTINF:-1  group-title="Музыкальные" ,NOW: Rock
 https://bl.rutube.ru/livestream/047ba54d846ee185b4209a797a2ae138/index.m3u8?s=Gjl8J0OCd2I72hwDgcMiNw&e=2067513338&scheme=https
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="vostok-tv" ,Восток ТВ
-https://bl.rutube.ru/livestream/da7bcfc0c302a2f0a46f030c9ef8a02b/index.m3u8?s=pjb6GTI594dZ-2ZKPFkrHA&e=2067513339&scheme=https
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="muzsoyuz" ,МузСоюз
 https://bl.rutube.ru/livestream/d1dff14680d4c84e27908983375f7e89/index.m3u8?s=4oc6EzMeV5jfwfzPEoYasw&e=2067513339&scheme=https
 #EXTINF:-1  group-title="Музыкальные" ,Record Супердискотека 90х
@@ -2520,14 +2448,6 @@ http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
 http://event.vedge.infomaniak.com/livecast/event.stream/playlist.m3u8
 #EXTINF:-1  group-title="Музыкальные" ,Kronehit TV
 http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b1228000.m3u8
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="zhara" ,ЖАРА
-http://31.210.208.171:8080/jara/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="o2tv" ,о2тв
-http://31.210.208.171:8080/o2/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="muztv" ,МузТВ
-http://31.210.208.171:8080/muztv/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="ru-tv" ,RU.TV
-http://31.210.208.171:8080/ru_tv/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="shanson-tv" ,Шансон ТВ
 https://flussonic.mkpnet.ru/tv-181e3f7698288892/video.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="ru-tv" ,RU.TV
@@ -2568,6 +2488,20 @@ https://rpn3.bozztv.com/dvrfl07/ushba-t2/tracks-v1a1/mono.m3u8
 https://rpn3.bozztv.com/dvrfl07/ushba-t3/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Музыка 4
 https://rpn3.bozztv.com/dvrfl07/ushba-t4/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="muztv" ,Муз ТВ FD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031875&extension=ts&play_token=skaX2D2tpj
+#EXTINF:-1  group-title="Музыкальные"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/LA MINOR.png" ,Live Музыка
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031877&extension=ts&play_token=pfnBIQvlXF
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="shanson-tv" ,Шансон ТВ
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031895&extension=ts&play_token=Ck1nCU4QlZ
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="muzyka-pervogo"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/MUZYKA PERVOGO.png" ,Музыка Первого
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031892&extension=ts&play_token=mh9lBltYck
+#EXTINF:-1  group-title="Музыкальные"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/MUSIC BOX.png" ,GOLD MUSIC BOX
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031917&extension=ts&play_token=fuzB1R0Q0J
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="bridge-tv" ,Bridge
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031922&extension=ts&play_token=sliky2aQcT
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="muztv"  tvg-logo="http://picon.tivi-ott.net:25461/picon/AZERBAIJAN/MUZ TV.png" ,Муз ТВ HD
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=384761&extension=ts&play_token=LTwdiLO7jT
 #EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
 http://iptv.prosto.tv:7000/ch314/video.m3u8
 #EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
@@ -4022,6 +3956,198 @@ http://62.32.84.50:18000/play/a0bh/index.m3u8
 http://62.32.84.50:18000/play/a0jt/index.m3u8
 #EXTINF:-1  group-title="Казахстан" ,Хабар HD
 http://62.32.84.50:18000/play/a06c/index.m3u8
+#EXTINF:-1  group-title="Казахстан"  tvg-id="tnt4" ,ТНТ4
+https://fs.uplink.kz/tnt4/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="rossia-24" ,Россия 24
+https://fs.uplink.kz/rossia_24/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="kultura" ,Россия К
+https://fs.uplink.kz/rossia_k/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан" ,РТР Планета
+https://fs.uplink.kz/rtr_planeta/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="ntv-mir" ,НТВ-Мир
+https://fs.uplink.kz/ntv_mir/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="rentv-int" ,Рен ТВ international
+https://fs.uplink.kz/ren/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="365-dnej" ,365 дней
+https://fs.uplink.kz/365_dney/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="texno-24" ,Техно 24
+https://fs.uplink.kz/tehno_24/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="moya-planeta" ,Моя планета
+https://fs.uplink.kz/moya_planeta/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="viasat-explore" ,Viasat Explore
+https://fs.uplink.kz/viju_explore/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="viasat-history" ,Viasat History
+https://fs.uplink.kz/viju_history/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="viasat-nature" ,Viasat Nature
+https://fs.uplink.kz/viju_nature/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="national-geographic" ,National Geographic
+https://fs.uplink.kz/nat_geo/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="nat-geo-wild" ,Nat Geo Wild
+https://fs.uplink.kz/nat_geo_wild/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="istoria" ,История
+https://fs.uplink.kz/istoriya/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="big-planet" ,Big planet
+https://fs.uplink.kz/big_planet/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="poexali" ,Поехали!
+https://fs.uplink.kz/poehali/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="amedia-hit" ,Amedia Hit HD
+https://fs.uplink.kz/amedia_hit_hd/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="amedia-premium" ,Amedia Premium HD
+https://fs.uplink.kz/amedia_premium_hd/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="amedia1" ,Amedia 1
+https://fs.uplink.kz/amedia_1/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="avto24" ,Авто 24
+https://fs.uplink.kz/avto24/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="zee-tv" ,Индия
+https://fs.uplink.kz/india/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="domkino" ,Дом кино
+https://fs.uplink.kz/dom_kino/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="domkino-premium" ,Дом кино премиум
+https://fs.uplink.kz/dom_kino_premium/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="domashny" ,Домашний
+https://fs.uplink.kz/domashniy/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="evrokino" ,Еврокино
+https://fs.uplink.kz/eurokino/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="kinoxit" ,Кинохит
+https://fs.uplink.kz/kinohit/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="kinouzhas" ,Киноужас
+https://fs.uplink.kz/kinouzhas/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="indiyskoe-kino" ,Индийское кино
+https://fs.uplink.kz/indiyskoe_kino/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="kinokomedia" ,Кинокомедия
+https://fs.uplink.kz/kinokomedia/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="kinomiks" ,Киномикс
+https://fs.uplink.kz/kinomix/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="kinopremiera-hd" ,Кинопремьера HD
+https://fs.uplink.kz/kinopremiera_hd/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="rodnoe-kino" ,Родное кино
+https://fs.uplink.kz/rodnoe_kino/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="kinosemiya" ,Киносемья
+https://fs.uplink.kz/kinosemya/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="kinoseria" ,Киносерия
+https://fs.uplink.kz/kinoseria/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="kinosvidanie" ,Киносвидание
+https://fs.uplink.kz/kinosvidanie/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="muzhskoe-kino" ,Мужское кино
+https://fs.uplink.kz/muzhskoe_kino/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="nashe-novoe-kino" ,Наше новое кино
+https://fs.uplink.kz/nashe_novoe_kino/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="tv1000-russkoe-kino" ,TV1000 Русское кино
+https://fs.uplink.kz/viju_tv1000_russkoe/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="tv1000-action" ,TV1000 Action
+https://fs.uplink.kz/viju_tv1000_action/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="tv1000" ,TV1000
+https://fs.uplink.kz/viju_tv1000/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="moskva-24" ,Москва 24
+https://fs.uplink.kz/moskva24/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="kvn-tv" ,КВН ТВ
+https://fs.uplink.kz/kvn_tv/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="mir" ,Мир
+https://fs.uplink.kz/mir/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="mosfilm" ,Мосфильм. Золотая коллекция
+https://fs.uplink.kz/mosfilm/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="tvcentr" ,ТВЦ
+https://fs.uplink.kz/tvc/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="nostalgia" ,Ностальгия
+https://fs.uplink.kz/nostalgia/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="novoe-televidenie" ,Новое телевидение
+https://fs.uplink.kz/novoe_tv/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="oruzhie" ,Оружие
+https://fs.uplink.kz/oruzhie/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="perec-int" ,Перец
+https://fs.uplink.kz/perec/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="pobeda" ,Победа
+https://fs.uplink.kz/pobeda/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="russky-illuzion" ,Русский иллюзион
+https://fs.uplink.kz/russkiy_illusion/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="sts" ,СТС
+https://fs.uplink.kz/sts/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="sts-love" ,СТС Love
+https://fs.uplink.kz/sts_love/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="telekafe" ,Телекафе
+https://fs.uplink.kz/telecafe/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="tochka-otryva" ,Точка отрыва
+https://fs.uplink.kz/tochka_otriva/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="dorama" ,Дорама
+https://fs.uplink.kz/dorama/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="start-air" ,Start Air
+https://fs.uplink.kz/start_air/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="start-world" ,Start World
+https://fs.uplink.kz/start_world/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="tvxxi" ,TV XXI
+https://fs.uplink.kz/tvxxi/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="yu" ,Ю
+https://fs.uplink.kz/u/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="vremia" ,Время
+https://fs.uplink.kz/vremya/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="zhara" ,Жара
+https://fs.uplink.kz/zhara/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="zhivi" ,Живи
+https://fs.uplink.kz/zhivi/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="sarafan" ,Сарафан
+https://fs.uplink.kz/sarafan/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан" ,Зоопарк
+https://fs.uplink.kz/zoopark/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="zvezda" ,Звезда
+https://fs.uplink.kz/zvezda/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан" ,Astana TV
+https://fs.uplink.kz/astana/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="ktk-kz" ,КТК
+https://fs.uplink.kz/ktk/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="ntk-kz" ,НТК
+https://fs.uplink.kz/ntk/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="atameken-business" ,Atameken Business
+https://fs.uplink.kz/atameken/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан" ,24 KZ
+https://fs.uplink.kz/24KZ/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="5kanal-ru" ,Пятый канал
+https://fs.uplink.kz/5_kanal/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="7kanal-kz" ,7 канал (Казахстан)
+https://fs.uplink.kz/7_kanal/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="abaitv" ,Abai TV
+https://fs.uplink.kz/abai_tv/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="almaty" ,Almaty TV
+https://fs.uplink.kz/almaty/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан" ,Habar
+https://fs.uplink.kz/habar/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан" ,Qazaqstan KZ
+https://fs.uplink.kz/qazaqstan/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="tnv-planeta" ,ТНВ-Планета
+https://fs.uplink.kz/tnv/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан" ,Turan TV
+https://fs.uplink.kz/turan_tv/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="balapan" ,Balapan
+https://fs.uplink.kz/balapan/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="bridge-tv-classic" ,Bridge TV Classic
+https://fs.uplink.kz/bridge_classic/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="muztv" ,МузТВ
+https://fs.uplink.kz/muz_tv/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="ru-tv" ,RU.TV
+https://fs.uplink.kz/RuTV/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="shanson-tv" ,Шансон ТВ
+https://fs.uplink.kz/shanson/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="europa-plus-tv" ,Европа плюс ТВ
+https://fs.uplink.kz/europa_plus/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="v-gostiax-u-skazki" ,В гостях у сказки
+https://fs.uplink.kz/v_gostyah_u_skazki/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="baby-time" ,Baby time
+https://fs.uplink.kz/baby_time/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="lapki-live" ,Лапки Live
+https://fs.uplink.kz/lapki_live/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="sts-kids-hd" ,СТС Kids
+https://fs.uplink.kz/sts_kids/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="da-vinci" ,Da Vinci
+https://fs.uplink.kz/da_vinci/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="karusel" ,Карусель
+https://fs.uplink.kz/karusel/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="o_" ,О!
+https://fs.uplink.kz/o/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="bobior" ,Бобёр
+https://fs.uplink.kz/bober/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="mult" ,Мульт
+https://fs.uplink.kz/mult/mono.m3u8?token=onlinetv
+#EXTINF:-1  group-title="Казахстан"  tvg-id="multimania" ,Мультиландия
+https://fs.uplink.kz/multilandia/mono.m3u8?token=onlinetv
 #EXTINF:-1  group-title="Узбекистан"  tvg-id="pervy" ,Первый канал
 https://stream8.cinerama.uz/1019/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Узбекистан"  tvg-id="ntv" ,НТВ
@@ -4368,190 +4494,6 @@ https://stream8.cinerama.uz/1497/tracks-v1a1/mono.m3u8
 http://
 #EXTINF:-1  group-title="Узбекистан"   audio-track="rus",S Cinema
 https://stream8.cinerama.uz/1498/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Линия"  tvg-id="sony-scifi" ,.sci-fi
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031870&extension=ts&play_token=SuhvFEvtjE
-#EXTINF:-1  group-title="Линия"  tvg-id="amedia1" ,AMEDIA 1 HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031869&extension=ts&play_token=0CugPHaVH8
-#EXTINF:-1  group-title="Линия"  tvg-id="amedia-premium" ,Amedia Premium HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031871&extension=ts&play_token=ZFrzKQWhyU
-#EXTINF:-1  group-title="Линия"  tvg-id="amedia-hit" ,Amedia Hit HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031872&extension=ts&play_token=ANg69fnjoa
-#EXTINF:-1  group-title="Линия"  tvg-id="rentv"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/REN TV.png" ,Рен ТВ
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031873&extension=ts&play_token=ePaeIF8QcH
-#EXTINF:-1  group-title="Линия"  tvg-id="rossia1"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RUSSIA 1.png" ,Россия 1 HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031874&extension=ts&play_token=pPg0TtHE6I
-#EXTINF:-1  group-title="Линия"  tvg-id="rossia-24"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/ROSSIYA 24.png" ,Россия 24
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031894&extension=ts&play_token=bPKqd5YmcE
-#EXTINF:-1  group-title="Линия"  tvg-id="muztv" ,Муз ТВ FD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031875&extension=ts&play_token=skaX2D2tpj
-#EXTINF:-1  group-title="Линия"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/LA MINOR.png" ,Live Музыка
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031877&extension=ts&play_token=pfnBIQvlXF
-#EXTINF:-1  group-title="Линия"  tvg-id="kinoseria" ,Киносерия HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031878&extension=ts&play_token=Bg8gFejbJD
-#EXTINF:-1  group-title="Линия"  tvg-id="ntv"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/NTV.png" ,НТВ HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031879&extension=ts&play_token=DSxpR4YJOT
-#EXTINF:-1  group-title="Линия"  tvg-id="rtg-hd"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RTG TV.png" ,RTG SD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031880&extension=ts&play_token=6AGPi9qIWx
-#EXTINF:-1  group-title="Линия"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RTR PLANETA.png" ,Россия РТР
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031881&extension=ts&play_token=VZLhMSSU1P
-#EXTINF:-1  group-title="Линия"  tvg-id="rtd-ru"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RT.png" ,RT Д HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031882&extension=ts&play_token=69BTjSP3T6
-#EXTINF:-1  group-title="Линия"  tvg-id="tnt"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TNT.png" ,ТНТ FD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031884&extension=ts&play_token=bxoi6Jcheb
-#EXTINF:-1  group-title="Линия"  tvg-id="tv3-ru"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TV 3.png" ,ТВ3
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031885&extension=ts&play_token=YhxnkvOHh3
-#EXTINF:-1  group-title="Линия"  tvg-id="zee-tv" ,Индия
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031886&extension=ts&play_token=UvTHdvHY5W
-#EXTINF:-1  group-title="Линия"  tvg-id="5kanal-ru"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/5 KANAL.png" ,5 Канал
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031963&extension=ts&play_token=dtQnRyx2XK
-#EXTINF:-1  group-title="Линия"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/MATCH! FOOTBALL 2.png" ,┃RU┃ MATCH! FOOTBALL 2 HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031939&extension=ts&play_token=SZ4T9Npewh
-#EXTINF:-1  group-title="Линия"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/MATCH! FOOTBALL 3.png" ,┃RU┃ MATCH! FOOTBALL 3 HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031940&extension=ts&play_token=ABaLxPrMFh
-#EXTINF:-1  group-title="Линия"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/MATCH TV.png" ,┃RU┃ MATCH TV HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031937&extension=ts&play_token=qEz9W7RYac
-#EXTINF:-1  group-title="Линия"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/MATCH PREMYER.png" ,┃RU┃ MATCH PREMYER HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031935&extension=ts&play_token=puWqflqs68
-#EXTINF:-1  group-title="Линия"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/MATCH! ARENA.png" ,┃RU┃ MATCH! ARENA HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031936&extension=ts&play_token=8LgXuUuiRU
-#EXTINF:-1  group-title="Линия" ,MATCH!
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031941&extension=ts&play_token=VhG4J9rjsP
-#EXTINF:-1  group-title="Линия"  tvg-id="zvezda"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/ZVEZDATV.png" ,Звезда HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031943&extension=ts&play_token=puVr9gJDDH
-#EXTINF:-1  group-title="Линия"  tvg-id="zhivaya-priroda" ,Живая природа HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031944&extension=ts&play_token=ik3PIwiKHO
-#EXTINF:-1  group-title="Линия"  tvg-id="vremia"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/VREMYA.png" ,Время
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031946&extension=ts&play_token=GgGNDdEFFI
-#EXTINF:-1  group-title="Линия"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/VIASAT NATURE.png" ,VIASAT NATURE FD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031925&extension=ts&play_token=9TuBeSrDA3
-#EXTINF:-1  group-title="Линия" ,ТВЦ HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031970&extension=ts&play_token=7vURzbxbKq
-#EXTINF:-1  group-title="Линия"  tvg-id="tv1000-russkoe-kino"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TV1000 РУССКОЕ.png" ,TV1000 РУССКОЕ
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031905&extension=ts&play_token=2hgUuYMmeo
-#EXTINF:-1  group-title="Линия"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TV1000 РУССКОЕ.png" ,TV1000 РУССКОЕ HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031904&extension=ts&play_token=TngILrSNZd
-#EXTINF:-1  group-title="Линия"  tvg-id="tv1000-action"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TV1000 ACTION.png" ,TV1000 ACTION HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031903&extension=ts&play_token=UsEMFsmiYX
-#EXTINF:-1  group-title="Линия"  tvg-id="tv1000-cee" ,Viasat Kino SD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031902&extension=ts&play_token=AmozTNKLBB
-#EXTINF:-1  group-title="Линия"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TV 1000 MEGAHIT.png" ,TV 1000 MEGAHIT HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031911&extension=ts&play_token=qC1mfoISwF
-#EXTINF:-1  group-title="Линия"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TV1000.png" ,TV 1000 FD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031909&extension=ts&play_token=3xzzjsOYhT
-#EXTINF:-1  group-title="Линия"  tvg-id="travel-channel"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TRAVEL.png" ,Travel Channel
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031947&extension=ts&play_token=9LMkZyoAWD
-#EXTINF:-1  group-title="Линия"  tvg-id="tlc"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TLC.png" ,TLC HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031913&extension=ts&play_token=smKn6c7ThT
-#EXTINF:-1  group-title="Линия"  tvg-id="sovsek"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/SOVERSHENNO SEKRETNO.png" ,СОВЕРШЕННО СЕКРЕТНО
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031950&extension=ts&play_token=w0MGOrKCzQ
-#EXTINF:-1  group-title="Линия"  tvg-id="russky-roman"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RUSSKIY ROMAN.png" ,Русский Роман HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031901&extension=ts&play_token=t8umm0KMTA
-#EXTINF:-1  group-title="Линия"  tvg-id="russky-illuzion"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RUSSKIY ILLYUZION.png" ,Русский Иллюзион HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031900&extension=ts&play_token=mBkWHtUyQZ
-#EXTINF:-1  group-title="Линия"  tvg-id="russky-ekstrim"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RUSSKIY EKSTRIM.png" ,Русский Экстрим
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031899&extension=ts&play_token=pJY5xrBhHh
-#EXTINF:-1  group-title="Линия"  tvg-id="russky-detektiv"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RUSSKIY DETEKTIV.png" ,Русский Детектив
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031898&extension=ts&play_token=ZuYKr6Sl47
-#EXTINF:-1  group-title="Линия"  tvg-id="russky-bestseller"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RUSSKIY BESTSELLER.png" ,Русский Бестселлер
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031897&extension=ts&play_token=zhQXUTiuD7
-#EXTINF:-1  group-title="Линия"  tvg-id="shanson-tv" ,Шансон ТВ
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031895&extension=ts&play_token=Ck1nCU4QlZ
-#EXTINF:-1  group-title="Линия"  tvg-id="rodnoe-kino"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RODNOE KINO.png" ,Родное Кино
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031918&extension=ts&play_token=DGx5mjEKFf
-#EXTINF:-1  group-title="Линия"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RBK TV.png" ,РБК HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031942&extension=ts&play_token=IWd85vLjE3
-#EXTINF:-1  group-title="Линия"  tvg-id="pobeda" ,Победа
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031910&extension=ts&play_token=udtzi6uLyv
-#EXTINF:-1  group-title="Линия"  tvg-id="pervy"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/PERVYJ KANAL.png" ,Первый канал HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031906&extension=ts&play_token=u76EuhnWWk
-#EXTINF:-1  group-title="Линия"  tvg-id="oxotnik-i-rybolov-hd"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/OHOTNIK I RYBOLOV.png" ,Охотник и Рыболов HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031952&extension=ts&play_token=E5kxk3MSlX
-#EXTINF:-1  group-title="Линия"  tvg-id="oxota-i-rybalka"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/OHOTA I RYBALKA.png" ,Охота и рыбалка HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031951&extension=ts&play_token=upBAKshhfc
-#EXTINF:-1  group-title="Линия"  tvg-id="nickelodeon-ru"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/NICKELODEON.png" ,Nickelodeon HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031916&extension=ts&play_token=gNTdjvJt7O
-#EXTINF:-1  group-title="Линия"  tvg-id="nauka-20"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/NAUKA 2.0.png" ,Наука 2.0 HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031956&extension=ts&play_token=GQUQwploSs
-#EXTINF:-1  group-title="Линия"  tvg-id="nat-geo-wild"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/NAT GEO WILD.png" ,NAT GEO WILD HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031927&extension=ts&play_token=Iiix12JsjW
-#EXTINF:-1  group-title="Линия"  tvg-id="galaxy-tv" ,GALAXY SD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031926&extension=ts&play_token=0W7MvUfcLZ
-#EXTINF:-1  group-title="Линия"  tvg-id="nashe-novoe-kino"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/NASHE NOVOE KINO.png" ,Наше Новое Кино HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031893&extension=ts&play_token=FVTY1Deq2j
-#EXTINF:-1  group-title="Линия"  tvg-id="muzyka-pervogo"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/MUZYKA PERVOGO.png" ,Музыка Первого
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031892&extension=ts&play_token=mh9lBltYck
-#EXTINF:-1  group-title="Линия"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/MUSIC BOX.png" ,GOLD MUSIC BOX
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031917&extension=ts&play_token=fuzB1R0Q0J
-#EXTINF:-1  group-title="Линия"  tvg-id="mult"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/MULYT.png" ,Мульт
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031891&extension=ts&play_token=vvG1siV1Gn
-#EXTINF:-1  group-title="Линия"  tvg-id="bridge-tv" ,Bridge
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031922&extension=ts&play_token=sliky2aQcT
-#EXTINF:-1  group-title="Линия"  tvg-id="kinoseria"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/KINOSERIYA.png" ,Киносерия HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031921&extension=ts&play_token=l1ap2Auu6n
-#EXTINF:-1  group-title="Линия"  tvg-id="kinokomedia" ,КИНОКОМЕДИЯ FD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031920&extension=ts&play_token=PfYb99JQ5W
-#EXTINF:-1  group-title="Линия"  tvg-id="kinoxit"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/KINOHIT.png" ,КИНОХИТ
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031890&extension=ts&play_token=N15C9EQfmI
-#EXTINF:-1  group-title="Линия"  tvg-id="khl-hd" ,KHL Prime HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031889&extension=ts&play_token=lrkdC0zghp
-#EXTINF:-1  group-title="Линия"  tvg-id="istoria"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/ISTORIA.png" ,История SD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031957&extension=ts&play_token=kZxohROmBe
-#EXTINF:-1  group-title="Линия"  tvg-id="glazami-turista"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/GLASAMI TURISTA.png" ,Глазами Туриста HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031959&extension=ts&play_token=z2sbZSztH9
-#EXTINF:-1  group-title="Линия"  tvg-id="foxlife"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/FOX LIFE.png" ,FOX Life HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031908&extension=ts&play_token=Ckgr9ctHtD
-#EXTINF:-1  group-title="Линия"  tvg-id="fox"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/FOX.png" ,FOX HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031907&extension=ts&play_token=ONBvTBpmwA
-#EXTINF:-1  group-title="Линия"  tvg-id="evrokino"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/EVRO KINO.png" ,Еврокино HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031887&extension=ts&play_token=84xnOnH0ZV
-#EXTINF:-1  group-title="Линия"  tvg-id="eurosport1"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/EUROSPORT 1.png" ,EUROSPORT 1 HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031933&extension=ts&play_token=bEI2KpG7Ws
-#EXTINF:-1  group-title="Линия"  tvg-id="eurosport2"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/EUROSPORT 2.png" ,EUROSPORT 2 HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031934&extension=ts&play_token=3sswe5QZNJ
-#EXTINF:-1  group-title="Линия"  tvg-id="dozhd"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/DOZD.png" ,ДОЖДЬ HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031961&extension=ts&play_token=vAH4NNHJkC
-#EXTINF:-1  group-title="Линия"  tvg-id="illuzion-plus" ,ИЛЛЮЗИОН+ SD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031919&extension=ts&play_token=bbTv2UDQZL
-#EXTINF:-1  group-title="Линия"  tvg-id="domkino"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/DOM KINO.png" ,Дом Кино HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031896&extension=ts&play_token=AIejVl73oa
-#EXTINF:-1  group-title="Линия"  tvg-id="discovery-channel" ,DISCOVERY HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031931&extension=ts&play_token=9C0hndElOQ
-#EXTINF:-1  group-title="Линия"  tvg-id="discovery-channel" ,DISCOVERY SD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031930&extension=ts&play_token=HDJpxgCN2L
-#EXTINF:-1  group-title="Линия"  tvg-id="discovery-channel"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/DISCOVERY CHANNEL.png" ,DISCOVERY CHANNEL FD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031928&extension=ts&play_token=ghKsJXNm1D
-#EXTINF:-1  group-title="Линия"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/DISCOVERY ID EXTRA.png" ,DISCOVERY ID EXTRA HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031929&extension=ts&play_token=61HrCjaM0q
-#EXTINF:-1  group-title="Линия"  tvg-id="dikaya-rybalka-hd"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/DIKAYA RYBALKA.png" ,Дикая Рыбалка HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031954&extension=ts&play_token=lYEyEiNWjH
-#EXTINF:-1  group-title="Линия"  tvg-id="dikaya-oxota-hd"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/DIKAYA OKHOTA.png" ,Дикая Охота HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031953&extension=ts&play_token=nrT3Px3835
-#EXTINF:-1  group-title="Линия"  tvg-id="sts"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/CTC.png" ,СТС HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031969&extension=ts&play_token=0tW4hDAopr
-#EXTINF:-1  group-title="Линия"  tvg-id="box-tv"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/BOKS TV.png" ,Бокс ТВ HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031948&extension=ts&play_token=iGlTehvpY7
-#EXTINF:-1  group-title="Линия"  tvg-id="belarus5"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/BELARUS 5.png" ,Беларусь 5 HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031967&extension=ts&play_token=yzUqaZTzRO
-#EXTINF:-1  group-title="Линия"  tvg-id="belarus3"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/BELARUS 3.png" ,Беларусь 3 HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031966&extension=ts&play_token=cUaXe9eXi3
-#EXTINF:-1  group-title="Линия"  tvg-id="belarus24"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/BELARUS 24.png" ,Беларусь 24
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031968&extension=ts&play_token=mYmn26Co24
-#EXTINF:-1  group-title="Линия"  tvg-id="belarus2"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/BELARUS 2.png" ,Беларусь 2 HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031965&extension=ts&play_token=J4YDxemqt1
-#EXTINF:-1  group-title="Линия"  tvg-id="belarus1"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/BELARUS 1.png" ,Беларусь 1 HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031964&extension=ts&play_token=V8Q4QMvbBT
-#EXTINF:-1  group-title="Линия"  tvg-id="365-dnej" ,365 Дней
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031960&extension=ts&play_token=vOG0SzbmGx
-#EXTINF:-1  group-title="Линия"  tvg-id="9kanal-israel"  tvg-logo="http://picon.tivi-ott.net:25461/picon/ISRAEL/IL ISREAL/CHANNEL 9 HD.png" ,9 канал (Израиль) HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=904506&extension=ts&play_token=CYcOcLb5QH
-#EXTINF:-1  group-title="Линия"  tvg-id="9kanal-israel"  tvg-logo="http://picon.tivi-ott.net:25461/picon/ISRAEL/IL ISREAL/CHANNEL 9.png" ,9 канал (Израиль) SD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=904505&extension=ts&play_token=V7nSPLFBPG
-#EXTINF:-1  group-title="Линия"  tvg-id="muztv"  tvg-logo="http://picon.tivi-ott.net:25461/picon/AZERBAIJAN/MUZ TV.png" ,Муз ТВ HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=384761&extension=ts&play_token=LTwdiLO7jT
-#EXTINF:-1  group-title="Линия"  tvg-id="cbc-az"  tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/AZERAIJAN/CBC_Logo.png" ,CBC
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=384772&extension=ts&play_token=I4H7WgEjLh
-#EXTINF:-1  group-title="Линия"  tvg-id="setanta-sports-plus" ,Setanta Sports 2 HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=384870&extension=ts&play_token=5NuX9A7KqQ
 #EXTINF:-1  group-title="OnAir (limit)"  tvg-id="eurosport1" ,Eurosport 1
 https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132477&extension=ts
 #EXTINF:-1  group-title="OnAir (limit)"  tvg-id="eurosport2" ,Eurosport 2 SD
@@ -6024,250 +5966,4 @@ http://stream.mcquack.net/376/index.m3u8
 http://stream.mcquack.net/375/index.m3u8
 #EXTINF:-1  group-title="Тест"   tvg-rec="7" timeshift="7",One TV (Молдова)
 http://stream.mcquack.net/335/index.m3u8
-#EXTINF:-1  group-title="Связь"  tvg-id="pervy" ,ПЕРВЫЙ КАНАЛ
-http://95.215.124.204:5000/udp/225.1.2.1:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="rossia1" ,РОССИЯ 1
-http://95.215.124.204:5000/udp/225.1.2.2:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="prodvizhenie" ,Продвижение
-http://95.215.124.204:5000/udp/225.1.2.3:1234
-#EXTINF:-1  group-title="Связь" ,РОССИЯ-К
-http://95.215.124.204:5000/udp/225.1.2.4:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="5kanal-ru" ,ПЯТЫЙ КАНАЛ
-http://95.215.124.204:5000/udp/225.1.2.5:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="ntv" ,НТВ
-http://95.215.124.204:5000/udp/225.1.2.6:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="karusel" ,КАРУСЕЛЬ
-http://95.215.124.204:5000/udp/225.1.2.7:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="match-tv" ,МАТЧ!
-http://95.215.124.204:5000/udp/225.1.2.8:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="tvcentr" ,ТВ Центр
-http://95.215.124.204:5000/udp/225.1.2.10:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="tnt" ,ТНТ
-http://95.215.124.204:5000/udp/225.1.2.11:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="sts" ,СТС
-http://95.215.124.204:5000/udp/225.1.2.12:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="spas" ,Спас
-http://95.215.124.204:5000/udp/225.1.2.13:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="domashny" ,Домашний
-http://95.215.124.204:5000/udp/225.1.2.14:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="tv3-ru" ,ТВ3
-http://95.215.124.204:5000/udp/225.1.2.15:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="zvezda" ,Звезда
-http://95.215.124.204:5000/udp/225.1.2.16:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="piatnica" ,Пятница
-http://95.215.124.204:5000/udp/225.1.2.18:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="otr" ,ОТР
-http://95.215.124.204:5000/udp/225.1.2.19:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="mir" ,МИР
-http://95.215.124.204:5000/udp/225.1.2.20:1234
-#EXTINF:-1  group-title="Связь" ,RT Region SD
-http://95.215.124.204:5000/udp/225.1.2.21:1234
-#EXTINF:-1  group-title="Связь" ,Первый Крым
-http://95.215.124.204:5000/udp/225.1.2.22:1234
-#EXTINF:-1  group-title="Связь" ,Телеканал 360 HD
-http://95.215.124.204:5000/udp/225.1.2.23:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="muztv" ,МУЗ ТВ
-http://95.215.124.204:5000/udp/225.1.2.25:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="rentv" ,РЕН ТВ
-http://95.215.124.204:5000/udp/225.1.2.26:1234
-#EXTINF:-1  group-title="Связь" ,Аист ТВ HD
-http://95.215.124.204:5000/udp/225.1.2.27:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="izvestia" ,Известия
-http://95.215.124.204:5000/udp/225.1.2.28:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="sts-love" ,СТС Love
-http://95.215.124.204:5000/udp/225.1.2.29:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="2na2" ,2х2
-http://95.215.124.204:5000/udp/225.1.2.30:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="rossia-24" ,РОССИЯ 24
-http://95.215.124.204:5000/udp/225.1.2.9:1234
-#EXTINF:-1  group-title="Связь" ,Mир 24 HD
-http://95.215.124.204:5000/udp/225.1.2.31:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="che" ,Че!
-http://95.215.124.204:5000/udp/225.1.2.32:1234
-#EXTINF:-1  group-title="Связь" ,РБК HD
-http://95.215.124.204:5000/udp/225.1.2.33:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="solnce" ,Солнце
-http://95.215.124.204:5000/udp/225.1.2.34:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="tnt-music" ,ТНТ Music
-http://95.215.124.204:5000/udp/225.1.2.37:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="super" ,Суббота!
-http://95.215.124.204:5000/udp/225.1.2.40:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="yu" ,Ю ТВ
-http://95.215.124.204:5000/udp/225.1.2.38:1234
-#EXTINF:-1  group-title="Связь" ,Витрина ТВ
-http://95.215.124.204:5000/udp/225.1.2.41:1234
-#EXTINF:-1  group-title="Связь" ,Russian Music Box HD
-http://95.215.124.204:5000/udp/225.1.2.43:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="krasnaya-linia" ,Красная Линия
-http://95.215.124.204:5000/udp/225.1.2.44:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="anekdottv" ,Анекдот ТВ
-http://95.215.124.204:5000/udp/225.1.2.47:1234
-#EXTINF:-1  group-title="Связь" ,Телеканал Пингвин
-http://95.215.124.204:5000/udp/225.1.2.50:1234
-#EXTINF:-1  group-title="Связь" ,Первый Канал (+4) HD
-http://95.215.124.204:5000/udp/225.1.2.51:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="rossia1" ,Россия 1 HD
-http://95.215.124.204:5000/udp/225.1.2.52:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="rtd-ru" ,RT DOC
-http://95.215.124.204:5000/udp/225.1.2.54:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="zdorovoe-tv" ,Здоровое ТВ
-http://95.215.124.204:5000/udp/225.1.2.55:1234
-#EXTINF:-1  group-title="Связь" ,Психология
-http://95.215.124.204:5000/udp/225.1.2.56:1234
-#EXTINF:-1  group-title="Связь" ,Вопросы Ответы
-http://95.215.124.204:5000/udp/225.1.2.57:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="teatr" ,Театр
-http://95.215.124.204:5000/udp/225.1.2.60:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="nano-tv" ,Нано
-http://95.215.124.204:5000/udp/225.1.2.61:1234
-#EXTINF:-1  group-title="Связь" ,Europa Plus TV SD
-http://95.215.124.204:5000/udp/225.1.2.63:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="sarafan" ,Сарафан
-http://95.215.124.204:5000/udp/225.1.2.64:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="soyuz" ,Союз
-http://95.215.124.204:5000/udp/225.1.2.65:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="domashnie-zhivotnye" ,Домашние Животные
-http://95.215.124.204:5000/udp/225.1.2.66:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="nashe-muzhskoe" ,Наше Мужское
-http://95.215.124.204:5000/udp/225.1.2.67:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="blokbaster" ,Блокбастер
-http://95.215.124.204:5000/udp/225.1.2.68:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="rtg-tv" ,RTG TV
-http://95.215.124.204:5000/udp/225.1.2.69:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="kamedi" ,КАМЕДИ
-http://95.215.124.204:5000/udp/225.1.2.70:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="bridge-tv-classic" ,BRIDGE CLASSIC
-http://95.215.124.204:5000/udp/225.1.2.71:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="pobeda" ,Победа
-http://95.215.124.204:5000/udp/225.1.2.72:1234
-#EXTINF:-1  group-title="Связь" ,BRIDGE HITS
-http://95.215.124.204:5000/udp/225.1.2.73:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="ru-tv" ,RU.TV HD
-http://95.215.124.204:5000/udp/225.1.2.75:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="bridge-tv" ,BRIDGE
-http://95.215.124.204:5000/udp/225.1.2.77:1234
-#EXTINF:-1  group-title="Связь" ,BRIDGE Русский Хит
-http://95.215.124.204:5000/udp/225.1.2.79:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="shanson-tv" ,Шансон ТВ
-http://95.215.124.204:5000/udp/225.1.2.80:1234
-#EXTINF:-1  group-title="Связь" ,Techno 24
-http://95.215.124.204:5000/udp/225.1.2.81:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="football-ru" ,Телеканал Футбол
-http://95.215.124.204:5000/udp/225.1.2.82:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="rodnoe-kino" ,Родное Кино
-http://95.215.124.204:5000/udp/225.1.2.83:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="kinokomedia" ,Кинокомедия
-http://95.215.124.204:5000/udp/225.1.2.84:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="kinomiks" ,Киномикс
-http://95.215.124.204:5000/udp/225.1.2.85:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="nashe-novoe-kino" ,Наше Новое Кино
-http://95.215.124.204:5000/udp/225.1.2.86:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="domkino-premium" ,Дом Кино Премиум HD
-http://95.215.124.204:5000/udp/225.1.2.87:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="nst" ,НСТ
-http://95.215.124.204:5000/udp/225.1.2.88:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="doktor" ,Доктор
-http://95.215.124.204:5000/udp/225.1.2.89:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="box-tv" ,БОКС ТВ
-http://95.215.124.204:5000/udp/225.1.2.90:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="tnt4" ,ТНТ4
-http://95.215.124.204:5000/udp/225.1.2.91:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="kinouzhas" ,Киноужас
-http://95.215.124.204:5000/udp/225.1.2.92:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="oruzhie" ,Оружие
-http://95.215.124.204:5000/udp/225.1.2.94:1234
-#EXTINF:-1  group-title="Связь" ,Феникс плюс Кино
-http://95.215.124.204:5000/udp/225.1.2.95:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="muzhskoy" ,Мужской
-http://95.215.124.204:5000/udp/225.1.2.96:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="zagorodnaya-zhizn" ,Загородная жизнь
-http://95.215.124.204:5000/udp/225.1.2.97:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="tayny-galaktiki" ,Тайны галактики
-http://95.215.124.204:5000/udp/225.1.2.105:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="terra-ru" ,Terra
-http://95.215.124.204:5000/udp/225.1.2.107:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="russkaya-komedia" ,Комедия
-http://95.215.124.204:5000/udp/225.1.2.110:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="retro-tv" ,Ретро
-http://95.215.124.204:5000/udp/225.1.2.111:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="usadba" ,Усадьба
-http://95.215.124.204:5000/udp/225.1.2.112:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="oxota-i-rybalka" ,Охота и Рыбалка
-http://95.215.124.204:5000/udp/225.1.2.116:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="drive" ,Драйв
-http://95.215.124.204:5000/udp/225.1.2.118:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="sov-kinklass" ,Советская Киноклассика
-http://95.215.124.204:5000/udp/225.1.2.119:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="russky-ekstrim" ,Russian Extreme
-http://95.215.124.204:5000/udp/225.1.2.120:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="bobior" ,Бобёр
-http://95.215.124.204:5000/udp/225.1.2.121:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="domkino" ,Дом Кино
-http://95.215.124.204:5000/udp/225.1.2.122:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="muzyka-pervogo" ,Музыка Первого
-http://95.215.124.204:5000/udp/225.1.2.123:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="vremia" ,Время
-http://95.215.124.204:5000/udp/225.1.2.124:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="telekafe" ,Телекафе
-http://95.215.124.204:5000/udp/225.1.2.125:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="lapki-live" ,Лапки LIVE
-http://95.215.124.204:5000/udp/225.1.2.132:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="detsky" ,Уникум
-http://95.215.124.204:5000/udp/225.1.2.134:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="russky-illuzion" ,Русский Иллюзион
-http://95.215.124.204:5000/udp/225.1.2.135:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="illuzion-plus" ,Иллюзион +
-http://95.215.124.204:5000/udp/225.1.2.136:1234
-#EXTINF:-1  group-title="Связь" ,Zoo Парк
-http://95.215.124.204:5000/udp/225.1.2.137:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="avto24" ,АВТО 24
-http://95.215.124.204:5000/udp/225.1.2.138:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="evrokino" ,Еврокино
-http://95.215.124.204:5000/udp/225.1.2.139:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="russky-detektiv" ,Русский Детектив
-http://95.215.124.204:5000/udp/225.1.2.140:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="zhivaya-planeta" ,Живая Планета
-http://95.215.124.204:5000/udp/225.1.2.142:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="moya-planeta" ,Моя Планета
-http://95.215.124.204:5000/udp/225.1.2.143:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="nauka" ,Наука
-http://95.215.124.204:5000/udp/225.1.2.144:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="poexali" ,Поехали!
-http://95.215.124.204:5000/udp/225.1.2.145:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="russky-bestseller" ,Русский Бестселлер
-http://95.215.124.204:5000/udp/225.1.2.146:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="pro-lyubov" ,Про Любовь
-http://95.215.124.204:5000/udp/225.1.2.147:1234
-#EXTINF:-1  group-title="Связь" ,Телеканал О!
-http://95.215.124.204:5000/udp/225.1.2.148:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="kinoseria" ,Киносерия
-http://95.215.124.204:5000/udp/225.1.2.149:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="istoria" ,История
-http://95.215.124.204:5000/udp/225.1.2.150:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="cinema-ru" ,Cinema
-http://95.215.124.204:5000/udp/225.1.2.152:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="mult" ,Мульт
-http://95.215.124.204:5000/udp/225.1.2.153:1234
-#EXTINF:-1  group-title="Связь" ,Mama
-http://95.215.124.204:5000/udp/225.1.2.154:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="match-igra" ,Матч! Игра
-http://95.215.124.204:5000/udp/225.1.2.155:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="match-arena" ,Матч! Арена
-http://95.215.124.204:5000/udp/225.1.2.156:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="match-boets" ,Матч! Боец
-http://95.215.124.204:5000/udp/225.1.2.157:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="zee-tv" ,Индия
-http://95.215.124.204:5000/udp/225.1.2.159:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="multimania" ,Мультиландия
-http://95.215.124.204:5000/udp/225.1.2.160:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="kxl" ,КХЛ
-http://95.215.124.204:5000/udp/225.1.2.162:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="lubimoe-kino" ,Любимое Кино
-http://95.215.124.204:5000/udp/225.1.2.163:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="dorama" ,Дорама
-http://95.215.124.204:5000/udp/225.1.2.169:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="russkaya-noch" ,Русская Ночь
-http://95.215.124.204:5000/udp/225.1.2.175:1234
-#EXTINF:-1  group-title="Связь"  tvg-id="nash-kinopokaz" ,Наш Кинопоказ
-http://95.215.124.204:5000/udp/225.1.2.193:1234
 #EXT-X-ENDLIST
