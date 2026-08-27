@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 26.08.26
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 27.08.26
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg"   tvg-name="Первый канал", Первый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
@@ -33,18 +33,12 @@ https://tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.stream/playlist.m3u8
 https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="http://epg.it999.ru/img/983.png" ,Первый канал HD
 https://edge4.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
-#EXTINF:-1  group-title="Эфирные"  tvg-id="rossia1" , Россия 1 HD
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="mir-premium"  tvg-logo="https://www.oreol.tv/img/mirpremium1.jpg" ,Мир Premium HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="rbk" , РБК HD
 http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
-#EXTINF:-1  group-title="Эфирные"  tvg-id="rossia1" , Россия 1 HD
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/1080p.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="zvezda" , Звезда HD
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
-#EXTINF:-1  group-title="Эфирные" , Россия Культура HD
-http://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
 #EXTINF:-1  group-title="Эфирные" , 360° Новости HD
 http://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/tracks-v5a1/mono.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://iptvx.one/picons/pervy.png" ,1 канал HD
@@ -79,10 +73,6 @@ http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031894&e
 http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031879&extension=ts&play_token=DSxpR4YJOT
 #EXTINF:-1  group-title="Эфирные"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/RTR PLANETA.png" ,Россия РТР
 http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031881&extension=ts&play_token=VZLhMSSU1P
-#EXTINF:-1  group-title="Эфирные"  tvg-id="tnt"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TNT.png" ,ТНТ FD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031884&extension=ts&play_token=bxoi6Jcheb
-#EXTINF:-1  group-title="Эфирные"  tvg-id="tv3-ru"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TV 3.png" ,ТВ3
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031885&extension=ts&play_token=YhxnkvOHh3
 #EXTINF:-1  group-title="Эфирные"  tvg-id="5kanal-ru"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/5 KANAL.png" ,5 Канал
 http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031963&extension=ts&play_token=dtQnRyx2XK
 #EXTINF:-1  group-title="Эфирные"  tvg-id="zvezda"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/ZVEZDATV.png" ,Звезда HD
@@ -447,8 +437,6 @@ http://cdn-01.bonus-tv.ru/prosveschenie_edge/tracks-v1a1/mono.m3u8
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_TRAVEL/variant.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="neizvestnaya-planeta"  tvg-logo="https://iptvx.one/picons/neizvestnaya-planeta.png" ,Неизвестная Планета
 http://stitch.teletarget.ru/api/v1/hls/vintera/neplaneta/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" , 1autotvru
-rtmp://vkvsd158.okcdn.ru/playback/10332204051428?stkn=hVx0kn1sfv1eSrGAlIcUsySgZkHrd9_xf3lTnhlbP9v3QWoCIPDZ6tWCko0yGbsh45skapyzpt4&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
 #EXTINF:-1  group-title="Познавательные"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" ,Terra Incognita
 http://stitch.teletarget.ru/vintera/terra/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-explore" ,Viasat Explore
@@ -527,8 +515,6 @@ http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031882&e
 http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031880&extension=ts&play_token=6AGPi9qIWx
 #EXTINF:-1  group-title="Познавательные"  tvg-id="zhivaya-priroda" ,Живая природа HD
 http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031944&extension=ts&play_token=ik3PIwiKHO
-#EXTINF:-1  group-title="Познавательные"  tvg-id="travel-channel"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TRAVEL.png" ,Travel Channel
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031947&extension=ts&play_token=9LMkZyoAWD
 #EXTINF:-1  group-title="Познавательные"  tvg-id="tlc"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/TLC.png" ,TLC HD
 http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031913&extension=ts&play_token=smKn6c7ThT
 #EXTINF:-1  group-title="Познавательные"  tvg-id="sovsek"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/SOVERSHENNO SEKRETNO.png" ,СОВЕРШЕННО СЕКРЕТНО
@@ -817,18 +803,12 @@ http://kinowalk.hopto.org/selecaotv_live
 http://kinowalk.hopto.org/videoarsenal_live
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" , Cinema Time FHD
 http://kinowalk.hopto.org/cinematime_live
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="tv1000-russkoe-kino" ,TV1000 Русское кино
-http://213.91.179.28:8000/play/a0bx
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="lubimoe-kino" ,Любимое кино
-http://213.91.179.28:8000/play/a0af
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" , Video_Prokat FHD
 http://kinowalk.hopto.org/video_prokat_live
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" ,НТВ Хит
 https://cdn.ntv.ru/th_hit/tracks-v1a1/playlist.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" ,НТВ Сериал
 https://cdn.ntv.ru/th_serial/tracks-v1a1/playlist.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/zHrPSQ9v/image-15.png" ,KinoMix
-https://ab2262fdd9c5.eu-central-1.playback.live-video.net/api/video/v1/eu-central-1.061051251131.channel.QK20f3fCHAGw.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" ,RANDOM BEST FILMS
 https://tinyurl.com/aleks-u-romki-40/11043/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" ,Arpinet
@@ -935,14 +915,8 @@ http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031918&e
 http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031910&extension=ts&play_token=udtzi6uLyv
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="nashe-novoe-kino"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/NASHE NOVOE KINO.png" ,Наше Новое Кино HD
 http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031893&extension=ts&play_token=FVTY1Deq2j
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinoseria"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/KINOSERIYA.png" ,Киносерия HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031921&extension=ts&play_token=l1ap2Auu6n
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinokomedia" ,КИНОКОМЕДИЯ FD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031920&extension=ts&play_token=PfYb99JQ5W
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinoxit"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/KINOHIT.png" ,КИНОХИТ
 http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031890&extension=ts&play_token=N15C9EQfmI
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="foxlife"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/FOX LIFE.png" ,FOX Life HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031908&extension=ts&play_token=Ckgr9ctHtD
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fox"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/FOX.png" ,FOX HD
 http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031907&extension=ts&play_token=ONBvTBpmwA
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="evrokino"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/EVRO KINO.png" ,Еврокино HD
@@ -3818,8 +3792,6 @@ http://iptv.prosto.tv:7000/ch313/video.m3u8?secret=cledwwov
 http://99.27.51.147:8080/BeinSport3/index.m3u8
 #EXTINF:-1  group-title="Спортивные" , REAL MADRID
 https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
-#EXTINF:-1  group-title="Спортивные" ,Матч! Футбол 3 SD
-http://185.57.68.33:8091/110/index.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="belarus5"  tvg-logo="https://iptvx.one/picons/belarus5hd.png" ,Беларусь 5 HD
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-tv"  tvg-logo="https://iptvx.one/picons/match-tv.png" ,Матч!
@@ -3838,8 +3810,6 @@ http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031934&e
 http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031948&extension=ts&play_token=iGlTehvpY7
 #EXTINF:-1  group-title="Спортивные"  tvg-id="belarus5"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/BELARUS 5.png" ,Беларусь 5 HD
 http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031967&extension=ts&play_token=yzUqaZTzRO
-#EXTINF:-1  group-title="Спортивные"  tvg-id="setanta-sports-plus" ,Setanta Sports 2 HD
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=384870&extension=ts&play_token=5NuX9A7KqQ
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-arena" ,Матч! Арена
 http://31.210.208.171:8080/match_arena/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-igra" ,МАТЧ! ИГРА
@@ -6130,558 +6100,6 @@ https://stream8.cinerama.uz/1497/tracks-v1a1/mono.m3u8
 http://
 #EXTINF:-1  group-title="Узбекистан"   audio-track="rus",S Cinema
 https://stream8.cinerama.uz/1498/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="eurosport1" ,Eurosport 1
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132477&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="eurosport2" ,Eurosport 2 SD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132478&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="match-tv" ,Матч!
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132569&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="match-boets" ,Матч! Боец HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132570&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kxl" ,KHL
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132527&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kxl" ,KHL
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132526&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="detsky-mir" ,Детский Мир
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132446&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="nickelodeon-ru" ,Nickelodeon
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132614&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="jimjam" ,JIM JAM
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132524&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="belarus3" ,Беларусь 3 HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1588627&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="tro" ,БелРос
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1588631&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="LyaMinorTV.ru"  tvg-logo="http://picons.cmshulk.com/picons/132551.png" ,RU| LA MINOR
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132551&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="russky-illuzion" ,Русский Иллюзион
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132693&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="pervy" ,ПЕРВЫЙ КАНАЛ HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132645&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="rossia1" ,РОССИЯ 1
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132671&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="ntv" ,НТВ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132512&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="ntv" ,НТВ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1588622&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="che" ,Че!
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1588632&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="rentv" ,PEH TB HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132642&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="moskva-24" ,МОСКВА 24
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132582&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="euronews"  tvg-logo="http://picons.cmshulk.com/picons/132475.png" ,EURONEWS
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132475&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="pobeda"  tvg-logo="http://picons.cmshulk.com/picons/1523561.png" ,Победа
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1523561&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="vip-megahit"  tvg-logo="http://picons.cmshulk.com/picons/132752.png" ,TV1000 MEGAHIT HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132752&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="tv1000-russkoe-kino"  tvg-logo="http://picons.cmshulk.com/picons/132754.png" ,TV1000 Русское Кино HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132754&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="rodnoe-kino" ,Родное Кино
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132625&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kinouzhas" ,Киноужас
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148925&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kinosvidanie" ,Киносвидание HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132531&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kinoseria" ,Киносерия HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300823&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="lubimoe-kino" ,Любимое Кино
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132553&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="nashesd" ,Наше HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132623&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="dorama" ,Дорама
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132458&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="ostrosiuzhetnoe-hd" ,ОСТРОСЮЖЕТНОЕ КИНО HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132638&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="sony-tv" ,.red HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132699&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="romance" ,Romance HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148901&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="pervy" ,ПЕРВЫЙ КАНАЛ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132644&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="pervy" ,ПЕРВЫЙ КАНАЛ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132442&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="rossia1" ,РОССИЯ 1
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132669&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="sts" ,СТС
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148915&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="tlc"  tvg-logo="http://picons.cmshulk.com/picons/132731.png" ,TLC
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132731&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="che" ,ЧЕ!
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132437&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="zvezda" ,ЗВЕЗДА
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132797&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,РТР ПЛАНЕТА
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132677&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,ПЕРВЫЙ КАНПЛ ЕВРОПА
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300913&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,НТВ МИР
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132620&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="rentv" ,РЕН ТВ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132667&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="TLC.ru"  tvg-logo="http://picons.cmshulk.com/picons/132730.png" ,RU| TLC
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132730&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="5kanal-ru" ,ПЯТЫЙ КАНАЛ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300700&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="tvcentr"  tvg-logo="http://picons.cmshulk.com/picons/132755.png" ,ТВЦ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132755&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-logo="http://picons.cmshulk.com/picons/132727.png" ,THT
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148918&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-logo="http://picons.cmshulk.com/picons/132728.png" ,THT4
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132728&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-logo="http://picons.cmshulk.com/picons/132727.png" ,THT
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132727&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="tnt"  tvg-logo="http://picons.cmshulk.com/picons/132735.png" ,ТНТ HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132735&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="tnt" ,ТНТ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132733&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="tnt4" ,ТНТ4
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132737&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,TBK HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1416596&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="world-fashion-channel"  tvg-logo="http://picons.cmshulk.com/picons/132792.png" ,World Fashion Channel
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132792&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="fashion-tv"  tvg-logo="http://picons.cmshulk.com/picons/132494.png" ,Fashion TV
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132494&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="fine-living"  tvg-logo="http://picons.cmshulk.com/picons/132488.png" ,FINE LIVING
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132488&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="domashny" ,ДОМАШНИЙ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132456&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="sts-kids-hd"  tvg-logo="http://picons.cmshulk.com/picons/132712.png" ,СТС KIDS
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132712&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="mir" ,МИР HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132578&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,CTC LOVE
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132441&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="mir" ,МИР
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132576&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="mir-24" ,МИР 24
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132579&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="piatnica" ,ПЯТНИЦА!
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132664&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="sarafan" ,Сарафан
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132697&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="rossia-24" ,РОССИЯ 24
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132687&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="rbk" ,РБК
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132666&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="izvestia" ,ИЗВЕСТИЯ HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148916&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-logo="http://picons.cmshulk.com/picons/132491.png" ,КИНЕКО HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132491&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-logo="http://picons.cmshulk.com/picons/132784.png" ,VIASAT TV1000
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132784&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="tv1000-premium"  tvg-logo="http://picons.cmshulk.com/picons/132753.png" ,TV1000 PREMIUM HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132753&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="vip-comedy" ,TV1000 COMEDY HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132751&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="tv1000"  tvg-logo="http://picons.cmshulk.com/picons/132749.png" ,TV1000
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132749&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="tv1000-action"  tvg-logo="http://picons.cmshulk.com/picons/132750.png" ,TV1000 ACTION
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132750&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="russkaya-komedia" ,КОМЕДИЯ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132532&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="ntv-serial" ,НТВ Сериал
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132698&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="nashe-novoe-kino" ,НАШЕ НОВОЕ КИНО
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132608&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,НАШЕ РОДНОЕ КИНО
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300891&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kino-tv" ,КИНО ТВ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300814&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kinoseria" ,КИНОСЕРИЯ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132530&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kinomiks" ,КИНОМИКС
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132541&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kinokomedia" ,КИНОКОМЕДИЯ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132539&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kinoxit" ,КИНОХИТ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132540&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-logo="http://picons.cmshulk.com/picons/132438.png" ,СИНЕМА
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132438&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="evrokino" ,ЕВРОКИНО
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132482&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="domkino" ,ДОМ КИНО
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132454&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="domkino-premium" ,ДОМ КИНО ПРЕМИУМ HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132457&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="domkino-premium" ,ДОМ КИНО ПРЕМИУМ HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300751&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="indiyskoe-kino" ,ИНДИЙСКОЕ КИНО
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132521&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="muzhskoe-kino" ,МУЖСКОЕ КИНО
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132604&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kino-tv" ,КИНО ТВ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132528&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kinopremiera-hd" ,КИНОПРЕМЬЕРА HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132529&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="komedijnoe" ,Комедийное
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132543&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kinokomedia" ,КИНОКОМЕДИЯ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148926&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,VIJU SERIAL HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148895&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,Феникс + Кино
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300783&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,Феникс Плюс Кино
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132495&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="russky-roman" ,РУССКИЙ РОМАН
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132686&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="mir-seriala"  tvg-logo="http://picons.cmshulk.com/picons/1148895.png" ,МИР СЕРИАЛА
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300854&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="vip-comedy" ,VIP COMEDY HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132785&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="sony-turbo" ,SONY TURBO
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132706&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="russky-detektiv" ,РУССКИЙ ДЕТЕКТИВ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132694&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,СТРАШНОЕ КИНО
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132722&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,СТРАШНОЕ КИНО HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148936&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="shokiruyushchee-hd" ,ШОКИРУЮЩЕЕ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132718&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="shot-tv" ,SHOT TV
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132702&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="morskoy" ,МОРСКОЙ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132581&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="vip-megahit"  tvg-logo="http://picons.cmshulk.com/picons/132786.png" ,VIP MEGAHIT HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132786&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="vip-premiere"  tvg-logo="http://picons.cmshulk.com/picons/132787.png" ,VIP PREMIERE
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132787&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-logo="http://picons.cmshulk.com/picons/132705.png" ,SONY TB
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132705&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="sony-scifi" ,.SCI-FI
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132720&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="vip-serial" ,VIP SERIAL
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132788&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="amedia2" ,AMEDIA 2
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132404&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="bobior" ,БОБЕР
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300721&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="amedia-premium" ,AMEDIA PREMIUM HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132408&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="amedia-hit" ,AMEDIA HIT
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132405&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="ntv-xit" ,НТВ ХИТ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132510&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="amc"  tvg-logo="http://picons.cmshulk.com/picons/amcmehd.png" ,AMC
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132402&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="amedia1" ,A1
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132398&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="belarus5" ,Беларусь 5 HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148898&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="bollywood-hd" ,BOLLYWOOD HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132423&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="bollywood-hd" ,BOLLYWOOD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132422&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kto-est-kto" ,КТО ЕСТЬ КТО
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300815&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="doktor" ,ДОКТОР
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300760&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="nostalgia" ,НОСТАЛЬГИЯ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132616&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="amedia-premium" ,AMEDIA PREMIUM
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132407&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="amedia1" ,Amedia 1
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132403&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="amedia-premium" ,Amedia Premium HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300711&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="amedia2" ,Amedia 2
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300702&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="match-football2" ,МАТЧ ФУТБОЛ 2
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132562&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="match-boets" ,МАТЧ! БОЕЦ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300846&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="match-igra" ,МАТЧ! ИГРА HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300843&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="match-igra" ,МАТЧ! ИГРА
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132566&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="eurosport1" ,Eurosport 1 HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132481&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="tv3-ru" ,ТВ3
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132746&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="match-football1" ,МАТЧ ФУТБОЛ 1
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300836&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="match-football1" ,МАТЧ ФУТБОЛ 1 HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132561&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="match-football2" ,МАТЧ ФУТБОЛ 2 HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132596&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="match-football2" ,МАТЧ ФУТБОЛ 2 HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300839&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="match-football3" ,МАТЧ ФУТБОЛ 3
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132564&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="match-football3" ,МАТЧ ФУТБОЛ 3 HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132565&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="match-football3" ,МАТЧ ФУТБОЛ 3 HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132597&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,МАТЧ СТРАНА ТВ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132595&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="match-arena" ,МАТЧ АРЕНА HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132559&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,МАТЧ АРЕНА ТВ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132558&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="extreme-sports"  tvg-logo="http://picons.cmshulk.com/picons/132483.png" ,EXTREME SPORTS
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132483&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,ABTO 24
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132400&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,AUTO 24
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132415&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,МАТЧ СПОРТ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132568&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,МАТЧ ПРЕМЬЕРА
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148922&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,МАТЧ ПРЕМЬЕРА HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=459676&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,МАТЧ ПРЕМЬЕРА FHD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148938&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="m1-ua" ,M1 HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300832&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="viasat-sport" ,VIASAT SPORT
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132781&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="viasat-sport" ,VIASAT SPORT HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132782&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-logo="http://picons.cmshulk.com/picons/1148896.png" ,VIJU SPORT HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148896&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="box-tv" ,БОКС ТВ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132421&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="box-tv" ,БОКС ТВ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132430&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="avto-plus" ,Авто Плюс
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132416&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kuxnia-tv" ,Кухня
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132726&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="start" ,Старт
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=841862&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="start" ,Старт
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148937&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="detsky" ,Уникум HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132445&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="konny-mir" ,КОННЫЙ МИР
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132533&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="setanta-sports-plus" ,SETANTA SPORT 2
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132717&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="setanta-sports" ,Setanta Sports 1 HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132716&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="setanta-sports-plus" ,SETANTA SPORT 2
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1040315&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,SETANTA SPORT 1 
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1040314&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="mir-basketbola" ,МИР БАСКЕТБОЛА
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148923&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="mult" ,МУЛЬТ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132588&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="karusel" ,КАРУСЕЛЬ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132538&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="multimuzyka" ,МУЛЬТ И МУЗЫКА
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132589&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="boomerang" ,Cartoonito
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132429&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="cartoon-network"  tvg-logo="http://picons.cmshulk.com/picons/132432.png" ,CARTOON NETWORK
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132432&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="nick-jr" ,Nick Jr.
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132629&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="nickelodeon-ru" ,NICKELODEON HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132615&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,В ГОСТЯХ У СКАЗКИ ТВ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132500&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,КАПИТАН ФАНТАСТИКА ТВ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132537&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,МАТЧ СТРАНА
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132721&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="gulli-girl" ,Gulli Girl
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132502&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="2na2" ,2X2
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132390&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="ani" ,ANI
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132409&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="lapki-live" ,Лапки Live
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148917&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="sts-kids-hd" ,CTC KIDS HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148919&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="o_" ,О! HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132631&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="solnce" ,Солнце
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132466&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="animal-planet-eu" ,Animal Planet
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132414&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="animal-planet-eu" ,Animal Planet SD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132410&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="animal-planet-eu" ,Animal Planet HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132413&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="discovery-channel" ,Discovery Channel
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132463&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="discovery-channel" ,Discovery Channel HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132464&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="discovery-channel" ,Discovery Channel HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132465&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="discovery-channel" ,Discovery Channel HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132451&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="galaxy-tv" ,GALAXY HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132505&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="dikaya-oxota-hd" ,Дикая охота HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132461&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="dikaya-rybalka-hd" ,Дикая рыбалка HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132462&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="oxota-i-rybalka" ,Охота и рыбалка HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132636&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="oxotnik-i-rybolov-hd" ,Охотник и Рыболов HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132637&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="eda-hd" ,ЕДА HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132479&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="glazami-turista" ,Глазами Туриста HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132504&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="history-ru" ,History HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132513&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="h2" ,H2 HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=898806&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="hollywood-hd" ,Hollywood HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132514&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="iconcerts"  tvg-logo="http://picons.cmshulk.com/picons/301029.png" ,ICONCERTS
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=301029&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="id-xtra-ru"  tvg-logo="http://picons.cmshulk.com/picons/132517.png" ,ID XTRA
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132517&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="illuzion-plus" ,Иллюзион+ HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132518&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="zagorodnaya-zhizn" ,ЗАГОРОДНАЯ ЖИЗНЬ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132798&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="zagorodnaya-zhizn" ,ЗАГОРОДНАЯ ЖИЗНЬ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132793&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="travel-adventure" ,Travel+Adventure HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132763&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="travel-channel" ,Travel Channel SD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132762&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="travel-channel" ,Travel Channel HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132745&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="nauka-20" ,Наука 2.0 HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132628&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="nat-geo-wild" ,Nat Geo Wild FD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132610&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="nat-geo-wild" ,NAT GEO WILD HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132626&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kuxnia-tv" ,КУХНЯ ТВ HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132548&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kuxnia-tv" ,КУХНЯ ТВ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132549&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="national-geographic" ,NATIONAL GEOGRAPHIC
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132611&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="national-geographic" ,NATIONAL GEOGRAPHIC HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132627&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="viasat-nature" ,Viasat Nature
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132779&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="viasat-nature" ,Viasat Nature HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148928&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="viasat-explore" ,Viasat Explore
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132772&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="viasat-explore" ,Viasat Explorer HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=301004&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="viasat-history" ,Viasat History
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132775&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="nst" ,НСТ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132618&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="oruzhie" ,Оружие
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132633&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="ntv-pravo" ,НТВ ПРАВО
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132650&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,TRAVEL ADVENTURE
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132761&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="domashnie-zhivotnye" ,ДОМАШНИЕ ЖИВОТНЫЕ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300749&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="zoopark" ,Зоопарк
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132796&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="1auto" ,ПЕРВЫЙ АВТОМОБИЛЬНЫЙ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300912&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="texno-24" ,Т24
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300696&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="eureka-hd" ,ПЕРВЫЙ КОСМИЧЕСКИЙ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300909&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="super" ,Суббота! HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300958&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="retro-tv" ,Ретро
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300920&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="usadba" ,Усадьба
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=301000&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="voprosy-i-otvety" ,Вопросы и Ответы
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=301016&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="muztv" ,Муз ТВ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132593&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="bridge-tv-shlager" ,Bridge Шлягер
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132427&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="bridge-tv-ruxit" ,Bridge Русский хит HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132431&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="bridge-hd" ,Bridge Deluxe HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132425&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="onemuz" ,ПЕРВЫЙ МУЗЫКАЛЬНЫЙ HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132498&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="1hd" ,1HD Music Television HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132387&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="russian-musicbox" ,RUSSIAN MUSICBOX
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132684&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="musicbox" ,Gold MusicBox
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148931&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,MUSIC CLASSIC HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132736&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="europa-plus-tv" ,Europa Plus TV HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132476&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="mcm-top" ,MCM TOP
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132572&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="muzyka-pervogo" ,МУЗЫКА ПЕРВОГО
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132594&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="yuvelirochka" ,Ювелирочка HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148930&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="english-club-tv" ,English Club TV HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300766&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="no_epg_cinema" ,4Y FD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132748&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="sovsek" ,Совершенно Секретно
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132707&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="sankt-peterburg" ,Санкт Петербург HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132696&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="sts-baltic" ,СТС BALTIC HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300954&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kultura" ,Россия К HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132689&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="vremia" ,ВРЕМЯ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132791&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="365-dnej" ,365 Дней HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132392&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="rtg-hd"  tvg-logo="http://epg.one/img2/648.png" ,RTG HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132675&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="rtg-hd" ,RTG HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132676&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="kvn-tv" ,КВН ТВ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132536&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="rtd-ru" ,RT Д HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132672&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="mama" ,МАМА
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132557&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="hd-life" ,Точка.РФ HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132552&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="da-vinci" ,Da Vinci FD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132460&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="mult" ,Мульт HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132732&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="tiji" ,TIJI
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132729&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="psixologia-21" ,ПСИХОЛОГИЯ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132662&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-logo="http://picons.cmshulk.com/picons/132714.png" ,STYLE
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132714&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="grozny" ,Грозный SD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1298047&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="telekafe" ,ТЕЛЕКАФЕ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132759&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="domashny-pl7" ,ДОМАШНИЙ +7
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300762&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="5kanal-ua" ,5 канал
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132663&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="belarus1" ,Беларусь1 HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1588629&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)"  tvg-id="belarus2" ,Беларусь 2 HD
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1588628&extension=ts
-#EXTINF:-1  group-title="OnAir (limit)" ,Витрина ТВ
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1588634&extension=ts
 #EXTINF:-1  group-title="Тестовые"  tvg-id="sts"   tvg-rec="7" timeshift="7",СТС
 http://stream.mcquack.net/138/index.m3u8
 #EXTINF:-1  group-title="Тестовые"  tvg-id="sts-love"   tvg-rec="7" timeshift="7",СТС Love
