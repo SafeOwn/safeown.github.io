@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 30.08.26
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 01.09.26
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg"   tvg-name="Первый канал", Первый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
@@ -5698,6 +5698,362 @@ http://85.192.10.131/hls/pingvinru/playlist.m3u8
 http://85.192.10.131/hls/matchtvrum9/playlist.m3u8
 #EXTINF:-1  group-title="ИП" , Мамонтёнок
 http://85.192.10.131/hls/MamonRu/playlist.m3u8
+#EXTINF:-1  group-title="ГГ"  tvg-id="pervy" ,Первый канал
+http://195.64.140.147:10001/991
+#EXTINF:-1  group-title="ГГ"  tvg-id="rossia1" ,Россия 1
+http://195.64.140.147:10002/992
+#EXTINF:-1  group-title="ГГ"  tvg-id="kultura" ,Россия К
+http://195.64.140.147:10006/996
+#EXTINF:-1  group-title="ГГ"  tvg-id="rossia-24" ,Россия 24
+http://195.64.140.147:10007/997
+#EXTINF:-1  group-title="ГГ"  tvg-id="ntv" ,НТВ
+http://195.64.140.147:10004/994
+#EXTINF:-1  group-title="ГГ"  tvg-id="tnt" ,ТНТ
+http://195.64.140.147:10020/9920
+#EXTINF:-1  group-title="ГГ"  tvg-id="tnt4" ,ТНТ4
+http://195.64.140.147:10034/34
+#EXTINF:-1  group-title="ГГ"  tvg-id="ntv-serial" ,НТВ Сериал
+http://195.64.140.147:10073/73
+#EXTINF:-1  group-title="ГГ"  tvg-id="ntv-xit" ,НТВ Хит
+http://195.64.140.147:10074/74
+#EXTINF:-1  group-title="ГГ"  tvg-id="ntv-style" ,НТВ Стиль
+http://195.64.140.147:10173/173
+#EXTINF:-1  group-title="ГГ"  tvg-id="ntv-pravo" ,НТВ Право
+http://195.64.140.147:10181/181
+#EXTINF:-1  group-title="ГГ"  tvg-id="5kanal-ru" ,Пятый Канал
+http://195.64.140.147:10005/995
+#EXTINF:-1  group-title="ГГ"  tvg-id="rentv" ,РЕН ТВ
+http://195.64.140.147:10011/9911
+#EXTINF:-1  group-title="ГГ"  tvg-id="animal-planet-eu" ,Animal Planet HD
+http://195.64.140.147:10032/32
+#EXTINF:-1  group-title="ГГ"  tvg-id="oxota-i-rybalka" ,Охота и Рыбалка
+http://195.64.140.147:10039/39
+#EXTINF:-1  group-title="ГГ"  tvg-id="viasat-explore" ,Viasat Explore
+http://195.64.140.147:10144/144
+#EXTINF:-1  group-title="ГГ"  tvg-id="viasat-history" ,Viasat History
+http://195.64.140.147:10145/145
+#EXTINF:-1  group-title="ГГ"  tvg-id="viasat-nature" ,Viasat Nature
+http://195.64.140.147:10146/146
+#EXTINF:-1  group-title="ГГ"  tvg-id="viasat-nature-history-hd" ,Viju+ Planet
+http://195.64.140.147:10147/147
+#EXTINF:-1  group-title="ГГ" ,National Geographic Wild HD
+http://195.64.140.147:10149/149
+#EXTINF:-1  group-title="ГГ"  tvg-id="terra-ru" ,Terra
+http://195.64.140.147:10150/150
+#EXTINF:-1  group-title="ГГ"  tvg-id="discovery-channel" ,Discovery
+http://195.64.140.147:10151/151
+#EXTINF:-1  group-title="ГГ"  tvg-id="id-xtra-ru" ,Investigation Discovery
+http://195.64.140.147:10152/152
+#EXTINF:-1  group-title="ГГ"  tvg-id="national-geographic" ,National Geographic
+http://195.64.140.147:10153/153
+#EXTINF:-1  group-title="ГГ"  tvg-id="istoria" ,История
+http://195.64.140.147:10156/156
+#EXTINF:-1  group-title="ГГ"  tvg-id="travel-channel" ,Travel Channel
+http://195.64.140.147:10158/158
+#EXTINF:-1  group-title="ГГ"  tvg-id="rtg-tv" ,RTG HD
+http://195.64.140.147:10159/159
+#EXTINF:-1  group-title="ГГ"  tvg-id="oruzhie" ,Оружие
+http://195.64.140.147:10160/160
+#EXTINF:-1  group-title="ГГ"  tvg-id="moya-planeta" ,Моя Планета
+http://195.64.140.147:10161/161
+#EXTINF:-1  group-title="ГГ"  tvg-id="oxotnik-i-rybolov" ,Охотник и Рыболов
+http://195.64.140.147:10162/162
+#EXTINF:-1  group-title="ГГ"  tvg-id="bolshaya-azia" ,Большая Азия
+http://195.64.140.147:10175/175
+#EXTINF:-1  group-title="ГГ"  tvg-id="nauka" ,Наука
+http://195.64.140.147:10176/176
+#EXTINF:-1  group-title="ГГ"  tvg-id="doktor" ,Доктор
+http://195.64.140.147:10177/177
+#EXTINF:-1  group-title="ГГ"  tvg-id="zhivi" ,Живи
+http://195.64.140.147:10178/178
+#EXTINF:-1  group-title="ГГ"  tvg-id="dikiy" ,Дикий
+http://195.64.140.147:10139/139
+#EXTINF:-1  group-title="ГГ"  tvg-id="zagorodnaya-zhizn" ,Загородная Жизнь
+http://195.64.140.147:10180/180
+#EXTINF:-1  group-title="ГГ" ,CGTN Русский
+http://195.64.140.147:10182/182
+#EXTINF:-1  group-title="ГГ" ,Love Nature
+http://195.64.140.147:10214/214
+#EXTINF:-1  group-title="ГГ"  tvg-id="dialogi-o-rybalke" ,Диалоги о Рыбалке
+http://195.64.140.147:10117/117
+#EXTINF:-1  group-title="ГГ"  tvg-id="poexali" ,Поехали!
+http://195.64.140.147:10168/168
+#EXTINF:-1  group-title="ГГ" ,Galaxy
+http://195.64.140.147:10169/169
+#EXTINF:-1  group-title="ГГ" ,Зоопарк
+http://195.64.140.147:10170/170
+#EXTINF:-1  group-title="ГГ"  tvg-id="zdorovoe-tv" ,Здоровое ТВ
+http://195.64.140.147:10171/171
+#EXTINF:-1  group-title="ГГ"  tvg-id="otr" ,ОТР
+http://195.64.140.147:10009/999
+#EXTINF:-1  group-title="ГГ"  tvg-id="tvcentr" ,ТВЦ
+http://195.64.140.147:10010/9910
+#EXTINF:-1  group-title="ГГ"  tvg-id="spas" ,СПАС
+http://195.64.140.147:10012/12
+#EXTINF:-1  group-title="ГГ"  tvg-id="sts" ,СТС
+http://195.64.140.147:10013/9913
+#EXTINF:-1  group-title="ГГ"  tvg-id="tv3-ru" ,ТВ3
+http://195.64.140.147:10014/9914
+#EXTINF:-1  group-title="ГГ"  tvg-id="piatnica" ,Пятница
+http://195.64.140.147:10015/9915
+#EXTINF:-1  group-title="ГГ"  tvg-id="zvezda" ,Звезда
+http://195.64.140.147:10016/9916
+#EXTINF:-1  group-title="ГГ"  tvg-id="domashny" ,Домашний
+http://195.64.140.147:10018/18
+#EXTINF:-1  group-title="ГГ"  tvg-id="mir" ,Мир
+http://195.64.140.147:10019/19
+#EXTINF:-1  group-title="ГГ"  tvg-id="yu" ,Ю
+http://195.64.140.147:10021/9921
+#EXTINF:-1  group-title="ГГ"  tvg-id="che" ,Че!
+http://195.64.140.147:10022/22
+#EXTINF:-1  group-title="ГГ"  tvg-id="2na2" ,2x2
+http://195.64.140.147:10023/23
+#EXTINF:-1  group-title="ГГ"  tvg-id="360-podmoskovie" ,360
+http://195.64.140.147:10024/24
+#EXTINF:-1  group-title="ГГ"  tvg-id="moskva-24" ,Москва 24
+http://195.64.140.147:10025/25
+#EXTINF:-1  group-title="ГГ"  tvg-id="telekafe" ,Телекафе
+http://195.64.140.147:10026/26
+#EXTINF:-1  group-title="ГГ"  tvg-id="usadba" ,Усадьба
+http://195.64.140.147:10028/28
+#EXTINF:-1  group-title="ГГ"  tvg-id="avto-plus" ,Авто плюс
+http://195.64.140.147:10029/29
+#EXTINF:-1  group-title="ГГ"  tvg-id="domashnie-zhivotnye" ,Домашние Животные
+http://195.64.140.147:10030/30
+#EXTINF:-1  group-title="ГГ"  tvg-id="tochka-otryva" ,Точка Отрыва
+http://195.64.140.147:10031/31
+#EXTINF:-1  group-title="ГГ" ,Channel 9 FHD IL
+http://195.64.140.147:10033/33
+#EXTINF:-1  group-title="ГГ"  tvg-id="kuxnia-tv" ,Кухня ТВ
+http://195.64.140.147:10037/37
+#EXTINF:-1  group-title="ГГ" ,78 HD
+http://195.64.140.147:10038/38
+#EXTINF:-1  group-title="ГГ"  tvg-id="super" ,Суббота
+http://195.64.140.147:10041/41
+#EXTINF:-1  group-title="ГГ"  tvg-id="kinosemiya" ,Киносемья
+http://195.64.140.147:10042/42
+#EXTINF:-1  group-title="ГГ"  tvg-id="kinouzhas" ,Киноужас
+http://195.64.140.147:10043/43
+#EXTINF:-1  group-title="ГГ"  tvg-id="kinomiks" ,Киномикс
+http://195.64.140.147:10044/44
+#EXTINF:-1  group-title="ГГ"  tvg-id="kinosvidanie" ,Киносвидание
+http://195.64.140.147:10045/45
+#EXTINF:-1  group-title="ГГ"  tvg-id="kinoxit" ,Кинохит
+http://195.64.140.147:10046/46
+#EXTINF:-1  group-title="ГГ"  tvg-id="kinokomedia" ,Кинокомедия
+http://195.64.140.147:10047/47
+#EXTINF:-1  group-title="ГГ"  tvg-id="kinoseria" ,Киносерия
+http://195.64.140.147:10048/48
+#EXTINF:-1  group-title="ГГ"  tvg-id="indiyskoe-kino" ,Индийское Кино
+http://195.64.140.147:10049/49
+#EXTINF:-1  group-title="ГГ"  tvg-id="kino-tv" ,Кино ТВ
+http://195.64.140.147:10050/50
+#EXTINF:-1  group-title="ГГ"  tvg-id="muzhskoe-kino" ,Мужское Кино
+http://195.64.140.147:10051/51
+#EXTINF:-1  group-title="ГГ"  tvg-id="rodnoe-kino" ,Родное Кино
+http://195.64.140.147:10052/52
+#EXTINF:-1  group-title="ГГ"  tvg-id="nashe-novoe-kino" ,Наше Новое Кино
+http://195.64.140.147:10053/53
+#EXTINF:-1  group-title="ГГ"  tvg-id="nst" ,Настоящее Страшное ТВ
+http://195.64.140.147:10054/54
+#EXTINF:-1  group-title="ГГ" ,Синема HD
+http://195.64.140.147:10055/55
+#EXTINF:-1  group-title="ГГ"  tvg-id="sapfir" ,Сапфир
+http://195.64.140.147:10056/56
+#EXTINF:-1  group-title="ГГ"  tvg-id="domkino" ,Дом Кино
+http://195.64.140.147:10057/57
+#EXTINF:-1  group-title="ГГ"  tvg-id="kinosat" ,Киносат
+http://195.64.140.147:10058/58
+#EXTINF:-1  group-title="ГГ"  tvg-id="amedia1" ,Amedia 1
+http://195.64.140.147:10059/59
+#EXTINF:-1  group-title="ГГ"  tvg-id="amedia2" ,Amedia 2
+http://195.64.140.147:10060/60
+#EXTINF:-1  group-title="ГГ"  tvg-id="klassika-kino" ,Классика Кино
+http://195.64.140.147:10061/61
+#EXTINF:-1  group-title="ГГ"  tvg-id="amedia-premium" ,Amedia Premium
+http://195.64.140.147:10062/62
+#EXTINF:-1  group-title="ГГ"  tvg-id="start-air" ,Start Air
+http://195.64.140.147:10063/63
+#EXTINF:-1  group-title="ГГ"  tvg-id="kinojam1" ,Kinojam 1
+http://195.64.140.147:10064/64
+#EXTINF:-1  group-title="ГГ"  tvg-id="paramount-comedy" ,Paramount Comedy
+http://195.64.140.147:10065/65
+#EXTINF:-1  group-title="ГГ"  tvg-id="fanhd" ,FAN
+http://195.64.140.147:10066/66
+#EXTINF:-1  group-title="ГГ"  tvg-id="tv1000" ,TV1000
+http://195.64.140.147:10067/67
+#EXTINF:-1  group-title="ГГ"  tvg-id="tv1000-russkoe-kino" ,TV1000 Русское Кино
+http://195.64.140.147:10069/69
+#EXTINF:-1  group-title="ГГ"  tvg-id="vip-comedy" ,VIP Comedy HD
+http://195.64.140.147:10070/70
+#EXTINF:-1  group-title="ГГ"  tvg-id="vip-megahit" ,VIP Megahit HD
+http://195.64.140.147:10071/71
+#EXTINF:-1  group-title="ГГ"  tvg-id="vip-premiere" ,VIP Premiere HD
+http://195.64.140.147:10072/72
+#EXTINF:-1  group-title="ГГ"  tvg-id="russky-bestseller" ,Русский Бестселлер
+http://195.64.140.147:10075/75
+#EXTINF:-1  group-title="ГГ"  tvg-id="russky-roman" ,Русский Роман
+http://195.64.140.147:10076/9976
+#EXTINF:-1  group-title="ГГ"  tvg-id="russky-detektiv" ,Русский Детектив
+http://195.64.140.147:10077/77
+#EXTINF:-1  group-title="ГГ"  tvg-id="mosfilm" ,Мосфильм. Золотая коллекция
+http://195.64.140.147:10078/78
+#EXTINF:-1  group-title="ГГ"  tvg-id="hollywood-hd" ,HollyWood HD
+http://195.64.140.147:10079/79
+#EXTINF:-1  group-title="ГГ"  tvg-id="kineko" ,Кинеко
+http://195.64.140.147:10080/80
+#EXTINF:-1  group-title="ГГ"  tvg-id="domkino-premium" ,Дом Кино Премиум
+http://195.64.140.147:10081/81
+#EXTINF:-1  group-title="ГГ"  tvg-id="plan-b" ,Plan B
+http://195.64.140.147:10082/82
+#EXTINF:-1  group-title="ГГ"  tvg-id="bollywood-hd" ,Bollywood HD
+http://195.64.140.147:10083/83
+#EXTINF:-1  group-title="ГГ"  tvg-id="kinopremiera-hd" ,Кинопремьера HD
+http://195.64.140.147:10084/84
+#EXTINF:-1  group-title="ГГ"  tvg-id="sony-tv" ,.RED
+http://195.64.140.147:10085/85
+#EXTINF:-1  group-title="ГГ"  tvg-id="sony-scifi" ,.Sci-Fi
+http://195.64.140.147:10086/86
+#EXTINF:-1  group-title="ГГ"  tvg-id="sony-turbo" ,.Black
+http://195.64.140.147:10087/87
+#EXTINF:-1  group-title="ГГ"  tvg-id="evrokino" ,ЕвроКино
+http://195.64.140.147:10088/88
+#EXTINF:-1  group-title="ГГ"  tvg-id="mir-seriala" ,Мир Сериала
+http://195.64.140.147:10089/89
+#EXTINF:-1  group-title="ГГ"  tvg-id="illuzion-plus" ,Иллюзион+
+http://195.64.140.147:10090/90
+#EXTINF:-1  group-title="ГГ"  tvg-id="lubimoe-kino" ,Любимое Кино
+http://195.64.140.147:10091/91
+#EXTINF:-1  group-title="ГГ"  tvg-id="russkaya-komedia" ,Комедия
+http://195.64.140.147:10092/92
+#EXTINF:-1  group-title="ГГ"  tvg-id="russky-illuzion" ,Русский Иллюзион
+http://195.64.140.147:10093/93
+#EXTINF:-1  group-title="ГГ"  tvg-id="365-dnej" ,365 Дней
+http://195.64.140.147:10095/95
+#EXTINF:-1  group-title="ГГ"  tvg-id="avto24" ,Авто 24
+http://195.64.140.147:10118/118
+#EXTINF:-1  group-title="ГГ"  tvg-id="voprosy-i-otvety" ,Вопросы и ответы
+http://195.64.140.147:10120/120
+#EXTINF:-1  group-title="ГГ"  tvg-id="tlc" ,TLC
+http://195.64.140.147:10137/137
+#EXTINF:-1  group-title="ГГ"  tvg-id="kvn-tv" ,КВН ТВ
+http://195.64.140.147:10138/138
+#EXTINF:-1  group-title="ГГ"  tvg-id="sts-love" ,СТС Love
+http://195.64.140.147:10140/140
+#EXTINF:-1  group-title="ГГ"  tvg-id="pobeda" ,Победа
+http://195.64.140.147:10141/141
+#EXTINF:-1  group-title="ГГ"  tvg-id="prodvizhenie" ,Продвижение
+http://195.64.140.147:10142/142
+#EXTINF:-1  group-title="ГГ"  tvg-id="pes-i-ko" ,Пёс и Ко
+http://195.64.140.147:10143/143
+#EXTINF:-1  group-title="ГГ"  tvg-id="zvezda-plus" ,Звезда+
+http://195.64.140.147:10155/155
+#EXTINF:-1  group-title="ГГ"  tvg-id="arsenaltv" ,Арсенал HD
+http://195.64.140.147:10157/157
+#EXTINF:-1  group-title="ГГ"  tvg-id="tro" ,Союзный
+http://195.64.140.147:10164/164
+#EXTINF:-1  group-title="ГГ"  tvg-id="kto-est-kto" ,Кто есть Кто
+http://195.64.140.147:10165/165
+#EXTINF:-1  group-title="ГГ"  tvg-id="vremia" ,Время
+http://195.64.140.147:10166/166
+#EXTINF:-1  group-title="ГГ"  tvg-id="nostalgia" ,Ностальгия
+http://195.64.140.147:10167/167
+#EXTINF:-1  group-title="ГГ"  tvg-id="psixologia-21" ,Психология 21
+http://195.64.140.147:10174/174
+#EXTINF:-1  group-title="ГГ"  tvg-id="nasha-tema" ,Наша Тема
+http://195.64.140.147:10172/172
+#EXTINF:-1  group-title="ГГ"  tvg-id="euronews" ,Euronews
+http://195.64.140.147:10183/183
+#EXTINF:-1  group-title="ГГ"  tvg-id="kluch" ,Ключ
+http://195.64.140.147:10184/184
+#EXTINF:-1  group-title="ГГ"  tvg-id="izvestia" ,Известия
+http://195.64.140.147:10185/185
+#EXTINF:-1  group-title="ГГ"  tvg-id="sankt-peterburg" ,Санкт-Петербург
+http://195.64.140.147:10186/186
+#EXTINF:-1  group-title="ГГ"  tvg-id="mir-24" ,МИР 24
+http://195.64.140.147:10187/187
+#EXTINF:-1  group-title="ГГ"  tvg-id="otkryty-mir" ,Открытый Мир
+http://195.64.140.147:10188/188
+#EXTINF:-1  group-title="ГГ"  tvg-id="zhara" ,Жара
+http://195.64.140.147:10202/202
+#EXTINF:-1  group-title="ГГ"  tvg-id="sarafan" ,Сарафан
+http://195.64.140.147:10203/203
+#EXTINF:-1  group-title="ГГ" ,Москва Доверие
+http://195.64.140.147:10189/189
+#EXTINF:-1  group-title="ГГ"  tvg-id="vh1-european" ,MTV 00s
+http://195.64.140.147:10190/190
+#EXTINF:-1  group-title="ГГ"  tvg-id="vh1-classic" ,MTV 80s
+http://195.64.140.147:10191/191
+#EXTINF:-1  group-title="ГГ"  tvg-id="mtv-rocks" ,MTV 90s
+http://195.64.140.147:10192/192
+#EXTINF:-1  group-title="ГГ" ,MTV rus
+http://195.64.140.147:10193/193
+#EXTINF:-1  group-title="ГГ"  tvg-id="muztv" ,МузТВ
+http://195.64.140.147:10017/17
+#EXTINF:-1  group-title="ГГ"  tvg-id="ru-tv" ,RU.TV
+http://195.64.140.147:10035/35
+#EXTINF:-1  group-title="ГГ"  tvg-id="europa-plus-tv" ,Европа плюс ТВ
+http://195.64.140.147:10036/36
+#EXTINF:-1  group-title="ГГ"  tvg-id="shanson-tv" ,Шансон ТВ
+http://195.64.140.147:10195/195
+#EXTINF:-1  group-title="ГГ"  tvg-id="muzyka-pervogo" ,Музыка Первого
+http://195.64.140.147:10196/196
+#EXTINF:-1  group-title="ГГ"  tvg-id="bridge-tv-shlager" ,Bridge TV Шлягер
+http://195.64.140.147:10197/197
+#EXTINF:-1  group-title="ГГ"  tvg-id="bridge-tv-classic" ,Bridge TV Classic
+http://195.64.140.147:10040/40
+#EXTINF:-1  group-title="ГГ"  tvg-id="bridge-tv-ruxit" ,Bridge TV Русский Хит
+http://195.64.140.147:10194/194
+#EXTINF:-1  group-title="ГГ"  tvg-id="bridge-tv-fresh" ,Bridge TV Fresh
+http://195.64.140.147:10198/198
+#EXTINF:-1  group-title="ГГ"  tvg-id="bridge-tv-dance" ,Bridge TV HITS
+http://195.64.140.147:10199/199
+#EXTINF:-1  group-title="ГГ"  tvg-id="bridge-hd" ,Bridge TV Deluxe
+http://195.64.140.147:10200/200
+#EXTINF:-1  group-title="ГГ"  tvg-id="tnt-music" ,ТНТ Music
+http://195.64.140.147:10201/201
+#EXTINF:-1  group-title="ГГ"  tvg-id="da-vinci" ,Da Vinci
+http://195.64.140.147:10154/154
+#EXTINF:-1  group-title="ГГ"  tvg-id="nickelodeon-ru" ,Nickelodeon HD
+http://195.64.140.147:10121/121
+#EXTINF:-1  group-title="ГГ"  tvg-id="detsky-mir" ,Детский Мир
+http://195.64.140.147:10119/119
+#EXTINF:-1  group-title="ГГ"  tvg-id="solnce" ,Солнце
+http://195.64.140.147:10027/27
+#EXTINF:-1  group-title="ГГ"  tvg-id="karusel" ,Карусель
+http://195.64.140.147:10008/998
+#EXTINF:-1  group-title="ГГ"  tvg-id="gulli-girl" ,Gulli Girl
+http://195.64.140.147:10122/122
+#EXTINF:-1  group-title="ГГ"  tvg-id="liova" ,Лёва HD
+http://195.64.140.147:10123/123
+#EXTINF:-1  group-title="ГГ"  tvg-id="o_" ,О!
+http://195.64.140.147:10124/124
+#EXTINF:-1  group-title="ГГ"  tvg-id="nick-jr" ,Nick JR
+http://195.64.140.147:10125/125
+#EXTINF:-1  group-title="ГГ" ,Наше Детство
+http://195.64.140.147:10126/126
+#EXTINF:-1  group-title="ГГ"  tvg-id="mama" ,МАМА
+http://195.64.140.147:10127/127
+#EXTINF:-1  group-title="ГГ"  tvg-id="tiji" ,Tiji
+http://195.64.140.147:10128/128
+#EXTINF:-1  group-title="ГГ"  tvg-id="sts-kids-hd" ,СТС Kids
+http://195.64.140.147:10129/129
+#EXTINF:-1  group-title="ГГ"  tvg-id="malysh" ,Супергерои
+http://195.64.140.147:10130/130
+#EXTINF:-1  group-title="ГГ"  tvg-id="detsky" ,Уникум
+http://195.64.140.147:10131/131
+#EXTINF:-1  group-title="ГГ"  tvg-id="mult" ,Мульт
+http://195.64.140.147:10132/132
+#EXTINF:-1  group-title="ГГ"  tvg-id="bobior" ,Бобёр
+http://195.64.140.147:10163/163
+#EXTINF:-1  group-title="ГГ"  tvg-id="ani" ,ANI
+http://195.64.140.147:10133/133
+#EXTINF:-1  group-title="ГГ"  tvg-id="multimuzyka" ,Мультимузыка
+http://195.64.140.147:10134/134
+#EXTINF:-1  group-title="ГГ"  tvg-id="multimania" ,Мультиландия
+http://195.64.140.147:10135/135
+#EXTINF:-1  group-title="ГГ"  tvg-id="v-gostiax-u-skazki" ,В Гостях у Сказки
+http://195.64.140.147:10136/136
 #EXTINF:-1  group-title="Казахстан"  tvg-id="pervy-kanal-eurasia-kz" ,Первый канал Евразия
 http://62.32.84.50:18000/play/a0ka/index.m3u8
 #EXTINF:-1  group-title="Казахстан"  tvg-id="rossia1-pl2" ,Россия 1 (+2)
