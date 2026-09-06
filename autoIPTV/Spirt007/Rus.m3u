@@ -8,6 +8,9 @@ http://stream.mcquack.net/234/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/ouHunnK.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Спортивные",Setanta Sports 2 Eurasia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/235/index.m3u8
+#EXTINF:-1 tvg-id="setanta-ua" tvg-logo="https://i.imgur.com/gHAP4p0.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Спортивные",Setanta Sports Ukraine
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/313/index.m3u8?
 #EXTINF:-1 tvg-id="setanta-plus-ua" tvg-logo="https://i.imgur.com/gHAP4p0.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Спортивные",Setanta Sports+ Ukraine
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/390/index.m3u8
@@ -120,6 +123,8 @@ https://e10-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/1.m3u8
 https://flussonic.mkpnet.ru/tv-111deaa2142146ee/video.m3u8
 #EXTINF:-1 tvg-id="nastoyaschee-vremia" tvg-logo="https://iptvx.one/picons/nastoiaschee-vremia.png" group-title="Общественные",Настоящее время [СМИ иногент] заблокировали
 https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8
+#EXTINF:-1 tvg-id="rtvi" tvg-logo="https://iptvx.one/picons/rtvi.png" group-title="Общественные",RTVI
+https://amg17233-amg17233c1-wisptv-us-6409.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="neizvestnaya-rosia" tvg-logo="https://epg.iptvx.one/picons/neizvestnaya-rosia.png" group-title="Общественные",Неизвестная Россия
 https://cdn.ntv.ru/unknown_russia/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="rtd-ru" tvg-logo="https://iptvx.one/picons/rt-doc.png" group-title="Общественные",RTД
@@ -207,8 +212,6 @@ http://stream.mcquack.net/121/index.m3u8
 
 #EXTINF:-1 tvg-id="telekafe" tvg-logo="https://iptvx.one/picons/telekafe.png" group-title="Развлекательные",Телекафе
 http://31.148.48.15:80/Telekafe/index.m3u8
-#EXTINF:-1 tvg-id="rtvi" tvg-logo="https://iptvx.one/picons/rtvi.png" group-title="Развлекательные",RTVI
-https://amg17233-amg17233c1-wisptv-us-6409.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TLCFinland.fi" tvg-logo="https://i.imgur.com/0d5hP3A.png" group-title="Развлекательные",TLC Finland
 https://live-fi.tvkaista.net/tlc/live.m3u8?src=freetv
 #EXTINF:-1 tvg-id="kaleydoskop-tv" tvg-logo="https://iptvx.one/picons/kaleydoskop.png" group-title="Развлекательные",Калейдоскоп ТВ
@@ -390,9 +393,9 @@ https://tw2ywfm7jbp.a.trbcdn.net/livemaster/7phjk_live-papd7z4v92.smil/playlist.
 http://live-saha.cdnvideo.ru/saha2/yak24rtmp_live.smil/tracks-v2a1/mono.m3u8
 #EXTINF:-1 tvg-id="grozny" tvg-logo="https://epg.iptvx.one/picons/grozny.png" group-title="Региональные",Грозный
 https://balancer.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/720-3.m3u8
-#EXTINF:-1 tvg-id="rentv-istoki" tvg-logo="https://epg.iptvx.one/picons/rentv-istoki.png" group-title="General",Истоки
+#EXTINF:-1 tvg-id="rentv-istoki" tvg-logo="https://epg.iptvx.one/picons/rentv-istoki.png" group-title="Региональные",Истоки
 https://istoki.tv/live/stream1/playlist.m3u8 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/0us6l04.png" group-title="Undefined",Щёлковское ТВ
+#EXTINF:-1 tvg-id="schelkovo" tvg-logo="https://epg.iptvx.one/picons/schelkovo.png" group-title="Региональные",Щёлково
 http://stream0.tv41.ru/live.m3u8
 
 
@@ -1078,7 +1081,7 @@ http://185.46.16.239:8000/Istoriya
 http://stream.mcquack.net/164/index.m3u8
 #EXTINF:-1 tvg-id="moya-planeta" tvg-logo="https://iptvx.one/picons/moya-planeta.png" group-title="Познавательные",Моя Планета
 http://91.226.120.120/chid210/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="morskoy" tvg-logo="https://epg.iptvx.one/picons/morskoy.png" group-title="Travel",Моя стихия
+#EXTINF:-1 tvg-id="morskoy" tvg-logo="https://epg.iptvx.one/picons/morskoy.png" group-title="Познавательные",Моя стихия
 http://stream.mcquack.net/141/index.m3u8
 #EXTINF:-1 tvg-id="nauka-20" tvg-logo="https://iptvx.one/picons/nauka-20.png" group-title="Познавательные",Наука 2.0 HD
 https://vod.tuva.ru/nauka2/index.m3u8
