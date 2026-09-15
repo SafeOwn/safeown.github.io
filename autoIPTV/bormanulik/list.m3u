@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 14.09.26
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 15.09.26
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg"   tvg-name="Первый канал", Первый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
@@ -1031,24 +1031,6 @@ https://rpn3.bozztv.com/dvrfl07/ushba56/tracks-v1a1/mono.m3u8
 https://rpn3.bozztv.com/dvrfl07/ushba82/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Retrovision
 https://rpn3.bozztv.com/dvrfl07/ushba-rvision/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="detvoraplushd"  tvg-logo="https://cdn.rostelekom-tv.xyz/picons/89fe214904639432.png"   tvg-name="ДетвораПлюс HD",ДетвораПлюс HD
-https://cdn.rostelekom-tv.xyz/live/WAYU4PTJ_VVz4wAQ.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="velvetmenthd"  tvg-logo="https://cdn.rostelekom-tv.xyz/picons/d385074b6255d55c.png"   tvg-name="Velvet. Ментовские Сериалы HD",Velvet. Ментовские Сериалы HD
-https://cdn.rostelekom-tv.xyz/live/tWQ0ge9rspBQhRst.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="velvetsovetskoehd"  tvg-logo="https://cdn.rostelekom-tv.xyz/picons/7129effd35bb63a1.png"   tvg-name="Velvet. Советское кино HD",Velvet. Советское кино HD
-https://cdn.rostelekom-tv.xyz/live/nF4sFCa49nFPHSF_.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="velvetzolotohd"  tvg-logo="https://cdn.rostelekom-tv.xyz/picons/1d811cf354275a47.png"   tvg-name="Velvet. Золотая коллекция HD",Velvet. Золотая коллекция HD
-https://cdn.rostelekom-tv.xyz/live/v804qFZr0QVQ1s9Z.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="velveteurkinohd"  tvg-logo="https://cdn.rostelekom-tv.xyz/picons/e4351d9b387c625d.png"   tvg-name="Velvet. Европейское кино HD",Velvet. Европейское кино HD
-https://cdn.rostelekom-tv.xyz/live/LQ3j0n7j0Kq4OQm8.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="serialyhityhd"  tvg-logo="https://cdn.rostelekom-tv.xyz/picons/e5f4f860cf5111be.png"   tvg-name="Velvet. Сериалы Хиты HD",Velvet. Сериалы Хиты HD
-https://cdn.rostelekom-tv.xyz/live/DeWr3Sgw1Aj2lJd0.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="velvetuzhasyhd"  tvg-logo="https://cdn.rostelekom-tv.xyz/picons/8dde3949fecff16c.png"   tvg-name="Velvet. Ужасы HD",Velvet. Ужасы HD
-https://cdn.rostelekom-tv.xyz/live/NImhIFLevxCbtcP-.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="mirserialhd"  tvg-logo="https://cdn.rostelekom-tv.xyz/picons/d834f5a9e60097e0.png"   tvg-name="Velvet. Мировые сериалы HD",Velvet. Мировые сериалы HD
-https://cdn.rostelekom-tv.xyz/live/2RR44py-yGlIWQIp.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="velvetsvatyhd"  tvg-logo="https://cdn.rostelekom-tv.xyz/picons/5c274519467ec9c5.png"   tvg-name="Velvet. Сваты HD",Velvet. Сваты HD
-https://cdn.rostelekom-tv.xyz/live/HSxyMqDlSVR54UTN.m3u8
 #EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rtbcdn.ru/video/2026-09-04/71/a3/71a3b5ace58a356ab1aae1ac81e72df6.png" , Свет (2025)
 https://river-4-444.rtbcdn.ru/hls-vod/Tl3l-R2ybLntaQSnU-rV1w/1789833137/3588/0x5000c500faecc22a/0e563726151647b3bebb2b1d0e02f8a8.mp4.m3u8?i=848x424_798
 #EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://pic.rtbcdn.ru/video/2026-09-06/9a/4c/9a4cd8229eb6e6165b409b88e08e2106.jpg" , Добро пожаловать в джунгли (2026)
