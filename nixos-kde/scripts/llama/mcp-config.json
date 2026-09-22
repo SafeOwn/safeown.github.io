@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "ddg-search": {
+      "command": "uvx",
+      "args": ["duckduckgo-mcp-server"]
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["--from", "mcp-fetch-server", "mcp_fetch_server"]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/home/safe"]
+    }
+  }
+}

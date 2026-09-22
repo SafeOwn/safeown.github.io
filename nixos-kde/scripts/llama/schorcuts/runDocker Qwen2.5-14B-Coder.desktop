@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Модель - Qwen 2.5 Coder 14B
+GenericName=Локальная нейросеть (LLM)
+Comment=Запуск Qwen 14B через Docker
+Exec=konsole --hold -e bash -c '/etc/nixos/scripts/llama/runDocker_qwen2.5-14b-coder.sh; echo; echo "Скрипт завершён. Нажми Enter..."; read'
+Terminal=false
+Icon=/home/safe/.local/share/desktop-directories/icon-llm2.png
+Categories=LLM;Development;

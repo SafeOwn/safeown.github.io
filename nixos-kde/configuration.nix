@@ -49,8 +49,10 @@ in
     ./modules/users/root.nix                    # 🔧 Алиасы и bash т.д. для root
     ./modules/hardware/smb.nix                  # 🌐 Настройка локальной сети
     ./modules/hardware/openrgb.nix              # 🧱 Настройка подсветки
-#    ./modules/app/rustdesk.nix                # Не работает только через flatpak
+#    ./modules/app/rustdesk.nix                 # Не работает только через flatpak
     ./modules/app/flatpak.nix
+    ./modules/app/comfyui.nix                   # /mnt/game/ai/ComfyUI_windows_portable/
+    ./modules/app/silero-tts.nix                # Синтезатор речи
 ##     ./modules/hardware/ds4drv.nix
     #./modules/zapret-discord-youtube.nix
 
@@ -81,6 +83,28 @@ in
       RemainAfterExit = true;
     };
   };
+
+
+  # ========================================
+  # 🎨 Blender cuda
+  # 3D моделирование
+  # ========================================
+  nixpkgs.overlays = [
+    (final: prev: {
+      # 1. Заглушка cuda_compat (оставляем как было)
+      cudaPackages_12 = prev.cudaPackages_12.overrideScope (cFinal: cPrev: {
+        cuda_compat = prev.runCommand "cuda-compat-stub" {} "mkdir -p \$out";
+      });
+
+      # 2. Blender с CUDA, но БЕЗ USD и БЕЗ Hydra
+      blender = prev.blender.override {
+        cudaSupport = true;
+        openUsdSupport = false;   # ← ключевой параметр
+      };
+    })
+  ];
+
+
 
 
   # ========================================
@@ -494,7 +518,50 @@ in
     '')
    # luxwine
     pkgs.fuse
-    pkgs.appimage-run
+
+
+    (pkgs.appimage-run.override {
+      extraPkgs = pkgs: with pkgs; [
+        # OpenGL / GTK (частая причина ошибок AppImage)
+        libepoxy
+        gtk3
+        gdk-pixbuf
+        glib
+        atk
+        at-spi2-atk
+
+        # SSL (для Electron-приложений)
+        nss
+        nspr
+
+        # Звук
+        alsa-lib
+        pulseaudio
+
+        # X11 (для GUI)
+        libGL
+        libglvnd
+        libx11
+        libxext
+        libxrender
+        libxi
+        libxcursor
+        libxrandr
+        libxcomposite
+        libxdamage
+        libxfixes
+        libxtst
+        libxscrnsaver
+
+        # Иногда нужны
+        cups
+        fontconfig
+        freetype
+      ];
+    })
+
+
+
     pkgs.home-manager
 
     # 📁 Создание .directory и .menu для Lux Wine в меню приложений

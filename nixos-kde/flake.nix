@@ -145,7 +145,7 @@
           ./configuration.nix
 
            # 💾 Автозагрузка
-          ./modules/autorun/tts-silero.nix          # Автозагрузка Silero TTS сервера (озвучка)
+          #./modules/autorun/tts-silero.nix          # Silero старый подход (ненужен)
           ./modules/autorun/docker-searxng.nix      # Автозагрузка searxng (llm поиск) http://localhost:8888/
           #./modules/autorun/openrgb.nix             # Автозагрузка подсветки
           ./modules/autorun/cladpi/ciadpi.nix       # Автозагрузка обход интернета CiaDpi
