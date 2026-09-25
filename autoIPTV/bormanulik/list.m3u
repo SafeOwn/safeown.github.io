@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 24.09.26
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 25.09.26
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg"   tvg-name="Первый канал", Первый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
@@ -5628,4 +5628,196 @@ http://89.33.29.115:8080/1HD/tracks-v1a1/mono.m3u8
 http://89.33.29.115:8080/MCM/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Хост"  tvg-id="tnt-music" , ТНТ MUSIC
 http://89.33.29.115:8080/TNT_Music/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="prikluchenia-hd" ,Приключения HD
+http://stream.mcquack.net/198/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="national-geographic" ,National Geographic HD
+http://stream.mcquack.net/116/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="nat-geo-wild" ,Nat Geo Wild HD
+http://stream.mcquack.net/149/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="discovery-channel" ,Discovery Channel HD
+http://stream.mcquack.net/177/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="id-xtra-ru" ,Investigation Discovery HD
+http://stream.mcquack.net/205/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="travel-channel" ,Travel Channel HD
+http://stream.mcquack.net/231/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="travel-xp-hd" ,Travel XP HD
+http://stream.mcquack.net/451/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="the-explorers" ,The Explorers
+http://stream.mcquack.net/450/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="insight-tv-hd" ,Insight TV HD
+http://stream.mcquack.net/361/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="nauka" ,Наука
+http://stream.mcquack.net/403/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="one-planet" ,One Planet HD
+http://stream.mcquack.net/448/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="animal-planet-eu" ,Animal Planet HD
+http://stream.mcquack.net/114/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="morskoy" ,Моя стихия
+http://stream.mcquack.net/141/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="v-mire-zhivotnyx-hd" ,В мире животных
+http://stream.mcquack.net/241/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="tlc" ,TLC
+http://stream.mcquack.net/168/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="cinema-ru" ,Cinema 
+http://stream.mcquack.net/62/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="kinopokaz" ,Кинопоказ
+http://stream.mcquack.net/64/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="komedijnoe-hd" ,Комедийное HD
+http://stream.mcquack.net/74/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="khit-hd" ,Хит HD
+http://stream.mcquack.net/363/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="blokbaster-hd" ,Блокбастер HD
+http://stream.mcquack.net/364/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="dorama" ,Дорама HD
+http://stream.mcquack.net/412/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="kinosweet" ,Kinosweet
+http://stream.mcquack.net/447/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="kinowood" ,Kinowood HD
+http://stream.mcquack.net/446/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="2na2" ,2x2
+http://stream.mcquack.net/187/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="hollywood-hd" ,Hollywood HD
+http://stream.mcquack.net/268/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="fanhd" ,Fan HD
+http://stream.mcquack.net/420/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="kino-tv" ,Кино ТВ
+http://stream.mcquack.net/221/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="amedia1" ,Amedia 1
+http://stream.mcquack.net/117/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="amedia-premium" ,Amedia Premium 
+http://stream.mcquack.net/151/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="amedia-hit" ,Amedia Hit
+http://stream.mcquack.net/162/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="ginger-hd" ,Капитан фантастика 
+http://stream.mcquack.net/144/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="sony-tv" ,.red
+http://stream.mcquack.net/69/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="sony-turbo" ,.Black 
+http://stream.mcquack.net/263/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="sony-scifi" ,.Sci-Fi
+http://stream.mcquack.net/180/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="shokiruyushchee-hd" ,Шокирующее HD
+http://stream.mcquack.net/75/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="fresh-thriller" ,Fresh Thriller
+http://stream.mcquack.net/434/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="fresh-romatic" ,Fresh Romantic
+http://stream.mcquack.net/433/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="fresh-adventure" ,Fresh Adventure
+http://stream.mcquack.net/432/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="fresh-horror" ,Fresh Horror
+http://stream.mcquack.net/431/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="fresh-series" ,Fresh Series
+http://stream.mcquack.net/430/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="fresh-fantastic" ,Fresh Fantastic
+http://stream.mcquack.net/429/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="fresh-vhs" ,Fresh VHS
+http://stream.mcquack.net/428/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="fresh-family" ,Fresh Family
+http://stream.mcquack.net/427/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="fresh-comedy" ,Fresh Comedy
+http://stream.mcquack.net/426/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="fresh-kids" ,Fresh Kids
+http://stream.mcquack.net/425/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="fresh-premiere" ,Fresh Premiere
+http://stream.mcquack.net/424/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="fresh-cinema" ,Fresh Cinema
+http://stream.mcquack.net/423/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="fresh-rating" ,Fresh Rating
+http://stream.mcquack.net/422/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="gags-network" ,Gags Network
+http://stream.mcquack.net/458/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="plusplus" ,ПлюсПлюс
+http://stream.mcquack.net/339/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="muztv" ,МузТВ
+http://stream.mcquack.net/86/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="bridge-hd" ,Bridge HD
+http://stream.mcquack.net/92/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="bridge-tv" ,Bridge TV
+http://stream.mcquack.net/318/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="bridge-tv-classic" ,Bridge TV Classic
+http://stream.mcquack.net/272/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="europa-plus-tv" ,Европа плюс тв
+http://stream.mcquack.net/184/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="v-gostiax-u-skazki" ,В гостях у сказки 
+http://stream.mcquack.net/93/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="tiji" ,Tiji
+http://stream.mcquack.net/111/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="jimjam" ,JimJam
+http://stream.mcquack.net/150/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="solnce" ,Солнце 
+http://stream.mcquack.net/118/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="da-vinci" ,Da Vinci
+http://stream.mcquack.net/238/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="nick-jr" ,Nick Jr
+http://stream.mcquack.net/220/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="nickelodeon-ru" ,Nickelodeon 
+http://stream.mcquack.net/443/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="kinokazka" ,KinoKazka
+http://stream.mcquack.net/167/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="bolt" ,Bolt
+http://stream.mcquack.net/73/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="extreme-sports" ,Extreme Sports HD
+http://stream.mcquack.net/148/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="trace-sport-stars" ,Trace Sport Stars
+http://stream.mcquack.net/256/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="kazsport" ,Qazsport
+http://stream.mcquack.net/72/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="setanta-sports" ,Setanta Sports 1
+http://stream.mcquack.net/234/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="setanta-sports-plus" ,Setanta Sports 2
+http://stream.mcquack.net/235/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="eurosport1" ,Eurosport 1
+http://stream.mcquack.net/176/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт"  tvg-id="eurosport2" ,Eurosport 2
+http://stream.mcquack.net/192/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1  group-title="Отт" ,Ultra 4K Extreme
+http://46.53.200.153:7777/play/test_krask1/index.m3u8
+#EXTINF:-1  group-title="Отт" ,viju Explore
+http://46.53.200.153:7777/play/a01i/index.m3u8
+#EXTINF:-1  group-title="Отт" ,viju History
+http://46.53.200.153:7777/play/a01j/index.m3u8
+#EXTINF:-1  group-title="Отт" ,viju Nature
+http://46.53.200.153:7777/play/a01k/index.m3u8
+#EXTINF:-1  group-title="Отт" ,TV XXI
+http://46.53.200.153:7777/play/TV-21M/index.m3u8
+#EXTINF:-1  group-title="Отт" ,Сапфир HD
+http://46.53.200.153:7777/play/Sapfir_HD/index.m3u8
+#EXTINF:-1  group-title="Отт" ,Витебск
+http://46.53.200.153:7777/play/a00h/index.m3u8
+#EXTINF:-1  group-title="Отт" ,Буг ТВ HD
+http://46.53.200.153:7777/play/Bug_TV_HD/index.m3u8
+#EXTINF:-1  group-title="Отт" ,Светлое ТВ
+http://46.53.200.153:7777/play/svetloetv/index.m3u8
+#EXTINF:-1  group-title="Отт" ,Наш Кинопоказ
+http://46.53.200.153:7777/play/SRT_Nash_kinopokaz/index.m3u8
+#EXTINF:-1  group-title="Отт" ,RTG HD
+http://46.53.200.153:7777/play/a00u/index.m3u8
+#EXTINF:-1  group-title="Отт" ,Viju TV1000 Новелла HD
+http://46.53.200.153:7777/play/VIJU_TV_1000_novella/index.m3u8
+#EXTINF:-1  group-title="Отт" ,Viju TV1000 Romantica HD
+http://46.53.200.153:7777/play/Viju_Drama/index.m3u8
+#EXTINF:-1  group-title="Отт" ,TV1000
+http://46.53.200.153:7777/play/TV_1000/index.m3
+#EXTINF:-1  group-title="Отт" ,TV1000 Action
+http://46.53.200.153:7777/play/a01h/index.m3u8
+#EXTINF:-1  group-title="Отт" ,TV1000 Русское Кино
+http://46.53.200.153:7777/play/a01g/index.m3u8
+#EXTINF:-1  group-title="Отт" ,VIP Comedy HD
+http://46.53.200.153:7777/play/Viju_Comedy_HD/index.m3u8
+#EXTINF:-1  group-title="Отт" ,VIP Megahit HD
+http://46.53.200.153:7777/play/Viju_Megahit_HD/index.m3u8
+#EXTINF:-1  group-title="Отт" ,VIP Premiere HD
+http://46.53.200.153:7777/play/Viju_Premiere/index.m3u8
+#EXTINF:-1  group-title="Отт" ,VIP Serial HD
+http://46.53.200.153:7777/play/Viju_Serial_HD/index.m3u8
+#EXTINF:-1  group-title="Отт" ,Шансон ТВ
+http://46.53.200.153:7777/play/Shanson_TV/index.m3u8
+#EXTINF:-1  group-title="Отт" ,Европа плюс ТВ
+http://46.53.200.153:7777/play/EuropaPlus/index.m3u8
+#EXTINF:-1  group-title="Отт" ,Live music channel
+http://46.53.200.153:7777/play/Live_music_channel/index.m3u8
+#EXTINF:-1  group-title="Отт" ,Viasat Sport HD
+http://46.53.200.153:7777/play/a01l/index.m3u8
+#EXTINF:-1  group-title="Отт" ,Viasat Sport
+http://46.53.200.153:7777/play/Viasat_Sport/index.m3u8u8
 #EXT-X-ENDLIST
