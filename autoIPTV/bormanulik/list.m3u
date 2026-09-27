@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 26.09.26
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 27.09.26
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg"   tvg-name="Первый канал", Первый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
@@ -4084,40 +4084,6 @@ http://185.46.16.239:8000/Match_Nash_Sport
 http://185.46.16.239:8000/Match_Igra
 #EXTINF:-1  group-title="Спортивные"  tvg-id="box-tv" ,Бокс ТВ
 http://185.46.16.239:8000/Eurosport_1
-#EXTINF:-1  group-title="Спортивные"  tvg-id="kxl-hd" , КХЛ HD
-http://89.33.29.115:8080/KHL_TV_HD/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="box-tv" , Бокс ТВ
-http://89.33.29.115:8080/Boks_TV/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="eurosport1" , Eurosport 1 HD
-http://89.33.29.115:8080/Eurosport_HD/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="eurosport2" , Eurosport 2 HD
-http://89.33.29.115:8080/Evrosport_2/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-arena" , Матч! Арена
-http://89.33.29.115:8080/Match_Arena/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-igra" , МАТЧ! ИГРА HD
-http://89.33.29.115:8080/Match_Igra_HD/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-premier" , МАТЧ ПРЕМЬЕР
-http://89.33.29.115:8080/Match_Planeta/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-premier" , МАТЧ ПРЕМЬЕР HD
-http://89.33.29.115:8080/Nash_futbol_HD/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-boets" , Матч! Боец
-http://89.33.29.115:8080/Match_Boets/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-football1" , Матч! Футбол 1 HD
-http://89.33.29.115:8080/Match_Futbol_1_HD/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-football2" , Матч! Футбол 2 HD
-http://89.33.29.115:8080/Match_Futbol_2_HD/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-football3" , Матч! Футбол 3 HD
-http://89.33.29.115:8080/Match_Futbol_3_HD/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="sport1-lt" , SPORT 1
-http://89.33.29.115:8080/sport1/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные" , СПОРТ+
-http://89.33.29.115:8080/sportplus/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="setanta-plus-ua" , Сетанта Спорт+ Украина
-http://89.33.29.115:8080/Setanta_SportsHD_UA/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="viasat-sport" , Viasat Sport
-http://89.33.29.115:8080/Viasat_Sport/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Спортивные" , Setanta Eurasia HD
-http://89.33.29.115:8080/SetantaEurasia/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-football1" ,Матч Футбол 1 HD
 http://195.64.140.147:10100/100
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-football2" ,Матч Футбол 2 HD
