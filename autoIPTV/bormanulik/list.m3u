@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 02.10.26
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 03.10.26
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg"   tvg-name="Первый канал", Первый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
@@ -5480,6 +5480,1422 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_U_2/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
 #EXTINF:-1  group-title="Региoнальные плюс"  tvg-id="yu-pl7"  tvg-logo="https://app.playlistbox.com/icon/mGYXlVJ1Da0RjxXJaLZzy8dek2wvP5gW.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Ю (+7)", Ю (+7)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/efir/pervyj.png" ,Первый канал FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869736&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="pervy"  tvg-logo="http://peaktv.su/img/logos/efir/pervyj.png" ,Первый канал HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869735&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="pervy"  tvg-logo="http://peaktv.su/img/logos/efir/pervy-kanal-eu.png" ,Первый канал
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869734&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="pervy-kanal-csi"  tvg-logo="http://peaktv.su/img/logos/efir/pervy-kanal-csi.png" ,Первый канал СНГ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869726&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/efir/rossia1.png" ,Россия 1 FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869725&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="rossia1"  tvg-logo="http://peaktv.su/img/logos/efir/rossia1.png" ,Россия 1 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869724&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="rossia1"  tvg-logo="http://peaktv.su/img/logos/efir/rossia1.png" ,Россия 1
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869723&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/efir/ntv-white.png" ,НТВ FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869705&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="ntv"  tvg-logo="http://peaktv.su/img/logos/efir/ntv-white.png" ,НТВ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869704&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="ntv"  tvg-logo="http://peaktv.su/img/logos/federal/ntv-white.png" ,НТВ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869703&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="ntv-mir"  tvg-logo="http://peaktv.su/img/logos/efir/ntv-mir.png" ,НТВ-Мир
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869697&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/show/tnt.png" ,ТНТ FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869696&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tnt"  tvg-logo="http://peaktv.su/img/logos/show/tnt.png" ,ТНТ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869695&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tnt"  tvg-logo="http://peaktv.su/img/logos/federal/tnt.png" ,ТНТ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869694&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/show/tnt-int.png" ,ТНТ International
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869687&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tnt4"  tvg-logo="http://peaktv.su/img/logos/federal/TNT4200.png" ,ТНТ4 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869686&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tnt4"  tvg-logo="http://peaktv.su/img/logos/federal/TNT4200.png" ,ТНТ4
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869685&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/show/sts.png" ,СТС FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869681&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="sts"  tvg-logo="http://peaktv.su/img/logos/show/sts.png" ,СТС HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869680&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="sts"  tvg-logo="http://peaktv.su/img/logos/federal/sts.png" ,СТС
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869679&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="sts-int"  tvg-logo="http://peaktv.su/img/logos/show/sts-int.png" ,СТС International
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869675&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="sts-love"  tvg-logo="http://peaktv.su/img/logos/federal/sts-love.png" ,СТС Love
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869674&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/efir/rentv.png" ,РЕН ТВ FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869673&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="rentv"  tvg-logo="http://peaktv.su/img/logos/efir/rentv.png" ,Рен ТВ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869672&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="rentv"  tvg-logo="http://peaktv.su/img/logos/efir/rentv.png" ,Рен ТВ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869671&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/efir/tvcentr.png" ,ТВЦ FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869667&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/efir/tvcentr.png" ,ТВЦ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869666&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tvcentr"  tvg-logo="http://peaktv.su/img/logos/efir/tvcentr.png" ,ТВЦ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869665&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="zvezda"  tvg-logo="http://peaktv.su/img/logos/efir/zvezda.png" ,Звезда HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869661&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="zvezda"  tvg-logo="http://peaktv.su/img/logos/efir/zvezda.png" ,Звезда
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869660&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/efir/zvezda-plus.png" ,Звезда Плюс HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869656&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/efir/5kanal-ru.png" ,Пятый канал HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869655&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/federal/tv3-ru.png" ,ТВ3 FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869652&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tv3-ru"  tvg-logo="http://peaktv.su/img/logos/federal/tv3-ru.png" ,ТВ3 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869651&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tv3-ru"  tvg-logo="http://peaktv.su/img/logos/federal/tv3-ru.png" ,ТВ3
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869650&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/efir/mir.png" ,Мир FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869646&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="mir"  tvg-logo="http://peaktv.su/img/logos/efir/mir.png" ,Мир HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869645&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="mir"  tvg-logo="http://peaktv.su/img/logos/efir/mir.png" ,Мир
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869644&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/show/pyatnica.png" ,Пятница! FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869640&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="piatnica"  tvg-logo="http://peaktv.su/img/logos/show/pyatnica.png" ,Пятница! HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869639&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="piatnica"  tvg-logo="http://peaktv.su/img/logos/federal/pyatnica.png" ,Пятница!
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869638&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/subbota.png" ,Суббота! FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869634&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/subbota.png" ,Суббота! HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869633&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="super"  tvg-logo="http://peaktv.su/img/logos/federal/subbota.png" ,Суббота!
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869632&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/efir/domashny.png" ,Домашний FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869628&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="domashny"  tvg-logo="http://peaktv.su/img/logos/efir/domashny.png" ,Домашний HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869627&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="domashny"  tvg-logo="http://peaktv.su/img/logos/efir/domashny.png" ,Домашний
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869626&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="perec-int"  tvg-logo="http://peaktv.su/img/logos/show/perec.png" ,Перец INT
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869622&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="che"  tvg-logo="http://peaktv.su/img/logos/federal/che.png" ,Че!
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869620&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="otr"  tvg-logo="http://peaktv.su/img/logos/efir/otr.png" ,ОТР
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869616&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="yu"  tvg-logo="http://peaktv.su/img/logos/efir/yu.png" ,Ю
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869614&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/efir/sankt-peterburg.png" ,Санкт-Петербург HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869609&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/efir/78.png" ,78 канал
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869605&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/match-tv.png" ,Матч! ТВ FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869601&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/match-tv.png" ,Матч! ТВ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869600&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="match-tv"  tvg-logo="http://peaktv.su/img/logos/federal/match-tv.png" ,Матч! ТВ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869599&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/match-premiere.png" ,Матч! Премьер FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869598&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="match-premier"  tvg-logo="http://peaktv.su/img/logos/sport/match-premiere.png" ,Матч! Премьер HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869597&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="match-football1"  tvg-logo="http://peaktv.su/img/logos/sport/match-football1.png" ,Матч! Футбол 1 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869596&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/match-football1.png" ,Матч! Футбол 1 FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869595&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="match-football2"  tvg-logo="http://peaktv.su/img/logos/sport/match-football2.png" ,Матч! Футбол 2 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869594&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/match-football2.png" ,Матч! Футбол 2 FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869593&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="match-football3"  tvg-logo="http://peaktv.su/img/logos/sport/match-football3.png" ,Матч! Футбол 3 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869592&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/match-football3.png" ,Матч! Футбол 3 FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869591&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/match-arena.png" ,Матч! Арена FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869590&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="match-arena"  tvg-logo="http://peaktv.su/img/logos/sport/match-arena.png" ,Матч! Арена
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869589&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/match-igra.png" ,Матч! Игра FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869588&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="match-igra"  tvg-logo="http://peaktv.su/img/logos/sport/match-igra.png" ,Матч! Игра
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869587&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/match-strana.png" ,Матч! Страна FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869586&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="okko-football"  tvg-logo="http://peaktv.su/img/logos/sport/okkofutbol200.png" ,Окко.Футбол HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869585&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="okko-sport"  tvg-logo="http://peaktv.su/img/logos/sport/okkosport1200.png" ,Окко.Спорт HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869584&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/okkoprime200.png" ,Окко.Прайм Спорт HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869583&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/OKKOCHEMPIONAT2200.png" ,Окко.Чемпионат
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869582&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/kxl-hd.png" ,KHL Prime FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869581&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/kxl-hd.png" ,KHL Prime HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869580&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/kxl.png" ,KHL FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869579&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/kxl.png" ,KHL HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869578&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="match-planeta"  tvg-logo="http://peaktv.su/img/logos/sport/match-planeta.png" ,Матч! Планета
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869577&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/belarus5HD.png" ,Беларусь 5 HD BY
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869576&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/sport-tv-by.png" ,Спорт ТВ Беларусь HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869575&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="match-boets"  tvg-logo="http://peaktv.su/img/logos/sport/match-boec.png" ,Матч! Боец
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869574&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="box-tv"  tvg-logo="http://peaktv.su/img/logos/sport/box-tv.png" ,Бокс ТВ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869573&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="ufc"  tvg-logo="http://peaktv.su/img/logos/sport/ufc.png" ,Удар
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869572&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/prime_fight.jpg" ,Prime Fight HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869571&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="fightbox-hd"  tvg-logo="http://peaktv.su/img/logos/sport/fightbox-hd.png" ,FightBox HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869570&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/m1-global.png" ,MMA-TV (M-1 Global)
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869569&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="extreme-sports"  tvg-logo="http://peaktv.su/img/logos/sport/exstreme.png" ,Extreme Sports
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869568&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="russky-ekstrim"  tvg-logo="http://peaktv.su/img/logos/sport/rus-extrim.png" ,Русский экстрим
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869567&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tochka-otryva"  tvg-logo="http://peaktv.su/img/logos/sport/start.png" ,Точка отрыва
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869566&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/fastfunbox-hd.png" ,Fast&FunBox
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869565&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/voleybol.png" ,Волейбол ТВ FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869564&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/mir-basketbola.png" ,Мир баскетбола HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869563&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="mir-basketbola"  tvg-logo="http://peaktv.su/img/logos/sport/mir-basketbola.png" ,Мир баскетбола
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869562&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/eurosport1.png" ,Eurosport 1 FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869561&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/eurosport2.png" ,Eurosport 2 FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869560&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="eurosport1-cee"  tvg-logo="http://peaktv.su/img/logos/sport/eurosport1-cee.png" ,Eurosport 1 HD CEE
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869559&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="eurosport2-cee"  tvg-logo="http://peaktv.su/img/logos/sport/eurosport2-cee.png" ,Eurosport 2 HD CEE
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869558&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/SETANTASPORTSPREM200.png" ,Setanta Sports Premium HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869557&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="setanta-sports"  tvg-logo="http://peaktv.su/img/logos/sport/setanta-sports1.png" ,Setanta Sports 1 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869556&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="setanta-sports-plus"  tvg-logo="http://peaktv.su/img/logos/sport/setanta-sports2.png" ,Setanta Sports 2 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869555&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/setanta-plus-ua.png" ,Setanta Sports UA+ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869554&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/setanta-ua.png" ,Setanta Sports UA HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869553&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/setanta-kz.png" ,Setanta Qazaqstan HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869552&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="setanta1-kz"  tvg-logo="http://peaktv.su/img/logos/sport/setanta1-kz.png" ,Setanta Sports 1 HD KZ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869551&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="setanta2-kz"  tvg-logo="http://peaktv.su/img/logos/sport/setanta2-kz.png" ,Setanta Sports 2 HD KZ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869550&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/setanta-plus-kz.png" ,Setanta Sports + HD KZ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869549&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/setanta-ua.png" ,Setanta Sports HD MD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869548&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/setanta1-ge.png" ,Setanta Sports 1 HD Georgia
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869547&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/setanta2-ge.png" ,Setanta Sports 2 HD Georgia
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869546&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://epg.iptvx.one/picons/setanta3-ge.png" ,Setanta Sports 3 HD Georgia
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869545&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/setanta1-lt.png" ,Setanta Sports Baltic HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869544&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/start.png" ,Старт FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869543&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="start-triumf"  tvg-logo="http://peaktv.su/img/logos/sport/start-triumf.png" ,Старт Триумф HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869542&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="football-ru"  tvg-logo="http://peaktv.su/img/logos/sport/football-ru.png" ,Футбол HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869541&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/footbolny.png" ,Мяч HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869540&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/sportivny.png" ,ТВ Спорт HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869539&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/xokkejny.png" ,Хоккей ТВ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869538&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/viasat-sport.png" ,viju+ Viasat Sport HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869537&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="trace-sport-stars"  tvg-logo="http://peaktv.su/img/logos/sport/trace-sport-stars.png" ,Trace Sport Stars
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869536&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="konny-mir"  tvg-logo="http://peaktv.su/img/logos/sport/konny-mir.png" ,Конный Мир HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869535&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/sport/suspilne-sport-ua.png" ,Суспильне Спорт HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869534&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://ip-tv.dev/images/ico/upl1.png" ,УПЛ ТВ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869533&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="upltv1"  tvg-logo="https://ip-tv.dev/images/ico/upl2.png" ,УПЛ ТВ 1
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869532&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="upltv2"  tvg-logo="https://ip-tv.dev/images/ico/upl3.png" ,УПЛ ТВ 2
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869531&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="upltv3"  tvg-logo="https://ip-tv.dev/images/ico/upl3.png" ,УПЛ ТВ 3
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869530&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/uhd/ultra-hd-cinema.png" ,Ultra HD Cinema (Cinema UHD)
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869529&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kino-ultra-hd"  tvg-logo="http://peaktv.su/img/logos/uhd/kinouhd.png" ,Кино UHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869528&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/mosfilm.png" ,Мосфильм: золотая коллекция HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869527&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/mosfilm.png" ,Мосфильм: золотая коллекция
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869526&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/mosfilm-pl4.png" ,Мосфильм: золотая коллекция +4 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869525&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="gosfilmofond-mv"  tvg-logo="http://peaktv.su/img/logos/kino/mashina_vremeni.png" ,Госфильмофонд. Машина времени
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869524&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="4k-ruskino"  tvg-logo="http://peaktv.su/img/logos/films/4k-ruskino.png" ,4К Русское кино
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869523&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="khit-hd"  tvg-logo="http://peaktv.su/img/logos/films/khit.png" ,Хит HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869522&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="ntv-serial"  tvg-logo="http://peaktv.su/img/logos/films/ntv-serial.png" ,НТВ Сериал
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869521&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="ntv-xit"  tvg-logo="http://peaktv.su/img/logos/films/ntv-xit.png" ,НТВ Хит
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869520&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="patriot"  tvg-logo="https://epg.iptvx.one/picons/patriot.png" ,Патриот
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869519&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/OKKOTV200.png" ,Окко ТВ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869518&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="start-air"  tvg-logo="http://peaktv.su/img/logos/films/start-air.png" ,START Air
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869517&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="start-world"  tvg-logo="http://peaktv.su/img/logos/films/start-world.png" ,START World
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869516&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="domkino"  tvg-logo="http://peaktv.su/img/logos/films/domkino.png" ,Дом кино
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869515&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="domkino-premium"  tvg-logo="http://peaktv.su/img/logos/films/domkino-premium.png" ,Дом кино Премиум HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869514&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kino-tv"  tvg-logo="http://peaktv.su/img/logos/films/kino-tv.png" ,Кино ТВ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869513&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/kino/SAGATV200.png" ,SAGA TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869512&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="evrokino"  tvg-logo="https://epg.iptvx.one/picons/eurokino.png" ,ЕвроКино HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869511&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kinojam1"  tvg-logo="http://peaktv.su/img/logos/films/kinojam1.png" ,Киноджем 1 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869510&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kinojam2"  tvg-logo="http://peaktv.su/img/logos/films/kinojam2.png" ,Киноджем 2 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869509&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tv1000"  tvg-logo="http://peaktv.su/img/logos/films/tv1000_hd.png" ,viju TV1000 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869508&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tv1000"  tvg-logo="http://peaktv.su/img/logos/films/tv1000.png" ,viju TV1000
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869507&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tv1000-action"  tvg-logo="http://peaktv.su/img/logos/films/tv1000-action_hd.png" ,viju TV1000 Action HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869506&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tv1000-action"  tvg-logo="http://peaktv.su/img/logos/films/tv1000-action.png" ,viju TV1000 Action
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869505&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tv1000-russkoe-kino"  tvg-logo="http://peaktv.su/img/logos/films/tv1000-russkoe-kino_hd.png" ,viju TV1000 Русское кино HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869504&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tv1000-russkoe-kino"  tvg-logo="http://peaktv.su/img/logos/films/tv1000-russkoe-kino.png" ,viju TV1000 Русское кино
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869503&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/viju-tv1000-novella.png" ,viju TV1000 Новелла HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869502&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://epg.iptvx.one/picons/viju-tv1000-romantica.png" ,viju TV1000 Romantica HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869501&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/vip-comedy.png" ,viju+ ViP Comedy HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869499&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/vip-megahit.png" ,viju+ ViP Megahit HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869498&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/vip-serial.png" ,viju+ ViP Serial HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869497&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="denpobedy"  tvg-logo="http://peaktv.su/img/logos/films/denpobedy.png" ,День Победы HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869496&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="russky-detektiv"  tvg-logo="http://peaktv.su/img/logos/films/russky-detektiv.png" ,Русский детектив
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869495&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="russky-bestseller"  tvg-logo="http://peaktv.su/img/logos/films/russky-bestseller.png" ,Русский Бестселлер
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869494&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="russky-illuzion"  tvg-logo="http://peaktv.su/img/logos/films/russky-illuzion.png" ,Русский Иллюзион HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869493&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="russky-roman"  tvg-logo="http://peaktv.su/img/logos/films/russky-roman.png" ,Русский Роман HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869492&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="premialnoe-hd"  tvg-logo="http://peaktv.su/img/logos/films/premialnoe-hd.png" ,Премиальное HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869491&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="romantichnoe-hd"  tvg-logo="http://peaktv.su/img/logos/films/romantichnoe-hd.png" ,Романтичное HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869490&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="komedijnoe-hd"  tvg-logo="http://peaktv.su/img/logos/films/komedijnoe-hd.png" ,Комедийное HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869489&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="nashe-lubimoe-hd"  tvg-logo="http://peaktv.su/img/logos/films/nashe-lubimoe-hd.png" ,Любимое HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869488&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="ostrosiuzhetnoe-hd"  tvg-logo="http://peaktv.su/img/logos/films/ostrosiuzhetnoe-hd.png" ,Остросюжетное HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869487&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="shokiruyushchee-hd"  tvg-logo="http://peaktv.su/img/logos/films/shokiruyushchee.png" ,Шокирующее HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869486&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="nash-kinoroman"  tvg-logo="http://peaktv.su/img/logos/films/dushevnoe-hd.png" ,Душевное HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869485&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="strashnoe-hd"  tvg-logo="http://peaktv.su/img/logos/films/strashnoe-hd.png" ,Страшное HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869484&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kinopremiera-hd"  tvg-logo="http://peaktv.su/img/logos/films/kinopremiera.png" ,Кинопремьера HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869483&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kinosemiya"  tvg-logo="http://peaktv.su/img/logos/films/kinosemia.png" ,Киносемья HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869481&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kinosemiya"  tvg-logo="http://peaktv.su/img/logos/films/kinosemia.png" ,Киносемья
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869480&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kinokomedia"  tvg-logo="http://peaktv.su/img/logos/films/kinokomedia.png" ,Кинокомедия HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869479&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kinomiks"  tvg-logo="http://peaktv.su/img/logos/films/kinomiks.png" ,Киномикс HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869478&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kinouzhas"  tvg-logo="http://peaktv.su/img/logos/films/kinouzhas.png" ,Киноужас HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869477&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kinosvidanie"  tvg-logo="http://peaktv.su/img/logos/films/kinosvidanie.png" ,Киносвидание HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869476&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kinoseria"  tvg-logo="http://peaktv.su/img/logos/films/kinoseria.png" ,Киносерия HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869475&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="muzhskoe-kino"  tvg-logo="http://peaktv.su/img/logos/films/muzhskoe-kino.png" ,Мужское кино HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869474&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="nashe-novoe-kino"  tvg-logo="http://peaktv.su/img/logos/films/nashe-novoe-kino.png" ,Наше Новое кино HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869473&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="rodnoe-kino"  tvg-logo="http://peaktv.su/img/logos/films/rodnoe-kino.png" ,Родное кино
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869472&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="indiyskoe-kino"  tvg-logo="http://peaktv.su/img/logos/films/indijskoe-kino.png" ,Индийское кино
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869471&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/kinomenu.png" ,Киноменю HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869470&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="sovkino"  tvg-logo="http://peaktv.su/img/logos/films/sovkino.png" ,Советское кино
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869469&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="4ever-cinema"  tvg-logo="https://epg.iptvx.one/picons/4ever-cinema.png" ,4ever Cinema HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869468&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="4ever-drama"  tvg-logo="https://epg.iptvx.one/picons/4ever-drama.png" ,4ever Drama HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869467&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="4ever-theater"  tvg-logo="https://epg.iptvx.one/picons/4ever-theater.png" ,4ever Theater HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869466&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kinosat"  tvg-logo="http://peaktv.su/img/logos/films/kinosat.png" ,Киноман
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869465&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://epg.iptvx.one/picons/kinokult.png" ,КиноКульт HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869464&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="russkaya-komedia"  tvg-logo="http://peaktv.su/img/logos/films/komedia.png" ,Комедия
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869463&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/sony-scifi.png" ,. Sci-Fi
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869462&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/sony.png" ,. Red HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869461&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/sony-turbo.png" ,. black
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869460&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="nst"  tvg-logo="http://peaktv.su/img/logos/films/nst.png" ,НСТ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869459&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="trashtv"  tvg-logo="http://peaktv.su/img/logos/films/trashtv.png" ,Trash HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869458&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="hollywood"  tvg-logo="http://peaktv.su/img/logos/films/hollywood.png" ,Hollywood
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869457&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="nash-kinopokaz-hd"  tvg-logo="http://peaktv.su/img/logos/films/nash-kinopokaz.png" ,Наш Кинопоказ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869456&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/lubimoe-kino.png" ,Наше любимое кино
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869455&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/bolt.png" ,Болт HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869454&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="mir-seriala"  tvg-logo="http://peaktv.su/img/logos/films/mir-seriala.png" ,Мир Сериала HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869453&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="arsenaltv"  tvg-logo="http://peaktv.su/img/logos/films/arsenaltv.png" ,Арсенал HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869452&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="bollywood-hd"  tvg-logo="http://peaktv.su/img/logos/films/bollywood-hd.png" ,Bollywood HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869451&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="amedia-hit"  tvg-logo="http://peaktv.su/img/logos/films/amedia-hit.png" ,Amedia Hit HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869450&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="amedia-premium"  tvg-logo="http://peaktv.su/img/logos/films/amedia-premium.png" ,Amedia Premium HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869449&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="amedia1"  tvg-logo="http://peaktv.su/img/logos/films/amedia1.png" ,A1 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869448&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="amedia2"  tvg-logo="http://peaktv.su/img/logos/films/amedia2.png" ,A2 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869447&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="timeless-dizi"  tvg-logo="http://peaktv.su/img/logos/films/timeless-dizi.png" ,Timeless Dizi Channel HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869446&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="blokbaster-hd"  tvg-logo="http://peaktv.su/img/logos/films/blokbaster.png" ,Блокбастер HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869445&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kamedi"  tvg-logo="http://peaktv.su/img/logos/films/kamedi.png" ,Камеди HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869444&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="nashe-muzhskoe-hd"  tvg-logo="http://peaktv.su/img/logos/films/nashe-muzhskoe.png" ,Наше мужское HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869443&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="pro-lyubov"  tvg-logo="http://peaktv.su/img/logos/films/pro-lyubov.png" ,Про любовь HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869442&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="fox"  tvg-logo="http://peaktv.su/img/logos/films/fox.png" ,Fox HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869441&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="foxlife"  tvg-logo="http://peaktv.su/img/logos/films/foxlife.png" ,Fox Life HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869440&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/cinema.png" ,Синема HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869439&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="epik-drama"  tvg-logo="http://peaktv.su/img/logos/films/epik-drama.png" ,Epic Drama HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869438&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/filmbox-ru.png" ,Filmbox
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869437&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="filmbox-arthouse"  tvg-logo="http://peaktv.su/img/logos/films/filmbox-arthouse.png" ,Filmbox Arthouse
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869436&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="dorama"  tvg-logo="http://peaktv.su/img/logos/films/dorama.png" ,Дорама HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869435&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="shot-tv"  tvg-logo="http://peaktv.su/img/logos/films/shot-tv.png" ,Shot TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869434&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kino-24"  tvg-logo="http://peaktv.su/img/logos/films/kino-24.png" ,Kino 24
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869433&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="zee-tv"  tvg-logo="http://peaktv.su/img/logos/films/zee-tv.png" ,Индия
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869432&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="illuzion-plus"  tvg-logo="http://peaktv.su/img/logos/films/illuzion-plus.png" ,Иллюзион +
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869431&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="klassika-kino"  tvg-logo="http://peaktv.su/img/logos/films/klassika-kino.png" ,Классика Кино
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869430&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="nashehd"  tvg-logo="http://peaktv.su/img/logos/films/nashehd.png" ,Наше HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869429&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/kino/nashenasledie200.png" ,Наше Наследие HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869428&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/kino/VIASATKINO200.png" ,Viasat Kino HD CEE
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869427&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/kino/VIASATKINOWORLD200.png" ,Viasat Kino World CEE
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869426&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/kino/VIASATKINOACTION200.png" ,Viasat Kino Action HD CEE
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869425&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/kino/VIASATKINOCOMEDY200.png" ,Viasat Kino Comedy HD CEE
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869424&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/kino/VIASATKINOMEGAHIT200.png" ,Viasat Kino Megahit HD CEE
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869423&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/familyjam.png" ,FamilyJam HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869422&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/cinema.png" ,Синема
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869421&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kinosezon"  tvg-logo="http://peaktv.su/img/logos/films/kinosezon.png" ,Киносезон
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869420&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="pobeda"  tvg-logo="http://peaktv.su/img/logos/films/pobeda.png" ,Победа HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869419&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/cosmostv.png" ,Cinema Космос ТВ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869418&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/flixsnip.png" ,Flix Snip HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869417&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="plan-b"  tvg-logo="http://peaktv.su/img/logos/films/plan-b.png" ,Plan_B
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869416&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kinoliving"  tvg-logo="https://epg.iptvx.one/picons/kinoliving.png" ,KinoLiving HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869415&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kinopokaz-hd"  tvg-logo="http://peaktv.su/img/logos/films/kinopokaz.png" ,Кинопоказ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869414&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/feniks-plus-kino.png" ,Феникс+Кино HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869413&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="scream"  tvg-logo="http://peaktv.su/img/logos/films/scream.png" ,Scream HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869412&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="lavstori-hd"  tvg-logo="http://peaktv.su/img/logos/films/lavstori.png" ,Лавстори HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869411&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/romance.png" ,Romance HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869410&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/suspense.png" ,Suspense HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869409&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="sov-kinklass-hd"  tvg-logo="http://peaktv.su/img/logos/films/sov-kinklass.png" ,Советская киноклассика HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869408&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/kino/kinoizhizn200.png" ,Кино и Жизнь HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869407&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="vremia"  tvg-logo="http://peaktv.su/img/logos/efir/vremia.png" ,Время
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869406&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="retro-tv"  tvg-logo="http://peaktv.su/img/logos/films/retro-tv.png" ,Ретро
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869405&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="hollywood-hd"  tvg-logo="http://peaktv.su/img/logos/films/hollywood-hd.png" ,Hollywood HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869404&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/kinoInt/star-family.png" ,Star Family HD RU
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869403&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/kinoInt/star-cinema.png" ,Star Cinema HD RU
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869402&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kriminalnoe-hd"  tvg-logo="http://peaktv.su/img/logos/films/kriminalnoe_hd.png" ,Криминальное HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869401&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/kion-xit.png" ,KION Хит HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869400&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/kineko.png" ,Кинеко HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869399&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="sapfir"  tvg-logo="http://peaktv.su/img/logos/films/sapfir.png" ,Сапфир HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869398&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/detectivejam.png" ,Detective Jam HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869397&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="vhs-ka"  tvg-logo="http://peaktv.su/img/logos/films/vhs-ka.png" ,VHS-ка HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869396&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/kino/vhskaserial200.png" ,VHS-ка Сериал HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869395&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/kino/videokasseta200.png" ,Видеокассета VHS
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869394&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/tvxxi.png" ,TV | 21
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869393&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://node01.flagstat.net/bilder/russland-mit-wappen-flagge.png" ,★☆★ Новостные ★☆★
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=159553&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="izvestia"  tvg-logo="http://peaktv.su/img/logos/efir/izvestia.png" ,Известия HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869391&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="rossia-24"  tvg-logo="http://peaktv.su/img/logos/federal/rossia-24.png" ,Россия 24
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869390&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/region/novorossija.png" ,Соловьёв LIVE
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869389&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/efir/rbk.png" ,РБК HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869388&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="rbk"  tvg-logo="http://peaktv.su/img/logos/efir/rbk.png" ,РБК
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869387&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/efir/360-news.png" ,360 Новости HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869386&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="moskva-24"  tvg-logo="http://peaktv.su/img/logos/efir/moskva-24.png" ,Москва 24
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869384&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/region/lot-47.png" ,ЛенТВ 24
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869383&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/region/ylugansk24.png" ,Луганск 24
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869382&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/news/NEWSFRONT200.png" ,News Front
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869381&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/efir/tsargrad.png" ,ЦарьГрад
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869380&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="russia-today"  tvg-logo="http://peaktv.su/img/logos/efir/rt-news.png" ,Russia Today HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869379&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="euronews"  tvg-logo="http://peaktv.su/img/logos/efir/euronews.png" ,Евроновости
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869378&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="rtvi"  tvg-logo="http://peaktv.su/img/logos/efir/rtvi.png" ,RTVI
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869377&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="krasnaya-linia"  tvg-logo="http://peaktv.su/img/logos/efir/krasnaya-linia.png" ,Красная линия
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869376&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/efir/echotv.png" ,ЭхоТВ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869375&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://node01.flagstat.net/bilder/russland-mit-wappen-flagge.png" ,★☆★ Познавательные ★☆★
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869137&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="love-nature-4k"  tvg-logo="http://peaktv.su/img/logos/uhd/love-nature-4k.png" ,Love Nature 4K
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869374&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="nasha-sibir-4k"  tvg-logo="http://peaktv.su/img/logos/uhd/nasha-sibir-4k.png" ,Наша Сибирь 4K
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869373&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="glazami-turista-4k"  tvg-logo="http://peaktv.su/img/logos/uhd/glazami-turista-4k.png" ,Глазами Туриста 4K
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869372&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="quadro4k"  tvg-logo="http://peaktv.su/img/logos/uhd/quadro4k.png" ,Quadro 4K
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869371&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="home-4k"  tvg-logo="http://peaktv.su/img/logos/uhd/home4k.png" ,HOME 4K
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869370&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="museum-4k"  tvg-logo="http://peaktv.su/img/logos/uhd/museum-4k.png" ,Museum 4K
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869369&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="insight-ultra-hd"  tvg-logo="http://peaktv.su/img/logos/uhd/insight-ultra-hd.png" ,Insight UHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869368&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="travel-xp-hd"  tvg-logo="http://peaktv.su/img/logos/poznanie/travel-xp-hd.png" ,TravelXP HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869367&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/rushistory200.png" ,Русская история HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869366&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="zhivaya-priroda" ,Живая Природа HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869365&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/morskoy.png" ,Моя Стихия FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869364&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="v-mire-zhivotnyx-hd"  tvg-logo="http://peaktv.su/img/logos/poznanie/v-mire-zhivotnyx.png" ,В мире животных HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869363&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="travel-channel"  tvg-logo="http://peaktv.su/img/logos/poznanie/travel-channel.png" ,Travel Channel HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869362&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="travel-adventure"  tvg-logo="http://peaktv.su/img/logos/poznanie/travel-adventure.png" ,Travel+Adventure HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869361&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="discovery-channel"  tvg-logo="http://peaktv.su/img/logos/poznanie/discovery-channel.png" ,Discovery HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869360&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="id-xtra-ru"  tvg-logo="http://peaktv.su/img/logos/poznanie/idxtra.png" ,Investigation Discovery HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869359&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="national-geographic"  tvg-logo="http://peaktv.su/img/logos/poznanie/national-geographic.png" ,National Geographic HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869358&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="nat-geo-wild"  tvg-logo="http://peaktv.su/img/logos/poznanie/nat-geo-wild.png" ,Nat Geo Wild HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869357&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="animal-planet-eu"  tvg-logo="http://peaktv.su/img/logos/poznanie/animal-planet.png" ,Animal Planet HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869356&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="animal-planet-eu"  tvg-logo="http://peaktv.su/img/logos/poznanie/animal-planet.png" ,Animal Planet
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869355&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="prikluchenia-hd"  tvg-logo="http://peaktv.su/img/logos/poznanie/prikluchenia-hd.png" ,Приключения HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869354&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="moya-planeta"  tvg-logo="http://peaktv.su/img/logos/poznanie/moya-planeta.png" ,Моя Планета HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869353&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="the-explorers"  tvg-logo="http://peaktv.su/img/logos/poznanie/the-explorers.png" ,The Explorers HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869352&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/kongresstv.png" ,Конгресс ТВ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869351&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/chemodan.png" ,Чемодан ТВ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869350&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="myy"  tvg-logo="http://peaktv.su/img/logos/poznanie/myy.png" ,Мы HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869349&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kto-est-kto"  tvg-logo="http://peaktv.su/img/logos/poznanie/kto-est-kto.png" ,Кто есть кто
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869348&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="galaxy-tv"  tvg-logo="http://peaktv.su/img/logos/poznanie/galaxy-tv.png" ,Тайны Галактики HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869347&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="eureka-hd"  tvg-logo="http://peaktv.su/img/logos/poznanie/kosmichesky.png" ,Первый Космический HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869346&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="curiosity-stream"  tvg-logo="http://peaktv.su/img/logos/poznanie/curiosity_stream.jpg" ,Curiosity Stream HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869345&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="nano-hd"  tvg-logo="http://peaktv.su/img/logos/poznanie/nano-hd.png" ,Nano HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869344&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="nauka-20"  tvg-logo="http://peaktv.su/img/logos/poznanie/nauka-20.png" ,Наука 2.0 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869343&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="dikaya-rybalka-hd"  tvg-logo="http://peaktv.su/img/logos/show/dikaya-rybalka-hd.png" ,Дикая Рыбалка HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869341&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="oxotnik-i-rybolov"  tvg-logo="http://peaktv.su/img/logos/show/oxotnik-i-rybolov-hd.png" ,Рыболов
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869340&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="oxota-i-rybalka"  tvg-logo="http://peaktv.su/img/logos/show/oxota-i-rybalka.png" ,Охота и рыбалка
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869339&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="oxotnik-i-rybolov-hd"  tvg-logo="http://peaktv.su/img/logos/poznanie/oxotnik-i-rybolov.png" ,Охотник и рыболов HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869338&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="dikaya-oxota-hd"  tvg-logo="http://peaktv.su/img/logos/show/dikaya-oxota-hd.png" ,Дикая Охота HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869337&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="dikiy"  tvg-logo="http://peaktv.su/img/logos/poznanie/dikiy.png" ,Дикий
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869336&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/nasha-tema.png" ,Наша Тема HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869335&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/mir-vokrug.png" ,Мир Вокруг HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869334&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/ocean-tv.png" ,Океан! HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869333&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="365-dnej"  tvg-logo="http://peaktv.su/img/logos/poznanie/365-dnej.png" ,365 дней
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869332&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="oruzhie"  tvg-logo="http://peaktv.su/img/logos/poznanie/oruzhie.png" ,Оружие
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869331&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="mir-uvlecheniy"  tvg-logo="http://peaktv.su/img/logos/poznanie/mir-uvlecheniy.png" ,#КтоКуда
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869330&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="rzhd-tv"  tvg-logo="http://peaktv.su/img/logos/efir/rzhd-tv.png" ,РЖД ТВ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869329&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="history-ru"  tvg-logo="http://peaktv.su/img/logos/poznanie/history-hd.png" ,History HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869328&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="h2"  tvg-logo="http://peaktv.su/img/logos/poznanie/h2.png" ,H2 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869327&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="rtd-ru"  tvg-logo="http://peaktv.su/img/logos/poznanie/russia-today.png" ,RTД HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869326&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://i.peaktv.pro/img/logos/poznanie/hdl.png" ,Точка. РФ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869325&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/cctv-ru.png" ,CGTN Русский
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869324&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="hgtv"  tvg-logo="http://peaktv.su/img/logos/poznanie/hgtv.png" ,HGTV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869323&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="istoria"  tvg-logo="http://peaktv.su/img/logos/poznanie/istoria.png" ,История
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869322&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="bolshaya-azia"  tvg-logo="http://peaktv.su/img/logos/poznanie/bolshaya-azia.png" ,Большая Азия HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869321&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="zoopark"  tvg-logo="http://peaktv.su/img/logos/poznanie/zoopark.png" ,ZooПарк
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869320&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="texno-24"  tvg-logo="http://peaktv.su/img/logos/poznanie/texno-24.png" ,24 Техно
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869319&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="usadba"  tvg-logo="http://peaktv.su/img/logos/poznanie/usadba.png" ,Усадьба
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869318&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="bobior"  tvg-logo="http://peaktv.su/img/logos/poznanie/bober.png" ,Бобёр
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869317&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tayna"  tvg-logo="http://peaktv.su/img/logos/poznanie/tayna.png" ,Тайна
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869316&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/insight-tv-hd.png" ,Insight HD (Eng)
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869315&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="zhivaya-planeta"  tvg-logo="http://peaktv.su/img/logos/poznanie/zhivaya-planeta.png" ,Живая планета HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869314&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="rtg-tv"  tvg-logo="http://peaktv.su/img/logos/efir/rtg-hd.png" ,RTG HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869313&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="rtg-tv"  tvg-logo="http://peaktv.su/img/logos/poznanie/rtg-tv.png" ,RTG
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869312&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/epic.png" ,Epic HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869311&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/viasat-nature.png" ,viju Viasat Nature HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869310&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/viasat-nature.png" ,viju Viasat Nature
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869309&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="viasat-explore"  tvg-logo="http://peaktv.su/img/logos/poznanie/viasat-explore.png" ,viju Explore HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869308&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/viasat-explore.png" ,viju Viasat Explore
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869307&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/viasat-history.png" ,viju Viasat History HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869306&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/viasat-history.png" ,viju Viasat History
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869305&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="viasat-nature-history-hd"  tvg-logo="http://peaktv.su/img/logos/poznanie/viasat-nature-history-hd.png" ,viju+ Planet HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869304&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/viasat-explore.png" ,Viasat Explore HD CEE
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869303&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/history-viasat-en.png" ,Viasat History HD CEE
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869302&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="viasat-nature-cee"  tvg-logo="http://peaktv.su/img/logos/poznanie/VIASATNATURE200.png" ,Viasat Nature CEE
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869301&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="da-vinci"  tvg-logo="http://peaktv.su/img/logos/poznanie/da-vinci.png" ,Da Vinci
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869300&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/zhivi.png" ,Живи! HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869299&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tvmchannel"  tvg-logo="http://peaktv.su/img/logos/poznanie/tvmchannel.png" ,TVMChannel
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869298&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="avto-plus"  tvg-logo="http://peaktv.su/img/logos/poznanie/avto-plus.png" ,Авто Плюс
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869297&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="zagorodnaya-zhizn"  tvg-logo="http://peaktv.su/img/logos/poznanie/zagorodnaya-zhizn.png" ,Загородная жизнь
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869296&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="zdorovoe-tv"  tvg-logo="http://peaktv.su/img/logos/poznanie/zdorovoe-tv.png" ,Здоровое ТВ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869295&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="zootv"  tvg-logo="http://peaktv.su/img/logos/poznanie/zootv.png" ,Зоо ТВ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869294&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="muzhskoy"  tvg-logo="http://peaktv.su/img/logos/poznanie/muzhskoy.png" ,Мужской
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869293&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="poexali"  tvg-logo="http://peaktv.su/img/logos/poznanie/poexali.png" ,Поехали!
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869292&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="otkryty-mir"  tvg-logo="http://peaktv.su/img/logos/poznanie/otkryty-mir.png" ,Открытый мир
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869290&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="zhivi-aktivno"  tvg-logo="http://peaktv.su/img/logos/poznanie/zhivi-aktivno.png" ,Живи Активно HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869289&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="glazami-turista"  tvg-logo="http://peaktv.su/img/logos/show/glazami-turista.png" ,Глазами туриста HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869288&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="big-planet"  tvg-logo="http://peaktv.su/img/logos/show/big-planet.png" ,Big Planet HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869287&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/terra-ru.png" ,TERRA HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869286&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="neizvestnaya-rosia"  tvg-logo="http://peaktv.su/img/logos/poznanie/neizvestnaya-rosia.png" ,Неизвестная Россия HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869285&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="telekafe"  tvg-logo="http://peaktv.su/img/logos/show/telekafe.png" ,Телекафе
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869284&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/films/nauchpop.png" ,Научпоп HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869283&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/sovsek.png" ,Совершенно секретно (Top Secret)
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869282&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="doktor"  tvg-logo="http://peaktv.su/img/logos/poznanie/doktor.png" ,Доктор
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869281&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="english-club-tv"  tvg-logo="http://peaktv.su/img/logos/poznanie/englishclub.png" ,English Club HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869280&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://node01.flagstat.net/bilder/russland-mit-wappen-flagge.png" ,★☆★ Детские ★☆★
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=595441&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="sts-kids-hd"  tvg-logo="http://peaktv.su/img/logos/detskie/sts-kids-hd.png" ,СТС KIDS HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869279&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="mult"  tvg-logo="http://peaktv.su/img/logos/detskie/mult.png" ,Мульт HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869278&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="multimania"  tvg-logo="http://peaktv.su/img/logos/detskie/multimania.png" ,Мультиландия
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869277&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/detskie/karusel.png" ,Карусель HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869276&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="karusel"  tvg-logo="http://peaktv.su/img/logos/federal/karusel.png" ,Карусель
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869242&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="karusel-pl7"  tvg-logo="http://peaktv.su/img/logos/efir/karusel-pl7.png" ,Карусель +7
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869274&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="zal-10-tricolor"  tvg-logo="http://peaktv.su/img/logos/detskie/sovmultf.png" ,Советские Мультфильмы
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869273&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="v-gostiax-u-skazki"  tvg-logo="http://peaktv.su/img/logos/detskie/v-gostiax-u-skazki.png" ,В гостях у сказки
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869272&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="skazki-zayki"  tvg-logo="http://peaktv.su/img/logos/detskie/skazki-zayki.png" ,Сказки Зайки
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869271&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="ginger-hd"  tvg-logo="http://peaktv.su/img/logos/detskie/capfantast.png" ,Капитан Фантастика HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869270&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/detskie/pingvin-lolo.png" ,Телеканал Пингвин
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869269&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="nickelodeon-ru"  tvg-logo="http://peaktv.su/img/logos/detskie/nickelodeon-hd.png" ,Nickelodeon HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869268&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="nickelodeon-ru"  tvg-logo="http://peaktv.su/img/logos/detskie/nickelodeon.png" ,Nickelodeon
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869267&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/detskie/nick-jr.png" ,Nick Jr.
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869266&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="nicktoons"  tvg-logo="http://peaktv.su/img/logos/detskie/nicktoons.png" ,Nicktoons
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869265&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/detskie/cartoon-network.png" ,Cartoon Network RU
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869264&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="boomerang"  tvg-logo="http://peaktv.su/img/logos/detskie/cartoonito.png" ,Cartoonito
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869263&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="cartoon-classics"  tvg-logo="http://peaktv.su/img/logos/detskie/cartoon-classics.png" ,Cartoon Classics
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869262&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kinomult"  tvg-logo="http://peaktv.su/img/logos/detskie/kinomult.png" ,КиноМульт
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869261&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/detskie/detsky-mir.png" ,Детский мир HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869260&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="gulli-girl"  tvg-logo="http://peaktv.su/img/logos/detskie/gulligirl.png" ,Gulli Girl
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869259&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tiji"  tvg-logo="http://peaktv.su/img/logos/detskie/tiji.png" ,TiJi
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869258&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="jimjam"  tvg-logo="http://peaktv.su/img/logos/detskie/jimjam.png" ,JimJam
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869257&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="ani"  tvg-logo="http://peaktv.su/img/logos/detskie/ani.png" ,Ani
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869256&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="solnce"  tvg-logo="http://peaktv.su/img/logos/detskie/solnce.png" ,Солнце
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869255&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="o_"  tvg-logo="http://peaktv.su/img/logos/detskie/o_.png" ,О!
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869254&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="liova"  tvg-logo="http://peaktv.su/img/logos/detskie/leva.png" ,Лёва
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869253&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="malysh"  tvg-logo="http://peaktv.su/img/logos/detskie/superhero.jpg" ,Супергерои
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869252&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="multimuzyka"  tvg-logo="http://peaktv.su/img/logos/detskie/multimuzyka.png" ,Мультимузыка
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869251&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="smaylik-tv"  tvg-logo="http://peaktv.su/img/logos/detskie/smaylik-tv.png" ,Смайлик ТВ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869250&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/detskie/tip-top.png" ,Тип-Топ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869249&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/detskie/chizhik.png" ,Чижик HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869248&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kidstv"  tvg-logo="http://peaktv.su/img/logos/detskie/kids_tv.jpg" ,KIDS TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869247&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="fanhd"  tvg-logo="http://peaktv.su/img/logos/detskie/fanhd.png" ,FAN HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869246&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="mama"  tvg-logo="http://peaktv.su/img/logos/detskie/mama.png" ,Мама
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869245&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="detsky"  tvg-logo="http://peaktv.su/img/logos/detskie/unikum.png" ,Уникум
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869243&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/detskie/disney-jr.png" ,Disney Junior IL
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869241&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/detskie/solnce.png" ,Солнце +7
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869240&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/detskie/ducktv.png" ,ducktv HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869239&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/baby-time.png" ,BabyTime
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869238&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="animetv"  tvg-logo="http://peaktv.su/img/logos/detskie/ANIMETV200.png" ,Anime TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869237&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="animekids"  tvg-logo="http://peaktv.su/img/logos/detskie/FUNNYKIDS200.png" ,Funny Kids
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869236&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://node01.flagstat.net/bilder/russland-mit-wappen-flagge.png" ,★☆★ Развлекательные ★☆★
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869138&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/uhd/russian-extreme-uhd.png" ,Russian Extreme Ultra (Ultra REX)
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869235&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="funbox-uhd"  tvg-logo="http://peaktv.su/img/logos/uhd/funboxuhd.png" ,FUNBOX UHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869234&extension=ts
+#EXTINF:-1  group-title="Сборка" ,Fashion TV UHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869233&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/uhd/myzen-tv.png" ,MyZen 4K
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869232&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/show/ratnik.png" ,Ратник HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869231&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/show/appetitny.png" ,Аппетитный HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869230&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="eda"  tvg-logo="http://peaktv.su/img/logos/poznanie/eda.png" ,Еда
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869229&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/kuhnia.png" ,Кухня ТВ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869228&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kuxnia-tv"  tvg-logo="http://peaktv.su/img/logos/poznanie/kuhnia.png" ,Кухня ТВ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869227&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="pervy-vegetariansky"  tvg-logo="http://peaktv.su/img/logos/poznanie/pervy-vegetariansky.png" ,Первый Вегетарианский
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869226&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="vkus"  tvg-logo="http://peaktv.su/img/logos/show/vkus.png" ,Вкус
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869225&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/show/eda-hd.png" ,Food Time HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869224&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="food-network"  tvg-logo="http://peaktv.su/img/logos/poznanie/food-network.png" ,Food Network HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869223&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="food-network"  tvg-logo="http://peaktv.su/img/logos/poznanie/food-network.png" ,Food Network
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869222&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kvn-tv"  tvg-logo="http://peaktv.su/img/logos/show/kvn-tv.png" ,КВН-ТВ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869221&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="anekdottv"  tvg-logo="http://peaktv.su/img/logos/show/anekdottv.png" ,Анекдот ТВ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869220&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/kinoInt/Tvoe-TV-Umor.png" ,Твоё ТВ Юмор HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869219&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="narod-vsio-vidit"  tvg-logo="http://peaktv.su/img/logos/show/narod-vsio-vidit.png" ,Народ Всё Видит
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869218&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="2na2"  tvg-logo="http://peaktv.su/img/logos/show/2x2.png" ,2x2
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869217&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="nowy-igrowoj"  tvg-logo="http://peaktv.su/img/logos/show/nowy-igrowoj.png" ,Новый игровой канал
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869216&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="centralnoye-tv"  tvg-logo="http://peaktv.su/img/logos/efir/centralnoye-tv.png" ,Центральное телевидение
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869215&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/poznanie/plusminus16.png" ,Плюс Минус 16 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869214&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="360-podmoskovie"  tvg-logo="http://peaktv.su/img/logos/show/360-podmoskovie.png" ,360° Подмосковье HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869213&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="domashnie-zhivotnye"  tvg-logo="http://peaktv.su/img/logos/show/domashnie-zhivotnye.png" ,Домашние животные
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869212&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/show/psixologia-21.png" ,Психология
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869211&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/show/ech.png" ,Эх! HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869210&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="zagorodny"  tvg-logo="http://peaktv.su/img/logos/show/zagorodny.png" ,Загородный
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869209&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/show/rutubetvhd.png" ,RutubeTV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869208&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="ntv-style"  tvg-logo="http://peaktv.su/img/logos/show/ntv-style.png" ,НТВ Стиль
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869207&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="ntv-pravo"  tvg-logo="http://peaktv.su/img/logos/poznanie/ntv-pravo.png" ,НТВ Право
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869206&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="zal-suda"  tvg-logo="http://peaktv.su/img/logos/efir/zal-suda.png" ,Зал суда HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869205&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="nostalgia"  tvg-logo="http://peaktv.su/img/logos/efir/nostalgia.png" ,Ностальгия
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869204&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/show/russky-ekstrim.png" ,HD REX
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869203&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="voprosy-i-otvety"  tvg-logo="http://peaktv.su/img/logos/show/voprosy-i-otvety.png" ,Вопросы и ответы
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869202&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="sarafan"  tvg-logo="http://peaktv.su/img/logos/show/sarafan.png" ,Сарафан
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869201&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="8kanal-ru"  tvg-logo="http://peaktv.su/img/logos/show/8kanal-ru.png" ,8 канал
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869200&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="drive"  tvg-logo="http://peaktv.su/img/logos/show/drive.png" ,Драйв
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869199&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/show/wwe_russian.png" ,WWE Russian
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869198&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="teatr"  tvg-logo="http://peaktv.su/img/logos/poznanie/teatr.png" ,Театр HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869197&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/show/e-tv.png" ,E (Game Show)
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869196&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="pes-i-ko"  tvg-logo="http://peaktv.su/img/logos/show/pes-i-ko.png" ,Пёс и Ко
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869195&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="gags-network"  tvg-logo="http://peaktv.su/img/logos/show/gags-network.png" ,Gags Network HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869194&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="avto24"  tvg-logo="http://peaktv.su/img/logos/show/avto24.png" ,Авто 24
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869193&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="fashion-tv"  tvg-logo="http://peaktv.su/img/logos/show/hdfashion-lifestyle.png" ,Fashion TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869192&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/show/ZHENZHURNAL200.png" ,Женский Журнал HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869191&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kluch"  tvg-logo="http://peaktv.su/img/logos/poznanie/kluch.png" ,Ключ HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869190&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tlc"  tvg-logo="http://peaktv.su/img/logos/poznanie/tlc.png" ,TLC HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869189&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/show/lapki-live.png" ,Лапки LIVE HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869188&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="kaleydoskop-tv"  tvg-logo="http://peaktv.su/img/logos/poznanie/kaleydoskop.png" ,Калейдоскоп ТВ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869187&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="teledom"  tvg-logo="http://peaktv.su/img/logos/efir/teledom.png" ,Теледом
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869186&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://node01.flagstat.net/bilder/russland-mit-wappen-flagge.png" ,★☆★ Музыкальные ★☆★
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=555325&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/europa-plus-tv.png" ,Europa Plus HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869185&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/1hd-music.png" ,1HD Music Television HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869184&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="muztv"  tvg-logo="http://peaktv.su/img/logos/music/muztv.png" ,Муз ТВ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869183&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="zhara"  tvg-logo="http://peaktv.su/img/logos/music/zhara.png" ,Жара
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869181&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="russian-musicbox"  tvg-logo="http://peaktv.su/img/logos/music/russian-musicbox.png" ,Russian MusicBox HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869180&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/o2tv.png" ,О!2
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869179&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="zhar-ptica"  tvg-logo="http://peaktv.su/img/logos/music/zhar-ptica.png" ,Жар Птица
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869178&extension=ts
+#EXTINF:-1  group-title="Сборка" ,#ё Самара
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869177&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="tancuj"  tvg-logo="http://peaktv.su/img/logos/music/TANTSUY200.png" ,Танцуй! HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869176&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="bridge-tv"  tvg-logo="http://peaktv.su/img/logos/music/bridge-hd.png" ,Bridge
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869175&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/bridge-tv-dance.png" ,Bridge Hits
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869174&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="bridge-hd"  tvg-logo="http://peaktv.su/img/logos/music/bridge-hd.png" ,Bridge Deluxe HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869173&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="bridge-tv-ruxit"  tvg-logo="http://peaktv.su/img/logos/music/bridge-tv-ruxit.png" ,Bridge TV Русский хит
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869172&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="bridge-tv-shlager"  tvg-logo="http://peaktv.su/img/logos/music/bridge-tv-shlager.png" ,Bridge TV Шлягер
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869171&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="bridge-tv-classic"  tvg-logo="http://peaktv.su/img/logos/music/bridge-tv-classic.png" ,Bridge Classic
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869170&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="bridge-tv-rock"  tvg-logo="http://peaktv.su/img/logos/music/BridgeRock.png" ,Bridge Rock
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869169&extension=ts
+#EXTINF:-1  group-title="Сборка" ,BRIDGE Этно
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869168&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="4ever-music"  tvg-logo="http://peaktv.su/img/logos/music/4ever-music.png" ,4ever Music HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869167&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="onemuz"  tvg-logo="http://peaktv.su/img/logos/music/1muz.png" ,Первый музыкальный HD RU
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869166&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="muzyka-pervogo"  tvg-logo="http://peaktv.su/img/logos/music/muzika_pervogo.png" ,Музыка Первого
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869165&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="radio-strana-fm-tv"  tvg-logo="http://peaktv.su/img/logos/music/radio-strana-fm-tv.png" ,Страна FM
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869164&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="iconcerts"  tvg-logo="http://peaktv.su/img/logos/music/iconcerts.png" ,iConcerts HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869163&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/inrating.png" ,InRating HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869162&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/kronehit.png" ,Kronehit HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869161&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/mcm-top.png" ,MCM-TOP
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869160&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-id="ru-tv"  tvg-logo="http://peaktv.su/img/logos/music/ru-tv.png" ,RU.TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869159&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/c-music-tv.png" ,Stingray CMusic HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869158&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/musiclive200.png" ,Музыка Live
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869157&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/classic-music.png" ,Classic Music
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869156&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/m1-ua.png" ,M1 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869155&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/m2-ua.png" ,M2 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869154&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/tnt-music.png" ,ТНТ Music HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869153&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/shansontv.png" ,Шансон ТВ
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869152&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/muzsoyuz.png" ,МузСоюз
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869151&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/song-tv-ru.png" ,Song TV Russia HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869150&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/clubbing.png" ,Clubbing TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869149&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/eu-music.png" ,EU.Music HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869148&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/radio-shanson.png" ,Радио Шансон (Live)
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869147&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/nrj-hits.png" ,NRJ Hits (BE)
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869146&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/musicbox-gold.png" ,MusicBox Gold
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869145&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/aiva.png" ,AIVA
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869144&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/europa-plus-tv.png" ,Europa Plus BY
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869143&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/trace-urban.png" ,Trace Urban HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869142&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/bridge-tv-fresh.png" ,Bridge Фрэш HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869141&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/mezzo.png" ,Mezzo HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869140&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://peaktv.su/img/logos/music/live-music-channel.png" ,Live Music Channel HD BY
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869139&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/digi-sport-1-ro.png" ,DIGI SPORT 1 FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105354&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/digi-sport-1-ro.png" ,DIGI SPORT 1 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105353&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/digi-sport-2-ro.png" ,DIGI SPORT 2 FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105352&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/digi-sport-2-ro.png" ,DIGI SPORT 2 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105351&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/digi-sport-3-ro.png" ,DIGI SPORT 3 FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105350&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/digi-sport-3-ro.png" ,DIGI SPORT 3 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105349&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/digi-sport-4-ro.png" ,DIGI SPORT 4 FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105348&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/digi-sport-4-ro.png" ,DIGI SPORT 4 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105347&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/orange-sport-1-ro.png" ,ORANGE SPORT 1
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105346&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/orange-sport-2-ro.png" ,ORANGE SPORT 2
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105345&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/orange-sport-3-ro.png" ,ORANGE SPORT 3
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105344&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/orange-sport-4-ro.png" ,ORANGE SPORT 4
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105343&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/prima-sport-1-ro.png" ,PRIMA SPORT 1 FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105342&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/prima-sport-2-ro.png" ,PRIMA SPORT 2
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105341&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/prima-sport-3-ro.png" ,PRIMA SPORT 3
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105340&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/prima-sport-4-ro.png" ,PRIMA SPORT 4
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105339&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/eurosport-1-ro.png" ,EUROSPORT 1
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105338&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/eurosport-2-ro.png" ,EUROSPORT 2
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105337&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/logo/PolandPlayNowLogo/extreamechannel.Playnow.png" ,EXTREME SPORTS CHANNEL
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105336&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/pro-arena-ro.png" ,PRO ARENA
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105335&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://www.logolarimiz.com/Toplu/Romania/sport-extra-ro.png" ,SPORT EXTRA
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=1105334&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,★☆★ AZERBAYCAN ★☆★
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=7316&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: AZTV FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632492&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: AZTV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632491&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ATV AZAD FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632490&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ATV AZAD HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632489&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: XEZER FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632488&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: XEZER HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632487&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ARB TV FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632484&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ARB TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632483&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: SPACE FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632486&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: SPACE HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632485&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: DUNYA TV FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632482&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: DUNYA TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632481&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: KANAL S TV FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632476&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: KANAL S TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632475&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: MEDENIYYET TV FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632478&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: MEDENIYYET TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632477&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ICTIMAI TV FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632480&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ICTIMAI TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632479&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: REAL TV FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632472&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: REAL TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632471&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ARB 24 TV FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632474&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ARB 24 TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632473&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ARB GUNES TV FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632468&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ARB GUNES TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632467&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: CBC TV FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632470&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: CBC TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632469&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: MTV AZ TV FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632464&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: MTV AZ TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632463&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: TMB AZ TV FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632466&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: TMB AZ TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632465&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: IDMAN TV FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632462&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: IDMAN TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632461&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: CBC SPOR TV FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632460&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: CBC SPOR TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632459&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: BAKU TV FHD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632458&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: BAKU TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632457&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: 9 VOLNE TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632397&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: AKTV SERIAL TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632425&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: AKTV SPORT TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632390&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: AKTV TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632424&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ALVİN TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632410&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: APA TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632406&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: AQRO TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632398&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ARI MUGAM TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632419&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ARI MUZIK HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632420&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ATV CINEMA TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632452&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: AYAZ TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632403&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: AZAD SOZ AZ TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632454&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: AZERI DINI 1 TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632386&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: AZERI DINI 2 TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632385&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: AZERI DINI 3 TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632384&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: AZERI DINI 4 TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632383&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: AZERI DINI 5 TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632382&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: AZER_SPORT 1 TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632389&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: AZSTAR TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632408&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: BOX CHANNEL TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632437&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: CHDTV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632439&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: CHDTV MOVIES TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632440&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: CTV AZERBYCAN TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632422&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: CTV MEYXANA TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632421&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: CTV SENEDLI TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632444&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: CTV USAQ TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632423&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: CTV VIZYON 2 TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632445&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: CTV VİZYON 1 TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632446&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: DALGA TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632448&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: DIZI TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632434&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: DOGRU TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632426&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ELTV TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632409&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ESMA TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632442&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: FTV TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632453&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: GEM AZ TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632417&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: GUNAZ TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632414&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: HADI TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632404&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: HTV AZERBAYCAN TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632438&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: HTV SINEMA TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632451&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: HZ.YUSIF TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632431&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: IDEA TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632433&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ISMAILLI TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632447&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: KANAL 35 TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632396&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: KANAL12 TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632393&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: KATV 1 TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632405&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: KEPEZ TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632413&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: KONUL TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632456&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: LIVE TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632411&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: MEGA MUZIK TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632428&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: MEGA SABAN TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632435&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: MEGA TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632450&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: MEGA YESILCAM TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632436&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: MEHRAB TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632391&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: NAXCIVAN TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632407&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: NEW TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632418&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ON4 TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632392&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: POP STAR TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632402&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: QAFQAZ TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632415&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: QEBELE TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632412&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: RETRO AZ TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632443&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: RIHAT TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632429&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: SEHER TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632399&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: SEHIYYE TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632400&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: SETANTA SPORT 1 TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632388&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: SETANTA SPORT 2 TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632387&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: SHOWPLUS TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632455&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: SİRVAN TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632449&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: TVPLUS TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632430&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: ULDUZ TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632441&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: UMID TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632427&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: UTVNEWS TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632432&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: UTVSHOW TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632416&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: VASTOK TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632401&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: VILAYET TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632394&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://cdn.countryflags.com/thumbs/azerbaijan/flag-round-250.png" ,AZ: VIP TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=632395&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://logo.kll1ll120qazwed.site/logo/flag/armenien.png" ,★☆★ ARMENIA ★☆★
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=120131&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: ARMENIA TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334075&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://logo.kll1ll120qazwed.site/logo/ARMENIA/2/armeniatv.png" ,AM: Armenia TV*
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334043&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://logo.diamondtv.one/images/logos/ARMENIA/SHANT.png" ,AM:  SHANT TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=606341&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://logo.diamondtv.one/images/logos/leeg.png" ,AM:  USARMENIAN
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=606339&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: H1 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334052&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://logo.diamondtv.one/images/logos/ARMENIA/H1HDAM.png" ,AM:  H1 TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=606336&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://logo.diamondtv.one/images/logos/ARMENIA/H2.png" ,AM: H2 TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=606335&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://logo.diamondtv.one/images/logos/leeg.png" ,AM:  H3 TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=606334&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://logo.kll1ll120qazwed.site/logo/ARMENIA/2/armeniatv.png" ,AM: Armenia 1 TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334045&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: Luys TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334046&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: LUYS TV.
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334047&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: AABC TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334048&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://logo.diamondtv.one/images/logos/ARMENIA/ATVHD.png" ,AM: ATV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=606338&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="https://logo.diamondtv.one/images/logos/ARMENIA/KENTRON.png" ,AM:  KENTRON TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=606337&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://logo.kll1ll120qazwed.site/logo/ARMENIA/kentron.png" ,AM: Kentron TV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334050&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://logo.kll1ll120qazwed.site/logo/ARMENIA/kentron.png" ,AM: KENTRON TV  INTERNATİONAL
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334051&extension=ts
+#EXTINF:-1  group-title="Сборка"  tvg-logo="http://logo.kll1ll120qazwed.site/logo/ARMENIA/2/5armenia.png" ,AM: ARARAT
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334055&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: 5 TV Armenia
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334056&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: Armenia Tv Europe SD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334057&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: ARTN Tv HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334058&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: 21 TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334059&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: YERKIR MEDIA HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334060&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: A1 PLUS
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334068&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: AMGA TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334069&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: ARARAT HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334070&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: ARMENIA EURO HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334073&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: ARMENIA TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334074&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: Armenia TV Premium 2
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334076&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: Armenia TV Premium 3
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334077&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: Armenian Patriotic Radio
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334078&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: ARMENIAN PUBLIC
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334079&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: ARMENIEA COMEDY
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334080&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: ARTN/SHANT
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334081&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: ATV Bazmoc
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334082&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: ATV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334083&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: ATV KINOMAN
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334084&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: BASHADE FM
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334087&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: FILMZONE HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334088&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: FIVE TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334089&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: H1 public
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334090&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: H3 HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334091&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: Hairenik Radio
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334092&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: Hayastan TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334094&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: JAN
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334096&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: Libano The Voice of The Armenian Radio
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334097&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: LUYSE TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334099&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: MO TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334100&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: RADIO AYK
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334102&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: RADIO VAN TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334104&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: Shoghakat TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334106&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: SHOWXAKAT HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334107&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: SONG TV
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334108&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: TAVA ATV HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334109&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: THT ARM
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334110&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: TNT HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334111&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: Trik Trak FM
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334112&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: TUNTUNIK HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334113&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: U! PREMIUM HD
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334114&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: USA ARM
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334115&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: VOICE OF VAN FM
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334116&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: YAN FM
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334117&extension=ts
+#EXTINF:-1  group-title="Сборка" ,AM: KENTRON AM
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=334119&extension=ts
 #EXTINF:-1  group-title="ГГ"  tvg-id="pervy" ,Первый канал
 http://195.64.140.147:10001/991
 #EXTINF:-1  group-title="ГГ"  tvg-id="rossia1" ,Россия 1
