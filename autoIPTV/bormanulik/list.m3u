@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 19.10.26
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 20.10.26
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg"   tvg-name="Первый канал", Первый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
@@ -419,10 +419,6 @@ http://s1.tv-nano.com/Magnat/tracks-v3a1/mono.m3u8
 http://s1.tv-nano.com/Magnat/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Познавательные" ,Мой Мир
 https://moymir.ru/hls/onair.m3u8
-#EXTINF:-1  group-title="Познавательные" ,Наши Города
-http://kogalimtv.servicecdn.ru/streams/775_913148/480n/index.m3u8
-#EXTINF:-1  group-title="Познавательные" ,Наши Города HD
-http://kogalimtv.servicecdn.ru/streams/775_913148/1080n/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="prnk-tv" ,ПРНК
 http://serv25.vintera.tv:8081/1pnk/prnk/playlist.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="prosveschenie" ,Просвещение
@@ -2794,12 +2790,6 @@ https://bl.rutube.ru/livestream/cc1b56aa4955a144f324ad58998513bb/index.m3u8?s=3-
 https://bl.rutube.ru/livestream/cc1b56aa4955a144f324ad58998513bb/index.m3u8?s=62YA56HThqaPRiNQeIIuFA&e=2066519932&scheme=https
 #EXTINF:-1  group-title="Спортивные"  tvg-id="start" ,СТАРТ HD
 http://31.210.208.171:8080/start/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Спортивные"  tvg-id="kxl-hd" ,KHL Prime
-https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv
-#EXTINF:-1  group-title="Спортивные"  tvg-id="kxl" ,KHL
-https://fs.uplink.kz/telekanal_khl/mono.m3u8?token=onlinetv
-#EXTINF:-1  group-title="Спортивные" ,Qazsport HD
-https://fs.uplink.kz/qazsport_hd/mono.m3u8?token=onlinetv
 #EXTINF:-1  group-title="Спортивные"  tvg-id="eurosport1" ,Eurosport 1 HD
 https://stream3.cinerama.uz/1439/mono.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-nash-sport" ,Матч! Страна
@@ -2938,8 +2928,6 @@ https://bl.rutube.ru/livestream/9f28acb802549828d3ce7fbd8ecc17d3/index.m3u8?s=H1
 https://bl.rutube.ru/livestream/efc2833169ec20a3ea61197714bea6ab/index.m3u8?s=VyEyVnw_cmiK7AMHE2yzvQ&e=2069285089&scheme=https
 #EXTINF:-1  group-title="Спортивные" ,Unbeaten HD
 https://bl.rutube.ru/livestream/efc2833169ec20a3ea61197714bea6ab/index.m3u8?s=JJ1LT-dHls975qnnen4uqA&e=2066519933&scheme=https
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="muztv" ,МузТВ
-http://31.210.208.171:8080/muztv/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Музыкальные" ,Activa TV
 https://bl.rutube.ru/livestream/8e9da41366fcb497aaeade579f0d715f/index.m3u8?s=ZOZa2aks9WUX89NRUSjHlA&e=2069285076&scheme=https
 #EXTINF:-1  group-title="Музыкальные" ,Activa TV SD
