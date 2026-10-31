@@ -6,21 +6,21 @@ https://drive.google.com/file/d/15kNEmsB2cP-TQCVMKhGZzCXh7faPligu/view
 2) Скачиваем строго эту версию RKDevTool_Release_v2.86
 	Запускаем RKDevTool и заливаем прошивку https://drive.google.com/file/d/15kNEmsB2cP-TQCVMKhGZzCXh7faPligu/view "updateY8.img"
 		Выключите приставку питание из розетки, 
-		Подсоеденить один конец провода USB к компьютеру другой type-c к приставке в программе RKDevTool -> Loader
+		Подсоединить один конец провода USB к компьютеру другой type-c к приставке в программе RKDevTool -> Loader
 		Держите ресет кнопку на задней панели скрепкой и вставляйте провод от питания пока не увидите надпись 
 		Upgrade Frimware -> Frimware -> открываем прошивку "Android 9 Yundoo Y8 (updateY8.img)" и нажимаем Upgrade
 		Проверяем прошивку
-	Убиждаемся какой адрес boot.img (внимание могут быть последствия кирпича, если не на тот адрес залить)
-		Advanced Function -> Frimware -> Загрузить "updateY8.img" -> Unpack -> ищим файл parameter.txt и ищим строчку типа "0x00010000@0x0000e800(boot)" значит "0x0000e800"
+	Убеждаемся какой адрес boot.img (внимание могут быть последствия кирпича, если не на тот адрес залить)
+		Advanced Function -> Frimware -> Загрузить "updateY8.img" -> Unpack -> ищем файл parameter.txt и ищем строчку типа "0x00010000@0x0000e800(boot)" значит "0x0000e800"
 	Заливаем boot.img исправление Bluetooth, led лампочка спереди и пульт ик
-		Download Image -> Снемите все галочеи и удалите все строки
+		Download Image -> Снимите все галочки и удалите все строки
 		Добавьте новую строку в таблицу: Address 0x0000e800, Name boot, Path к скачанному boot.img. 
 		Адрес сверьте со своим parameter.txt: если он другой, берите свой.
 		Отметьте галочкой только boot 
 		Нажмите «Run».
     Проверяем работает ли Bluetooth в настройках и  led лампочка спереди и пульт ик.
 
-Откат: (Advanced Function -> Frimware -> Загрузить "updateY8.img" -> Unpack -> ищим файл parameter.txt и boot.img) прошейте сохранённый оригинальный boot.img тем же способом. Loader и uboot не затрагиваются, так что приставка всегда восстанавливается через Maskrom.
+Откат: (Advanced Function -> Frimware -> Загрузить "updateY8.img" -> Unpack -> ищем файл parameter.txt и boot.img) прошейте сохранённый оригинальный boot.img тем же способом. Loader и uboot не затрагиваются, так что приставка всегда восстанавливается через Maskrom.
 
 Если все плохо: Advanced Function -> Go Maskrom (или пробуйте Loader)
 				Upgrade Frimware -> EraseFlash или	Advanced Function -> Erase All
@@ -49,7 +49,7 @@ https://drive.google.com/file/d/15kNEmsB2cP-TQCVMKhGZzCXh7faPligu/view
 Как это делалось (для желающих повторить): boot.img 
 	распаковывается через imgRePackerRK boot.img
 	запаковывалось  через imgRePackerRK boot.img.cfg
-	Ищим файл boot.img.dump -> second.dump -> rk-kernel.dtb 
+	Ищем файл boot.img.dump -> second.dump -> rk-kernel.dtb 
 	Декомпилируется DTC-GUI_for_Windows_v1.0.5_compiled командой dtc -I dtb -O dts, пример:
 		dtc.exe -I dtb -O dts -o rk-kernel_t.dts rk-kernel_t.dtb
 	Открываем файл "rk-kernel_t.dts" в текстовом файле
