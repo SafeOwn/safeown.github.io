@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 31.10.26
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 01.11.26
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg"   tvg-name="Первый канал", Первый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
@@ -3989,8 +3989,6 @@ https://s4.mvzd.ru/content/pa/ri/Pariz_ya_lublyu_tebya_2006_x264_BDRip_1080p.m3u
 https://s4.mvzd.ru/content/33/vi/33-vi-idite-ja-necu-33-2015-sml_1080p.m3u8
 #EXTINF:-1  group-title="Популярное кино"  tvg-logo="https://1rus.ru/content/xr/xk/JasonArgonauts_013_720x406.webp" ,Ясон и аргонавты (1963)
 https://s5.mvzd.ru/content/f7/m6/Jason_i_Argonavty_1963_BDRip_MVO_DVO_1080p.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-logo="https://i122.fastpic.org/big/2024/0112/65/b20ebb09af08ef55dbdffa919a047c65.png" , IPTVPLAY МультСказки HD
-http://5.188.158.65:4040/IPTVPLAYMultSkazki.tv/video.m3u8?token=lqRGka5-YwwqF0
 #EXTINF:-1  group-title="Детские"  tvg-id="solnce"  tvg-logo="https://picon.ml/solnce.png"   tvg-name="Солнце", Солнце
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="malysh" ,Супергерои
@@ -4090,8 +4088,6 @@ http://31.210.208.171:8080/ani/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/solnce/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Детские"  tvg-id="multimuzyka" ,Мультимузыка
 http://31.210.208.171:8080/mult_i_muzika/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Детские"  tvg-id="mult" ,МУЛЬТ
-http://31.210.208.171:8080/mult/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Детские"  tvg-id="mult" ,МУЛЬТ HD
 http://31.210.208.171:8080/mult_HD/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Детские"  tvg-id="mama" ,Мама
@@ -4114,6 +4110,12 @@ https://flussonic.mkpnet.ru/tv-9dda1dd9d740a9a4/video.m3u8
 https://flussonic.mkpnet.ru/tv-1bfac9df3d938c1f/video.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-premier" ,Матч! Премьер
 https://flussonic.mkpnet.ru/tv-ee3651e1e7ce5cbf/video.m3u8
+#EXTINF:-1  group-title="Спортивные"  tvg-id="kxl" ,KHL
+http://31.210.208.171:8080/khl/index.m3u8?token=+W2MSER
+#EXTINF:-1  group-title="Спортивные"  tvg-id="box-tv" ,БОКС ТВ
+http://31.210.208.171:8080/box_tv/index.m3u8?token=+W2MSER
+#EXTINF:-1  group-title="Спортивные"  tvg-id="start" ,СТАРТ HD
+http://31.210.208.171:8080/start/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Спортивные"  tvg-id="eurosport1"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/EUROSPORT 1.png" ,EUROSPORT 1 HD
 http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031933&extension=ts&play_token=bEI2KpG7Ws
 #EXTINF:-1  group-title="Спортивные"  tvg-id="eurosport2"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/EUROSPORT 2.png" ,EUROSPORT 2 HD
@@ -4130,8 +4132,6 @@ https://stream3.cinerama.uz/1439/mono.m3u8
 https://flussonic.mkpnet.ru/tv-6db4f59c21aec361/video.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="kxl" ,КХЛ
 https://flussonic.mkpnet.ru/tv-e3d23fc7511b5fcd/video.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="extreme-sports" ,Extreme Sports
-https://flussonic.mkpnet.ru/tv-1a9441fd32d63873/video.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-arena" ,МАТЧ! Арена
 https://flussonic.mkpnet.ru/tv-9dda1dd9d740a9a4/video.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-tv" ,МАТЧ!
@@ -4264,20 +4264,6 @@ https://bl.rutube.ru/livestream/efc2833169ec20a3ea61197714bea6ab/index.m3u8?s=Vy
 https://bl.rutube.ru/livestream/efc2833169ec20a3ea61197714bea6ab/index.m3u8?s=JJ1LT-dHls975qnnen4uqA&e=2066519933&scheme=https
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-arena" ,Матч! Арена
 http://31.210.208.171:8080/match_arena/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-igra" ,МАТЧ! ИГРА
-http://31.210.208.171:8080/match_igra/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-boets" ,Матч! Боец
-http://31.210.208.171:8080/match_boec/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-nash-sport" ,Матч! Страна
-http://31.210.208.171:8080/match_strana/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Спортивные"  tvg-id="mma-tv-com" ,MMA-TV.COM
-http://31.210.208.171:8080/mma_tv/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Спортивные"  tvg-id="kxl" ,KHL
-http://31.210.208.171:8080/khl/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Спортивные"  tvg-id="box-tv" ,БОКС ТВ
-http://31.210.208.171:8080/box_tv/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Спортивные"  tvg-id="start" ,СТАРТ HD
-http://31.210.208.171:8080/start/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Музыкальные" ,Activa TV
 https://bl.rutube.ru/livestream/8e9da41366fcb497aaeade579f0d715f/index.m3u8?s=ZOZa2aks9WUX89NRUSjHlA&e=2069285076&scheme=https
 #EXTINF:-1  group-title="Музыкальные" ,Activa TV SD
@@ -4348,8 +4334,6 @@ http://31.210.208.171:8080/o2/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/muztv/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="ru-tv" ,RU.TV
 http://31.210.208.171:8080/ru_tv/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="aiva" ,Aiva
-http://31.210.208.171:8080/aiva/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Музыкальные" ,Жара ТВ
 https://flussonic.mkpnet.ru/tv-3cdc33d3606ba23f/video.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="muztv" ,Муз ТВ
@@ -4362,8 +4346,6 @@ http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031877&e
 http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031895&extension=ts&play_token=Ck1nCU4QlZ
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="muzyka-pervogo"  tvg-logo="http://picon.tivi-ott.net:25461/picon/RUSSIA/RUSSIA/MUZYKA PERVOGO.png" ,Музыка Первого
 http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031892&extension=ts&play_token=mh9lBltYck
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="bridge-tv" ,Bridge
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=1031922&extension=ts&play_token=sliky2aQcT
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="muztv"  tvg-logo="http://picon.tivi-ott.net:25461/picon/AZERBAIJAN/MUZ TV.png" ,Муз ТВ HD
 http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=384761&extension=ts&play_token=LTwdiLO7jT
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Music 13
