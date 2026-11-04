@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 03.11.26
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 04.11.26
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg"   tvg-name="Первый канал", Первый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
@@ -6208,6 +6208,280 @@ http://195.64.140.147:10134/134
 http://195.64.140.147:10135/135
 #EXTINF:-1  group-title="ГГ"  tvg-id="v-gostiax-u-skazki" ,В Гостях у Сказки
 http://195.64.140.147:10136/136
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus1" ,Беларусь 1 
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS1.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus1" ,Беларусь 1 HD 
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS1HD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus2" ,Беларусь 2 
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS2.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus2" ,Беларусь 2 HD
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS2HD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus3" ,Беларусь 3 
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS3.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus3" ,Беларусь 3 HD
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS3HD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus5" ,Беларусь 5 
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS5.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus5" ,Беларусь 5 HD 
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS5HD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus24" ,Беларусь 24 
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS24.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Беларусь 24 HD
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS24HD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="pervy-info-by" ,Первый информационный
+http://dmitry-tv.ddns.net/hls/blrus/CH_1INFORMATSYONNY.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Первый информационный HD 
+http://dmitry-tv.ddns.net/hls/blrus/CH_1INFORMATSYONNYHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="stv-by" ,СТВ HD
+http://dmitry-tv.ddns.net/hls/blrus/CH_CTBHD720.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="start-triumf" ,СТАРТ ТРИУМФ
+http://dmitry-tv.ddns.net/hls/CH_START_TRIUMF.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СТАРТ ТРИУМФ HD720
+http://dmitry-tv.ddns.net/hls/CH_START_TRIUMFHD720.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="trace-sport-stars" ,TRACE SPORT STARS
+http://dmitry-tv.ddns.net/hls/CH_TRACE_SPORT_STARS.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="drive" ,ДРАЙВ
+http://dmitry-tv.ddns.net/hls/CH_DRIVE.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="eurosport1" ,EUROSPORT 1
+http://dmitry-tv.ddns.net/hls/CH_EUROSPORT1.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ntv-pravo" ,НТВ ПРАВО
+http://dmitry-tv.ddns.net/hls/CH_NTVPRAVO.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ntv-serial" ,НТВ СЕРИАЛ
+http://dmitry-tv.ddns.net/hls/CH_NTVSERIAL.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ntv-style" ,НТВ СТИЛЬ
+http://dmitry-tv.ddns.net/hls/CH_NTVSTIL.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ntv-xit" ,НТВ ХИТ
+http://dmitry-tv.ddns.net/hls/CH_NTVHIT.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СМОТРИМ Кино и сериалы
+http://dmitry-tv.ddns.net/hls/smotrim/CH_KINO_I_SERIALY.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СМОТРИМ Кино и сериалы HD
+http://dmitry-tv.ddns.net/hls/smotrim/CH_KINO_I_SERIALYHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="smotrim-100-lubov" ,СМОТРИМ 100% ЛЮБОВЬ
+http://dmitry-tv.ddns.net/hls/smotrim/CH_LYUBOV.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СМОТРИМ 100% ЛЮБОВЬ HD
+http://dmitry-tv.ddns.net/hls/smotrim/CH_LYUBOVHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="smotrim-100-muzhskoe" ,СМОТРИМ 100% МУЖСКОЕ
+http://dmitry-tv.ddns.net/hls/smotrim/CH_MUZHSKOE.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СМОТРИМ 100% МУЖСКОЕ HD
+http://dmitry-tv.ddns.net/hls/smotrim/CH_MUZHSKOEHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="smotrim-100-klassika" ,СМОТРИМ 100% КЛАССИКА
+http://dmitry-tv.ddns.net/hls/smotrim/CH_CLASSICA.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СМОТРИМ 100% КЛАССИКА HD
+http://dmitry-tv.ddns.net/hls/smotrim/CH_CLASSICAHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="kino-tv" ,КИНО ТВ
+http://dmitry-tv.ddns.net/hls/CH_KINOTV.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="evrokino" ,ЕВРОКИНО
+http://dmitry-tv.ddns.net/hls/CH_EVROKINO.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="nst" ,НСТ
+http://dmitry-tv.ddns.net/hls/CH_NST.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="russky-roman" ,Русский роман
+http://dmitry-tv.ddns.net/hls/CH_RUSSKIY_ROMAN.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="tv1000-russkoe-kino" ,TV1000 РУССКОЕ КИНО HD
+http://dmitry-tv.ddns.net/hls/CH_TV1000RUSSKOEKINOHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="dorama" ,ДОРАМА
+http://dmitry-tv.ddns.net/hls/CH_DORAMA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="hollywood" ,HOLLYWOOD
+http://dmitry-tv.ddns.net/hls/CH_HOLLYWOOD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="bollywood-hd" ,BOLLYWOOD
+http://dmitry-tv.ddns.net/hls/CH_BOLLYWOOD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="retro-tv" ,РЕТРО
+http://dmitry-tv.ddns.net/hls/CH_RETRO.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="cinema-ru" ,CINEMA
+http://dmitry-tv.ddns.net/hls/CH_CINEMA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="8kanal-ru" ,8 канал
+http://dmitry-tv.ddns.net/hls/CH_8CHANNEL.m3u8
+#EXTINF:-1  group-title="Беларусь" ,8 канал HD
+http://dmitry-tv.ddns.net/hls/CH_8CHANNELHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="prosveschenie" ,Просвещение
+http://dmitry-tv.ddns.net/hls/CH_PROSVESHENIE.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Надежда HD720
+http://dmitry-tv.ddns.net/hls/CH_NADEZHDAHD720.m3u8
+#EXTINF:-1  group-title="Беларусь" ,7tv
+http://dmitry-tv.ddns.net/hls/CH_7TV.m3u8
+#EXTINF:-1  group-title="Беларусь" ,LIFE TV [RUS]
+http://dmitry-tv.ddns.net/hls/CH_LIFETV_RUS.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="tvoyo-tv-hd" ,Твое ТВ HD
+http://dmitry-tv.ddns.net/hls/CH_TVOETVHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,360°
+http://dmitry-tv.ddns.net/hls/CH_360TV.m3u8
+#EXTINF:-1  group-title="Беларусь" ,360° HD
+http://dmitry-tv.ddns.net/hls/CH_360TVHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="kaleydoskop-tv" ,Калейдоскоп ТВ
+http://dmitry-tv.ddns.net/hls/CH_KALEYDOSKOPTV.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="tvmchannel" ,TVM Channel
+http://dmitry-tv.ddns.net/hls/CH_TVMCHANNEL.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="smotrim-100-prazdnik" ,СМОТРИМ 100% ПРАЗДНИК
+http://dmitry-tv.ddns.net/hls/smotrim/CH_PRAZDNIK.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СМОТРИМ 100% ПРАЗДНИК HD
+http://dmitry-tv.ddns.net/hls/smotrim/CH_PRAZDNIKHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="zhivi-aktivno" ,Живи активно
+http://dmitry-tv.ddns.net/hls/CH_ZHIVI_AKTIVNO.m3u8
+#EXTINF:-1  group-title="Беларусь" ,ТОЧКА РФ HD
+http://dmitry-tv.ddns.net/hls/CH_TOCHKA_RFHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="sarafan" ,Сарафан
+http://dmitry-tv.ddns.net/hls/CH_SARAFAN.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="radost-moya" ,Радость моя
+http://dmitry-tv.ddns.net/hls/CH_RADOSTMOYA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="smotrim-100-detskoe" ,СМОТРИМ 100% ДЕТСКОЕ
+http://dmitry-tv.ddns.net/hls/smotrim/CH_DETSKOE.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СМОТРИМ 100% ДЕТСКОЕ HD
+http://dmitry-tv.ddns.net/hls/smotrim/CH_DETSKOEHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="nickelodeon-ru" ,NICKELODEON HD
+http://dmitry-tv.ddns.net/hls/CH_NICKELODEONHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="nicktoons" ,NickToons
+http://dmitry-tv.ddns.net/hls/CH_NICKTOONS.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="nick-jr" ,Nick Jr
+http://dmitry-tv.ddns.net/hls/CH_NICKJR.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="mama" ,МАМА
+http://dmitry-tv.ddns.net/hls/CH_MAMA.m3u8
+#EXTINF:-1  group-title="Беларусь" ,В гостях у сказки HD
+http://dmitry-tv.ddns.net/hls/CH_VGOSTYAHUSKAZKIHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ginger-hd" ,КАПИТАН ФАНТАСТИКА
+http://dmitry-tv.ddns.net/hls/CH_KAPITAN_FANTASTIKA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ryzhy" ,Рыжий
+http://dmitry-tv.ddns.net/hls/CH_RYZHIY.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="tiji" ,Tiji
+http://dmitry-tv.ddns.net/hls/CH_TIJI.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="gulli-girl" ,Gulli GIRL
+http://dmitry-tv.ddns.net/hls/CH_GULLI_GIRL.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="detsky" ,Детский
+http://dmitry-tv.ddns.net/hls/CH_DETSKIY.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ducktv" ,Duck tv HD
+http://dmitry-tv.ddns.net/hls/CH_DUCKTVHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="prodvizhenie" ,ПРОДВИЖЕНИЕ
+http://dmitry-tv.ddns.net/hls/CH_PRODVIZHENIE.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СОЮЗ HD
+http://dmitry-tv.ddns.net/hls/CH_SOYUZHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="neizvestnaya-rosia" ,НЕИЗВЕСТНАЯ РОССИЯ
+http://dmitry-tv.ddns.net/hls/CH_UNKNOWN_RUSSIA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="neizvestnaya-rosia" ,НЕИЗВЕСТНАЯ РОССИЯ HD
+http://dmitry-tv.ddns.net/hls/CH_UNKNOWN_RUSSIAHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="moya-planeta" ,Моя планета
+http://dmitry-tv.ddns.net/hls/CH_MOYA_PLANETA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="smotrim-100-fakty" ,СМОТРИМ 100% ФАКТЫ
+http://dmitry-tv.ddns.net/hls/smotrim/CH_FAKTY.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СМОТРИМ 100% ФАКТЫ HD
+http://dmitry-tv.ddns.net/hls/smotrim/CH_FAKTYHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="oxota-i-rybalka" ,Охота и рыбалка
+http://dmitry-tv.ddns.net/hls/CH_OHOTAIRYBALKA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="viasat-explore" ,VIASAT EXPLORE HD
+http://dmitry-tv.ddns.net/hls/CH_VIASAT_EXPLOREHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="viasat-history" ,VIASAT HISTORY HD
+http://dmitry-tv.ddns.net/hls/CH_VIASAT_HISTORYHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="viasat-nature" ,VIASAT NATURE HD
+http://dmitry-tv.ddns.net/hls/CH_VIASAT_NATUREHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,NATIONAL GEOGRAPHIC WILD
+http://dmitry-tv.ddns.net/hls/CH_NATIONALGEOGRAPHICWILD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="zagorodny" ,Загородный
+http://dmitry-tv.ddns.net/hls/CH_ZAGORODNY.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="istoria" ,ИСТОРИЯ
+http://dmitry-tv.ddns.net/hls/CH_ISTORIA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="zhivaya-planeta" ,Живая планета
+http://dmitry-tv.ddns.net/hls/CH_ZHIVAYA_PLANETA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="zhivaya-priroda" ,Живая природа
+http://dmitry-tv.ddns.net/hls/CH_ZHIVAYA_PRIRODA.m3u8
+#EXTINF:-1  group-title="Беларусь" ,В мире животных HD720
+http://dmitry-tv.ddns.net/hls/CH_VMIREZHIVOTNYH_HD720.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="oxotnik-i-rybolov" ,Охотник и рыболов
+http://dmitry-tv.ddns.net/hls/CH_OHOTNIKIRYBOLOV.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="arsenaltv" ,Арсенал
+http://dmitry-tv.ddns.net/hls/CH_ARSENAL.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="eureka-hd" ,Первый космический
+http://dmitry-tv.ddns.net/hls/CH_1KOSMICHESKIY.m3u8
+#EXTINF:-1  group-title="Беларусь" ,ИНСАЙТ ТВ HD
+http://dmitry-tv.ddns.net/hls/CH_INSAYT_TVHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,ПРИКЛЮЧЕНИЯ
+http://dmitry-tv.ddns.net/hls/CH_PRIKLYUCHENIYA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="glazami-turista" ,Глазами туриста
+http://dmitry-tv.ddns.net/hls/CH_GLAZAMI_TURISTA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="nasha-sibir" ,НАША СИБИРЬ HD
+http://dmitry-tv.ddns.net/hls/CH_NASHA_SIBIRHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="texno-24" ,Т24
+http://dmitry-tv.ddns.net/hls/CH_T24.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="doktor" ,Доктор
+http://dmitry-tv.ddns.net/hls/CH_DOKTOR.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Zoo ПАРК
+http://dmitry-tv.ddns.net/hls/CH_3OOPARK.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="usadba" ,УСАДЬБА
+http://dmitry-tv.ddns.net/hls/CH_USADBA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="zdorovoe-tv" ,ЗДОРОВОЕ ТВ
+http://dmitry-tv.ddns.net/hls/CH_ZDOROVOETV.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Муз Союз
+http://dmitry-tv.ddns.net/hls/CH_MUZSOYUZ.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Kronehit
+http://dmitry-tv.ddns.net/hls/CH_KRONEHIT.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Kronehit HD
+http://dmitry-tv.ddns.net/hls/CH_KRONEHITHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="shanson-tv" ,Шансон ТВ
+http://dmitry-tv.ddns.net/hls/CH_SHANSONTV.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="tnt-music" ,ТНТ MUSIC HD
+http://dmitry-tv.ddns.net/hls/CH_TNTMUSICHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,RUTV
+http://dmitry-tv.ddns.net/hls/CH_RUTV.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="muzyka-pervogo" ,МУЗЫКА ПЕРВОГО
+http://dmitry-tv.ddns.net/hls/CH_MUZYKA_PERVOGO.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ftv-hd" ,FTV HD
+http://dmitry-tv.ddns.net/hls/CH_FTVHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,MYDAYTV
+http://dmitry-tv.ddns.net/hls/CH_MYDAYTV.m3u8
+#EXTINF:-1  group-title="Беларусь" ,CGTN ENGLISH
+http://dmitry-tv.ddns.net/hls/CH_CGTN_ENGLISH.m3u8
+#EXTINF:-1  group-title="Беларусь" ,CGTN ENGLISH HD720
+http://dmitry-tv.ddns.net/hls/CH_CGTN_ENGLISHHD720.m3u8
+#EXTINF:-1  group-title="Беларусь" ,CGTN РУССКИЙ HD
+http://dmitry-tv.ddns.net/hls/CH_CGTN_RUSSKIYHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,CGTN DOCUMENTARY HD720
+http://dmitry-tv.ddns.net/hls/CH_CGTN_DOCUMENTARYHD720.m3u8
+#EXTINF:-1  group-title="Беларусь" ,МИР 24 HD
+http://dmitry-tv.ddns.net/hls/CH_MIR24HD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="rbk" ,РБК
+http://dmitry-tv.ddns.net/hls/CH_RBK.m3u8
+#EXTINF:-1  group-title="Беларусь" ,РБК HD
+http://dmitry-tv.ddns.net/hls/CH_RBKHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="krasnaya-linia" ,Красная линия
+http://dmitry-tv.ddns.net/hls/CH_REDLINE.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="vsio-tv" ,Всё ТВ
+http://dmitry-tv.ddns.net/hls/zabava/CH_VSETV.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Всё ТВ HD
+http://dmitry-tv.ddns.net/hls/zabava/CH_VSETVHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="rzhd-tv" ,РЖД ТВ
+http://dmitry-tv.ddns.net/hls/CH_RZHDTV.m3u8
+#EXTINF:-1  group-title="Беларусь" ,РЖД ТВ HD
+http://dmitry-tv.ddns.net/hls/CH_RZHDTVHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Соловьев Live
+http://dmitry-tv.ddns.net/hls/smotrim/CH_SOLOVIEVLIVE.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="bolshaya-azia" ,Большая Азия
+http://dmitry-tv.ddns.net/hls/CH_BAZIYA.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Большая Азия HD720
+http://dmitry-tv.ddns.net/hls/CH_BAZIYAHD720.m3u8
+#EXTINF:-1  group-title="Беларусь" ,ВМЕСТЕ РФ HD
+http://dmitry-tv.ddns.net/hls/CH_VMESTERFHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="russia-today" ,RT HD
+http://dmitry-tv.ddns.net/hls/CH_RTHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="rtd-ru" ,RTД HD
+http://dmitry-tv.ddns.net/hls/CH_RTDHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Arirang Korea
+http://dmitry-tv.ddns.net/hls/CH_ARIRANG_KOREA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="izvestia" ,Известия
+http://dmitry-tv.ddns.net/hls/CH_I3BECTIYA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="izvestia" ,Известия HD
+http://dmitry-tv.ddns.net/hls/CH_I3BECTIYAHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,EURONEWS [RU]
+http://dmitry-tv.ddns.net/hls/CH_EURONEWS_RU.m3u8
+#EXTINF:-1  group-title="Беларусь" ,BBC-World
+http://dmitry-tv.ddns.net/hls/CH_BBC_WORLD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Bloomberg (ENGLISH)
+http://dmitry-tv.ddns.net/hls/CH_BLOOMBERG_ENGLISH.m3u8
+#EXTINF:-1  group-title="Беларусь" ,CNN [ENGLISH]
+http://dmitry-tv.ddns.net/hls/CH_CNN_ENGLISH.m3u8
+#EXTINF:-1  group-title="Беларусь" ,DW [ENGLISH]
+http://dmitry-tv.ddns.net/hls/CH_DW_ENGLISH.m3u8
+#EXTINF:-1  group-title="Беларусь" ,NHK World Japan HD [ENGLISH]
+http://dmitry-tv.ddns.net/hls/CH_NHK_WORLD_JAPANHD_ENGLISH.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="360-news" ,360° НОВОСТИ
+http://dmitry-tv.ddns.net/hls/smotrim/CH_360TV_NEWS.m3u8
+#EXTINF:-1  group-title="Беларусь" ,360° НОВОСТИ HD
+http://dmitry-tv.ddns.net/hls/smotrim/CH_360TV_NEWSHD.m3u8
 #EXTINF:-1  group-title="Казахстан"  tvg-id="tnt4" ,ТНТ4
 https://fs.uplink.kz/tnt4/mono.m3u8?token=onlinetv2
 #EXTINF:-1  group-title="Казахстан"  tvg-id="rossia-24" ,Россия 24
@@ -7330,104 +7604,4 @@ http://46.53.200.153:7777/play/Live_music_channel/index.m3u8
 http://46.53.200.153:7777/play/a01l/index.m3u8
 #EXTINF:-1  group-title="Отт" ,Viasat Sport
 http://46.53.200.153:7777/play/Viasat_Sport/index.m3u8u8
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000101_MegaKadr"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV МегаКадр RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/146/b8dcaa73bccdc7a9e7b63f28abb3386ab09755985e60345a042e0d383b294e59.m3u8?sig=644e2b80b184ee32fb950bcbc3ccbd370b20984833822ccfc801dab028eabb49
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000102_GoldenScreen"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Золотой Экран RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/147/1e7af3c10b60a76a50a6d3efa4220513010c496645855d65348510ae083f2bcb.m3u8?sig=1efff525deba37abf215635df693357d1572ee0e259a81165a9dbb13323da184
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000104_KinoTime"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноВремя RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/148/e087954e49714f5404dda109170e80b43d3ad9de021ee85a2f36867998660945.m3u8?sig=cd784b6f073b5749d316a08fffd94df81179e8c3b29f71827f3fcf184bb1968f
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000105_SerialWorld"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноМир RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/149/ebc9df140e8a2a48cf1d257ea7996fc34dc1803b7ec415ebd7d2e4e0ba9261b4.m3u8?sig=030a7932726b866f2a2f0e77c75062dee838f2272654fe07436ddc07136cc02e
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000109_SerialHit"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Хитовый Экран RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/150/112d6c2bb0f7b029d093c29c7236c0477754309b045737a469c73205ed06cba7.m3u8?sig=f4e53b2bc74dfb5b54e49d94ed8d58e0689907c14599ebcfbe61d9c8b7749059
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000110_Filmonavt"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Фильмонавт RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/151/e57cc8b54fdd23fed1376086fd106767da669fe96b75451d7eb38b79f4890f67.m3u8?sig=9c0bb8a3893a6c855aab92265f8f0556ad8763a6a11d511ed6d2f12b72cf386b
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000113_KinoHorizon"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноГоризонт RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/152/6d79a6252f720736783b58b46df711add16814362787e3fc75995b480c1dbb46.m3u8?sig=bf59e6bb180dd22532d973fc819b408d860b0de628b8c676accd4c5148e234b4
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000115_SyuzhetTV"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Сюжет ТВ RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/153/700b6eec3c1fbc39bc6d3f4273973fb2771111c77fafbd54aa00c5d4ae48cb0e.m3u8?sig=e39031f48abac42dcb4133ba92afbcce3bd90d341ceef5ee090e14edda74572f
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000116_KadrPlus"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Кадр Плюс RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/154/c2a4f2d6fb17963b3de4ffe98c22528b45226ed7a0ccc6ee2cd1b10e981c40eb.m3u8?sig=8e1cdef4b438800e00010195e08920345785304759ec44dc031c5ef216c29ea2
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000117_KinoPulse"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноПульс RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/155/04f6b240f0a7cae12fadd9c7e7c7eca606b075d0b48e54528047eaaf964bb21f.m3u8?sig=d31c0812e6cfe50bd3c0e3cd07102aa9691f213728893f8f1056a082fa7c2ff2
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000121_Ekran24"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Экран 24 RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/156/305e4fe46c89b860017abb7a6a43ad5746ac9de609edc45cf5a6d079e4f55227.m3u8?sig=d1a24ef07cca43c81b47b98ddc25eb5005f924fae8e08b360a994208bc1e5919
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000130_NightSeans"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Ночной Сеанс RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/157/de98a42a8eced167356fd0e435bc44e435154c3d6eb98ed3f6c0dd1451e5a16b.m3u8?sig=48ad7b4a78a06881e73e40f18cee746c7d8770bc701809fc40d4c46b8fc0bafe
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000131_PremiereLive"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Премьера Live RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/158/13777e1f435d4343ed8ef4e0f337215b6f54aa09a99f2f9ecad93f043fa41ef5.m3u8?sig=a85097b6dd51414e0d54ce18c245d6563a56d3aa7e7d1ea9ffa8c78845cd5e2e
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000132_KinoMarshrut"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноМаршрут RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/159/5b781958b35f6aa59705707954dae60c6836fc73485af5d4e1196de077d15e55.m3u8?sig=18f7aa987a089909c429b2cd3326877553c09a53a21ba883a95dbd84b33e1de8
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000133_LegendsEkrana"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Легенды Экрана RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/160/23a9b31ad5247e81e8e46a07b0c62b4e01ae2c20c5bbbc07a179dd67c8f61a05.m3u8?sig=eb95b2e1fb4d64df734e1ac3f6d2b3585daf5bad570317af525fae08887a9e03
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000135_MovieWave"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноВолна RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/161/3bcb1ca5e84d20b666e043b7096f8ab84c57b8d7c6ee44f91c3ffc823127c307.m3u8?sig=17524f651f7f14ac6aec25df32db2676f180f306b30ec6f2c21fa6faf6989e15
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000137_CinemaOrbit"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноОрбита RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/162/a0b4d996ab3941d570873fe5768e1d4a35e07a2eae4e1c7c3d67cb57127ae725.m3u8?sig=a68d76f66c74e50be5485e24bb9175d58ac510792b8e0ab4ecabf535d9484f09
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000139_FilmGalaxy"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Галактика Кино RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/163/36ab407180e7954add01bd7752674d45bd5ad0074f2e4d635176ef0063a96c4c.m3u8?sig=65bde9821f099071931e4b01c32e15166390db2a43f3002f3b4e637ec7ff6e51
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000141_KinoSphere"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноСфера RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/164/cfda7290e0f231ace9e08afcb0caf6c2d6fea84573613de459261a2b7d2775df.m3u8?sig=ad407fdb6bff9b2e5bba170b5b01fddb76430a227684a8df0b970383fa6ca935
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000143_KinoDrive"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноДрайв RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/165/633427bf3a7f916bf39f791f292c2363538bb0ce30a931cc5a1b15a37ddd84be.m3u8?sig=880ce25d342b6d7180fe74a4470ef040b76569a8ca11186520c9e83670f1c2e4
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000144_BlockbusterTV"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Блокбастер ТВ RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/166/f5edf0014eb777cf3c61b5798e7fd96593c6123a8348f40dfff1eadf6713b449.m3u8?sig=1e948912bd92e29c53f3d7eb4026037cd01e86ae7d210ba89ee7349f3443cbc4
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000199_FilmKanal"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Фильм Канал RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/167/72c5cb0c9ea03970e1ff8aec4ad45753a8fb59ab660f8c09fcccc583da9599ed.m3u8?sig=6c7f1a088e1daef96bc46256ed0d1c34a7802f0a376ef0db8466cd06a5f3abdc
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000201_KinoLine"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноЛиния RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/168/f5d3b6b34377cf243307d9103f0ab1444c88cf104332746465a475244e83795f.m3u8?sig=70747b0fa33b09f49ee609ac7a7049a577348d8ebb9fa769aa0244b7e7a60c06
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000202_MovieStar"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноЗвезда RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/169/2f649e0a56ce2fb8996d7407b8d089ad658b5de51eadde899d9eb87e96106427.m3u8?sig=73dcd3b627e53e9fc86130e99b9d4952bc24ea6e1e4c88e37cff722a096a5cfe
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000203_KinoArena"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноАрена RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/170/d615331b62dc4099d9819827cbd07445e3892a22951ac4d01bb60d9cb41ae481.m3u8?sig=b00f4a74018f0daa668f4080ad1b19b6b35769f62dd7d24270b62d86a979bf09
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000204_EkranFuture"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Экран Будущего RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/171/feb3d8ad0585bcb9dfaae49558df69a1b8304890b023f4ff42090f654b8d52cd.m3u8?sig=79c0c8898c188d3e9c16246613f839ff9c644ba273028060f6bd147048f7640a
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000205_CinemaNova"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Кино Нова RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/172/a9dc0f6c18c2243768444612cb943ce699c1cc537a2e91eb8f71107c17d7df07.m3u8?sig=3f7d122a0c4150d59d2a4f0a2f9c52568ec7dc4109152db5ce92348aae3b56f2
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000206_KinoFocus"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноФокус RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/173/74a1b0a4a34096c428c4d23aa525e5152f02235eb7ca40d5b41333f84ea4ec6b.m3u8?sig=84427d1d377ebee268dfa3d7e4b38e4878958c4a569d7978d55c46d13dc8228f
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000207_FilmPotok"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV ФильмПоток RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/174/60be8ae4ab14bdae725bfd5e0016e9fd3577474a0f734aea1f3ef722755aca15.m3u8?sig=3c44199d1dd0421267358660bae1c2e84bc73d3ff6ac0ac6f9857f3e0f03e076
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000208_KinoMix"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноМикс RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/175/a349739c1bce49976fce3f54081f59f8c5eeb58949e9a68beb887ae5e0b71b30.m3u8?sig=6445bca47b8e385bfc813857b3b9c860b680115c987d17f02ef7801d6abf445c
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000209_KinoClassic"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноКлассика RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/176/d6b9df37f36013d9a5bfc2e22e1125fe98e3db0b2041e8be0760596118bcb5ea.m3u8?sig=00c1597f74b18ea899fa794159b973a7fa3555853b2e0de0689c6e7996afb44d
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000210_SuperSeans"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV СуперСеанс RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/177/bec5b5c5211a3c71ae253d347f87c8d386a41d1d0f30e17c795fc51a5f11f78b.m3u8?sig=5a0040487fa30a010c368bcfaddeaa395caede791e7328a632862f951d4aa625
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000211_HDKinoDom"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноДом RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/178/63a2f2709aa16ce12162130111566077b8f46e721c6052761f6a67f3e89c1f43.m3u8?sig=28113fb622e56e622500ba30ec6f8b44027fc65a04038c70fe0410c57e0cef3b
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000212_KinoPlanet"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноПланета RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/179/ac3785e220db2faa9c081dec03f707a7f8b80de0e333356834ca9173d15676c7.m3u8?sig=390e7aea8d6348285da18dfaf5233f0ff67a46020adc88efc1de2cf613e49b50
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000213_MovieNight"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноНочь RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/180/99004793aa0e63b1ef2e13297c984256aeae09de7615bdd856d34f2128d3944c.m3u8?sig=dc1f0944fbb5b15baa1a3acb44f03ade759e5c994417b04ef13d61e44b24de99
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000214_KinoPortal"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноПортал RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/181/74c40a6b68f23da160cec4eb203d8cf9093196f36533157748f30f9f1a903ac6.m3u8?sig=c84ffc8933492c1ed3569f86a66d82926b81942c856371fcf56ab8e0129d3177
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000215_EkranPremium"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Экран Премиум RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/182/c10d8d109d480508b25e56a4cc02e9b9293b4d0128e50903a0d7be0145931b1b.m3u8?sig=fe6c909260bfc482f12ac08f475d02ff64fb3a7622a7f94cf6a3181a079ebb00
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000216_KinoSvet"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноСвет RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/183/dbf925f3b0cb36e858f9b5879f613bd606ec35ebdd7c8a9cc9d92542635877d7.m3u8?sig=e80156b6ef71e477f832f0cbd1e82ace1526619bd207fc27f40dac36e7ee6c52
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000217_FilmExpress"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV ФильмЭкспресс RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/184/922811011d5542e4205e1c76c56a68dc9c1d623c75319509f3cc89a8d84839b6.m3u8?sig=dcd0910de589cbbf51fd3bc3cce4cdd618df7ab81023b20cf9417449a2c303da
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000218_SerialPark"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Парк Кино RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/185/f3d82a7a00e620ac434185e6332eec106ea2069999f622ac5c959ebbb138c2b6.m3u8?sig=714916d6b8220a0a9fb9cbffbef3888178c943c776fe3d784adf7d0bda5393ea
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000219_CinemaTime"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Время Кино RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/186/26f7340386a99ff7b27b6a248c2e1c50d9ecf2ee667946f6185bc4ccea135637.m3u8?sig=9c9f8b9e9faa03b58d27f3f24dafc692fe2fa1a9590edb6e357ac94dceb140d0
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000220_KinoMayak"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноМаяк RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/187/564ce25cbe7b808e3e810edfc66e309c309afddcedac355d92cef332e5da4f01.m3u8?sig=121c63785045ded862e24f80802fb2fc52c1912cc0a5e12b46e548d183e182b0
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000221_KinoBaza"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноБаза RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/188/5b1be98d73787b064ce14750f5927b89ea2f6f2b3a162421f5880980f279c263.m3u8?sig=405beaf8576da6c0bb89285f62561601d79f78a8c15254e50a1f9737f7cc0058
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000222_FilmZone"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV ФильмЗона RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/189/1a63365983f092ae335d90d304469ba55eaeb0a4fb0883389096eb84874f0239.m3u8?sig=736b290b4bef89d8f66e5ae8a2fcd718e56d6a9dc9881ded6f12b80874f576d5
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000223_KinoEmpire"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноИмперия RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/190/03d68b5478647997f7adb5b4470c28eb967e39b77f9f547236e2c25acb0190f0.m3u8?sig=1f451edf0f992528634cf936007f9fb55006fa86ac5e2e92d3cd61ae36210da7
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000224_EkranHit"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Экран Хит RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/191/b266368e0da12106b7609b41f5b41556c317b3955dcda2b7b0009afab3d1c32c.m3u8?sig=4ee556d7b1eff3e26fbd0ed04a982a85060a22751a078cbe5b619bdfd5c4d820
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000225_MovieLine"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Линия Кино RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/192/fe43eddde9e9d507b56f174dae8d48f3a3a12b59acc446391899a355d16d93b5.m3u8?sig=3fb5523937a1352c7b0fe8ed8a250c1f2801affee03a7ffc3e330abb83e6f906
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000226_KinoRhythm"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV КиноРитм RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/193/6b7a4c3e45b8d335c713d1378f96bb67892f2e39fd282ae70b10641b9845c4fe.m3u8?sig=e82f61b5cdc82c6fa7a669c416a8cef94951830545994369f24b70d229ffd250
-#EXTINF:-1  group-title="Bear TV"  tvg-id="000227_Seans247"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Сеанс 24/7 RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/194/f95e8bb22ee8dbfdca592c8c757dd11e3c5dff8088642cf8d247ba1358dc0305.m3u8?sig=70e3cbbc9f7ddffedd7e8351ddc9721b0fcec81341f9fce132d673059585a5d1
-#EXTINF:-1  group-title="Bear TV"  tvg-id="009999_KinoMania"  tvg-logo="http://138.16.142.39:2095/bear_tv_uhd_ru.png" ,Bear TV Киномания RU UHD
-http://45.151.137.119:2095/stream/YF21ywu_jiNx3UoHgFTIphsx1FBPPgUla0R8UG2eH8Y/195/dec4475ba8902f0abc6464aa867e36cfea570426963b7d9743437e91166f017e.m3u8?sig=933cbf50e1a6c11a7aa679bf482edf01e92fff17880ec76aab6f815d3094dd89
 #EXT-X-ENDLIST
