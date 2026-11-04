@@ -1,17 +1,21 @@
-[Прошивка для Rikomagic MK39 RK3399] Bluetooth, Led лампочка и Пульт ИК на Android 9: исправленный boot.img
+[Прошивка для Rikomagic MK39 RK3399] Bluetooth, Led лампочка, Пульт ИК, WiFi Пульт на Android 9: исправленный boot.img
 
-1) Android 9 Yundoo Y8 с приставки  (Проблема. В прошивке не работал Bluetooth, Led лампочка и Пульт ИК. Делаем фикс заливаем "boot.img")
+1) Android 9 Yundoo Y8 с приставки  (Проблема. В прошивке не работал Bluetooth, Led лампочка, Пульт ИК и WiFi Пульт. Делаем фикс заливаем "boot.img")
 https://drive.google.com/file/d/15kNEmsB2cP-TQCVMKhGZzCXh7faPligu/view
 
 2) Скачиваем строго эту версию RKDevTool_Release_v2.86
 	Запускаем RKDevTool и заливаем прошивку https://drive.google.com/file/d/15kNEmsB2cP-TQCVMKhGZzCXh7faPligu/view "updateY8.img"
 		Выключите приставку питание из розетки, 
 		Подсоединить один конец провода USB к компьютеру другой type-c к приставке в программе RKDevTool -> Loader
-		Держите ресет кнопку на задней панели скрепкой и вставляйте провод от питания пока не увидите надпись 
-		Upgrade Frimware -> Frimware -> открываем прошивку "Android 9 Yundoo Y8 (updateY8.img)" и нажимаем Upgrade
-		Проверяем прошивку
+		Держите ресет кнопку на задней панели скрепкой и вставляйте провод от питания пока не увидите надпись 		
 	Убеждаемся какой адрес boot.img (внимание могут быть последствия кирпича, если не на тот адрес залить)
 		Advanced Function -> Frimware -> Загрузить "updateY8.img" -> Unpack -> ищем файл parameter.txt и ищем строчку типа "0x00010000@0x0000e800(boot)" значит "0x0000e800"
+	Удаляем все с приставки что бы не было глюков
+		Advanced Function -> Go Maskrom
+		Upgrade Frimware -> Frimware -> открываем прошивку "Android 9 Yundoo Y8 (updateY8.img)"			
+		Upgrade Frimware -> EraseFlash
+	Прошиваем прошивку
+		Upgrade Frimware -> нажимаем Upgrade
 	Заливаем boot.img исправление Bluetooth, led лампочка спереди и пульт ик
 		Download Image -> Снимите все галочки и удалите все строки
 		Добавьте новую строку в таблицу: Address 0x0000e800, Name boot, Path к скачанному boot.img. 
@@ -22,8 +26,8 @@ https://drive.google.com/file/d/15kNEmsB2cP-TQCVMKhGZzCXh7faPligu/view
 
 Откат: (Advanced Function -> Frimware -> Загрузить "updateY8.img" -> Unpack -> ищем файл parameter.txt и boot.img) прошейте сохранённый оригинальный boot.img тем же способом. Loader и uboot не затрагиваются, так что приставка всегда восстанавливается через Maskrom.
 
-Если все плохо: Advanced Function -> Go Maskrom (или пробуйте Loader)
-				Upgrade Frimware -> EraseFlash или	Advanced Function -> Erase All
+Если все плохо: Advanced Function -> Go Maskrom
+				Upgrade Frimware -> EraseFlash
 				Upgrade Frimware -> Frimware -> открываем прошивку "Android 9 Yundoo Y8 (updateY8.img)" и нажимаем Upgrade
 				
 -----------------------------------------------------------------------------------------------------------------------
@@ -34,7 +38,8 @@ https://drive.google.com/file/d/15kNEmsB2cP-TQCVMKhGZzCXh7faPligu/view
 								  rockchip,usercode = <0xff00>;
 								  rockchip,key_table = <0xeb 0x74 0xfe 0x71 0xec 0x8b 0xa3 0x9e 0xfc 0x67 0xfd 0x6c 0xf1 0x69 0xe5 0x6a 0xa7 0x72 0xf4 0x73 0xb7 0x66 0xf8 0xe8>;
 							  };
-
+	Wifi Пульт: убрал защиту, добавил в командную строку androidboot.selinux=permissive
+	
 Что не сделано:
     Красная лампочка в режиме ожидания не работает. Она управляется сигналом MCU, а gpio-poweroff не подходит, потому что функцию выключения уже занимает PMIC.
 
