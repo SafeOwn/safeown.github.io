@@ -5,6 +5,9 @@ on:
     - cron: '30 */6 * * *'  # Каждые 6 часов, но с 30 минутами сдвига заменить на '30 */6 * * *', год = '0 0 1 1 *'
   workflow_dispatch:  # Ручной запуск
 
+permissions:
+  contents: write
+
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
