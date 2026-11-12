@@ -85,7 +85,7 @@ jobs:
                 
                 # С помощью sed мы ищем параметр group-title и добавляем перед ним имя источника в квадратных скобках.
                 # Если группы нет, каналы уйдут в группу "Без группы", но большинство плейлистов её имеют.
-                sed -E "s/group-title=\"([^\"]*)\"/group-title=\"[$source_name] \1\"/g" "$file" | grep -v "^#EXTM3U" >> autoIPTV/master_playlist.m3u
+                sed -E "s/group-title=\"([^\"]*)\"/group-title=\"[$source_name] \1\"/g" "$file" | grep -v "^#EXTM3U" >> autoIPTV/playlist_index.m3u
                 
               done
             fi
