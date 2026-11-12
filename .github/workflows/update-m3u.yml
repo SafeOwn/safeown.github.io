@@ -21,33 +21,13 @@ jobs:
         run: |
           # Очистка и создание директорий
           rm -rf autoIPTV
-          mkdir -p autoIPTV/bormanulik
-          mkdir -p autoIPTV/IPTVSHARED
-          mkdir -p autoIPTV/MaximKiselev
-          mkdir -p autoIPTV/LoganetXIPTV
-          mkdir -p autoIPTV/maks-mk
+          mkdir -p autoIPTV/bormanulik         
           mkdir -p autoIPTV/Spirt007
           mkdir -p autoIPTV/Dimonovich
           mkdir -p autoIPTV/denisskashin
           
           # Скачивание bormanulik playlist
-          curl -L "https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u" -o autoIPTV/bormanulik/list.m3u
-          
-          # Скачивание IPTVSHARED playlist, IPTV, TOPPEHT_TB, MEDIASHARED
-          curl -L "https://raw.githubusercontent.com/IPTVSHARED/iptv/main/IPTV_SHARED.m3u" -o autoIPTV/IPTVSHARED/IPTV_SHARED.m3u  
-          curl -L "https://raw.githubusercontent.com/IPTVSHARED/iptv/main/TOPPEHT_TB.m3u" -o autoIPTV/IPTVSHARED/TOPPEHT_TB.m3u          
-          curl -L "https://raw.githubusercontent.com/IPTVSHARED/iptv/main/MEDIASHARED.m3u" -o autoIPTV/IPTVSHARED/MEDIASHARED.m3u
-          
-          # Скачивание MaximKiselev playlist
-          curl -L "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u" -o autoIPTV/MaximKiselev/playlist.m3u
-          
-          # Скачивание LoganetXIPTV playlists
-          curl -L "https://raw.githubusercontent.com/blackbirdstudiorus/LoganetXIPTV/main/LoganetXAll.m3u" -o autoIPTV/LoganetXIPTV/LoganetXAll.m3u
-          curl -L "https://raw.githubusercontent.com/blackbirdstudiorus/LoganetXIPTV/main/LoganetXStrawberry.m3u" -o autoIPTV/LoganetXIPTV/LoganetXStrawberry.m3u
-          
-          # Скачивание maks-mk playlists
-          curl -L "https://raw.githubusercontent.com/maks-mk/lampatv/main/adult2.m3u8" -o autoIPTV/maks-mk/adult2.m3u8
-          curl -L "https://raw.githubusercontent.com/maks-mk/lampatv/main/kino18-dubl.m3u" -o autoIPTV/maks-mk/kino18-dubl.m3u
+          curl -L "https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u" -o autoIPTV/bormanulik/list.m3u    
           
           # Скачивание Spirt007 playlist
           curl -L "https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u" -o autoIPTV/Spirt007/Rus.m3u
@@ -58,8 +38,8 @@ jobs:
           curl -L "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/.m3u" -o autoIPTV/Dimonovich/1.m3u
 
           # Скачивание denisskashin playlist Cartoons + RUS Cartoons + 480p
-          curl -L "https://raw.githubusercontent.com/denisskashin/iptv/main/cartoons.m3u" -o autoIPTV/denisskashin/cartoons.m3u
-          curl -L "https://raw.githubusercontent.com/denisskashin/iptv/main/rus_cartoons.m3u" -o autoIPTV/denisskashin/rus_cartoons.m3u
+          curl -L "https://raw.githubusercontent.com/denisskashin/iptv/main/video/cartoons.m3u" -o autoIPTV/denisskashin/cartoons.m3u
+          curl -L "https://raw.githubusercontent.com/denisskashin/iptv/main/video/rus_cartoons.m3u" -o autoIPTV/denisskashin/rus_cartoons.m3u
         
           
           echo "✅ All files downloaded"
