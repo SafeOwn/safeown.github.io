@@ -32,70 +32,56 @@ jobs:
           mkdir -p autoIPTV/slava-67
           mkdir -p autoIPTV/Artalex1966
           
-          # Скачивание bormanulik playlist
+          # Скачивание плейлистов
           curl -L "https://raw.githubusercontent.com/bormanulik/TV/main/list.m3u" -o autoIPTV/bormanulik/list.m3u    
-          
-          # Скачивание Spirt007 playlist
           curl -L "https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u" -o autoIPTV/Spirt007/Rus.m3u
-
-          # Скачивание Dimonovich playlist Android TV + Free TV + FILMS
           curl -L "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV" -o autoIPTV/Dimonovich/TV.m3u
           curl -L "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/FILMS" -o autoIPTV/Dimonovich/FILMS.m3u
           curl -L "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/.m3u" -o autoIPTV/Dimonovich/1.m3u
-
-          # Скачивание denisskashin playlist Cartoons + RUS Cartoons + 480p
           curl -L "https://raw.githubusercontent.com/denisskashin/iptv/main/video/cartoons.m3u" -o autoIPTV/denisskashin/cartoons.m3u
           curl -L "https://raw.githubusercontent.com/denisskashin/iptv/main/video/rus_cartoons.m3u" -o autoIPTV/denisskashin/rus_cartoons.m3u
-
-          # Скачивание loganettv playlist all + mega hd
           curl -L "https://raw.githubusercontent.com/loganettv/playlists/main/all.m3u" -o autoIPTV/loganettv/all.m3u
           curl -L "https://raw.githubusercontent.com/loganettv/playlists/main/mega.m3u" -o autoIPTV/loganettv/mega.m3u
-
-          # Скачивание chebur playlist
           curl -L "https://dl.dropboxusercontent.com/s/ur595ef4cqmfst951kboh/m3u?rlkey=0cw1ficfrq0m6yg2udh16qn78&dl=1" -o autoIPTV/chebur/chebur.m3u
-
-          # Скачивание zatikov playlist
           curl -L "http://aa6b7f44c703.zatikov.net/playlists/uplist/77ef352e38ec2bd62da2a246263155d7/playlist.m3u8" -o autoIPTV/zatikov/zatikov.m3u
-
-          # Скачивание Romzes25 playlist
           curl -L "https://raw.githubusercontent.com/Romzes25/playlistTV/master/ip_playlistTV_DV.m3u" -o autoIPTV/Romzes25/ip_playlistTV_DV.m3u
-
-          # Скачивание slava-67 playlist
           curl -L "https://raw.githubusercontent.com/slava-67/TV/IPTV/avto-full.m3u" -o autoIPTV/slava-67/avto-full.m3u
-
-          # Скачивание Artalex1966 playlist
           curl -L "https://raw.githubusercontent.com/Artalex1966/moy/master/moy.m3u" -o autoIPTV/Artalex1966/moy.m3u
         
-          
           echo "✅ All files downloaded"
 
-      - name: Create Master Playlist with Source Groups
+      - name: Create Master Playlist (Only 10 Groups)
         run: |
           # Создаем главный файл и пишем в него заголовок
           echo "#EXTM3U" > autoIPTV/playlist_index.m3u
           
-          # Проходимся по каждой папке (по каждому источнику)
+          # Проходимся по каждой папке
           for dir in autoIPTV/*/; do
             if [ -d "$dir" ]; then
-              # Получаем имя папки (это и будет имя источника)
+              # Имя папки становится единственной группой
               source_name=$(basename "$dir")
               
-              # Ищем все файлы плейлистов в этой папке
               find "$dir" -type f \( -name "*.m3u" -o -name "*.m3u8" \) | while read file; do
-                
-                # С помощью sed мы ищем параметр group-title и добавляем перед ним имя источника в квадратных скобках.
-                # Если группы нет, каналы уйдут в группу "Без группы", но большинство плейлистов её имеют.
-                sed -E "s/group-title=\"([^\"]*)\"/group-title=\"[$source_name] \1\"/g" "$file" | grep -v "^#EXTM3U" >> autoIPTV/playlist_index.m3u
-                
+                # Заменяем ЛЮБУЮ существующую группу на имя источника (или добавляем, если группы нет)
+                awk -v src="$source_name" '
+                  /^#EXTINF/ {
+                    if ($0 ~ /group-title=/) {
+                      sub(/group-title="[^"]*"/, "group-title=\"" src "\"")
+                    } else {
+                      sub(/,/, " group-title=\"" src "\",")
+                    }
+                  }
+                  { print }
+                ' "$file" | grep -v "^#EXTM3U" >> autoIPTV/playlist_index.m3u
               done
             fi
           done
           
-          echo "✅ Master playlist created with source groups"
+          echo "✅ Master playlist created with exactly 10 source groups"
 
       - name: Commit and push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add autoIPTV/
-          git diff --staged --quiet || (git commit -m "Update playlists and rebuild master with groups" && git push)
+          git diff --staged --quiet || (git commit -m "Update playlists (10 source groups)" && git push)
