@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 16.11.26
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 17.11.26
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg"   tvg-name="Первый канал", Первый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
@@ -5706,16 +5706,6 @@ https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8
 http://194.143.148.28:8080/Mir24/mpegts
 #EXTINF:-1  group-title="Спортивные"  tvg-id="kxl" ,КХЛ ТВ
 http://195.64.140.147:10108/108
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-football1" ,МАТЧ! ФУТБОЛ 1 HD
-http://tv.ttk.mx:9114
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-football1" ,Матч! футбол 1
-http://tv.ttk.mx:9108
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-football2" ,МАТЧ! ФУТБОЛ 2 HD
-http://tv.ttk.mx:9111
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-football3" ,Матч! Футбол 3
-http://tv.ttk.mx:9112
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-football3" ,МАТЧ! ФУТБОЛ 3 HD
-http://tv.ttk.mx:9116
 #EXTINF:-1  group-title="Спортивные" , Online TV
 http://185.221.213.254:8080/Okko/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="dynamo-kyiv-tv"   timeshift="7" tvg-rec="7",Dynamo Kyiv TV

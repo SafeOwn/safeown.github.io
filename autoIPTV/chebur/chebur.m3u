@@ -431,11 +431,11 @@ http://213.109.64.248:8086/0.m3u8
 http://176.126.166.43:1935/live/312musik/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/3y8rPhPS/image-17.png" tvg-id="" group-title="🔴 Кинозалы 🔴",312 Кино
 http://176.126.166.43:1935/live/312kino/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/vxvChLq8/image-34.png" tvg-id="" group-title="🔴 Кинозалы 🔴", Kino 24
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="🔴 Кинозалы 🔴", Kino 24
 http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/3ycBZqx3/image-14.png" tvg-id="" group-title="🔴 Кинозалы 🔴", PRO100 TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="🔴 Кинозалы 🔴", PRO100 TV
 http://sirius.greenhosting.ru/Pro100tvRu/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" group-title="🔴 Кинозалы 🔴" ,Armenia Premium 6
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="🔴 Кинозалы 🔴",Armenia Premium 6
 http://timeshift.arpinet.am/255/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4R8vrk8W/image-27.png" group-title="🔴 Кинозалы 🔴" , IPTVPLAY Промо
 http://5.188.158.65:4040/IPTVPLAYPromo.tv/video.m3u8?token=lqRGka5-YwwqF0
@@ -447,11 +447,19 @@ http://5.188.158.65:4040/IPTVPLAYVEDMAK.tv/video.m3u8?token=lqRGka5-YwwqF0
 http://5.188.158.65:4040/IPTVPLAY10KOROLEVSTVO.tv/video.m3u8?token=lqRGka5-YwwqF0
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4R8vrk8W/image-27.png" group-title="🔴 Кинозалы 🔴", IPTVPLAY TEST HD
 http://5.188.158.65:4040/IPTVPLAYTEST.tv/video.m3u8?token=lqRGka5-YwwqF0
-#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" group-title="🔴 Кинозалы 🔴" ,Terra Incognita
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="🔴 Кинозалы 🔴",Terra Incognita
 http://stitch.teletarget.ru/vintera/terra/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" group-title="🔴 Кинозалы 🔴" ,Жизнь Глазова
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="🔴 Кинозалы 🔴",Жизнь Глазова
 http://yellow.garant.tv/glazov24/stream.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="🔴 Кинозалы 🔴",KinoLive24
+http://kinowalk.hopto.org/kinolive24_live
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="🔴 Кинозалы 🔴",vlkvjunior
+http://kinowalk.hopto.org/vlkv.junior_live
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="🔴 Кинозалы 🔴",Cinematique
+http://kinowalk.hopto.org/cinematique_live
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="🔴 Кинозалы 🔴",Сочи-ТВ
+http://kinowalk.hopto.org/sochi_tv_live
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="🔴 Кинозалы 🔴",Dr_Coo
 http://kinowalk.hopto.org/dr_coo_live
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="🔴 Кинозалы 🔴",ZOOOM_TV
@@ -10045,236 +10053,254 @@ http://stream.mcquack.net/75/index.m3u8
 http://stream.mcquack.net/230/index.m3u8
 
 
+#EXTINF:-1 group-title="Svyaz LLC",ПЕРВЫЙ КАНАЛ
+http://95.215.124.204:5000/udp/225.1.2.1:1234
+#EXTINF:-1 group-title="Svyaz LLC",РОССИЯ 1
+http://95.215.124.204:5000/udp/225.1.2.2:1234
+#EXTINF:-1 group-title="Svyaz LLC",Продвижение
+http://95.215.124.204:5000/udp/225.1.2.3:1234
+#EXTINF:-1 group-title="Svyaz LLC",РОССИЯ-К
+http://95.215.124.204:5000/udp/225.1.2.4:1234
+#EXTINF:-1 group-title="Svyaz LLC",ПЯТЫЙ КАНАЛ
+http://95.215.124.204:5000/udp/225.1.2.5:1234
+#EXTINF:-1 group-title="Svyaz LLC",НТВ
+http://95.215.124.204:5000/udp/225.1.2.6:1234
+#EXTINF:-1 group-title="Svyaz LLC",КАРУСЕЛЬ
+http://95.215.124.204:5000/udp/225.1.2.7:1234
+#EXTINF:-1 group-title="Svyaz LLC",МАТЧ!
+http://95.215.124.204:5000/udp/225.1.2.8:1234
+#EXTINF:-1 group-title="Svyaz LLC",ТВ Центр
+http://95.215.124.204:5000/udp/225.1.2.10:1234
+#EXTINF:-1 group-title="Svyaz LLC",ТНТ
+http://95.215.124.204:5000/udp/225.1.2.11:1234
+#EXTINF:-1 group-title="Svyaz LLC",СТС
+http://95.215.124.204:5000/udp/225.1.2.12:1234
+#EXTINF:-1 group-title="Svyaz LLC",Спас
+http://95.215.124.204:5000/udp/225.1.2.13:1234
+#EXTINF:-1 group-title="Svyaz LLC",Домашний
+http://95.215.124.204:5000/udp/225.1.2.14:1234
+#EXTINF:-1 group-title="Svyaz LLC",ТВ3
+http://95.215.124.204:5000/udp/225.1.2.15:1234
+#EXTINF:-1 group-title="Svyaz LLC",Звезда
+http://95.215.124.204:5000/udp/225.1.2.16:1234
+#EXTINF:-1 group-title="Svyaz LLC",Пятница
+http://95.215.124.204:5000/udp/225.1.2.18:1234
+#EXTINF:-1 group-title="Svyaz LLC",ОТР
+http://95.215.124.204:5000/udp/225.1.2.19:1234
+#EXTINF:-1 group-title="Svyaz LLC",МИР
+http://95.215.124.204:5000/udp/225.1.2.20:1234
+#EXTINF:-1 group-title="Svyaz LLC",RT Region SD
+http://95.215.124.204:5000/udp/225.1.2.21:1234
+#EXTINF:-1 group-title="Svyaz LLC",Первый Крым
+http://95.215.124.204:5000/udp/225.1.2.22:1234
+#EXTINF:-1 group-title="Svyaz LLC",Телеканал 360 HD
+http://95.215.124.204:5000/udp/225.1.2.23:1234
+#EXTINF:-1 group-title="Svyaz LLC",МУЗ ТВ
+http://95.215.124.204:5000/udp/225.1.2.25:1234
+#EXTINF:-1 group-title="Svyaz LLC",РЕН ТВ
+http://95.215.124.204:5000/udp/225.1.2.26:1234
+#EXTINF:-1 group-title="Svyaz LLC",Аист ТВ HD
+http://95.215.124.204:5000/udp/225.1.2.27:1234
+#EXTINF:-1 group-title="Svyaz LLC",Известия
+http://95.215.124.204:5000/udp/225.1.2.28:1234
+#EXTINF:-1 group-title="Svyaz LLC",СТС Love
+http://95.215.124.204:5000/udp/225.1.2.29:1234
+#EXTINF:-1 group-title="Svyaz LLC",2х2
+http://95.215.124.204:5000/udp/225.1.2.30:1234
+#EXTINF:-1 group-title="Svyaz LLC",РОССИЯ 24
+http://95.215.124.204:5000/udp/225.1.2.9:1234
+#EXTINF:-1 group-title="Svyaz LLC",Mир 24 HD
+http://95.215.124.204:5000/udp/225.1.2.31:1234
+#EXTINF:-1 group-title="Svyaz LLC",Че!
+http://95.215.124.204:5000/udp/225.1.2.32:1234
+#EXTINF:-1 group-title="Svyaz LLC",РБК HD
+http://95.215.124.204:5000/udp/225.1.2.33:1234
+#EXTINF:-1 group-title="Svyaz LLC",Солнце
+http://95.215.124.204:5000/udp/225.1.2.34:1234
+#EXTINF:-1 group-title="Svyaz LLC",ТНТ Music
+http://95.215.124.204:5000/udp/225.1.2.37:1234
+#EXTINF:-1 group-title="Svyaz LLC",Суббота!
+http://95.215.124.204:5000/udp/225.1.2.40:1234
+#EXTINF:-1 group-title="Svyaz LLC",Ю ТВ
+http://95.215.124.204:5000/udp/225.1.2.38:1234
+#EXTINF:-1 group-title="Svyaz LLC",Витрина ТВ
+http://95.215.124.204:5000/udp/225.1.2.41:1234
+#EXTINF:-1 group-title="Svyaz LLC",Russian Music Box HD
+http://95.215.124.204:5000/udp/225.1.2.43:1234
+#EXTINF:-1 group-title="Svyaz LLC",Красная Линия
+http://95.215.124.204:5000/udp/225.1.2.44:1234
+#EXTINF:-1 group-title="Svyaz LLC",Анекдот ТВ
+http://95.215.124.204:5000/udp/225.1.2.47:1234
+#EXTINF:-1 group-title="Svyaz LLC",Телеканал Пингвин
+http://95.215.124.204:5000/udp/225.1.2.50:1234
+#EXTINF:-1 group-title="Svyaz LLC",Первый Канал (+4) HD
+http://95.215.124.204:5000/udp/225.1.2.51:1234
+#EXTINF:-1 group-title="Svyaz LLC",Россия 1 HD
+http://95.215.124.204:5000/udp/225.1.2.52:1234
+#EXTINF:-1 group-title="Svyaz LLC",RT DOC
+http://95.215.124.204:5000/udp/225.1.2.54:1234
+#EXTINF:-1 group-title="Svyaz LLC",Здоровое ТВ
+http://95.215.124.204:5000/udp/225.1.2.55:1234
+#EXTINF:-1 group-title="Svyaz LLC",Психология
+http://95.215.124.204:5000/udp/225.1.2.56:1234
+#EXTINF:-1 group-title="Svyaz LLC",Вопросы Ответы
+http://95.215.124.204:5000/udp/225.1.2.57:1234
+#EXTINF:-1 group-title="Svyaz LLC",Театр
+http://95.215.124.204:5000/udp/225.1.2.60:1234
+#EXTINF:-1 group-title="Svyaz LLC",Нано
+http://95.215.124.204:5000/udp/225.1.2.61:1234
+#EXTINF:-1 group-title="Svyaz LLC",Europa Plus TV SD
+http://95.215.124.204:5000/udp/225.1.2.63:1234
+#EXTINF:-1 group-title="Svyaz LLC",Сарафан
+http://95.215.124.204:5000/udp/225.1.2.64:1234
+#EXTINF:-1 group-title="Svyaz LLC",Союз
+http://95.215.124.204:5000/udp/225.1.2.65:1234
+#EXTINF:-1 group-title="Svyaz LLC",Домашние Животные
+http://95.215.124.204:5000/udp/225.1.2.66:1234
+#EXTINF:-1 group-title="Svyaz LLC",Наше Мужское
+http://95.215.124.204:5000/udp/225.1.2.67:1234
+#EXTINF:-1 group-title="Svyaz LLC",Блокбастер
+http://95.215.124.204:5000/udp/225.1.2.68:1234
+#EXTINF:-1 group-title="Svyaz LLC",RTG TV
+http://95.215.124.204:5000/udp/225.1.2.69:1234
+#EXTINF:-1 group-title="Svyaz LLC",КАМЕДИ
+http://95.215.124.204:5000/udp/225.1.2.70:1234
+#EXTINF:-1 group-title="Svyaz LLC",BRIDGE CLASSIC
+http://95.215.124.204:5000/udp/225.1.2.71:1234
+#EXTINF:-1 group-title="Svyaz LLC",Победа
+http://95.215.124.204:5000/udp/225.1.2.72:1234
+#EXTINF:-1 group-title="Svyaz LLC",BRIDGE HITS
+http://95.215.124.204:5000/udp/225.1.2.73:1234
+#EXTINF:-1 group-title="Svyaz LLC",RU.TV HD
+http://95.215.124.204:5000/udp/225.1.2.75:1234
+#EXTINF:-1 group-title="Svyaz LLC",BRIDGE
+http://95.215.124.204:5000/udp/225.1.2.77:1234
+#EXTINF:-1 group-title="Svyaz LLC",BRIDGE Русский Хит
+http://95.215.124.204:5000/udp/225.1.2.79:1234
+#EXTINF:-1 group-title="Svyaz LLC",Шансон ТВ
+http://95.215.124.204:5000/udp/225.1.2.80:1234
+#EXTINF:-1 group-title="Svyaz LLC",Techno 24
+http://95.215.124.204:5000/udp/225.1.2.81:1234
+#EXTINF:-1 group-title="Svyaz LLC",Телеканал Футбол
+http://95.215.124.204:5000/udp/225.1.2.82:1234
+#EXTINF:-1 group-title="Svyaz LLC",Родное Кино
+http://95.215.124.204:5000/udp/225.1.2.83:1234
+#EXTINF:-1 group-title="Svyaz LLC",Кинокомедия
+http://95.215.124.204:5000/udp/225.1.2.84:1234
+#EXTINF:-1 group-title="Svyaz LLC",Киномикс
+http://95.215.124.204:5000/udp/225.1.2.85:1234
+#EXTINF:-1 group-title="Svyaz LLC",Наше Новое Кино
+http://95.215.124.204:5000/udp/225.1.2.86:1234
+#EXTINF:-1 group-title="Svyaz LLC",Дом Кино Премиум HD
+http://95.215.124.204:5000/udp/225.1.2.87:1234
+#EXTINF:-1 group-title="Svyaz LLC",НСТ
+http://95.215.124.204:5000/udp/225.1.2.88:1234
+#EXTINF:-1 group-title="Svyaz LLC",Доктор
+http://95.215.124.204:5000/udp/225.1.2.89:1234
+#EXTINF:-1 group-title="Svyaz LLC",БОКС ТВ
+http://95.215.124.204:5000/udp/225.1.2.90:1234
+#EXTINF:-1 group-title="Svyaz LLC",ТНТ4
+http://95.215.124.204:5000/udp/225.1.2.91:1234
+#EXTINF:-1 group-title="Svyaz LLC",Киноужас
+http://95.215.124.204:5000/udp/225.1.2.92:1234
+#EXTINF:-1 group-title="Svyaz LLC",Оружие
+http://95.215.124.204:5000/udp/225.1.2.94:1234
+#EXTINF:-1 group-title="Svyaz LLC",Феникс плюс Кино
+http://95.215.124.204:5000/udp/225.1.2.95:1234
+#EXTINF:-1 group-title="Svyaz LLC",Мужской
+http://95.215.124.204:5000/udp/225.1.2.96:1234
+#EXTINF:-1 group-title="Svyaz LLC",Загородная жизнь
+http://95.215.124.204:5000/udp/225.1.2.97:1234
+#EXTINF:-1 group-title="Svyaz LLC",Тайны галактики
+http://95.215.124.204:5000/udp/225.1.2.105:1234
+#EXTINF:-1 group-title="Svyaz LLC",Terra
+http://95.215.124.204:5000/udp/225.1.2.107:1234
+#EXTINF:-1 group-title="Svyaz LLC",Комедия
+http://95.215.124.204:5000/udp/225.1.2.110:1234
+#EXTINF:-1 group-title="Svyaz LLC",Ретро
+http://95.215.124.204:5000/udp/225.1.2.111:1234
+#EXTINF:-1 group-title="Svyaz LLC",Усадьба
+http://95.215.124.204:5000/udp/225.1.2.112:1234
+#EXTINF:-1 group-title="Svyaz LLC",Охота и Рыбалка
+http://95.215.124.204:5000/udp/225.1.2.116:1234
+#EXTINF:-1 group-title="Svyaz LLC",Драйв
+http://95.215.124.204:5000/udp/225.1.2.118:1234
+#EXTINF:-1 group-title="Svyaz LLC",Советская Киноклассика
+http://95.215.124.204:5000/udp/225.1.2.119:1234
+#EXTINF:-1 group-title="Svyaz LLC",Russian Extreme
+http://95.215.124.204:5000/udp/225.1.2.120:1234
+#EXTINF:-1 group-title="Svyaz LLC",Бобёр
+http://95.215.124.204:5000/udp/225.1.2.121:1234
+#EXTINF:-1 group-title="Svyaz LLC",Дом Кино
+http://95.215.124.204:5000/udp/225.1.2.122:1234
+#EXTINF:-1 group-title="Svyaz LLC",Музыка Первого
+http://95.215.124.204:5000/udp/225.1.2.123:1234
+#EXTINF:-1 group-title="Svyaz LLC",Время
+http://95.215.124.204:5000/udp/225.1.2.124:1234
+#EXTINF:-1 group-title="Svyaz LLC",Телекафе
+http://95.215.124.204:5000/udp/225.1.2.125:1234
+#EXTINF:-1 group-title="Svyaz LLC",Лапки LIVE
+http://95.215.124.204:5000/udp/225.1.2.132:1234
+#EXTINF:-1 group-title="Svyaz LLC",Уникум
+http://95.215.124.204:5000/udp/225.1.2.134:1234
+#EXTINF:-1 group-title="Svyaz LLC",Русский Иллюзион
+http://95.215.124.204:5000/udp/225.1.2.135:1234
+#EXTINF:-1 group-title="Svyaz LLC",Иллюзион +
+http://95.215.124.204:5000/udp/225.1.2.136:1234
+#EXTINF:-1 group-title="Svyaz LLC",Zoo Парк
+http://95.215.124.204:5000/udp/225.1.2.137:1234
+#EXTINF:-1 group-title="Svyaz LLC",АВТО 24
+http://95.215.124.204:5000/udp/225.1.2.138:1234
+#EXTINF:-1 group-title="Svyaz LLC",Еврокино
+http://95.215.124.204:5000/udp/225.1.2.139:1234
+#EXTINF:-1 group-title="Svyaz LLC",Русский Детектив
+http://95.215.124.204:5000/udp/225.1.2.140:1234
+#EXTINF:-1 group-title="Svyaz LLC",Живая Планета
+http://95.215.124.204:5000/udp/225.1.2.142:1234
+#EXTINF:-1 group-title="Svyaz LLC",Моя Планета
+http://95.215.124.204:5000/udp/225.1.2.143:1234
+#EXTINF:-1 group-title="Svyaz LLC",Наука
+http://95.215.124.204:5000/udp/225.1.2.144:1234
+#EXTINF:-1 group-title="Svyaz LLC",Поехали!
+http://95.215.124.204:5000/udp/225.1.2.145:1234
+#EXTINF:-1 group-title="Svyaz LLC",Русский Бестселлер
+http://95.215.124.204:5000/udp/225.1.2.146:1234
+#EXTINF:-1 group-title="Svyaz LLC",Про Любовь
+http://95.215.124.204:5000/udp/225.1.2.147:1234
+#EXTINF:-1 group-title="Svyaz LLC",Телеканал О!
+http://95.215.124.204:5000/udp/225.1.2.148:1234
+#EXTINF:-1 group-title="Svyaz LLC",Киносерия
+http://95.215.124.204:5000/udp/225.1.2.149:1234
+#EXTINF:-1 group-title="Svyaz LLC",История
+http://95.215.124.204:5000/udp/225.1.2.150:1234
+#EXTINF:-1 group-title="Svyaz LLC",Cinema
+http://95.215.124.204:5000/udp/225.1.2.152:1234
+#EXTINF:-1 group-title="Svyaz LLC",Мульт
+http://95.215.124.204:5000/udp/225.1.2.153:1234
+#EXTINF:-1 group-title="Svyaz LLC",Mama
+http://95.215.124.204:5000/udp/225.1.2.154:1234
+#EXTINF:-1 group-title="Svyaz LLC",Матч! Игра
+http://95.215.124.204:5000/udp/225.1.2.155:1234
+#EXTINF:-1 group-title="Svyaz LLC",Матч! Арена
+http://95.215.124.204:5000/udp/225.1.2.156:1234
+#EXTINF:-1 group-title="Svyaz LLC",Матч! Боец
+http://95.215.124.204:5000/udp/225.1.2.157:1234
+#EXTINF:-1 group-title="Svyaz LLC",Индия
+http://95.215.124.204:5000/udp/225.1.2.159:1234
+#EXTINF:-1 group-title="Svyaz LLC",Мультиландия
+http://95.215.124.204:5000/udp/225.1.2.160:1234
+#EXTINF:-1 group-title="Svyaz LLC",КХЛ
+http://95.215.124.204:5000/udp/225.1.2.162:1234
+#EXTINF:-1 group-title="Svyaz LLC",Любимое Кино
+http://95.215.124.204:5000/udp/225.1.2.163:1234
+#EXTINF:-1 group-title="Svyaz LLC",Дорама
+http://95.215.124.204:5000/udp/225.1.2.169:1234
+#EXTINF:-1 group-title="Svyaz LLC",Русская Ночь
+http://95.215.124.204:5000/udp/225.1.2.175:1234
+#EXTINF:-1 group-title="Svyaz LLC",Наш Кинопоказ
+http://95.215.124.204:5000/udp/225.1.2.193:1234
 
 
-
-
-
-
-
-
-
-
-
-
-#EXTINF:-1 group-title="46.53", Буг_ТВ_ HD
-http://46.53.200.153:7777/play/Bug_TV_HD/index.m3u8
-#EXTINF:-1 group-title="46.53", Светлое ТВ
-http://46.53.200.153:7777/play/svetloetv/index.m3u8
-#EXTINF:-1 group-title="46.53",Витебск
-http://46.53.200.153:7777/play/a00h/index.m3u8
-#EXTINF:-1 group-title="46.53", Europa+
-http://46.53.200.153:7777/play/EuropaPlus/index.m3u8
-#EXTINF:-1 group-title="46.53",TV-21M
-http://46.53.200.153:7777/play/TV-21M/index.m3u8
-#EXTINF:-1 group-title="46.53", Сапфир HD
-http://46.53.200.153:7777/play/Sapfir_HD/index.m3u8
-#EXTINF:-1 group-title="46.53", Шансон_TV
-http://46.53.200.153:7777/play/Shanson_TV/index.m3u8
-#EXTINF:-1 group-title="46.53", Live music channel
-http://46.53.200.153:7777/play/Live_music_channel/index.m3u8
-#EXTINF:-1 group-title="46.53",Наш Кинопоказ
-http://46.53.200.153:7777/play/SRT_Nash_kinopokaz/index.m3u8
-#EXTINF:-1 group-title="46.53",RTG HD
-http://46.53.200.153:7777/play/a00u/index.m3u8
-#EXTINF:-1 group-title="46.53",VIJU +TV1000 Novella
-http://46.53.200.153:7777/play/VIJU_TV_1000_novella/index.m3u8
-#EXTINF:-1 group-title="46.53",Viasat Sport
-http://46.53.200.153:7777/play/Viasat_Sport/index.m3u8
-#EXTINF:-1 group-title="46.53",Viju TV 1000
-http://46.53.200.153:7777/play/TV_1000/index.m3u8
-#EXTINF:-1 group-title="46.53",Viju+Comedy HD
-http://46.53.200.153:7777/play/Viju_Comedy_HD/index.m3u8
-#EXTINF:-1 group-title="46.53",Viju+Drama
-http://46.53.200.153:7777/play/Viju_Drama/index.m3u8
-#EXTINF:-1 group-title="46.53",Viju+Megahit HD
-http://46.53.200.153:7777/play/Viju_Megahit_HD/index.m3u8
-#EXTINF:-1 group-title="46.53",Viju+Premiere HD
-http://46.53.200.153:7777/play/Viju_Premiere/index.m3u8
-#EXTINF:-1 group-title="46.53",Viju+Serial HD
-http://46.53.200.153:7777/play/Viju_Serial_HD/index.m3u8
-#EXTINF:-1 group-title="46.53",Сапфир
-http://46.53.200.153:7777/play/a01v/index.m3u8
-#EXTINF:-1 group-title="46.53",4k Ultra
-http://46.53.200.153:7777/play/test_krask1/index.m3u8
-#EXTINF:-1 group-title="46.53",viju Explore
-http://46.53.200.153:7777/play/a01i/index.m3u8
-#EXTINF:-1 group-title="46.53",viju History
-http://46.53.200.153:7777/play/a01j/index.m3u8
-#EXTINF:-1 group-title="46.53",viju Nature
-http://46.53.200.153:7777/play/a01k/index.m3u8
-#EXTINF:-1 group-title="46.53",viju Sport
-http://46.53.200.153:7777/play/a01m/index.m3u8
-#EXTINF:-1 group-title="46.53",viju Sport HD
-http://46.53.200.153:7777/play/a01l/index.m3u8
-#EXTINF:-1 group-title="46.53",viju TV 1000 Action
-http://46.53.200.153:7777/play/a01h/index.m3u8
-#EXTINF:-1 group-title="46.53",viju TV 1000 Русское Кино
-http://46.53.200.153:7777/play/a01g/index.m3u8
-#EXTINF:-1 group-title="46.53", Скиф Витебск HD
-http://46.53.200.153:7777/play/Скиф_Витебск/index.m3u8
-#EXTINF:-1 group-title="46.53", ТВ3 Беларусь
-http://46.53.200.153:7777/play/ТВ3_Беларусь/index.m3u8
-#EXTINF:-1 group-title="46.53", ТРК "ВИТЕБСК"
-http://46.53.200.153:7777/play/ТРК_"ВИТЕБСК"/index.m3u8
-
-
-
-
-
-#EXTINF:-1,МАТЧ!
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.157:5000
-#EXTINF:-1,КАРУСЕЛЬ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.158:5000
-#EXTINF:-1,ТВЦ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.159:5000
-#EXTINF:-1,ТВ3
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.160:5000
-#EXTINF:-1,ТНТ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.161:5000
-#EXTINF:-1,РЕН ТВ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.162:5000
-#EXTINF:-1,СТС
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.163:5000
-#EXTINF:-1,Ю-ТВ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.164:5000
-#EXTINF:-1,ДОМАШНИЙ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.165:5000
-#EXTINF:-1, XT!
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.166:5000
-#EXTINF:-1, ЗВЕЗДА
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.167:5000
-#EXTINF:-1, МУЗ ТВ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.168:5000
-#EXTINF:-1,ПЯТНИЦА!
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.169:5000
-#EXTINF:-1,ОТР
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.172:5000
-#EXTINF:-1,МОСКВА ДОВЕРИЕ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.173:5000
-#EXTINF:-1,МОСКВА 24
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.174:5000
-#EXTINF:-1,РАДИО МАЯК
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.175:5000
-#EXTINF:-1,РАДИО РОССИЯ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.176:5000
-#EXTINF:-1,РАДИО ВЕСТИ FM
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.177:5000
-#EXTINF:-1,МИР
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.178:5000
-#EXTINF:-1,СПАС
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.179:5000
-#EXTINF:-1,ТНТ4
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.180:5000
-#EXTINF:-1,Radio
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.181:5000
-#EXTINF:-1,Radio
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.182:5000
-#EXTINF:-1,Radio
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.183:5000
-#EXTINF:-1,СТС Love
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.184:5000
-#EXTINF:-1,СОЛНЦЕ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.185:5000
-#EXTINF:-1,СУББОТА!
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.186:5000
-#EXTINF:-1,МОСКВА 24 HD
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.189:5000
-#EXTINF:-1,МУЗЫКА ПЕРВОГО
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.32.200:5000
-#EXTINF:-1, ПЕРВЫЙ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.101:5000
-#EXTINF:-1, РОССИЯ 1
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.102:5000
-#EXTINF:-1, МАТЧ!
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.103:5000
-#EXTINF:-1, НТВ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.104:5000
-#EXTINF:-1, ПЯТЫЙ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.105:5000
-#EXTINF:-1, РОССИЯ К
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.106:5000
-#EXTINF:-1,РОССИЯ 24
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.107:5000
-#EXTINF:-1,КАРУСЕЛЬ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.108:5000
-#EXTINF:-1,ОТР
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.109:5000
-#EXTINF:-1,ТВЦ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.110:5000
-#EXTINF:-1, РЕН ТВ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.111:5000
-#EXTINF:-1,СПАС
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.112:5000
-#EXTINF:-1,СТС
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.113:5000
-#EXTINF:-1,ДОМАШНИЙ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.114:5000
-#EXTINF:-1,ТВ3
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.115:5000
-#EXTINF:-1,ПЯТНИЦА!
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.116:5000
-#EXTINF:-1,ЗВЕЗДА
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.117:5000
-#EXTINF:-1,МИР
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.118:5000
-#EXTINF:-1,ТНТ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.119:5000
-#EXTINF:-1,МУЗ ТВ
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.77.225.120:5000
-#EXTINF:-1,РУ ТВ 
-#EXTGRP:77.37
-http://77.37.224.102:4022/udp/225.33.23.41:5000
 
 
 #EXTINF:-1 group-title="Велком",Ultra 4K Extreme
@@ -11586,6 +11612,299 @@ http://213.91.179.28:8000/play/a0ax
 http://213.91.179.28:8000/play/a05u
 #EXTINF:-1 group-title="Vivacom BG",СТС Kids
 http://213.91.179.28:8000/play/a07g
+
+
+#EXTM3U
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05v.png",Adult Swim
+http://181.119.215.61:8000/play/a05v/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a04w.png",Antena 7- RD
+http://181.119.215.61:8000/play/a04w/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a07x.png",BANDA MAX
+http://181.119.215.61:8000/play/a07x/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a059.png",BBC News
+http://181.119.215.61:8000/play/a059/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a084.png",CANAL 27
+http://181.119.215.61:8000/play/a084/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05e.png",CERTV
+http://181.119.215.61:8000/play/a05e/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a058.png",CNNE
+http://181.119.215.61:8000/play/a058/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a04y.png",Canal 12 - NI
+http://181.119.215.61:8000/play/a04y/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a085.png",Canal 4 - ESA
+http://181.119.215.61:8000/play/a085/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05j.png",Canal 4 - NIC
+http://181.119.215.61:8000/play/a05j/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a04p.png",Canal 7 HD CR
+http://181.119.215.61:8000/play/a04p/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05z.png",Canal 7 HD CR
+http://181.119.215.61:8000/play/a05z/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a07k.png",Canal Claro
+http://181.119.215.61:8000/play/a07k/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05h.png",Canal del Congreso
+http://181.119.215.61:8000/play/a05h/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a052.png",Cartoonito
+http://181.119.215.61:8000/play/a052/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a07z.png",Claro Musica
+http://181.119.215.61:8000/play/a07z/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a07o.png",Claro Sports 1 HD
+http://181.119.215.61:8000/play/a07o/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a07p.png",Claro Sports 2 HD
+http://181.119.215.61:8000/play/a07p/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a07i.png",Claro Sports 3 HD
+http://181.119.215.61:8000/play/a07i/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05q.png",Concert Channel
+http://181.119.215.61:8000/play/a05q/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a07r.png",DISTRITO COMEDIA MX
+http://181.119.215.61:8000/play/a07r/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a061.png",Deportes TVC - HON
+http://181.119.215.61:8000/play/a061/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a07y.png",Discovery ID HD
+http://181.119.215.61:8000/play/a07y/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05x.png",ESPN  4 HD
+http://181.119.215.61:8000/play/a05x/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05s.png",ESPN 2 HD
+http://181.119.215.61:8000/play/a05s/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05t.png",ESPN 3 HD
+http://181.119.215.61:8000/play/a05t/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05y.png",ESPN 5  HD
+http://181.119.215.61:8000/play/a05y/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05u.png",ESPN 6 HD
+http://181.119.215.61:8000/play/a05u/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05r.png",ESPN HD
+http://181.119.215.61:8000/play/a05r/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05b.png",EWTN
+http://181.119.215.61:8000/play/a05b/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a08a.png",FOX 
+http://181.119.215.61:8000/play/a08a/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a088.png",FOX CR
+http://181.119.215.61:8000/play/a088/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a08e.png",FOX GUA
+http://181.119.215.61:8000/play/a08e/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05f.png",FUTV CR
+http://181.119.215.61:8000/play/a05f/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05a.png",France24
+http://181.119.215.61:8000/play/a05a/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a04q.png",Golf Channel HD
+http://181.119.215.61:8000/play/a04q/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05c.png",History HD
+http://181.119.215.61:8000/play/a05c/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a057.png",LIFE TIME
+http://181.119.215.61:8000/play/a057/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a053.png",Nicarao TV
+http://181.119.215.61:8000/play/a053/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05i.png",RCN - GUA
+http://181.119.215.61:8000/play/a05i/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a060.png",Star TVE HD
+http://181.119.215.61:8000/play/a060/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a04t.png",Studio Universal HD
+http://181.119.215.61:8000/play/a04t/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a07u.png",TLN NOVELA
+http://181.119.215.61:8000/play/a07u/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05d.png",TN 23
+http://181.119.215.61:8000/play/a05d/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a056.png",TNT Novelas
+http://181.119.215.61:8000/play/a056/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05w.png",TNT Novelas
+http://181.119.215.61:8000/play/a05w/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05g.png",TV Oriente ESA
+http://181.119.215.61:8000/play/a05g/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a05n.png",TVM25 -  ESA
+http://181.119.215.61:8000/play/a05n/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a04v.png",Tele Antillas - RD
+http://181.119.215.61:8000/play/a04v/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a055.png",Telemundo
+http://181.119.215.61:8000/play/a055/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a04x.png",Telesistema RD
+http://181.119.215.61:8000/play/a04x/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a054.png",Tru TV
+http://181.119.215.61:8000/play/a054/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a087.png",azteca 5 mexico
+http://181.119.215.61:8000/play/a087/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a07s.png",azteca 7
+http://181.119.215.61:8000/play/a07s/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a04r.png",canal 22 san marcos
+http://181.119.215.61:8000/play/a04r/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a07t.png",las estrellas
+http://181.119.215.61:8000/play/a07t/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a07w.png",mas tv toto
+http://181.119.215.61:8000/play/a07w/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a07q.png",sky la liga
+http://181.119.215.61:8000/play/a07q/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a07v.png",tudn
+http://181.119.215.61:8000/play/a07v/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a03i.png",Baby First
+http://181.119.215.61:8000/play/a03i/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0g0.png",Boomerang
+http://181.119.215.61:8000/play/a0g0/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0l0.png",CARTOON NT HD
+http://181.119.215.61:8000/play/a0l0/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a03l.png",Discovery Kids
+http://181.119.215.61:8000/play/a03l/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0i8.png",Disney
+http://181.119.215.61:8000/play/a0i8/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0g1.png",Disney JR
+http://181.119.215.61:8000/play/a0g1/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0jl.png",Nat Geo Kids
+http://181.119.215.61:8000/play/a0jl/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0g3.png",SEMILLITAS
+http://181.119.215.61:8000/play/a0g3/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a03k.png",Tooncast
+http://181.119.215.61:8000/play/a03k/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0jk.png",Canal 11 - GUA
+http://181.119.215.61:8000/play/a0jk/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0jj.png",Canal 13-GUA
+http://181.119.215.61:8000/play/a0jj/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0h5.png",Canal 3 - GUA
+http://181.119.215.61:8000/play/a0h5/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0h4.png",Canal 7 - GUA
+http://181.119.215.61:8000/play/a0h4/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0h2.png",Canal Antigua - GUA
+http://181.119.215.61:8000/play/a0h2/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0h3.png",Canal Azteca 7- GUA
+http://181.119.215.61:8000/play/a0h3/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0fw.png",Canal Guatevision - GUA
+http://181.119.215.61:8000/play/a0fw/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a02r.png",Concert Channel
+http://181.119.215.61:8000/play/a02r/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0hk.png",Exa TV
+http://181.119.215.61:8000/play/a0hk/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0id.png",La voz de Maria
+http://181.119.215.61:8000/play/a0id/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0iw.png",RHEMA TV
+http://181.119.215.61:8000/play/a0iw/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0k0.png",Sembrador
+http://181.119.215.61:8000/play/a0k0/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0gj.png",TBN Enlace
+http://181.119.215.61:8000/play/a0gj/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0kj.png",FOX SPORTS 3 HD
+http://181.119.215.61:8000/play/a0kj/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0h1.png",Golf Channel HD
+http://181.119.215.61:8000/play/a0h1/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a03j.png",Latin America Sport
+http://181.119.215.61:8000/play/a03j/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a02v.png",Tigo Sports HD
+http://181.119.215.61:8000/play/a02v/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0kq.png",Pasiones HD
+http://181.119.215.61:8000/play/a0kq/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0jn.png",RCN Novelas
+http://181.119.215.61:8000/play/a0jn/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0kr.png",Univision HD
+http://181.119.215.61:8000/play/a0kr/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0gz.png",AZ click HD
+http://181.119.215.61:8000/play/a0gz/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0g6.png",Azcorazon
+http://181.119.215.61:8000/play/a0g6/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0h8.png",Azmundo
+http://181.119.215.61:8000/play/a0h8/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0hv.png",DISCOVERY THEATHER HD
+http://181.119.215.61:8000/play/a0hv/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0kn.png",Discovery Channel HD
+http://181.119.215.61:8000/play/a0kn/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0ia.png",Discovery Turbo
+http://181.119.215.61:8000/play/a0ia/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0kp.png",Discovery World HD
+http://181.119.215.61:8000/play/a0kp/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0gw.png",FX HD
+http://181.119.215.61:8000/play/a0gw/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0l5.png",HBO Family HD
+http://181.119.215.61:8000/play/a0l5/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0l2.png",HBO HD
+http://181.119.215.61:8000/play/a0l2/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0l4.png",HBO Plus HD
+http://181.119.215.61:8000/play/a0l4/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0l6.png",HBO XTREME HD
+http://181.119.215.61:8000/play/a0l6/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a00c.png",HBO2 HD
+http://181.119.215.61:8000/play/a00c/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0jp.png",History 2
+http://181.119.215.61:8000/play/a0jp/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0gk.png",History Channel HD
+http://181.119.215.61:8000/play/a0gk/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0hp.png",SONY HD
+http://181.119.215.61:8000/play/a0hp/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a03s.png",SONY MOVIES HD
+http://181.119.215.61:8000/play/a03s/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0hn.png",STAR CHANNEL HD
+http://181.119.215.61:8000/play/a0hn/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0g4.png",STAR LIFE
+http://181.119.215.61:8000/play/a0g4/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0hu.png",TNT HD
+http://181.119.215.61:8000/play/a0hu/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0km.png",TNT Series HD
+http://181.119.215.61:8000/play/a0km/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0kt.png",UNIVERSAL CINEMA HD
+http://181.119.215.61:8000/play/a0kt/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0i5.png",UNIVERSAL COMEDY HD
+http://181.119.215.61:8000/play/a0i5/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0i4.png",UNIVERSAL CRIME HD
+http://181.119.215.61:8000/play/a0i4/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0i1.png",UNIVERSAL PREMIERE HD
+http://181.119.215.61:8000/play/a0i1/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0i2.png",UNIVERSAL PREMIERE O HD
+http://181.119.215.61:8000/play/a0i2/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0i3.png",UNIVERSAL REALITY HD
+http://181.119.215.61:8000/play/a0i3/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0gu.png",AMC HD
+http://181.119.215.61:8000/play/a0gu/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0iy.png",AXN HD
+http://181.119.215.61:8000/play/a0iy/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0gq.png",Animal Planet HD
+http://181.119.215.61:8000/play/a0gq/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a03m.png",CCN
+http://181.119.215.61:8000/play/a03m/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0hq.png",CINECANAL HD
+http://181.119.215.61:8000/play/a0hq/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0gi.png",CNN Español
+http://181.119.215.61:8000/play/a0gi/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0fv.png",Canal Claro
+http://181.119.215.61:8000/play/a0fv/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0ik.png",Cine Latino
+http://181.119.215.61:8000/play/a0ik/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0il.png",CineMax
+http://181.119.215.61:8000/play/a0il/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0hy.png",Comedy Central HD
+http://181.119.215.61:8000/play/a0hy/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0gy.png",DHE HD
+http://181.119.215.61:8000/play/a0gy/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0gr.png",E! Entertairment HD
+http://181.119.215.61:8000/play/a0gr/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a00x.png",EURO Channel
+http://181.119.215.61:8000/play/a00x/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a00u.png",Europa HD
+http://181.119.215.61:8000/play/a00u/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0gs.png",Film & arts HD
+http://181.119.215.61:8000/play/a0gs/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0jv.png",Golden
+http://181.119.215.61:8000/play/a0jv/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0hx.png",HOLA! TV HD
+http://181.119.215.61:8000/play/a0hx/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0hw.png",Home & Health HD
+http://181.119.215.61:8000/play/a0hw/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0ij.png",Multipremier
+http://181.119.215.61:8000/play/a0ij/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0kk.png",Nat Geo HD
+http://181.119.215.61:8000/play/a0kk/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0kl.png",Paramount HD
+http://181.119.215.61:8000/play/a0kl/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0iz.png",SPACE HD
+http://181.119.215.61:8000/play/a0iz/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0h0.png",Star TVE HD
+http://181.119.215.61:8000/play/a0h0/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0g9.png",TBS
+http://181.119.215.61:8000/play/a0g9/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0jw.png",TCM
+http://181.119.215.61:8000/play/a0jw/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0hh.png",TLC
+http://181.119.215.61:8000/play/a0hh/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0ih.png",Universal
+http://181.119.215.61:8000/play/a0ih/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a0ho.png",WARNER HD
+http://181.119.215.61:8000/play/a0ho/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a02t.png",PLAYBOY
+http://181.119.215.61:8000/play/a02t/index.m3u8
+#EXTINF:-1 group-title="-" tvg-logo="http://181.119.215.61:8000/playlist/tvg-logo/a02u.png",VENUS
+http://181.119.215.61:8000/play/a02u/index.m3u8
 
 
 
