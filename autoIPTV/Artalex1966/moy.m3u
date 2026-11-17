@@ -90,27 +90,21 @@ https://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=VHSka_HD.m3u
 
 #EXTINF:-1,CineMan VHS
 #EXTGRP:кино
-http://cdntv.online/high/3rtdzbfmw5/1263.m3u8
-#EXTINF:-1,BCU VHS HD
-#EXTGRP:кино
-http://nl01.plinkspile.cc/20822/index.m3u8?token=XnuYQbT9Ly8nDX
-#EXTINF:-1,VeleSкиноплёнка
-#EXTGRP:кино
-http://ro01.plink-pile.ch/21014/index.m3u8?token=XnuYQbT9Ly8nDX
+http://cdntv.online/high/5c24skzmbrx9/1263.m3u8
 
 #EXTINF:-1,MM Комедия Classic HD
 #EXTGRP:кино
-http://live.uspeh-bil.ru/8789/video.m3u8?token=p38CeA56C8wzWCm3
+http://103.163.132.53/iptv/9MW24R6R8ABV7XHEF9LPB8XN/13037/index.m3u8
 #EXTINF:-1,MM Комедия Classic HD
 #EXTGRP:кино
 http://103.163.132.53/iptv/94LBT2DXEHGXHL/13037/index.m3u8
 
+#EXTINF:-1 tvg-id="CineMan Дубляж СССР" tvg-logo="https://iptvx.one/picons/cineman-dub-ssr.png",CineMan Дубляж СССР
+#EXTGRP:кино
+http://cdntv.online/hls/5c24skzmbrx9/2300.m3u8
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/cineman-dub-ssr.png",Дубляж СССР
 #EXTGRP:кино
-http://live.uspeh-bil.ru/9498/video.m3u8?token=p38CeA56C8wzWCm3
-#EXTINF:-1 tvg-logo="https://iptvx.one/picons/cineman-dub-ssr.png",Дубляж СССР
-#EXTGRP:кино
-http://cdntv.online/hls/3b4sxj5auv/2300.m3u8
+http://cdntv.online/hls/6kwispjyn892/2300.m3u8
 
 #EXTINF:-1,Лучшие экшн фильмы
 #EXTGRP:кино
@@ -177,42 +171,42 @@ https://bl.rutube.ru/livestream/300560a65014ec501a25b1f79df9ad90/index.m3u8?s=7V
 
 #EXTINF:-1,CineMan Top
 #EXTGRP:кино
-http://cdntv.online/high/3rtdzbfmw5/1256.m3u8
+http://cdntv.online/high/8mab9e6src/1256.m3u8
 #EXTINF:-1,CineMan Top
 #EXTGRP:кино
 http://r.faola.li/6839/index.m3u8?token=nSeG5DM7LE
 
 
 
-#EXTINF:-1,Детскоекино International
+#EXTINF:-1,Детское кино International
 #EXTGRP:кино
 http://195.209.212.23:8081/hls/Detskoe_Kino_int/playlist.m3u8
-#EXTINF:-1  group-title="кино"  tvg-id="detkino-tviksel"  tvg-logo="http://epg.one/img2/6260.png"   tvg-rec="0",Детскоекино HD
+#EXTINF:-1  group-title="кино"  tvg-id="detkino-tviksel"  tvg-logo="http://epg.one/img2/6260.png"   tvg-rec="0",Детское кино HD
 http://103.163.132.53/iptv/4N4BPXK9GTU8SE/18073/index.m3u8
-#EXTINF:-1  group-title="кино"  tvg-id="detkino-tviksel"  tvg-logo="http://epg.one/img2/6260.png"   tvg-rec="0",Детскоекино HD
+#EXTINF:-1  group-title="кино"  tvg-id="detkino-tviksel"  tvg-logo="http://epg.one/img2/6260.png"   tvg-rec="0",Детское кино HD
 http://103.163.132.53/iptv/94LBT2DXEHGXHL/18073/index.m3u8
 
 #EXTINF:0,MM USSR Комедия HD
-#EXTGRP:кино
-http://ch01.plinkspile.cc/20733/index.m3u8?token=XnuYQbT9Ly8nDX
+#EXTGRP: кино
+http://ru01.plinkspile.cc/20733/index.m3u8?token=4p4YnwVcCrfieD
 #EXTINF:0,MM USSR Детектив HD
-#EXTGRP:кино
-http://ch01.plinkspile.cc/20731/index.m3u8?token=XnuYQbT9Ly8nDX
+#EXTGRP: кино
+http://ru01.plinkspile.cc/20731/index.m3u8?token=4p4YnwVcCrfieD
 #EXTINF:0,MM USSR Драма HD
-#EXTGRP:кино
-http://ch01.plinkspile.cc/20732/index.m3u8?token=XnuYQbT9Ly8nDX
+#EXTGRP: кино
+http://ru01.plinkspile.cc/20732/index.m3u8?token=4p4YnwVcCrfieD
 #EXTINF:0,MM USSR 1941-1945 HD
-#EXTGRP:кино
-http://ch01.plinkspile.cc/20748/index.m3u8?token=XnuYQbT9Ly8nDX
+#EXTGRP: кино
+http://ru01.plinkspile.cc/20748/index.m3u8?token=4p4YnwVcCrfieD
 #EXTINF:0,MM USSR Приключения HD
-#EXTGRP:кино
-http://ch01.plinkspile.cc/20760/index.m3u8?token=XnuYQbT9Ly8nDX
+#EXTGRP: кино
+http://ru01.plinkspile.cc/20760/index.m3u8?token=4p4YnwVcCrfieD
 #EXTINF:0,MM USSR Сказки HD
-#EXTGRP:кино
-http://ch01.plinkspile.cc/20750/index.m3u8?token=XnuYQbT9Ly8nDX
+#EXTGRP: кино
+http://ru01.plinkspile.cc/20750/index.m3u8?token=4p4YnwVcCrfieD
 #EXTINF:0,MM USSR Мультфильм HD
-#EXTGRP:кино
-http://ch01.plinkspile.cc/20849/index.m3u8?token=XnuYQbT9Ly8nDX
+#EXTGRP: кино
+http://ru01.plinkspile.cc/20849/index.m3u8?token=4p4YnwVcCrfieD
 
 
 #EXTINF:-1,IPTVPLAY МультСказки HD
@@ -239,9 +233,9 @@ http://stream-msk-07.ott.tricolor.tv/dtv/id666_MSKSG-PVR-1--Den_Pobedy/03/plst.m
 #EXTINF:-1,ШЕРЛОК ХОЛМС
 #EXTGRP:кино
 https://stream-msk-14.ott.tricolor.tv/dtv/id904_MSKSG-PVR-1--Kinozal_1/02/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NTQ3MTEwMSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzk0ODY2MzAxLCJzZXNzaW9uX2lkIjoiYmVjY2ZiMDQ4M2QwM2VkMTAyNTc3YTY5ZWIyNGRmZDQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.n_Bf689su8HZVgVA3pRbzfB862R8Cf9xJzZuDOt7UKc
-#EXTINF:-1 tvg-logo="http://epg.one/img2/6259.png",Военноекино HD
+#EXTINF:-1 tvg-logo="http://epg.one/img2/6259.png",Военное кино HD
 #EXTGRP:кино
-http://103.163.132.53/iptv/VK7YCHHWNDD8XC/18072/index.m3u8
+http://103.163.132.53/iptv/94LBT2DXEHGXHL/18072/index.m3u8
 #EXTINF:-1 tvg-logo="http://1lot.tv/ch/8742.png",Назад в СССР
 #EXTGRP:кино
 http://kinowalk.hopto.org/backtotheussr_live
@@ -804,6 +798,9 @@ https://bl.rutube.ru/livestream/bc2933d28daf33f5a68257ebc72787cd/index.m3u8?s=o3
 #EXTINF:-1,Щенячий патруль
 #EXTGRP: Детский
 http://103.163.132.53/iptv/94LBT2DXEHGXHL/30167/index.m3u8
+#EXTINF:-1,Щенячий патруль
+#EXTGRP: Детский
+http://103.163.132.53/iptv/4N4BPXK9GTU8SE/30167/index.m3u8
 #EXTINF:-1,Чудеса на виражах
 #EXTGRP: Детский
 http://103.163.132.50/iptv/4N4BPXK9GTU8SE/30192/index.m3u8
