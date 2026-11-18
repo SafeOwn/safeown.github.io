@@ -65,7 +65,7 @@ https://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=Mosfilm_HD.m
 #EXTINF:-1,Мосфильм. Золотая коллекция
 #EXTGRP:кино
 http://185.121.1.163:8083/Mosfilm/index.m3u8
-#EXTINF:-1,Мосфильм. Золотая коллекция (+4)
+#EXTINF:-1 tvg-id="Мосфильм. Золотая коллекция (+4)",Мосфильм. Золотая коллекция (+4)
 #EXTGRP:кино
 http://103.163.132.53/iptv/94LBT2DXEHGXHL/17022/index.m3u8
 
@@ -99,10 +99,10 @@ http://103.163.132.53/iptv/9MW24R6R8ABV7XHEF9LPB8XN/13037/index.m3u8
 #EXTGRP:кино
 http://103.163.132.53/iptv/94LBT2DXEHGXHL/13037/index.m3u8
 
-#EXTINF:-1 tvg-id="CineMan Дубляж СССР" tvg-logo="https://iptvx.one/picons/cineman-dub-ssr.png",CineMan Дубляж СССР
+#EXTINF:-1 tvg-id="CineMan Дубляж СССР" tvg-logo="https://iptvx.one/picons/cineman-dub-ssr.png",Дубляж СССР
 #EXTGRP:кино
 http://cdntv.online/hls/5c24skzmbrx9/2300.m3u8
-#EXTINF:-1 tvg-logo="https://iptvx.one/picons/cineman-dub-ssr.png",Дубляж СССР
+#EXTINF:-1 tvg-id="CineMan Дубляж СССР" tvg-logo="https://iptvx.one/picons/cineman-dub-ssr.png",Дубляж СССР
 #EXTGRP:кино
 http://cdntv.online/hls/6kwispjyn892/2300.m3u8
 
@@ -208,10 +208,13 @@ http://ru01.plinkspile.cc/20750/index.m3u8?token=4p4YnwVcCrfieD
 #EXTGRP: кино
 http://ru01.plinkspile.cc/20849/index.m3u8?token=4p4YnwVcCrfieD
 
+#EXTINF:0,IPTVPLAY ПАМЯТЬ HD
+#EXTGRP: кино
+https://social.tvp.pp.ru/public-playlist/q3sndMn4jxOpMXOiAx_OauuobFGwrYWiWO9SGtLt7nI/3915.m3u8
 
 #EXTINF:-1,IPTVPLAY МультСказки HD
 #EXTGRP: Детский
-http://r.faola.li/10852/video.m3u8?token=nSeG5DM7LE
+https://social.tvp.pp.ru/public-playlist/q3sndMn4jxOpMXOiAx_OauuobFGwrYWiWO9SGtLt7nI/3920.m3u8
 #EXTINF:-1,СОВЕТСКИЕ МУЛЬТФИЛЬМЫ
 #EXTGRP: Детский
 https://stream-msk-10.ott.tricolor.tv/dtv/id905_MSKSG-PVR-1--Kinozal_10/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NTQ3MTEwMSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzk0ODY2MzAxLCJzZXNzaW9uX2lkIjoiYmVjY2ZiMDQ4M2QwM2VkMTAyNTc3YTY5ZWIyNGRmZDQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.n_Bf689su8HZVgVA3pRbzfB862R8Cf9xJzZuDOt7UKc
@@ -260,7 +263,7 @@ http://45.156.223.200/iptv/PR5ML8LT75UHRF/31625/index.m3u
 #EXTINF:-1,VF Классика
 #EXTGRP:кино
 http://103.163.132.53/iptv/94LBT2DXEHGXHL/10053/index.m3u8
-#EXTINF:-1,VFкиностудия им. Горького
+#EXTINF:-1,VF киностудия им. Горького
 #EXTGRP:кино
 http://103.163.132.53/iptv/PR5ML8LT75UHRF/18122/index.m3u8
 #EXTINF:-1,VF Ленфильм
@@ -315,13 +318,13 @@ https://stream8.cinerama.uz/1047/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Иллюзион +
 #EXTGRP:кино
 http://176.118.197.101/Illuzion+/index.m3u8
-#EXTINF:-1,Домкино
+#EXTINF:-1,Дом кино
 #EXTGRP:кино
 http://stream-msk-13.ott.tricolor.tv/dtv/id176_MSKSG-PVR-1--D_Kino/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NTQ3MTEwMSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzk0ODY2MzAxLCJzZXNzaW9uX2lkIjoiYmVjY2ZiMDQ4M2QwM2VkMTAyNTc3YTY5ZWIyNGRmZDQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.n_Bf689su8HZVgVA3pRbzfB862R8Cf9xJzZuDOt7UKc
-#EXTINF:-1,ДОМкино ПРЕМИУМ HD
+#EXTINF:-1,ДОМ кино ПРЕМИУМ HD
 #EXTGRP:кино
 https://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=HD_Dom_Kino_premium.m3u8&serviceArea=MSK-SA-1&drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NTQ3MTEwMSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzk0ODY2MzAxLCJzZXNzaW9uX2lkIjoiYmVjY2ZiMDQ4M2QwM2VkMTAyNTc3YTY5ZWIyNGRmZDQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.n_Bf689su8HZVgVA3pRbzfB862R8Cf9xJzZuDOt7UKc
-#EXTINF:-1,Любимоекино
+#EXTINF:-1,Любимое кино
 #EXTGRP:кино
 http://dff13dfa.ottrast.com/iptv/9MW24R6R8ABV7XHEF9LPB8XN/20014/index.m3u8
 
@@ -514,10 +517,10 @@ https://flussonic.mkpnet.ru/tv-c385ec3bab3a3605/video.m3u8
 #EXTINF:-1,Viju TV1000 Русское
 #EXTGRP:кино
 https://flussonic.mkpnet.ru/tv-7510472b0133abb2/video.m3u8
-#EXTINF:-1,Мужскоекино HD
+#EXTINF:-1,Мужское кино HD
 #EXTGRP:кино
 https://stream8.cinerama.uz/1237/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Родноекино
+#EXTINF:-1,Родное кино
 #EXTGRP:кино
 http://176.118.197.101/RodnoeKino/index.m3u8
 #EXTINF:-1,Кинопремьера
@@ -549,7 +552,7 @@ https://stream-msk-16.ott.tricolor.tv/dtv/id929_MSKSG-PVR-1--Kinozal_2/03/plst.m
 #EXTINF:-1,Кино и сериалы
 #EXTGRP:кино
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v3a1/mono.m3u8
-#EXTINF:-1,НАШкиноПОКАЗ HD
+#EXTINF:-1,Наш Кинопоказ HD
 #EXTGRP:кино
 https://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=Nash_kinopokaz_HD.m3u8&serviceArea=MSK-SA-1&drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NTQ3MTEwMSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzk0ODY2MzAxLCJzZXNzaW9uX2lkIjoiYmVjY2ZiMDQ4M2QwM2VkMTAyNTc3YTY5ZWIyNGRmZDQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.n_Bf689su8HZVgVA3pRbzfB862R8Cf9xJzZuDOt7UKc
 #EXTINF:-1,Балабол
@@ -786,7 +789,7 @@ https://rpn3.bozztv.com/dvrfl07/ushba78/tracks-v1a1/mono.ts.m3u8
 https://rpn3.bozztv.com/dvrfl07/ushba79/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1,Маша и Медведь
 #EXTGRP: Детский
-http://cdntv.online/high/h3pz69ctr7m5/897.mpeg
+http://cdntv.online/high/5c24skzmbrx9/897.mpeg
 #EXTINF:-1,Маша и Медведь
 #EXTGRP: Детский
 http://cdntv.online/high/9bpaycj4dk/897.m3u8
@@ -819,9 +822,7 @@ http://103.163.132.53/iptv/94LBT2DXEHGXHL/30178/index.m3u8
 #EXTINF:-1,Пингвин
 #EXTGRP: Детский
 https://venera.movify.tv/PingvinRu/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1,Ключайка
-#EXTGRP: Детский
-https://bl.rutube.ru/livestream/ed497bdb28846536f3928849f8f7e469/index.m3u8?s=8hKIWF5Ng40B0-kW7qvWBA&e=2070122249&scheme=https
+
 #EXTINF:-1,Мамонтенок ТВ
 #EXTGRP: Детский
 https://venera.movify.tv/MamontRu/tracks-v1a1/mono.ts.m3u8
