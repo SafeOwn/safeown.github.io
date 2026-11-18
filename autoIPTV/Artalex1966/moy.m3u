@@ -65,7 +65,7 @@ https://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=Mosfilm_HD.m
 #EXTINF:-1,Мосфильм. Золотая коллекция
 #EXTGRP:кино
 http://185.121.1.163:8083/Mosfilm/index.m3u8
-#EXTINF:-1 tvg-id="Мосфильм. Золотая коллекция (+4)",Мосфильм. Золотая коллекция (+4)
+#EXTINF:-1 tvg-id="Мосфильм. Золотая коллекция (+4)" tvg-id="mosfilm-pl4",Мосфильм. Золотая коллекция (+4)
 #EXTGRP:кино
 http://103.163.132.53/iptv/94LBT2DXEHGXHL/17022/index.m3u8
 
@@ -94,7 +94,7 @@ http://cdntv.online/high/5c24skzmbrx9/1263.m3u8
 
 #EXTINF:-1,MM Комедия Classic HD
 #EXTGRP:кино
-http://103.163.132.53/iptv/9MW24R6R8ABV7XHEF9LPB8XN/13037/index.m3u8
+http://ch01.plinkspile.cc/20705/index.m3u8?token=XnuYQbT9Ly8nDX
 #EXTINF:-1,MM Комедия Classic HD
 #EXTGRP:кино
 http://103.163.132.53/iptv/94LBT2DXEHGXHL/13037/index.m3u8
@@ -106,18 +106,7 @@ http://cdntv.online/hls/5c24skzmbrx9/2300.m3u8
 #EXTGRP:кино
 http://cdntv.online/hls/6kwispjyn892/2300.m3u8
 
-#EXTINF:-1,Лучшие экшн фильмы
-#EXTGRP:кино
-https://bl.rutube.ru/livestream/1786622e52a6864eb3fd66b83733fef5/index.m3u8?s=myQrAgKiGTDGhOF0qvWI-w&e=2093635375&scheme=https
-#EXTINF:-1,Лучшие фантастические фильмы
-#EXTGRP:кино
-https://bl.rutube.ru/livestream/54de765aeea96a73d23a24b4e2cab07d/index.m3u8?s=uhwmkMiHbWul8lsiCXtZzQ&e=2093635301&scheme=https
-#EXTINF:-1,Лучшие комедийные сериалы
-#EXTGRP:кино
-https://bl.rutube.ru/livestream/7758ac4d77fac95e187144ee2c8b368d/index.m3u8?s=bc7lIzRmSEzK6u8bhfl1RA&e=2087404289&scheme=https
-#EXTINF:-1, TVON ACTION
-#EXTGRP:кино
-http://188.208.197.173:2580/tvonfilm/video.m3u8?token=or1g1nall
+
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Artalex1966/moy/refs/heads/master/icon/vhs-forever_live.jpg",VHS Forever
 #EXTGRP:кино
@@ -165,9 +154,7 @@ http://kinowalk.hopto.org/filmscope_live
 #EXTGRP:кино
 http://kinowalk.hopto.org/cmexye4ku_live
 
-#EXTINF:-1,Фильмач
-#EXTGRP:кино
-https://bl.rutube.ru/livestream/300560a65014ec501a25b1f79df9ad90/index.m3u8?s=7V1DLjpUHBcTOE2SDHvT6A&e=2093822187&scheme=https
+
 
 #EXTINF:-1,CineMan Top
 #EXTGRP:кино
@@ -181,40 +168,43 @@ http://r.faola.li/6839/index.m3u8?token=nSeG5DM7LE
 #EXTINF:-1,Детское кино International
 #EXTGRP:кино
 http://195.209.212.23:8081/hls/Detskoe_Kino_int/playlist.m3u8
-#EXTINF:-1  group-title="кино"  tvg-id="detkino-tviksel"  tvg-logo="http://epg.one/img2/6260.png"   tvg-rec="0",Детское кино HD
+#EXTINF:-1 tvg-id="detkino-tviksel"  tvg-logo="http://epg.one/img2/6260.png"   tvg-rec="0",Детское кино HD
+#EXTGRP: кино
 http://103.163.132.53/iptv/4N4BPXK9GTU8SE/18073/index.m3u8
-#EXTINF:-1  group-title="кино"  tvg-id="detkino-tviksel"  tvg-logo="http://epg.one/img2/6260.png"   tvg-rec="0",Детское кино HD
+#EXTINF:-1 tvg-id="detkino-tviksel"  tvg-logo="http://epg.one/img2/6260.png"   tvg-rec="0",Детское кино HD
+#EXTGRP: кино
 http://103.163.132.53/iptv/94LBT2DXEHGXHL/18073/index.m3u8
 
-#EXTINF:0,MM USSR Комедия HD
+#EXTINF:-1,MM USSR Комедия HD
 #EXTGRP: кино
-http://ru01.plinkspile.cc/20733/index.m3u8?token=4p4YnwVcCrfieD
-#EXTINF:0,MM USSR Детектив HD
+http://ch01.plinkspile.cc/20733/index.m3u8?token=XnuYQbT9Ly8nDX
+#EXTINF:-1,MM USSR Детектив HD
 #EXTGRP: кино
-http://ru01.plinkspile.cc/20731/index.m3u8?token=4p4YnwVcCrfieD
-#EXTINF:0,MM USSR Драма HD
+http://ch01.plinkspile.cc/20731/index.m3u8?token=XnuYQbT9Ly8nDX
+#EXTINF:-1,MM USSR Драма HD
 #EXTGRP: кино
-http://ru01.plinkspile.cc/20732/index.m3u8?token=4p4YnwVcCrfieD
-#EXTINF:0,MM USSR 1941-1945 HD
+http://ch01.plinkspile.cc/20732/index.m3u8?token=XnuYQbT9Ly8nDX
+#EXTINF:-1,MM USSR 1941-1945 HD
 #EXTGRP: кино
-http://ru01.plinkspile.cc/20748/index.m3u8?token=4p4YnwVcCrfieD
-#EXTINF:0,MM USSR Приключения HD
+http://ch01.plinkspile.cc/20748/index.m3u8?token=XnuYQbT9Ly8nDX
+#EXTINF:-1,MM USSR Приключения HD
 #EXTGRP: кино
-http://ru01.plinkspile.cc/20760/index.m3u8?token=4p4YnwVcCrfieD
-#EXTINF:0,MM USSR Сказки HD
+http://ch01.plinkspile.cc/20760/index.m3u8?token=XnuYQbT9Ly8nDX
+#EXTINF:-1,MM USSR Сказки HD
 #EXTGRP: кино
-http://ru01.plinkspile.cc/20750/index.m3u8?token=4p4YnwVcCrfieD
-#EXTINF:0,MM USSR Мультфильм HD
+http://ch01.plinkspile.cc/20750/index.m3u8?token=XnuYQbT9Ly8nDX
+#EXTINF:-1,MM USSR Мультфильм HD
 #EXTGRP: кино
-http://ru01.plinkspile.cc/20849/index.m3u8?token=4p4YnwVcCrfieD
+http://ch01.plinkspile.cc/20849/index.m3u8?token=XnuYQbT9Ly8nDX
 
-#EXTINF:0,IPTVPLAY ПАМЯТЬ HD
+#EXTINF:-1,IPTVPLAY ПАМЯТЬ HD
 #EXTGRP: кино
 https://social.tvp.pp.ru/public-playlist/q3sndMn4jxOpMXOiAx_OauuobFGwrYWiWO9SGtLt7nI/3915.m3u8
 
 #EXTINF:-1,IPTVPLAY МультСказки HD
 #EXTGRP: Детский
 https://social.tvp.pp.ru/public-playlist/q3sndMn4jxOpMXOiAx_OauuobFGwrYWiWO9SGtLt7nI/3920.m3u8
+
 #EXTINF:-1,СОВЕТСКИЕ МУЛЬТФИЛЬМЫ
 #EXTGRP: Детский
 https://stream-msk-10.ott.tricolor.tv/dtv/id905_MSKSG-PVR-1--Kinozal_10/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NTQ3MTEwMSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzk0ODY2MzAxLCJzZXNzaW9uX2lkIjoiYmVjY2ZiMDQ4M2QwM2VkMTAyNTc3YTY5ZWIyNGRmZDQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.n_Bf689su8HZVgVA3pRbzfB862R8Cf9xJzZuDOt7UKc
@@ -227,13 +217,13 @@ https://rpn3.bozztv.com/dvrfl07/giatv-208314/playlist.m3u8
 http://103.163.132.53/iptv/9MW24R6R8ABV7XHEF9LPB8XN/30151/index.m3u
 
 
-#EXTINF:-1,СОВЕТСКИЕ ФИЛЬМЫ
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Artalex1966/moy/refs/heads/master/icon/sovfilm.jpg",СОВЕТСКИЕ ФИЛЬМЫ
 #EXTGRP:кино
 https://live-mirror-18.ott.tricolor.tv/dtv/id1009_MSKSG-PVR-1--kinozal_23_sd/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NTQ3MTEwMSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzk0ODY2MzAxLCJzZXNzaW9uX2lkIjoiYmVjY2ZiMDQ4M2QwM2VkMTAyNTc3YTY5ZWIyNGRmZDQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.n_Bf689su8HZVgVA3pRbzfB862R8Cf9xJzZuDOt7UKc
 #EXTINF:-1,День Победы
 #EXTGRP:кино
 http://stream-msk-07.ott.tricolor.tv/dtv/id666_MSKSG-PVR-1--Den_Pobedy/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NTQ3MTEwMSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzk0ODY2MzAxLCJzZXNzaW9uX2lkIjoiYmVjY2ZiMDQ4M2QwM2VkMTAyNTc3YTY5ZWIyNGRmZDQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.n_Bf689su8HZVgVA3pRbzfB862R8Cf9xJzZuDOt7UKc
-#EXTINF:-1,ШЕРЛОК ХОЛМС
+#EXTINF:-1 tvg-logo="http://i121.fastpic.org/big/2023/0516/9d/e2679eb3a2514fc5488f43432dcd949d.png",ШЕРЛОК ХОЛМС
 #EXTGRP:кино
 https://stream-msk-14.ott.tricolor.tv/dtv/id904_MSKSG-PVR-1--Kinozal_1/02/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NTQ3MTEwMSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzk0ODY2MzAxLCJzZXNzaW9uX2lkIjoiYmVjY2ZiMDQ4M2QwM2VkMTAyNTc3YTY5ZWIyNGRmZDQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.n_Bf689su8HZVgVA3pRbzfB862R8Cf9xJzZuDOt7UKc
 #EXTINF:-1 tvg-logo="http://epg.one/img2/6259.png",Военное кино HD
@@ -499,19 +489,19 @@ https://stream-msk-16.ott.tricolor.tv/dtv/id929_MSKSG-PVR-1--Kinozal_2/03/plst.m
 http://103.163.132.53/iptv/94LBT2DXEHGXHL/31713/index.m3u
 
 
-#EXTINF:0, viju TV1000
+#EXTINF:-1, viju TV1000
 #EXTGRP:кино
 https://flussonic.mkpnet.ru/tv-aab84159a39fbe84/video.m3u8
-#EXTINF:0,viju TV1000 Action
+#EXTINF:-1,viju TV1000 Action
 #EXTGRP:кино
 https://flussonic.mkpnet.ru/tv-0991ea2ac6292de8/video.m3u8
-#EXTINF:0,viju+ Megahit HD
+#EXTINF:-1,viju+ Megahit HD
 #EXTGRP:кино
 https://flussonic.mkpnet.ru/tv-3d1cedf99303d057/video.m3u8
-#EXTINF:0,viju+ Premiere HD
+#EXTINF:-1,viju+ Premiere HD
 #EXTGRP:кино
 https://flussonic.mkpnet.ru/tv-e107d21a90cb808f/video.m3u8
-#EXTINF:0,viju+ Comedy HD
+#EXTINF:-1,viju+ Comedy HD
 #EXTGRP:кино
 https://flussonic.mkpnet.ru/tv-c385ec3bab3a3605/video.m3u8
 #EXTINF:-1,Viju TV1000 Русское
@@ -950,26 +940,34 @@ http://nkhwvlfz.ottclub.xyz/iptv/94LBT2DXEHGXHL/19412/index.m3u8
 #EXTINF:-1,MM Открытия HD
 http://nkhwvlfz.ottclub.xyz/iptv/94LBT2DXEHGXHL/19415/index.m3u8
 #EXTINF:-1, Play-x Тайны Чапман HD
-http://cdntv.online/low/9bpaycj4dk/2215.mpeg
+http://cdntv.online/low/3rtdzbfmw5/2215.mpeg
 
 
 
-#EXTINF:-1,Мосфильм. Золотая коллекция
-#EXTGRP:кино
-http://31.210.208.171:8080/mosfilm/index.m3u8?token=+W2MSER
+
 #EXTINF:-1,TVPlay Как это Было
 #EXTGRP:кино
 http://r.faola.li/11180/index.m3u8?token=nSeG5DM7LE
 #EXTINF:-1,Сити ЭдемкиноКлассика
 https://cityeden.catcast.tv/content/34185/index.m3u8
 
-
-
 #EXTINF:-1,Твойкинотеатр
 https://bl.rutube.ru/livestream/e08e513c4e33f52fce3a975b5cb6932c/index.m3u8?s=rXoN2H9fvKgm-dRbe0cUHQ&e=2087554610&scheme=https
-
-
 #EXTINF:-1,Киножелезо
 https://bl.rutube.ru/livestream/4965b7b928c4a143d708ab424be01d37/index.m3u8?s=ysU34lwaIe3wJ_kwITsqmA&e=2075674722&scheme=https
-#EXTINF:-1,Phaztil
-https://ab2262fdd9c5.eu-central-1.playback.live-video.net/api/video/v1/eu-central-1.061051251131.channel.U0tZwUmIDmYb.m3u8
+#EXTINF:-1,Фильмач
+#EXTGRP:кино
+https://bl.rutube.ru/livestream/300560a65014ec501a25b1f79df9ad90/index.m3u8?s=7V1DLjpUHBcTOE2SDHvT6A&e=2093822187&scheme=https
+#EXTINF:-1,Лучшие экшн фильмы
+#EXTGRP:кино
+https://bl.rutube.ru/livestream/1786622e52a6864eb3fd66b83733fef5/index.m3u8?s=myQrAgKiGTDGhOF0qvWI-w&e=2093635375&scheme=https
+#EXTINF:-1,Лучшие фантастические фильмы
+#EXTGRP:кино
+https://bl.rutube.ru/livestream/54de765aeea96a73d23a24b4e2cab07d/index.m3u8?s=uhwmkMiHbWul8lsiCXtZzQ&e=2093635301&scheme=https
+#EXTINF:-1,Лучшие комедийные сериалы
+#EXTGRP:кино
+https://bl.rutube.ru/livestream/7758ac4d77fac95e187144ee2c8b368d/index.m3u8?s=bc7lIzRmSEzK6u8bhfl1RA&e=2087404289&scheme=https
+#EXTINF:-1, TVON ACTION
+#EXTGRP:кино
+http://188.208.197.173:2580/tvonfilm/video.m3u8?token=or1g1nall
+
