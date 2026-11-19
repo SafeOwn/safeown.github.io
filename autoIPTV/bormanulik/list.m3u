@@ -1,5 +1,5 @@
 #EXTM3U 
-#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 18.11.26
+#EXTINF:-1  group-title="Инфо"  tvg-logo="https://app.playlistbox.com/icon/lgyq19r83p50mxYAV4xVkQXvADRObGP7.png"   tvg-name="Обновление от ", Обновление от 19.11.26
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy"  tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg"   tvg-name="Первый канал", Первый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
@@ -137,8 +137,6 @@ https://bl.rutube.ru/livestream/d14fcf59cb7d07a26c48ebc8c6565f44/index.m3u8?s=7M
 https://bl.rutube.ru/livestream/2bbfa9ebf9d79ade480d7281fcef1008/index.m3u8?s=yPF_CfouRhv98nuswf06LQ&e=2067513335&scheme=https
 #EXTINF:-1  group-title="Эфирные"  tvg-id="super" ,Суббота!
 http://217.114.191.150/Subbota/index.m3u8
-#EXTINF:-1  group-title="Эфирные"  tvg-id="tvcentr" ,ТВЦ
-http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="sts" , СТС
 http://176.118.197.101/CTC/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="rossia1" ,Россия 1
@@ -285,18 +283,6 @@ http://31.131.141.195:8000/play/2070/index.m3u8
 http://31.131.141.195:8000/play/2100/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="match-tv" ,Матч ТВ
 http://31.131.141.195:8000/play/1030/index.m3u8
-#EXTINF:-1  group-title="Эфирные"  tvg-id="piatnica"   timeshift="7" tvg-rec="7",Пятница!
-http://stream.mcquack.net/181/index.m3u8
-#EXTINF:-1  group-title="Эфирные"  tvg-id="super"   timeshift="7" tvg-rec="7",Суббота!
-http://stream.mcquack.net/269/index.m3u8
-#EXTINF:-1  group-title="Эфирные"  tvg-id="tv3-ru"   timeshift="7" tvg-rec="7",ТВ3
-http://stream.mcquack.net/136/index.m3u8
-#EXTINF:-1  group-title="Эфирные"  tvg-id="tnt"   timeshift="7" tvg-rec="7",ТНТ
-http://stream.mcquack.net/135/index.m3u8
-#EXTINF:-1  group-title="Эфирные"  tvg-id="tnt4"   timeshift="7" tvg-rec="7",ТНТ4
-http://stream.mcquack.net/106/index.m3u8
-#EXTINF:-1  group-title="Эфирные"  tvg-id="yu"   timeshift="7" tvg-rec="7",Ю
-http://stream.mcquack.net/230/index.m3u8
 #EXTINF:-1  group-title="Эфирные"  tvg-id="pervy" ,Первый канал
 http://195.64.140.147:10001/991
 #EXTINF:-1  group-title="Эфирные"  tvg-id="rossia1" ,Россия 1
@@ -371,8 +357,6 @@ http://185.46.16.239:8000/OTR
 http://185.46.16.239:8000/Mir
 #EXTINF:-1  group-title="Эфирные"  tvg-id="domashny" ,Домашний
 http://185.46.16.239:8000/Domashniy
-#EXTINF:-1  group-title="Эфирные"  tvg-id="yu" ,Ю
-http://185.46.16.239:8000/YU_TV
 #EXTINF:-1  group-title="Эфирные"  tvg-id="piatnica" ,Пятница
 http://185.46.16.239:8000/Pyatnitsa
 #EXTINF:-1  group-title="Эфирные"  tvg-id="spas" ,Спас
@@ -517,8 +501,6 @@ http://31.210.208.171:8080/nostalgiya/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/krasnaya_liniya/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Познавательные"  tvg-id="avto24" ,Авто 24
 http://31.210.208.171:8080/avto_24/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Познавательные"  tvg-id="avto-plus" ,Авто Плюс
-http://31.210.208.171:8080/avto_plus/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Познавательные"  tvg-id="kto-est-kto" ,Кто есть кто
 http://31.210.208.171:8080/kto_est_kto/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Познавательные"  tvg-id="kuxnia-tv" ,Кухня ТВ
@@ -637,32 +619,6 @@ https://bl.rutube.ru/livestream/2bbfa9ebf9d79ade480d7281fcef1008/index.m3u8?s=l-
 https://bl.rutube.ru/livestream/a11c890a0ec0730ad33bdaaf2d244e1a/index.m3u8?s=rtFSQpmrNmsoB1YnCB1sXA&e=2069285053&scheme=https
 #EXTINF:-1  group-title="Познавательные" ,Тайна FD
 https://bl.rutube.ru/livestream/a11c890a0ec0730ad33bdaaf2d244e1a/index.m3u8?s=V1-tEw5Cpojw6jhxNF9IMw&e=2066519764&scheme=https
-#EXTINF:-1  group-title="Познавательные"  tvg-id="nat-geo-wild" ,Nat Geo Wild HD
-http://stream.mcquack.net/149/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="discovery-channel" ,Discovery Channel HD
-http://stream.mcquack.net/177/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="id-xtra-ru" ,Investigation Discovery HD
-http://stream.mcquack.net/205/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="travel-channel" ,Travel Channel HD
-http://stream.mcquack.net/231/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="travel-xp-hd" ,Travel XP HD
-http://stream.mcquack.net/451/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="the-explorers" ,The Explorers
-http://stream.mcquack.net/450/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="insight-tv-hd" ,Insight TV HD
-http://stream.mcquack.net/361/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="nauka" ,Наука
-http://stream.mcquack.net/403/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="one-planet" ,One Planet HD
-http://stream.mcquack.net/448/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="animal-planet-eu" ,Animal Planet HD
-http://stream.mcquack.net/114/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="morskoy" ,Моя стихия
-http://stream.mcquack.net/141/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="v-mire-zhivotnyx-hd" ,В мире животных
-http://stream.mcquack.net/241/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="tlc" ,TLC
-http://stream.mcquack.net/168/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-explore" ,viju Explore
 http://46.53.200.153:7777/play/a01i/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="viasat-history" ,viju History
@@ -701,28 +657,6 @@ https://flussonic.mkpnet.ru/tv-025f6f42ae5bcfc6/video.m3u8
 https://flussonic.mkpnet.ru/tv-3c6edc849aea7c07/video.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="tvmchannel" ,TVM Channel
 http://cdn-01.bonus-tv.ru:80/tvm_edge/tracks-v1a1/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="365-dnej"   timeshift="7" tvg-rec="7",365 дней ТВ
-http://stream.mcquack.net/70/index.m3u8
-#EXTINF:-1  group-title="Познавательные"   timeshift="7" tvg-rec="7",Aljazeera
-http://stream.mcquack.net/131/index.m3u8
-#EXTINF:-1  group-title="Познавательные"   timeshift="7" tvg-rec="7",BBC News UK
-http://stream.mcquack.net/85/index.m3u8
-#EXTINF:-1  group-title="Познавательные"   timeshift="7" tvg-rec="7",Channel 9 (Израиль)
-http://stream.mcquack.net/20/index.m3u8
-#EXTINF:-1  group-title="Познавательные"   timeshift="7" tvg-rec="7",Deutsche Welle
-http://stream.mcquack.net/440/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="nat-geo-wild"   timeshift="7" tvg-rec="7",Nat Geo Wild
-http://stream.mcquack.net/149/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="one-planet"   timeshift="7" tvg-rec="7",One Planet
-http://stream.mcquack.net/448/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="avto-plus"   timeshift="7" tvg-rec="7",Авто Плюс
-http://stream.mcquack.net/186/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="voprosy-i-otvety"   timeshift="7" tvg-rec="7",Вопросы и ответы
-http://stream.mcquack.net/76/index.m3u8
-#EXTINF:-1  group-title="Познавательные"  tvg-id="nauka"   timeshift="7" tvg-rec="7",Наука
-http://stream.mcquack.net/403/index.m3u8
-#EXTINF:-1  group-title="Познавательные"   timeshift="7" tvg-rec="7",Приключения
-http://stream.mcquack.net/198/index.m3u8
 #EXTINF:-1  group-title="Познавательные"  tvg-id="ntv-style" ,НТВ Стиль
 http://195.64.140.147:10173/173
 #EXTINF:-1  group-title="Познавательные"  tvg-id="ntv-pravo" ,НТВ Право
@@ -751,8 +685,6 @@ http://195.64.140.147:10156/156
 http://195.64.140.147:10158/158
 #EXTINF:-1  group-title="Познавательные"  tvg-id="rtg-tv" ,RTG HD
 http://195.64.140.147:10159/159
-#EXTINF:-1  group-title="Познавательные"  tvg-id="oruzhie" ,Оружие
-http://195.64.140.147:10160/160
 #EXTINF:-1  group-title="Познавательные"  tvg-id="moya-planeta" ,Моя Планета
 http://195.64.140.147:10161/161
 #EXTINF:-1  group-title="Познавательные"  tvg-id="oxotnik-i-rybolov" ,Охотник и Рыболов
@@ -813,10 +745,6 @@ http://195.64.140.147:10172/172
 http://195.64.140.147:10142/142
 #EXTINF:-1  group-title="Познавательные"  tvg-id="arsenaltv" ,Арсенал HD
 http://195.64.140.147:10157/157
-#EXTINF:-1  group-title="Познавательные"  tvg-id="bobior" ,Бобёр
-http://195.64.140.147:10163/163
-#EXTINF:-1  group-title="Познавательные"  tvg-id="solnce" ,Солнце
-http://195.64.140.147:10027/27
 #EXTINF:-1  group-title="Познавательные"  tvg-id="moya-planeta" ,Моя планета HD
 http://185.46.16.239:8000/Planeta_HD
 #EXTINF:-1  group-title="Познавательные"  tvg-id="doktor" ,Доктор
@@ -827,8 +755,6 @@ http://185.46.16.239:8000/Zhivaya_Planeta
 http://185.46.16.239:8000/Nauka_2.0
 #EXTINF:-1  group-title="Познавательные"  tvg-id="istoria" ,История
 http://185.46.16.239:8000/Istoriya
-#EXTINF:-1  group-title="Познавательные"  tvg-id="pes-i-ko" ,Пес и Ко
-http://185.46.16.239:8000/Pes_i_Ko
 #EXTINF:-1  group-title="Познавательные"  tvg-id="rzhd-tv" ,РЖД ТВ
 http://185.46.16.239:8000/Nat_Geo_Wild_HD
 #EXTINF:-1  group-title="Познавательные"  tvg-id="drive" ,Драйв
@@ -863,8 +789,6 @@ http://31.210.208.171:8080/sarafan/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/kvn_tv/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="telekafe" ,ТЕЛЕКАФЕ
 http://31.210.208.171:8080/telecafe/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Развлекательные"  tvg-id="gags-network" ,Gags Network
-http://stream.mcquack.net/458/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="kvn-tv" ,КВН ТВ
 https://fs.uplink.kz/kvn_tv/mono.m3u8?token=onlinetv
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="tvoetv-humor" ,Твоё ТВ - Юмор
@@ -885,14 +809,6 @@ http://cdn.wfc.tv/cdn/stream-rus-1080p.m3u8
 http://cdn.wfc.tv/cdn/stream-rus-720p.m3u8
 #EXTINF:-1  group-title="Развлекательные" ,WFC International
 http://cdn.wfc.tv/cdn/stream-eng-720p.m3u8
-#EXTINF:-1  group-title="Развлекательные"   timeshift="7" tvg-rec="7",Fashion World
-http://stream.mcquack.net/287/index.m3u8
-#EXTINF:-1  group-title="Развлекательные"  tvg-id="fashion-one"   timeshift="7" tvg-rec="7",Fashion ONE
-http://stream.mcquack.net/119/index.m3u8
-#EXTINF:-1  group-title="Развлекательные"  tvg-id="perec-int"   timeshift="7" tvg-rec="7",Перец International
-http://stream.mcquack.net/121/index.m3u8
-#EXTINF:-1  group-title="Развлекательные"  tvg-id="sarafan"   timeshift="7" tvg-rec="7",Сарафан
-http://stream.mcquack.net/81/index.m3u8
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="kvn-tv" ,КВН ТВ
 http://195.64.140.147:10138/138
 #EXTINF:-1  group-title="Развлекательные"  tvg-id="sts-love" ,СТС Love
@@ -977,8 +893,6 @@ http://vod.tuva.ru/rusroman/index.m3u8
 http://vod.tuva.ru/kinotv/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="nst" ,НСТ
 http://vod.tuva.ru/nst/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="evrokino" ,Еврокино
-http://vod.tuva.ru/eurokino/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://cdn2-static.ntv.ru/home/schedule/2025/20250926/shef_vert_live_1.jpg" ,НТВ Сериалы Шеф
 https://cdn-dvr.ntv.ru/Shef/tracks-v1a1/rewind-240.ts.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://cdn2-static.ntv.ru/home/schedule/2025/20250926/1st_otdel_vert_live.jpg" ,НТВ Сериалы Первый отдел
@@ -1037,8 +951,6 @@ http://kinowalk.hopto.org/lampotv_live
 http://kinowalk.hopto.org/yurich_kinomix_live
 #EXTINF:-1  group-title="Кино и сериалы" , VideoArsenal
 http://kinowalk.hopto.org/videoarsenal_live
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" , Cinema Time FHD
-http://kinowalk.hopto.org/cinematime_live
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" , Video_Prokat FHD
 http://kinowalk.hopto.org/video_prokat_live
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="no_epg_cinema"  tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" ,НТВ Хит
@@ -1053,10 +965,6 @@ https://bl.rutube.ru/livestream/e05401be60a9cc719fa7075b6e77b86d/index.m3u8?s=wb
 https://bl.rutube.ru/livestream/3b7d1499da9396462bfd17282d758d30/index.m3u8?s=2ANj0RhjI1hrAkz7Jd83ZQ&e=2069068452&scheme=https
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinozelezo"  tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" ,Киножелезо
 https://bl.rutube.ru/livestream/4965b7b928c4a143d708ab424be01d37/index.m3u8?s=gMBYxSllxsSYVvLG71o4eg&e=2066519765&scheme=https
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" , serial4u
-http://kinowalk.hopto.org/serial4u_live
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kino-i-zhizn" ,Кино и Жизнь
-https://bl.rutube.ru/livestream/09e51eefa939595a4ac67182c6fb3e4e/index.m3u8?s=fupxxtJxZ7eqBbPqaQsvTw&e=2069285074&scheme=https
 #EXTINF:-1  group-title="Кино и сериалы" ,Кино и Жизнь HD
 https://bl.rutube.ru/livestream/09e51eefa939595a4ac67182c6fb3e4e/index.m3u8?s=ix0NUYiM353oJ7eEIovyVA&e=2066519843&scheme=https
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinolaffka" ,Кинолаффка
@@ -1079,70 +987,6 @@ https://flussonic.mkpnet.ru/tv-e107d21a90cb808f/video.m3u8
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4158
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="chestny-detektiv"  tvg-logo="https://iptvx.one/picons/chestny-detektiv.png" ,Честный детектив
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="cinema-ru" ,Cinema 
-http://stream.mcquack.net/62/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinopokaz" ,Кинопоказ
-http://stream.mcquack.net/64/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="komedijnoe-hd" ,Комедийное HD
-http://stream.mcquack.net/74/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="khit-hd" ,Хит HD
-http://stream.mcquack.net/363/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="blokbaster-hd" ,Блокбастер HD
-http://stream.mcquack.net/364/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="dorama" ,Дорама HD
-http://stream.mcquack.net/412/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinosweet" ,Kinosweet
-http://stream.mcquack.net/447/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinowood" ,Kinowood HD
-http://stream.mcquack.net/446/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="hollywood-hd" ,Hollywood HD
-http://stream.mcquack.net/268/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fanhd" ,Fan HD
-http://stream.mcquack.net/420/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kino-tv" ,Кино ТВ
-http://stream.mcquack.net/221/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia1" ,Amedia 1
-http://stream.mcquack.net/117/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia-premium" ,Amedia Premium 
-http://stream.mcquack.net/151/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="amedia-hit" ,Amedia Hit
-http://stream.mcquack.net/162/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="sony-tv" ,.red
-http://stream.mcquack.net/69/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="sony-turbo" ,.Black 
-http://stream.mcquack.net/263/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="sony-scifi" ,.Sci-Fi
-http://stream.mcquack.net/180/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="shokiruyushchee-hd" ,Шокирующее HD
-http://stream.mcquack.net/75/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-thriller" ,Fresh Thriller
-http://stream.mcquack.net/434/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-romatic" ,Fresh Romantic
-http://stream.mcquack.net/433/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-adventure" ,Fresh Adventure
-http://stream.mcquack.net/432/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-horror" ,Fresh Horror
-http://stream.mcquack.net/431/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-series" ,Fresh Series
-http://stream.mcquack.net/430/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-fantastic" ,Fresh Fantastic
-http://stream.mcquack.net/429/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-vhs" ,Fresh VHS
-http://stream.mcquack.net/428/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-family" ,Fresh Family
-http://stream.mcquack.net/427/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-comedy" ,Fresh Comedy
-http://stream.mcquack.net/426/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-kids" ,Fresh Kids
-http://stream.mcquack.net/425/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-premiere" ,Fresh Premiere
-http://stream.mcquack.net/424/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-cinema" ,Fresh Cinema
-http://stream.mcquack.net/423/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-rating" ,Fresh Rating
-http://stream.mcquack.net/422/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="bolt" ,Bolt
-http://stream.mcquack.net/73/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="tvxxi" ,TV XXI
 http://46.53.200.153:7777/play/TV-21M/index.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="sapfir" ,Сапфир HD
@@ -1195,76 +1039,6 @@ https://flussonic.mkpnet.ru/tv-7510472b0133abb2/video.m3u8
 https://flussonic.mkpnet.ru/tv-0991ea2ac6292de8/video.m3u8
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="kinosvidanie" ,Киносвидание
 https://flussonic.mkpnet.ru/tv-be2ba983babad866/video.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="bolt"   timeshift="7" tvg-rec="7",Bolt
-http://stream.mcquack.net/73/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="cineman"   timeshift="7" tvg-rec="7",CineMan
-http://stream.mcquack.net/349/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="cineman-action"   timeshift="7" tvg-rec="7",CineMan Action
-http://stream.mcquack.net/351/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"   timeshift="7" tvg-rec="7",CineMan Comedy
-http://stream.mcquack.net/356/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="cineman-miniseries"   timeshift="7" tvg-rec="7",Cineman MiniSeries
-http://stream.mcquack.net/122/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="cineman-relax"   timeshift="7" tvg-rec="7",Cineman Relax 4K
-http://stream.mcquack.net/459/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="cineman-thriller"   timeshift="7" tvg-rec="7",CineMan Thriller
-http://stream.mcquack.net/352/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="cineman-top"   timeshift="7" tvg-rec="7",CineMan Top
-http://stream.mcquack.net/350/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="cineman-vhs"   timeshift="7" tvg-rec="7",Cineman VHS
-http://stream.mcquack.net/474/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="cineman-katastrofy"   timeshift="7" tvg-rec="7",Cineman Катастрофы
-http://stream.mcquack.net/471/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="cineman-lesnik"   timeshift="7" tvg-rec="7",Cineman Лесник
-http://stream.mcquack.net/115/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"   timeshift="7" tvg-rec="7",Cineman Мелодрама
-http://stream.mcquack.net/472/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="cineman-musw"   timeshift="7" tvg-rec="7",Cineman Ментовские войны
-http://stream.mcquack.net/477/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="cineman-simps"   timeshift="7" tvg-rec="7",Cineman Симпсоны
-http://stream.mcquack.net/476/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="cineman-uzhasy"   timeshift="7" tvg-rec="7",CineMan Ужасы
-http://stream.mcquack.net/355/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-adventure"   timeshift="7" tvg-rec="7",Fresh Adventure
-http://stream.mcquack.net/432/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-cinema"   timeshift="7" tvg-rec="7",Fresh Cinema
-http://stream.mcquack.net/423/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-comedy"   timeshift="7" tvg-rec="7",Fresh Comedy
-http://stream.mcquack.net/426/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-family"   timeshift="7" tvg-rec="7",Fresh Family
-http://stream.mcquack.net/427/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-fantastic"   timeshift="7" tvg-rec="7",Fresh Fantastic
-http://stream.mcquack.net/429/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-horror"   timeshift="7" tvg-rec="7",Fresh Horror
-http://stream.mcquack.net/431/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-kids"   timeshift="7" tvg-rec="7",Fresh Kids
-http://stream.mcquack.net/425/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-premiere"   timeshift="7" tvg-rec="7",Fresh Premiere
-http://stream.mcquack.net/424/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-rating"   timeshift="7" tvg-rec="7",Fresh Rating
-http://stream.mcquack.net/422/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-romatic"   timeshift="7" tvg-rec="7",Fresh Romantic
-http://stream.mcquack.net/433/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-series"   timeshift="7" tvg-rec="7",Fresh Series
-http://stream.mcquack.net/430/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-thriller"   timeshift="7" tvg-rec="7",Fresh Thriller
-http://stream.mcquack.net/434/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="fresh-vhs"   timeshift="7" tvg-rec="7",Fresh VHS
-http://stream.mcquack.net/428/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="plan-b"   timeshift="7" tvg-rec="7",Plan B
-http://stream.mcquack.net/196/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="start-air"   timeshift="7" tvg-rec="7",Start Air
-http://stream.mcquack.net/128/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="blokbaster"   timeshift="7" tvg-rec="7",Блокбастер
-http://stream.mcquack.net/364/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="ntv-serial"   timeshift="7" tvg-rec="7",НТВ Сериал
-http://stream.mcquack.net/301/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="nashe-muzhskoe"   timeshift="7" tvg-rec="7",Наше мужское
-http://stream.mcquack.net/362/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="ostrosiuzhetnoe"   timeshift="7" tvg-rec="7",Остросюжетное
-http://stream.mcquack.net/214/index.m3u8
-#EXTINF:-1  group-title="Кино и сериалы"  tvg-id="ntv-serial" ,НТВ Сериал
-http://195.64.140.147:10073/73
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="ntv-xit" ,НТВ Хит
 http://195.64.140.147:10074/74
 #EXTINF:-1  group-title="Кино и сериалы"  tvg-id="pobeda" ,Победа
@@ -4606,51 +4380,15 @@ http://31.210.208.171:8080/v_gostyah_u_skazki/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Детские"  tvg-id="tiji" ,TIJI
 http://31.210.208.171:8080/tiji/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Детские"  tvg-id="2na2" ,2x2
-http://stream.mcquack.net/187/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="ginger-hd" ,Капитан фантастика 
-http://stream.mcquack.net/144/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="v-gostiax-u-skazki" ,В гостях у сказки 
-http://stream.mcquack.net/93/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="tiji" ,Tiji
-http://stream.mcquack.net/111/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="jimjam" ,JimJam
-http://stream.mcquack.net/150/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="solnce" ,Солнце 
-http://stream.mcquack.net/118/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="da-vinci" ,Da Vinci
-http://stream.mcquack.net/238/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="nick-jr" ,Nick Jr
-http://stream.mcquack.net/220/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="nickelodeon-ru" ,Nickelodeon 
-http://stream.mcquack.net/443/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="kinokazka" ,KinoKazka
-http://stream.mcquack.net/167/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="plusplus" ,ПлюсПлюс
-http://stream.mcquack.net/339/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="2na2" ,2x2
 http://185.23.80.23:8080/2x2/index.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="multimania" ,Мультиландия
 https://flussonic.mkpnet.ru/tv-89530153f25733fe/video.m3u8
 #EXTINF:-1  group-title="Детские"  tvg-id="baby-time" ,Baby time
 https://fs.uplink.kz/baby_time/mono.m3u8?token=onlinetv
-#EXTINF:-1  group-title="Детские"  tvg-id="2na2"   timeshift="7" tvg-rec="7",2х2
-http://stream.mcquack.net/187/index.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="cartoons-90"   timeshift="7" tvg-rec="7",Cartoons 90
-http://stream.mcquack.net/484/index.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="cartoons-big"   timeshift="7" tvg-rec="7",Cartoons Big
-http://stream.mcquack.net/348/index.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="cartoons-short"   timeshift="7" tvg-rec="7",Cartoons Short
-http://stream.mcquack.net/347/index.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="v-gostiax-u-skazki"   timeshift="7" tvg-rec="7",В гостях у сказки
-http://stream.mcquack.net/93/index.m3u8
-#EXTINF:-1  group-title="Детские"  tvg-id="karusel" ,Карусель
-http://195.64.140.147:10008/998
 #EXTINF:-1  group-title="Детские"  tvg-id="gulli-girl" ,Gulli Girl
 http://195.64.140.147:10122/122
 #EXTINF:-1  group-title="Детские"  tvg-id="o_" ,О!
 http://195.64.140.147:10124/124
-#EXTINF:-1  group-title="Детские"  tvg-id="mama" ,МАМА
-http://195.64.140.147:10127/127
 #EXTINF:-1  group-title="Детские"  tvg-id="tiji" ,Tiji
 http://195.64.140.147:10128/128
 #EXTINF:-1  group-title="Детские"  tvg-id="sts-kids-hd" ,СТС Kids
@@ -4675,12 +4413,8 @@ http://185.46.16.239:8000/Detskiy
 http://185.46.16.239:8000/Mult
 #EXTINF:-1  group-title="Детские"  tvg-id="mult" ,Мульт HD
 http://185.46.16.239:8000/Mir_24
-#EXTINF:-1  group-title="Детские" ,В гостях у сказки HD
-http://185.46.16.239:8000/V_gostyakh_u_skazki
 #EXTINF:-1  group-title="Детские"  tvg-id="malysh" ,Супергерои
 http://185.46.16.239:8000/National_Geographic_HD
-#EXTINF:-1  group-title="Детские"  tvg-id="solnce" ,Солнце
-http://185.46.16.239:8000/Disney_Channel
 #EXTINF:-1  group-title="Детские"  tvg-id="ani" ,Ani
 http://185.46.16.239:8000/Ani
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-tv"  tvg-logo="http://domnet.me/images/picons/tvico_n52.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Матч! ТВ
@@ -4695,8 +4429,6 @@ https://flussonic.mkpnet.ru/tv-9dda1dd9d740a9a4/video.m3u8
 https://flussonic.mkpnet.ru/tv-1bfac9df3d938c1f/video.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="match-premier" ,Матч! Премьер
 https://flussonic.mkpnet.ru/tv-ee3651e1e7ce5cbf/video.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="kxl" ,KHL
-http://31.210.208.171:8080/khl/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Спортивные"  tvg-id="box-tv" ,БОКС ТВ
 http://31.210.208.171:8080/box_tv/index.m3u8?token=+W2MSER
 #EXTINF:-1  group-title="Спортивные"  tvg-id="start" ,СТАРТ HD
@@ -4787,8 +4519,6 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?xtreami
 http://iptv.prosto.tv:7000/ch313/video.m3u8?secret=cledwwov
 #EXTINF:-1  group-title="Спортивные"  tvg-id="belarus5"  tvg-logo="https://iptvx.one/picons/belarus5hd.png" ,Беларусь 5 HD
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-logo="https://i.ibb.co/202BfnSk/image-60.png" , TJK TV
-https://tjktv-live.tjk.org/tjktv/tjktv_480p.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="no_epg_sport"  tvg-logo="https://photos.live-tv-channels.org/tv-logo/canal-motor-5880.webp" , Canal Motor
 http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="a-spor-tr"  tvg-logo="https://i.ibb.co/q3s9kkz0/image-2025-10-10-T200310-747.png" , A Spor
@@ -4829,18 +4559,6 @@ https://bl.rutube.ru/livestream/9f28acb802549828d3ce7fbd8ecc17d3/index.m3u8?s=H1
 https://bl.rutube.ru/livestream/efc2833169ec20a3ea61197714bea6ab/index.m3u8?s=VyEyVnw_cmiK7AMHE2yzvQ&e=2069285089&scheme=https
 #EXTINF:-1  group-title="Спортивные" ,Unbeaten HD
 https://bl.rutube.ru/livestream/efc2833169ec20a3ea61197714bea6ab/index.m3u8?s=JJ1LT-dHls975qnnen4uqA&e=2066519933&scheme=https
-#EXTINF:-1  group-title="Спортивные"  tvg-id="match-arena" ,Матч! Арена
-http://31.210.208.171:8080/match_arena/index.m3u8?token=+W2MSER
-#EXTINF:-1  group-title="Спортивные"  tvg-id="trace-sport-stars" ,Trace Sport Stars
-http://stream.mcquack.net/256/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="extreme-sports" ,Extreme Sports HD
-http://stream.mcquack.net/148/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="setanta-sports" ,Setanta Sports 1
-http://stream.mcquack.net/234/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="setanta-sports-plus" ,Setanta Sports 2
-http://stream.mcquack.net/235/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="ultra-4k-extreme" ,Ultra 4K Extreme
-http://46.53.200.153:7777/play/test_krask1/index.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="viasat-sport" ,Viasat Sport HD
 http://46.53.200.153:7777/play/a01l/index.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="viasat-sport" ,Viasat Sport
@@ -4865,12 +4583,14 @@ http://185.23.80.23:8080/MATCH_PREMIER/index.m3u8
 https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8
 #EXTINF:-1  group-title="Спортивные"  tvg-id="tonus-tv" ,Тонус ТВ
 http://194.143.148.28:8080/Mir24/mpegts
-#EXTINF:-1  group-title="Спортивные"  tvg-id="kxl" ,КХЛ ТВ
-http://195.64.140.147:10108/108
 #EXTINF:-1  group-title="Спортивные" , Online TV
 http://185.221.213.254:8080/Okko/tracks-v1a1/index.m3u8
-#EXTINF:-1  group-title="Спортивные"  tvg-id="dynamo-kyiv-tv"   timeshift="7" tvg-rec="7",Dynamo Kyiv TV
-http://stream.mcquack.net/396/index.m3u8
+#EXTINF:-1  group-title="Спортивные"  tvg-id="kxl-hd" ,KHL Prime
+https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv2
+#EXTINF:-1  group-title="Спортивные"  tvg-id="kxl" ,KHL
+https://fs.uplink.kz/telekanal_khl/mono.m3u8?token=onlinetv2
+#EXTINF:-1  group-title="Спортивные" ,Qazsport HD
+https://fs.uplink.kz/qazsport_hd/mono.m3u8?token=onlinetv2
 #EXTINF:-1  group-title="Музыкальные" ,Activa TV
 https://bl.rutube.ru/livestream/8e9da41366fcb497aaeade579f0d715f/index.m3u8?s=ZOZa2aks9WUX89NRUSjHlA&e=2069285076&scheme=https
 #EXTINF:-1  group-title="Музыкальные" ,Activa TV SD
@@ -4945,16 +4665,6 @@ https://flussonic.mkpnet.ru/tv-3cdc33d3606ba23f/video.m3u8
 https://flussonic.mkpnet.ru/tv-4a4cb3e0aac082c9/video.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="radio-strana-fm-tv"  tvg-logo="https://iptvx.one/picons/radio-strana-fm-tv.png" ,Страна FM HD
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="muztv" ,МузТВ
-http://stream.mcquack.net/86/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="bridge-hd" ,Bridge HD
-http://stream.mcquack.net/92/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="bridge-tv" ,Bridge TV
-http://stream.mcquack.net/318/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="bridge-tv-classic" ,Bridge TV Classic
-http://stream.mcquack.net/272/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="europa-plus-tv" ,Европа плюс тв
-http://stream.mcquack.net/184/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="shanson-tv" ,Шансон ТВ
 http://46.53.200.153:7777/play/Shanson_TV/index.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="europa-plus-tv" ,Европа плюс ТВ
@@ -4967,20 +4677,16 @@ http://194.26.229.213/chdtv_ru_rock/index.m3u8
 http://194.26.229.213/chdtv_rock/index.m3u8
 #EXTINF:-1  group-title="Музыкальные" ,MCM HD
 http://194.143.148.28:8080/MCM/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Музыкальные"   timeshift="7" tvg-rec="7",Music Box
-http://stream.mcquack.net/319/index.m3u8
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="iconcerts"   timeshift="7" tvg-rec="7",Stingray iConcerts
-http://stream.mcquack.net/267/index.m3u8
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="muztv" ,МузТВ
-http://195.64.140.147:10017/17
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="europa-plus-tv" ,Европа плюс ТВ
 http://195.64.140.147:10036/36
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="shanson-tv" ,Шансон ТВ
-http://195.64.140.147:10195/195
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="muzyka-pervogo" ,Музыка Первого
-http://195.64.140.147:10196/196
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="bridge-tv-ruxit" ,Bridge TV Русский Хит
 http://195.64.140.147:10194/194
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="muztv" ,МузТВ
+http://185.46.16.239:8000/Muz_TV
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="shanson-tv" ,Шансон ТВ
+http://185.46.16.239:8000/Shanson
+#EXTINF:-1  group-title="Музыкальные"  tvg-id="tnt-music" ,ТНТ Music
+http://185.46.16.239:8000/Nashe_TV
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Музыка 1
 https://rpn3.bozztv.com/dvrfl07/ushba-t1/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Музыка 2
@@ -4989,16 +4695,6 @@ https://rpn3.bozztv.com/dvrfl07/ushba-t2/tracks-v1a1/mono.m3u8
 https://rpn3.bozztv.com/dvrfl07/ushba-t3/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Музыка 4
 https://rpn3.bozztv.com/dvrfl07/ushba-t4/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Music 13
-https://fl1003.bozztv.com/ushba0/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="no_epg_sport"  tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" , Music 16 
-https://rpn3.bozztv.com/dvrfl07/ushba76/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="muztv" ,МузТВ
-http://185.46.16.239:8000/Muz_TV
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="shanson-tv" ,Шансон ТВ
-http://185.46.16.239:8000/Shanson
-#EXTINF:-1  group-title="Музыкальные"  tvg-id="tnt-music" ,ТНТ Music
-http://185.46.16.239:8000/Nashe_TV
 #EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
 http://iptv.prosto.tv:7000/ch314/video.m3u8
 #EXTINF:-1  group-title="Релакс"  tvg-id="lanet-relax" ,Lanet Relax
@@ -5069,164 +4765,6 @@ http://iptv.prosto.tv:7000/ch336/video.m3u8
 http://iptv.prosto.tv:7000/ch306/video.m3u8
 #EXTINF:-1  group-title="Релакс"  tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00307.jpg" ,Relaxon
 http://iptv.prosto.tv:7000/ch317/video.m3u8
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2026-01-23/7f/a0/7fa054982af0926bf046828356cf612f.jpg" , 4K UHD релакс
-https://river-4-438.rtbcdn.ru/hls-vod/uYzFdhNi9WSCJIPbx46-kA/1794743641/3554/0x5000c500fad6b32c/11f5bc786dcf44b78243cfe33fb891ae.mp4.m3u8?i=3840x2160_30861
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-08-31/16/b4/16b466e289f38aedbd6088284fe8def6.jpg" , Завораживающие пейзажи мира
-https://river-4-439.rtbcdn.ru/hls-vod/z7ex83KH2FOTAsSR2lZwEQ/1794743642/1780/0x5000c500dc5d5c75/0e11c0a92a8b47bcae4bdb5c7fa184f7.mp4.m3u8?i=2560x1440_17757
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-09-19/4f/f0/4ff007bdfd060d5fa3e1719822a1954a.jpg" , Земля без слов 4K
-https://river-4-436.rtbcdn.ru/hls-vod/p4m133ie-PGEbPem6c5kJQ/1794743642/2520/0x5000039ce869a19d/ca3c0ee693564a7ab67f62467123ddf3.mp4.m3u8?i=3840x2160_20896
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-08-27/4b/62/4b6266f15229d4e552126e0082dbacec.jpg" , 4K красота: закаты леса и мегаполисы
-https://river-4-425.rtbcdn.ru/hls-vod/M6s00ECfUJ9jQ5nK7sR6QQ/1794743643/2474/0x5000c500e883a2b6/b6d409e4e0d94fd4aa77677c9299d645.mp4.m3u8?i=2560x1440_18930
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/ec/3d/ec3d950ca1dbeac9c8017df68179aa35.jpg" , Камин
-https://river-4-421.rtbcdn.ru/hls-vod/I-AWXkaOd8w1wIwkuaH5fw/1794743643/3264/0x5000c500e9ebe935/8311ad94048f47808d4e72cc32aa7238.mp4.m3u8?i=3840x2160_6480
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-11/93/1c/931c2e26c7cf0c9cd46994dd45f5fdd0.jpg" , 4K Video ULTRA HD 60 FPS
-https://river-ntv-comc-d403.rtbcdn.ru/hls-vod/y5uJuEY3Zks-iDVMBUjDiA/1794743643/3310/0x5000c50074475c42/ad4bc68202d64fecb39ff4fdf05f3bfe.mp4.m3u8?i=3840x2160_18272
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/78/e6/78e6107c83f9930a03e48fd0240859a1.jpg" , DOLBY VISION OLED Test Video (2024)
-https://river-ntv-comc-d403.rtbcdn.ru/hls-vod/9KWeh6Gx-3hqCFxvpZqguw/1794743643/3260/0x5000c500e9d37d2a/a64c9366549b468689cbd47702889ec8.mp4.m3u8?i=3840x2160_19668
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/34/f6/34f6507b30ae4a747b11821304e6f1f0.jpg" , 4K ULTRA HD
-https://river-4-422.rtbcdn.ru/hls-vod/lUsvydf8pctYpYEwc-7Qqg/1794743644/1796/0x5000c5007443177b/8baceb688d3548c0a29a40f3980bceea.mp4.m3u8?i=3840x2160_24688
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/0d/56/0d56e874bcbea5a47faaf78fbd97c6e1.jpg" , COLORFUL WORLD ANIMALS - ANIMALS SOUNDS
-https://river-4-442.rtbcdn.ru/hls-vod/2X1LMAbS9_lnyoSAkw-G-Q/1794743644/2602/0x5000039ce86865d1/ce40366bbe4e400bad9e69ba72ea21af.mp4.m3u8?i=3840x2160_19145
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/6b/dc/6bdc4cfedb4f634e840ac2f5c808022f.jpg" , 4K 60fps
-https://river-4-403.rtbcdn.ru/hls-vod/s8gRphUqZCZE0279ct6CZw/1794743645/1802/0x5000c500db111d72/fc85c4ba867d442f8c3161a0ff3045fe.mp4.m3u8?i=3840x2160_20911
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/ec/62/ec62a116bb2e1320fbd89fb433eea909.jpg" , 4K 60fps COLORFUL WORLD - TRUE CINEMATIC
-https://river-4-453.rtbcdn.ru/hls-vod/As1APsQhrHOXGUQCovwV9g/1794743645/2520/0x5000039ce8697ff9/faab509f8cc443a5a9677823f8d38df9.mp4.m3u8?i=3840x2160_16577
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/d8/14/d8145d9a9bbcd2c426c6ca2b3a5a7b87.jpg" , 4K Удивительные животные
-https://river-4-420.rtbcdn.ru/hls-vod/IKzSNGc8VrOP2xqccQx5-g/1794743647/1772/0x5000c500db80bc6a/80e76c2d86c74a98a6d49b3d3f5abf97.mp4.m3u8?i=3840x2160_11616
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/39/b8/39b8682bf458aa9a88963f0de920b505.jpg" , THE MOST BEAUTIFUL 4K 60fps
-https://river-4-453.rtbcdn.ru/hls-vod/NuNSr269baivvP3yg3xFBQ/1794743646/2708/0x5000039ce8380695/d1161bd4d16d4ca1b492d440494f597e.mp4.m3u8?i=3840x2160_17738
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/d0/e6/d0e61eaaf75c5de99cce846c6fc6d9ba.jpg" , Razer Sharp 60 fps 4K
-https://river-4-438.rtbcdn.ru/hls-vod/k3appyJjPPNfcPsnGRDuYQ/1794743646/2652/0x5000039ce8703151/0e29af94ffe3489d83504c1f5a3d12fc.mp4.m3u8?i=3840x2160_14068
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-09-29/28/29/2829eb8fb8255f87880c22269840dbd4.jpg" , 100 000 ЗАХВАТЫВАЮЩИХ ПЕЙЗАЖЕЙ
-https://river-4-418.rtbcdn.ru/hls-vod/u3Uo_PAs5Rr7_eNw58-CUQ/1794743647/1897/0x5000c500e4a15fac/15684d4035e5453dac85c2650f8e6dbd.mp4.m3u8?i=3840x2160_32513
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/71/55/7155f0d06e9a06e5fa2201512ef5a21b.jpg" , World of Animals 4K
-https://river-4-424.rtbcdn.ru/hls-vod/oRu49auea9I0TaelZcqyjg/1794743647/1780/0x5000c500c3527c11/cad2b76eaaa84797b8543b7cae4ac2f1.mp4.m3u8?i=3840x2160_26198
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/61/19/6119d30ed9bd99327dfabed39633b97e.jpg" , РАЙСКИЕ МЕСТА НА ЗЕМЛЕ 4K 60fps
-https://river-4-481.rtbcdn.ru/hls-vod/E7jDf8tC8yU3C7h1KjQYsA/1794743649/3270/0x5000c500744761a5/ce1ba50a90b24925a689493496d705d4.mp4.m3u8?i=3840x2160_12559
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/0b/90/0b904394c6e39bb08155fe4e5dfbc868.jpg" , Высококачественное видео
-https://river-4-454.rtbcdn.ru/hls-vod/etKT2_CW98zD0bH4mvSLVg/1794743649/3314/0x5000c500e9c56efe/6f56967b122f447096b17b390a342bb9.mp4.m3u8?i=3840x2160_22125
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/73/f5/73f5b3cfdc98158045f76038a018b75b.jpg" , PARADISE ON EARTH Best Travel
-https://river-4-425.rtbcdn.ru/hls-vod/Y9HPXnWg-wxjoPtDvzwaQg/1794743650/2508/0x5000039ce8686d6d/9a66fdbba8824627bbef6ad970ea7274.mp4.m3u8?i=2560x1440_17635
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/fe/10/fe10124b6dd01bbd556c4c9e0d096e8b.jpg" , FLYING OVER SEYCHELLES
-https://river-4-459.rtbcdn.ru/hls-vod/g6D1p5EDkFo7yo9Fwvogww/1794743650/2706/0x5000039ce8635efd/c648587aa98147a3a5f9d4f98d8592e0.mp4.m3u8?i=3840x2160_19507
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/04/bd/04bd807775ac8cef2b6b91c8563efc3a.jpg" , Невероятная Красота 4K
-https://river-6-604.rtbcdn.ru/hls-vod/5BSutL7lhPeUhm9fFtnl9A/1794743651/2676/0x5000039ce8401a35/556a1a55f7d541ac9aecbe8f1378f025.mp4.m3u8?i=3840x2160_17089
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/06/6b/066be4b119e215d35bdbd80894090b2b.jpg" , Птицы 4K
-https://river-4-437.rtbcdn.ru/hls-vod/uSoW0PdCRPbsHtdrf_H6hA/1794743651/1780/0x5000c500c8e66220/9b3049d858f744bb9212feff045bc341.mp4.m3u8?i=3840x2160_24383
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/08/d0/08d0485c5371f760f1f46986054dde80.jpg" , Breathtaking landscape 4K
-https://river-4-484.rtbcdn.ru/hls-vod/mnZpC1olsMLO0NGE-nAL2A/1794743652/3350/0x5000c500e9ee0171/abada6c634ff488db2e1b0dd9a2b9b3e.mp4.m3u8?i=3840x2160_24551
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/10/17/1017237de47e769c39708710bb89d188.jpg" , Mind Blowing 4K
-https://river-4-472.rtbcdn.ru/hls-vod/k4VVvUOCti_itxa0xD2Sig/1794743652/1774/0x5000c500dc5d11c3/f677cdd74de344c7ad26a748f42e912f.mp4.m3u8?i=3840x2160_22813
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-09-29/1e/99/1e99ee863752854d4a29ee44a1dc2a16.jpg" , Швейцария Железная дорога Кур–Ароза
-https://river-4-425.rtbcdn.ru/hls-vod/Vx44ChDA-HDjHF4AD-QMeQ/1794743652/2470/0x5000c500e8840cd6/e236a89398014141b0076380d02f05a4.mp4.m3u8?i=2560x1440_46799
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/66/ab/66ab4b28270aef4dcc7fec431ab8bb38.jpg" , Каттегат в 4К С Музыкой Викингов
-https://river-4-456.rtbcdn.ru/hls-vod/X3VciApuXXBqrONIu0T1RA/1794743653/3298/0x5000c500e9ce2371/2b992c6cdb9d4df1ab6935813e352b05.mp4.m3u8?i=3840x2160_16049
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/d0/db/d0db857627ef06a159f2f42d90476a73.jpg" , Коста Рика 4K 60fps
-https://river-4-434.rtbcdn.ru/hls-vod/9cdeOLk5JHsDNNF3EPvRXA/1794743653/3372/0x5000c500fa775ff7/ba01d890ec944bdcb082cffe9bbdf1b2.mp4.m3u8?i=3840x2160_27042
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/31/21/312151af4084655231da8e85a78d379a.jpg" , Пакистан в 4К
-https://river-4-434.rtbcdn.ru/hls-vod/smZ22FelSWgvDHO1p8OhWA/1794743653/1891/0x5000c500e539c97b/d2deee2b1e68476daa2645ef36da01db.mp4.m3u8?i=3840x2160_16056
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/7d/e0/7de0c641a0e47a2fc645444ba8c1b114.jpg" , Аляска 4K 60fps
-https://river-4-472.rtbcdn.ru/hls-vod/3btwo7KOLJWYs67io7gJ4Q/1794743654/1889/0x5000c500e538249f/4b2f01657cbb48109f10291e30b69f10.mp4.m3u8?i=3840x2160_26582
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/0f/c5/0fc5980685a33c9259252135090c2a7a.jpg" , Антарктика В 4К
-https://river-4-427.rtbcdn.ru/hls-vod/aN01MnvtredfnurM8C7xiw/1794743654/1770/0x5000c500c8b71440/43d466c1d81b44f895cad3ca5ea028e9.mp4.m3u8?i=3840x2160_10515
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/32/0b/320b1080d4ee71d56a021c5d39dc4fd0.jpg" , Греция 4K
-https://river-4-434.rtbcdn.ru/hls-vod/BZI-kJfqMobxL2h6iVjveQ/1794743655/1776/0x5000c500c750a96f/47ee63aaebd54d10aa7f9b7c0dadfe83.mp4.m3u8?i=3840x2160_10503
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/19/d5/19d547d9f665a02f80f31cacb2238e7c.jpg" , Италия 4K
-https://river-4-473.rtbcdn.ru/hls-vod/TQtPP4gKLBQ_4esSeo7fnw/1794743655/2564/0x5000039ce8638861/c8aafbc7b0b34bebb6650b10f718c8db.mp4.m3u8?i=3840x2160_35524
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/a3/3a/a33a36b9be68bc6b4ad150808171b434.jpg" , Украина 4K
-https://river-4-403.rtbcdn.ru/hls-vod/-Phiik2Lr_xo-HEn4BNKhw/1794743656/1889/0x5000c500e4dc0b83/08414c457fec4d4a9cb5a38cacd30aee.mp4.m3u8?i=3840x2160_19592
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-06/9d/4d/9d4db32c1fccd887099050905e6ca7a2.jpg" , Ирландия 4K
-https://river-4-453.rtbcdn.ru/hls-vod/qp_gCk0MisqEoFGYugjjzw/1794743656/3306/0x5000c50074476884/d0a3235fff734ba2952b3bcdff9941be.mp4.m3u8?i=3840x2160_17488
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/89/8c/898c76f0adc25c6f485396fbc5fa22fa.jpg" , Казахстан 4K
-https://river-4-456.rtbcdn.ru/hls-vod/mCAJEGG6EJAy71Pjh8V7Tg/1794743657/3310/0x5000c500e9be79f9/1286e9b3e6064e11a141cb8d5289ce62.mp4.m3u8?i=3840x2160_21172
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-01-15/6e/b5/6eb5c51090f81936e9b71f491e77cf2a.jpg" , Камчатка 4K
-https://river-4-438.rtbcdn.ru/hls-vod/B7wkXUtdz01sZsworG_rXQ/1794743657/2464/0x5000c500e883f3df/afaaf25369594e2984734f9089fccfb3.mp4.m3u8?i=3840x2160_16810
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2d/8a/2d8a8c907dbb73073599001bc8c9b4d8.jpg" , Венгрия 4K
-https://river-4-427.rtbcdn.ru/hls-vod/ulxzGQm86BzcJKgnSylxpQ/1794743657/2610/0x5000039ce86a07dd/6a4ea26149e747f4a80ddf49368ebbdd.mp4.m3u8?i=3840x2160_25368
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-29/ae/c0/aec0da30c96e0bd6eb5ec073e7a2f036.jpg" , Чехия 4K
-https://river-4-452.rtbcdn.ru/hls-vod/0mwFK5KqX-tNZmryGabjMg/1794743658/2652/0x5000039ce869848d/3588f69c0914469bbb3caeb52dea8be9.mp4.m3u8?i=3840x2160_20107
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-29/1e/8c/1e8cc4315000c9ae63907a6d01350f77.jpg" , Румыния 4K
-https://river-4-436.rtbcdn.ru/hls-vod/mSP9mb7Gz5i2vaUXDtllBA/1794743658/2708/0x5000039ce83804ad/a8ccfe5450874c30a42ecfc0c4268e81.mp4.m3u8?i=3840x2160_18063
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-01-12/fe/a6/fea6b41f1c8ad248d14982a661552d77.jpg" , Грузия 4K
-https://river-4-446.rtbcdn.ru/hls-vod/ThnQElqk4GY0v7cgoC_V8g/1794743659/2508/0x5000039ce8635539/a30d636080c5491aa3422713c2bf4340.mp4.m3u8?i=3840x2160_17848
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-29/90/e1/90e191cb901b8961de586066649cd350.jpg" , Фарерские острова 4K
-https://river-4-473.rtbcdn.ru/hls-vod/CNCBTYEHapel6Zu-tgij7g/1794743662/2652/0x5000039ce869a575/b34267622ec64886ab7e78784ea04111.mp4.m3u8?i=3840x2160_17447
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-28/fb/74/fb744c28b33c79356992f1786aaf2ea7.jpg" , Сардиния 4K
-https://river-4-483.rtbcdn.ru/hls-vod/1CBLygua3LL8HdPtZK4Jlw/1794743660/2213/0x5000c5007446881b/5324006e624c4589bc28514b1a15dcbb.mp4.m3u8?i=3840x2160_18188
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-28/a4/57/a457ea5ab440ca9e7ce055a775fee5f5.jpg" , Арабские Эмираты 4K
-https://river-4-481.rtbcdn.ru/hls-vod/Pep9Fb-OBe8Vd5r3PljRYA/1794743667/2644/0x5000039ce838cfa5/35bbc97c1fe748ad802c0535daf1ed39.mp4.m3u8?i=3840x2160_12948
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-26/59/2b/592b894cccb625aabb60742d9a9b3113.jpg" , Фиджи 4K
-https://river-4-451.rtbcdn.ru/hls-vod/tyj8K5fMoxWeb6jYQqdLjQ/1794743664/2652/0x5000039ce869a495/943af4170c804868a4d741eb4a3ffd01.mp4.m3u8?i=3840x2160_18902
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-24/1a/fa/1afaefabdaa0b6180082adac8e6e2efb.jpg" , Австралия 4K
-https://river-4-473.rtbcdn.ru/hls-vod/1kpLi-1gjsRF4oKZ32LH0Q/1794743665/2604/0x5000039ce868e555/fd00b5fa081f43589134c7b1a96faa03.mp4.m3u8?i=3840x2160_16689
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-26/a7/a6/a7a6d6f4175f21e601515ee4a6cfcabf.jpg" , Чили: Остров Пасхи 4K
-https://river-4-428.rtbcdn.ru/hls-vod/K1PBJ0eT-xHYk2oxwwqxqQ/1794743666/3334/0x5000c500e9dac121/64184e96d67f44c9b81953b97cdd1411.mp4.m3u8?i=3840x2160_21114
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/f2/0b/f20b8f54d768f10587229cd15d6bebc4.jpg" , Мексика 4K
-https://river-4-477.rtbcdn.ru/hls-vod/ot0o9YuYINmLLpPlqhhyTA/1794743668/2219/0x5000c5007446b335/db1a2f0db22346818f392e3da16ab8dd.mp4.m3u8?i=3840x2160_16741
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-24/ea/71/ea714d2edce2ec512ec1f9625241b333.jpg" , Египет 4K
-https://river-6-604.rtbcdn.ru/hls-vod/tC0bdz66cM4c6s1IGlMOMg/1794743668/2626/0x5000039ce868ebe9/e0fb7a3a4e194e77b0d5c66ae1cfc363.mp4.m3u8?i=3840x2160_15659
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-24/af/3d/af3d36495c374850f3c4ec5794985847.jpg" , Греция 4K
-https://river-4-434.rtbcdn.ru/hls-vod/WIOPlZ_OFhn1AwF_KI6NWg/1794743669/2604/0x5000039ce863fb05/de0b9c989c4647a9ae665eb02c797dd8.mp4.m3u8?i=3840x2160_15900
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-02-04/08/3f/083fbbc3700afb477d888c2c542f67b1.jpg" , Гватемала 4K
-https://river-6-604.rtbcdn.ru/hls-vod/DBnV8_gqRdI-cGPlgXxmoA/1794743669/3578/0x5000c500e9d35e2c/b1ef0dec64764a28b2eda1a9891ae6cd.mp4.m3u8?i=3840x2160_15565
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-25/58/f5/58f5e23c31bd842373baf0acef107819.jpg" , Молдова 4K
-https://river-4-475.rtbcdn.ru/hls-vod/k2R_U75id2AWx0AHKxR5yQ/1794743669/3308/0x5000c500e9d37d9c/1de0eaa62f294d15a84e057c4d3ab77d.mp4.m3u8?i=3840x2160_15962
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/3c/e3/3ce3c4358d71c935124cac5d2e11e79a.jpg" , Природа Аргентины 4K
-https://river-4-442.rtbcdn.ru/hls-vod/Mvp44HcaiVgJIWF9L2lwbw/1794743669/1780/0x5000c500db164266/c52a030a1c2044ffa66f78445eefa6ce.mp4.m3u8?i=3840x2160_21330
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-26/4e/15/4e15955f338e9fcfd1167c9feed9c052.jpg" , Гималаи 4K
-https://river-4-424.rtbcdn.ru/hls-vod/kmlu2WHRRZae_WNuyibfNQ/1794743670/3302/0x5000c500e9ebb99a/9d841ed1950a49368c4420b771e2cdb3.mp4.m3u8?i=3840x2160_16227
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2026-01-16/87/de/87dec66bcd8f25305859854a2ea48ebe.jpg" , Москва 4K
-https://river-4-418.rtbcdn.ru/hls-vod/L3FatzNa7AarkGfJ0LpOMA/1794743670/1895/0x5000c500e539508b/cf49bab452b0423e94330844a86f95d6.mp4.m3u8?i=3840x2024_25835
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-03-09/86/9f/869f4ee057924413cf40143f4aefd766.jpg" , Ливия 4K
-https://river-6-604.rtbcdn.ru/hls-vod/EjgmDRyUVn9ODVTSb0tshg/1794743671/3498/0x5000c500e9cf14d9/4f0aedf12adf48afad30bcc0ae1fbccc.mp4.m3u8?i=3840x2160_10620
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-02-09/c3/4e/c34e7e095b3c96b405148a6686b86edb.jpg" , Киргизстан 4K
-https://river-4-435.rtbcdn.ru/hls-vod/gVWCFAIuPXOMUr_2lltFbw/1794743671/3306/0x5000c5007447610a/17236c39c63241ada18adb7a57bb6622.mp4.m3u8?i=3840x2160_17619
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-01-02/a0/35/a0357779a326f76f03311d5064a752bf.jpg" , Узбекистан 4K
-https://river-6-604.rtbcdn.ru/hls-vod/H_QWsVj5QJGhT8z-xQrBsg/1794743671/3510/0x5000c500fa915f5c/22c69726f20b43069bf4793004fa3c27.mp4.m3u8?i=3840x2160_21010
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2025-02-26/eb/db/ebdb900076c03be283ae82873d52c589.jpg" , Эквадор 4K
-https://river-4-475.rtbcdn.ru/hls-vod/acUE-n4-4XPw5kz0ucW-qQ/1794743671/3546/0x5000c500faed2739/c13a85d615f641e39510e04883a12555.mp4.m3u8?i=3840x2160_14857
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/87/0e/870e1a12792d3f8cf8aa189898c0e482.jpg" , Турция в 4K
-https://river-4-455.rtbcdn.ru/hls-vod/_-93Ft5Tex0UAPBYcU1Atg/1794743672/1848/0x5000cca2842313e4/1295d7750d224feba3eede8e73f16f7a.mp4.m3u8?i=3840x2160_25103
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/74/6d/746d5d1ba9c1c3a1259d166b73dec7a9.jpg" , Вьетнам в 4K
-https://river-4-437.rtbcdn.ru/hls-vod/EneFJS_L_oK-SV5bLY5jKw/1794743672/2654/0x5000039ce82b7c05/dcb94c9494274ecb81255e3756514e78.mp4.m3u8?i=3840x2160_36518
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-26/15/53/15532340cc15ab3f3bf363f040896708.jpg" , Индия в 4K
-https://river-4-438.rtbcdn.ru/hls-vod/pbxF6IuNGOIJK2DV3M2oFw/1794743672/2474/0x5000c500e883f57f/1967303e52a0455c9cc392e2ae1b0f0e.mp4.m3u8?i=3840x2160_17069
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/b3/3d/b33db6df61ad9fc77e54f98f03d8fc9d.jpg" , Манила в 4K
-https://river-4-418.rtbcdn.ru/hls-vod/SiP0SXoRy1Jox1jzSdDwrg/1794743672/1776/0x5000c500d6d906ed/c541fdacbbda415fb50a782ad5d1fcf9.mp4.m3u8?i=3840x2160_20784
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/a7/13/a7139249b7fe0bf2b2ddffbbaba6a913.jpg" , Болгария 4K
-https://river-4-479.rtbcdn.ru/hls-vod/zuaUg7TUESzH9tiu79eobQ/1794743672/1895/0x5000c500e53979ec/b527c6a1a6084c1ba9202bb8b607f90d.mp4.m3u8?i=3840x2160_25379
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/5a/89/5a894e03615d859ca15497ca636e79e2.jpg" , Перу 4K 60fps
-https://river-4-441.rtbcdn.ru/hls-vod/2ZSNwBl-VeWG2OK9Y1Ha-Q/1794743673/1893/0x5000c500e539c5d1/30b0c3590b9e4880a6a00ac6fea26165.mp4.m3u8?i=3840x2160_26231
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/ec/6e/ec6eb7f0891bcf8f4ad9699fcfbdb205.jpg" , Кения В 4К
-https://river-4-411.rtbcdn.ru/hls-vod/_0q4d64XbM_d0vMv86o4Fw/1794743673/2658/0x5000039ce8401b5d/378db7d4f4ad4aafbb4535e9125ce221.mp4.m3u8?i=3840x2160_15323
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/bf/63/bf63ccc22cd2bacdefb8b27571dff50b.jpg" , Бора-Бора в 4К
-https://river-4-455.rtbcdn.ru/hls-vod/3PAozIjiM-B6VqaElKi8lA/1794743673/1887/0x5000c500e53a12cf/2421863b9a0e4c9ea67de9fe0855f530.mp4.m3u8?i=3840x2160_17254
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/29/31/29318086e00da1c865da25131f866d4f.jpg" , Карибы в 4К
-https://river-4-418.rtbcdn.ru/hls-vod/dlia3pUnoJyPHRdQZ39qkw/1794743673/1772/0x5000c500d6d78c87/c002696df2d3474e95bf422d74a10427.mp4.m3u8?i=3840x2160_11480
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/51/f3/51f330a0fe798c746cda323431220662.jpg" , Намибия в 4К
-https://river-4-472.rtbcdn.ru/hls-vod/8oPQQ3MOw245wRmWC1WvTQ/1794743674/2462/0x5000c500e88261c4/881a26935b1f4adb927b518c0b77d489.mp4.m3u8?i=3840x2160_11828
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/b7/fc/b7fc29123ab95b0ad408e42280ad1b71.jpg" , Китай В 4К
-https://river-4-418.rtbcdn.ru/hls-vod/ivfsh-OAKN5SgLgTQh8MGg/1794743674/1899/0x5000c500e51127eb/c978b1e2beaa4b8f92c50918c7ecc933.mp4.m3u8?i=3840x2160_12530
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/72/6a/726a9243184bbfe47c42763b374a1f25.jpg" , Мальдивы в 4К
-https://river-4-425.rtbcdn.ru/hls-vod/4yUvg2h6Xc18JJlvWef58g/1794743674/1848/0x5000cca28420b4e4/344cdc5a75cd406a9c81daa62c025492.mp4.m3u8?i=3840x2160_23873
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/5e/5a/5e5a9cb6a10424f8ede9adc9848680c8.jpg" , Дубай в 4K
-https://river-4-451.rtbcdn.ru/hls-vod/7INfhOqqkOtK32kpKBZArw/1794743675/2462/0x5000c500e8828a7e/63d24580fb304a30a0daa941446ffe7d.mp4.m3u8?i=3840x2160_23768
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/14/98/14988617a7aed21381889ab5ceb7b1d9.jpg" , Германия в 4K
-https://river-4-438.rtbcdn.ru/hls-vod/UNc9I2qyIOOd0fRqjxM_Ag/1794743675/1776/0x5000c500c92079c7/b46cf235dbb14ddcbabe81d4f63a9fd4.mp4.m3u8?i=3840x2160_9532
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/1d/b4/1db4116552339ca6a936c366f7582b38.jpg" , Россия В 4К
-https://river-4-442.rtbcdn.ru/hls-vod/OcgFx4JHd4xfPZasz1ssIw/1794743675/1776/0x5000c500c3920f7f/9195d28dad90489aac2cb7c6dd6725aa.mp4.m3u8?i=3840x2160_15878
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/7b/88/7b881e1b446bd5519251f5a89b197144.jpg" , Подводный Мир В 4К
-https://river-6-602.rtbcdn.ru/hls-vod/bG1f9wcIumYAPzT684wNBw/1794743676/1877/0x5000c500e53bc570/8a19e5ed6a9840349280d2cba180870a.mp4.m3u8?i=3840x2160_16302
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/c7/4c/c74ce2aa0d060a142070e9724fde3bef.jpg" , Детеныши Животных В 4К
-https://river-4-480.rtbcdn.ru/hls-vod/yx99tvC_XwuNG5SD-6vX1Q/1794743675/1897/0x5000c500e4a02f9a/5481e2c1a8e5473c804cfbc908dd7899.mp4.m3u8?i=3840x2160_15516
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/10/9e/109e637b8250d8471f1c1b6fd7d8e290.jpg" , Животные Австралии В 4К
-https://river-4-452.rtbcdn.ru/hls-vod/g8IKzOEFuwNL-Uh5Pjrjog/1794743675/2211/0x5000c500e661f8f6/bec395a0100c42a1b52bec53605116a4.mp4.m3u8?i=3840x2160_16020
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/91/3e/913e20d0e2711442e9b835ade3a86737.jpg" , Повседневные Вещи В Макро Съемке
-https://river-4-441.rtbcdn.ru/hls-vod/lXg76nIBnzmUHwsCf16yfg/1794743676/1790/0x5000c500d6c05d87/7ea3d827b7234257abffc94e1cce193e.mp4.m3u8?i=3840x2160_11802
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/ce/01/ce01d4f2b1984d8dc9468e192f5816e9.jpg" , Океан В 4К Релакс
-https://river-3-345.rtbcdn.ru/hls-vod/vXiQQmfCY4ZHoe17V69E1g/1794743676/1899/0x5000c500e53c9041/954d4f0b6c9640eea3b9d0daff375899.mp4.m3u8?i=3840x2160_12765
-#EXTINF:-1  group-title="Релакс"  tvg-logo="https://pic.rtbcdn.ru/video/8a/8f/8a8fb71bed7423746a80654fc5ba541e.jpg" , Лес В 4К
-https://river-4-453.rtbcdn.ru/hls-vod/Bwc5vmQQt8y6FZvhO8Ktjw/1794743676/2656/0x5000039ce83bb529/3a14e22cc0b24da0b4c9994cfbbfff0a.mp4.m3u8?i=3840x2160_15561
 #EXTINF:-1  group-title="Региональные"  tvg-id="reportior-73"  tvg-logo="https://app.playlistbox.com/icon/l5gOW7dpJq9LRZAX9lMEkNQX2Bn6V1bA.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Репортер 73", Репортер 73
 http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_REP73/variant.m3u8
 #EXTINF:-1  group-title="Региональные"  tvg-id="rifey-tv"  tvg-logo="http://fe-ural.svc.iptv.rt.ru/images/broadcastChannel1531138277952.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Рифей-ТВ", Рифей-ТВ
@@ -6167,6 +5705,420 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_U_2/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
 #EXTINF:-1  group-title="Региoнальные плюс"  tvg-id="yu-pl7"  tvg-logo="https://app.playlistbox.com/icon/mGYXlVJ1Da0RjxXJaLZzy8dek2wvP5gW.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Ю (+7)", Ю (+7)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus1" ,Беларусь 1 
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS1.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus1" ,Беларусь 1 HD 
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS1HD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus2" ,Беларусь 2 
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS2.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus2" ,Беларусь 2 HD
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS2HD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus3" ,Беларусь 3 
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS3.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus3" ,Беларусь 3 HD
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS3HD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus5" ,Беларусь 5 
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS5.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus5" ,Беларусь 5 HD 
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS5HD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="belarus24" ,Беларусь 24 
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS24.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Беларусь 24 HD
+http://dmitry-tv.ddns.net/hls/blrus/CH_BELARUS24HD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="pervy-info-by" ,Первый информационный
+http://dmitry-tv.ddns.net/hls/blrus/CH_1INFORMATSYONNY.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Первый информационный HD 
+http://dmitry-tv.ddns.net/hls/blrus/CH_1INFORMATSYONNYHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="stv-by" ,СТВ HD
+http://dmitry-tv.ddns.net/hls/blrus/CH_CTBHD720.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="pervy" ,Первый канал HD
+http://dmitry-tv.ddns.net/hls/T2/CH_1TVHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="pervy-pl9" ,Первый канал (+9)
+http://dmitry-tv.ddns.net/hls/DVB-T2/CH_1TV_9.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="pervy-kanal-eurasia-kz" ,Первый канал (Евразия)
+http://dmitry-tv.ddns.net/hls/T2/CH_1TV_EVRAZIA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="pervy-kanal-csi" ,Первый канал (СНГ)
+http://dmitry-tv.ddns.net/hls/T2/CH_1TV_SNG.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="rossia1" ,Россия 1 HD
+http://dmitry-tv.ddns.net/hls/smotrim/T2/CH_RUSSIA1HD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ntv" ,НТВ HD
+http://dmitry-tv.ddns.net/hls/T2/CH_NTVHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,НТВ МИР
+http://dmitry-tv.ddns.net/hls/T2/CH_NTV_MIR.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="kultura" ,Россия К
+http://dmitry-tv.ddns.net/hls/DVB-T2/CH_RUSSIAK.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Россия К HD
+http://dmitry-tv.ddns.net/hls/smotrim/T2/CH_RUSSIAKHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,PLANETA RTR (EURO)
+http://dmitry-tv.ddns.net/hls/smotrim/T2/CH_PLANETARTR_EURO.m3u8
+#EXTINF:-1  group-title="Беларусь" ,PLANETA RTR HD720 (EURO)
+http://dmitry-tv.ddns.net/hls/smotrim/T2/CH_PLANETARTRHD720_EURO.m3u8
+#EXTINF:-1  group-title="Беларусь" ,PLANETA RTR (USA)
+http://dmitry-tv.ddns.net/hls/smotrim/T2/CH_PLANETARTR_USA.m3u8
+#EXTINF:-1  group-title="Беларусь" ,PLANETA RTR HD720 (USA)
+http://dmitry-tv.ddns.net/hls/smotrim/T2/CH_PLANETARTRHD720_USA.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Россия РТР (ASIA)
+http://dmitry-tv.ddns.net/hls/smotrim/T2/CH_PLANETARTR_ASIA.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Россия РТР HD720 (ASIA)
+http://dmitry-tv.ddns.net/hls/smotrim/T2/CH_PLANETARTRHD720_ASIA.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Россия РТР (СНГ)
+http://dmitry-tv.ddns.net/hls/smotrim/T2/CH_PLANETARTR_SNG.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Россия РТР HD720 (СНГ)
+http://dmitry-tv.ddns.net/hls/smotrim/T2/CH_PLANETARTRHD720_SNG.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="rossia-24" ,Россия 24 HD
+http://dmitry-tv.ddns.net/hls/smotrim/T2/CH_RUSSIA24HD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Россия 24 International
+http://dmitry-tv.ddns.net/hls/smotrim/T2/CH_RUSSIA24_INT.m3u8
+#EXTINF:-1  group-title="Беларусь" ,ТВЦ International
+http://dmitry-tv.ddns.net/hls/T2/CH_TVC_INTERNATIONAL.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="rentv-int" ,РЕН ТВ International
+http://dmitry-tv.ddns.net/hls/T2/CH_RENTV_INTERNATIONAL.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="spas" ,СПАС
+http://dmitry-tv.ddns.net/hls/DVB-T2/CH_SPAS.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="sts" ,СТС
+http://dmitry-tv.ddns.net/hls/DVB-T2/CH_STS.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="zvezda" ,Звезда HD
+http://dmitry-tv.ddns.net/hls/T2/CH_ZVEZDAHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="mir" ,МИР HD
+http://dmitry-tv.ddns.net/hls/T2/CH_MIRHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,МИР (Казахстан)
+http://dmitry-tv.ddns.net/hls/T2/CH_MIR_KZN.m3u8
+#EXTINF:-1  group-title="Беларусь" ,ТНТ HD (Казахстан)
+http://dmitry-tv.ddns.net/hls/T2/CH_TNTHD_KZN.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="muztv" ,МУЗ ТВ
+http://dmitry-tv.ddns.net/hls/DVB-T2/CH_MUZTV.m3u8
+#EXTINF:-1  group-title="Беларусь" ,МУЗ ТВ HD [uz]
+http://dmitry-tv.ddns.net/hls/T2/CH_MUZTVHD_UZ.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="che" ,Че!
+http://dmitry-tv.ddns.net/hls/zabava/CH_CHE.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="start-triumf" ,СТАРТ ТРИУМФ
+http://dmitry-tv.ddns.net/hls/CH_START_TRIUMF.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СТАРТ ТРИУМФ HD720
+http://dmitry-tv.ddns.net/hls/CH_START_TRIUMFHD720.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="viasat-sport" ,VIASAT SPORT HD
+http://dmitry-tv.ddns.net/hls/CH_VIASAT_SPORTHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="trace-sport-stars" ,TRACE SPORT STARS
+http://dmitry-tv.ddns.net/hls/CH_TRACE_SPORT_STARS.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="setanta-sports" ,SETANTA SPORTS 1 HD
+http://dmitry-tv.ddns.net/hls/CH_SETANTA_SPORTS1HD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="setanta-sports-plus" ,SETANTA SPORTS 2 HD
+http://dmitry-tv.ddns.net/hls/CH_SETANTA_SPORTS2HD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="tochka-otryva" ,Точка отрыва
+http://dmitry-tv.ddns.net/hls/CH_TOCHKA_OTRYVA.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Sport+ HD
+http://dmitry-tv.ddns.net/hls/CH_SPORT_PLUSHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="avto24" ,АВТО 24
+http://dmitry-tv.ddns.net/hls/CH_AVTO24.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="fuel-tv-hd" ,FUEL TV HD
+http://dmitry-tv.ddns.net/hls/CH_FUELTVHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="drive" ,ДРАЙВ
+http://dmitry-tv.ddns.net/hls/CH_DRIVE.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="eurosport1" ,EUROSPORT 1
+http://dmitry-tv.ddns.net/hls/CH_EUROSPORT1.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ntv-pravo" ,НТВ ПРАВО
+http://dmitry-tv.ddns.net/hls/CH_NTVPRAVO.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ntv-serial" ,НТВ СЕРИАЛ
+http://dmitry-tv.ddns.net/hls/CH_NTVSERIAL.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ntv-style" ,НТВ СТИЛЬ
+http://dmitry-tv.ddns.net/hls/CH_NTVSTIL.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ntv-xit" ,НТВ ХИТ
+http://dmitry-tv.ddns.net/hls/CH_NTVHIT.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СМОТРИМ Кино и сериалы
+http://dmitry-tv.ddns.net/hls/smotrim/CH_KINO_I_SERIALY.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СМОТРИМ Кино и сериалы HD
+http://dmitry-tv.ddns.net/hls/smotrim/CH_KINO_I_SERIALYHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="smotrim-100-lubov" ,СМОТРИМ 100% ЛЮБОВЬ
+http://dmitry-tv.ddns.net/hls/smotrim/CH_LYUBOV.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СМОТРИМ 100% ЛЮБОВЬ HD
+http://dmitry-tv.ddns.net/hls/smotrim/CH_LYUBOVHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="smotrim-100-muzhskoe" ,СМОТРИМ 100% МУЖСКОЕ
+http://dmitry-tv.ddns.net/hls/smotrim/CH_MUZHSKOE.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СМОТРИМ 100% МУЖСКОЕ HD
+http://dmitry-tv.ddns.net/hls/smotrim/CH_MUZHSKOEHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="smotrim-100-klassika" ,СМОТРИМ 100% КЛАССИКА
+http://dmitry-tv.ddns.net/hls/smotrim/CH_CLASSICA.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СМОТРИМ 100% КЛАССИКА HD
+http://dmitry-tv.ddns.net/hls/smotrim/CH_CLASSICAHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="kino-tv" ,КИНО ТВ
+http://dmitry-tv.ddns.net/hls/CH_KINOTV.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="nst" ,НСТ
+http://dmitry-tv.ddns.net/hls/CH_NST.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="russky-roman" ,Русский роман
+http://dmitry-tv.ddns.net/hls/CH_RUSSKIY_ROMAN.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="tv1000" ,TV1000 HD
+http://dmitry-tv.ddns.net/hls/CH_TV1000HD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="tv1000-action" ,TV1000 ACTION HD
+http://dmitry-tv.ddns.net/hls/CH_TV1000ACTIONHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="tv1000-russkoe-kino" ,TV1000 РУССКОЕ КИНО HD
+http://dmitry-tv.ddns.net/hls/CH_TV1000RUSSKOEKINOHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="domkino" ,ДОМ КИНО
+http://dmitry-tv.ddns.net/hls/CH_DOMKINO.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="domkino-premium" ,ДОМ КИНО ПРЕМИУМ
+http://dmitry-tv.ddns.net/hls/CH_DOMKINOPREMIUM.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="illuzion-plus" ,Иллюзион+
+http://dmitry-tv.ddns.net/hls/CH_ILLUZION_PLUS.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="amedia-premium" ,AMEDIA PREMIUM HD
+http://dmitry-tv.ddns.net/hls/CH_AMEDIA_PREMIUMHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="kinopokaz" ,КИНОПОКАЗ
+http://dmitry-tv.ddns.net/hls/CH_KINOPOKAZ.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="dorama" ,ДОРАМА
+http://dmitry-tv.ddns.net/hls/CH_DORAMA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="hollywood" ,HOLLYWOOD
+http://dmitry-tv.ddns.net/hls/CH_HOLLYWOOD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="bollywood-hd" ,BOLLYWOOD
+http://dmitry-tv.ddns.net/hls/CH_BOLLYWOOD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,МОСФИЛЬМ ЗОЛОТАЯ КОЛЛЕКЦИЯ
+http://dmitry-tv.ddns.net/hls/CH_MOSFILM.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="pobeda" ,Победа
+http://dmitry-tv.ddns.net/hls/CH_POBEDA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="russky-illuzion" ,Русский иллюзион
+http://dmitry-tv.ddns.net/hls/CH_RUSSKIY_ILLUZION.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="retro-tv" ,РЕТРО
+http://dmitry-tv.ddns.net/hls/CH_RETRO.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="cinema-ru" ,CINEMA
+http://dmitry-tv.ddns.net/hls/CH_CINEMA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="2na2" ,2x2
+http://dmitry-tv.ddns.net/hls/zabava/CH_2X2.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="8kanal-ru" ,8 канал
+http://dmitry-tv.ddns.net/hls/CH_8CHANNEL.m3u8
+#EXTINF:-1  group-title="Беларусь" ,8 канал HD
+http://dmitry-tv.ddns.net/hls/CH_8CHANNELHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="prosveschenie" ,Просвещение
+http://dmitry-tv.ddns.net/hls/CH_PROSVESHENIE.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Надежда HD720
+http://dmitry-tv.ddns.net/hls/CH_NADEZHDAHD720.m3u8
+#EXTINF:-1  group-title="Беларусь" ,7tv
+http://dmitry-tv.ddns.net/hls/CH_7TV.m3u8
+#EXTINF:-1  group-title="Беларусь" ,LIFE TV [RUS]
+http://dmitry-tv.ddns.net/hls/CH_LIFETV_RUS.m3u8
+#EXTINF:-1  group-title="Беларусь" ,LIFE TV [RUS/EST]
+http://dmitry-tv.ddns.net/hls/CH_LIFETV_RUSEST.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="tvoyo-tv-hd" ,Твое ТВ HD
+http://dmitry-tv.ddns.net/hls/CH_TVOETVHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,360°
+http://dmitry-tv.ddns.net/hls/CH_360TV.m3u8
+#EXTINF:-1  group-title="Беларусь" ,360° HD
+http://dmitry-tv.ddns.net/hls/CH_360TVHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="kaleydoskop-tv" ,Калейдоскоп ТВ
+http://dmitry-tv.ddns.net/hls/CH_KALEYDOSKOPTV.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="tvmchannel" ,TVM Channel
+http://dmitry-tv.ddns.net/hls/CH_TVMCHANNEL.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="smotrim-100-prazdnik" ,СМОТРИМ 100% ПРАЗДНИК
+http://dmitry-tv.ddns.net/hls/smotrim/CH_PRAZDNIK.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СМОТРИМ 100% ПРАЗДНИК HD
+http://dmitry-tv.ddns.net/hls/smotrim/CH_PRAZDNIKHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="zhivi-aktivno" ,Живи активно
+http://dmitry-tv.ddns.net/hls/CH_ZHIVI_AKTIVNO.m3u8
+#EXTINF:-1  group-title="Беларусь" ,ТОЧКА РФ HD
+http://dmitry-tv.ddns.net/hls/CH_TOCHKA_RFHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="perec-int" ,Перец International
+http://dmitry-tv.ddns.net/hls/CH_PERETZ_INTERNATIONAL.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="sarafan" ,Сарафан
+http://dmitry-tv.ddns.net/hls/CH_SARAFAN.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="radost-moya" ,Радость моя
+http://dmitry-tv.ddns.net/hls/CH_RADOSTMOYA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="smotrim-100-detskoe" ,СМОТРИМ 100% ДЕТСКОЕ
+http://dmitry-tv.ddns.net/hls/smotrim/CH_DETSKOE.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СМОТРИМ 100% ДЕТСКОЕ HD
+http://dmitry-tv.ddns.net/hls/smotrim/CH_DETSKOEHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="nickelodeon-ru" ,NICKELODEON HD
+http://dmitry-tv.ddns.net/hls/CH_NICKELODEONHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="nicktoons" ,NickToons
+http://dmitry-tv.ddns.net/hls/CH_NICKTOONS.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="nick-jr" ,Nick Jr
+http://dmitry-tv.ddns.net/hls/CH_NICKJR.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="mama" ,МАМА
+http://dmitry-tv.ddns.net/hls/CH_MAMA.m3u8
+#EXTINF:-1  group-title="Беларусь" ,В гостях у сказки HD
+http://dmitry-tv.ddns.net/hls/CH_VGOSTYAHUSKAZKIHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ginger-hd" ,КАПИТАН ФАНТАСТИКА
+http://dmitry-tv.ddns.net/hls/CH_KAPITAN_FANTASTIKA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ryzhy" ,Рыжий
+http://dmitry-tv.ddns.net/hls/CH_RYZHIY.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="tiji" ,Tiji
+http://dmitry-tv.ddns.net/hls/CH_TIJI.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="gulli-girl" ,Gulli GIRL
+http://dmitry-tv.ddns.net/hls/CH_GULLI_GIRL.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="mult" ,МУЛЬТ
+http://dmitry-tv.ddns.net/hls/CH_MULT.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="da-vinci" ,Da Vinci
+http://dmitry-tv.ddns.net/hls/CH_DAVINCI.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="o_" ,О!
+http://dmitry-tv.ddns.net/hls/CH_O.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="multimania" ,Мультиландия
+http://dmitry-tv.ddns.net/hls/CH_MULTILANDIA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="v-gostiax-u-skazki" ,В гостях у сказки
+http://dmitry-tv.ddns.net/hls/CH_VGOSTYAHUSKAZKI.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="detsky" ,Детский
+http://dmitry-tv.ddns.net/hls/CH_DETSKIY.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ducktv" ,Duck tv HD
+http://dmitry-tv.ddns.net/hls/CH_DUCKTVHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="prodvizhenie" ,ПРОДВИЖЕНИЕ
+http://dmitry-tv.ddns.net/hls/CH_PRODVIZHENIE.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СОЮЗ HD
+http://dmitry-tv.ddns.net/hls/CH_SOYUZHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="neizvestnaya-rosia" ,НЕИЗВЕСТНАЯ РОССИЯ
+http://dmitry-tv.ddns.net/hls/CH_UNKNOWN_RUSSIA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="neizvestnaya-rosia" ,НЕИЗВЕСТНАЯ РОССИЯ HD
+http://dmitry-tv.ddns.net/hls/CH_UNKNOWN_RUSSIAHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="nauka-20" ,Наука 2.0
+http://dmitry-tv.ddns.net/hls/CH_NAUKA20.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="moya-planeta" ,Моя планета
+http://dmitry-tv.ddns.net/hls/CH_MOYA_PLANETA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="smotrim-100-fakty" ,СМОТРИМ 100% ФАКТЫ
+http://dmitry-tv.ddns.net/hls/smotrim/CH_FAKTY.m3u8
+#EXTINF:-1  group-title="Беларусь" ,СМОТРИМ 100% ФАКТЫ HD
+http://dmitry-tv.ddns.net/hls/smotrim/CH_FAKTYHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="oxota-i-rybalka" ,Охота и рыбалка
+http://dmitry-tv.ddns.net/hls/CH_OHOTAIRYBALKA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="viasat-explore" ,VIASAT EXPLORE HD
+http://dmitry-tv.ddns.net/hls/CH_VIASAT_EXPLOREHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="viasat-history" ,VIASAT HISTORY HD
+http://dmitry-tv.ddns.net/hls/CH_VIASAT_HISTORYHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="viasat-nature" ,VIASAT NATURE HD
+http://dmitry-tv.ddns.net/hls/CH_VIASAT_NATUREHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="vremia" ,ВРЕМЯ
+http://dmitry-tv.ddns.net/hls/CH_VREMYA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="national-geographic" ,NATIONAL GEOGRAPHIC
+http://stream1.cinerama.uz/1041/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="Беларусь" ,NATIONAL GEOGRAPHIC WILD
+http://dmitry-tv.ddns.net/hls/CH_NATIONALGEOGRAPHICWILD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="zagorodny" ,Загородный
+http://dmitry-tv.ddns.net/hls/CH_ZAGORODNY.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="istoria" ,ИСТОРИЯ
+http://dmitry-tv.ddns.net/hls/CH_ISTORIA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="zhivaya-planeta" ,Живая планета
+http://dmitry-tv.ddns.net/hls/CH_ZHIVAYA_PLANETA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="zhivaya-priroda" ,Живая природа
+http://dmitry-tv.ddns.net/hls/CH_ZHIVAYA_PRIRODA.m3u8
+#EXTINF:-1  group-title="Беларусь" ,В мире животных HD720
+http://dmitry-tv.ddns.net/hls/CH_VMIREZHIVOTNYH_HD720.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="oxotnik-i-rybolov" ,Охотник и рыболов
+http://dmitry-tv.ddns.net/hls/CH_OHOTNIKIRYBOLOV.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="arsenaltv" ,Арсенал
+http://dmitry-tv.ddns.net/hls/CH_ARSENAL.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="eureka-hd" ,Первый космический
+http://dmitry-tv.ddns.net/hls/CH_1KOSMICHESKIY.m3u8
+#EXTINF:-1  group-title="Беларусь" ,ИНСАЙТ ТВ HD
+http://dmitry-tv.ddns.net/hls/CH_INSAYT_TVHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,ПРИКЛЮЧЕНИЯ
+http://dmitry-tv.ddns.net/hls/CH_PRIKLYUCHENIYA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="glazami-turista" ,Глазами туриста
+http://dmitry-tv.ddns.net/hls/CH_GLAZAMI_TURISTA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="nasha-sibir" ,НАША СИБИРЬ HD
+http://dmitry-tv.ddns.net/hls/CH_NASHA_SIBIRHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="texno-24" ,Т24
+http://dmitry-tv.ddns.net/hls/CH_T24.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="doktor" ,Доктор
+http://dmitry-tv.ddns.net/hls/CH_DOKTOR.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Zoo ПАРК
+http://dmitry-tv.ddns.net/hls/CH_3OOPARK.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="telekafe" ,ТЕЛЕКАФЕ
+http://dmitry-tv.ddns.net/hls/CH_TELEKAFE.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="poexali" ,Поехали!
+http://dmitry-tv.ddns.net/hls/CH_POEHALI.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="oruzhie" ,Оружие
+http://dmitry-tv.ddns.net/hls/CH_ORUZHIE.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="bobior" ,БОБЁР
+http://dmitry-tv.ddns.net/hls/CH_BOBER.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="sovsek" ,TOP SECRET
+http://dmitry-tv.ddns.net/hls/CH_TOP_SECRET.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="voprosy-i-otvety" ,ВОПРОСЫ И ОТВЕТЫ
+http://dmitry-tv.ddns.net/hls/CH_VOPROSYIOTVETY.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="psixologia-21" ,ПСИХОЛОГИЯ 21
+http://dmitry-tv.ddns.net/hls/CH_PSIHOLOGIA21.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="domashnie-zhivotnye" ,ДОМАШНИЕ ЖИВОТНЫЕ
+http://dmitry-tv.ddns.net/hls/CH_DOMASHNIEZHIVOTNYE.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="usadba" ,УСАДЬБА
+http://dmitry-tv.ddns.net/hls/CH_USADBA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="zdorovoe-tv" ,ЗДОРОВОЕ ТВ
+http://dmitry-tv.ddns.net/hls/CH_ZDOROVOETV.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Муз Союз
+http://dmitry-tv.ddns.net/hls/CH_MUZSOYUZ.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Kronehit
+http://dmitry-tv.ddns.net/hls/CH_KRONEHIT.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Kronehit HD
+http://dmitry-tv.ddns.net/hls/CH_KRONEHITHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="shanson-tv" ,Шансон ТВ
+http://dmitry-tv.ddns.net/hls/CH_SHANSONTV.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="tnt-music" ,ТНТ MUSIC HD
+http://dmitry-tv.ddns.net/hls/CH_TNTMUSICHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,RUTV
+http://dmitry-tv.ddns.net/hls/CH_RUTV.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="muzyka-pervogo" ,МУЗЫКА ПЕРВОГО
+http://dmitry-tv.ddns.net/hls/CH_MUZYKA_PERVOGO.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="ftv-hd" ,FTV HD
+http://dmitry-tv.ddns.net/hls/CH_FTVHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,MYDAYTV
+http://dmitry-tv.ddns.net/hls/CH_MYDAYTV.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Retro TV HD
+http://dmitry-tv.ddns.net/hls/CH_RETROTVHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Europa Plus
+http://dmitry-tv.ddns.net/hls/CH_EUROPA_PLUS.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="zhara" ,Жара
+http://dmitry-tv.ddns.net/hls/CH_ZHARA.m3u8
+#EXTINF:-1  group-title="Беларусь" ,CGTN ENGLISH
+http://dmitry-tv.ddns.net/hls/CH_CGTN_ENGLISH.m3u8
+#EXTINF:-1  group-title="Беларусь" ,CGTN ENGLISH HD720
+http://dmitry-tv.ddns.net/hls/CH_CGTN_ENGLISHHD720.m3u8
+#EXTINF:-1  group-title="Беларусь" ,CGTN РУССКИЙ HD
+http://dmitry-tv.ddns.net/hls/CH_CGTN_RUSSKIYHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,CGTN DOCUMENTARY HD720
+http://dmitry-tv.ddns.net/hls/CH_CGTN_DOCUMENTARYHD720.m3u8
+#EXTINF:-1  group-title="Беларусь" ,МИР 24 HD
+http://dmitry-tv.ddns.net/hls/CH_MIR24HD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="rbk" ,РБК
+http://dmitry-tv.ddns.net/hls/CH_RBK.m3u8
+#EXTINF:-1  group-title="Беларусь" ,РБК HD
+http://dmitry-tv.ddns.net/hls/CH_RBKHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="krasnaya-linia" ,Красная линия
+http://dmitry-tv.ddns.net/hls/CH_REDLINE.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="vsio-tv" ,Всё ТВ
+http://dmitry-tv.ddns.net/hls/zabava/CH_VSETV.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Всё ТВ HD
+http://dmitry-tv.ddns.net/hls/zabava/CH_VSETVHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="rzhd-tv" ,РЖД ТВ
+http://dmitry-tv.ddns.net/hls/CH_RZHDTV.m3u8
+#EXTINF:-1  group-title="Беларусь" ,РЖД ТВ HD
+http://dmitry-tv.ddns.net/hls/CH_RZHDTVHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Соловьев Live
+http://dmitry-tv.ddns.net/hls/smotrim/CH_SOLOVIEVLIVE.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Соловьев Live HD
+http://dmitry-tv.ddns.net/hls/smotrim/CH_SOLOVIEVLIVEHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="bolshaya-azia" ,Большая Азия
+http://dmitry-tv.ddns.net/hls/CH_BAZIYA.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Большая Азия HD720
+http://dmitry-tv.ddns.net/hls/CH_BAZIYAHD720.m3u8
+#EXTINF:-1  group-title="Беларусь" ,ВМЕСТЕ РФ HD
+http://dmitry-tv.ddns.net/hls/CH_VMESTERFHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="russia-today" ,RT HD
+http://dmitry-tv.ddns.net/hls/CH_RTHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="rtd-ru" ,RTД HD
+http://dmitry-tv.ddns.net/hls/CH_RTDHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Arirang Korea
+http://dmitry-tv.ddns.net/hls/CH_ARIRANG_KOREA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="izvestia" ,Известия
+http://dmitry-tv.ddns.net/hls/CH_I3BECTIYA.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="izvestia" ,Известия HD
+http://dmitry-tv.ddns.net/hls/CH_I3BECTIYAHD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,EURONEWS [RU]
+http://dmitry-tv.ddns.net/hls/CH_EURONEWS_RU.m3u8
+#EXTINF:-1  group-title="Беларусь" ,BBC-World
+http://dmitry-tv.ddns.net/hls/CH_BBC_WORLD.m3u8
+#EXTINF:-1  group-title="Беларусь" ,Bloomberg (ENGLISH)
+http://dmitry-tv.ddns.net/hls/CH_BLOOMBERG_ENGLISH.m3u8
+#EXTINF:-1  group-title="Беларусь" ,CNN [ENGLISH]
+http://dmitry-tv.ddns.net/hls/CH_CNN_ENGLISH.m3u8
+#EXTINF:-1  group-title="Беларусь" ,DW [ENGLISH]
+http://dmitry-tv.ddns.net/hls/CH_DW_ENGLISH.m3u8
+#EXTINF:-1  group-title="Беларусь" ,NHK World Japan HD [ENGLISH]
+http://dmitry-tv.ddns.net/hls/CH_NHK_WORLD_JAPANHD_ENGLISH.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="360-news" ,360° НОВОСТИ
+http://dmitry-tv.ddns.net/hls/smotrim/CH_360TV_NEWS.m3u8
+#EXTINF:-1  group-title="Беларусь" ,360° НОВОСТИ HD
+http://dmitry-tv.ddns.net/hls/smotrim/CH_360TV_NEWSHD.m3u8
+#EXTINF:-1  group-title="Беларусь"  tvg-id="fashion-tv" ,Fashion TV
+http://dmitry-tv.ddns.net/hls/CH_FASHIONTV.m3u8
 #EXTINF:-1  group-title="Казахстан"  tvg-id="tnt4" ,ТНТ4
 https://fs.uplink.kz/tnt4/mono.m3u8?token=onlinetv2
 #EXTINF:-1  group-title="Казахстан"  tvg-id="rossia-24" ,Россия 24
@@ -6701,400 +6653,6 @@ https://stream8.cinerama.uz/1494/tracks-v1a1/mono.m3u8
 https://stream8.cinerama.uz/1495/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Узбекистан"   audio-track="rus",Makon TV
 https://stream8.cinerama.uz/1497/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Узбекистан" ,Добавленный канал
-http://
 #EXTINF:-1  group-title="Узбекистан"   audio-track="rus",S Cinema
 https://stream8.cinerama.uz/1498/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="sts"   tvg-rec="7" timeshift="7",СТС
-http://stream.mcquack.net/138/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="sts-love"   tvg-rec="7" timeshift="7",СТС Love
-http://stream.mcquack.net/183/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="domashny"   tvg-rec="7" timeshift="7",Домашний
-http://stream.mcquack.net/227/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="telekafe"   tvg-rec="7" timeshift="7",Телекафе
-http://stream.mcquack.net/314/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="discovery-channel"   tvg-rec="7" timeshift="7",Discovery
-http://stream.mcquack.net/177/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="id-xtra-ru"   tvg-rec="7" timeshift="7",Investigation Discovery
-http://stream.mcquack.net/205/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="national-geographic"   tvg-rec="7" timeshift="7",National Geographic
-http://stream.mcquack.net/116/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="tlc"   tvg-rec="7" timeshift="7",TLC
-http://stream.mcquack.net/168/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="animal-planet-eu"   tvg-rec="7" timeshift="7",Animal Planet
-http://stream.mcquack.net/114/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="glazami-turista"   tvg-rec="7" timeshift="7",Глазами Туриста
-http://stream.mcquack.net/304/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="zhivi-aktivno"   tvg-rec="7" timeshift="7",Живи Активно
-http://stream.mcquack.net/132/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="nauka-20"   tvg-rec="7" timeshift="7",Наука 2.0
-http://stream.mcquack.net/125/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kultura"   tvg-rec="7" timeshift="7",Культура
-http://stream.mcquack.net/229/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="v-mire-zhivotnyx-hd"   tvg-rec="7" timeshift="7",В мире животных
-http://stream.mcquack.net/241/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="mama"   tvg-rec="7" timeshift="7",Мама
-http://stream.mcquack.net/79/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="doktor"   tvg-rec="7" timeshift="7",Доктор
-http://stream.mcquack.net/80/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="da-vinci"   tvg-rec="7" timeshift="7",Da Vinci
-http://stream.mcquack.net/238/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="viasat-explore"   tvg-rec="7" timeshift="7",Viju Explore
-http://stream.mcquack.net/239/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="viasat-nature-history-hd"   tvg-rec="7" timeshift="7",Viju+ Planet
-http://stream.mcquack.net/240/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="viasat-history"   tvg-rec="7" timeshift="7",Viju History
-http://stream.mcquack.net/101/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="soltv"   tvg-rec="7" timeshift="7",Соль ТВ
-http://stream.mcquack.net/398/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Чемодан ТВ
-http://stream.mcquack.net/399/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="moya-planeta"   tvg-rec="7" timeshift="7",Моя планета
-http://stream.mcquack.net/124/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="rtg-tv"   tvg-rec="7" timeshift="7",RTG
-http://stream.mcquack.net/164/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="travel-channel"   tvg-rec="7" timeshift="7",Travel channel
-http://stream.mcquack.net/231/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="travel-adventure"   tvg-rec="7" timeshift="7",Travel+Adventure
-http://stream.mcquack.net/206/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="oxota-i-rybalka"   tvg-rec="7" timeshift="7",Охота и рыбалка
-http://stream.mcquack.net/155/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="oxotnik-i-rybolov"   tvg-rec="7" timeshift="7",Охотник и рыболов
-http://stream.mcquack.net/194/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="dialogi-o-rybalke"   tvg-rec="7" timeshift="7",Диалоги о рыбалке
-http://stream.mcquack.net/264/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="dikaya-oxota-hd"   tvg-rec="7" timeshift="7",Дикая Охота
-http://stream.mcquack.net/274/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="dikaya-rybalka-hd"   tvg-rec="7" timeshift="7",Дикая Рыбалка
-http://stream.mcquack.net/275/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Explorers
-http://stream.mcquack.net/450/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Travel XP
-http://stream.mcquack.net/451/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="ostwest24"   tvg-rec="7" timeshift="7",OstWest24
-http://stream.mcquack.net/455/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="continent-e"   tvg-rec="7" timeshift="7",Continent E
-http://stream.mcquack.net/449/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="usadba"   tvg-rec="7" timeshift="7",Усадьба
-http://stream.mcquack.net/211/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="zhivaya-priroda"   tvg-rec="7" timeshift="7",Живая природа
-http://stream.mcquack.net/225/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="zhivaya-planeta"   tvg-rec="7" timeshift="7",Живая планета
-http://stream.mcquack.net/83/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kuxnia-tv"   tvg-rec="7" timeshift="7",Кухня ТВ
-http://stream.mcquack.net/179/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Food Time
-http://stream.mcquack.net/216/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="food-network"   tvg-rec="7" timeshift="7",Food Network
-http://stream.mcquack.net/298/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="avto24"   tvg-rec="7" timeshift="7",Авто24
-http://stream.mcquack.net/78/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="morskoy"   tvg-rec="7" timeshift="7",Моя стихия
-http://stream.mcquack.net/141/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="tochka-tv"   tvg-rec="7" timeshift="7",Точка
-http://stream.mcquack.net/161/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Insight TV
-http://stream.mcquack.net/361/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Нано ТВ
-http://stream.mcquack.net/419/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kinokomedia"   tvg-rec="7" timeshift="7",Кинокомедия
-http://stream.mcquack.net/265/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kinosemiya"   tvg-rec="7" timeshift="7",Киносемья
-http://stream.mcquack.net/170/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kinosvidanie"   tvg-rec="7" timeshift="7",Киносвидание
-http://stream.mcquack.net/171/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kinoxit"   tvg-rec="7" timeshift="7",Кинохит
-http://stream.mcquack.net/126/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kinomiks"   tvg-rec="7" timeshift="7",Киномикс
-http://stream.mcquack.net/133/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="rodnoe-kino"   tvg-rec="7" timeshift="7",Родное кино
-http://stream.mcquack.net/242/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="indiyskoe-kino"   tvg-rec="7" timeshift="7",Индийское кино
-http://stream.mcquack.net/104/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="muzhskoe-kino"   tvg-rec="7" timeshift="7",Мужское кино
-http://stream.mcquack.net/107/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kinouzhas"   tvg-rec="7" timeshift="7",Киноужас
-http://stream.mcquack.net/278/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Viju TV 1000
-http://stream.mcquack.net/110/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Viju TV 1000 Action
-http://stream.mcquack.net/100/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="vip-premiere"   tvg-rec="7" timeshift="7",Viju+ Premiere
-http://stream.mcquack.net/202/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="vip-megahit"   tvg-rec="7" timeshift="7",Viju+ Megahit
-http://stream.mcquack.net/200/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="vip-comedy"   tvg-rec="7" timeshift="7",Viju+ Comedy
-http://stream.mcquack.net/201/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="vip-serial"   tvg-rec="7" timeshift="7",Viju+ Serial
-http://stream.mcquack.net/311/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="komedijnoe"   tvg-rec="7" timeshift="7",Комедийное
-http://stream.mcquack.net/74/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="amedia-premium"   tvg-rec="7" timeshift="7",Amedia Premium
-http://stream.mcquack.net/151/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="amedia1"   tvg-rec="7" timeshift="7",Amedia 1
-http://stream.mcquack.net/117/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="amedia-hit"   tvg-rec="7" timeshift="7",Amedia Hit
-http://stream.mcquack.net/162/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="roman"   tvg-rec="7" timeshift="7",Роман
-http://stream.mcquack.net/266/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Бестселлер
-http://stream.mcquack.net/208/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Детектив
-http://stream.mcquack.net/204/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="russkaya-komedia"   tvg-rec="7" timeshift="7",Комедия
-http://stream.mcquack.net/68/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kinokazka"   tvg-rec="7" timeshift="7",KinoKazka
-http://stream.mcquack.net/167/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",black
-http://stream.mcquack.net/263/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="vremia"   tvg-rec="7" timeshift="7",Время
-http://stream.mcquack.net/237/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",red
-http://stream.mcquack.net/69/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",sci-fi
-http://stream.mcquack.net/180/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="nashesd"   tvg-rec="7" timeshift="7",Наше
-http://stream.mcquack.net/217/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="nash-kinoroman"   tvg-rec="7" timeshift="7",Душевное
-http://stream.mcquack.net/213/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kino-tv"   tvg-rec="7" timeshift="7",КиноТВ
-http://stream.mcquack.net/221/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kinopokaz"   tvg-rec="7" timeshift="7",Кинопоказ
-http://stream.mcquack.net/64/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="nst"   tvg-rec="7" timeshift="7",НСТ
-http://stream.mcquack.net/207/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="evrokino"   tvg-rec="7" timeshift="7",Еврокино
-http://stream.mcquack.net/385/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="fox"   tvg-rec="7" timeshift="7",Fox
-http://stream.mcquack.net/182/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="foxlife"   tvg-rec="7" timeshift="7",Fox Life
-http://stream.mcquack.net/129/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="tvxxi"   tvg-rec="7" timeshift="7",ТВ XXI
-http://stream.mcquack.net/152/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="domkino"   tvg-rec="7" timeshift="7",Дом Кино
-http://stream.mcquack.net/236/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="domkino-premium"   tvg-rec="7" timeshift="7",Дом Кино Премиум
-http://stream.mcquack.net/108/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="hollywood"   tvg-rec="7" timeshift="7",Hollywood
-http://stream.mcquack.net/268/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",24Техно
-http://stream.mcquack.net/209/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kino-1"   tvg-rec="7" timeshift="7",Kino 1
-http://stream.mcquack.net/395/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kino-1-hd"   tvg-rec="7" timeshift="7",Kino 2
-http://stream.mcquack.net/465/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="shokiruyushchee-hd"   tvg-rec="7" timeshift="7",Шокирующее
-http://stream.mcquack.net/75/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="khit"   tvg-rec="7" timeshift="7",Хит
-http://stream.mcquack.net/363/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",BCU
-http://stream.mcquack.net/488/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="mosfilm"   tvg-rec="7" timeshift="7",Мосфильм. Золотая коллекция
-http://stream.mcquack.net/369/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="premialnoe"   tvg-rec="7" timeshift="7",Премиальное
-http://stream.mcquack.net/421/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="retro-tv"   tvg-rec="7" timeshift="7",Ретро
-http://stream.mcquack.net/191/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="fanhd"   tvg-rec="7" timeshift="7",Fan
-http://stream.mcquack.net/420/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kinoliving"   tvg-rec="7" timeshift="7",Kinoliving
-http://stream.mcquack.net/445/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kinowood"   tvg-rec="7" timeshift="7",Kinowood
-http://stream.mcquack.net/446/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kinosweet"   tvg-rec="7" timeshift="7",Kinosweet
-http://stream.mcquack.net/447/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Наше любимое кино
-http://stream.mcquack.net/456/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="dorama"   tvg-rec="7" timeshift="7",Дорама
-http://stream.mcquack.net/412/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="eurosport1"   tvg-rec="7" timeshift="7",Eurosport 1
-http://stream.mcquack.net/176/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="eurosport2"   tvg-rec="7" timeshift="7",Eurosport 2
-http://stream.mcquack.net/192/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="match-football1"   tvg-rec="7" timeshift="7",Матч! Футбол 1
-http://stream.mcquack.net/130/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="match-football2"   tvg-rec="7" timeshift="7",Матч! Футбол 2
-http://stream.mcquack.net/142/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="match-football3"   tvg-rec="7" timeshift="7",Матч! Футбол 3
-http://stream.mcquack.net/185/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="match-igra"   tvg-rec="7" timeshift="7",Матч! Игра
-http://stream.mcquack.net/188/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="match-nash-sport"   tvg-rec="7" timeshift="7",Матч! СТРАНА
-http://stream.mcquack.net/143/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="match-arena"   tvg-rec="7" timeshift="7",Матч! Арена
-http://stream.mcquack.net/163/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="match-tv"   tvg-rec="7" timeshift="7",Матч ТВ
-http://stream.mcquack.net/169/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="match-boets"   tvg-rec="7" timeshift="7",Матч! Боец
-http://stream.mcquack.net/112/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="match-premier"   tvg-rec="7" timeshift="7",Матч Премьер
-http://stream.mcquack.net/193/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="setanta-sports"   tvg-rec="7" timeshift="7",Setanta Sports 1
-http://stream.mcquack.net/234/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="setanta-sports-plus"   tvg-rec="7" timeshift="7",Setanta Sports 2
-http://stream.mcquack.net/235/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="setanta-sports-plus"   tvg-rec="7" timeshift="7",Setanta Sports+
-http://stream.mcquack.net/390/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="sport1-baltic"   tvg-rec="7" timeshift="7",Sport 1 Baltic
-http://stream.mcquack.net/461/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="sport1-lt"   tvg-rec="7" timeshift="7",Sport 1
-http://stream.mcquack.net/391/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Sport 2
-http://stream.mcquack.net/392/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Sport 3
-http://stream.mcquack.net/393/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Sport 4
-http://stream.mcquack.net/394/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="sport5"   tvg-rec="7" timeshift="7",Sport 5
-http://stream.mcquack.net/212/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Trace Sports
-http://stream.mcquack.net/256/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",DiVi Sport
-http://stream.mcquack.net/457/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",KHL ТВ
-http://stream.mcquack.net/166/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kxl-hd"   tvg-rec="7" timeshift="7",KHL Prime
-http://stream.mcquack.net/178/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="viasat-sport"   tvg-rec="7" timeshift="7",Viju+ Sport
-http://stream.mcquack.net/333/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="box-tv"   tvg-rec="7" timeshift="7",Бокс ТВ
-http://stream.mcquack.net/154/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="belarus5"   tvg-rec="7" timeshift="7",Беларусь 5
-http://stream.mcquack.net/33/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="extreme-sports"   tvg-rec="7" timeshift="7",Extreme Sports
-http://stream.mcquack.net/148/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",UDAR
-http://stream.mcquack.net/279/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="kazsport"   tvg-rec="7" timeshift="7",Qazsport
-http://stream.mcquack.net/72/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="equalympic"   tvg-rec="7" timeshift="7",Equalympic
-http://stream.mcquack.net/485/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="nickelodeon-ru"   tvg-rec="7" timeshift="7",Nickelodeon
-http://stream.mcquack.net/443/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="nick-jr"   tvg-rec="7" timeshift="7",Nick Jr
-http://stream.mcquack.net/220/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="solnce"   tvg-rec="7" timeshift="7",Солнце
-http://stream.mcquack.net/118/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="tiji"   tvg-rec="7" timeshift="7",TiJi
-http://stream.mcquack.net/111/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="mult"   tvg-rec="7" timeshift="7",Мульт
-http://stream.mcquack.net/232/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="multimuzyka"   tvg-rec="7" timeshift="7",Мульт и музыка
-http://stream.mcquack.net/82/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="jimjam"   tvg-rec="7" timeshift="7",JimJam
-http://stream.mcquack.net/150/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Канал О!
-http://stream.mcquack.net/60/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="ginger-hd"   tvg-rec="7" timeshift="7",Капитан Фантастика
-http://stream.mcquack.net/144/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="karusel"   tvg-rec="7" timeshift="7",Карусель
-http://stream.mcquack.net/120/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="sts-kids-hd"   tvg-rec="7" timeshift="7",СТС Kids
-http://stream.mcquack.net/197/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="gulli-girl"   tvg-rec="7" timeshift="7",Gulli Girl
-http://stream.mcquack.net/305/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="ani"   tvg-rec="7" timeshift="7",Ani
-http://stream.mcquack.net/306/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="c-music-tv"   tvg-rec="7" timeshift="7",Stingray CMusic
-http://stream.mcquack.net/312/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bridge-hd"   tvg-rec="7" timeshift="7",Bridge deluxe
-http://stream.mcquack.net/92/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bridge-tv-classic"   tvg-rec="7" timeshift="7",Bridge classic
-http://stream.mcquack.net/272/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="bridge-tv"   tvg-rec="7" timeshift="7",Bridge
-http://stream.mcquack.net/318/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Bridge хит
-http://stream.mcquack.net/320/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="europa-plus-tv"   tvg-rec="7" timeshift="7",Europa Plus TV
-http://stream.mcquack.net/184/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="muzyka-pervogo"   tvg-rec="7" timeshift="7",Музыка Первого
-http://stream.mcquack.net/153/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="muztv"   tvg-rec="7" timeshift="7",Муз ТВ
-http://stream.mcquack.net/86/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="zhara"   tvg-rec="7" timeshift="7",Жара
-http://stream.mcquack.net/386/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",RU TV
-http://stream.mcquack.net/109/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Mezzo Live
-http://stream.mcquack.net/276/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Ля-минор ТВ
-http://stream.mcquack.net/303/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="tnt-music"   tvg-rec="7" timeshift="7",ТНТ music
-http://stream.mcquack.net/317/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="gags-network"   parent-code="1234"tvg-rec="7" timeshift="7",Gags Network
-http://stream.mcquack.net/458/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Jurnal TV (Молдова)
-http://stream.mcquack.net/277/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Channel 11 (Израиль)
-http://stream.mcquack.net/293/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Channel 12 (Израиль)
-http://stream.mcquack.net/294/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Channel 13 (Израиль)
-http://stream.mcquack.net/295/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Channel 14 (Израиль)
-http://stream.mcquack.net/454/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Zoom (Израиль)
-http://stream.mcquack.net/377/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",KAN23 (Израиль)
-http://stream.mcquack.net/378/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",HOT Zone (Израиль)
-http://stream.mcquack.net/379/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",HOT HBO (Израиль)
-http://stream.mcquack.net/381/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",5Sport (Израиль)
-http://stream.mcquack.net/41/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Channel 24 (Израиль)
-http://stream.mcquack.net/42/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",VIVA Premium (Израиль)
-http://stream.mcquack.net/43/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",i24 (Израиль)
-http://stream.mcquack.net/45/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Yam Tichoni (Израиль)
-http://stream.mcquack.net/46/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Knesset Channel (Израиль)
-http://stream.mcquack.net/48/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="7kanal-kz"   tvg-rec="7" timeshift="7",7 канал (Казахстан)
-http://stream.mcquack.net/27/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="31-kanal-kz"   tvg-rec="7" timeshift="7",31 Канал (Казахстан)
-http://stream.mcquack.net/388/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Qazaqstan (Казахстан)
-http://stream.mcquack.net/71/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Астана ТВ (Казахстан)
-http://stream.mcquack.net/28/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",КТК (Казахстан)
-http://stream.mcquack.net/26/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",НТК (Казахстан)
-http://stream.mcquack.net/389/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Armenia 1 TV (Армения)
-http://stream.mcquack.net/38/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Armenia TV (Армения)
-http://stream.mcquack.net/175/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Shant (Армения)
-http://stream.mcquack.net/37/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="atv-armenia"   tvg-rec="7" timeshift="7",ATV (Армения)
-http://stream.mcquack.net/36/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Kentron (Армения)
-http://stream.mcquack.net/39/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Armenia Premium 1
-http://stream.mcquack.net/123/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",LTV1 (Латвия)
-http://stream.mcquack.net/34/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",LNK (Литва)
-http://stream.mcquack.net/30/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",BTV (Литва)
-http://stream.mcquack.net/35/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",LRT (Литва)
-http://stream.mcquack.net/31/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",LRT Plius (Литва)
-http://stream.mcquack.net/353/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="tv8-lt"   tvg-rec="7" timeshift="7",TV8 (Литва)
-http://stream.mcquack.net/374/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="tv3-lt"   tvg-rec="7" timeshift="7",TV3 (Литва)
-http://stream.mcquack.net/29/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",Balticum (Литва)
-http://stream.mcquack.net/376/index.m3u8
-#EXTINF:-1  group-title="Тестовые"  tvg-id="tv6-lt"   tvg-rec="7" timeshift="7",TV6 (Литва)
-http://stream.mcquack.net/375/index.m3u8
-#EXTINF:-1  group-title="Тестовые"   tvg-rec="7" timeshift="7",One TV (Молдова)
-http://stream.mcquack.net/335/index.m3u8
 #EXT-X-ENDLIST
