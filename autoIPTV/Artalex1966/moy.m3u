@@ -197,11 +197,11 @@ http://ch01.plinkspile.cc/20750/index.m3u8?token=XnuYQbT9Ly8nDX
 #EXTGRP: кино
 http://ch01.plinkspile.cc/20849/index.m3u8?token=XnuYQbT9Ly8nDX
 
-#EXTINF:-1,IPTVPLAY ПАМЯТЬ HD
+#EXTINF:-1 tvg-logo="http://i124.fastpic.org/big/2025/0331/3d/26621b89b1f6365733d3b5021b259f3d.png",IPTVPLAY ПАМЯТЬ HD
 #EXTGRP: кино
 https://social.tvp.pp.ru/public-playlist/q3sndMn4jxOpMXOiAx_OauuobFGwrYWiWO9SGtLt7nI/3915.m3u8
 
-#EXTINF:-1,IPTVPLAY МультСказки HD
+#EXTINF:-1tvg-logo="http://i124.fastpic.org/big/2025/0331/d2/e5f1757464664ac96703393b95dff9d2.png",IPTVPLAY МультСказки HD
 #EXTGRP: Детский
 https://social.tvp.pp.ru/public-playlist/q3sndMn4jxOpMXOiAx_OauuobFGwrYWiWO9SGtLt7nI/3920.m3u8
 
@@ -759,7 +759,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8
 #EXTINF:-1,В гостях у сказки
 #EXTGRP: Детский
 http://185.46.16.239:8000/V_gostyakh_u_skazki
-#EXTINF:-1,Чип и Дейл
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Artalex1966/moy/refs/heads/master/icon/chipdale.jpg",Чип и Дейл
 #EXTGRP: Детский
 http://194.26.229.213/chip-n-dale-rescue-rangers/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Artalex1966/moy/refs/heads/master/icon/utinue.png",Утиные истории
@@ -788,10 +788,10 @@ http://cdntv.online/high/9bpaycj4dk/897.m3u8
 #EXTINF:-1,МУЛЬТИМЕЙШН
 #EXTGRP: Детский
 https://bl.rutube.ru/livestream/bc2933d28daf33f5a68257ebc72787cd/index.m3u8?s=o3CrbphtgNLu6Wqwfp9jOg&e=2088683165&scheme=https
-#EXTINF:-1,Щенячий патруль
+#EXTINF:-1 tvg-logo="https://iptvx.one/picons/schenachiy-patrul-ua.png",Щенячий патруль
 #EXTGRP: Детский
 http://103.163.132.53/iptv/94LBT2DXEHGXHL/30167/index.m3u8
-#EXTINF:-1,Щенячий патруль
+#EXTINF:-1 tvg-logo="https://iptvx.one/picons/schenachiy-patrul-ua.png",Щенячий патруль
 #EXTGRP: Детский
 http://103.163.132.53/iptv/4N4BPXK9GTU8SE/30167/index.m3u8
 #EXTINF:-1,Чудеса на виражах
